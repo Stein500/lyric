@@ -257,6 +257,14 @@ def get_audio():
 def download_assets():
     return send_from_directory(LYRIC_DIR, "daiskypro_im_not_dying.zip", as_attachment=True)
 
+@app.route('/download-new-assets')
+def download_new_assets():
+    return send_from_directory(LYRIC_DIR, "daiskypro_fancy_new_assets.zip", as_attachment=True)
+
+@app.route('/download-hq-assets')
+def download_hq_assets():
+    return send_from_directory(LYRIC_DIR, "daiskypro_fancy_HQ_assets.zip", as_attachment=True)
+
 @app.route('/save-sync', methods=['POST'])
 def save_sync():
     data = request.json

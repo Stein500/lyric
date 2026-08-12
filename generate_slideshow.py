@@ -31,7 +31,7 @@ def generate_scene_frame(img, frame_idx, frames_per_scene, zooms):
     return apply_zoom_and_shake(img, zoom, shake_x, shake_y)
 
 def render_slideshow(image_paths, output_video_path, audio_path, is_vertical=True):
-    width, height = (720, 1280) if is_vertical else (1280, 720)
+    width, height = (1080, 1920) if is_vertical else (1920, 1080)
     fps = 25
     scene_dur = 4.0
     trans_dur = 0.8
@@ -101,7 +101,7 @@ def render_slideshow(image_paths, output_video_path, audio_path, is_vertical=Tru
         "-i", temp_avi,
         "-ss", str(ss_audio), "-t", str(duration_audio), "-i", audio_path,
         "-c:v", "libx264", "-pix_fmt", "yuv420p",
-        "-preset", "ultrafast", "-crf", "28",
+        "-preset", "ultrafast", "-crf", "22",
         "-c:a", "aac", "-b:a", "192k",
         output_video_path
     ]
