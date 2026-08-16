@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-🎵 Daïsky — « I'm Not Afraid » — MP3 Tagger v5
+🎵 Daïsky — « I'm Not Afraid » — MP3 Tagger v6
+- Adds phone + email contact info as TXXX tags.
 - WOAS: Linktree Daïsky Production
 - TXXX:comment: "Made by Daïsky production"
 - GEOB crypto signature blob: slogan "Wolof TechStein beat wê"
@@ -25,6 +26,10 @@ PRODUCER = "Wolof TechStein beat wê"
 LINKTREE = "https://linktr.ee/daiskypro"
 DAISKY_PROD_COMMENT = "Made by Daïsky production"
 CRYPTO_SIGNATURE_SLOGAN = "Wolof TechStein beat wê"
+
+# Contact info (user-provided)
+ARTIST_PHONE = "2290149114951"
+ARTIST_EMAIL = "daiskyproduction@gmail.com"
 
 LYRICS = """🔥 NOUVEAU SON 🔥
 Daïsky
@@ -127,7 +132,6 @@ def tag_mp3():
     audio.tags.add(TXXX(encoding=3, desc="comment", text=DAISKY_PROD_COMMENT))
 
     # Crypto signature (GEOB) — slogan as proof blob
-    # GEOB is General Encapsulated Object (binary) — looks like a crypto-style signature
     audio.tags.add(GEOB(
         encoding=0,
         mime="text/plain",
@@ -141,6 +145,11 @@ def tag_mp3():
     audio.tags.add(TXXX(encoding=3, desc="Tag", text=f"{PRODUCER} !"))
     audio.tags.add(TXXX(encoding=3, desc="Contact", text=f"@{PRODUCER.replace(' ', '')}"))
     audio.tags.add(TXXX(encoding=3, desc="Production", text=f"{PRODUCER} Production"))
+
+    # Artist contact info
+    audio.tags.add(TXXX(encoding=3, desc="Artist Phone", text=ARTIST_PHONE))
+    audio.tags.add(TXXX(encoding=3, desc="Artist Email", text=ARTIST_EMAIL))
+    audio.tags.add(TXXX(encoding=3, desc="Booking Contact", text=f"WhatsApp: {ARTIST_PHONE} | Email: {ARTIST_EMAIL}"))
 
     # Lyrics (USLT)
     audio.tags.add(USLT(encoding=3, lang="eng", desc="", text=LYRICS))
@@ -167,6 +176,10 @@ def tag_mp3():
     print(f"     - Tag       : {PRODUCER} !")
     print(f"     - Contact   : @{PRODUCER.replace(' ', '')}")
     print(f"     - Production: {PRODUCER} Production")
+    print(f"   Artist Contact :")
+    print(f"     - Phone     : {ARTIST_PHONE}")
+    print(f"     - Email     : {ARTIST_EMAIL}")
+    print(f"     - Booking   : WhatsApp: {ARTIST_PHONE} | Email: {ARTIST_EMAIL}")
     print(f"   Cover          : {os.path.basename(COVER_PATH)} ({len(cover_data)} bytes)")
     print(f"   Lyrics         : {len(LYRICS)} characters")
     print(f"   ❌ NO Suno tags preserved")
