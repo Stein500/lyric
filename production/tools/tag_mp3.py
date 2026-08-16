@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 """
-🎵 Daïsky — « I'm Not Afraid » — MP3 Tagger v2
-- Replaces ALL existing ID3 tags with a clean, controlled set.
-- Embeds lyrics (USLT), cover art (APIC), and metadata.
-- Preserves Suno's provenance tags (TXXX:comment, WOAS, GEOB:C2PA) for transparency.
-- Removes any duplicate APIC tags so only OUR cover remains.
+🎵 Daïsky — « I'm Not Afraid » — MP3 Tagger v3
+- Removes ALL Suno provenance tags (WOAS, TXXX:comment, GEOB C2PA).
+- Adds a TechStein producer credit tag.
+- Embeds lyrics (USLT), cover art (APIC), and standard metadata.
 """
 
 import os, sys
 from mutagen.mp3 import MP3
 from mutagen.id3 import (
-    ID3, TIT2, TPE1, TALB, TCON, TDRC, COMM, USLT, APIC,
-    TXXX, WOAS, GEOB,
+    ID3, TIT2, TPE1, TALB, TCON, TDRC, COMM, USLT, APIC, TXXX,
 )
 
 BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -101,46 +99,44 @@ def tag_mp3():
     print(f"🎵 Tagging: {MP3_PATH}")
     audio = MP3(MP3_PATH)
 
-    # Step 1: Preserve Suno provenance info before wiping
-    preserved = {}
-    if audio.tags:
-        for k in list(audio.tags.keys()):
-            if k.startswith("TXXX:comment") or k.startswith("WOAS") or k.startswith("GEOB"):
-                preserved[k] = audio.tags[k]
-                print(f"   ℹ️  Preserved Suno provenance: {k}")
-
-    # Step 2: Remove ALL ID3 tags (clean slate)
+    # Wipe ALL existing ID3 tags (clean slate, NO Suno preservation)
     audio.tags = ID3()
 
-    # Step 3: Add our controlled metadata
+    # Standard metadata
     audio.tags.add(TIT2(encoding=3, text="I'm Not Afraid"))
     audio.tags.add(TPE1(encoding=3, text="Daïsky"))
     audio.tags.add(TALB(encoding=3, text="Single"))
     audio.tags.add(TCON(encoding=3, text="Rap / Hip-Hop"))
     audio.tags.add(TDRC(encoding=3, text="2026"))
     audio.tags.add(COMM(encoding=3, lang="eng", desc="", text="Prod. TechStein — Wolof TechStein beat wê !"))
+
+    # TechStein producer credit (replaces Suno tags)
+    audio.tags.add(TXXX(encoding=3, desc="Producer", text="TechStein"))
+    audio.tags.add(TXXX(encoding=3, desc="Producer Tag", text="Wolof TechStein beat wê !"))
+    audio.tags.add(TXXX(encoding=3, desc="Producer Contact", text="@TechStein"))
+    audio.tags.add(TXXX(encoding=3, desc="Production", text="TechStein Production — Wolof TechStein beat"))
+
+    # Lyrics (USLT)
     audio.tags.add(USLT(encoding=3, lang="eng", desc="", text=LYRICS))
 
-    # Step 4: Cover (only ONE APIC)
+    # Cover (only ONE APIC)
     with open(COVER_PATH, "rb") as f:
         cover_data = f.read()
     audio.tags.add(APIC(encoding=3, mime="image/jpeg", type=3, desc="Cover — Daïsky Production", data=cover_data))
 
-    # Step 5: Restore Suno provenance
-    for k, v in preserved.items():
-        audio.tags[k] = v
-
     audio.save()
     print()
     print(f"✅ MP3 tagged successfully!")
-    print(f"   Title    : I'm Not Afraid")
-    print(f"   Artist   : Daïsky")
-    print(f"   Album    : Single")
-    print(f"   Genre    : Rap / Hip-Hop")
-    print(f"   Year     : 2026")
-    print(f"   Cover    : {os.path.basename(COVER_PATH)} ({len(cover_data)} bytes embedded)")
-    print(f"   Lyrics   : {len(LYRICS)} characters")
-    print(f"   Preserved: {len(preserved)} Suno provenance tag(s)")
+    print(f"   Title          : I'm Not Afraid")
+    print(f"   Artist         : Daïsky")
+    print(f"   Album          : Single")
+    print(f"   Genre          : Rap / Hip-Hop")
+    print(f"   Year           : 2026")
+    print(f"   Comment        : Prod. TechStein — Wolof TechStein beat wê !")
+    print(f"   Producer TXXXs : TechStein (Producer + Tag + Contact + Production)")
+    print(f"   Cover          : {os.path.basename(COVER_PATH)} ({len(cover_data)} bytes)")
+    print(f"   Lyrics         : {len(LYRICS)} characters")
+    print(f"   ❌ NO Suno tags preserved")
 
 
 if __name__ == "__main__":
