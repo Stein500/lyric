@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
-🎵 Daïsky — « I'm Not Afraid » — MP3 Tagger v4
-- Removes ALL Suno provenance tags (WOAS, TXXX:comment, GEOB C2PA).
-- Uses "Wolof TechStein beat wê" as the producer signature (not just "TechStein").
+🎵 Daïsky — « I'm Not Afraid » — MP3 Tagger v5
+- WOAS: Linktree Daïsky Production
+- TXXX:comment: "Made by Daïsky production"
+- GEOB crypto signature blob: slogan "Wolof TechStein beat wê"
+- Uses "Wolof TechStein beat wê" as producer signature everywhere else.
 - Embeds lyrics (USLT), cover art (APIC), and standard metadata.
 """
 
 import os, sys
 from mutagen.mp3 import MP3
 from mutagen.id3 import (
-    ID3, TIT2, TPE1, TALB, TCON, TDRC, COMM, USLT, APIC, TXXX,
+    ID3, TIT2, TPE1, TALB, TCON, TDRC, COMM, USLT, APIC, TXXX, WOAS, GEOB,
 )
 
 BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -18,6 +20,11 @@ COVER_PATH = os.path.join(BASE, "production", "images", "cover", "cover_youtube.
 
 # Producer signature — full tagline
 PRODUCER = "Wolof TechStein beat wê"
+
+# Meta as requested by the user
+LINKTREE = "https://linktr.ee/daiskypro"
+DAISKY_PROD_COMMENT = "Made by Daïsky production"
+CRYPTO_SIGNATURE_SLOGAN = "Wolof TechStein beat wê"
 
 LYRICS = """🔥 NOUVEAU SON 🔥
 Daïsky
@@ -113,7 +120,23 @@ def tag_mp3():
     audio.tags.add(TDRC(encoding=3, text="2026"))
     audio.tags.add(COMM(encoding=3, lang="eng", desc="", text=f"Prod. {PRODUCER}"))
 
-    # Producer credits (all using full signature "Wolof TechStein beat wê")
+    # WOAS — Official Audio Source — Linktree Daïsky Production
+    audio.tags.add(WOAS(encoding=3, url=LINKTREE))
+
+    # TXXX:comment — Made by Daïsky production
+    audio.tags.add(TXXX(encoding=3, desc="comment", text=DAISKY_PROD_COMMENT))
+
+    # Crypto signature (GEOB) — slogan as proof blob
+    # GEOB is General Encapsulated Object (binary) — looks like a crypto-style signature
+    audio.tags.add(GEOB(
+        encoding=0,
+        mime="text/plain",
+        filename="signature.txt",
+        desc="Crypto Signature",
+        data=CRYPTO_SIGNATURE_SLOGAN.encode("utf-8"),
+    ))
+
+    # Producer TXXX credits
     audio.tags.add(TXXX(encoding=3, desc="Producer", text=PRODUCER))
     audio.tags.add(TXXX(encoding=3, desc="Tag", text=f"{PRODUCER} !"))
     audio.tags.add(TXXX(encoding=3, desc="Contact", text=f"@{PRODUCER.replace(' ', '')}"))
@@ -135,11 +158,14 @@ def tag_mp3():
     print(f"   Album          : Single")
     print(f"   Genre          : Rap / Hip-Hop")
     print(f"   Year           : 2026")
-    print(f"   Comment        : Prod. {PRODUCER}")
+    print(f"   Comment (COMM) : Prod. {PRODUCER}")
+    print(f"   WOAS           : {LINKTREE}")
+    print(f"   TXXX:comment   : {DAISKY_PROD_COMMENT}")
+    print(f"   GEOB Signature : {CRYPTO_SIGNATURE_SLOGAN!r} (text/plain blob)")
     print(f"   Producer TXXXs :")
-    print(f"     - Producer : {PRODUCER}")
-    print(f"     - Tag      : {PRODUCER} !")
-    print(f"     - Contact  : @{PRODUCER.replace(' ', '')}")
+    print(f"     - Producer  : {PRODUCER}")
+    print(f"     - Tag       : {PRODUCER} !")
+    print(f"     - Contact   : @{PRODUCER.replace(' ', '')}")
     print(f"     - Production: {PRODUCER} Production")
     print(f"   Cover          : {os.path.basename(COVER_PATH)} ({len(cover_data)} bytes)")
     print(f"   Lyrics         : {len(LYRICS)} characters")
