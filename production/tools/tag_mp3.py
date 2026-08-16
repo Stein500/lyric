@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-🎵 Daïsky — « I'm Not Afraid » — MP3 Tagger v3
+🎵 Daïsky — « I'm Not Afraid » — MP3 Tagger v4
 - Removes ALL Suno provenance tags (WOAS, TXXX:comment, GEOB C2PA).
-- Adds a TechStein producer credit tag.
+- Uses "Wolof TechStein beat wê" as the producer signature (not just "TechStein").
 - Embeds lyrics (USLT), cover art (APIC), and standard metadata.
 """
 
@@ -16,10 +16,13 @@ BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 MP3_PATH = os.path.join(BASE, "not afraid.mp3")
 COVER_PATH = os.path.join(BASE, "production", "images", "cover", "cover_youtube.jpg")
 
+# Producer signature — full tagline
+PRODUCER = "Wolof TechStein beat wê"
+
 LYRICS = """🔥 NOUVEAU SON 🔥
 Daïsky
 I'M NOT AFRAID
-[Prod. TechStein]
+[Prod. Wolof TechStein beat wê]
 👆 ABONNE-TOI — LIKE — COMMENTE 👆
 Yeah...
 Je n'ai plus peur...
@@ -56,7 +59,7 @@ Je marche sur l'eau
 J'ai plus peur de me noyer
 (Not afraid to drown)
 I've been down, I've been low
-(J'ai été au fond)
+(J'ai touché le fond)
 But I'm ready, I'm ready to go
 (Mais je suis prêt)
 I've been broken, I've been scarred
@@ -83,9 +86,9 @@ I'm not afraid...
 (Je n'ai plus peur)
 ✧ ✧ ✧
 Daïsky — I'm Not Afraid
-[Prod. TechStein]
+[Prod. Wolof TechStein beat wê]
 🔔 ABONNE-TOI  ❤️ LIKE  💬 COMMENTE
-#ImaNotAfraid #Daïsky #TechStein #MboaZick"""
+#ImaNotAfraid #Daïsky #WolofTechSteinBeat #MboaZick"""
 
 
 def tag_mp3():
@@ -108,13 +111,13 @@ def tag_mp3():
     audio.tags.add(TALB(encoding=3, text="Single"))
     audio.tags.add(TCON(encoding=3, text="Rap / Hip-Hop"))
     audio.tags.add(TDRC(encoding=3, text="2026"))
-    audio.tags.add(COMM(encoding=3, lang="eng", desc="", text="Prod. TechStein — Wolof TechStein beat wê !"))
+    audio.tags.add(COMM(encoding=3, lang="eng", desc="", text=f"Prod. {PRODUCER}"))
 
-    # TechStein producer credit (replaces Suno tags)
-    audio.tags.add(TXXX(encoding=3, desc="Producer", text="TechStein"))
-    audio.tags.add(TXXX(encoding=3, desc="Producer Tag", text="Wolof TechStein beat wê !"))
-    audio.tags.add(TXXX(encoding=3, desc="Producer Contact", text="@TechStein"))
-    audio.tags.add(TXXX(encoding=3, desc="Production", text="TechStein Production — Wolof TechStein beat"))
+    # Producer credits (all using full signature "Wolof TechStein beat wê")
+    audio.tags.add(TXXX(encoding=3, desc="Producer", text=PRODUCER))
+    audio.tags.add(TXXX(encoding=3, desc="Tag", text=f"{PRODUCER} !"))
+    audio.tags.add(TXXX(encoding=3, desc="Contact", text=f"@{PRODUCER.replace(' ', '')}"))
+    audio.tags.add(TXXX(encoding=3, desc="Production", text=f"{PRODUCER} Production"))
 
     # Lyrics (USLT)
     audio.tags.add(USLT(encoding=3, lang="eng", desc="", text=LYRICS))
@@ -132,8 +135,12 @@ def tag_mp3():
     print(f"   Album          : Single")
     print(f"   Genre          : Rap / Hip-Hop")
     print(f"   Year           : 2026")
-    print(f"   Comment        : Prod. TechStein — Wolof TechStein beat wê !")
-    print(f"   Producer TXXXs : TechStein (Producer + Tag + Contact + Production)")
+    print(f"   Comment        : Prod. {PRODUCER}")
+    print(f"   Producer TXXXs :")
+    print(f"     - Producer : {PRODUCER}")
+    print(f"     - Tag      : {PRODUCER} !")
+    print(f"     - Contact  : @{PRODUCER.replace(' ', '')}")
+    print(f"     - Production: {PRODUCER} Production")
     print(f"   Cover          : {os.path.basename(COVER_PATH)} ({len(cover_data)} bytes)")
     print(f"   Lyrics         : {len(LYRICS)} characters")
     print(f"   ❌ NO Suno tags preserved")
