@@ -10,3 +10,7 @@ __pycache__/
 *.tmp
 
 # Personal audio (committed separately as 'not afraid.mp3')
+
+# v3 intermediate render files (too big for GitHub)
+production/v3_partial.mp4
+production/v3_progress.json
