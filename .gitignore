@@ -1,14 +1,12 @@
-# Final kit build directory (deliverable is the zip, not the folder)
+# Build artifacts
 FINAL_KIT/
-
-# Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
 
-# MoviePy temp files
+# MoviePy temp
 *TEMP_MPY*
 
 # FFmpeg temp
 *.tmp
+
+# Personal audio (committed separately as 'not afraid.mp3')
