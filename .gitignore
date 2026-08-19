@@ -1,0 +1,16 @@
+# Build artifacts
+FINAL_KIT/
+__pycache__/
+*.py[cod]
+
+# MoviePy temp
+*TEMP_MPY*
+
+# FFmpeg temp
+*.tmp
+
+# Personal audio (committed separately as 'not afraid.mp3')
+
+# v3 intermediate render files (too big for GitHub)
+production/v3_partial.mp4
+production/v3_progress.json
