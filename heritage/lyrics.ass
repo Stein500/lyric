@@ -1,0 +1,63 @@
+[Script Info]
+Title: Heritage de mes parents - Daisky (lyrics)
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Parole,DejaVu Sans,52,&H00DFEFF5,&H00DFEFF5,&H003DB3F2,&H96000000,1,0,0,0,100,100,0.6,0,1,3.2,1.6,2,80,80,430,1
+Style: Hook,DejaVu Sans,60,&H003DB3F2,&H003DB3F2,&H96000000,&H96000000,1,0,0,0,100,100,1.0,0,1,3.4,1.8,2,80,80,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.80,0:00:04.50,Parole,,0,0,0,,{\fad(140,140)}Les sacrifices de mes parents pour moi…
+Dialogue: 0,0:00:05.00,0:00:08.60,Parole,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê…
+Dialogue: 0,0:00:09.00,0:00:14.00,Parole,,0,0,0,,{\fad(140,140)}They gave it all, every single day
+Dialogue: 0,0:00:14.00,0:00:20.00,Parole,,0,0,0,,{\fad(140,140)}Working through the night, never walking away
+Dialogue: 0,0:00:20.00,0:00:25.00,Parole,,0,0,0,,{\fad(140,140)}I'm standing tall because of their tears
+Dialogue: 0,0:00:25.00,0:00:31.00,Parole,,0,0,0,,{\fad(140,140)}I'm living their dreams, conquering my fears
+Dialogue: 0,0:00:31.50,0:00:36.00,Hook,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê !
+Dialogue: 0,0:00:43.00,0:00:46.00,Parole,,0,0,0,,{\fad(140,140)}J'ai vu mon père rentrer à 2h du matin
+Dialogue: 0,0:00:46.00,0:00:48.00,Parole,,0,0,0,,{\fad(140,140)}Le dos courbé, les mains usées, le regard éteint
+Dialogue: 0,0:00:48.00,0:00:50.80,Parole,,0,0,0,,{\fad(140,140)}J'ai vu ma mère sourire quand le frigo est vide
+Dialogue: 0,0:00:50.80,0:00:53.00,Parole,,0,0,0,,{\fad(140,140)}Elle mettait du sel dans l'eau pour que je croie au liquide
+Dialogue: 0,0:00:53.00,0:00:56.00,Parole,,0,0,0,,{\fad(140,140)}Ils ont vendu leurs rêves pour que je fasse les miens
+Dialogue: 0,0:00:56.00,0:00:59.00,Parole,,0,0,0,,{\fad(140,140)}Ils ont marché sur leurs fiertés, ils ont serré les poings
+Dialogue: 0,0:00:59.00,0:01:01.00,Parole,,0,0,0,,{\fad(140,140)}Pour que j'aie une chance, pour que j'aie un nom
+Dialogue: 0,0:01:01.00,0:01:04.00,Parole,,0,0,0,,{\fad(140,140)}Pour que je puisse dire « je suis fier » sans honte ni raison
+Dialogue: 0,0:01:04.00,0:01:07.00,Parole,,0,0,0,,{\fad(140,140)}I owe them everything, my breath, my soul
+Dialogue: 0,0:01:07.00,0:01:10.00,Parole,,0,0,0,,{\fad(140,140)}They carried me when I lost control
+Dialogue: 0,0:01:10.00,0:01:13.00,Parole,,0,0,0,,{\fad(140,140)}Now I'm running, I'm flying so high
+Dialogue: 0,0:01:13.00,0:01:16.80,Parole,,0,0,0,,{\fad(140,140)}For them, I'll touch the sky
+Dialogue: 0,0:01:16.80,0:01:22.00,Parole,,0,0,0,,{\fad(140,140)}They gave it all, every single day
+Dialogue: 0,0:01:22.00,0:01:28.00,Parole,,0,0,0,,{\fad(140,140)}Working through the night, never walking away
+Dialogue: 0,0:01:28.00,0:01:33.00,Parole,,0,0,0,,{\fad(140,140)}I'm standing tall because of their tears
+Dialogue: 0,0:01:33.00,0:01:37.00,Parole,,0,0,0,,{\fad(140,140)}I'm living their dreams, conquering my fears
+Dialogue: 0,0:01:37.00,0:01:40.00,Hook,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê !
+Dialogue: 0,0:01:40.00,0:01:43.00,Parole,,0,0,0,,{\fad(140,140)}Maman a arrêté ses études pour que je commence
+Dialogue: 0,0:01:43.00,0:01:45.00,Parole,,0,0,0,,{\fad(140,140)}Papa a quitté son pays pour que je me sente chez moi
+Dialogue: 0,0:01:45.00,0:01:48.00,Parole,,0,0,0,,{\fad(140,140)}Ils m'ont donné leur âge, leur jeunesse, leur silence
+Dialogue: 0,0:01:48.00,0:01:50.80,Parole,,0,0,0,,{\fad(140,140)}Juste pour que je grandisse sans porter leurs souffrances
+Dialogue: 0,0:01:50.80,0:01:53.00,Parole,,0,0,0,,{\fad(140,140)}Aujourd'hui je suis debout, je suis leur victoire
+Dialogue: 0,0:01:53.00,0:01:56.00,Parole,,0,0,0,,{\fad(140,140)}Chaque pas que je fais est une page de leur histoire
+Dialogue: 0,0:01:56.00,0:01:59.00,Parole,,0,0,0,,{\fad(140,140)}Je ne les oublierai pas, jamais, jamais
+Dialogue: 0,0:01:59.00,0:02:01.00,Parole,,0,0,0,,{\fad(140,140)}Ils sont mon héritage, ma raison de briller
+Dialogue: 0,0:02:01.00,0:02:04.00,Parole,,0,0,0,,{\fad(140,140)}I owe them everything, my breath, my soul
+Dialogue: 0,0:02:04.00,0:02:06.00,Parole,,0,0,0,,{\fad(140,140)}They carried me when I lost control
+Dialogue: 0,0:02:06.00,0:02:10.00,Parole,,0,0,0,,{\fad(140,140)}Now I'm running, I'm flying so high
+Dialogue: 0,0:02:10.00,0:02:14.00,Parole,,0,0,0,,{\fad(140,140)}For them, I'll touch the sky
+Dialogue: 0,0:02:14.00,0:02:19.00,Parole,,0,0,0,,{\fad(140,140)}They never asked for thanks, never asked for gold
+Dialogue: 0,0:02:19.00,0:02:25.00,Parole,,0,0,0,,{\fad(140,140)}They just wanted to see me grow, to see me bold
+Dialogue: 0,0:02:25.00,0:02:30.00,Parole,,0,0,0,,{\fad(140,140)}Now I'm here, I'm their pride, I'm their light
+Dialogue: 0,0:02:30.00,0:02:35.00,Parole,,0,0,0,,{\fad(140,140)}I'll make it all worth it, I'll shine so bright
+Dialogue: 0,0:02:35.00,0:02:40.00,Parole,,0,0,0,,{\fad(140,140)}They gave it all, every single day
+Dialogue: 0,0:02:40.00,0:02:46.00,Parole,,0,0,0,,{\fad(140,140)}Working through the night, never walking away
+Dialogue: 0,0:02:46.00,0:02:51.00,Parole,,0,0,0,,{\fad(140,140)}I'm standing tall because of their tears
+Dialogue: 0,0:02:51.00,0:02:56.00,Parole,,0,0,0,,{\fad(140,140)}I'm living their dreams, conquering my fears
+Dialogue: 0,0:02:56.00,0:03:05.00,Hook,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê !
+Dialogue: 0,0:03:07.00,0:03:12.00,Parole,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê…
+Dialogue: 0,0:03:13.00,0:03:19.00,Parole,,0,0,0,,{\fad(140,140)}I'm living their dreams…
