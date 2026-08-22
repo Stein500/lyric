@@ -1,0 +1,219 @@
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+[Parsed_subtitles_41 @ 0x24631440] libass API version: 0x1703000
+[Parsed_subtitles_41 @ 0x24631440] libass source: commit: 0.17.3-12-g5c00ca266dd49dd7cf93a79f09a661ab1ff66439
+[Parsed_subtitles_41 @ 0x24631440] Shaper: FriBidi 1.0.11 (SIMPLE) HarfBuzz-ng 3.1.1 (COMPLEX)
+[Parsed_subtitles_41 @ 0x24631440] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+[Parsed_subtitles_41 @ 0x24631440] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf'
+[Parsed_subtitles_41 @ 0x24631440] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf'
+[Parsed_subtitles_41 @ 0x24631440] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'
+[Parsed_subtitles_41 @ 0x24631440] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf'
+[Parsed_subtitles_41 @ 0x24631440] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+[Parsed_subtitles_41 @ 0x24631440] Using font provider fontconfig
+Input #0, image2, from '/home/user/lyric/heritage/assets/images/reel2/r201_maman_etudes.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 231158 kb/s
+  Stream #0:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #1, image2, from '/home/user/lyric/heritage/assets/images/reel2/r202_papa_pays.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 219524 kb/s
+  Stream #1:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #2, image2, from '/home/user/lyric/heritage/assets/images/reel2/r203_annees.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 255594 kb/s
+  Stream #2:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #3, image2, from '/home/user/lyric/heritage/assets/images/reel2/r204_abri.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 210637 kb/s
+  Stream #3:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #4, image2, from '/home/user/lyric/heritage/assets/images/reel2/r205_debout.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 238829 kb/s
+  Stream #4:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #5, image2, from '/home/user/lyric/heritage/assets/images/reel2/r206_pas.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 241961 kb/s
+  Stream #5:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #6, image2, from '/home/user/lyric/heritage/assets/images/reel2/r207_jamais.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 220471 kb/s
+  Stream #6:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #7, image2, from '/home/user/lyric/heritage/assets/images/reel2/r208_heritage.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 253032 kb/s
+  Stream #7:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #8, image2, from '/home/user/lyric/heritage/assets/images/reel2/r209_dos.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 244297 kb/s
+  Stream #8:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #9, image2, from '/home/user/lyric/heritage/assets/images/reel2/r210_envol.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 191833 kb/s
+  Stream #9:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1400x2489 [SAR 1:1 DAR 1400:2489], 30 fps, 30 tbr, 30 tbn
+Input #10, mp3, from '/home/user/lyric/Héritage de mes parents-Daïsky.mp3':
+  Metadata:
+    title           : Héritage de mes parents
+    artist          : Daïsky
+    album           : Succeed 
+    genre           : Hip-Hop/Rap
+    track           : 2
+    date            : 2026
+    album_artist    : Daïsky 
+    lyrics-eng      : [Intro]
+                    : Yeah...
+                    : Les sacrifices de mes parents pour moi...
+                    : [Refrain]
+                    : They gave it all, every single day
+                    : Working through the night, never walking away
+                    : I'm standing tall because of their tears
+                    : I'm living their dreams, conquering my fears
+                    : Wolof TechStein beat wê!
+                    : [Couplet 1]
+                    : J'ai vu mon père rentrer à 2h du matin
+                    : Le dos courbé, les mains usées, le regard éteint
+                    : J'ai vu ma mère sourire quand le frigo est vide
+                    : Elle mettait du sel dans l'eau pour que je croie au liquide
+                    : Ils ont vendu leurs rêves pour que je fasse les miens
+                    : Ils ont marché sur leurs fiertés, ils ont serré les poings
+                    : Pour que j'aie une chance, pour que j'aie un nom
+                    : Pour que je puisse dire je suis fier sans honte ni raison
+                    : [Pré-Refrain]
+                    : I owe them everything, my breath, my soul
+                    : They carried me when I lost control
+                    : Now I'm running, I'm flying so high
+                    : For them, I'll touch the sky
+                    : [Refrain]
+                    : They gave it all, every single day
+                    : Working through the night, never walking away
+                    : I'm standing tall because of their tears
+                    : I'm living their dreams, conquering my fears
+                    : Wolof TechStein beat wê!
+                    : [Couplet 2]
+                    : Maman a arrêté ses études pour que je commence
+                    : Papa a quitté son pays pour que je me sente chez moi
+                    : Ils m'ont donné leur âge, leur jeunesse, leur silence
+                    : Juste pour que je grandisse sans porter leurs souffrances
+                    : Aujourd'hui je suis debout, je suis leur victoire
+                    : Chaque pas que je fais est une page de leur histoire
+                    : Je ne les oublierai pas, jamais, jamais
+                    : Ils sont mon héritage, ma raison de briller
+                    : [Pré-Refrain]
+                    : I owe them everything, my breath, my soul
+                    : They carried me when I lost control
+                    : Now I'm running, I'm flying so high
+                    : For them, I'll touch the sky
+                    : [Pont]
+                    : They never asked for thanks, never asked for gold
+                    : They just wanted to see me grow, to see me bold
+                    : Now I'm here, I'm their pride, I'm their light
+                    : I'll make it all worth it, I'll shine so bright
+                    : [Refrain Final]
+                    : They gave it all, every single day
+                    : Working through the night, never walking away
+                    : I'm standing tall because of their tears
+                    : I'm living their dreams, conquering my fears
+                    : Wolof TechStein beat wê!
+                    : [Outro]
+                    : Wolof TechStein beat wê...
+                    : (I'm living their dreams...)
+    comment         : made with suno; created=2026-08-01T02:24:48Z; id=8af4ef58-1420-42fd-b9e2-a957d9d57604
+    encoder         : Lavf60.16.100
+    disc            : 1
+  Duration: 00:03:21.72, start: 0.023021, bitrate: 189 kb/s
+  Stream #10:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 188 kb/s
+      Metadata:
+        encoder         : Lavc60.31
+  Stream #10:1: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 360x360 [SAR 1:1 DAR 1:1], 90k tbr, 90k tbn (attached pic)
+      Metadata:
+        title           : Cover
+        comment         : Cover (front)
+Stream mapping:
+  Stream #0:0 (mjpeg) -> format:default (graph 0)
+  Stream #1:0 (mjpeg) -> format:default (graph 0)
+  Stream #2:0 (mjpeg) -> format:default (graph 0)
+  Stream #3:0 (mjpeg) -> format:default (graph 0)
+  Stream #4:0 (mjpeg) -> format:default (graph 0)
+  Stream #5:0 (mjpeg) -> format:default (graph 0)
+  Stream #6:0 (mjpeg) -> format:default (graph 0)
+  Stream #7:0 (mjpeg) -> format:default (graph 0)
+  Stream #8:0 (mjpeg) -> format:default (graph 0)
+  Stream #9:0 (mjpeg) -> format:default (graph 0)
+  setsar:default (graph 0) -> Stream #0:0 (libx264)
+  Stream #10:0 -> #0:1 (mp3 (mp3float) -> aac (native))
+Press [q] to stop, [?] for help
+[Parsed_subtitles_41 @ 0x7f723002fe00] libass API version: 0x1703000
+[Parsed_subtitles_41 @ 0x7f723002fe00] libass source: commit: 0.17.3-12-g5c00ca266dd49dd7cf93a79f09a661ab1ff66439
+[Parsed_subtitles_41 @ 0x7f723002fe00] Shaper: FriBidi 1.0.11 (SIMPLE) HarfBuzz-ng 3.1.1 (COMPLEX)
+[Parsed_subtitles_41 @ 0x7f723002fe00] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+[Parsed_subtitles_41 @ 0x7f723002fe00] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf'
+[Parsed_subtitles_41 @ 0x7f723002fe00] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf'
+[Parsed_subtitles_41 @ 0x7f723002fe00] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'
+[Parsed_subtitles_41 @ 0x7f723002fe00] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf'
+[Parsed_subtitles_41 @ 0x7f723002fe00] Loading font file '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+[Parsed_subtitles_41 @ 0x7f723002fe00] Using font provider fontconfig
+[swscaler @ 0x7f72303ec080] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f7230a76580] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f7230d1fb80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f7230fc9180] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f7231272780] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f723151b440] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f72317c6d80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f7231a73080] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f7231d1c680] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f7231fc5340] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f72303ec080] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 2 times
+[Parsed_subtitles_41 @ 0x7f723002fe00] fontselect: (DejaVu Sans, 700, 0) -> DejaVuSans-Bold, 0, DejaVuSans-Bold
+[swscaler @ 0x7f7230aeaf40] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 2 times
+[swscaler @ 0x7f7230e04f80] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 2 times
+[swscaler @ 0x7f7230fc9180] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 2 times
+[swscaler @ 0x7f7231272780] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f723133df80] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 1 times
+[swscaler @ 0x7f72315d9440] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x7f72315c5e80] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 1 times
+[swscaler @ 0x7f7231884e40] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 2 times
+[swscaler @ 0x7f7231a73080] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 2 times
+[swscaler @ 0x7f7231d1c680] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 2 times
+[swscaler @ 0x7f7233fef040] deprecated pixel format used, make sure you did set range correctly
+    Last message repeated 2 times
+[libx264 @ 0x24723f80] using SAR=1/1
+[libx264 @ 0x24723f80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x24723f80] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x24723f80] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=2 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/user/lyric/heritage/livrables/Reel2_Heritage_MamanPapa_9x16.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s
+      Metadata:
+        encoder         : Lavc61.3.100 aac
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    1 fps=0.3 q=26.0 size=       0KiB time=-00:00:00.03 bitrate=N/A speed=N/A    frame=   11 fps=2.7 q=26.0 size=     256KiB time=00:00:00.30 bitrate=6991.8kbits/s speed=0.0746x    frame=   20 fps=4.4 q=26.0 size=     512KiB time=00:00:00.60 bitrate=6991.1kbits/s speed=0.133x    frame=   29 fps=5.8 q=26.0 size=     512KiB time=00:00:00.90 bitrate=4660.8kbits/s speed=0.179x    frame=   38 fps=6.9 q=26.0 size=     768KiB time=00:00:01.23 bitrate=5101.5kbits/s speed=0.223x    frame=   48 fps=8.0 q=26.0 size=     768KiB time=00:00:01.53 bitrate=4103.4kbits/s speed=0.255x    frame=   57 fps=8.7 q=26.0 size=    1024KiB time=00:00:01.83 bitrate=4575.8kbits/s speed=0.281x    frame=   67 fps=9.5 q=26.0 size=    1280KiB time=00:00:02.16 bitrate=4839.8kbits/s speed=0.308x    frame=   77 fps= 10 q=26.0 size=    1280KiB time=00:00:02.50 bitrate=4194.5kbits/s speed=0.332x    frame=   87 fps= 11 q=26.0 size=    1536KiB time=00:00:02.83 bitrate=4441.2kbits/s speed=0.353x    frame=   96 fps= 11 q=26.0 size=    2048KiB time=00:00:03.13 bitrate=5354.6kbits/s speed=0.368x    frame=  105 fps= 12 q=26.0 size=    2048KiB time=00:00:03.43 bitrate=4886.7kbits/s speed=0.38x    frame=  115 fps= 12 q=26.0 size=    2304KiB time=00:00:03.76 bitrate=5011.0kbits/s speed=0.395x    frame=  124 fps= 12 q=26.0 size=    2304KiB time=00:00:04.06 bitrate=4641.3kbits/s speed=0.406x    frame=  135 fps= 13 q=26.0 size=    2560KiB time=00:00:04.43 bitrate=4730.5kbits/s speed=0.421x    frame=  145 fps= 13 q=26.0 size=    2560KiB time=00:00:04.76 bitrate=4399.7kbits/s speed=0.432x    frame=  154 fps= 13 q=26.0 size=    3072KiB time=00:00:05.06 bitrate=4967.0kbits/s speed=0.44x    frame=  163 fps= 14 q=26.0 size=    3328KiB time=00:00:05.36 bitrate=5080.1kbits/s speed=0.446x    frame=  172 fps= 14 q=26.0 size=    3328KiB time=00:00:05.66 bitrate=4811.2kbits/s speed=0.452x    frame=  181 fps= 14 q=26.0 size=    3584KiB time=00:00:05.96 bitrate=4920.8kbits/s speed=0.458x    frame=  190 fps= 14 q=26.0 size=    3584KiB time=00:00:06.30 bitrate=4660.4kbits/s speed=0.466x    frame=  200 fps= 14 q=26.0 size=    3840KiB time=00:00:06.60 bitrate=4766.3kbits/s speed=0.47x    frame=  210 fps= 14 q=26.0 size=    3840KiB time=00:00:06.93 bitrate=4537.2kbits/s speed=0.477x    frame=  219 fps= 15 q=26.0 size=    4096KiB time=00:00:07.23 bitrate=4638.9kbits/s speed=0.481x    frame=  231 fps= 15 q=26.0 size=    4096KiB time=00:00:07.63 bitrate=4395.8kbits/s speed=0.492x    frame=  240 fps= 15 q=26.0 size=    4352KiB time=00:00:07.93 bitrate=4493.9kbits/s speed=0.495x    frame=  250 fps= 15 q=26.0 size=    4864KiB time=00:00:08.26 bitrate=4820.1kbits/s speed= 0.5x    frame=  259 fps= 15 q=26.0 size=    4864KiB time=00:00:08.56 bitrate=4651.3kbits/s speed=0.503x    frame=  269 fps= 15 q=26.0 size=    5120KiB time=00:00:08.90 bitrate=4712.7kbits/s speed=0.507x    frame=  279 fps= 15 q=26.0 size=    5120KiB time=00:00:09.23 bitrate=4542.6kbits/s speed=0.512x    frame=  288 fps= 16 q=26.0 size=    5376KiB time=00:00:09.56 bitrate=4603.5kbits/s speed=0.516x    frame=  299 fps= 16 q=26.0 size=    5376KiB time=00:00:09.90 bitrate=4448.5kbits/s speed=0.52x    frame=  310 fps= 16 q=26.0 size=    5632KiB time=00:00:10.26 bitrate=4493.9kbits/s speed=0.525x    frame=  322 fps= 16 q=26.0 size=    5632KiB time=00:00:10.66 bitrate=4325.4kbits/s speed=0.532x    frame=  332 fps= 16 q=26.0 size=    6144KiB time=00:00:11.00 bitrate=4575.6kbits/s speed=0.536x    frame=  341 fps= 16 q=26.0 size=    6400KiB time=00:00:11.30 bitrate=4639.8kbits/s speed=0.537x    frame=  351 fps= 16 q=26.0 size=    6400KiB time=00:00:11.63 bitrate=4506.8kbits/s speed=0.54x    frame=  361 fps= 16 q=26.0 size=    6656KiB time=00:00:11.96 bitrate=4556.5kbits/s speed=0.543x    frame=  371 fps= 16 q=26.0 size=    6656KiB time=00:00:12.30 bitrate=4433.0kbits/s speed=0.546x    frame=  383 fps= 17 q=26.0 size=    6912KiB time=00:00:12.70 bitrate=4458.5kbits/s speed=0.551x    frame=  391 fps= 17 q=26.0 size=    7424KiB time=00:00:12.96 bitrate=4690.3kbits/s speed=0.551x    frame=  401 fps= 17 q=26.0 size=    7424KiB time=00:00:13.30 bitrate=4572.8kbits/s speed=0.553x    frame=  411 fps= 17 q=26.0 size=    7680KiB time=00:00:13.63 bitrate=4614.8kbits/s speed=0.555x    frame=  421 fps= 17 q=26.0 size=    7936KiB time=00:00:13.96 bitrate=4654.8kbits/s speed=0.558x    frame=  431 fps= 17 q=26.0 size=    7936KiB time=00:00:14.30 bitrate=4546.3kbits/s speed=0.56x    frame=  441 fps= 17 q=26.0 size=    8192KiB time=00:00:14.63 bitrate=4586.1kbits/s speed=0.562x    frame=  450 fps= 17 q=26.0 size=    8192KiB time=00:00:14.93 bitrate=4493.9kbits/s speed=0.563x    frame=  460 fps= 17 q=26.0 size=    8448KiB time=00:00:15.26 bitrate=4533.2kbits/s speed=0.564x    frame=  472 fps= 17 q=26.0 size=    8448KiB time=00:00:15.66 bitrate=4417.4kbits/s speed=0.569x    frame=  481 fps= 17 q=26.0 size=    8960KiB time=00:00:15.96 bitrate=4597.1kbits/s speed=0.569x    frame=  491 fps= 17 q=26.0 size=    9216KiB time=00:00:16.30 bitrate=4631.8kbits/s speed=0.571x    frame=  500 fps= 17 q=26.0 size=    9216KiB time=00:00:16.60 bitrate=4548.1kbits/s speed=0.571x    frame=  510 fps= 17 q=26.0 size=    9216KiB time=00:00:16.93 bitrate=4458.5kbits/s speed=0.573x    frame=  520 fps= 17 q=26.0 size=    9472KiB time=00:00:17.26 bitrate=4493.9kbits/s speed=0.574x    frame=  529 fps= 17 q=26.0 size=    9472KiB time=00:00:17.56 bitrate=4417.2kbits/s speed=0.575x    frame=  540 fps= 17 q=26.0 size=    9728KiB time=00:00:17.93 bitrate=4443.8kbits/s speed=0.577x    frame=  549 fps= 17 q=26.0 size=    9728KiB time=00:00:18.23 bitrate=4370.7kbits/s speed=0.578x    frame=  561 fps= 17 q=26.0 size=    9984KiB time=00:00:18.63 bitrate=4389.4kbits/s speed=0.581x    frame=  570 fps= 18 q=26.0 size=    9984KiB time=00:00:18.93 bitrate=4319.9kbits/s speed=0.581x    frame=  579 fps= 18 q=26.0 size=   10496KiB time=00:00:19.23 bitrate=4470.6kbits/s speed=0.582x    frame=  589 fps= 18 q=26.0 size=   10752KiB time=00:00:19.56 bitrate=4501.6kbits/s speed=0.583x    frame=  598 fps= 18 q=26.0 size=   10752KiB time=00:00:19.86 bitrate=4433.6kbits/s speed=0.583x    frame=  608 fps= 18 q=26.0 size=   11008KiB time=00:00:20.20 bitrate=4464.3kbits/s speed=0.584x    frame=  617 fps= 18 q=26.0 size=   11264KiB time=00:00:20.50 bitrate=4501.2kbits/s speed=0.585x    frame=  626 fps= 18 q=26.0 size=   11264KiB time=00:00:20.80 bitrate=4436.3kbits/s speed=0.585x    frame=  635 fps= 18 q=26.0 size=   11776KiB time=00:00:21.10 bitrate=4572.0kbits/s speed=0.585x    frame=  645 fps= 18 q=26.0 size=   11776KiB time=00:00:21.43 bitrate=4500.9kbits/s speed=0.586x    frame=  655 fps= 18 q=26.0 size=   12032KiB time=00:00:21.76 bitrate=4528.3kbits/s speed=0.587x    frame=  664 fps= 18 q=26.0 size=   12032KiB time=00:00:22.06 bitrate=4466.8kbits/s speed=0.587x    frame=  674 fps= 18 q=26.0 size=   12288KiB time=00:00:22.40 bitrate=4493.9kbits/s speed=0.588x    frame=  684 fps= 18 q=26.0 size=   12288KiB time=00:00:22.73 bitrate=4428.0kbits/s speed=0.589x    frame=  694 fps= 18 q=26.0 size=   12544KiB time=00:00:23.06 bitrate=4454.9kbits/s speed=0.59x    frame=  704 fps= 18 q=26.0 size=   12544KiB time=00:00:23.40 bitrate=4391.5kbits/s speed=0.591x    frame=  714 fps= 18 q=26.0 size=   12800KiB time=00:00:23.73 bitrate=4418.2kbits/s speed=0.592x    frame=  724 fps= 18 q=26.0 size=   12800KiB time=00:00:24.06 bitrate=4357.0kbits/s speed=0.593x    frame=  734 fps= 18 q=26.0 size=   13056KiB time=00:00:24.40 bitrate=4383.4kbits/s speed=0.594x    frame=  743 fps= 18 q=26.0 size=   13056KiB time=00:00:24.70 bitrate=4330.2kbits/s speed=0.594x    frame=  754 fps= 18 q=26.0 size=   13312KiB time=00:00:25.06 bitrate=4350.5kbits/s speed=0.596x    frame=  763 fps= 18 q=26.0 size=   13312KiB time=00:00:25.36 bitrate=4299.0kbits/s speed=0.596x    frame=  778 fps= 18 q=26.0 size=   13568KiB time=00:00:25.86 bitrate=4297.0kbits/s speed= 0.6x    frame=  789 fps= 18 q=26.0 size=   13824KiB time=00:00:26.23 bitrate=4316.9kbits/s speed=0.602x    frame=  799 fps= 18 q=26.0 size=   14080KiB time=00:00:26.56 bitrate=4341.7kbits/s speed=0.603x    frame=  809 fps= 18 q=26.0 size=   14080KiB time=00:00:26.90 bitrate=4287.9kbits/s speed=0.603x    frame=  819 fps= 18 q=26.0 size=   14336KiB time=00:00:27.23 bitrate=4312.4kbits/s speed=0.604x    frame=  829 fps= 18 q=26.0 size=   14336KiB time=00:00:27.56 bitrate=4260.3kbits/s speed=0.605x    frame=  839 fps= 18 q=26.0 size=   14592KiB time=00:00:27.90 bitrate=4284.5kbits/s speed=0.605x    frame=  850 fps= 18 q=26.0 size=   14592KiB time=00:00:28.26 bitrate=4228.9kbits/s speed=0.607x    frame=  860 fps= 18 q=26.0 size=   14848KiB time=00:00:28.60 bitrate=4253.0kbits/s speed=0.607x    frame=  870 fps= 18 q=26.0 size=   14848KiB time=00:00:28.93 bitrate=4204.0kbits/s speed=0.608x    frame=  880 fps= 18 q=26.0 size=   15104KiB time=00:00:29.26 bitrate=4227.8kbits/s speed=0.609x    frame=  891 fps= 18 q=26.0 size=   15104KiB time=00:00:29.63 bitrate=4175.4kbits/s speed=0.61x    frame=  901 fps= 18 q=26.0 size=   15360KiB time=00:00:29.96 bitrate=4199.0kbits/s speed=0.61x    frame=  912 fps= 18 q=26.0 size=   15360KiB time=00:00:30.33 bitrate=4148.2kbits/s speed=0.612x    frame=  922 fps= 18 q=26.0 size=   15616KiB time=00:00:30.66 bitrate=4171.5kbits/s speed=0.612x    frame=  930 fps= 18 q=26.0 size=   15616KiB time=00:00:30.93 bitrate=4135.6kbits/s speed=0.611x    frame=  940 fps= 18 q=26.0 size=   15872KiB time=00:00:31.26 bitrate=4158.5kbits/s speed=0.612x    frame=  951 fps= 18 q=26.0 size=   15872KiB time=00:00:31.63 bitrate=4110.3kbits/s speed=0.613x    frame=  962 fps= 18 q=26.0 size=   16128KiB time=00:00:32.00 bitrate=4128.8kbits/s speed=0.614x    frame=  972 fps= 18 q=26.0 size=   16128KiB time=00:00:32.33 bitrate=4086.2kbits/s speed=0.615x    frame=  983 fps= 19 q=26.0 size=   16384KiB time=00:00:32.70 bitrate=4104.5kbits/s speed=0.616x    frame=  993 fps= 19 q=26.0 size=   16384KiB time=00:00:33.03 bitrate=4063.1kbits/s speed=0.616x    frame= 1004 fps= 19 q=26.0 size=   16640KiB time=N/A bitrate=N/A speed=N/A    [mp4 @ 0x24634640] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x2636e440] video:15978KiB audio:819KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.225961%
+frame= 1020 fps= 19 q=-1.0 Lsize=   16835KiB time=00:00:33.93 bitrate=4064.1kbits/s speed=0.626x    
+[libx264 @ 0x24723f80] frame I:10    Avg QP:19.21  size:380535
+[libx264 @ 0x24723f80] frame P:259   Avg QP:23.00  size: 33082
+[libx264 @ 0x24723f80] frame B:751   Avg QP:27.13  size:  5310
+[libx264 @ 0x24723f80] consecutive B-frames:  1.7%  0.2%  0.9% 97.3%
+[libx264 @ 0x24723f80] mb I  I16..4:  6.6% 14.7% 78.8%
+[libx264 @ 0x24723f80] mb P  I16..4:  1.8%  0.5%  0.3%  P16..4: 47.8% 15.7%  7.6%  0.0%  0.0%    skip:26.3%
+[libx264 @ 0x24723f80] mb B  I16..4:  0.1%  0.0%  0.0%  B16..8: 16.1%  3.5%  0.4%  direct: 6.8%  skip:73.1%  L0:41.3% L1:41.1% BI:17.6%
+[libx264 @ 0x24723f80] 8x8 transform intra:16.0% inter:37.8%
+[libx264 @ 0x24723f80] coded y,uvDC,uvAC intra: 66.3% 83.3% 71.6% inter: 5.1% 16.4% 2.2%
+[libx264 @ 0x24723f80] i16 v,h,dc,p: 47% 35% 16%  3%
+[libx264 @ 0x24723f80] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 29% 21%  4%  3%  4%  4%  4%  6%
+[libx264 @ 0x24723f80] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 18%  9%  9%  9%  8%  9%  8%  9%
+[libx264 @ 0x24723f80] i8c dc,h,v,p: 33% 30% 24% 12%
+[libx264 @ 0x24723f80] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x24723f80] kb/s:3849.66
+[aac @ 0x246fbcc0] Qavg: 641.435

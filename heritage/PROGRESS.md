@@ -70,7 +70,15 @@ Restauré : chemins renommés `out→livrables`, toolchain réinstallée, cover/
 ### v1 — faite le 20/08 (restaurée après reset, poussée en commit 2df6d73)
 Livrables 9:16 : MP4 vertical, cover 1080×1920, pochette 1400.
 
-### v3 — REEL STICKERS VIRAL — 22/08 (✅ terminé)
+### v4 — REEL 2 STICKERS (« Maman a arrêté ses études… ») — 22/08 (✅ terminé)
+- [x] Prompt : ajout **§3bis RÈGLES PERMANENTES** (application auto à chaque création, plus rien à redemander) — demandé par l'utilisateur
+- [x] Extrait n°2 : couplet2 → pré-refrain2 (**1:40–2:14 = 34,0 s**)
+- [x] 10 images `assets/images/reel2/` (style B Sticker-Bomb, verrouillées sur l'ancre série r01) : études maman, papa aéroport, sablier jeunes/vieux, bulle de protection, toit victoire, pas→pages, photo de famille, trésor-héritage, porté sur le dos, saut entre toits
+- [x] Badge fixe partout + CTA sur r201/r210 + @daiskypro (`src/prep_reel2.py` générique)
+- [x] `reel2.ass` + `src/build_reel2.py` → sortie : `livrables/Reel2_Heritage_MamanPapa_9x16.mp4` (34,0 s, audio `-ss 100 -t 34`)
+- [x] QA + commit + push
+
+### v3 — REEL STICKERS VIRAL (« couplet 1 ») — 22/08 (✅ terminé)
 - Demande : 10 images NOUVELLES, couleurs VIVES, personnes AFRICAINES, style sticker-bomb plein d'émojis → rafter likes/abos
 - [x] Extrait choisi : couplet1 → pré-refrain (**0:43–1:16.8 = 33,8 s**, les punchlines les plus partageables)
 - [x] 10 images `assets/images/reel/` (ancre r01_pere validée → 9 déclinaisons verrouillées) — palette vive : orange électrique / magenta / turquoise / jaune

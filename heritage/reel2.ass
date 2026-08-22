@@ -1,0 +1,28 @@
+[Script Info]
+Title: Reel viral 2 - Heritage (extrait couplet2)
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Reel,DejaVu Sans,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,1,0,0,0,100,100,0.5,0,1,4.5,0,2,90,90,470,1
+Style: Final,DejaVu Sans,80,&H003DB3F2,&H003DB3F2,&H00000000,&H00000000,1,0,0,0,100,100,1.0,0,1,4.5,0,2,90,90,470,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Reel,,0,0,0,,{\fad(90,90)}Maman a arrêté ses études pour que je commence
+Dialogue: 0,0:00:03.00,0:00:05.00,Reel,,0,0,0,,{\fad(90,90)}Papa a quitté son pays pour que je me sente chez moi
+Dialogue: 0,0:00:05.00,0:00:08.00,Reel,,0,0,0,,{\fad(90,90)}Ils m'ont donné leur âge, leur jeunesse, leur silence
+Dialogue: 0,0:00:08.00,0:00:10.80,Reel,,0,0,0,,{\fad(90,90)}Pour que je grandisse sans porter leurs souffrances
+Dialogue: 0,0:00:10.80,0:00:13.00,Reel,,0,0,0,,{\fad(90,90)}Aujourd'hui je suis debout, je suis leur victoire
+Dialogue: 0,0:00:13.00,0:00:16.00,Reel,,0,0,0,,{\fad(90,90)}Chaque pas que je fais est une page de leur histoire
+Dialogue: 0,0:00:16.00,0:00:19.00,Reel,,0,0,0,,{\fad(90,90)}Je ne les oublierai pas, jamais, jamais
+Dialogue: 0,0:00:19.00,0:00:21.00,Reel,,0,0,0,,{\fad(90,90)}Ils sont mon héritage, ma raison de briller
+Dialogue: 0,0:00:21.00,0:00:24.00,Reel,,0,0,0,,{\fad(90,90)}I owe them everything, my breath, my soul
+Dialogue: 0,0:00:24.00,0:00:26.00,Reel,,0,0,0,,{\fad(90,90)}They carried me when I lost control
+Dialogue: 0,0:00:26.00,0:00:30.00,Reel,,0,0,0,,{\fad(90,90)}Now I'm running, I'm flying so high
+Dialogue: 0,0:00:30.00,0:00:33.60,Final,,0,0,0,,{\fad(90,90)}For them, I'll touch the sky

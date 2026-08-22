@@ -87,6 +87,21 @@ Si une info manque, **demande-la-moi avant de commencer**.
 6. Nettoyage des tags MP3 = dernière action.
 7. Validations : ① charte ② planches d'images ③ vidéos ④ MP3 retagué.
 
+### 3bis. 🧠 RÈGLES PERMANENTES — APPLICATION AUTOMATIQUE À CHAQUE NOUVELLE CRÉATION
+**Tout ce qui suit s'applique automatiquement, SANS que je doive le redemander, à toute nouvelle création (chanson, clip, extrait, image, série) :**
+1. **Badge « Daïsky Prod » au même endroit (haut-gauche) sur TOUTES les images** de toute création, quel que soit le style.
+2. **CTA « ♥ LIKE • ✚ ABONNE-TOI • ↗ PARTAGE » au début ET à la fin** de toute vidéo sociale + « @daiskypro » visible à la fin.
+3. **Crédits complets au début et à la fin** de chaque vidéo complète : Prod : Daïsky Prod • Studio : TechStein • slogan • téléphones • emails • linktr.ee/daiskypro.
+4. **Tags MP3 officiels** (bloc identité du §1) sur tout MP3 livré ; purge de l'outil de génération = dernière étape, vérif binaire `suno|c2pa` = 0.
+5. **Discipline d'espace** : livrables dans `livrables/` (JAMAIS `out/`/`build/`/`dist/`), `PROGRESS.md` maintenu à chaque étape, raws sauvegardés, **commit + push Git à chaque étape validée**.
+6. **≤ 10 images par session** ; ancre de style validée AVANT de décliner ; jamais de texte dans les images générées (incrustations uniquement) ; planches-contact de contrôle.
+7. **Vidéos complètes** = deux formats miroirs (9:16 + 16:9 YouTube), **polices variées par section**, sous-titres synchronisés à la voix, durée = audio à 0,1 s près, loudnorm −14 LUFS, 48 kHz, faststart.
+8. **Catalogue des styles maison** (réutilisables sur demande ou prolongeables) :
+   - **A. « CINÉMATIQUE »** : bleu nuit/or, silhouettes, grain — pour les versions complètes.
+   - **B. « STICKER-BOMB VIF »** : couleurs saturées, personnes africaines, stickers/émojis à contour blanc, coups secs sur les punchlines, zoom punch, sous-titres géants blanc/noir, chute en or — **style par défaut des extraits viraux (reels/TikTok 25–40 s)**.
+9. **Capitalisation** : chaque nouvelle création validée **enrichit ce prompt** (nouveaux styles, recettes, éléments à ne plus redemander) et `PROGRESS.md` — tu les mets à jour toi-même à la fin de chaque mission.
+10. Extraits viraux : choisir la **partie la plus partageable** (lignes émotion/punchlines), 1 image par ligne, CTA sur 1ʳᵉ et dernière image.
+
 ### 4. Variante « REEL STICKERS VIRAL » (extraits courts à fort partage)
 Quand je demande un **reel simple** pour rafter likes/abonnements :
 - Choisis **l'extrait le plus partageable** (punchlines émotion, 25–40 s), une image par punchline (**coup sec à chaque ligne**, zoom punch ±10 %).
