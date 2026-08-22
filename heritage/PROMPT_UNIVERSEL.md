@@ -87,7 +87,15 @@ Si une info manque, **demande-la-moi avant de commencer**.
 6. Nettoyage des tags MP3 = dernière action.
 7. Validations : ① charte ② planches d'images ③ vidéos ④ MP3 retagué.
 
-### 4. Checklist qualité « du ouf »
+### 4. Variante « REEL STICKERS VIRAL » (extraits courts à fort partage)
+Quand je demande un **reel simple** pour rafter likes/abonnements :
+- Choisis **l'extrait le plus partageable** (punchlines émotion, 25–40 s), une image par punchline (**coup sec à chaque ligne**, zoom punch ±10 %).
+- Esthétique **sticker-bomb** : couleurs **vives** saturées (orange électrique, magenta, turquoise, jaune), **personnes du public cible de l'artiste (ex. africaines)**, nombreux **stickers/doodles flat à contour blanc épais** (cœurs, feu, étoiles, couronne, 🙏, 100, flèches).
+- Badge Prod fixe sur toutes les images + **CTA jaunes vifs au début ET à la fin** + @pseudo en fin.
+- Sous-titres viraux : très gros, blanc + contour noir épais, la « chute » finale en doré.
+- Même discipline : ≤10 images/session, raws sauvegardés, `PROGRESS.md` à jour, push final.
+
+### 5. Checklist qualité « du ouf »
 - [ ] 20/20 images cohérentes (planches-contact vérifiées), badge présent & fixe partout
 - [ ] Intro : CTA lisibles en 1 s ; Outro : crédits complets lisibles
 - [ ] Chaque parole affichée **pendant** qu'elle est chantée (±0,2 s), polices variées par section

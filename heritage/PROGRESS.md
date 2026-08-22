@@ -70,5 +70,15 @@ Restauré : chemins renommés `out→livrables`, toolchain réinstallée, cover/
 ### v1 — faite le 20/08 (restaurée après reset, poussée en commit 2df6d73)
 Livrables 9:16 : MP4 vertical, cover 1080×1920, pochette 1400.
 
+### v3 — REEL STICKERS VIRAL — 22/08 (✅ terminé)
+- Demande : 10 images NOUVELLES, couleurs VIVES, personnes AFRICAINES, style sticker-bomb plein d'émojis → rafter likes/abos
+- [x] Extrait choisi : couplet1 → pré-refrain (**0:43–1:16.8 = 33,8 s**, les punchlines les plus partageables)
+- [x] 10 images `assets/images/reel/` (ancre r01_pere validée → 9 déclinaisons verrouillées) — palette vive : orange électrique / magenta / turquoise / jaune
+- [x] Badge Daïsky Prod haut-gauche fixe sur les 10 (`src/prep_reel.py`) + CTA jaunes « ♥ LIKE / ✚ ABONNE-TOI / ↗ PARTAGE » sur r01 (début) ET r10 (fin) + @daiskypro
+- [x] Raws dans `assets/raw/reel/`
+- [x] Montage `src/build_reel.py` : coups secs à chaque punchline (durées = lignes), zoom punch 10 %, sous-titres `reel.ass` (blanc contour noir 72, chute « I'll touch the sky » en or 80)
+- [x] Sortie : `livrables/Reel_Heritage_Viral_9x16.mp4` — **33,8 s pile**, 1080×1920, 30 fps, AAC 48 kHz, loudnorm −14, 18 Mo
+- [x] QA frames t=1.5/11.5/26/32 ✔ | audio = extrait MP3 `-ss 43 -t 33.8`
+
 ## Sync lyrics (normalisée depuis les timings fournis)
 Voir `manifest.json` (source de vérité).
