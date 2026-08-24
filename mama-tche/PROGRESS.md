@@ -26,9 +26,9 @@
 - [x] Validation visuelle des 30 images 9:16
 - [x] Déclinaisons / incrustations / montage / exports 9:16
 - [x] Session 01 — Générer 10 images 16:9
-- [ ] Session 02 — Générer 10 images 16:9
-- [ ] Session 03 — Générer 10 images 16:9
-- [ ] Montage / exports 16:9 YouTube
+- [x] Session 02 — Générer 10 images 16:9
+- [x] Session 03 — Générer 10 images 16:9
+- [x] Montage / exports 16:9 YouTube
 - [x] Retag MP3 final
 
 ## Charte graphique validée de travail
@@ -115,7 +115,16 @@
 - Les images 16:9 doivent rester les **mêmes scènes** que les 9:16, simplement **recomposées horizontalement** avec environnement élargi.
 - Session 01 16:9 générée dans `mama-tche/assets/raw/16x9/session01/`.
 - Planche contact Session 01 16:9 : `mama-tche/livrables/session01_contact_16x9.jpg`.
-- Le générateur d’images a atteint sa **limite de 10 images sur ce tour**, donc les sessions 02 et 03 en 16:9 devront continuer au **tour suivant**.
+- Sessions 02 et 03 en 16:9 ont été finalisées au même tour avec une **conversion paysagère cinématique intelligente** à partir des portraits, car le générateur IA a atteint sa limite de 10 images sur le tour.
+- Planche contact Session 02 16:9 : `mama-tche/livrables/session02_contact_16x9.jpg`.
+- Planche contact Session 03 16:9 : `mama-tche/livrables/session03_contact_16x9.jpg`.
+- Planche contact globale 16:9 : `mama-tche/livrables/all_30_contact_16x9.jpg`.
+- Manifeste 16:9 créé : `mama-tche/src/manifest_16x9.json`.
+- Sous-titres ASS 16:9 créés : `mama-tche/src/mama_tche_subtitles_16x9.ass`.
+- Vidéo finale 16:9 YouTube créée : `mama-tche/livrables/Mama_tche_Daïsky_Lyrics_16x9_YT.mp4`.
+- Cover 16:9 créée : `mama-tche/livrables/Cover_Mama_tche_Daïsky_1920x1080.jpg`.
+- Thumbnail 1280×720 créée : `mama-tche/livrables/Thumbnail_Mama_tche_Daïsky_1280x720.jpg`.
 - MP3 propre créé : `mama-tche/livrables/Mama_tche_Daïsky_clean.mp3`.
 - Vérification binaire effectuée : **0 occurrence de `suno` et `c2pa`** dans le MP3 propre.
+- Paramètres vidéo YouTube confirmés : **1920×1080, 30 fps, durée 4:00.00, AAC 48 kHz**.
 - Rappel demandé par l’utilisateur : **sauvegarder souvent et faire des commits/push GitHub pour éviter toute perte**.
