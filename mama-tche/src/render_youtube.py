@@ -78,10 +78,9 @@ def build_segments() -> List[Segment]:
         session_paths.extend(sorted(folder.glob("*.jpg")))
     assert len(session_paths) == 30, f"Expected 30 images, found {len(session_paths)}"
     boundaries = [
-        0.0, 14.0, 23.9, 31.0, 41.9, 52.0, 58.0, 65.0, 72.0, 80.0,
-        90.0, 97.0, 104.0, 111.0, 118.0, 125.0, 131.0, 138.0, 145.0,
-        153.8, 162.0, 167.0, 174.0, 181.0, 189.0, 195.9, 203.0, 210.0,
-        216.0, 229.0, 240.0,
+        0.0, 14.0, 20.0, 27.9, 35.0, 41.9, 48.0, 54.0, 58.0, 65.0,
+        72.0, 80.0, 87.6, 94.0, 101.0, 107.8, 115.0, 122.0, 128.0, 135.0,
+        142.0, 149.0, 160.0, 167.0, 174.0, 181.0, 189.0, 195.9, 203.0, 216.0, 240.0,
     ]
     pans = ["center", "left", "right", "up", "down", "center"]
     return [
@@ -139,14 +138,14 @@ YCbCr Matrix: TV.601
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: IntroSerif,DejaVu Serif,44,&H00F8F2E7,&H000000FF,&H002A714C,&H55000000,1,0,0,0,100,100,0,0,1,3.0,1.2,2,120,120,90,1
-Style: VerseMono,DejaVu Sans Mono,44,&H00F8F2E7,&H000000FF,&H002A714C,&H55000000,1,0,0,0,100,100,0.3,0,1,3.2,1.2,2,120,120,{SAFE_SUB_MARGIN},1
-Style: VerseSans,DejaVu Sans,44,&H00F8F2E7,&H000000FF,&H002A714C,&H55000000,1,0,0,0,100,100,0.3,0,1,3.2,1.2,2,120,120,{SAFE_SUB_MARGIN},1
-Style: RefrainGold,DejaVu Sans,52,&H00F4C95D,&H000000FF,&H00145A3B,&H66000000,1,0,0,0,100,100,0.4,0,1,3.6,1.4,2,110,110,{SAFE_SUB_MARGIN},1
-Style: FinalRefrainGold,DejaVu Sans,56,&H00F4C95D,&H000000FF,&H00145A3B,&H66000000,1,0,0,0,100,100,0.5,0,1,3.8,1.5,2,100,100,{SAFE_SUB_MARGIN},1
-Style: BridgeSerifCenter,DejaVu Serif,46,&H00F8F2E7,&H000000FF,&H002A714C,&H66000000,1,0,0,0,100,100,0.2,0,1,3.4,1.2,5,100,100,0,1
-Style: HookGold,DejaVu Sans,48,&H00F4C95D,&H000000FF,&H00145A3B,&H66000000,1,0,0,0,100,100,0.6,0,1,3.8,1.4,2,110,110,{SAFE_SUB_MARGIN},1
-Style: OutroSerif,DejaVu Serif,44,&H00F8F2E7,&H000000FF,&H002A714C,&H66000000,1,0,0,0,100,100,0.2,0,1,3.4,1.2,2,120,120,{SAFE_SUB_MARGIN},1
+Style: IntroSerif,DejaVu Serif,48,&H00F8F2E7,&H000000FF,&H002A714C,&H65000000,1,1,0,0,100,100,0.2,0,1,3.4,1.3,2,120,120,90,1
+Style: VerseMono,DejaVu Serif,46,&H00F8F2E7,&H000000FF,&H00145A3B,&H62000000,1,0,0,0,100,100,0.2,0,1,3.4,1.2,2,120,120,{SAFE_SUB_MARGIN},1
+Style: VerseSans,DejaVu Sans,44,&H00F8F2E7,&H000000FF,&H00145A3B,&H62000000,1,0,0,0,100,100,0.2,0,1,3.2,1.2,2,120,120,{SAFE_SUB_MARGIN},1
+Style: RefrainGold,DejaVu Sans,54,&H00F4C95D,&H000000FF,&H00145A3B,&H68000000,1,0,0,0,100,100,0.8,0,1,4.0,1.5,2,108,108,{SAFE_SUB_MARGIN},1
+Style: FinalRefrainGold,DejaVu Sans,58,&H00F4C95D,&H000000FF,&H00145A3B,&H6E000000,1,0,0,0,100,100,0.9,0,1,4.2,1.6,2,100,100,{SAFE_SUB_MARGIN},1
+Style: BridgeSerifCenter,DejaVu Serif,50,&H00F8F2E7,&H000000FF,&H002A714C,&H68000000,1,1,0,0,100,100,0.3,0,1,3.6,1.3,5,100,100,0,1
+Style: HookGold,DejaVu Sans,52,&H00F4C95D,&H000000FF,&H00145A3B,&H70000000,1,0,0,0,100,100,1.0,0,1,4.2,1.6,2,108,108,{SAFE_SUB_MARGIN},1
+Style: OutroSerif,DejaVu Serif,46,&H00F8F2E7,&H000000FF,&H002A714C,&H68000000,1,1,0,0,100,100,0.2,0,1,3.6,1.3,2,120,120,{SAFE_SUB_MARGIN},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

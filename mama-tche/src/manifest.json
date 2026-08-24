@@ -16,230 +16,230 @@
       "id": "S02",
       "image": "assets/raw/9x16/session01/S02_first_arms.png",
       "debut": 14.0,
-      "fin": 23.9,
+      "fin": 20.0,
       "ken_burns": "out",
       "pan": "up"
     },
     {
       "id": "S03",
       "image": "assets/raw/9x16/session01/S03_night_watch.png",
-      "debut": 23.9,
-      "fin": 31.0,
+      "debut": 20.0,
+      "fin": 27.9,
       "ken_burns": "in",
       "pan": "down"
     },
     {
       "id": "S04",
       "image": "assets/raw/9x16/session01/S04_storm_shield.png",
-      "debut": 31.0,
-      "fin": 41.9,
+      "debut": 27.9,
+      "fin": 35.0,
       "ken_burns": "out",
       "pan": "left"
     },
     {
       "id": "S05",
       "image": "assets/raw/9x16/session01/S05_love_given.png",
-      "debut": 41.9,
-      "fin": 52.0,
+      "debut": 35.0,
+      "fin": 41.9,
       "ken_burns": "in",
       "pan": "right"
     },
     {
       "id": "S06",
       "image": "assets/raw/9x16/session01/S06_love_beyond_words.png",
-      "debut": 52.0,
-      "fin": 58.0,
+      "debut": 41.9,
+      "fin": 48.0,
       "ken_burns": "out",
       "pan": "center"
     },
     {
       "id": "S07",
       "image": "assets/raw/9x16/session01/S07_my_only_sun.png",
-      "debut": 58.0,
-      "fin": 65.0,
+      "debut": 48.0,
+      "fin": 54.0,
       "ken_burns": "in",
       "pan": "up"
     },
     {
       "id": "S08",
       "image": "assets/raw/9x16/session01/S08_guide_my_way.png",
-      "debut": 65.0,
-      "fin": 72.0,
+      "debut": 54.0,
+      "fin": 58.0,
       "ken_burns": "out",
       "pan": "right"
     },
     {
       "id": "S09",
       "image": "assets/raw/9x16/session01/S09_im_here_ill_stay.png",
-      "debut": 72.0,
-      "fin": 80.0,
+      "debut": 58.0,
+      "fin": 65.0,
       "ken_burns": "in",
       "pan": "left"
     },
     {
       "id": "S10",
       "image": "assets/raw/9x16/session01/S10_transition_loss_memory.png",
-      "debut": 80.0,
-      "fin": 90.0,
+      "debut": 65.0,
+      "fin": 72.0,
       "ken_burns": "out",
       "pan": "down"
     },
     {
       "id": "S11",
       "image": "assets/raw/9x16/session02/S11_silence_left_behind.png",
-      "debut": 90.0,
-      "fin": 97.0,
+      "debut": 72.0,
+      "fin": 80.0,
       "ken_burns": "in",
       "pan": "center"
     },
     {
       "id": "S12",
       "image": "assets/raw/9x16/session02/S12_empty_bell_boy.png",
-      "debut": 97.0,
-      "fin": 104.0,
+      "debut": 80.0,
+      "fin": 87.6,
       "ken_burns": "out",
       "pan": "up"
     },
     {
       "id": "S13",
       "image": "assets/raw/9x16/session02/S13_legacy_steps_girl.png",
-      "debut": 104.0,
-      "fin": 111.0,
+      "debut": 87.6,
+      "fin": 94.0,
       "ken_burns": "in",
       "pan": "down"
     },
     {
       "id": "S14",
       "image": "assets/raw/9x16/session02/S14_carry_heart_boy.png",
-      "debut": 111.0,
-      "fin": 118.0,
+      "debut": 94.0,
+      "fin": 101.0,
       "ken_burns": "out",
       "pan": "left"
     },
     {
       "id": "S15",
       "image": "assets/raw/9x16/session02/S15_love_never_dies_memorial.png",
-      "debut": 118.0,
-      "fin": 125.0,
+      "debut": 101.0,
+      "fin": 107.8,
       "ken_burns": "in",
       "pan": "right"
     },
     {
       "id": "S16",
       "image": "assets/raw/9x16/session02/S16_beyond_grave_flame.png",
-      "debut": 125.0,
-      "fin": 131.0,
+      "debut": 107.8,
+      "fin": 115.0,
       "ken_burns": "out",
       "pan": "center"
     },
     {
       "id": "S17",
       "image": "assets/raw/9x16/session02/S17_daughter_only_sun.png",
-      "debut": 131.0,
-      "fin": 138.0,
+      "debut": 115.0,
+      "fin": 122.0,
       "ken_burns": "in",
       "pan": "up"
     },
     {
       "id": "S18",
       "image": "assets/raw/9x16/session02/S18_son_guided_path.png",
-      "debut": 138.0,
-      "fin": 145.0,
+      "debut": 122.0,
+      "fin": 128.0,
       "ken_burns": "out",
       "pan": "right"
     },
     {
       "id": "S19",
       "image": "assets/raw/9x16/session02/S19_breath_memory_girl.png",
-      "debut": 145.0,
-      "fin": 153.8,
+      "debut": 128.0,
+      "fin": 135.0,
       "ken_burns": "in",
       "pan": "left"
     },
     {
       "id": "S20",
       "image": "assets/raw/9x16/session02/S20_eternal_voice_children.png",
-      "debut": 153.8,
-      "fin": 162.0,
+      "debut": 135.0,
+      "fin": 142.0,
       "ken_burns": "out",
       "pan": "down"
     },
     {
       "id": "S21",
       "image": "assets/raw/9x16/session03/S21_breath_lives_in_me_boy.png",
-      "debut": 162.0,
-      "fin": 167.0,
+      "debut": 142.0,
+      "fin": 149.0,
       "ken_burns": "in",
       "pan": "center"
     },
     {
       "id": "S22",
       "image": "assets/raw/9x16/session03/S22_you_never_left_siblings.png",
-      "debut": 167.0,
-      "fin": 174.0,
+      "debut": 149.0,
+      "fin": 160.0,
       "ken_burns": "out",
       "pan": "up"
     },
     {
       "id": "S23",
       "image": "assets/raw/9x16/session03/S23_gift_from_heaven_girl.png",
-      "debut": 174.0,
-      "fin": 181.0,
+      "debut": 160.0,
+      "fin": 167.0,
       "ken_burns": "in",
       "pan": "down"
     },
     {
       "id": "S24",
       "image": "assets/raw/9x16/session03/S24_final_refrain_son.png",
-      "debut": 181.0,
-      "fin": 189.0,
+      "debut": 167.0,
+      "fin": 174.0,
       "ken_burns": "out",
       "pan": "left"
     },
     {
       "id": "S25",
       "image": "assets/raw/9x16/session03/S25_final_refrain_daughter.png",
-      "debut": 189.0,
-      "fin": 195.9,
+      "debut": 174.0,
+      "fin": 181.0,
       "ken_burns": "in",
       "pan": "right"
     },
     {
       "id": "S26",
       "image": "assets/raw/9x16/session03/S26_departed_but_love_remains.png",
-      "debut": 195.9,
-      "fin": 203.0,
+      "debut": 181.0,
+      "fin": 189.0,
       "ken_burns": "out",
       "pan": "center"
     },
     {
       "id": "S27",
       "image": "assets/raw/9x16/session03/S27_morning_voice_boy.png",
-      "debut": 203.0,
-      "fin": 210.0,
+      "debut": 189.0,
+      "fin": 195.9,
       "ken_burns": "in",
       "pan": "up"
     },
     {
       "id": "S28",
       "image": "assets/raw/9x16/session03/S28_eternally_girl_by_water.png",
-      "debut": 210.0,
-      "fin": 216.0,
+      "debut": 195.9,
+      "fin": 203.0,
       "ken_burns": "out",
       "pan": "right"
     },
     {
       "id": "S29",
       "image": "assets/raw/9x16/session03/S29_eternal_light_siblings.png",
-      "debut": 216.0,
-      "fin": 229.0,
+      "debut": 203.0,
+      "fin": 216.0,
       "ken_burns": "in",
       "pan": "left"
     },
     {
       "id": "S30",
       "image": "assets/raw/9x16/session03/S30_closing_mother_light_forever.png",
-      "debut": 229.0,
+      "debut": 216.0,
       "fin": 240.0,
       "ken_burns": "out",
       "pan": "down"
@@ -248,13 +248,13 @@
   "paroles": [
     {
       "debut": 0.0,
-      "fin": 3.8,
+      "fin": 2.2,
       "texte": "Wolof TechStein beat wê!",
       "style": "HookGold",
       "section": "intro"
     },
     {
-      "debut": 4.2,
+      "debut": 2.4,
       "fin": 13.6,
       "texte": "Non vivi o - o nvi gboon mavomavo.",
       "style": "IntroSerif",
@@ -268,400 +268,407 @@
       "section": "verse1"
     },
     {
+      "debut": 17.0,
+      "fin": 20.0,
+      "texte": "Before the world could call my name",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
       "debut": 20.0,
       "fin": 23.9,
-      "texte": "Before the world could call my name",
+      "texte": "Le jour où tu m'as tenu dans tes bras",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 23.9,
       "fin": 27.9,
-      "texte": "Le jour où tu m'as tenu dans tes bras",
+      "texte": "You already knew my soul",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 27.9,
       "fin": 31.0,
-      "texte": "You already knew my soul",
+      "texte": "Azoon lon bo - wo a toln kpo",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 31.0,
       "fin": 35.0,
-      "texte": "Azoon lon bo - wo a toln kpo",
+      "texte": "Every storm, you stood in the rain",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 35.0,
       "fin": 37.0,
-      "texte": "Every storm, you stood in the rain",
+      "texte": "Toutes les nuits - tu as veillé",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 37.0,
       "fin": 41.9,
-      "texte": "Toutes les nuits - tu as veillé",
+      "texte": "So I could stay warm, so I could remain",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 41.9,
       "fin": 45.0,
-      "texte": "So I could stay warm, so I could remain",
+      "texte": "Non vivi o - a non da nu mi",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 45.0,
       "fin": 48.0,
-      "texte": "Non vivi o - a non da nu mi",
+      "texte": "Ton amour - tu me l'as donné",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 48.0,
       "fin": 52.0,
-      "texte": "Ton amour - tu me l'as donné",
+      "texte": "No words can hold what you gave",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 52.0,
       "fin": 54.0,
-      "texte": "No words can hold what you gave",
+      "texte": "A love too wide, too deep for the grave",
       "style": "VerseMono",
       "section": "verse1"
     },
     {
       "debut": 54.0,
       "fin": 58.0,
-      "texte": "A love too wide, too deep for the grave",
-      "style": "VerseMono",
-      "section": "verse1"
+      "texte": "Mama tche - you are my one",
+      "style": "RefrainGold",
+      "section": "refrain1"
     },
     {
       "debut": 58.0,
       "fin": 62.0,
-      "texte": "Mama tche - you are my one",
+      "texte": "Mama tche - my only sun",
       "style": "RefrainGold",
       "section": "refrain1"
     },
     {
       "debut": 62.0,
       "fin": 65.0,
-      "texte": "Mama tche - my only sun",
+      "texte": "Gboon ce o - tu es ma vie",
       "style": "RefrainGold",
       "section": "refrain1"
     },
     {
       "debut": 65.0,
       "fin": 68.0,
-      "texte": "Gboon ce o - tu es ma vie",
+      "texte": "Ma mère unique - forever with me",
       "style": "RefrainGold",
       "section": "refrain1"
     },
     {
       "debut": 68.0,
       "fin": 72.0,
-      "texte": "Ma mère unique - forever with me",
+      "texte": "Even if the sky forgets my name",
       "style": "RefrainGold",
       "section": "refrain1"
     },
     {
       "debut": 72.0,
       "fin": 76.0,
-      "texte": "Even if the sky forgets my name",
+      "texte": "Even if I'm lost, you guide my way",
       "style": "RefrainGold",
       "section": "refrain1"
     },
     {
       "debut": 76.0,
       "fin": 80.0,
-      "texte": "Even if I'm lost, you guide my way",
+      "texte": "Mama tche - mi non no fi",
       "style": "RefrainGold",
       "section": "refrain1"
     },
     {
       "debut": 80.0,
       "fin": 86.0,
-      "texte": "Mama tche - mi non no fi",
-      "style": "RefrainGold",
-      "section": "refrain1"
-    },
-    {
-      "debut": 86.0,
-      "fin": 90.0,
       "texte": "I hear you say - I'm here, I'll stay",
       "style": "RefrainGold",
       "section": "refrain1"
     },
     {
+      "debut": 86.0,
+      "fin": 87.6,
+      "texte": "Wolof TechStein beat wê!",
+      "style": "HookGold",
+      "section": "hook_break"
+    },
+    {
+      "debut": 87.6,
+      "fin": 90.0,
+      "texte": "Hwenu e a yi - nyi ma se o",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
       "debut": 90.0,
       "fin": 94.0,
-      "texte": "Hwenu e a yi - nyi ma se o",
+      "texte": "The silence you left was a kind of sound",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 94.0,
       "fin": 97.0,
-      "texte": "The silence you left was a kind of sound",
+      "texte": "Le jour où tu es partie - je n'entendais pas",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 97.0,
       "fin": 101.0,
-      "texte": "Le jour où tu es partie - je n'entendais pas",
+      "texte": "Like a bell that rings with no one around",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 101.0,
       "fin": 104.0,
-      "texte": "Like a bell that rings with no one around",
+      "texte": "Non e a do mi - o non no nyi mon",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 104.0,
       "fin": 107.8,
-      "texte": "Non e a do mi - o non no nyi mon",
+      "texte": "In every choice, in every step I take",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 107.8,
       "fin": 111.0,
-      "texte": "In every choice, in every step I take",
+      "texte": "Ce que tu m'as laissé - vit encore en moi",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 111.0,
       "fin": 115.0,
-      "texte": "Ce que tu m'as laissé - vit encore en moi",
+      "texte": "I carry your heart - it will never break",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 115.0,
       "fin": 118.0,
-      "texte": "I carry your heart - it will never break",
+      "texte": "Non vivi o - o ku kpoonon",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 118.0,
       "fin": 122.0,
-      "texte": "Non vivi o - o ku kpoonon",
+      "texte": "Ton amour - il ne meurt jamais",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 122.0,
       "fin": 125.0,
-      "texte": "Ton amour - il ne meurt jamais",
+      "texte": "Death could not take what you gave",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 125.0,
       "fin": 128.0,
-      "texte": "Death could not take what you gave",
+      "texte": "A flame still burning beyond the grave",
       "style": "VerseSans",
       "section": "verse2"
     },
     {
       "debut": 128.0,
       "fin": 131.0,
-      "texte": "A flame still burning beyond the grave",
-      "style": "VerseSans",
-      "section": "verse2"
+      "texte": "Mama tche - you are my one",
+      "style": "RefrainGold",
+      "section": "refrain2"
     },
     {
       "debut": 131.0,
       "fin": 135.0,
-      "texte": "Mama tche - you are my one",
+      "texte": "Mama tche - my only sun",
       "style": "RefrainGold",
       "section": "refrain2"
     },
     {
       "debut": 135.0,
       "fin": 138.0,
-      "texte": "Mama tche - my only sun",
+      "texte": "Gboon ce o - tu es ma vie",
       "style": "RefrainGold",
       "section": "refrain2"
     },
     {
       "debut": 138.0,
       "fin": 142.0,
-      "texte": "Gboon ce o - tu es ma vie",
+      "texte": "Ma mère unique - forever with me",
       "style": "RefrainGold",
       "section": "refrain2"
     },
     {
       "debut": 142.0,
       "fin": 145.0,
-      "texte": "Ma mère unique - forever with me",
+      "texte": "Even if the sky forgets my name",
       "style": "RefrainGold",
       "section": "refrain2"
     },
     {
       "debut": 145.0,
       "fin": 149.0,
-      "texte": "Even if the sky forgets my name",
+      "texte": "Even if I'm lost, you guide my way",
       "style": "RefrainGold",
       "section": "refrain2"
     },
     {
       "debut": 149.0,
       "fin": 153.8,
-      "texte": "Even if I'm lost, you guide my way",
+      "texte": "Mama tche - mi non no fi",
       "style": "RefrainGold",
       "section": "refrain2"
     },
     {
       "debut": 153.8,
       "fin": 160.0,
-      "texte": "Mama tche - mi non no fi",
+      "texte": "I hear you say - I'm here, I'll stay",
       "style": "RefrainGold",
       "section": "refrain2"
     },
     {
       "debut": 160.0,
       "fin": 162.0,
-      "texte": "I hear you say - I'm here, I'll stay",
-      "style": "RefrainGold",
-      "section": "refrain2"
+      "texte": "Mama...",
+      "style": "BridgeSerifCenter",
+      "section": "bridge"
     },
     {
       "debut": 162.0,
       "fin": 164.0,
-      "texte": "Mama...",
+      "texte": "A non no nyi sisi mon.",
       "style": "BridgeSerifCenter",
       "section": "bridge"
     },
     {
       "debut": 164.0,
       "fin": 167.0,
-      "texte": "A non no nyi sisi mon.",
+      "texte": "Tu vis dans mon souffle.",
       "style": "BridgeSerifCenter",
       "section": "bridge"
     },
     {
       "debut": 167.0,
       "fin": 170.0,
-      "texte": "Tu vis dans mon souffle.",
+      "texte": "You never left.",
       "style": "BridgeSerifCenter",
       "section": "bridge"
     },
     {
       "debut": 170.0,
       "fin": 174.0,
-      "texte": "You never left.",
+      "texte": "Mon e nyi non - o nyi jon mawu.",
       "style": "BridgeSerifCenter",
       "section": "bridge"
     },
     {
       "debut": 174.0,
       "fin": 181.0,
-      "texte": "Mon e nyi non - o nyi jon mawu.",
+      "texte": "Celle qui est mère - est un don du ciel.",
       "style": "BridgeSerifCenter",
       "section": "bridge"
     },
     {
       "debut": 181.0,
       "fin": 185.0,
-      "texte": "Celle qui est mère - est un don du ciel.",
-      "style": "BridgeSerifCenter",
-      "section": "bridge"
+      "texte": "MAMA TCHE - you are my one",
+      "style": "FinalRefrainGold",
+      "section": "final_refrain"
     },
     {
       "debut": 185.0,
       "fin": 189.0,
-      "texte": "MAMA TCHE - you are my one",
+      "texte": "MAMA TCHE - my only sun",
       "style": "FinalRefrainGold",
       "section": "final_refrain"
     },
     {
       "debut": 189.0,
       "fin": 192.0,
-      "texte": "MAMA TCHE - my only sun",
+      "texte": "Gboon ce o - tu es ma vie",
       "style": "FinalRefrainGold",
       "section": "final_refrain"
     },
     {
       "debut": 192.0,
       "fin": 195.9,
-      "texte": "Gboon ce o - tu es ma vie",
+      "texte": "Ma mère unique - forever with me",
       "style": "FinalRefrainGold",
       "section": "final_refrain"
     },
     {
       "debut": 195.9,
       "fin": 199.0,
-      "texte": "Ma mère unique - forever with me",
+      "texte": "A yi - koonon non vivi o no fi",
       "style": "FinalRefrainGold",
       "section": "final_refrain"
     },
     {
       "debut": 199.0,
       "fin": 203.0,
-      "texte": "A yi - koonon non vivi o no fi",
+      "texte": "Tu es partie - mais l'amour reste ici",
       "style": "FinalRefrainGold",
       "section": "final_refrain"
     },
     {
       "debut": 203.0,
       "fin": 210.0,
-      "texte": "Tu es partie - mais l'amour reste ici",
+      "texte": "Every morning your voice still finds me",
       "style": "FinalRefrainGold",
       "section": "final_refrain"
     },
     {
       "debut": 210.0,
       "fin": 216.0,
-      "texte": "Every morning your voice still finds me",
-      "style": "FinalRefrainGold",
-      "section": "final_refrain"
-    },
-    {
-      "debut": 216.0,
-      "fin": 219.4,
       "texte": "Mama tche - eternally",
       "style": "FinalRefrainGold",
       "section": "final_refrain"
     },
     {
-      "debut": 219.4,
-      "fin": 224.0,
+      "debut": 216.0,
+      "fin": 220.0,
       "texte": "Wolof TechStein beat wê!",
-      "style": "FinalRefrainGold",
-      "section": "final_refrain"
+      "style": "HookGold",
+      "section": "outro_hook"
+    },
+    {
+      "debut": 220.0,
+      "fin": 224.0,
+      "texte": "Mama tche... Mama tche...",
+      "style": "HookGold",
+      "section": "outro_hook"
     },
     {
       "debut": 224.0,
       "fin": 229.0,
-      "texte": "Mama tche... Mama tche...",
-      "style": "FinalRefrainGold",
-      "section": "final_refrain"
-    },
-    {
-      "debut": 229.0,
-      "fin": 234.0,
       "texte": "\"Mon e nyi non - o nyi gboon mavomavo.\"",
       "style": "OutroSerif",
       "section": "outro"
     },
     {
-      "debut": 234.0,
-      "fin": 240.0,
+      "debut": 229.0,
+      "fin": 234.0,
       "texte": "\"Celle qui est mère - est lumière pour toujours.\"",
       "style": "OutroSerif",
       "section": "outro"

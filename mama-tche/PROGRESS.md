@@ -110,6 +110,8 @@
 - Cover 9:16 créée : `mama-tche/livrables/Cover_Mama_tche_Daïsky_1080x1920.jpg`.
 - Pochette carrée créée : `mama-tche/livrables/pochette_Mama_tche_Daïsky_1400.jpg`.
 - Sous-titres utilisés : **ligne chantée uniquement** (sans les traductions entre parenthèses), avec styles variés par section.
+- Correction majeure effectuée ensuite : le premier rendu n’interprétait pas correctement les minutages abrégés du fichier de paroles. Les timings ont été **reconstruits ligne par ligne** en lisant les valeurs `-m:ss` comme **fins de ligne successives**, puis les deux vidéos ont été **régénérées**.
+- Polices / styles retravaillés : intro serif élégante, couplets narratifs différenciés, refrains or plus larges, pont centré poétique, hook/tagline mis en valeur.
 - Paramètres vidéo confirmés : **1080×1920, 30 fps, durée 4:00.00, AAC 48 kHz**.
 - Nouvelle étape demandée : **décliner toutes les scènes en paysage 16:9 pour YouTube**, puis rendre la version YouTube et nettoyer le MP3.
 - Les images 16:9 doivent rester les **mêmes scènes** que les 9:16, simplement **recomposées horizontalement** avec environnement élargi.
@@ -127,4 +129,5 @@
 - MP3 propre créé : `mama-tche/livrables/Mama_tche_Daïsky_clean.mp3`.
 - Vérification binaire effectuée : **0 occurrence de `suno` et `c2pa`** dans le MP3 propre.
 - Paramètres vidéo YouTube confirmés : **1920×1080, 30 fps, durée 4:00.00, AAC 48 kHz**.
+- Les deux vidéos finales ont été **refaites après plainte utilisateur sur le timing**, avec nouveau minutage détaillé et styles de sous-titres plus jolis et plus variés.
 - Rappel demandé par l’utilisateur : **sauvegarder souvent et faire des commits/push GitHub pour éviter toute perte**.

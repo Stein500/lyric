@@ -123,80 +123,87 @@ def clean_lyric_text(raw: str) -> str:
 
 def subtitle_style_for(start: float) -> Tuple[str, str]:
     if start < 14:
-        return ("HookGold" if start < 4 else "IntroSerif", "intro")
-    if start < 58:
+        return ("HookGold" if start < 3 else "IntroSerif", "intro")
+    if start < 54:
         return ("VerseMono", "verse1")
-    if start < 90:
+    if start < 87.6:
         return ("RefrainGold", "refrain1")
-    if start < 131:
+    if start < 128:
         return ("VerseSans", "verse2")
-    if start < 162:
+    if start < 160:
         return ("RefrainGold", "refrain2")
-    if start < 185:
+    if start < 181:
         return ("BridgeSerifCenter", "bridge")
-    if start < 229:
+    if start < 224:
         return ("FinalRefrainGold", "final_refrain")
     return ("OutroSerif", "outro")
 
 
 def parse_lyrics() -> List[SubtitleEvent]:
-    text = LYRICS_MD.read_text(encoding="utf-8")
-    code = re.search(r"```(.*?)```", text, re.S)
-    lines = [ln.strip() for ln in code.group(1).splitlines()] if code else []
-
-    events: List[SubtitleEvent] = [
-        SubtitleEvent(0.00, 3.80, "Wolof TechStein beat wê!", "HookGold", "intro"),
-        SubtitleEvent(4.20, 13.60, 'Non vivi o - o nvi gboon mavomavo.', "IntroSerif", "intro"),
+    raw_events = [
+        (0.00, 2.20, "Wolof TechStein beat wê!", "HookGold", "intro"),
+        (2.40, 13.60, "Non vivi o - o nvi gboon mavomavo.", "IntroSerif", "intro"),
+        (14.00, 17.00, "Hwenu e mon non ji gbonton o ji", "VerseMono", "verse1"),
+        (17.00, 20.00, "Before the world could call my name", "VerseMono", "verse1"),
+        (20.00, 23.90, "Le jour où tu m'as tenu dans tes bras", "VerseMono", "verse1"),
+        (23.90, 27.90, "You already knew my soul", "VerseMono", "verse1"),
+        (27.90, 31.00, "Azoon lon bo - wo a toln kpo", "VerseMono", "verse1"),
+        (31.00, 35.00, "Every storm, you stood in the rain", "VerseMono", "verse1"),
+        (35.00, 37.00, "Toutes les nuits - tu as veillé", "VerseMono", "verse1"),
+        (37.00, 41.90, "So I could stay warm, so I could remain", "VerseMono", "verse1"),
+        (41.90, 45.00, "Non vivi o - a non da nu mi", "VerseMono", "verse1"),
+        (45.00, 48.00, "Ton amour - tu me l'as donné", "VerseMono", "verse1"),
+        (48.00, 52.00, "No words can hold what you gave", "VerseMono", "verse1"),
+        (52.00, 54.00, "A love too wide, too deep for the grave", "VerseMono", "verse1"),
+        (54.00, 58.00, "Mama tche - you are my one", "RefrainGold", "refrain1"),
+        (58.00, 62.00, "Mama tche - my only sun", "RefrainGold", "refrain1"),
+        (62.00, 65.00, "Gboon ce o - tu es ma vie", "RefrainGold", "refrain1"),
+        (65.00, 68.00, "Ma mère unique - forever with me", "RefrainGold", "refrain1"),
+        (68.00, 72.00, "Even if the sky forgets my name", "RefrainGold", "refrain1"),
+        (72.00, 76.00, "Even if I'm lost, you guide my way", "RefrainGold", "refrain1"),
+        (76.00, 80.00, "Mama tche - mi non no fi", "RefrainGold", "refrain1"),
+        (80.00, 86.00, "I hear you say - I'm here, I'll stay", "RefrainGold", "refrain1"),
+        (86.00, 87.60, "Wolof TechStein beat wê!", "HookGold", "hook_break"),
+        (87.60, 90.00, "Hwenu e a yi - nyi ma se o", "VerseSans", "verse2"),
+        (90.00, 94.00, "The silence you left was a kind of sound", "VerseSans", "verse2"),
+        (94.00, 97.00, "Le jour où tu es partie - je n'entendais pas", "VerseSans", "verse2"),
+        (97.00, 101.00, "Like a bell that rings with no one around", "VerseSans", "verse2"),
+        (101.00, 104.00, "Non e a do mi - o non no nyi mon", "VerseSans", "verse2"),
+        (104.00, 107.80, "In every choice, in every step I take", "VerseSans", "verse2"),
+        (107.80, 111.00, "Ce que tu m'as laissé - vit encore en moi", "VerseSans", "verse2"),
+        (111.00, 115.00, "I carry your heart - it will never break", "VerseSans", "verse2"),
+        (115.00, 118.00, "Non vivi o - o ku kpoonon", "VerseSans", "verse2"),
+        (118.00, 122.00, "Ton amour - il ne meurt jamais", "VerseSans", "verse2"),
+        (122.00, 125.00, "Death could not take what you gave", "VerseSans", "verse2"),
+        (125.00, 128.00, "A flame still burning beyond the grave", "VerseSans", "verse2"),
+        (128.00, 131.00, "Mama tche - you are my one", "RefrainGold", "refrain2"),
+        (131.00, 135.00, "Mama tche - my only sun", "RefrainGold", "refrain2"),
+        (135.00, 138.00, "Gboon ce o - tu es ma vie", "RefrainGold", "refrain2"),
+        (138.00, 142.00, "Ma mère unique - forever with me", "RefrainGold", "refrain2"),
+        (142.00, 145.00, "Even if the sky forgets my name", "RefrainGold", "refrain2"),
+        (145.00, 149.00, "Even if I'm lost, you guide my way", "RefrainGold", "refrain2"),
+        (149.00, 153.80, "Mama tche - mi non no fi", "RefrainGold", "refrain2"),
+        (153.80, 160.00, "I hear you say - I'm here, I'll stay", "RefrainGold", "refrain2"),
+        (160.00, 162.00, "Mama...", "BridgeSerifCenter", "bridge"),
+        (162.00, 164.00, "A non no nyi sisi mon.", "BridgeSerifCenter", "bridge"),
+        (164.00, 167.00, "Tu vis dans mon souffle.", "BridgeSerifCenter", "bridge"),
+        (167.00, 170.00, "You never left.", "BridgeSerifCenter", "bridge"),
+        (170.00, 174.00, "Mon e nyi non - o nyi jon mawu.", "BridgeSerifCenter", "bridge"),
+        (174.00, 181.00, "Celle qui est mère - est un don du ciel.", "BridgeSerifCenter", "bridge"),
+        (181.00, 185.00, "MAMA TCHE - you are my one", "FinalRefrainGold", "final_refrain"),
+        (185.00, 189.00, "MAMA TCHE - my only sun", "FinalRefrainGold", "final_refrain"),
+        (189.00, 192.00, "Gboon ce o - tu es ma vie", "FinalRefrainGold", "final_refrain"),
+        (192.00, 195.90, "Ma mère unique - forever with me", "FinalRefrainGold", "final_refrain"),
+        (195.90, 199.00, "A yi - koonon non vivi o no fi", "FinalRefrainGold", "final_refrain"),
+        (199.00, 203.00, "Tu es partie - mais l'amour reste ici", "FinalRefrainGold", "final_refrain"),
+        (203.00, 210.00, "Every morning your voice still finds me", "FinalRefrainGold", "final_refrain"),
+        (210.00, 216.00, "Mama tche - eternally", "FinalRefrainGold", "final_refrain"),
+        (216.00, 220.00, "Wolof TechStein beat wê!", "HookGold", "outro_hook"),
+        (220.00, 224.00, "Mama tche... Mama tche...", "HookGold", "outro_hook"),
+        (224.00, 229.00, '"Mon e nyi non - o nyi gboon mavomavo."', "OutroSerif", "outro"),
+        (229.00, 234.00, '"Celle qui est mère - est lumière pour toujours."', "OutroSerif", "outro"),
     ]
-
-    parsed: List[Tuple[float, Optional[float], str]] = []
-    time_pattern = re.compile(r"\d+\s*:\s*\d+(?:\.\d+)?")
-    for ln in lines:
-        if not ln or ln.startswith("Wolof TechStein beat wê!") or "nvi gboon mavomavo" in ln:
-            continue
-        matches = time_pattern.findall(ln)
-        if not matches:
-            continue
-        starts = [ts_to_seconds(m) for m in matches]
-        start = starts[0]
-        explicit_end = starts[1] if len(starts) > 1 else None
-        cleaned = clean_lyric_text(ln)
-        if not cleaned:
-            continue
-        parsed.append((start, explicit_end, cleaned))
-
-    parsed.sort(key=lambda x: x[0])
-
-    # Manually insert the repeated untimed tag before the outro section.
-    parsed.append((219.40, None, "Wolof TechStein beat wê!"))
-    parsed.sort(key=lambda x: x[0])
-
-    for idx, (start, explicit_end, txt) in enumerate(parsed):
-        if explicit_end is not None and explicit_end > start:
-            end = explicit_end
-        else:
-            next_start = parsed[idx + 1][0] if idx + 1 < len(parsed) else VIDEO_DURATION
-            end = next_start
-        style, section = subtitle_style_for(start)
-        events.append(SubtitleEvent(start, max(start + 0.8, end), txt, style, section))
-
-    # Add the final quote with exact last timing if not covered till the end.
-    events = sorted(events, key=lambda e: e.start)
-    trimmed: List[SubtitleEvent] = []
-    for i, ev in enumerate(events):
-        if i + 1 < len(events):
-            hard_end = min(ev.end, events[i + 1].start)
-        else:
-            hard_end = ev.end
-        trimmed.append(SubtitleEvent(ev.start, hard_end, wrap_subtitle(ev.text), ev.style, ev.section))
-
-    # Ensure final subtitle reaches the song end cleanly.
-    if trimmed:
-        last = trimmed[-1]
-        if last.end < VIDEO_DURATION:
-            trimmed[-1] = SubtitleEvent(last.start, VIDEO_DURATION, last.text, last.style, last.section)
-
-    return trimmed
+    return [SubtitleEvent(start, end, wrap_subtitle(text), style, section) for start, end, text, style, section in raw_events]
 
 
 def build_segments() -> List[Segment]:
@@ -208,34 +215,34 @@ def build_segments() -> List[Segment]:
     boundaries = [
         0.0,
         14.0,
-        23.9,
-        31.0,
+        20.0,
+        27.9,
+        35.0,
         41.9,
-        52.0,
+        48.0,
+        54.0,
         58.0,
         65.0,
         72.0,
         80.0,
-        90.0,
-        97.0,
-        104.0,
-        111.0,
-        118.0,
-        125.0,
-        131.0,
-        138.0,
-        145.0,
-        153.8,
-        162.0,
+        87.6,
+        94.0,
+        101.0,
+        107.8,
+        115.0,
+        122.0,
+        128.0,
+        135.0,
+        142.0,
+        149.0,
+        160.0,
         167.0,
         174.0,
         181.0,
         189.0,
         195.9,
         203.0,
-        210.0,
         216.0,
-        229.0,
         240.0,
     ]
     pans = ["center", "up", "down", "left", "right", "center", "up", "right", "left", "down"]
@@ -295,14 +302,14 @@ YCbCr Matrix: TV.601
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: IntroSerif,DejaVu Serif,50,&H00F8F2E7,&H000000FF,&H002A714C,&H55000000,1,0,0,0,100,100,0,0,1,3.2,1.2,2,120,120,360,1
-Style: VerseMono,DejaVu Sans Mono,50,&H00F8F2E7,&H000000FF,&H002A714C,&H55000000,1,0,0,0,100,100,0.3,0,1,3.4,1.2,2,90,90,{SAFE_SUB_MARGIN},1
-Style: VerseSans,DejaVu Sans,50,&H00F8F2E7,&H000000FF,&H002A714C,&H55000000,1,0,0,0,100,100,0.3,0,1,3.4,1.2,2,90,90,{SAFE_SUB_MARGIN},1
-Style: RefrainGold,DejaVu Sans,58,&H00F4C95D,&H000000FF,&H00145A3B,&H66000000,1,0,0,0,100,100,0.5,0,1,3.8,1.4,2,88,88,{SAFE_SUB_MARGIN},1
-Style: FinalRefrainGold,DejaVu Sans,62,&H00F4C95D,&H000000FF,&H00145A3B,&H66000000,1,0,0,0,100,100,0.6,0,1,4.0,1.5,2,86,86,{SAFE_SUB_MARGIN},1
-Style: BridgeSerifCenter,DejaVu Serif,54,&H00F8F2E7,&H000000FF,&H002A714C,&H66000000,1,0,0,0,100,100,0.2,0,1,3.6,1.2,5,110,110,0,1
-Style: HookGold,DejaVu Sans,60,&H00F4C95D,&H000000FF,&H00145A3B,&H66000000,1,0,0,0,100,100,0.8,0,1,4.0,1.4,2,100,100,{SAFE_SUB_MARGIN},1
-Style: OutroSerif,DejaVu Serif,50,&H00F8F2E7,&H000000FF,&H002A714C,&H66000000,1,0,0,0,100,100,0.2,0,1,3.6,1.2,2,100,100,{SAFE_SUB_MARGIN},1
+Style: IntroSerif,DejaVu Serif,54,&H00F8F2E7,&H000000FF,&H002A714C,&H65000000,1,1,0,0,100,100,0.3,0,1,3.6,1.3,2,110,110,360,1
+Style: VerseMono,DejaVu Serif,52,&H00F8F2E7,&H000000FF,&H00145A3B,&H62000000,1,0,0,0,100,100,0.2,0,1,3.6,1.3,2,90,90,{SAFE_SUB_MARGIN},1
+Style: VerseSans,DejaVu Sans,50,&H00F8F2E7,&H000000FF,&H00145A3B,&H62000000,1,0,0,0,100,100,0.3,0,1,3.4,1.2,2,90,90,{SAFE_SUB_MARGIN},1
+Style: RefrainGold,DejaVu Sans,60,&H00F4C95D,&H000000FF,&H00145A3B,&H68000000,1,0,0,0,100,100,0.8,0,1,4.2,1.5,2,86,86,{SAFE_SUB_MARGIN},1
+Style: FinalRefrainGold,DejaVu Sans,66,&H00F4C95D,&H000000FF,&H00145A3B,&H6E000000,1,0,0,0,100,100,1.0,0,1,4.4,1.7,2,82,82,{SAFE_SUB_MARGIN},1
+Style: BridgeSerifCenter,DejaVu Serif,58,&H00F8F2E7,&H000000FF,&H002A714C,&H68000000,1,1,0,0,100,100,0.4,0,1,3.8,1.3,5,110,110,0,1
+Style: HookGold,DejaVu Sans,64,&H00F4C95D,&H000000FF,&H00145A3B,&H70000000,1,0,0,0,100,100,1.2,0,1,4.4,1.6,2,94,94,{SAFE_SUB_MARGIN},1
+Style: OutroSerif,DejaVu Serif,52,&H00F8F2E7,&H000000FF,&H002A714C,&H68000000,1,1,0,0,100,100,0.3,0,1,3.8,1.3,2,100,100,{SAFE_SUB_MARGIN},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

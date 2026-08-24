@@ -8,74 +8,75 @@ YCbCr Matrix: TV.601
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: IntroSerif,DejaVu Serif,50,&H00F8F2E7,&H000000FF,&H002A714C,&H55000000,1,0,0,0,100,100,0,0,1,3.2,1.2,2,120,120,360,1
-Style: VerseMono,DejaVu Sans Mono,50,&H00F8F2E7,&H000000FF,&H002A714C,&H55000000,1,0,0,0,100,100,0.3,0,1,3.4,1.2,2,90,90,330,1
-Style: VerseSans,DejaVu Sans,50,&H00F8F2E7,&H000000FF,&H002A714C,&H55000000,1,0,0,0,100,100,0.3,0,1,3.4,1.2,2,90,90,330,1
-Style: RefrainGold,DejaVu Sans,58,&H00F4C95D,&H000000FF,&H00145A3B,&H66000000,1,0,0,0,100,100,0.5,0,1,3.8,1.4,2,88,88,330,1
-Style: FinalRefrainGold,DejaVu Sans,62,&H00F4C95D,&H000000FF,&H00145A3B,&H66000000,1,0,0,0,100,100,0.6,0,1,4.0,1.5,2,86,86,330,1
-Style: BridgeSerifCenter,DejaVu Serif,54,&H00F8F2E7,&H000000FF,&H002A714C,&H66000000,1,0,0,0,100,100,0.2,0,1,3.6,1.2,5,110,110,0,1
-Style: HookGold,DejaVu Sans,60,&H00F4C95D,&H000000FF,&H00145A3B,&H66000000,1,0,0,0,100,100,0.8,0,1,4.0,1.4,2,100,100,330,1
-Style: OutroSerif,DejaVu Serif,50,&H00F8F2E7,&H000000FF,&H002A714C,&H66000000,1,0,0,0,100,100,0.2,0,1,3.6,1.2,2,100,100,330,1
+Style: IntroSerif,DejaVu Serif,54,&H00F8F2E7,&H000000FF,&H002A714C,&H65000000,1,1,0,0,100,100,0.3,0,1,3.6,1.3,2,110,110,360,1
+Style: VerseMono,DejaVu Serif,52,&H00F8F2E7,&H000000FF,&H00145A3B,&H62000000,1,0,0,0,100,100,0.2,0,1,3.6,1.3,2,90,90,330,1
+Style: VerseSans,DejaVu Sans,50,&H00F8F2E7,&H000000FF,&H00145A3B,&H62000000,1,0,0,0,100,100,0.3,0,1,3.4,1.2,2,90,90,330,1
+Style: RefrainGold,DejaVu Sans,60,&H00F4C95D,&H000000FF,&H00145A3B,&H68000000,1,0,0,0,100,100,0.8,0,1,4.2,1.5,2,86,86,330,1
+Style: FinalRefrainGold,DejaVu Sans,66,&H00F4C95D,&H000000FF,&H00145A3B,&H6E000000,1,0,0,0,100,100,1.0,0,1,4.4,1.7,2,82,82,330,1
+Style: BridgeSerifCenter,DejaVu Serif,58,&H00F8F2E7,&H000000FF,&H002A714C,&H68000000,1,1,0,0,100,100,0.4,0,1,3.8,1.3,5,110,110,0,1
+Style: HookGold,DejaVu Sans,64,&H00F4C95D,&H000000FF,&H00145A3B,&H70000000,1,0,0,0,100,100,1.2,0,1,4.4,1.6,2,94,94,330,1
+Style: OutroSerif,DejaVu Serif,52,&H00F8F2E7,&H000000FF,&H002A714C,&H68000000,1,1,0,0,100,100,0.3,0,1,3.8,1.3,2,100,100,330,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:03.80,HookGold,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê!
-Dialogue: 0,0:00:04.20,0:00:13.60,IntroSerif,,0,0,0,,{\fad(140,140)}Non vivi o - o nvi gboon\Nmavomavo.
+Dialogue: 0,0:00:00.00,0:00:02.20,HookGold,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê!
+Dialogue: 0,0:00:02.40,0:00:13.60,IntroSerif,,0,0,0,,{\fad(140,140)}Non vivi o - o nvi gboon\Nmavomavo.
 Dialogue: 0,0:00:14.00,0:00:17.00,VerseMono,,0,0,0,,{\fad(140,140)}Hwenu e mon non ji gbonton o\Nji
-Dialogue: 0,0:00:20.00,0:00:23.90,VerseMono,,0,0,0,,{\fad(140,140)}Before the world could call\Nmy name
-Dialogue: 0,0:00:23.90,0:00:27.90,VerseMono,,0,0,0,,{\fad(140,140)}Le jour où tu m'as tenu dans\Ntes bras
-Dialogue: 0,0:00:27.90,0:00:31.00,VerseMono,,0,0,0,,{\fad(140,140)}You already knew my soul
-Dialogue: 0,0:00:31.00,0:00:35.00,VerseMono,,0,0,0,,{\fad(140,140)}Azoon lon bo - wo a toln kpo
-Dialogue: 0,0:00:35.00,0:00:37.00,VerseMono,,0,0,0,,{\fad(140,140)}Every storm, you stood in\Nthe rain
-Dialogue: 0,0:00:37.00,0:00:41.90,VerseMono,,0,0,0,,{\fad(140,140)}Toutes les nuits - tu as\Nveillé
-Dialogue: 0,0:00:41.90,0:00:45.00,VerseMono,,0,0,0,,{\fad(140,140)}So I could stay warm, so I\Ncould remain
-Dialogue: 0,0:00:45.00,0:00:48.00,VerseMono,,0,0,0,,{\fad(140,140)}Non vivi o - a non da nu mi
-Dialogue: 0,0:00:48.00,0:00:52.00,VerseMono,,0,0,0,,{\fad(140,140)}Ton amour - tu me l'as donné
-Dialogue: 0,0:00:52.00,0:00:54.00,VerseMono,,0,0,0,,{\fad(140,140)}No words can hold what you\Ngave
-Dialogue: 0,0:00:54.00,0:00:58.00,VerseMono,,0,0,0,,{\fad(140,140)}A love too wide, too deep\Nfor the grave
-Dialogue: 0,0:00:58.00,0:01:02.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - you are my one
-Dialogue: 0,0:01:02.00,0:01:05.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - my only sun
-Dialogue: 0,0:01:05.00,0:01:08.00,RefrainGold,,0,0,0,,{\fad(140,140)}Gboon ce o - tu es ma vie
-Dialogue: 0,0:01:08.00,0:01:12.00,RefrainGold,,0,0,0,,{\fad(140,140)}Ma mère unique - forever\Nwith me
-Dialogue: 0,0:01:12.00,0:01:16.00,RefrainGold,,0,0,0,,{\fad(140,140)}Even if the sky forgets my\Nname
-Dialogue: 0,0:01:16.00,0:01:20.00,RefrainGold,,0,0,0,,{\fad(140,140)}Even if I'm lost, you guide\Nmy way
-Dialogue: 0,0:01:20.00,0:01:26.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - mi non no fi
-Dialogue: 0,0:01:26.00,0:01:30.00,RefrainGold,,0,0,0,,{\fad(140,140)}I hear you say - I'm here,\NI'll stay
-Dialogue: 0,0:01:30.00,0:01:34.00,VerseSans,,0,0,0,,{\fad(140,140)}Hwenu e a yi - nyi ma se o
-Dialogue: 0,0:01:34.00,0:01:37.00,VerseSans,,0,0,0,,{\fad(140,140)}The silence you left was a\Nkind of sound
-Dialogue: 0,0:01:37.00,0:01:41.00,VerseSans,,0,0,0,,{\fad(140,140)}Le jour où tu es partie - je\Nn'entendais pas
-Dialogue: 0,0:01:41.00,0:01:44.00,VerseSans,,0,0,0,,{\fad(140,140)}Like a bell that rings with\Nno one around
-Dialogue: 0,0:01:44.00,0:01:47.80,VerseSans,,0,0,0,,{\fad(140,140)}Non e a do mi - o non no nyi\Nmon
-Dialogue: 0,0:01:47.80,0:01:51.00,VerseSans,,0,0,0,,{\fad(140,140)}In every choice, in every\Nstep I take
-Dialogue: 0,0:01:51.00,0:01:55.00,VerseSans,,0,0,0,,{\fad(140,140)}Ce que tu m'as laissé - vit\Nencore en moi
-Dialogue: 0,0:01:55.00,0:01:58.00,VerseSans,,0,0,0,,{\fad(140,140)}I carry your heart - it will\Nnever break
-Dialogue: 0,0:01:58.00,0:02:02.00,VerseSans,,0,0,0,,{\fad(140,140)}Non vivi o - o ku kpoonon
-Dialogue: 0,0:02:02.00,0:02:05.00,VerseSans,,0,0,0,,{\fad(140,140)}Ton amour - il ne meurt\Njamais
-Dialogue: 0,0:02:05.00,0:02:08.00,VerseSans,,0,0,0,,{\fad(140,140)}Death could not take what\Nyou gave
-Dialogue: 0,0:02:08.00,0:02:11.00,VerseSans,,0,0,0,,{\fad(140,140)}A flame still burning beyond\Nthe grave
-Dialogue: 0,0:02:11.00,0:02:15.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - you are my one
-Dialogue: 0,0:02:15.00,0:02:18.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - my only sun
-Dialogue: 0,0:02:18.00,0:02:22.00,RefrainGold,,0,0,0,,{\fad(140,140)}Gboon ce o - tu es ma vie
-Dialogue: 0,0:02:22.00,0:02:25.00,RefrainGold,,0,0,0,,{\fad(140,140)}Ma mère unique - forever\Nwith me
-Dialogue: 0,0:02:25.00,0:02:29.00,RefrainGold,,0,0,0,,{\fad(140,140)}Even if the sky forgets my\Nname
-Dialogue: 0,0:02:29.00,0:02:33.80,RefrainGold,,0,0,0,,{\fad(140,140)}Even if I'm lost, you guide\Nmy way
-Dialogue: 0,0:02:33.80,0:02:40.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - mi non no fi
-Dialogue: 0,0:02:40.00,0:02:42.00,RefrainGold,,0,0,0,,{\fad(140,140)}I hear you say - I'm here,\NI'll stay
-Dialogue: 0,0:02:42.00,0:02:44.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}Mama...
-Dialogue: 0,0:02:44.00,0:02:47.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}A non no nyi sisi mon.
-Dialogue: 0,0:02:47.00,0:02:50.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}Tu vis dans mon souffle.
-Dialogue: 0,0:02:50.00,0:02:54.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}You never left.
-Dialogue: 0,0:02:54.00,0:03:01.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}Mon e nyi non - o nyi jon\Nmawu.
-Dialogue: 0,0:03:01.00,0:03:05.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}Celle qui est mère - est un\Ndon du ciel.
-Dialogue: 0,0:03:05.00,0:03:09.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}MAMA TCHE - you are my one
-Dialogue: 0,0:03:09.00,0:03:12.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}MAMA TCHE - my only sun
-Dialogue: 0,0:03:12.00,0:03:15.90,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Gboon ce o - tu es ma vie
-Dialogue: 0,0:03:15.90,0:03:19.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Ma mère unique - forever\Nwith me
-Dialogue: 0,0:03:19.00,0:03:23.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}A yi - koonon non vivi o no\Nfi
-Dialogue: 0,0:03:23.00,0:03:30.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Tu es partie - mais l'amour\Nreste ici
-Dialogue: 0,0:03:30.00,0:03:36.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Every morning your voice\Nstill finds me
-Dialogue: 0,0:03:36.00,0:03:39.40,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - eternally
-Dialogue: 0,0:03:39.40,0:03:44.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê!
-Dialogue: 0,0:03:44.00,0:03:49.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Mama tche... Mama tche...
-Dialogue: 0,0:03:49.00,0:03:54.00,OutroSerif,,0,0,0,,{\fad(140,140)}"Mon e nyi non - o nyi gboon\Nmavomavo."
-Dialogue: 0,0:03:54.00,0:04:00.00,OutroSerif,,0,0,0,,{\fad(140,140)}"Celle qui est mère - est\Nlumière pour toujours."
+Dialogue: 0,0:00:17.00,0:00:20.00,VerseMono,,0,0,0,,{\fad(140,140)}Before the world could call\Nmy name
+Dialogue: 0,0:00:20.00,0:00:23.90,VerseMono,,0,0,0,,{\fad(140,140)}Le jour où tu m'as tenu dans\Ntes bras
+Dialogue: 0,0:00:23.90,0:00:27.90,VerseMono,,0,0,0,,{\fad(140,140)}You already knew my soul
+Dialogue: 0,0:00:27.90,0:00:31.00,VerseMono,,0,0,0,,{\fad(140,140)}Azoon lon bo - wo a toln kpo
+Dialogue: 0,0:00:31.00,0:00:35.00,VerseMono,,0,0,0,,{\fad(140,140)}Every storm, you stood in\Nthe rain
+Dialogue: 0,0:00:35.00,0:00:37.00,VerseMono,,0,0,0,,{\fad(140,140)}Toutes les nuits - tu as\Nveillé
+Dialogue: 0,0:00:37.00,0:00:41.90,VerseMono,,0,0,0,,{\fad(140,140)}So I could stay warm, so I\Ncould remain
+Dialogue: 0,0:00:41.90,0:00:45.00,VerseMono,,0,0,0,,{\fad(140,140)}Non vivi o - a non da nu mi
+Dialogue: 0,0:00:45.00,0:00:48.00,VerseMono,,0,0,0,,{\fad(140,140)}Ton amour - tu me l'as donné
+Dialogue: 0,0:00:48.00,0:00:52.00,VerseMono,,0,0,0,,{\fad(140,140)}No words can hold what you\Ngave
+Dialogue: 0,0:00:52.00,0:00:54.00,VerseMono,,0,0,0,,{\fad(140,140)}A love too wide, too deep\Nfor the grave
+Dialogue: 0,0:00:54.00,0:00:58.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - you are my one
+Dialogue: 0,0:00:58.00,0:01:02.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - my only sun
+Dialogue: 0,0:01:02.00,0:01:05.00,RefrainGold,,0,0,0,,{\fad(140,140)}Gboon ce o - tu es ma vie
+Dialogue: 0,0:01:05.00,0:01:08.00,RefrainGold,,0,0,0,,{\fad(140,140)}Ma mère unique - forever\Nwith me
+Dialogue: 0,0:01:08.00,0:01:12.00,RefrainGold,,0,0,0,,{\fad(140,140)}Even if the sky forgets my\Nname
+Dialogue: 0,0:01:12.00,0:01:16.00,RefrainGold,,0,0,0,,{\fad(140,140)}Even if I'm lost, you guide\Nmy way
+Dialogue: 0,0:01:16.00,0:01:20.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - mi non no fi
+Dialogue: 0,0:01:20.00,0:01:26.00,RefrainGold,,0,0,0,,{\fad(140,140)}I hear you say - I'm here,\NI'll stay
+Dialogue: 0,0:01:26.00,0:01:27.60,HookGold,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê!
+Dialogue: 0,0:01:27.60,0:01:30.00,VerseSans,,0,0,0,,{\fad(140,140)}Hwenu e a yi - nyi ma se o
+Dialogue: 0,0:01:30.00,0:01:34.00,VerseSans,,0,0,0,,{\fad(140,140)}The silence you left was a\Nkind of sound
+Dialogue: 0,0:01:34.00,0:01:37.00,VerseSans,,0,0,0,,{\fad(140,140)}Le jour où tu es partie - je\Nn'entendais pas
+Dialogue: 0,0:01:37.00,0:01:41.00,VerseSans,,0,0,0,,{\fad(140,140)}Like a bell that rings with\Nno one around
+Dialogue: 0,0:01:41.00,0:01:44.00,VerseSans,,0,0,0,,{\fad(140,140)}Non e a do mi - o non no nyi\Nmon
+Dialogue: 0,0:01:44.00,0:01:47.80,VerseSans,,0,0,0,,{\fad(140,140)}In every choice, in every\Nstep I take
+Dialogue: 0,0:01:47.80,0:01:51.00,VerseSans,,0,0,0,,{\fad(140,140)}Ce que tu m'as laissé - vit\Nencore en moi
+Dialogue: 0,0:01:51.00,0:01:55.00,VerseSans,,0,0,0,,{\fad(140,140)}I carry your heart - it will\Nnever break
+Dialogue: 0,0:01:55.00,0:01:58.00,VerseSans,,0,0,0,,{\fad(140,140)}Non vivi o - o ku kpoonon
+Dialogue: 0,0:01:58.00,0:02:02.00,VerseSans,,0,0,0,,{\fad(140,140)}Ton amour - il ne meurt\Njamais
+Dialogue: 0,0:02:02.00,0:02:05.00,VerseSans,,0,0,0,,{\fad(140,140)}Death could not take what\Nyou gave
+Dialogue: 0,0:02:05.00,0:02:08.00,VerseSans,,0,0,0,,{\fad(140,140)}A flame still burning beyond\Nthe grave
+Dialogue: 0,0:02:08.00,0:02:11.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - you are my one
+Dialogue: 0,0:02:11.00,0:02:15.00,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - my only sun
+Dialogue: 0,0:02:15.00,0:02:18.00,RefrainGold,,0,0,0,,{\fad(140,140)}Gboon ce o - tu es ma vie
+Dialogue: 0,0:02:18.00,0:02:22.00,RefrainGold,,0,0,0,,{\fad(140,140)}Ma mère unique - forever\Nwith me
+Dialogue: 0,0:02:22.00,0:02:25.00,RefrainGold,,0,0,0,,{\fad(140,140)}Even if the sky forgets my\Nname
+Dialogue: 0,0:02:25.00,0:02:29.00,RefrainGold,,0,0,0,,{\fad(140,140)}Even if I'm lost, you guide\Nmy way
+Dialogue: 0,0:02:29.00,0:02:33.80,RefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - mi non no fi
+Dialogue: 0,0:02:33.80,0:02:40.00,RefrainGold,,0,0,0,,{\fad(140,140)}I hear you say - I'm here,\NI'll stay
+Dialogue: 0,0:02:40.00,0:02:42.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}Mama...
+Dialogue: 0,0:02:42.00,0:02:44.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}A non no nyi sisi mon.
+Dialogue: 0,0:02:44.00,0:02:47.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}Tu vis dans mon souffle.
+Dialogue: 0,0:02:47.00,0:02:50.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}You never left.
+Dialogue: 0,0:02:50.00,0:02:54.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}Mon e nyi non - o nyi jon\Nmawu.
+Dialogue: 0,0:02:54.00,0:03:01.00,BridgeSerifCenter,,0,0,0,,{\fad(140,140)}Celle qui est mère - est un\Ndon du ciel.
+Dialogue: 0,0:03:01.00,0:03:05.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}MAMA TCHE - you are my one
+Dialogue: 0,0:03:05.00,0:03:09.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}MAMA TCHE - my only sun
+Dialogue: 0,0:03:09.00,0:03:12.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Gboon ce o - tu es ma vie
+Dialogue: 0,0:03:12.00,0:03:15.90,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Ma mère unique - forever\Nwith me
+Dialogue: 0,0:03:15.90,0:03:19.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}A yi - koonon non vivi o no\Nfi
+Dialogue: 0,0:03:19.00,0:03:23.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Tu es partie - mais l'amour\Nreste ici
+Dialogue: 0,0:03:23.00,0:03:30.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Every morning your voice\Nstill finds me
+Dialogue: 0,0:03:30.00,0:03:36.00,FinalRefrainGold,,0,0,0,,{\fad(140,140)}Mama tche - eternally
+Dialogue: 0,0:03:36.00,0:03:40.00,HookGold,,0,0,0,,{\fad(140,140)}Wolof TechStein beat wê!
+Dialogue: 0,0:03:40.00,0:03:44.00,HookGold,,0,0,0,,{\fad(140,140)}Mama tche... Mama tche...
+Dialogue: 0,0:03:44.00,0:03:49.00,OutroSerif,,0,0,0,,{\fad(140,140)}"Mon e nyi non - o nyi gboon\Nmavomavo."
+Dialogue: 0,0:03:49.00,0:03:54.00,OutroSerif,,0,0,0,,{\fad(140,140)}"Celle qui est mère - est\Nlumière pour toujours."
