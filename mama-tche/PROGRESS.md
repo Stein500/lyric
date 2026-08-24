@@ -20,8 +20,8 @@
 - [x] Session 01 — Générer 10 images 9:16
 - [x] Session 02 — Générer 10 images 9:16
 - [x] Session 03 — Générer 10 images 9:16
-- [ ] Validation visuelle des 30 images 9:16
-- [ ] Déclinaisons / incrustations / montage / exports
+- [x] Validation visuelle des 30 images 9:16
+- [x] Déclinaisons / incrustations / montage / exports 9:16
 - [ ] Retag MP3 final
 
 ## Charte graphique validée de travail
@@ -95,6 +95,13 @@
 - Session 03 poursuit la même charte, avec une montée en **spiritualité**, **présence éternelle** et **regards d’enfants encore plus expressifs**.
 - Session 03 générée dans `mama-tche/assets/raw/9x16/session03/`.
 - Planche contact Session 03 : `mama-tche/livrables/session03_contact_9x16.jpg`.
-- Les **30 images 9:16** sont maintenant générées ; prochaine étape = **validation visuelle globale** puis déclinaisons/incrustations.
+- Les **30 images 9:16** ont servi au montage final Reel/TikTok/Shorts.
 - Planche contact globale : `mama-tche/livrables/all_30_contact_9x16.jpg`.
+- `manifest.json` créé : `mama-tche/src/manifest.json`.
+- Sous-titres ASS créés : `mama-tche/src/mama_tche_subtitles.ass`.
+- Vidéo finale 9:16 créée : `mama-tche/livrables/Mama_tche_Daïsky_Lyrics_9x16.mp4`.
+- Cover 9:16 créée : `mama-tche/livrables/Cover_Mama_tche_Daïsky_1080x1920.jpg`.
+- Pochette carrée créée : `mama-tche/livrables/pochette_Mama_tche_Daïsky_1400.jpg`.
+- Sous-titres utilisés : **ligne chantée uniquement** (sans les traductions entre parenthèses), avec styles variés par section.
+- Paramètres vidéo confirmés : **1080×1920, 30 fps, durée 4:00.00, AAC 48 kHz**.
 - Rappel demandé par l’utilisateur : **sauvegarder souvent et faire des commits/push GitHub pour éviter toute perte**.
