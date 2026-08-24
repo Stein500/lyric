@@ -29,7 +29,7 @@
 - [ ] Session 02 — Générer 10 images 16:9
 - [ ] Session 03 — Générer 10 images 16:9
 - [ ] Montage / exports 16:9 YouTube
-- [ ] Retag MP3 final
+- [x] Retag MP3 final
 
 ## Charte graphique validée de travail
 ### Palette
@@ -115,4 +115,7 @@
 - Les images 16:9 doivent rester les **mêmes scènes** que les 9:16, simplement **recomposées horizontalement** avec environnement élargi.
 - Session 01 16:9 générée dans `mama-tche/assets/raw/16x9/session01/`.
 - Planche contact Session 01 16:9 : `mama-tche/livrables/session01_contact_16x9.jpg`.
+- Le générateur d’images a atteint sa **limite de 10 images sur ce tour**, donc les sessions 02 et 03 en 16:9 devront continuer au **tour suivant**.
+- MP3 propre créé : `mama-tche/livrables/Mama_tche_Daïsky_clean.mp3`.
+- Vérification binaire effectuée : **0 occurrence de `suno` et `c2pa`** dans le MP3 propre.
 - Rappel demandé par l’utilisateur : **sauvegarder souvent et faire des commits/push GitHub pour éviter toute perte**.
