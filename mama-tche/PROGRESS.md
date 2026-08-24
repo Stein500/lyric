@@ -10,6 +10,9 @@
 - `mama-tche/assets/raw/9x16/session01/`
 - `mama-tche/assets/raw/9x16/session02/`
 - `mama-tche/assets/raw/9x16/session03/`
+- `mama-tche/assets/raw/16x9/session01/`
+- `mama-tche/assets/raw/16x9/session02/`
+- `mama-tche/assets/raw/16x9/session03/`
 - `mama-tche/assets/images/`
 - `mama-tche/src/`
 - `mama-tche/livrables/`
@@ -22,6 +25,10 @@
 - [x] Session 03 — Générer 10 images 9:16
 - [x] Validation visuelle des 30 images 9:16
 - [x] Déclinaisons / incrustations / montage / exports 9:16
+- [x] Session 01 — Générer 10 images 16:9
+- [ ] Session 02 — Générer 10 images 16:9
+- [ ] Session 03 — Générer 10 images 16:9
+- [ ] Montage / exports 16:9 YouTube
 - [ ] Retag MP3 final
 
 ## Charte graphique validée de travail
@@ -104,4 +111,8 @@
 - Pochette carrée créée : `mama-tche/livrables/pochette_Mama_tche_Daïsky_1400.jpg`.
 - Sous-titres utilisés : **ligne chantée uniquement** (sans les traductions entre parenthèses), avec styles variés par section.
 - Paramètres vidéo confirmés : **1080×1920, 30 fps, durée 4:00.00, AAC 48 kHz**.
+- Nouvelle étape demandée : **décliner toutes les scènes en paysage 16:9 pour YouTube**, puis rendre la version YouTube et nettoyer le MP3.
+- Les images 16:9 doivent rester les **mêmes scènes** que les 9:16, simplement **recomposées horizontalement** avec environnement élargi.
+- Session 01 16:9 générée dans `mama-tche/assets/raw/16x9/session01/`.
+- Planche contact Session 01 16:9 : `mama-tche/livrables/session01_contact_16x9.jpg`.
 - Rappel demandé par l’utilisateur : **sauvegarder souvent et faire des commits/push GitHub pour éviter toute perte**.
