@@ -130,4 +130,8 @@
 - Vérification binaire effectuée : **0 occurrence de `suno` et `c2pa`** dans le MP3 propre.
 - Paramètres vidéo YouTube confirmés : **1920×1080, 30 fps, durée 4:00.00, AAC 48 kHz**.
 - Les deux vidéos finales ont été **refaites après plainte utilisateur sur le timing**, avec nouveau minutage détaillé et styles de sous-titres plus jolis et plus variés.
+- Nouvelle demande utilisateur : produire aussi des versions **bilingues lyrics + traduction française**.
+- Versions bilingues créées : `mama-tche/livrables/Mama_tche_Daïsky_Lyrics_9x16_TRAD.mp4` et `mama-tche/livrables/Mama_tche_Daïsky_Lyrics_16x9_YT_TRAD.mp4`.
+- Fichiers sources bilingues créés : `mama-tche/src/mama_tche_bilingual.py`, `mama-tche/src/mama_tche_subtitles_trad.ass`, `mama-tche/src/mama_tche_subtitles_16x9_trad.ass`, `mama-tche/src/manifest_trad.json`, `mama-tche/src/manifest_16x9_trad.json`.
+- Règle appliquée pour ces versions : **original en haut + traduction française en dessous** ; si la ligne chantée est déjà en français, **une seule ligne française** est affichée.
 - Rappel demandé par l’utilisateur : **sauvegarder souvent et faire des commits/push GitHub pour éviter toute perte**.

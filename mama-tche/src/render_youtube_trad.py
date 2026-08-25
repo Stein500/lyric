@@ -1,0 +1,107 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import render_youtube as base
+from mama_tche_bilingual import build_ass_text, get_bilingual_cues
+
+ROOT = Path(__file__).resolve().parents[2]
+PROJECT = ROOT / "mama-tche"
+SRC_DIR = PROJECT / "src"
+OUT_DIR = PROJECT / "livrables"
+
+
+def build_manifest(segments) -> dict:
+    cues = get_bilingual_cues()
+    return {
+        "title": base.TITLE,
+        "artist": base.ARTIST,
+        "audio": base.AUDIO.name,
+        "duration": base.VIDEO_DURATION,
+        "format": "16x9",
+        "subtitle_mode": "original_plus_french_when_available",
+        "segments": [
+            {
+                "id": seg.id,
+                "image": str(seg.image.relative_to(PROJECT)),
+                "debut": round(seg.start, 3),
+                "fin": round(seg.end, 3),
+                "ken_burns": seg.ken_burns,
+                "pan": seg.pan,
+            }
+            for seg in segments
+        ],
+        "paroles": [
+            {
+                "debut": cue.start,
+                "fin": cue.end,
+                "original": cue.original,
+                "traduction_fr": cue.french,
+                "style": cue.style,
+                "section": cue.section,
+            }
+            for cue in cues
+        ],
+    }
+
+
+def write_ass_translated(dest: Path) -> None:
+    ass = f"""[Script Info]
+ScriptType: v4.00+
+PlayResX: {base.WIDTH}
+PlayResY: {base.HEIGHT}
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: IntroSerif,DejaVu Serif,48,&H00F8F2E7,&H000000FF,&H002A714C,&H65000000,1,1,0,0,100,100,0.2,0,1,3.4,1.3,2,120,120,120,1
+Style: IntroSerifFr,DejaVu Sans,30,&H00F6E6C8,&H000000FF,&H00145A3B,&H62000000,0,1,0,0,100,100,0.15,0,1,2.6,0.8,2,120,120,120,1
+Style: VerseMono,DejaVu Serif,46,&H00F8F2E7,&H000000FF,&H00145A3B,&H62000000,1,0,0,0,100,100,0.2,0,1,3.4,1.2,2,120,120,120,1
+Style: VerseMonoFr,DejaVu Sans,28,&H00F8EEDC,&H000000FF,&H00145A3B,&H62000000,0,1,0,0,100,100,0.1,0,1,2.5,0.8,2,120,120,120,1
+Style: VerseSans,DejaVu Sans,44,&H00F8F2E7,&H000000FF,&H00145A3B,&H62000000,1,0,0,0,100,100,0.2,0,1,3.2,1.2,2,120,120,120,1
+Style: VerseSansFr,DejaVu Serif,28,&H00F8EEDC,&H000000FF,&H00145A3B,&H62000000,0,1,0,0,100,100,0.1,0,1,2.5,0.8,2,120,120,120,1
+Style: RefrainGold,DejaVu Sans,54,&H00F4C95D,&H000000FF,&H00145A3B,&H68000000,1,0,0,0,100,100,0.8,0,1,4.0,1.5,2,108,108,124,1
+Style: RefrainGoldFr,DejaVu Serif,31,&H00F8F2E7,&H000000FF,&H00145A3B,&H65000000,1,1,0,0,100,100,0.15,0,1,2.8,0.9,2,108,108,124,1
+Style: FinalRefrainGold,DejaVu Sans,58,&H00F4C95D,&H000000FF,&H00145A3B,&H6E000000,1,0,0,0,100,100,0.9,0,1,4.2,1.6,2,100,100,128,1
+Style: FinalRefrainGoldFr,DejaVu Serif,33,&H00F8F2E7,&H000000FF,&H00145A3B,&H68000000,1,1,0,0,100,100,0.15,0,1,2.9,0.9,2,100,100,128,1
+Style: BridgeSerifCenter,DejaVu Serif,50,&H00F8F2E7,&H000000FF,&H002A714C,&H68000000,1,1,0,0,100,100,0.3,0,1,3.6,1.3,5,100,100,0,1
+Style: BridgeSerifCenterFr,DejaVu Sans,30,&H00F8EEDC,&H000000FF,&H00145A3B,&H64000000,0,1,0,0,100,100,0.1,0,1,2.5,0.8,5,100,100,0,1
+Style: HookGold,DejaVu Sans,52,&H00F4C95D,&H000000FF,&H00145A3B,&H70000000,1,0,0,0,100,100,1.0,0,1,4.2,1.6,2,108,108,124,1
+Style: HookGoldFr,DejaVu Serif,30,&H00F8F2E7,&H000000FF,&H00145A3B,&H68000000,1,1,0,0,100,100,0.15,0,1,2.8,0.9,2,108,108,124,1
+Style: OutroSerif,DejaVu Serif,46,&H00F8F2E7,&H000000FF,&H002A714C,&H68000000,1,1,0,0,100,100,0.2,0,1,3.6,1.3,2,120,120,120,1
+Style: OutroSerifFr,DejaVu Sans,28,&H00F8EEDC,&H000000FF,&H00145A3B,&H64000000,0,1,0,0,100,100,0.1,0,1,2.5,0.8,2,120,120,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+    lines = []
+    for cue in get_bilingual_cues():
+        text = build_ass_text(cue, width_main=58, width_fr=72)
+        lines.append(
+            f"Dialogue: 0,{base.ass_time(cue.start)},{base.ass_time(cue.end)},{cue.style},,0,0,0,,{{\\fad(140,140)}}{text}"
+        )
+    dest.write_text(ass + "\n".join(lines) + "\n", encoding="utf-8")
+
+
+def main() -> None:
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    segments = base.build_segments()
+    manifest_path = SRC_DIR / "manifest_16x9_trad.json"
+    ass_path = SRC_DIR / "mama_tche_subtitles_16x9_trad.ass"
+    bg_video = OUT_DIR / "Mama_tche_Daïsky_Lyrics_16x9_YT_TRAD_bg.mp4"
+    final_video = OUT_DIR / "Mama_tche_Daïsky_Lyrics_16x9_YT_TRAD.mp4"
+
+    manifest_path.write_text(json.dumps(build_manifest(segments), indent=2, ensure_ascii=False), encoding="utf-8")
+    write_ass_translated(ass_path)
+    base.render_silent_video(segments, bg_video)
+    base.mux_audio(bg_video, ass_path, final_video)
+    if bg_video.exists():
+        bg_video.unlink()
+    print(f"Done: {final_video}")
+
+
+if __name__ == "__main__":
+    main()

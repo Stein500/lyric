@@ -1,0 +1,740 @@
+{
+  "title": "Mama tché",
+  "artist": "Daïsky",
+  "audio": "Mama_tche_Daïsky.mp3",
+  "duration": 240.0,
+  "format": "16x9",
+  "subtitle_mode": "original_plus_french_when_available",
+  "segments": [
+    {
+      "id": "S01",
+      "image": "assets/raw/16x9/session01/S01_anchor_intro_16x9.jpg",
+      "debut": 0.0,
+      "fin": 14.0,
+      "ken_burns": "in",
+      "pan": "center"
+    },
+    {
+      "id": "S02",
+      "image": "assets/raw/16x9/session01/S02_first_arms_16x9.jpg",
+      "debut": 14.0,
+      "fin": 20.0,
+      "ken_burns": "out",
+      "pan": "left"
+    },
+    {
+      "id": "S03",
+      "image": "assets/raw/16x9/session01/S03_night_watch_16x9.jpg",
+      "debut": 20.0,
+      "fin": 27.9,
+      "ken_burns": "in",
+      "pan": "right"
+    },
+    {
+      "id": "S04",
+      "image": "assets/raw/16x9/session01/S04_storm_shield_16x9.jpg",
+      "debut": 27.9,
+      "fin": 35.0,
+      "ken_burns": "out",
+      "pan": "up"
+    },
+    {
+      "id": "S05",
+      "image": "assets/raw/16x9/session01/S05_love_given_16x9.jpg",
+      "debut": 35.0,
+      "fin": 41.9,
+      "ken_burns": "in",
+      "pan": "down"
+    },
+    {
+      "id": "S06",
+      "image": "assets/raw/16x9/session01/S06_love_beyond_words_16x9.jpg",
+      "debut": 41.9,
+      "fin": 48.0,
+      "ken_burns": "out",
+      "pan": "center"
+    },
+    {
+      "id": "S07",
+      "image": "assets/raw/16x9/session01/S07_my_only_sun_16x9.jpg",
+      "debut": 48.0,
+      "fin": 54.0,
+      "ken_burns": "in",
+      "pan": "center"
+    },
+    {
+      "id": "S08",
+      "image": "assets/raw/16x9/session01/S08_guide_my_way_16x9.jpg",
+      "debut": 54.0,
+      "fin": 58.0,
+      "ken_burns": "out",
+      "pan": "left"
+    },
+    {
+      "id": "S09",
+      "image": "assets/raw/16x9/session01/S09_im_here_ill_stay_16x9.jpg",
+      "debut": 58.0,
+      "fin": 65.0,
+      "ken_burns": "in",
+      "pan": "right"
+    },
+    {
+      "id": "S10",
+      "image": "assets/raw/16x9/session01/S10_transition_loss_memory_16x9.jpg",
+      "debut": 65.0,
+      "fin": 72.0,
+      "ken_burns": "out",
+      "pan": "up"
+    },
+    {
+      "id": "S11",
+      "image": "assets/raw/16x9/session02/S11_silence_left_behind_16x9.jpg",
+      "debut": 72.0,
+      "fin": 80.0,
+      "ken_burns": "in",
+      "pan": "down"
+    },
+    {
+      "id": "S12",
+      "image": "assets/raw/16x9/session02/S12_empty_bell_boy_16x9.jpg",
+      "debut": 80.0,
+      "fin": 87.6,
+      "ken_burns": "out",
+      "pan": "center"
+    },
+    {
+      "id": "S13",
+      "image": "assets/raw/16x9/session02/S13_legacy_steps_girl_16x9.jpg",
+      "debut": 87.6,
+      "fin": 94.0,
+      "ken_burns": "in",
+      "pan": "center"
+    },
+    {
+      "id": "S14",
+      "image": "assets/raw/16x9/session02/S14_carry_heart_boy_16x9.jpg",
+      "debut": 94.0,
+      "fin": 101.0,
+      "ken_burns": "out",
+      "pan": "left"
+    },
+    {
+      "id": "S15",
+      "image": "assets/raw/16x9/session02/S15_love_never_dies_memorial_16x9.jpg",
+      "debut": 101.0,
+      "fin": 107.8,
+      "ken_burns": "in",
+      "pan": "right"
+    },
+    {
+      "id": "S16",
+      "image": "assets/raw/16x9/session02/S16_beyond_grave_flame_16x9.jpg",
+      "debut": 107.8,
+      "fin": 115.0,
+      "ken_burns": "out",
+      "pan": "up"
+    },
+    {
+      "id": "S17",
+      "image": "assets/raw/16x9/session02/S17_daughter_only_sun_16x9.jpg",
+      "debut": 115.0,
+      "fin": 122.0,
+      "ken_burns": "in",
+      "pan": "down"
+    },
+    {
+      "id": "S18",
+      "image": "assets/raw/16x9/session02/S18_son_guided_path_16x9.jpg",
+      "debut": 122.0,
+      "fin": 128.0,
+      "ken_burns": "out",
+      "pan": "center"
+    },
+    {
+      "id": "S19",
+      "image": "assets/raw/16x9/session02/S19_breath_memory_girl_16x9.jpg",
+      "debut": 128.0,
+      "fin": 135.0,
+      "ken_burns": "in",
+      "pan": "center"
+    },
+    {
+      "id": "S20",
+      "image": "assets/raw/16x9/session02/S20_eternal_voice_children_16x9.jpg",
+      "debut": 135.0,
+      "fin": 142.0,
+      "ken_burns": "out",
+      "pan": "left"
+    },
+    {
+      "id": "S21",
+      "image": "assets/raw/16x9/session03/S21_breath_lives_in_me_boy_16x9.jpg",
+      "debut": 142.0,
+      "fin": 149.0,
+      "ken_burns": "in",
+      "pan": "right"
+    },
+    {
+      "id": "S22",
+      "image": "assets/raw/16x9/session03/S22_you_never_left_siblings_16x9.jpg",
+      "debut": 149.0,
+      "fin": 160.0,
+      "ken_burns": "out",
+      "pan": "up"
+    },
+    {
+      "id": "S23",
+      "image": "assets/raw/16x9/session03/S23_gift_from_heaven_girl_16x9.jpg",
+      "debut": 160.0,
+      "fin": 167.0,
+      "ken_burns": "in",
+      "pan": "down"
+    },
+    {
+      "id": "S24",
+      "image": "assets/raw/16x9/session03/S24_final_refrain_son_16x9.jpg",
+      "debut": 167.0,
+      "fin": 174.0,
+      "ken_burns": "out",
+      "pan": "center"
+    },
+    {
+      "id": "S25",
+      "image": "assets/raw/16x9/session03/S25_final_refrain_daughter_16x9.jpg",
+      "debut": 174.0,
+      "fin": 181.0,
+      "ken_burns": "in",
+      "pan": "center"
+    },
+    {
+      "id": "S26",
+      "image": "assets/raw/16x9/session03/S26_departed_but_love_remains_16x9.jpg",
+      "debut": 181.0,
+      "fin": 189.0,
+      "ken_burns": "out",
+      "pan": "left"
+    },
+    {
+      "id": "S27",
+      "image": "assets/raw/16x9/session03/S27_morning_voice_boy_16x9.jpg",
+      "debut": 189.0,
+      "fin": 195.9,
+      "ken_burns": "in",
+      "pan": "right"
+    },
+    {
+      "id": "S28",
+      "image": "assets/raw/16x9/session03/S28_eternally_girl_by_water_16x9.jpg",
+      "debut": 195.9,
+      "fin": 203.0,
+      "ken_burns": "out",
+      "pan": "up"
+    },
+    {
+      "id": "S29",
+      "image": "assets/raw/16x9/session03/S29_eternal_light_siblings_16x9.jpg",
+      "debut": 203.0,
+      "fin": 216.0,
+      "ken_burns": "in",
+      "pan": "down"
+    },
+    {
+      "id": "S30",
+      "image": "assets/raw/16x9/session03/S30_closing_mother_light_forever_16x9.jpg",
+      "debut": 216.0,
+      "fin": 240.0,
+      "ken_burns": "out",
+      "pan": "center"
+    }
+  ],
+  "paroles": [
+    {
+      "debut": 0.0,
+      "fin": 2.2,
+      "original": "Wolof TechStein beat wê!",
+      "traduction_fr": null,
+      "style": "HookGold",
+      "section": "intro"
+    },
+    {
+      "debut": 2.4,
+      "fin": 13.6,
+      "original": "Non vivi o - o nvi gboon mavomavo.",
+      "traduction_fr": "L'amour d'une mère - c'est la lumière éternelle.",
+      "style": "IntroSerif",
+      "section": "intro"
+    },
+    {
+      "debut": 14.0,
+      "fin": 17.0,
+      "original": "Hwenu e mon non ji gbonton o ji",
+      "traduction_fr": "Le jour où tu m'as tenu dans tes bras",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 17.0,
+      "fin": 20.0,
+      "original": "Before the world could call my name",
+      "traduction_fr": "Avant que le monde ne prononce mon nom",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 20.0,
+      "fin": 23.9,
+      "original": "Le jour où tu m'as tenu dans tes bras",
+      "traduction_fr": null,
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 23.9,
+      "fin": 27.9,
+      "original": "You already knew my soul",
+      "traduction_fr": "Tu connaissais déjà mon âme",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 27.9,
+      "fin": 31.0,
+      "original": "Azoon lon bo - wo a toln kpo",
+      "traduction_fr": "Toutes les nuits - tu as veillé",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 31.0,
+      "fin": 35.0,
+      "original": "Every storm, you stood in the rain",
+      "traduction_fr": "Dans chaque tempête, tu es restée sous la pluie",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 35.0,
+      "fin": 37.0,
+      "original": "Toutes les nuits - tu as veillé",
+      "traduction_fr": null,
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 37.0,
+      "fin": 41.9,
+      "original": "So I could stay warm, so I could remain",
+      "traduction_fr": "Pour que je reste au chaud, pour que je reste en vie",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 41.9,
+      "fin": 45.0,
+      "original": "Non vivi o - a non da nu mi",
+      "traduction_fr": "Ton amour - tu me l'as donné",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 45.0,
+      "fin": 48.0,
+      "original": "Ton amour - tu me l'as donné",
+      "traduction_fr": null,
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 48.0,
+      "fin": 52.0,
+      "original": "No words can hold what you gave",
+      "traduction_fr": "Aucun mot ne peut contenir ce que tu as donné",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 52.0,
+      "fin": 54.0,
+      "original": "A love too wide, too deep for the grave",
+      "traduction_fr": "Un amour trop vaste, trop profond pour la tombe",
+      "style": "VerseMono",
+      "section": "verse1"
+    },
+    {
+      "debut": 54.0,
+      "fin": 58.0,
+      "original": "Mama tche - you are my one",
+      "traduction_fr": "Ma mère - tu es mon unique",
+      "style": "RefrainGold",
+      "section": "refrain1"
+    },
+    {
+      "debut": 58.0,
+      "fin": 62.0,
+      "original": "Mama tche - my only sun",
+      "traduction_fr": "Ma mère - mon seul soleil",
+      "style": "RefrainGold",
+      "section": "refrain1"
+    },
+    {
+      "debut": 62.0,
+      "fin": 65.0,
+      "original": "Gboon ce o - tu es ma vie",
+      "traduction_fr": "Ma mère unique - tu es ma vie",
+      "style": "RefrainGold",
+      "section": "refrain1"
+    },
+    {
+      "debut": 65.0,
+      "fin": 68.0,
+      "original": "Ma mère unique - forever with me",
+      "traduction_fr": "Ma mère unique - pour toujours avec moi",
+      "style": "RefrainGold",
+      "section": "refrain1"
+    },
+    {
+      "debut": 68.0,
+      "fin": 72.0,
+      "original": "Even if the sky forgets my name",
+      "traduction_fr": "Même si le ciel oublie mon nom",
+      "style": "RefrainGold",
+      "section": "refrain1"
+    },
+    {
+      "debut": 72.0,
+      "fin": 76.0,
+      "original": "Even if I'm lost, you guide my way",
+      "traduction_fr": "Même si je suis perdu, tu guides mon chemin",
+      "style": "RefrainGold",
+      "section": "refrain1"
+    },
+    {
+      "debut": 76.0,
+      "fin": 80.0,
+      "original": "Mama tche - mi non no fi",
+      "traduction_fr": "Ma mère - je t'entends dire",
+      "style": "RefrainGold",
+      "section": "refrain1"
+    },
+    {
+      "debut": 80.0,
+      "fin": 86.0,
+      "original": "I hear you say - I'm here, I'll stay",
+      "traduction_fr": "Je t'entends dire - je suis là, je resterai",
+      "style": "RefrainGold",
+      "section": "refrain1"
+    },
+    {
+      "debut": 86.0,
+      "fin": 87.6,
+      "original": "Wolof TechStein beat wê!",
+      "traduction_fr": null,
+      "style": "HookGold",
+      "section": "hook_break"
+    },
+    {
+      "debut": 87.6,
+      "fin": 90.0,
+      "original": "Hwenu e a yi - nyi ma se o",
+      "traduction_fr": "Le jour où tu es partie - je n'entendais plus",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 90.0,
+      "fin": 94.0,
+      "original": "The silence you left was a kind of sound",
+      "traduction_fr": "Le silence que tu as laissé était comme un son",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 94.0,
+      "fin": 97.0,
+      "original": "Le jour où tu es partie - je n'entendais pas",
+      "traduction_fr": null,
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 97.0,
+      "fin": 101.0,
+      "original": "Like a bell that rings with no one around",
+      "traduction_fr": "Comme une cloche qui sonne, sans personne autour",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 101.0,
+      "fin": 104.0,
+      "original": "Non e a do mi - o non no nyi mon",
+      "traduction_fr": "Ce que tu m'as laissé - vit encore en moi",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 104.0,
+      "fin": 107.8,
+      "original": "In every choice, in every step I take",
+      "traduction_fr": "Dans chaque choix, dans chaque pas que je fais",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 107.8,
+      "fin": 111.0,
+      "original": "Ce que tu m'as laissé - vit encore en moi",
+      "traduction_fr": null,
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 111.0,
+      "fin": 115.0,
+      "original": "I carry your heart - it will never break",
+      "traduction_fr": "Je porte ton cœur - il ne se brisera jamais",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 115.0,
+      "fin": 118.0,
+      "original": "Non vivi o - o ku kpoonon",
+      "traduction_fr": "Ton amour - il ne meurt jamais",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 118.0,
+      "fin": 122.0,
+      "original": "Ton amour - il ne meurt jamais",
+      "traduction_fr": null,
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 122.0,
+      "fin": 125.0,
+      "original": "Death could not take what you gave",
+      "traduction_fr": "La mort n'a pas pu reprendre ce que tu as donné",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 125.0,
+      "fin": 128.0,
+      "original": "A flame still burning beyond the grave",
+      "traduction_fr": "Une flamme brûle encore au-delà de la tombe",
+      "style": "VerseSans",
+      "section": "verse2"
+    },
+    {
+      "debut": 128.0,
+      "fin": 131.0,
+      "original": "Mama tche - you are my one",
+      "traduction_fr": "Ma mère - tu es mon unique",
+      "style": "RefrainGold",
+      "section": "refrain2"
+    },
+    {
+      "debut": 131.0,
+      "fin": 135.0,
+      "original": "Mama tche - my only sun",
+      "traduction_fr": "Ma mère - mon seul soleil",
+      "style": "RefrainGold",
+      "section": "refrain2"
+    },
+    {
+      "debut": 135.0,
+      "fin": 138.0,
+      "original": "Gboon ce o - tu es ma vie",
+      "traduction_fr": "Ma mère unique - tu es ma vie",
+      "style": "RefrainGold",
+      "section": "refrain2"
+    },
+    {
+      "debut": 138.0,
+      "fin": 142.0,
+      "original": "Ma mère unique - forever with me",
+      "traduction_fr": "Ma mère unique - pour toujours avec moi",
+      "style": "RefrainGold",
+      "section": "refrain2"
+    },
+    {
+      "debut": 142.0,
+      "fin": 145.0,
+      "original": "Even if the sky forgets my name",
+      "traduction_fr": "Même si le ciel oublie mon nom",
+      "style": "RefrainGold",
+      "section": "refrain2"
+    },
+    {
+      "debut": 145.0,
+      "fin": 149.0,
+      "original": "Even if I'm lost, you guide my way",
+      "traduction_fr": "Même si je suis perdu, tu guides mon chemin",
+      "style": "RefrainGold",
+      "section": "refrain2"
+    },
+    {
+      "debut": 149.0,
+      "fin": 153.8,
+      "original": "Mama tche - mi non no fi",
+      "traduction_fr": "Ma mère - je t'entends dire",
+      "style": "RefrainGold",
+      "section": "refrain2"
+    },
+    {
+      "debut": 153.8,
+      "fin": 160.0,
+      "original": "I hear you say - I'm here, I'll stay",
+      "traduction_fr": "Je t'entends dire - je suis là, je resterai",
+      "style": "RefrainGold",
+      "section": "refrain2"
+    },
+    {
+      "debut": 160.0,
+      "fin": 162.0,
+      "original": "Mama...",
+      "traduction_fr": null,
+      "style": "BridgeSerifCenter",
+      "section": "bridge"
+    },
+    {
+      "debut": 162.0,
+      "fin": 164.0,
+      "original": "A non no nyi sisi mon.",
+      "traduction_fr": "Tu vis dans mon souffle.",
+      "style": "BridgeSerifCenter",
+      "section": "bridge"
+    },
+    {
+      "debut": 164.0,
+      "fin": 167.0,
+      "original": "Tu vis dans mon souffle.",
+      "traduction_fr": null,
+      "style": "BridgeSerifCenter",
+      "section": "bridge"
+    },
+    {
+      "debut": 167.0,
+      "fin": 170.0,
+      "original": "You never left.",
+      "traduction_fr": "Tu n'es jamais partie.",
+      "style": "BridgeSerifCenter",
+      "section": "bridge"
+    },
+    {
+      "debut": 170.0,
+      "fin": 174.0,
+      "original": "Mon e nyi non - o nyi jon mawu.",
+      "traduction_fr": "Celle qui est mère - est un don du ciel.",
+      "style": "BridgeSerifCenter",
+      "section": "bridge"
+    },
+    {
+      "debut": 174.0,
+      "fin": 181.0,
+      "original": "Celle qui est mère - est un don du ciel.",
+      "traduction_fr": null,
+      "style": "BridgeSerifCenter",
+      "section": "bridge"
+    },
+    {
+      "debut": 181.0,
+      "fin": 185.0,
+      "original": "MAMA TCHE - you are my one",
+      "traduction_fr": "MA MÈRE - tu es mon unique",
+      "style": "FinalRefrainGold",
+      "section": "final_refrain"
+    },
+    {
+      "debut": 185.0,
+      "fin": 189.0,
+      "original": "MAMA TCHE - my only sun",
+      "traduction_fr": "MA MÈRE - mon seul soleil",
+      "style": "FinalRefrainGold",
+      "section": "final_refrain"
+    },
+    {
+      "debut": 189.0,
+      "fin": 192.0,
+      "original": "Gboon ce o - tu es ma vie",
+      "traduction_fr": "Ma mère unique - tu es ma vie",
+      "style": "FinalRefrainGold",
+      "section": "final_refrain"
+    },
+    {
+      "debut": 192.0,
+      "fin": 195.9,
+      "original": "Ma mère unique - forever with me",
+      "traduction_fr": "Ma mère unique - pour toujours avec moi",
+      "style": "FinalRefrainGold",
+      "section": "final_refrain"
+    },
+    {
+      "debut": 195.9,
+      "fin": 199.0,
+      "original": "A yi - koonon non vivi o no fi",
+      "traduction_fr": "Tu es partie - mais l'amour reste ici",
+      "style": "FinalRefrainGold",
+      "section": "final_refrain"
+    },
+    {
+      "debut": 199.0,
+      "fin": 203.0,
+      "original": "Tu es partie - mais l'amour reste ici",
+      "traduction_fr": null,
+      "style": "FinalRefrainGold",
+      "section": "final_refrain"
+    },
+    {
+      "debut": 203.0,
+      "fin": 210.0,
+      "original": "Every morning your voice still finds me",
+      "traduction_fr": "Chaque matin, ta voix me retrouve encore",
+      "style": "FinalRefrainGold",
+      "section": "final_refrain"
+    },
+    {
+      "debut": 210.0,
+      "fin": 216.0,
+      "original": "Mama tche - eternally",
+      "traduction_fr": "Ma mère - éternellement",
+      "style": "FinalRefrainGold",
+      "section": "final_refrain"
+    },
+    {
+      "debut": 216.0,
+      "fin": 220.0,
+      "original": "Wolof TechStein beat wê!",
+      "traduction_fr": null,
+      "style": "HookGold",
+      "section": "outro_hook"
+    },
+    {
+      "debut": 220.0,
+      "fin": 224.0,
+      "original": "Mama tche... Mama tche...",
+      "traduction_fr": null,
+      "style": "HookGold",
+      "section": "outro_hook"
+    },
+    {
+      "debut": 224.0,
+      "fin": 229.0,
+      "original": "\"Mon e nyi non - o nyi gboon mavomavo.\"",
+      "traduction_fr": "\"Celle qui est mère - est lumière pour toujours.\"",
+      "style": "OutroSerif",
+      "section": "outro"
+    },
+    {
+      "debut": 229.0,
+      "fin": 234.0,
+      "original": "\"Celle qui est mère - est lumière pour toujours.\"",
+      "traduction_fr": null,
+      "style": "OutroSerif",
+      "section": "outro"
+    }
+  ]
+}
