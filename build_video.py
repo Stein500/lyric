@@ -21,7 +21,14 @@ WORK = ROOT / "work"
 for d in (LIVR, WORK, WORK/"clips", WORK/"prep", WORK/"subs"):
     d.mkdir(parents=True, exist_ok=True)
 
-FFMPEG = "/home/user/lyric/tools_venv/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2"
+# FFMPEG — découvert dynamiquement depuis imageio_ffmpeg (fonctionne en venv comme en système)
+try:
+    import imageio_ffmpeg
+    FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
+except ImportError:
+    # fallback : utiliser le ffmpeg de PATH
+    FFMPEG = shutil.which("ffmpeg") or "ffmpeg"
+    print(f"⚠️ imageio_ffmpeg absent, fallback ffmpeg PATH : {FFMPEG}")
 DURATION = 169.486
 
 # ----------------------------------------------------------------------
@@ -327,7 +334,7 @@ def render(format_name, target_w, target_h):
         print("ERREUR concat:", r.stderr[-800:]); sys.exit(1)
     # ASS
     ass_p = gen_ass(target_w, target_h, WORK/"subs"/f"subs4_{format_name}.ass")
-    final = LIVR/f"Lightning_is_my_name_Daisky_Lyrics_{format_name}_v4.mp4"
+    final = LIVR/f"Daïsky - Lightning Is My Name (Lyrics {format_name.replace('16x9_YT','16x9').replace('9x16','9x16')}).mp4"
     # filtre subtitles avec chemin échappé
     ass_path_esc = str(ass_p).replace("\\","\\\\").replace(":","\\:").replace("'","\\'")
     vf = f"ass='{ass_path_esc}'"
