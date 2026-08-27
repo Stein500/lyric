@@ -1,0 +1,18 @@
+# Outils / caches
+work/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+.ruff_cache/
+
+# Exports temporaires
+out/
+build/
+dist/
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
