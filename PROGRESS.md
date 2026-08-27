@@ -107,3 +107,12 @@ Contrôles :
 - QC visuelle : planche extraite à 0.5, 20.5, 49.0, 74.0, 103.0, 129.0, 159.0, 176.0, 185.5, 193.5, 200.0, 202.5 s et enregistrée dans `livrables/trop_belle_9x16_v1_QC_sheet.jpg`.
 
 Notes : première version portrait produite avec les 20 images existantes uniquement, en réutilisant certaines images sur hooks/outro. À valider par l’artiste avant déclinaison finale/autres formats.
+
+
+## Règle téléchargement Android ajoutée
+
+À partir de maintenant, toutes les commandes de téléchargement partagées avec l’artiste doivent écrire dans :
+
+`/storage/emulated/0/Web+/`
+
+Le prompt universel `PROMPT_UNIVERSEL_MAJ.md` a été mis à jour pour imposer ce dossier, avec `mkdir -p`, nettoyage ciblé et `curl -C -` reprenable.

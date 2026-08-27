@@ -108,22 +108,29 @@ Sombre, orageuse, cinématique, contrastes violents, éclairs comme source de lu
 
 Toutes les URLs partagées avec l'artiste (Termux / Android) DOIVENT :
 
-1. **Commencer par un nettoyage** des fichiers cassés (fichiers partiels / erreurs 404 qui font des 14 octets) :
+1. **Toujours télécharger dans le dossier Android suivant** :
    ```bash
-   find . -name "*.mp4" -size -100k -delete
-   find . -name "PROMPT*" -size -1k -delete
+   /storage/emulated/0/Web+/
    ```
-2. **Utiliser curl en mode REPRENABLE** avec :
+   - Créer le dossier avant téléchargement si nécessaire : `mkdir -p "/storage/emulated/0/Web+"`
+   - Les commandes partagées ne doivent PAS écrire dans le dossier courant par défaut ; utiliser un chemin absolu `-o "/storage/emulated/0/Web+/nom_du_fichier.mp4"`.
+2. **Commencer par un nettoyage ciblé dans `/storage/emulated/0/Web+/`** des fichiers cassés (fichiers partiels / erreurs 404 qui font des 14 octets) :
+   ```bash
+   mkdir -p "/storage/emulated/0/Web+"
+   find "/storage/emulated/0/Web+" -name "*.mp4" -size -100k -delete
+   find "/storage/emulated/0/Web+" -name "PROMPT*" -size -1k -delete
+   ```
+3. **Utiliser curl en mode REPRENABLE** avec une sortie obligatoire dans `/storage/emulated/0/Web+/` :
    ```bash
    curl -fL --retry 5 --retry-delay 3 -C - \
-     -o "nom_du_fichier.mp4" \
+     -o "/storage/emulated/0/Web+/nom_du_fichier.mp4" \
      "https://raw.githubusercontent.com/Stein500/lyric/<COMMIT_HASH>/livrables/..."
    ```
    - `-fL` : fail on error + suivre redirects
    - `--retry 5 --retry-delay 3` : retries automatiques sur coupure réseau
    - **`-C -` : REPRISE AUTOMATIQUE** — si la connexion coupe, relancer la même commande et ça repart d'où c'était arrêté
-3. **Toujours donner le hash du commit** dans l'URL (pas de branche), pour garantir le contenu exact.
-4. Vérification post-téléchargement : `ls -lh` (les tailles doivent correspondre à celles annoncées).
+4. **Toujours donner le hash du commit** dans l'URL (pas de branche), pour garantir le contenu exact.
+5. Vérification post-téléchargement : `ls -lh "/storage/emulated/0/Web+/nom_du_fichier.mp4"` (les tailles doivent correspondre à celles annoncées).
 
 ---
 
