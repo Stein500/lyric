@@ -12,7 +12,7 @@ Priorité : version **TikTok / Reels (9:16)** d'abord, puis YouTube (16:9).
 - [x] Univers visuel PROPOSÉ (Dark Trap / Monumental Rise) — à valider artiste
 - [x] Salve 1 générée : 10 portraits 9:16 (images 01–10, hyperréel cinématique)
 - [ ] Image d'ancrage (01) validée visuellement par l'artiste
-- [ ] Salve 2 : portraits 9:16 (11–20, style seine/anime)
+- [x] Salve 2 générée : portraits 9:16 (11–20, style seine manga / cel-shaded cyan)
 - [ ] Salve 3 : portraits 9:16 (21–30, bonus animé)
 - [ ] Salves paysage 16:9 (pour YouTube)
 - [ ] Minutage précis : tableau (start, end, text, style, fr) — après 1:50 tout en dur
@@ -60,3 +60,21 @@ Scènes alignées sur l'intro → refrain 1 → couplet 1 (le "Rise").
 | 10 | triomphe_sommet | Triomphe au sommet, bras levés |
 
 Contrôle : 768×1376 (9:16), tous ok. Planche-contact : `work/contact_salve1.png`.
+
+## 🖼 SALVE 2 (images 11–20) — seinen manga / cel-shaded cyan ✅
+Salve des vers rapides (couplet 2), pont, refrain final, outro, cover officielle.
+
+| # | Fichier | Scène |
+|---|---|---|
+| 11 | cover_hero_manga | Cover : héros manga + éclairs cyan |
+| 12 | clash_plus_rapide | Clash, poing fermé / "t'as cru que j'allais plier" |
+| 13 | crier_dans_bruit | Cri dans la tempête / "appris à crier" |
+| 14 | critiques_du_vent | Critiques qui se dissipent / "c'est du vent" |
+| 15 | regarde_nuit | Regard vers la nuit, l'autre regarde en bas |
+| 16 | etoiles_dans_les_yeux | Étoiles dans les yeux (extrême close-up) |
+| 17 | course_neon | Course dans l'allée néon / "toujours plus haut" |
+| 18 | mon_peuple | Le peuple, la foi, les siens |
+| 19 | refrain_final_explosif | Décharge cyan massive / ref. final |
+| 20 | outro_aube | Outro à l'aube ambre (piano, fade) |
+
+Contrôle : 768×1376 (9:16), tous ok. Planche-contact : `work/contact_salve2.png`.
