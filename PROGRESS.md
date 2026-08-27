@@ -16,10 +16,11 @@ Priorité : version **TikTok / Reels (9:16)** d'abord, puis YouTube (16:9).
 - [ ] Salve 3 : portraits 9:16 (21–30, bonus animé)
 - [ ] Salves paysage 16:9 (pour YouTube)
 - [ ] Minutage précis : tableau (start, end, text, style, fr) — après 1:50 tout en dur
-- [ ] Badge PIL "⚡ DAÏSKY PROD" statique bas-gauche
-- [ ] Montage : prép → clips → concat → burn ASS + mux audio → 2 exports
-- [ ] Vérifications auto (durée + blackdetect) + frame-by-frame 30 dernières s
-- [ ] Commit + push + partage curl `-C -`
+- [x] Badge PIL "⚡ DAÏSKY PROD" statique bas-gauche
+- [x] Montage : prép → clips → concat → burn ASS + mux audio → export 9:16 TikTok/Reels
+- [x] Vérifications auto (durée + blackdetect) + frame-by-frame 30 dernières s
+- [ ] Export 16:9 YouTube (à venir)
+- [ ] Partage curl `-C -` reproductible
 
 ---
 
@@ -78,3 +79,11 @@ Salve des vers rapides (couplet 2), pont, refrain final, outro, cover officielle
 | 20 | outro_aube | Outro à l'aube ambre (piano, fade) |
 
 Contrôle : 768×1376 (9:16), tous ok. Planche-contact : `work/contact_salve2.png`.
+
+---
+
+## 🎬 PRODUCTION 9:16 — PREMIER EXPORT ✅
+Pipeline (dans `tools/`): `timeline.py` (données) → `prep.py` (upscale + badge) → `build.py` (ASS + clips + concat + burn/mux) → `verify.py` (frames de contrôle).
+- **Livrable** : `livrables/Motivé_TikTokReels_9x16_v1.mp4` (2:38.88, 16.4 MB, 1080×1920, CRF 22, badge DAÏSKY PROD).
+- Contrôles : durée OK (158.880 vs 158.90), blackdetect 0 trou >300ms, frame-by-frame fin OK, Wolof présent, outro propre.
+- Programmes : `tools/` + `PROGRESS.md` + MP4 commités.
