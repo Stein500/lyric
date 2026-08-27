@@ -1,8 +1,18 @@
-# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.2 (FINALE RIGOUREUSE)
+# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.3 (FINALE RIGOUREUSE)
 
 **Artiste de référence :** Daïsky  
 **Projet de référence :** *Lightning Is My Name* (EN/ES/Wolof)  
 **Utilisation :** Ce prompt est la référence OBLIGATOIRE pour TOUS les futurs clips lyrics de Daïsky Prod / TechStein. Toute déviation doit être validée.
+
+---
+
+> ⚡ **RÈGLE D'OR ABSOLUE — BADGE / CTA « DAÏSKY PROD » : NE DOIT JAMAIS BOUGER.**
+> **Le badge « ⚡ DAÏSKY PROD » (et tout CTA superposé : "abonne-toi", "dispo", crédits, etc.) est 100 % STATIQUE.**
+> - Même **taille**, même **position**, même **police**, mêmes **couleurs** sur **TOUTES** les frames de la vidéo — du premier au dernier instant.
+> - **AUCUN** waver, **AUCUNE** animation, **AUCUN** mouvement, **AUCUN** zoom, **AUCUN** effet d'apparition/disparition, **AUCUN** changement pendant les changements de plan.
+> - Le badge/CTA est incrusté en **POST (PIL/ASS)** après la génération des images : il n'est **JAMAIS** peint dans l'image source (`assets/raw/`).
+> - Le badge/CTA est **au-dessus** de la vidéo, il ne peut jamais être recouvert ni décalé par un sous-titre ; les sous-titres ne doivent jamais chevaucher le badge.
+> - **Contrôle visuel obligatoire** (règle v4.2) : sur TOUTE planche de frames, vérifier que le badge est **rigoureusement à la même place** sur chaque image. Toute dérive = non conforme = à refaire.
 
 ---
 
@@ -15,6 +25,7 @@
 - Maintenir un `PROGRESS.md` à la racine reprenant l'état exact du chantier (étapes cochées, durées, liste des images, minutage).
 - Avant de partager une URL de téléchargement, vérifier par `git rev-parse HEAD` que le hash du commit est bien celui qui contient le fichier.
 - **DESTINATION TÉLÉCHARGEMENT = TOUJOURS `/storage/emulated/0/Web+/`** (Android/Termux). Les commandes curl de la section 6 doivent systématiquement `cd /storage/emulated/0/Web+/` avant le téléchargement.
+- **BADGE / CTA « DAÏSKY PROD » = STATIQUE, NE BOUGE JAMAIS** : même taille, même position, même style sur TOUTES les frames (aucun waver/animation/zoom). Incrusté en POST (PIL/ASS), jamais dans l'image source. Voir « RÈGLE D'OR ABSOLUE » en tête de ce document.
 - **JAMAIS de binaire ffmpeg/ffprobe ou de venv dans le dépôt** (GitHub bloque >100 MB et warning >50 MB).
 
 ---
@@ -49,7 +60,7 @@ Sombre, orageuse, cinématique, contrastes violents, éclairs comme source de lu
 - 20 portraits 9:16 (1080×1920) : la base pour TikTok/Reels/Shorts.
 - 20 paysages 16:9 : pour youtube 
 - Nomenclature : `NN_descriptif_courte.jpg` dans `assets/raw/portrait/` (ou `landscape/`).
-- Après génération, on superpose en POST (PIL) un badge **"⚡ DAÏSKY PROD"** statique en bas-gauche, même taille, même position sur toutes les frames. Le badge n'est JAMAIS peint dans l'image source.
+- Après génération, on superpose en POST (PIL) un badge **"⚡ DAÏSKY PROD"** statique en bas-gauche, **même taille, même position, même style sur TOUTES les frames, sans aucun mouvement** (aucun waver/animation/zoom). Le badge n'est JAMAIS peint dans l'image source (`assets/raw/`). Toute dérive du badge entre deux frames = NON CONFORME.
 
 ---
 
@@ -82,7 +93,7 @@ Sombre, orageuse, cinématique, contrastes violents, éclairs comme source de lu
 
 ### Règles d'or du montage
 - **Zéro trou noir** entre segments (utiliser le concat demuxer, pas le filtre `fade` sur les pistes vidéo).
-- **Badge statique** bas-gauche, pas de waver, pas d'animation.
+- **BADGE / CTA STATIQUE ABSOLU** : le badge « ⚡ DAÏSKY PROD » (et tout CTA) reste **fixe en bas-gauche**, même taille/position/style sur 100 % des frames. **PAS de waver, PAS d'animation, PAS de zoom, PAS d'apparition/disparition.** Incrusté en POST (PIL/ASS), au-dessus de la vidéo, jamais recouvert par les sous-titres.
 - Audio : fade-in 0,3 s, fade-out 3 s avant la fin.
 - Deux exports systématiques :
   - **9:16** 1080×1920 → TikTok/Reels/Shorts (`*_9x16_vN.mp4`)
@@ -99,7 +110,7 @@ Sombre, orageuse, cinématique, contrastes violents, éclairs comme source de lu
    - pas de dérive de minutage (les sous-titres correspondent à l'audio)
    - le Wolof est bien présent sur son segment
    - l'outro ne coupe pas brutalement (fade-out 3 s propre)
-   - badge présent, vers intacts, FR présents
+   - **badge « ⚡ DAÏSKY PROD » présent ET RIGOUREUSEMENT À LA MÊME PLACE / TAILLE sur chaque frame** (zéro dérive, zéro animation) ; vers intacts, FR présents
 4. **Vérification de 0 ligne coupée** (wrap auto OK, aucun `\n` manuel dans les paroles courtes).
 5. **Poids cohérent** : 9:16 ~20–30 MB, 16:9 ~12–20 MB pour 2:50 ; si le fichier est <100 KB c'est qu'il y a eu une erreur.
 
@@ -139,7 +150,7 @@ Toutes les URLs partagées avec l'artiste (Termux / Android) DOIVENT :
 - [ ] Cadre, dossiers, PROGRESS.md, .gitignore (livrables/ PAS exclu)
 - [ ] Génération 30 portraits 9:16 par salves de ≤10 avec image d'ancrage validée
 - [ ] Minutage : lecture audio + tableau de (start, end, text, style, fr) ; **après 1:50 tout en dur**
-- [ ] Badge PIL overlay statique bas-gauche sur toutes les frames
+- [ ] Badge PIL overlay statique bas-gauche sur toutes les frames (NE BOUGE JAMAIS : même taille/position/style, pas d'animation)
 - [ ] Montage pipeline : prép → clips → concat → burn ASS + mux audio → 2 exports
 - [ ] Vérifications auto (durée + blackdetect) + frame-by-frame des 30 dernières secondes
 - [ ] Commit avec message descriptif, push, vérification du hash
