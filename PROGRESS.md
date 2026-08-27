@@ -13,8 +13,9 @@ Priorité : version **TikTok / Reels (9:16)** d'abord, puis YouTube (16:9).
 - [x] Salve 1 générée : 10 portraits 9:16 (images 01–10, hyperréel cinématique)
 - [ ] Image d'ancrage (01) validée visuellement par l'artiste
 - [x] Salve 2 générée : portraits 9:16 (11–20, style seine manga / cel-shaded cyan)
-- [ ] Salve 3 : portraits 9:16 (21–30, bonus animé)
-- [ ] Salves paysage 16:9 (pour YouTube)
+- [x] Salve 3 : portraits 9:16 (21–30, bonus animé) — NON FAITE (on s'est limité à 20 images, consigne artiste)
+- [x] Salve paysage 1 : 10 paysages 16:9 (L01–L10, hyperréel cinématique) pour YouTube
+- [ ] Salve paysage 2 : 10 paysages 16:9 (L11–L20, seinen manga) pour YouTube
 - [ ] Minutage précis : tableau (start, end, text, style, fr) — après 1:50 tout en dur
 - [x] Badge PIL "⚡ DAÏSKY PROD" statique bas-gauche
 - [x] Montage : prép → clips → concat → burn ASS + mux audio → export 9:16 TikTok/Reels
@@ -79,6 +80,12 @@ Salve des vers rapides (couplet 2), pont, refrain final, outro, cover officielle
 | 20 | outro_aube | Outro à l'aube ambre (piano, fade) |
 
 Contrôle : 768×1376 (9:16), tous ok. Planche-contact : `work/contact_salve2.png`.
+
+---
+
+## 🖼 SALVE PAYSAGE 1 (L01–L10) — cinematic hyperreal, 16:9 ✅
+Mêmes scènes que les portraits 01–10, cadrées 16:9 pour YouTube.
+Contrôle : 1376×768 (16:9), tous ok. Planche-contact : `work/contact_landscape1.png`.
 
 ---
 
