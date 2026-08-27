@@ -1,0 +1,155 @@
+{
+  "duration_seconds": 202.992,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "image": "01",
+      "label": "intro wolof signature"
+    },
+    {
+      "start": 10.0,
+      "end": 20.0,
+      "image": "02",
+      "label": "yeah elle est trop belle"
+    },
+    {
+      "start": 20.0,
+      "end": 32.0,
+      "image": "03",
+      "label": "hook scared trop belle"
+    },
+    {
+      "start": 32.0,
+      "end": 48.0,
+      "image": "04",
+      "label": "hook honte wolof"
+    },
+    {
+      "start": 48.0,
+      "end": 51.9,
+      "image": "05",
+      "label": "v1 âme mots"
+    },
+    {
+      "start": 51.9,
+      "end": 56.0,
+      "image": "06",
+      "label": "v1 maladroit fatal"
+    },
+    {
+      "start": 56.0,
+      "end": 59.0,
+      "image": "07",
+      "label": "v1 peur ventre"
+    },
+    {
+      "start": 59.0,
+      "end": 64.9,
+      "image": "08",
+      "label": "v1 créature oiseau"
+    },
+    {
+      "start": 64.9,
+      "end": 69.0,
+      "image": "09",
+      "label": "pré refrain roc"
+    },
+    {
+      "start": 69.0,
+      "end": 73.0,
+      "image": "10",
+      "label": "pré refrain armure"
+    },
+    {
+      "start": 73.0,
+      "end": 86.0,
+      "image": "11",
+      "label": "refrain 2 lumineux"
+    },
+    {
+      "start": 86.0,
+      "end": 102.0,
+      "image": "20",
+      "label": "refrain 2 tutti"
+    },
+    {
+      "start": 102.0,
+      "end": 108.0,
+      "image": "12",
+      "label": "v2 tempêtes lions"
+    },
+    {
+      "start": 108.0,
+      "end": 112.0,
+      "image": "13",
+      "label": "v2 colosse"
+    },
+    {
+      "start": 112.0,
+      "end": 117.0,
+      "image": "14",
+      "label": "v2 brouillard"
+    },
+    {
+      "start": 117.0,
+      "end": 119.0,
+      "image": "15",
+      "label": "v2 énigme"
+    },
+    {
+      "start": 119.0,
+      "end": 124.0,
+      "image": "16",
+      "label": "pré refrain 2 violon"
+    },
+    {
+      "start": 124.0,
+      "end": 135.0,
+      "image": "17",
+      "label": "pont piano questions"
+    },
+    {
+      "start": 135.0,
+      "end": 150.5,
+      "image": "18",
+      "label": "pont amour genoux"
+    },
+    {
+      "start": 150.5,
+      "end": 153.0,
+      "image": "19",
+      "label": "pont poète lead"
+    },
+    {
+      "start": 153.0,
+      "end": 163.0,
+      "image": "11",
+      "label": "final hook 1 lumineux"
+    },
+    {
+      "start": 163.0,
+      "end": 173.0,
+      "image": "20",
+      "label": "final hook 2 festival"
+    },
+    {
+      "start": 173.0,
+      "end": 183.0,
+      "image": "03",
+      "label": "final hook wolof impact"
+    },
+    {
+      "start": 183.0,
+      "end": 193.0,
+      "image": "20",
+      "label": "outro vocal"
+    },
+    {
+      "start": 193.0,
+      "end": 202.992,
+      "image": "01",
+      "label": "outro fade instrumental"
+    }
+  ]
+}

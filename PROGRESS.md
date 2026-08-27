@@ -37,9 +37,10 @@ Règles critiques retenues :
 - [x] Salve portrait 11–20 générée : couleurs vives rose/blanc/vert, afro-BD animé, plus de personnages noirs.
 - [ ] Validation artiste de la salve 11–20.
 - [ ] Minutage lyrics complet en tableau.
-- [ ] ASS portrait 9:16.
-- [ ] Montage TikTok 9:16.
-- [ ] Vérifications automatiques et visuelles.
+- [x] ASS portrait 9:16 généré.
+- [x] Montage TikTok 9:16 v1 généré.
+- [x] Vérifications automatiques et planche QC visuelle générées.
+- [ ] Validation artiste du MP4 9:16 v1.
 - [ ] Déclinaison 16:9 YouTube.
 - [ ] Commit/push de livrables validés.
 
@@ -85,3 +86,24 @@ Fichiers générés dans `assets/raw/portrait/` :
 20. `20_hook_final_tutti_afro_bd_bright.jpg`
 
 Contact sheet locale : `work/contact_sheet_portrait_11_20_bright_afro_bd.jpg` (non commit, dossier work ignoré).
+
+
+## Vidéo portrait 9:16 v1 — générée et contrôlée
+
+Livrable : `livrables/trop_belle_9x16_v1.mp4`
+Rapport QC : `livrables/trop_belle_9x16_v1_QC.md`
+Script reproductible : `scripts/build_trop_belle_9x16_v1.py`
+Sous-titres : `data/trop_belle_9x16_v1.ass`
+Timeline : `data/trop_belle_timeline_v1.json`
+Segments vidéo : `data/trop_belle_video_segments_9x16_v1.json`
+
+Contrôles :
+
+- Durée audio : 202.992 s
+- Durée vidéo : 202.983 s
+- Écart : 0.009 s — OK ±0.30 s
+- Blackdetect >300 ms : 0 — OK
+- Taille MP4 : 43.1 MB
+- QC visuelle : planche extraite à 0.5, 20.5, 49.0, 74.0, 103.0, 129.0, 159.0, 176.0, 185.5, 193.5, 200.0, 202.5 s et enregistrée dans `livrables/trop_belle_9x16_v1_QC_sheet.jpg`.
+
+Notes : première version portrait produite avec les 20 images existantes uniquement, en réutilisant certaines images sur hooks/outro. À valider par l’artiste avant déclinaison finale/autres formats.
