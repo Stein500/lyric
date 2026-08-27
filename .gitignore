@@ -1,0 +1,15 @@
+# Junk / caches
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.DS_Store
+
+# Outils & espaces de travail (jamais dans le dépôt)
+work/
+# NOTE : binaires ffmpeg/ffprobe jamais commités (GitHub bloque >100 MB).
+
+# IMPORTANT : livrables/, assets/ et les .mp3/.mp4 livrés ne doivent JAMAIS être
+# gitignorés (voir PROMPT_UNIVERSEL_MAJ.md : les MP4 finaux sont partagés via curl).
