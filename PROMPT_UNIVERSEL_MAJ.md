@@ -14,6 +14,7 @@
 - Les outils (venv, work/, __pycache__, *.pyc) vont dans `.gitignore` pour ne pas polluer GitHub avec des binaires 70+ MB.
 - Maintenir un `PROGRESS.md` à la racine reprenant l'état exact du chantier (étapes cochées, durées, liste des images, minutage).
 - Avant de partager une URL de téléchargement, vérifier par `git rev-parse HEAD` que le hash du commit est bien celui qui contient le fichier.
+- **DESTINATION TÉLÉCHARGEMENT = TOUJOURS `/storage/emulated/0/Web+/`** (Android/Termux). Les commandes curl de la section 6 doivent systématiquement `cd /storage/emulated/0/Web+/` avant le téléchargement.
 - **JAMAIS de binaire ffmpeg/ffprobe ou de venv dans le dépôt** (GitHub bloque >100 MB et warning >50 MB).
 
 ---
@@ -106,15 +107,21 @@ Sombre, orageuse, cinématique, contrastes violents, éclairs comme source de lu
 
 ## 📦 6. TÉLÉCHARGEMENTS — COMMANDES REPRENABLES OBLIGATOIRES (v4.2)
 
+> ⚠️ **DESTINATION OBLIGATOIRE (TOUJOURS)** : tous les fichiers récupérés sur Android/Termux DOIVENT être téléchargés dans
+> **`/storage/emulated/0/Web+/`** (le dossier de travail de l'artiste). C'est le répertoire par défaut, figé, pour TOUS les
+> livrables (`*.mp4`, `*.zip`, images, ...). Ne jamais télécharger ailleurs.
+
 Toutes les URLs partagées avec l'artiste (Termux / Android) DOIVENT :
 
-1. **Commencer par un nettoyage** des fichiers cassés (fichiers partiels / erreurs 404 qui font des 14 octets) :
+1. **Aller dans le dossier de destination et faire un nettoyage** des fichiers cassés (fichiers partiels / erreurs 404 qui font des 14 octets) :
    ```bash
+   cd /storage/emulated/0/Web+/
    find . -name "*.mp4" -size -100k -delete
    find . -name "PROMPT*" -size -1k -delete
    ```
-2. **Utiliser curl en mode REPRENABLE** avec :
+2. **Utiliser curl en mode REPRENABLE** vers `/storage/emulated/0/Web+/` :
    ```bash
+   cd /storage/emulated/0/Web+/
    curl -fL --retry 5 --retry-delay 3 -C - \
      -o "nom_du_fichier.mp4" \
      "https://raw.githubusercontent.com/Stein500/lyric/<COMMIT_HASH>/livrables/..."
@@ -123,7 +130,7 @@ Toutes les URLs partagées avec l'artiste (Termux / Android) DOIVENT :
    - `--retry 5 --retry-delay 3` : retries automatiques sur coupure réseau
    - **`-C -` : REPRISE AUTOMATIQUE** — si la connexion coupe, relancer la même commande et ça repart d'où c'était arrêté
 3. **Toujours donner le hash du commit** dans l'URL (pas de branche), pour garantir le contenu exact.
-4. Vérification post-téléchargement : `ls -lh` (les tailles doivent correspondre à celles annoncées).
+4. Vérification post-téléchargement : `ls -lh /storage/emulated/0/Web+/` (les tailles doivent correspondre à celles annoncées).
 
 ---
 
@@ -136,7 +143,7 @@ Toutes les URLs partagées avec l'artiste (Termux / Android) DOIVENT :
 - [ ] Montage pipeline : prép → clips → concat → burn ASS + mux audio → 2 exports
 - [ ] Vérifications auto (durée + blackdetect) + frame-by-frame des 30 dernières secondes
 - [ ] Commit avec message descriptif, push, vérification du hash
-- [ ] Partager uniquement des commandes curl `-C -` reprenables avec hash de commit
+- [ ] Partager uniquement des commandes curl `-C -` reprenables avec hash de commit, téléchargées dans `/storage/emulated/0/Web+/`
 
 ---
 

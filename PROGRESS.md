@@ -20,7 +20,7 @@ Priorité : version **TikTok / Reels (9:16)** d'abord, puis YouTube (16:9).
 - [x] Montage : prép → clips → concat → burn ASS + mux audio → export 9:16 TikTok/Reels
 - [x] Vérifications auto (durée + blackdetect) + frame-by-frame 30 dernières s
 - [ ] Export 16:9 YouTube (à venir)
-- [ ] Partage curl `-C -` reproductible
+- [x] DESTINATION tél. = `/storage/emulated/0/Web+/` (ajoutée au PROMPT v4.2, section 0 & 6 & 7)
 
 ---
 
