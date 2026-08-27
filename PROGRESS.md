@@ -34,6 +34,8 @@ Règles critiques retenues :
 - [x] Direction visuelle changée selon retour artiste : style animation + BD africaine.
 - [x] Salve portrait 01–10 générée en style afro-BD animé.
 - [ ] Validation artiste de la salve 01–10.
+- [x] Salve portrait 11–20 générée : couleurs vives rose/blanc/vert, afro-BD animé, plus de personnages noirs.
+- [ ] Validation artiste de la salve 11–20.
 - [ ] Minutage lyrics complet en tableau.
 - [ ] ASS portrait 9:16.
 - [ ] Montage TikTok 9:16.
@@ -63,3 +65,23 @@ Fichiers générés dans `assets/raw/portrait/` :
 10. `10_guerrier_sans_armure_afro_bd.jpg`
 
 Contact sheet locale : `work/contact_sheet_portrait_01_10_afro_bd.jpg` (non commit, dossier work ignoré).
+
+
+## Salve portrait 11–20 — afro-BD animé couleurs vives
+
+Consigne artiste : continuer avec couleurs vives — rose, blanc, vert, etc. — et plus de personnages noirs / afro-descendants, moins d’ambiance sombre.
+
+Fichiers générés dans `assets/raw/portrait/` :
+
+11. `11_refrain_lumineux_rose_vert_afro_bd.jpg`
+12. `12_tempetes_lions_couleurs_vives_afro_bd.jpg`
+13. `13_colosse_argile_afro_bd_color.jpg`
+14. `14_brouillard_rose_vert_afro_bd.jpg`
+15. `15_enigme_paradoxe_afro_bd.jpg`
+16. `16_pre_refrain_violin_white_green_afro_bd.jpg`
+17. `17_pont_piano_calme_afro_bd_couleur.jpg`
+18. `18_genoux_amour_afro_bd_vif.jpg`
+19. `19_poete_douleur_rose_blanc_vert.jpg`
+20. `20_hook_final_tutti_afro_bd_bright.jpg`
+
+Contact sheet locale : `work/contact_sheet_portrait_11_20_bright_afro_bd.jpg` (non commit, dossier work ignoré).
