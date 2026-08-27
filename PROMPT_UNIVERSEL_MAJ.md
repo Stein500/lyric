@@ -42,6 +42,17 @@ Sombre, orageuse, cinématique, contrastes violents, éclairs comme source de lu
 
 ---
 
+### 💿 COVER MP3 OBLIGATOIRE
+
+- Pour chaque MP3 livré, générer une **cover dédiée carrée** dans le même univers visuel que le clip.
+- La cover source IA ne doit contenir **aucun texte, logo, watermark ou typographie générée**.
+- Ajouter en post-production la typographie propre : artiste, titre, signature éventuelle.
+- Export recommandé : JPG carré `livrables/<titre>_cover_vN.jpg` entre 1400×1400 et 3000×3000, qualité 90+.
+- Le MP3 livré doit exister en version **avec pochette intégrée ID3/APIC** : `livrables/<titre>_audio_cover_vN.mp3`.
+- Vérifier avant partage : durée inchangée ±0.30 s, présence d’une seule cover ID3/APIC, MIME `image/jpeg`, taille cohérente.
+
+---
+
 ## 🖼 2. IMAGES — 30 IMAGES 9:16 MINIMUM
 
 - **10 images maximum par salve** de génération, avec une image d'ancrage validée visuellement par l'artiste avant de continuer.

@@ -1,0 +1,12 @@
+{
+  "source_mp3": "Trop Belle.mp3",
+  "output_mp3": "livrables/trop_belle_audio_cover_v1.mp3",
+  "cover": "livrables/trop_belle_cover_v1.jpg",
+  "duration_source_seconds": 202.992,
+  "duration_output_seconds": 202.992,
+  "cover_count": 1,
+  "cover_mime": "image/jpeg",
+  "cover_bytes": 714789,
+  "mp3_bytes": 5411351,
+  "cover_file_bytes": 714789
+}

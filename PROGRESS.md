@@ -206,3 +206,27 @@ Contrôles :
 - Badge : overlay final immobile après zoom/pan — OK sur planche QC
 
 Note : production YouTube 16:9 réalisée avec les 20 images paysage, paroles/timing repris de la version TikTok validée.
+
+
+## Cover MP3 v1 — générée et intégrée
+
+Livrables :
+
+- `livrables/trop_belle_cover_v1.jpg`
+- `livrables/trop_belle_audio_cover_v1.mp3`
+- `livrables/trop_belle_audio_cover_v1_QC.md`
+- `livrables/trop_belle_audio_cover_v1_QC.json`
+
+Source cover IA sans texte : `assets/raw/cover/trop_belle_cover_raw_afro_bd.jpg`
+Script reproductible : `scripts/build_trop_belle_mp3_cover_v1.py`
+
+Contrôles :
+
+- Durée source : 202.992 s
+- Durée MP3 avec cover : 202.992 s
+- Écart : 0.000 s — OK
+- Cover ID3/APIC : 1 image/jpeg — OK
+- Taille cover JPG : 699 KB
+- Taille MP3 avec cover : 5.2 MB
+
+Prompt universel mis à jour : obligation de générer une cover carrée dédiée pour chaque MP3 livré et de l’intégrer en ID3/APIC.
