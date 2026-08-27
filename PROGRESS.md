@@ -42,6 +42,8 @@ Règles critiques retenues :
 - [x] Vérifications automatiques et planche QC visuelle générées.
 - [ ] Validation artiste du MP4 9:16 v1.
 - [ ] Déclinaison 16:9 YouTube.
+- [x] Salve paysage YouTube 16:9 01–10 générée.
+- [ ] Validation artiste salve paysage 01–10.
 - [ ] Commit/push de livrables validés.
 
 ## Notes minutage importantes
@@ -116,3 +118,25 @@ Notes : première version portrait produite avec les 20 images existantes unique
 `/storage/emulated/0/Web+/`
 
 Le prompt universel `PROMPT_UNIVERSEL_MAJ.md` a été mis à jour pour imposer ce dossier, avec `mkdir -p`, nettoyage ciblé et `curl -C -` reprenable.
+
+
+## Salve paysage 16:9 01–10 — YouTube
+
+Consigne artiste : générer les 10 premières images YouTube, rester dans le même style que la vidéo TikTok validée.
+
+Direction : animation conte familial originale + BD africaine, personnages noirs / afro-descendants, couleurs vives rose/blanc/vert/cyan/or, ambiance propre et lumineuse, sans texte/logo généré.
+
+Fichiers générés dans `assets/raw/landscape/` :
+
+1. `01_intro_wolof_signature_afro_bd_16x9.jpg`
+2. `02_elle_est_trop_belle_afro_bd_16x9.jpg`
+3. `03_refrain_scared_of_you_afro_bd_16x9.jpg`
+4. `04_honte_hommes_virils_afro_bd_16x9.jpg`
+5. `05_couplet_ame_transe_afro_bd_16x9.jpg`
+6. `06_maladroit_sideral_afro_bd_16x9.jpg`
+7. `07_trouille_peur_ventre_afro_bd_16x9.jpg`
+8. `08_creature_etrange_oiseau_afro_bd_16x9.jpg`
+9. `09_pre_refrain_roc_fissure_afro_bd_16x9.jpg`
+10. `10_guerrier_sans_armure_afro_bd_16x9.jpg`
+
+Contact sheet locale : `work/contact_sheet_landscape_01_10_afro_bd.jpg` (non commit, dossier work ignoré).
