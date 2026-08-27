@@ -44,6 +44,8 @@ Règles critiques retenues :
 - [ ] Déclinaison 16:9 YouTube.
 - [x] Salve paysage YouTube 16:9 01–10 générée.
 - [ ] Validation artiste salve paysage 01–10.
+- [x] Salve paysage YouTube 16:9 11–20 générée/adaptée.
+- [ ] Validation artiste salve paysage 11–20.
 - [ ] Commit/push de livrables validés.
 
 ## Notes minutage importantes
@@ -140,3 +142,34 @@ Fichiers générés dans `assets/raw/landscape/` :
 10. `10_guerrier_sans_armure_afro_bd_16x9.jpg`
 
 Contact sheet locale : `work/contact_sheet_landscape_01_10_afro_bd.jpg` (non commit, dossier work ignoré).
+
+
+## Salve paysage 16:9 11–20 — YouTube
+
+Consigne artiste : générer la deuxième salve de 10 images YouTube et rester dans le même style que la vidéo TikTok validée.
+
+Direction : animation conte familial originale + BD africaine, personnages noirs / afro-descendants, couleurs vives rose/blanc/vert/cyan/or, ambiance lumineuse, sans texte/logo généré.
+
+Fichiers générés/adaptés dans `assets/raw/landscape/` :
+
+11. `11_refrain_lumineux_rose_vert_afro_bd_16x9.jpg`
+12. `12_tempetes_lions_couleurs_vives_afro_bd_16x9.jpg`
+13. `13_colosse_argile_afro_bd_color_16x9.jpg`
+14. `14_brouillard_rose_vert_afro_bd_16x9.jpg`
+15. `15_enigme_paradoxe_afro_bd_16x9.jpg`
+16. `16_pre_refrain_violin_white_green_afro_bd_16x9.jpg`
+17. `17_pont_piano_calme_afro_bd_couleur_16x9.jpg`
+18. `18_genoux_amour_afro_bd_vif_16x9.jpg`
+19. `19_poete_douleur_rose_blanc_vert_16x9.jpg`
+20. `20_hook_final_tutti_afro_bd_bright_16x9.jpg`
+
+Note : la 20e image paysage est une adaptation 16:9 propre de l’image portrait final-hook déjà validée, afin de compléter la salve avec cohérence visuelle.
+
+Contact sheet locale : `work/contact_sheet_landscape_11_20_afro_bd.jpg` (non commit, dossier work ignoré).
+
+
+## Règle badge immobile
+
+Retour artiste : le badge doit vraiment être immobile et ne pas bouger avec le reste.
+
+Action : `PROMPT_UNIVERSEL_MAJ.md` mis à jour. À partir des prochains exports, le badge `⚡ DAÏSKY PROD` sera posé en overlay final après les mouvements caméra/zoom/pan. Il ne sera plus intégré dans les images préparées avant mouvement.

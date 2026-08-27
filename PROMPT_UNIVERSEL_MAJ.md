@@ -48,7 +48,8 @@ Sombre, orageuse, cinématique, contrastes violents, éclairs comme source de lu
 - 20 portraits 9:16 (1080×1920) : la base pour TikTok/Reels/Shorts.
 - 20 paysages 16:9 : pour youtube 
 - Nomenclature : `NN_descriptif_courte.jpg` dans `assets/raw/portrait/` (ou `landscape/`).
-- Après génération, on superpose en POST (PIL) un badge **"⚡ DAÏSKY PROD"** statique en bas-gauche, même taille, même position sur toutes les frames. Le badge n'est JAMAIS peint dans l'image source.
+- Après génération, on superpose en POST un badge **"⚡ DAÏSKY PROD"** statique en bas-gauche, même taille, même position sur toutes les frames. Le badge n'est JAMAIS peint dans l'image source.
+- **RÈGLE CRITIQUE BADGE IMMOBILE** : le badge doit être ajouté **APRÈS** tous les mouvements caméra (zoompan, pan, crop animé, Ken Burns). Il ne doit jamais être intégré dans une frame qui sera ensuite zoomée/pannée. Méthode recommandée : générer un PNG transparent du badge puis l'appliquer en overlay ffmpeg final (`overlay=x:y`) sur la vidéo déjà montée, ou l'ajouter après rendu de chaque frame animée. Le badge doit rester pixel-fixe à l'écran.
 
 ---
 
@@ -74,14 +75,14 @@ Sombre, orageuse, cinématique, contrastes violents, éclairs comme source de lu
 ## 🎞 4. MONTAGE — PIPELINE VIDÉO
 
 ### Ordre du pipeline
-1. **Préparation des frames** (PIL) : resize/letterbox + badge overlay + grain/halo éventuel → JPEG quality 92 dans `work/prep/`.
+1. **Préparation des frames** (PIL) : resize/letterbox + grain/halo éventuel → JPEG quality 92 dans `work/prep/`. **Ne pas ajouter le badge ici si un zoom/pan sera appliqué ensuite.**
 2. **Clips silencieux** par segment : `ffmpeg -loop 1 -i frame.jpg -t dur -f lavfi -t dur -i anullsrc=... -c:v libx264 -preset veryfast -crf 23 -pix_fmt yuv420p -vf scale=W:H,fps=24 -c:a aac -b:a 128k -shortest -movflags +faststart clip.mp4`.
 3. **Concat demuxer** : fichier `concat.txt` avec `file 'clip_XXX.mp4'` → `ffmpeg -f concat -safe 0 -i concat.txt -c copy concat.mp4`. **PAS de filtre `fade=t=in/out`** sur les clips individuels : ça crée des trous noirs au concat.
-4. **Burn ASS + mux audio final** : `ffmpeg -i concat.mp4 -i audio.m4a -map 0:v:0 -map 1:a:0 -c:v libx264 -preset medium -crf 22 -pix_fmt yuv420p -r 24 -c:a aac -b:a 192k -ar 44100 -ac 2 -af "afade=t=in:st=0:d=0.3,afade=t=out:st=DURATION-3:d=3" -t DURATION -vf "ass=subs.ass" -movflags +faststart -shortest final.mp4`.
+4. **Burn ASS + badge statique + mux audio final** : `ffmpeg -i concat.mp4 -i audio.m4a -i badge.png -filter_complex "[0:v]ass=subs.ass[vsub];[vsub][2:v]overlay=x=42:y=H-h-42[v]" -map "[v]" -map 1:a:0 -c:v libx264 -preset medium -crf 22 -pix_fmt yuv420p -r 24 -c:a aac -b:a 192k -ar 44100 -ac 2 -af "afade=t=in:st=0:d=0.3,afade=t=out:st=DURATION-3:d=3" -t DURATION -movflags +faststart -shortest final.mp4`.
 
 ### Règles d'or du montage
 - **Zéro trou noir** entre segments (utiliser le concat demuxer, pas le filtre `fade` sur les pistes vidéo).
-- **Badge statique** bas-gauche, pas de waver, pas d'animation.
+- **Badge statique** bas-gauche, pas de waver, pas d'animation, **aucun déplacement avec le décor** : il est posé après les mouvements vidéo.
 - Audio : fade-in 0,3 s, fade-out 3 s avant la fin.
 - Deux exports systématiques :
   - **9:16** 1080×1920 → TikTok/Reels/Shorts (`*_9x16_vN.mp4`)
