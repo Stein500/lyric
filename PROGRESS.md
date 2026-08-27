@@ -41,11 +41,13 @@ Règles critiques retenues :
 - [x] Montage TikTok 9:16 v1 généré.
 - [x] Vérifications automatiques et planche QC visuelle générées.
 - [ ] Validation artiste du MP4 9:16 v1.
-- [ ] Déclinaison 16:9 YouTube.
+- [x] Déclinaison 16:9 YouTube MP4 v1 générée et contrôlée.
 - [x] Salve paysage YouTube 16:9 01–10 générée.
 - [ ] Validation artiste salve paysage 01–10.
 - [x] Salve paysage YouTube 16:9 11–20 générée/adaptée.
-- [ ] Validation artiste salve paysage 11–20.
+- [x] Validation implicite salve paysage 11–20 pour génération YouTube.
+- [x] MP3 livrable propre généré.
+- [x] Prompt livrable copié dans `livrables/`.
 - [ ] Commit/push de livrables validés.
 
 ## Notes minutage importantes
@@ -173,3 +175,34 @@ Contact sheet locale : `work/contact_sheet_landscape_11_20_afro_bd.jpg` (non com
 Retour artiste : le badge doit vraiment être immobile et ne pas bouger avec le reste.
 
 Action : `PROMPT_UNIVERSEL_MAJ.md` mis à jour. À partir des prochains exports, le badge `⚡ DAÏSKY PROD` sera posé en overlay final après les mouvements caméra/zoom/pan. Il ne sera plus intégré dans les images préparées avant mouvement.
+
+
+## Vidéo YouTube 16:9 v1 — générée et contrôlée
+
+Livrables :
+
+- `livrables/trop_belle_16x9_YT_v1.mp4`
+- `livrables/trop_belle_audio_v1.mp3`
+- `livrables/PROMPT_UNIVERSEL_MAJ_TROP_BELLE.md`
+- `livrables/trop_belle_16x9_YT_v1_QC.md`
+- `livrables/trop_belle_16x9_YT_v1_QC_sheet.jpg`
+
+Script reproductible : `scripts/build_trop_belle_16x9_YT_v1.py`
+Sous-titres : `data/trop_belle_16x9_YT_v1.ass`
+Timeline : `data/trop_belle_timeline_16x9_YT_v1.json`
+Segments vidéo : `data/trop_belle_video_segments_16x9_YT_v1.json`
+
+Contrôles :
+
+- Format vidéo : 1920×1080, 24 fps
+- Durée audio source : 202.992 s
+- Durée vidéo : 202.983 s
+- Écart : 0.009 s — OK ±0.30 s
+- Blackdetect >300 ms : 0 — OK
+- Durée MP3 livrable : 202.992 s
+- Taille MP4 YouTube : 44.4 MB
+- Taille MP3 : 4.5 MB
+- Taille prompt : 10.1 KB
+- Badge : overlay final immobile après zoom/pan — OK sur planche QC
+
+Note : production YouTube 16:9 réalisée avec les 20 images paysage, paroles/timing repris de la version TikTok validée.
