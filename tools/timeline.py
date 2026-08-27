@@ -126,6 +126,45 @@ SUBS = [
 # ------------------------------------------------------------------ AUDIO ----
 AUDIO = "Motivé- Daïsky 1.mp3"
 DURATION = 158.90           # durée audio exacte (mesurée)
-W = 1080
-H = 1920
 FPS = 24
+
+# Dimensions par mode -----------------------------------------------------------
+PORTRAIT = dict(W=1080, H=1920, marge=340)   # TikTok / Reels
+LANDSCAPE = dict(W=1920, H=1080, marge=180)  # YouTube
+
+# Mapping portrait -> paysage (mêmes scènes, cadrées 16:9) ----------------------
+LANDSCAPE_MAP = {
+    '01_ancrage_artiste_nuit': 'L01_hero_rue_nuit',
+    '02_toit_ville_nuit': 'L02_toit_ville_nuit',
+    '03_feu_veines_braises': 'L03_feu_veines_braises',
+    '04_marche_avant_rue': 'L04_marche_avant_rue',
+    '05_escalier_montée': 'L05_escalier_montee',
+    '06_visages_derriere_verre': 'L06_visages_derriere_verre',
+    '07_etoiles_yeux': 'L07_etoiles_yeux',
+    '08_construire_abri': 'L08_construire_abri',
+    '09_peuple_marche': 'L09_peuple_marche',
+    '10_triomphe_sommet': 'L10_triomphe_sommet',
+    '11_cover_hero_manga': 'L11_cover_hero_manga',
+    '12_clash_plus_rapide': 'L12_clash_plus_rapide',
+    '13_crier_dans_bruit': 'L13_crier_dans_bruit',
+    '14_critiques_du_vent': 'L14_critiques_du_vent',
+    '15_regarde_nuit': 'L15_regarde_nuit',
+    '16_etoiles_dans_les_yeux': 'L16_etoiles_dans_les_yeux',
+    '17_course_neon': 'L17_course_neon',
+    '18_mon_peuple': 'L18_mon_peuple',
+    '19_refrain_final_explosif': 'L19_refrain_final_explosif',
+    '20_outro_aube': 'L20_outro_aube',
+}
+
+
+def shots_for_mode(mode):
+    """Retourne la liste des plans (start, end, img) pour le mode donné."""
+    if mode == 'landscape':
+        return [(s, e, LANDSCAPE_MAP.get(img, img)) for (s, e, img) in SHOTS]
+    return list(SHOTS)
+
+
+def dims_for_mode(mode):
+    if mode == 'landscape':
+        return LANDSCAPE['W'], LANDSCAPE['H'], LANDSCAPE['marge']
+    return PORTRAIT['W'], PORTRAIT['H'], PORTRAIT['marge']

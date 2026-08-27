@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Pipeline vidéo "Motivé" 9:16.
+Pipeline vidéo "Motivé".
+  mode portrait : 9:16 TikTok/Reels (1080x1920)
+  mode landscape: 16:9 YouTube        (1920x1080)
+
   prep    -> clips silencieux (loop image / -t)
   concat  -> assembly via concat demuxer (zéro trou noir)
   final   -> burn ASS + mux audio + fades audio
   checks  -> durée exacte + blackdetect + frame-by-frame fin + poids
 """
-import os, sys, subprocess, shutil, math
+import os, sys, subprocess, re
 import importlib.util
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -15,24 +18,26 @@ spec = importlib.util.spec_from_file_location('timeline', os.path.join(ROOT, 'to
 tl = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(tl)
 
+MODE = os.environ.get('MODE', 'portrait')
 FF = os.environ.get('FF', '/tmp/vidvenv/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2')
-PREP = os.path.join(ROOT, 'work', 'prep')
-BUILD = os.path.join(ROOT, 'work', 'build')
+PREP = os.path.join(ROOT, 'work', 'prep', MODE)
+BUILD = os.path.join(ROOT, 'work', 'build', MODE)
 os.makedirs(BUILD, exist_ok=True)
 
-W, H, FPS = tl.W, tl.H, tl.FPS
+W, H, MARGE = tl.dims_for_mode(MODE)
+FPS = tl.FPS
 DURATION = tl.DURATION
 AUDIO = os.path.join(ROOT, tl.AUDIO)
+SHOTS = tl.shots_for_mode(MODE)
 
 # ---------------------------------------------------------------- STYLES ----
-# Conversion ASS : PrimaryColour = &HAABBGGRR
 def ass_color(r, g, b, a=0):
     return '&H%02X%02X%02X%02X' % (a, b, g, r)
 
 CYAN = ass_color(0x4D, 0xD2, 0xFF)
 AMBER = ass_color(0xE8, 0xA3, 0x3D)
 WHITE = ass_color(0xF5, 0xF9, 0xFF)
-LIGHT = ass_color(0xC7, 0xDD, 0xEE)   # bridge
+LIGHT = ass_color(0xC7, 0xDD, 0xEE)
 BLACK = '&H00000000'
 
 STYLE_DEF = """[Script Info]
@@ -44,17 +49,16 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,DejaVu Sans,58,{white},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,430,1
-Style: verse,DejaVu Sans,60,{white},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,410,1
-Style: hook,DejaVu Sans,72,{cyan},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,390,1
-Style: hook_final,DejaVu Sans,80,{amber},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,380,1
-Style: bridge,DejaVu Sans,56,{light},{black},{black},&H80000000,0,1,0,0,100,100,0,0,1,3,2,2,60,60,430,1
-Style: wolof,DejaVu Sans,78,{amber},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,390,1
-""".format(W=W, H=H, white=WHITE, black=BLACK, cyan=CYAN, amber=AMBER, light=LIGHT)
+Style: Default,DejaVu Sans,58,{white},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,{marge},1
+Style: verse,DejaVu Sans,60,{white},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,{marge},1
+Style: hook,DejaVu Sans,72,{cyan},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,{marge},1
+Style: hook_final,DejaVu Sans,80,{amber},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,{marge},1
+Style: bridge,DejaVu Sans,56,{light},{black},{black},&H80000000,0,1,0,0,100,100,0,0,1,3,2,2,60,60,{marge},1
+Style: wolof,DejaVu Sans,78,{amber},{black},{black},&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,60,60,{marge},1
+""".format(W=W, H=H, white=WHITE, black=BLACK, cyan=CYAN, amber=AMBER, light=LIGHT, marge=MARGE)
 
 
 def tsfmt(sec):
-    """secondes -> ASS timestamp h:mm:ss.cc"""
     sec = max(0.0, float(sec))
     h = int(sec // 3600)
     m = int((sec % 3600) // 60)
@@ -75,10 +79,9 @@ def build_ass():
     return path
 
 
-# ---------------------------------------------------------------- CLIPS -----
 def make_clips():
     clips = []
-    for i, (start, end, img) in enumerate(tl.SHOTS):
+    for i, (start, end, img) in enumerate(SHOTS):
         dur = round(end - start, 3)
         src = os.path.join(PREP, img + '.jpg')
         if not os.path.exists(src):
@@ -96,7 +99,7 @@ def make_clips():
         ]
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         clips.append(clip)
-    print('clips ok:', len(clips))
+    print('clips ok:', len(clips), '(', MODE, ')')
     return clips
 
 
@@ -112,9 +115,10 @@ def concat(clips):
     return out
 
 
-def final(concat_path, subs_path, tag):
+def final(concat_path, subs_path):
     fade_out_start = DURATION - 3.0
-    out = os.path.join(ROOT, 'livrables', 'Motivé_%s_9x16_v1.mp4' % tag)
+    suffix = 'TikTokReels_9x16' if MODE == 'portrait' else '16x9_YT'
+    out = os.path.join(ROOT, 'livrables', 'Motivé_%s_v1.mp4' % suffix)
     cmd = [
         FF, '-y', '-i', concat_path, '-i', AUDIO,
         '-map', '0:v:0', '-map', '1:a:0',
@@ -126,16 +130,11 @@ def final(concat_path, subs_path, tag):
         '-movflags', '+faststart', '-shortest', out,
     ]
     subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    print('FINAL 9:16 ->', out)
+    print('FINAL', MODE, '->', out)
     return out
 
 
-# ---------------------------------------------------------------- CHECKS ----
-import re
-
-
 def duration(path):
-    # ffmpeg (pas ffprobe) : parser la ligne "Duration: 00:02:38.88"
     r = subprocess.run([FF, '-hide_banner', '-i', path], capture_output=True, text=True)
     m = re.search(r'Duration:\s*(\d+):(\d+):(\d+\.?\d*)', r.stderr)
     if not m:
@@ -147,8 +146,7 @@ def duration(path):
 def blackdetect(path):
     cmd = [FF, '-i', path, '-vf', 'blackdetect=d=0.3:pix_th=0.10', '-an', '-f', 'null', '-']
     r = subprocess.run(cmd, capture_output=True, text=True)
-    hits = [l for l in r.stderr.splitlines() if 'black_start' in l]
-    return hits
+    return [l for l in r.stderr.splitlines() if 'black_start' in l]
 
 
 def check(path, dur_expected):
@@ -167,7 +165,7 @@ def main():
     print('== 3/4 concat ==')
     c = concat(clips)
     print('== 4/4 final ==')
-    f = final(c, subs, 'TikTokReels')
+    f = final(c, subs)
     sz = os.path.getsize(f) / 1e6
     print('  poids = %.1f MB' % sz)
     print('== CHECKS ==')

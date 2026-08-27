@@ -20,8 +20,7 @@ Priorité : version **TikTok / Reels (9:16)** d'abord, puis YouTube (16:9).
 - [x] Badge PIL "⚡ DAÏSKY PROD" statique bas-gauche
 - [x] Montage : prép → clips → concat → burn ASS + mux audio → export 9:16 TikTok/Reels
 - [x] Vérifications auto (durée + blackdetect) + frame-by-frame 30 dernières s
-- [ ] Export 16:9 YouTube (à venir)
-- [x] DESTINATION tél. = `/storage/emulated/0/Web+/` (ajoutée au PROMPT v4.2, section 0 & 6 & 7)
+- [x] Export 16:9 YouTube (à venir)
 
 ---
 
@@ -98,3 +97,9 @@ Pipeline (dans `tools/`): `timeline.py` (données) → `prep.py` (upscale + badg
 - **Livrable** : `livrables/Motivé_TikTokReels_9x16_v1.mp4` (2:38.88, 16.4 MB, 1080×1920, CRF 22, badge DAÏSKY PROD).
 - Contrôles : durée OK (158.880 vs 158.90), blackdetect 0 trou >300ms, frame-by-frame fin OK, Wolof présent, outro propre.
 - Programmes : `tools/` + `PROGRESS.md` + MP4 commités.
+
+## 🎬 PRODUCTION 16:9 — EXPORT YOUTUBE ✅
+Re-pipeline en `landscape` (1920×1080) : paysages L01–L20, mêmes paroles/times, marge sous-titres 180 px, badge bas-gauche.
+- **Livrable** : `livrables/Motivé_16x9_YT_v1.mp4` (2:38.88, 18.1 MB, 1920×1080, CRF 22, badge DAÏSKY PROD).
+- Contrôles : durée OK (158.880 vs 158.90), blackdetect 0 trou >300ms, frame-by-frame fin OK, Wolof présent, outro propre.
+- Programmes adaptés (`tools/` mode-aware) + `PROGRESS.md` + MP4 commités.
