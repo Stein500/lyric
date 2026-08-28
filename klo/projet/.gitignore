@@ -1,0 +1,7 @@
+# Outils & intermédiaires (PAS les livrables)
+work/
+.venv/
+tools/
+__pycache__/
+*.pyc
+assets/prep/

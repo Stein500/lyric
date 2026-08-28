@@ -1,0 +1,6 @@
+# Environnement & outils (binaires lourds) — jamais dans le dépôt
+.venv/
+venv/
+tools/
+__pycache__/
+*.pyc
