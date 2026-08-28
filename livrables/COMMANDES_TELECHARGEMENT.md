@@ -1,6 +1,7 @@
 # 📥 COMMANDES DE TÉLÉCHARGEMENT REPRENABLES (TERMUX / ANDROID)
 
-> ⚡ **DESTINATION FIXE OBLIGATOIRE :** `/storage/emulated/0/Web+/`
+> ⚡ **DESTINATION FIXE OBLIGATOIRE :** `/storage/emulated/0/Web+/`  
+> **Commit Hash :** `3b5e1c6aed511ab7dcb811a0ded82a42feee3538`
 
 Copiez-collez ces blocs de commandes dans votre terminal Termux pour récupérer directement tous les livrables dans votre dossier de travail.
 
@@ -11,36 +12,36 @@ cd /storage/emulated/0/Web+/
 find . -name "*.mp4" -size -100k -delete
 find . -name "*.gif" -size -100k -delete
 
-# 2. Téléchargement des 3 Vidéos MP4 Full HD
+# 2. Téléchargement des 3 Vidéos MP4 Full HD (1080p)
 curl -fL --retry 5 --retry-delay 3 -C - \
   -o "Klo_HDB_9x16_TikTok_Lyrics.mp4" \
-  "https://raw.githubusercontent.com/Stein500/lyric/arena/01a0497b-lyric/livrables/Klo_HDB_9x16_TikTok_Lyrics.mp4"
+  "https://raw.githubusercontent.com/Stein500/lyric/3b5e1c6aed511ab7dcb811a0ded82a42feee3538/livrables/Klo_HDB_9x16_TikTok_Lyrics.mp4"
 
 curl -fL --retry 5 --retry-delay 3 -C - \
   -o "Klo_HDB_16x9_YouTube_Cinema.mp4" \
-  "https://raw.githubusercontent.com/Stein500/lyric/arena/01a0497b-lyric/livrables/Klo_HDB_16x9_YouTube_Cinema.mp4"
+  "https://raw.githubusercontent.com/Stein500/lyric/3b5e1c6aed511ab7dcb811a0ded82a42feee3538/livrables/Klo_HDB_16x9_YouTube_Cinema.mp4"
 
 curl -fL --retry 5 --retry-delay 3 -C - \
   -o "Klo_HDB_9x16_WhatsApp_Prestige_VIP.mp4" \
-  "https://raw.githubusercontent.com/Stein500/lyric/arena/01a0497b-lyric/livrables/Klo_HDB_9x16_WhatsApp_Prestige_VIP.mp4"
+  "https://raw.githubusercontent.com/Stein500/lyric/3b5e1c6aed511ab7dcb811a0ded82a42feee3538/livrables/Klo_HDB_9x16_WhatsApp_Prestige_VIP.mp4"
 
 # 3. Téléchargement des GIFs Animés et Portraits HD
 curl -fL --retry 5 --retry-delay 3 -C - \
   -o "Klo_HDB_Carte_Scintillante.gif" \
-  "https://raw.githubusercontent.com/Stein500/lyric/arena/01a0497b-lyric/livrables/Klo_HDB_Carte_Scintillante.gif"
+  "https://raw.githubusercontent.com/Stein500/lyric/3b5e1c6aed511ab7dcb811a0ded82a42feee3538/livrables/Klo_HDB_Carte_Scintillante.gif"
 
 curl -fL --retry 5 --retry-delay 3 -C - \
   -o "Klo_HDB_Queen_Klo_Sticker.gif" \
-  "https://raw.githubusercontent.com/Stein500/lyric/arena/01a0497b-lyric/livrables/Klo_HDB_Queen_Klo_Sticker.gif"
+  "https://raw.githubusercontent.com/Stein500/lyric/3b5e1c6aed511ab7dcb811a0ded82a42feee3538/livrables/Klo_HDB_Queen_Klo_Sticker.gif"
 
 curl -fL --retry 5 --retry-delay 3 -C - \
   -o "Klo_Royal_Gold_Portrait.png" \
-  "https://raw.githubusercontent.com/Stein500/lyric/arena/01a0497b-lyric/livrables/Klo_Royal_Gold_Portrait.png"
+  "https://raw.githubusercontent.com/Stein500/lyric/3b5e1c6aed511ab7dcb811a0ded82a42feee3538/livrables/Klo_Royal_Gold_Portrait.png"
 
 curl -fL --retry 5 --retry-delay 3 -C - \
   -o "Klo_Anime_Cyber_Portrait.png" \
-  "https://raw.githubusercontent.com/Stein500/lyric/arena/01a0497b-lyric/livrables/Klo_Anime_Cyber_Portrait.png"
+  "https://raw.githubusercontent.com/Stein500/lyric/3b5e1c6aed511ab7dcb811a0ded82a42feee3538/livrables/Klo_Anime_Cyber_Portrait.png"
 
-# 4. Vérification
+# 4. Vérification post-téléchargement
 ls -lh /storage/emulated/0/Web+/
 ```
