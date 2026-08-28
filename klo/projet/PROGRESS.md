@@ -47,9 +47,15 @@
 3. Overlay badge PNG statique + burn ASS paroles + mux audio (afade in 0.3 s / out 3 s).
 4. QA : durée = 105 s ±0.3, blackdetect = 0, inspection de frames.
 
-## Livrables
-- `livrables/Klo_Anniversaire_V1_FestifOr_9x16.mp4`
-- `livrables/Klo_Anniversaire_V2_NuitCyan_9x16.mp4`
-- `livrables/Klo_Anniversaire_V3_PartyConfettis_9x16.mp4`
+## Livrables — ✅ LIVRÉS (1:45.00, 1080×1920, 0 trou noir, AAC 192k)
+- `livrables/Klo_Anniversaire_V1_FestifOr_9x16.mp4` (36 Mo, or/rose)
+- `livrables/Klo_Anniversaire_V2_NuitCyan_9x16.mp4` (38 Mo, nuit cyan)
+- `livrables/Klo_Anniversaire_V3_PartyConfettis_9x16.mp4` (46 Mo, party)
+
+QA : durée = audio (105.0 s) ; blackdetect = 0 ; badge statique identique sur toutes les
+frames ; paroles visibles sur toutes les sections (titre, refrain, M, F, pont, outro, Wolof,
+carte de fin) ; ligatures œ/é/ê/wê et ♥ rendues correctement.
+
+**Commit :** `54ddb050…` (branche `arena/01a04959-lyric`).
 
 **Signature :** Wolof TechStein beat wê ! ⚡
