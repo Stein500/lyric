@@ -1,0 +1,43 @@
+[Script Info]
+Title: Joyeux Anniversaire Klo
+ScriptType: v4.00+
+WrapStyle: 1
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,48,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,2,2,40,40,160,1
+Style: Hook,DejaVu Sans,55,&H00FFD24D,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,1,0,1,4.0,2.5,2,30,30,160,1
+Style: Gold,DejaVu Sans,58,&H0000D7FF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,1,0,1,4.5,3,2,30,30,160,1
+Style: Verse,DejaVu Sans,48,&H00F5F9FF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,2,2,40,40,160,1
+Style: Bridge,DejaVu Sans,51,&H00B285FF,&H000000FF,&H00000000,&H80000000,-1,1,0,0,100,100,0,0,1,3.5,2,2,40,40,160,1
+Style: Wolof,DejaVu Sans,55,&H0000D7FF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,1,0,1,4.0,2.5,2,30,30,160,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.50,0:00:08.50,Wolof,,0,0,0,,{\fad(100,150)}⚡ Wolof TechStein beat wê... ⚡
+Dialogue: 0,0:00:08.50,0:00:11.50,Hook,,0,0,0,,{\fad(100,120)}★ Klo... Confiance... ★
+Dialogue: 0,0:00:11.50,0:00:17.00,Gold,,0,0,0,,{\fad(100,120)}★ JOYEUX ANNIVERSAIRE, KLO ! ★
+Dialogue: 0,0:00:17.00,0:00:22.00,Hook,,0,0,0,,{\fad(100,120)}★ Joyeux anniversaire, ma lumière ★
+Dialogue: 0,0:00:22.00,0:00:27.00,Gold,,0,0,0,,{\fad(100,120)}★ 30 août, c'est ton jour ★
+Dialogue: 0,0:00:27.00,0:00:33.00,Hook,,0,0,0,,{\fad(100,120)}Le monde est plus beau quand tu es là
+Dialogue: 0,0:00:33.00,0:00:35.50,Verse,,0,0,0,,{\fad(80,100)}Tu es la joie, tu es la paix
+Dialogue: 0,0:00:35.50,0:00:38.00,Verse,,0,0,0,,{\fad(80,100)}Chaque jour avec toi est un rêve
+Dialogue: 0,0:00:38.00,0:00:40.50,Verse,,0,0,0,,{\fad(80,100)}Je te souhaite tout le bonheur
+Dialogue: 0,0:00:40.50,0:00:44.00,Gold,,0,0,0,,{\fad(100,120)}Ma Confiance, mon cœur ★
+Dialogue: 0,0:00:44.00,0:00:46.50,Verse,,0,0,0,,{\fad(80,100)}Tu es la joie, tu es la paix
+Dialogue: 0,0:00:46.50,0:00:49.00,Verse,,0,0,0,,{\fad(80,100)}Chaque jour avec toi est un rêve
+Dialogue: 0,0:00:49.00,0:00:51.50,Verse,,0,0,0,,{\fad(80,100)}Je te souhaite tout le bonheur
+Dialogue: 0,0:00:51.50,0:00:54.00,Gold,,0,0,0,,{\fad(100,120)}Ma Confiance, mon cœur ★
+Dialogue: 0,0:00:54.00,0:00:57.00,Bridge,,0,0,0,,{\fad(100,120)}Que cette année soit belle
+Dialogue: 0,0:00:57.00,0:00:59.50,Bridge,,0,0,0,,{\fad(100,120)}Que tes rêves deviennent réels
+Dialogue: 0,0:00:59.50,0:01:02.00,Gold,,0,0,0,,{\fad(100,120)}★ Klo, tu es unique ★
+Dialogue: 0,0:01:02.00,0:01:05.50,Hook,,0,0,0,,{\fad(100,120)}Confiance, tu es magnifique
+Dialogue: 0,0:01:05.50,0:01:11.00,Gold,,0,0,0,,{\fad(100,120)}★ Joyeux anniversaire, JésuKlo... ★
+Dialogue: 0,0:01:11.00,0:01:16.00,Gold,,0,0,0,,{\fad(100,120)}★ Joyeux anniversaire, Confiance... ★
+Dialogue: 0,0:01:16.00,0:01:22.00,Wolof,,0,0,0,,{\fad(100,150)}⚡ Wolof TechStein beat wê... ⚡
+Dialogue: 0,0:01:22.00,0:01:31.00,Hook,,0,0,0,,{\fad(100,150)}★ 30 Août • Happy Birthday Queen Klo ★
+Dialogue: 0,0:01:31.00,0:01:34.50,Wolof,,0,0,0,,{\fad(100,150)}⚡ Wolof TechStein beat wê... ⚡
+Dialogue: 0,0:01:34.50,0:01:44.00,Gold,,0,0,0,,{\fad(100,300)}★ JOYEUX ANNIVERSAIRE KLO ! ★

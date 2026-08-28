@@ -1,0 +1,11 @@
+# Temporary build & work directories
+work/
+*.tmp
+*.pyc
+__pycache__/
+.venv/
+venv/
+*.log
+
+# Never ignore livrables
+!livrables/
