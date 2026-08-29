@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="420" viewBox="0 0 1080 420">
+ <defs><filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".28"/></filter><linearGradient id="b" x2="0" y2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#1264e8"/></linearGradient></defs>
+ <g filter="url(#s)"><rect x="45" y="45" width="990" height="330" rx="80" fill="#07152d" fill-opacity=".92" stroke="#38bdf8" stroke-width="4"/><circle cx="170" cy="210" r="92" fill="url(#b)"/>
+ <path d="M132 194h26l10-31c4-12 22-12 26 1l5 30h26l13-16c8-10 24-2 22 10l-4 28c-2 16-14 27-30 27h-38l-13 29h-32l-10-31h-18z" fill="white"/>
+ <text x="315" y="205" font-family="DejaVu Sans,Arial" font-weight="700" font-size="64" fill="white">LIKE</text><text x="315" y="280" font-family="DejaVu Sans,Arial" font-size="38" fill="#a8ddff">si tu valides</text>
+ <path d="M790 145h-42v-18c0-25-42-25-42 0v18h-42c-16 0-26 17-19 31l12 24v31c0 30 21 52 51 52h38c30 0 51-22 51-52v-31l12-24c7-14-3-31-19-31z" fill="white"/><path d="M714 309c0 20-30 20-30 0" fill="none" stroke="white" stroke-width="10" stroke-linecap="round"/><circle cx="825" cy="120" r="34" fill="#ff4567"/><path d="M825 100v40M805 120h40" stroke="white" stroke-width="9" stroke-linecap="round"/>
+ <text x="560" y="350" font-family="DejaVu Sans,Arial" font-weight="700" font-size="28" fill="#7dd3fc">ABONNE-TOI • PARTAGE • ACTIVE LA CLOCHE</text></g>
+</svg>
