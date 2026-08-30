@@ -18,7 +18,11 @@
 - [x] **Étape 8 — Vidéo 9:16 v2** (30 images + effet vague) : livrée.
   - Apparition/disparition de chaque vers avec **EFFET VAGUE** (lettres qui montent/descendent en ondulation + fondu décalé lettre par lettre).
   - Intro **musicale** (aucune parole) ; outro **musicale** (couple au lever de soleil, sans paroles).
-- [ ] **Étape 9 — Commit + push de la v2** : à faire.
+- [x] **Étape 9 — Salve 2 validée / suite appliquée** : les images 11–20 sont conservées comme salve 2 officielle.
+- [x] **Étape 10 — Règles artiste ajoutées** : prompt universel v4.5 avec cover propre par musique, tags audio obligatoires, crédits/contact Techstein · Daïsky Prod · Daïsky.
+- [x] **Étape 11 — MP3 master taggé** : tags complets + cover intégrée + contacts.
+- [x] **Étape 12 — Vidéo 9:16 v3 contact** : écran final contact/booking ajouté sur les 12 dernières secondes.
+- [x] **Étape 13 — Commit + push v3 + prompt v4.5** : effectué sur la branche `arena/01a05321-lyric`.
 
 ---
 
@@ -39,6 +43,7 @@
 
 - **v1** : `livrables/L'amour_est_la_reponse_Daïsky_9x16_v1.mp4` — 14 MB (salve 1).
 - **v2** : `livrables/L'amour_est_la_reponse_Daïsky_9x16_v2.mp4` — **20 MB**, 1080×1920, 24 fps, 3:34,90, **effet vague** sur les vers, badge statique, **0 trou noir**.
+- **v3 contact** : `livrables/L'amour_est_la_reponse_Daïsky_9x16_v3_contact.mp4` — **20 MB**, 1080×1920, 24 fps, 3:34,96, audio repris du MP3 master, **carton final contact/booking** sur les 12 dernières secondes, **0 trou noir**, décodage OK.
 
 ---
 
@@ -47,6 +52,7 @@
 1. **Intro musicale** : « Wolof TechStein beat wê ! » = pur musical, aucune parole incrustée (image + musique).
 2. **Outro musicale** : paroles jusqu'à 2:56, audio 3:34,9 → outro ~39 s (couple au lever de soleil + badge).
 3. **16:9 (YouTube)** : pas encore demandé / fait (priorité 9:16).
+4. **Règle v4.5** : chaque nouvelle musique doit créer sa propre cover, remplir tous les tags audio (Techstein, Daïsky Prod, Daïsky, genre, année, contacts) et afficher le contact à la fin de chaque vidéo.
 
 ---
 
