@@ -8,60 +8,69 @@
 
 ## ✅ État d'avancement
 
-- [x] **Étape 1 — Cadre** : dossiers `assets/raw/portrait/`, `assets/raw/landscape/`, `livrables/`, `work/prep/`, `.gitignore` (livrables/ PAS exclu), `PROGRESS.md`.
-- [x] **Étape 2 — Image d'ancrage** : `01_ancrage_couple_enlace.jpg` validée (tendresse + sensualité classe, diffuse TikTok).
-- [x] **Étape 3 — Salve 1 (10 images)** : 10 portraits 9:16 générés dans `assets/raw/portrait/`.
-- [x] **Étape 4 — Frames préparées** : up-scale 1080×1920 + **écriture cursive** (GreatVibes) + **badge statique « ⚡ DAÏSKY PROD »** (éclair vectoriel dessiné, même position/taille partout).
-- [x] **Étape 5 — Minutage** : timeline 34 plans (3:34,92 découpée selon les paroles) ; **après 1:50 → horaires hardcodés en secondes** (règle v4.2).
-- [x] **Étape 6 — Montage** : prép → clips → **concat demuxer (zéro trou noir)** → burn + mux audio → **fade-in 0,3 s / fade-out 3 s**.
-- [x] **Étape 7 — Vérifs auto** : durée exacte (3:34,90 ✓), **blackdetect = 0 trou noir > 300 ms** ✓, frame-by-frame des 30 dernières secondes + sections clés ✓ (badge fixe, fade-out propre).
+- [x] **Étape 1 — Cadre** : dossiers `assets/raw/portrait/`, `livrables/`, `.gitignore` (livrables/ PAS exclu), `PROGRESS.md`.
+- [x] **Étape 2 — Image d'ancrage** : `01` validée (tendresse + sensualité classe, diffuse TikTok).
+- [x] **Étape 3 — Salve 1 (10 images)** : `01` → `10` générées.
+- [x] **Étape 4 — Salve 2 (10 images)** : `11` → `20` générées (**un vers = une image HD**).
+- [x] **Étape 5 — Intro musicale** : l'intro « Wolof TechStein beat wê ! » est **musicale** → aucune parole incrustée, juste l'ambiance (image de fond + musique).
+- [ ] **Étape 6 — Frames + badge + cursive** : à reconstruire avec les 20 images (work/ a été nettoyé par la plateforme).
+- [ ] **Étape 7 — Montage 9:16 v2** : à refaire après validation de la salve 2.
 - [ ] **Étape 8 — Commit + push** : à faire.
-- [ ] **Étape 9 — Partage** : commande curl `-C -` (voir section 6).
 
 ---
 
-## 🖼 Images générées (10 portraits 9:16)
+## 🖼 Images (20 portraits 9:16 — 1 vers = 1 image)
 
-| # | Fichier | Section |
+### Salve 1 (01–10)
+| # | Fichier | Vers / section |
 |---|---|---|
-| 01 | `01_ancrage_couple_enlace.jpg` | Refrain / couple tendre |
-| 02 | `02_intro_appel_wolof.jpg` | Intro « Wolof TechStein beat wê ! » |
-| 03 | `03_refrain_danse_liberte.jpg` | Danse / liberté |
+| 01 | `01_ancrage_couple_enlace.jpg` | Refrain « Peu importe qui tu es » |
+| 02 | `02_intro_appel_wolof.jpg` | Intro musicale (Wolof TechStein beat wê !) |
+| 03 | `03_refrain_danse_liberte.jpg` | « On danse, on aime, on vit, sans frontières » |
 | 04 | `04_couplet1_brise_chaines.jpg` | Couplet 1 « Brise les chaînes » |
-| 05 | `05_prerefrain_coeurs_feu.jpg` | Pré-refrain / cœurs |
-| 06 | `06_refrain2_unite_musique.jpg` | Refrain 2 / unité |
-| 07 | `07_couplet2_flamme_univers.jpg` | Couplet 2 / flamme cosmique |
-| 08 | `08_unite_sans_frontieres.jpg` | Sans frontières |
-| 09 | `09_passion_connection.jpg` | Passion |
-| 10 | `10_final_union_puissance.jpg` | Final / union |
+| 05 | `05_prerefrain_coeurs_feu.jpg` | Pré-refrain « Chaque cœur bat » |
+| 06 | `06_refrain2_unite_musique.jpg` | Refrain 2 « Noir, blanc, riche, pauvre » |
+| 07 | `07_couplet2_flamme_univers.jpg` | Couplet 2 « On a tous une flamme » |
+| 08 | `08_unite_sans_frontieres.jpg` | « Fini les murs, les frontières » |
+| 09 | `09_passion_connection.jpg` | « Homme, femme, enfant » |
+| 10 | `10_final_union_puissance.jpg` | Final « Ensemble, on est puissants » |
+
+### Salve 2 (11–20)
+| # | Fichier | Vers / section |
+|---|---|---|
+| 11 | `11_amour_d_ou_viens_tu.jpg` | « Peu importe d'où tu viens ! » |
+| 12 | `12_noir_blanc_riches_pauvres.jpg` | « Noir, blanc, riche, pauvre, on est tous pareils » |
+| 13 | `13_une_seule_race_coeur.jpg` | « On est une seule race, celle du cœur » |
+| 14 | `14_peau_ecrin_coeur_tresor.jpg` | « La peau n'est qu'un écrin, le cœur est le trésor » |
+| 15 | `15_amour_sans_genre_age_corps.jpg` | « L'amour ne connaît ni genre, ni âge, ni corps » |
+| 16 | `16_laisse_ton_ame_se_liberer.jpg` | « Laisse ton âme se libérer » |
+| 17 | `17_rock_evangile_liberte.jpg` | « Le rock est l'évangile de la liberté » |
+| 18 | `18_viens_on_chante_ensemble.jpg` | « Alors viens on chante, tous ensemble » |
+| 19 | `19_meme_humanite.jpg` | « On est la même humanité » |
+| 20 | `20_heure_de_danser_liberte.jpg` | « C'est l'heure de danser la liberté » |
 
 ---
 
 ## 🎬 Livrables TikTok 9:16
 
-- `livrables/L'amour_est_la_reponse_Daïsky_9x16_v1.mp4`
-  - Résolution **1080×1920** (9:16), 25 fps, H.264, AAC.
-  - Durée **3:34,90** (calée sur l'audio).
-  - **13 MB**. Badge statique, sous-titres en **cursive GreatVibes**.
-  - **0 trou noir**. Fade-in 0,3 s / fade-out 3 s.
+- **v1** (salve 1 uniquement) : `livrables/L'amour_est_la_reponse_Daïsky_9x16_v1.mp4` — 14 MB, 1080×1920, 3:34,9, badge statique, cursive GreatVibes, 0 trou noir.
+- **v2** (salves 1+2, 20 images) : à produire après validation.
 
 ---
 
-## ⚠️ Notes / points d'attention
+## ⚠️ Notes
 
-1. **Outro instrumentale** : les paroles fournies s'arrêtent à **2:56**, mais l'audio dure **3:34,9**. L'outro (~39 s) est couverte par le plan final « union » + badge (sans paroles).
-   - Si l'artiste a **des paroles pour l'outro** ou veut couper la chanson à 2:56, il faut me le dire pour ajuster.
-2. **Format 16:9 (YouTube)** non encore généré (le prompt v4.3 demande aussi 20 paysages) — demandé pour la suite.
-3. **Pas de texte peint dans les images source** (règle d'or v4.3) : tout le texte est incrusté en POST.
+1. **Outro instrumentale** : paroles jusqu'à 2:56, audio 3:34,9 → outro ~39 s (plan final union + badge, sans paroles).
+2. **16:9 (YouTube)** : pas encore demandé / fait (priorité 9:16).
 
 ---
 
 ## 🧰 Env / Outils
 
-- venv `.venv` (pillow, mutagen, imageio-ffmpeg) — NON commité (`.gitignore`).
+- venv `.venv` (pillow, mutagen, imageio-ffmpeg) — NON commité.
 - **FFmpeg** fourni par `imageio-ffmpeg` (binaire statique, hors dépôt).
-- **Polices** : GreatVibes + Pacifico dans `assets/fonts/` (le .ttf est à garder, le `.licence` en gitignore).
-- Le rendu des paroles en **cursive** a été validé sur frames (accents FR OK).
+- **Polices** : GreatVibes + Pacifico dans `assets/fonts/`.
+- `.venv/` et `work/` sont régénérés localement (exclus des snapshots de la plateforme).
 
 ---
 
