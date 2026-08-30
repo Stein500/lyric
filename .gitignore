@@ -1,0 +1,15 @@
+# Venv / outils Python (ne jamais committer les binaires 70+ MB)
+.venv/
+venv/
+work/
+build/
+dist/
+*.pyc
+__pycache__/
+
+# Polices téléchargées (hors dépôt)
+assets/fonts/*.ttf.license
+
+# Fichiers temporaires
+/tmp/
+*.log
