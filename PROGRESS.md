@@ -24,3 +24,11 @@
 - [ ] Rendu SOLUTION A : flux continu ceil(155×30)=4650 frames @30 FPS, vague + Ken Burns, mux audio master pad 5 s + afade/vf fade → `livrables/Le_Survivant_9x16_v1.mp4`.
 - [ ] Vérifs §7 → 16:9 (salves paysages + rendu) → MP3 master -14 LUFS + tags → covers.
 
+
+## 2026-08-31 — Étape 3 : RENDU 9:16 (SOLUTION A frame-accurate) ✅
+- [x] Pré-calcul 49 fonds 1188×2112 JPEG q92 (marge Ken Burns) ; badge posé en post, pixel-identique.
+- [x] `work/render9x16.py` : flux unique 4650 frames @30 FPS (chaque frame = t=i/30), vague par lettre (entrée staggered / ondulation continue / cascade inversée), Ken Burns, intro musical-only + titre, endcard crédits+contacts dès 2:29.5, apad 5 s → 2:35.00.
+- [x] Vérifs §7 : durée 155.000 s = audio ±0.00 s ; 4650 frames ; blackdetect = 0 sauf 0,3 s finales du fade-out charte ; freezedetect = 0 ; frontières vers validées par diff pixel (MP4 vs logique, 8 temps dont zone 2:00+) ; badge statique (0,81 px).
+- [x] ⚠️ INCIDENT anti-reset : sandbox restauré à d53dac9 en cours de session → récupéré via `git fetch origin + reset --hard FETCH_HEAD` (tout était pushé). Le push après CHAQUE étape a sauvé le travail.
+- Livrable : `livrables/Le_Survivant_9x16_v1.mp4` (78,7 Mo, h264 crf19 + aac 192k).
+- [ ] Suite : 16:9 (salves paysage + rendu) → MP3 master -14 LUFS + tags ID3 → covers.
