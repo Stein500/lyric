@@ -43,3 +43,4 @@
 - [x] Bases IA générées : `assets/raw/cover_base_9x16.png` + `cover_base_16x9.png` (héros + éclair doré + cœur lumineux, zones sombres réservées au texte).
 - [x] `livrables/cover_survivant_9x16.jpg` (1080×1920) + `livrables/cover_survivant_16x9.jpg` (1920×1080) : titre glow ambre (GreatVibes auto si fourni), sous-titre Daïsky + label/genre/année, filement décoratif, badge haut-gauche identique au clip.
 - [ ] En attente validation user → puis SALVE YT 2/5 (slots 10-19).
+- [x] SALVE YT 2/5 : 10 images 16:9 (slots 10-19) + planche `salveYT2_contact_sheet.png`. (covers validées user)
