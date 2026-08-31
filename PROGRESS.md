@@ -45,3 +45,4 @@
 - [ ] En attente validation user → puis SALVE YT 2/5 (slots 10-19).
 - [x] SALVE YT 2/5 : 10 images 16:9 (slots 10-19) + planche `salveYT2_contact_sheet.png`. (covers validées user)
 - [x] SALVE YT 3/5 : 10 images 16:9 (slots 20-29) + planche `salveYT3_contact_sheet.png`.
+- [x] SALVE YT 4/5 : 10 images 16:9 (slots 30-39 : fin couplet 2 + pré-ref B, pont A doré, 1er vers ref finale) + planche `salveYT4_contact_sheet.png`.
