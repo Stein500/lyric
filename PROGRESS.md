@@ -13,8 +13,10 @@
 ## 2026-08-31 — Étape 2 : décisions + ancrage (en cours de validation)
 - [x] Décisions : charte HYBRIDE (B dark/lightning + A chaleureux pont) · images 100 % IA · salves de 10 · 9:16 d'abord · endcard 2:24 + apad 5 s (total 2:35) · « un vers = une image » → **49 images 9:16 + 49 en 16:9 + 1 cover = 99 au total** (voir `livrables/PLAN_Le_Survivant.md`).
 - [x] Ancres générées : `assets/raw/portrait/ancrage_B_dark.png` + `ancrage_A_pont.png` ; maquettes badge+vers : `livrables/analyse/ancrage_{B,A}_avec_badge_vers.png`.
-- [ ] Validation utilisateur du style d'ancrage → puis salve 1 (10 images).
+- [x] Validation utilisateur du style d'ancrage → ✅ validé (B + A + style texte).
+- [x] **SALVE 1/5 générée** : `assets/raw/portrait/s00_intro.png` → `s09_beatwe2.png` (slots 0-9, charte B) + planche contact `livrables/analyse/salve1_contact_sheet.png`.
 
 ## Prochaines étapes
-- [ ] Salves 2→5 (49 images portrait) · pré-calcul fonds + badge · rendu SOLUTION A 4650 frames @30 FPS (155 s avec apad) · exports · vérifs §7 · puis 16:9, MP3 master -14 LUFS + tags, covers.
+- [ ] Salve 2 (slots 10-19 : COUPLET 1 + PRÉ-REFRAIN 1) → salves 3-5 → 49 images portrait.
+- [ ] Pré-calcul fonds + badge · rendu SOLUTION A 4650 frames @30 FPS (155 s avec apad) · export 9:16 · vérifs §7 · puis 16:9, MP3 master -14 LUFS + tags, covers.
 
