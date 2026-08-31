@@ -32,3 +32,9 @@
 - [x] ⚠️ INCIDENT anti-reset : sandbox restauré à d53dac9 en cours de session → récupéré via `git fetch origin + reset --hard FETCH_HEAD` (tout était pushé). Le push après CHAQUE étape a sauvé le travail.
 - Livrable : `livrables/Le_Survivant_9x16_v1.mp4` (78,7 Mo, h264 crf19 + aac 192k).
 - [ ] Suite : 16:9 (salves paysage + rendu) → MP3 master -14 LUFS + tags ID3 → covers.
+
+## 2026-08-31 — Étape 4 : v2 (avance 0,03 s) + salve YT 1/5
+- [x] NOUVELLE RÈGLE : vers affichés avec **0,03 s d'avance** sur timing.txt (`ADVANCE=0.03` dans work/common.py, `apply_advance()` ; fonds restent sur l'horloge musique).
+- [x] `livrables/Le_Survivant_9x16_v2.mp4` — re-rendu complet 4650 frames. Vérifs : 2:35.00, 0 figé, noir = fade final seul, avance confirmée (S05 visible entre 24,97 et 25,00), zone 2:00+ OK (S43 @121,47), endcard OK.
+- [x] SALVE YT 1/5 : 10 images 16:9 (`assets/raw/landscape/s00→s09`) + planche contact `livrables/analyse/salveYT1_contact_sheet.png`.
+- [x] Cover : script `work/cover.py` prêt (GreatVibes auto-détecté si work/fonts/GreatVibes-Regular.ttf ajouté — tous les CDN fonts bloqués réseau, fallback serif incliné). Génération de la base reportée (limite 10 images/tour).
