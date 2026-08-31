@@ -1,0 +1,7 @@
+# Anti-reset rules (PROMPT UNIVERSEL v4.6 §0bis)
+.venv/
+work/
+__pycache__/
+*.pyc
+bin/
+# Jamais ignorer livrables/ (règle d'or)
