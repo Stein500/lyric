@@ -46,3 +46,10 @@
 - [x] SALVE YT 2/5 : 10 images 16:9 (slots 10-19) + planche `salveYT2_contact_sheet.png`. (covers validées user)
 - [x] SALVE YT 3/5 : 10 images 16:9 (slots 20-29) + planche `salveYT3_contact_sheet.png`.
 - [x] SALVE YT 4/5 : 10 images 16:9 (slots 30-39 : fin couplet 2 + pré-ref B, pont A doré, 1er vers ref finale) + planche `salveYT4_contact_sheet.png`.
+
+## 2026-08-31 — Étape 6 : SALVE YT 5/5 + RENDU 16:9 + MP3 MASTER (CYCLE COMPLET) ✅
+- [x] SALVE YT 5/5 (slots 40-48) → **49/49 paysages** (5 salves validées).
+- [x] `livrables/Le_Survivant_16x9_YT_v1.mp4` — SOLUTION A 4650 frames, avance 0,03 s, vérifs §7 : 2:35.00, 0 figé, noir = fade final seul, frontières OK (S05 avance ⚡, S20, S35 pont doré, S43 zone 2:00+, endcard).
+- [x] `livrables/Le_Survivant_MASTER.mp3` — loudnorm 2 passes linéaire : **-13,9 LUFS · TP -1,7 dBFS · 2:30.00** · 320 kbps · highpass 30 / lowpass 18k. Tags ID3 v2.4 COMPLETS (TIT2/TPE1/TALB/TPE2/TPUB/TCOM/TCON/TDRC + 4 TXXX + USLT paroles + APIC cover carrée). NB filtre : l'option passe-2 s'appelle `offset=` (le JSON passe-1 dit `target_offset`).
+- [x] Covers : cover_survivant_9x16.jpg + cover_survivant_16x9.jpg (validées user).
+- [ ] Reste optionnel : GreatVibes (fournir .ttf → recomp covers), versions allégées MP4 si besoin réseau.
