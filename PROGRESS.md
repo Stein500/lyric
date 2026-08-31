@@ -10,9 +10,11 @@
 - [x] Livrables : `livrables/ANALYSE_Le_Survivant.md` + `livrables/analyse/le_survivant_structure.png`.
 - [x] .gitignore conforme (work/, .venv/, *.pyc ; livrables/ jamais ignoré).
 
-## Prochaines étapes (en attente réponses)
-- [ ] Confirmer charte visuelle (reco B Dark/Lightning), source images, périmètre, écran de fin.
-- [ ] Générer images (2 salves ≤10), pré-calcul fonds + badge haut-gauche.
-- [ ] Pipeline SOLUTION A : flux continu 4500 frames @30 FPS + mux audio master pad + fade.
-- [ ] Exports 9:16 + 16:9, cover, MP3 master -14 LUFS + tags ID3 complets.
-- [ ] Vérifications obligatoires §7 puis commit/push.
+## 2026-08-31 — Étape 2 : décisions + ancrage (en cours de validation)
+- [x] Décisions : charte HYBRIDE (B dark/lightning + A chaleureux pont) · images 100 % IA · salves de 10 · 9:16 d'abord · endcard 2:24 + apad 5 s (total 2:35) · « un vers = une image » → **49 images 9:16 + 49 en 16:9 + 1 cover = 99 au total** (voir `livrables/PLAN_Le_Survivant.md`).
+- [x] Ancres générées : `assets/raw/portrait/ancrage_B_dark.png` + `ancrage_A_pont.png` ; maquettes badge+vers : `livrables/analyse/ancrage_{B,A}_avec_badge_vers.png`.
+- [ ] Validation utilisateur du style d'ancrage → puis salve 1 (10 images).
+
+## Prochaines étapes
+- [ ] Salves 2→5 (49 images portrait) · pré-calcul fonds + badge · rendu SOLUTION A 4650 frames @30 FPS (155 s avec apad) · exports · vérifs §7 · puis 16:9, MP3 master -14 LUFS + tags, covers.
+
