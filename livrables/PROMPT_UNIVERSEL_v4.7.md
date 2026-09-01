@@ -26,7 +26,7 @@
 1. **Analyse** MP3 (durée exacte décodée, LUFS/TP, structure, BPM) + **validation du fichier de paroles** vers par vers (onsets ±0,35 s).
 2. **Décisions** : charte (A/B/hybride), source images, périmètre, endcard.
 3. **Image d'ancrage** (1 par charte) + maquette badge/vers → **validation artistique**.
-4. **Salves de 10 images max/session** (limite IA) avec planche contact → validation à chaque salve.
+4. **Génération par SALVES de 10 images max/session** (règle absolue §7) : planche contact → validation → salve suivante.
 5. Pré-calcul fonds → rendu **9:16 d'abord** (bien fait) → vérifs §8 → **16:9** → **MP3 master + tags** → **covers**.
 6. Commit + push **après CHAQUE étape** (anti-reset).
 
@@ -81,10 +81,19 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **Hybride autorisé** : B pour couplets/refrains + A pour le pont calme (ex. pont piano *Le Survivant* slots 35-38 → glow ambre au lieu de cyan).
 - **Interdit** : tout texte/logo généré par l'IA dans l'image source ; wrap manuel.
 
-## 🖼 7. IMAGES
+## 🖼 7. IMAGES — RÈGLES ABSOLUES
 
-- 9:16 portrait + 16:9 paysage, **10 max par salve**, ancrage validé avant la 1ʳᵉ salve, planche contact + validation à chaque salve.
-- Arc narratif : chaque image illustre **son** vers (métaphores visuelles), continuité du personnage (même héros), décrescendo lumineux sur l'outro, fond endcard sombre et épuré.
+> **RÈGLE 1 — UN VERS = UNE IMAGE (à lui, uniquement la sienne).**
+> Chaque vers a **sa propre image, générée pour illustrer ce vers précis** — et ce, **dans CHAQUE format** : le vers n°12 possède une image portrait 9:16 **et** une image paysage 16:9, distinctes. ❌ Interdit : réutiliser l'image d'un vers pour un autre vers, partager une image entre plusieurs vers, dédoublonner.
+
+> **RÈGLE 2 — GÉNÉRATION PAR SALVES DE 10 MAX PAR SESSION.**
+> On ne génère **JAMAIS tout d'un coup** : salves de **10 images maximum par session** (limite IA dure). Exemple : 49 images = **5 salves** (10+10+10+10+9). Après **chaque salve** : planche contact → **validation artistique AVANT de lancer la suivante**. Une salve refusée = seuls les slots concernés sont régénérés.
+
+- **Budget par format = `N vers + 2`** (fond intro musicale + fond endcard). Ex. *Le Survivant* : 47+2 = 49 par format → 98 images + 1 base cover = 99.
+- **Nommage** : `assets/raw/{portrait|landscape}/s{slot:02d}_<motclé>.png` · `s00` = intro musicale · `s01…s{N}` = vers 1→N (slot = index vers + 1) · `s{N+1}` = fond endcard.
+- **Ancrage** : 1 image de référence par charte (B et/ou A) validée **avant** la salve 1.
+- **Arc narratif** : chaque image illustre son vers (métaphores visuelles), même héros d'un bout à l'autre, décrescendo lumineux sur l'outro, fond endcard sombre et épuré.
+- Pendant les salves d'un format, on peut continuer le reste du pipeline (rendu de l'autre format, MP3…) — mais **jamais deux salves d'images dans la même session**.
 
 ## 💫 8. EFFET VAGUE + KEN BURNS
 
