@@ -1,0 +1,10 @@
+# Outils / environnement (JAMAIS commité — v4.7 §4)
+.venv/
+work/
+*.pyc
+__pycache__/
+bin/
+*.pcm
+assets/raw/*_TMP*
+
+# ⚠️ livrables/ ne doit JAMAIS être ici (règle anti-reset v4.7 §4)
