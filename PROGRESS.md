@@ -37,6 +37,7 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
 - [x] Contrôle paroles ↔ audio (écarts < 2 s, voir `ANALYSE_AUDIO.md` §4)
 - [x] `.gitignore` (livrables/ **pas** exclu)
 - [x] PROGRESS.md
+- [x] Police **Great Vibes** récupérée via l'API GitHub et commitée dans `fonts/` (457 588 octets, test Pillow OK)
 
 ### 1. Décisions artistiques — ⏳ EN ATTENTE DE L'ARTISTE
 - [ ] Charte : B (dark trap) / A (mixte amour) / **hybride B + A sur le pont (178–201 s)**
@@ -73,8 +74,9 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
 
 ## ⚠️ Contraintes détectées dans ce sandbox
 
-1. **Pas d'accès réseau** (`curl` → `SSL_ERROR_SYSCALL`) → **GreatVibes-Regular.ttf introuvable**.
-   Polices locales disponibles : DejaVu Sans / Sans Bold / Serif / Serif Bold (`/usr/share/fonts/truetype/dejavu/`).
+1. **Réseau partiel** : `github.com` (git) et `api.github.com` ✅ · `raw.githubusercontent.com` ❌ (`SSL_ERROR_SYSCALL`).
+   → la police cursive a quand même pu être récupérée **via l'API GitHub** et commitée dans `fonts/GreatVibes-Regular.ttf`
+   (457 588 octets, sha256 `8d5098…2d15`, chargée par Pillow : `('Great Vibes', 'Regular')`). Détail dans `ANALYSE_AUDIO.md` §7.
 2. **2 CPU / 3,9 Go RAM / 20 Go libres** → rendu 7 980 frames (9:16) en PIL pur : compter plusieurs dizaines
    de minutes par format. Faisable, mais à lancer en processus de fond.
 3. ffmpeg n'est **pas** installé système : on utilise le binaire embarqué `imageio-ffmpeg` (lien `work/ffmpeg`),

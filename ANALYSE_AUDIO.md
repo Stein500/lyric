@@ -72,12 +72,23 @@ Présents aujourd'hui : `TIT2 = "Je suis pauvre mais je kiffe"`, `TPE1 = "stein2
 ➡️ Manquent / à remplacer : `TPE1 = Daïsky`, `TALB = TechStein Prod`, `TPE2 = Daïsky Prod`, `TPUB`,
 `TCOM`, `TCON`, `TDRC`, `TXXX contact/email/producer/label`, et `APIC` en 1080×1080.
 
-## 7. Police de caractères — ⚠️ blocage à connaître
+## 7. Réseau du sandbox + police de caractères (testé)
 
-Le sandbox **n'a pas d'accès réseau** : `curl https://github.com/google/fonts/...` → `SSL_ERROR_SYSCALL`.
-Donc **impossible de télécharger `GreatVibes-Regular.ttf`** (déjà annoncé dans v4.7 : « fournir le .ttf dans le repo »).
-Polices disponibles localement : `/usr/share/fonts/truetype/dejavu/` →
-`DejaVuSans.ttf`, `DejaVuSans-Bold.ttf`, `DejaVuSerif.ttf`, `DejaVuSerif-Bold.ttf`, `DejaVuSansMono*.ttf`.
+| Domaine | Résultat mesuré |
+|---|---|
+| `github.com` (git push / pull) | ✅ OK — push de la branche réussi |
+| `api.github.com` | ✅ HTTP 200 |
+| `raw.githubusercontent.com` | ❌ `curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL` |
+| `media.githubusercontent.com` | ❌ idem |
 
-➡️ Soit l'artiste dépose `GreatVibes-Regular.ttf` dans `work/fonts/` du dépôt, soit on part sur
-`DejaVu Serif Bold` incliné + glow ambre (le fallback prévu par v4.7 §10).
+➡️ Le CDN brut de GitHub est bloqué, **mais l'API GitHub passe** : c'est par
+`https://api.github.com/repos/google/fonts/contents/ofl/greatvibes/GreatVibes-Regular.ttf`
+(en-tête `Accept: application/vnd.github.raw+json`) que la police a été récupérée.
+
+**`fonts/GreatVibes-Regular.ttf` est maintenant DANS le dépôt** (457 588 octets,
+sha256 `8d509802186f1b51572531ecf313e8098f9a5bfdfaca93f0c9b34467f9982d15`),
+chargée et testée avec Pillow → `('Great Vibes', 'Regular')`. C'est exactement ce que demande v4.7 §10
+(« fournir le .ttf dans le repo ») : elle survit donc à un reset du sandbox.
+
+Polices de secours présentes localement : `/usr/share/fonts/truetype/dejavu/` →
+`DejaVuSans.ttf`, `DejaVuSans-Bold.ttf`, `DejaVuSerif.ttf`, `DejaVuSerif-Bold.ttf` (utilisées pour les vers et le badge).
