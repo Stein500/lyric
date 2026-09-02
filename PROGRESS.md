@@ -54,10 +54,17 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
       · vers : DejaVu Sans Bold 58, wrap au mot ≤ 920 px, centré, base à H−300, contour noir + ombre
 - [ ] **Validation artistique des 2 ancres + de la maquette** (bloquant avant la salve 1)
 
-### 3. Salves d'images (7 salves × 2 formats)
-- [ ] Salve 1 portrait (s01–s10) · [ ] Salve 2 (s11–s20) · [ ] Salve 3 (s21–s30) · [ ] Salve 4 (s31–s40)
-- [ ] Salve 5 (s41–s50) · [ ] Salve 6 (s51–s60) · [ ] Salve 7 (s61–s63)
-- [ ] idem 7 salves paysage 16:9
+### 3. Salves d'images — portraits 9:16 (7 salves)
+**Style validé par l'artiste :** seinen animé cel-shadé noir/cyan (charte B), héros = le visage des photos `Samu/`
+(mince, PAS musclé, gilet gris argenté + wax, lunettes ou non selon la scène). Référence identité :
+`Samu/Snapchat-1835992965.jpg` + `1029267384.jpg` (avec lunettes) · `959878741.jpg` + `2142573272.jpg` (sans).
+
+- [x] **Salve 1 portrait (s01–s10)** générée + planche contact `assets/maquettes/planche_salve1_s01-s10.jpg`
+      · avec lunettes : s01, s04, s06, s07, s09 · sans lunettes : s02, s03, s05, s08, s10
+- [ ] Validation artiste salve 1
+- [ ] Salve 2 (s11–s20) · [ ] Salve 3 (s21–s30) · [ ] Salve 4 (s31–s40)
+- [ ] Salve 5 (s41–s50) · [ ] Salve 6 (s51–s60) · [ ] Salve 7 (s00, s61–s63)
+- [ ] idem 7 salves paysage 16:9 (session suivante)
 - [ ] Base cover
 
 ### 4. Rendu (v4.7 §9, SOLUTION A — flux continu frame-accurate)
