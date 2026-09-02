@@ -39,17 +39,20 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
 - [x] PROGRESS.md
 - [x] Police **Great Vibes** récupérée via l'API GitHub et commitée dans `fonts/` (457 588 octets, test Pillow OK)
 
-### 1. Décisions artistiques — ⏳ EN ATTENTE DE L'ARTISTE
-- [ ] Charte : B (dark trap) / A (mixte amour) / **hybride B + A sur le pont (178–201 s)**
-- [ ] Traitement des 9 s de musique sans vers (245 → 253,9 s)
-- [ ] Ordre des formats (9:16 d'abord ?) + périmètre (vidéo / MP3 master / covers)
-- [ ] Titre exact + année pour les tags ID3 et l'endcard
+### 1. Décisions artistiques — ✅ VALIDÉES PAR L'ARTISTE (2026-09-02)
+- [x] **Charte = HYBRIDE** : B (dark trap / éclairs cyan-ambre) sur couplets + refrains,
+      **A (mixte amour / sunset doré)** sur le PONT 178–201 s (**slots 47–54**, vérifié dans `work/timing.csv`) → v4.7 §6
+- [x] **Périmètre session = 9:16 d'abord** : 64 images portrait + rendu + vérifs. Le 16:9 en session suivante.
+- [x] **Fin (245 → 253,9 s, musique sans vers)** : texte « **Merci** » + `@daiskypro` / Daïsky Prod en ambre.
+- [x] **Titre = « Je suis pauvre mais je kiffe » · Année = 2026** (TPE1 `Daïsky`, TALB `TechStein Prod`)
 
 ### 2. Image d'ancrage
-- [x] Ancrage charte **B** généré : `assets/raw/portrait/s00_ANCRAGE_darktrap_lightning.png` (768×1376, upscale LANCZOS → 1080×1920)
-- [ ] **Validation artistique de l'ancrage** (bloquant avant la salve 1)
-- [ ] Ancrage charte **A** (si hybride retenu)
-- [ ] Maquette badge « ⚡ DAÏSKY PROD » + vers (police, taille, position haut-gauche 36,36)
+- [x] Ancrage charte **B** : `assets/raw/portrait/s00_ANCRAGE_darktrap_lightning.png` (768×1376, ratio 0,558 ≈ 9:16, upscale LANCZOS → 1080×1920)
+- [x] Ancrage charte **A** : `assets/raw/portrait/s00_ANCRAGE_mixte_amour_golden.png`
+- [x] Maquette badge + vers : `assets/maquettes/maquette_badge_verse.jpg` (1080×1920) — script `work/maquette.py`
+      · badge pastille semi-transparente + contour cyan + éclair polygonal (pas d'emoji), **fixe en (36, 36)**
+      · vers : DejaVu Sans Bold 58, wrap au mot ≤ 920 px, centré, base à H−300, contour noir + ombre
+- [ ] **Validation artistique des 2 ancres + de la maquette** (bloquant avant la salve 1)
 
 ### 3. Salves d'images (7 salves × 2 formats)
 - [ ] Salve 1 portrait (s01–s10) · [ ] Salve 2 (s11–s20) · [ ] Salve 3 (s21–s30) · [ ] Salve 4 (s31–s40)
