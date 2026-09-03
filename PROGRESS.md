@@ -61,11 +61,20 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
 
 - [x] **Salve 1 portrait (s01–s10)** générée + planche contact `assets/maquettes/planche_salve1_s01-s10.jpg`
       · avec lunettes : s01, s04, s06, s07, s09 · sans lunettes : s02, s03, s05, s08, s10
-- [ ] Validation artiste salve 1
-- [ ] Salve 2 (s11–s20) · [ ] Salve 3 (s21–s30) · [ ] Salve 4 (s31–s40)
+- [x] Validation artiste salve 1 (« on continue »)
+- [x] **Salve 2 portrait (s11–s20)** générée + planche `assets/maquettes/planche_salve2_s11-s20.jpg`
+      · avec lunettes : s11, s13, s16, s18, s20 · sans lunettes : s12, s14, s15, s17, s19
+- [ ] Validation artiste salve 2
+- [ ] Salve 3 (s21–s30) · [ ] Salve 4 (s31–s40)
 - [ ] Salve 5 (s41–s50) · [ ] Salve 6 (s51–s60) · [ ] Salve 7 (s00, s61–s63)
 - [ ] idem 7 salves paysage 16:9 (session suivante)
 - [ ] Base cover
+
+### ⚠️ Reset sandbox survenu le 2026-09-03 (règle anti-reset v4.7 §4 appliquée)
+- `.venv/` et `work/` effacés (gitignorés, non snapshotés) → recréés : venv (imageio-ffmpeg, mutagen, numpy, pillow),
+  `work/parse_lyrics.py`, `work/planche.py`, `work/ffmpeg`, `work/timing.csv` régénéré (62 vers OK).
+- HEAD local retombé à `95db70c` → `git fetch origin arena/01a06299-lyric` + `git reset FETCH_HEAD`
+  (remote était à `8885d2a`, tout récupéré à 100 %).
 
 ### 4. Rendu (v4.7 §9, SOLUTION A — flux continu frame-accurate)
 - [ ] Script `work/render.py` (30 fps, ADVANCE = 0,03 s, vague + Ken Burns, badge posé en dernier)
