@@ -67,8 +67,12 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
 - [x] Validation artiste salve 2 (« valide on continue »)
 - [x] **Salve 3 portrait (s21–s30)** générée + planche `assets/maquettes/planche_salve3_s21-s30.jpg`
       · avec lunettes : s22, s23, s26, s28, s29 · sans lunettes : s21, s24, s25, s27, s30
-- [ ] Validation artiste salve 3
-- [ ] Salve 4 (s31–s40) · [ ] Salve 4 (s31–s40)
+- [x] Validation artiste salve 3 (« on continue »)
+- [x] **RÈGLE v4.8 (artiste)** : refrains/chorus = mêmes images réutilisées → ajoutée dans `PROMPT_UNIVERSEL_v4.7.md` (ADDENDUM v4.8) + `work/slot_map.csv` (64 slots)
+      · réutilisations : 43-46→s21-s24 · 55-60→s03-s08 · 61→s01
+- [x] **Salve 4 portrait (s31–s40)** générée + planche `assets/maquettes/planche_salve4_s31-s40.jpg`
+      · avec lunettes : s32, s34, s36, s38, s40 · sans lunettes : s31, s33, s35, s37, s39
+- [ ] Salve 5 (s41–s42 + pont s47–s54) · [ ] Salve 6 (fonds s00/s63 + s62) · [ ] Salve 4 (s31–s40)
 - [ ] Salve 5 (s41–s50) · [ ] Salve 6 (s51–s60) · [ ] Salve 7 (s00, s61–s63)
 - [ ] idem 7 salves paysage 16:9 (session suivante)
 - [ ] Base cover

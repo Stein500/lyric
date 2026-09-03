@@ -146,3 +146,20 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **v4.3** — première structuration salves/ancrage.
 
 **Signature :** « Wolof TechStein beat wê ! » ⚡
+
+---
+
+## 📜 ADDENDUM ARTISTE — v4.8 (décision 2026-09-03)
+
+> **RÈGLE — REFRAIN/CHORUS : MÊMES IMAGES RÉUTILISÉES.**
+> Toutes les lignes de REFRAIN / CHORUS / PRÉ-REFRAIN qui se répètent à l'identique dans la chanson
+> partagent **les mêmes images** que leur première occurrence. Seuls les vers **différents**
+> (couplets, pont, intro, outro unique, fonds s00/s63) ont leur propre image.
+> Déviation validée par l'artiste lui-même, prioritaire sur la RÈGLE 1 du §7.
+
+### Mapping slot → image (clip « Je suis pauvre mais je kiffe », 62 vers)
+- Pré-refrain 2 : slot 43→image s21 · 44→s22 · 45→s23 · 46→s24
+- Refrain final : slot 55→s03 · 56→s04 · 57→s05 · 58→s06 · 59→s07 · 60→s08
+- Outro « Wolof TechStein beat wê... » : slot 61→s01
+- Le reste (s01…s42, s47…s54, s62) + fonds s00/s63 = images uniques.
+- Fichier de référence machine : `work/slot_map.csv` (slot,image).
