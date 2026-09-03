@@ -64,8 +64,11 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
 - [x] Validation artiste salve 1 (« on continue »)
 - [x] **Salve 2 portrait (s11–s20)** générée + planche `assets/maquettes/planche_salve2_s11-s20.jpg`
       · avec lunettes : s11, s13, s16, s18, s20 · sans lunettes : s12, s14, s15, s17, s19
-- [ ] Validation artiste salve 2
-- [ ] Salve 3 (s21–s30) · [ ] Salve 4 (s31–s40)
+- [x] Validation artiste salve 2 (« valide on continue »)
+- [x] **Salve 3 portrait (s21–s30)** générée + planche `assets/maquettes/planche_salve3_s21-s30.jpg`
+      · avec lunettes : s22, s23, s26, s28, s29 · sans lunettes : s21, s24, s25, s27, s30
+- [ ] Validation artiste salve 3
+- [ ] Salve 4 (s31–s40) · [ ] Salve 4 (s31–s40)
 - [ ] Salve 5 (s41–s50) · [ ] Salve 6 (s51–s60) · [ ] Salve 7 (s00, s61–s63)
 - [ ] idem 7 salves paysage 16:9 (session suivante)
 - [ ] Base cover
