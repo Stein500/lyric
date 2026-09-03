@@ -72,7 +72,16 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
       · réutilisations : 43-46→s21-s24 · 55-60→s03-s08 · 61→s01
 - [x] **Salve 4 portrait (s31–s40)** générée + planche `assets/maquettes/planche_salve4_s31-s40.jpg`
       · avec lunettes : s32, s34, s36, s38, s40 · sans lunettes : s31, s33, s35, s37, s39
-- [ ] Salve 5 (s41–s42 + pont s47–s54) · [ ] Salve 6 (fonds s00/s63 + s62) · [ ] Salve 4 (s31–s40)
+- [ ] Salve 5 (s41–s42 + pont s47–s54) · [ ] Salve 6 (fonds s00/s63 + s62)
+      ⚠️ après salve 6 : supprimer `work/fonds_portrait/f00.jpg f62.jpg f63.jpg` (fallbacks smoke) et relancer make_fonds
+
+### 4bis. Moteur de rendu — ✅ ÉCRIT ET SMOKE-TESTÉ (2026-09-03)
+- `work/render.py` : SOLUTION A (flux continu 30 fps, ADV 0,03 s), Ken Burns 1,02→1,08 + pan,
+  vague 6 px/0,9 Hz + staggered letters, FR sous les lignes EN, badge statique posé en dernier,
+  intro titre Great Vibes (0→9 s), « Merci » 245→253,9, endcard 254→266 (contacts §2),
+  fonds pré-calculés `work/fonds_portrait/` (52/64 ok, fallback f01 pour s00/s62/s63 en attendant salve 6).
+- Smoke frames vérifiés visuellement : `work/smoke/f_0020` (hook centré ≤920 px, vague ok),
+  `f_0002` (intro), `f_0246.5` (Merci), `f_0264` (endcard complet). 0 overflow après fix getbbox. · [ ] Salve 4 (s31–s40)
 - [ ] Salve 5 (s41–s50) · [ ] Salve 6 (s51–s60) · [ ] Salve 7 (s00, s61–s63)
 - [ ] idem 7 salves paysage 16:9 (session suivante)
 - [ ] Base cover
