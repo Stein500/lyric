@@ -93,8 +93,9 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
   (remote était à `8885d2a`, tout récupéré à 100 %).
 
 ### 4. Rendu (v4.7 §9, SOLUTION A — flux continu frame-accurate)
-- [ ] Script `work/render.py` (30 fps, ADVANCE = 0,03 s, vague + Ken Burns, badge posé en dernier)
-- [ ] Export 9:16 `livrables/Je_suis_pauvre_mais_je_kiffe_9x16_v1.mp4`
+- [x] Scripts TRACKÉS `scripts/render.py` + `scripts/parse_lyrics.py` + `scripts/slot_map.csv` (30 fps, ADV 0,03 s, vague + Ken Burns, badge dernier)
+- [x] Rendu 7 980 frames ok (exit 0) → mux apad/afade → **`livrables/Je_suis_pauvre_mais_je_kiffe_9x16_v1.mp4`** (96 Mo)
+- [x] Vérifs §12 : durée **266,00 s** (= cible ±0,00) · streams 1080×1920@30 + aac 44,1k ✓ · freezedetect **0** · blackdetect = 1 seul = fondu final 265,4→265,97 (toléré) · frames contrôlées : 5/20,5/90,5/180/238,5/242/247/260 ok
 - [ ] Export 16:9 `livrables/Je_suis_pauvre_mais_je_kiffe_16x9_YT_v1.mp4`
 
 ### 5. Master MP3 + covers
