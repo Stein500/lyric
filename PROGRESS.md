@@ -98,9 +98,15 @@ Slots : `s00` = fond intro musicale (0 → 9 s) · `s01…s62` = vers 1→62 · 
 - [x] Vérifs §12 : durée **266,00 s** (= cible ±0,00) · streams 1080×1920@30 + aac 44,1k ✓ · freezedetect **0** · blackdetect = 1 seul = fondu final 265,4→265,97 (toléré) · frames contrôlées : 5/20,5/90,5/180/238,5/242/247/260 ok
 - [ ] Export 16:9 `livrables/Je_suis_pauvre_mais_je_kiffe_16x9_YT_v1.mp4`
 
-### 5. Master MP3 + covers
-- [ ] Master 2 passes loudnorm → −14 LUFS / −1,8 dBTP, 320 k, tags ID3 v4.7 §3
-- [ ] `livrables/cover_..._9x16.jpg` + `_16x9.jpg`
+### 5. Master MP3 + covers — ✅ (2026-09-05)
+- [x] **Master** `livrables/Je_suis_pauvre_mais_je_kiffe_master_320k.mp3` : loudnorm 2 passes linéaire,
+      mesuré après export **−14,15 LUFS / −1,62 dBTP** ✓ · 320 k · 48 kHz · 261,02 s
+- [x] Tags ID3v2.4 complets §3 : TIT2/TPE1 Daïsky/TALB TechStein Prod/TPE2/TPUB/TCOM/TCON/TDRC 2026
+      + TXXX contact/email/producer/label + USLT paroles nettoyées + **APIC cover carrée 1080**
+- [x] **Covers v2 (règle artiste)** : base IA = collage multi-panneaux du clip + passage fort
+      « Je suis pauvre mais je kiffe ma vie, c'est étrange » en Great Vibes ambre (bandes sombres propres)
+      + **« Daïsky Prod » en bas comme auteur** + @daiskypro + signature + badge haut-gauche.
+      Sorties : `cover_..._carre_1080.jpg` · `_9x16.jpg` · `_16x9.jpg`
 
 ### 6. Vérifications (v4.7 §12) & livraison
 - [ ] Durée ±0,05 s · blackdetect 0 · freezedetect 0 · diff pixel aux frontières · badge statique · endcard
