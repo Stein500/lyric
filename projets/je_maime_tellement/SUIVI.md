@@ -20,15 +20,30 @@ Les quatre fichiers MP3/LRC des deux titres ont été récupérés depuis le com
 - Copie de production UTF-8 dans `paroles_utf8.lrc` ; les deux `cSur` du fichier reçu deviennent `cœur`, conformément au texte donné en conversation. Aucun autre mot ni timestamp modifié. Les deux fichiers source restent intacts (SHA-256 dans `analyse_audio.json`).
 - Limite honnête : audit technique réalisé, pas de certification indépendante des onsets chantés à ±0,35 s. Le téléchargement du modèle de transcription n'était pas accessible ; aucune transcription n'a été substituée au texte de l'utilisateur.
 
-## Ancrage proposé — validation artistique attendue
+## Ancrage validé — évolution demandée par l’utilisateur
 
 - Source IA sans texte : `assets/ancrage/charte_A.png`.
 - Maquette : `../../livrables/Je_maime_tellement_ancrage_A_9x16_v1.jpg`.
 - Héroïne adulte fictive : peau brun foncé, cheveux afro naturels, blouse ivoire, jupe sombre, petites créoles dorées ; geste d'auto-étreinte, fragilité et apaisement.
+- Validation reçue : « Oui continue... ajoute des images style animé..forme généreuse aussi ». Même identité et palette A, ajout d’images animé et silhouette plus généreuse.
 - Vers de démonstration : celui de **00:30.47**, sans réécriture (espaces typographiques et retour à la ligne seulement).
 - Badge ajouté en post à **(36,36)**, 332×94, contour cyan, éclair polygonal et @daiskypro ; sera posé en dernier et strictement identique sur les frames.
 - Cette image est une **maquette fixe d'ancrage**, pas un clip. Le clip aura Ken Burns, vague continue et rendu frame-accurate.
-- **Une image d'ancrage générée, aucune salve lancée.** Après validation : première salve portrait de 10 maximum, planche contact, validation avant la suivante.
+- L’ancrage initial est validé ; ne pas redemander cette validation. La première salve ci-dessous intègre les changements demandés.
+
+## Salve portrait 01 — en attente de validation artistique
+
+- **10 nouvelles sources IA distinctes**, slots **S00 à S09** : intro et neuf premières lignes vocales. Période : 00:00.00 → 00:48.01 (fin exclue).
+- **5 cinéma + 5 animé**. Même héroïne adulte, tenue et palette dorée, avec une silhouette généreuse ; progression vers des métaphores de résistance, soleil intérieur et doutes nocturnes.
+- Planche : `../../livrables/Je_maime_tellement_planche_01_9x16_v1.jpg`.
+- Aperçu animé avec le vers de **00:32.54** : `../../livrables/Je_maime_tellement_apercu_anime_9x16_v1.jpg`. Aperçu fixe de composition, pas un clip animé.
+- Manifeste : `salves/portrait_01.json` (vers exacts, timestamps, styles, chemins, références, SHA-256 et statut de validation).
+- Sources sans typographie : `assets/raw/portrait/s00…s09_*.png`. Dix fichiers et dix empreintes distinctes vérifiés ; fichiers audio/LRC d’origine inchangés.
+- S01 avait une marge supérieure rectangulaire produite par le modèle. Un **dérivé séparé** dans `assets/prepared/portrait/` la remplace par un prolongement de son propre ciel ; le personnage et tous les pixels à partir de la ligne 190 sont préservés. Le brut reste intact. Aucun nouvel appel IA pour cette préparation.
+- Référence animé pour la suite : le dérivé préparé S01 ; référence cinéma : l’ancrage original. Corps, coiffure, peau, tenue et visage doivent rester cohérents.
+- **Limite atteinte : 10 générations dans cette salve/session.** Aucun autre lot lancé.
+- **Attendre la validation de la planche.** Si une image est refusée, reprendre uniquement le slot concerné lors d’une session suivante.
+- Prochaine salve prévue : **S10 à S19**, après validation. Il reste **41 fonds portrait**, puis le format paysage indépendant.
 
 ## Reproduire
 
@@ -36,6 +51,7 @@ Les quatre fichiers MP3/LRC des deux titres ont été récupérés depuis le com
 bash scripts/setup_env.sh
 .venv/bin/python scripts/analyse_je_maime.py
 .venv/bin/python scripts/maquette_je_maime.py
+.venv/bin/python scripts/planche_je_maime.py projets/je_maime_tellement/salves/portrait_01.json
 ```
 
 Les scripts sont versionnés. `.venv/`, `work/`, `.cache/` et `bin/` restent hors Git ; `livrables/` reste versionné. Les onsets vocaux, le début précis de l'endcard et les vérifications du rendu final ne doivent pas être déclarés validés sans contrôle effectif.

@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "batch_number": 1,
+  "format": "portrait",
+  "target_size": [
+    1080,
+    1920
+  ],
+  "status": "awaiting_artist_validation",
+  "anchor_approved": true,
+  "user_update": "Oui continue... ajoute des images style animé..forme généreuse aussi",
+  "style_policy": "Charte A dorée conservée ; alternance cinéma et animé, même héroïne adulte et tenue, silhouette généreuse.",
+  "generated_images_this_batch": 10,
+  "total_images_per_format": 51,
+  "cumulative_generated": 10,
+  "text_advance_seconds": 0.0,
+  "timestamps_unchanged": true,
+  "contact_sheet": "livrables/Je_maime_tellement_planche_01_9x16_v1.jpg",
+  "preview_slot": 5,
+  "preview_file": "livrables/Je_maime_tellement_apercu_anime_9x16_v1.jpg",
+  "next_batch_slots": [
+    10,
+    19
+  ],
+  "assets": [
+    {
+      "slot": 0,
+      "timestamp": "00:00.00",
+      "start_centiseconds": 0,
+      "end_centiseconds": 659,
+      "first_frame_30fps": 0,
+      "source_lyric": "Intro musicale — piano",
+      "display_text": "Je m'aime tellement",
+      "style": "cinema",
+      "scene_brief": "Intro musicale : héroïne près du piano sur une terrasse au coucher de soleil.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
+      "sha256": "ab2199dfb3d0c493bdc890e5f4e79be46d0b7bad5a65035437e2645ca3203279",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation"
+    },
+    {
+      "slot": 1,
+      "timestamp": "00:06.59",
+      "start_centiseconds": 659,
+      "end_centiseconds": 1924,
+      "first_frame_30fps": 198,
+      "source_lyric": "Wolof TechStein beat wê!(doux)",
+      "display_text": "Wolof TechStein beat wê!",
+      "style": "anime",
+      "scene_brief": "Tag doux : héroïne assise au piano, main sur le cœur, chant tendre.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+      "sha256": "53dd6e8cba65e945abcca3d5d0834999cfaf84185a0f032717e3ef81715d9b3a",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "preparation": {
+        "method": "extend_own_sky_over_top_band",
+        "band_height_px": 174,
+        "sample_height_px": 16,
+        "note": "Marge supérieure rectangulaire remplacée par un prolongement de son propre ciel. Source brute et personnage intacts ; aucune nouvelle génération IA."
+      }
+    },
+    {
+      "slot": 2,
+      "timestamp": "00:19.24",
+      "start_centiseconds": 1924,
+      "end_centiseconds": 2339,
+      "first_frame_30fps": 578,
+      "source_lyric": "Wolof TechStein beat wê!(doux)",
+      "display_text": "Wolof TechStein beat wê!",
+      "style": "cinema",
+      "scene_brief": "Deuxième tag doux : lumière de porte-fenêtre et main sur le cœur.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s02_tag_doux_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s02_tag_doux_cinema.png",
+      "sha256": "1fb906792def9fa8419c12909e2032f5cb05b37110c3a91beaf640d8cfc0eeba",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation"
+    },
+    {
+      "slot": 3,
+      "timestamp": "00:23.39",
+      "start_centiseconds": 2339,
+      "end_centiseconds": 3047,
+      "first_frame_30fps": 702,
+      "source_lyric": "Wolof TechStein beat wê!(cri du cœur)",
+      "display_text": "Wolof TechStein beat wê!",
+      "style": "anime",
+      "scene_brief": "Cri du cœur : lumière intérieure libérée depuis le sternum.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s03_cri_du_coeur_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s03_cri_du_coeur_anime.png",
+      "sha256": "3187f6ebcdb85be4dfbe6b18411f7df4251672b686670edb8e0ad26fcc55c802",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation"
+    },
+    {
+      "slot": 4,
+      "timestamp": "00:30.47",
+      "start_centiseconds": 3047,
+      "end_centiseconds": 3254,
+      "first_frame_30fps": 915,
+      "source_lyric": "Je m'aime tellement,fort,sensationnel,triste",
+      "display_text": "Je m'aime tellement,fort,sensationnel,triste",
+      "style": "cinema",
+      "scene_brief": "Force, sensation et tristesse : sourire fragile, larme et geste de tendresse envers soi.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png",
+      "sha256": "132a254f3b5e8e2fc32a14159a013b7358d0ddeaa09e596a9be5c17a5bb107df",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation"
+    },
+    {
+      "slot": 5,
+      "timestamp": "00:32.54",
+      "start_centiseconds": 3254,
+      "end_centiseconds": 3419,
+      "first_frame_30fps": 977,
+      "source_lyric": "Je m'aime tellement,même quand tout résiste",
+      "display_text": "Je m'aime tellement,même quand tout résiste",
+      "style": "anime",
+      "scene_brief": "Résistance : avancer dans le vent sans s’abandonner.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png",
+      "sha256": "4508033fe63c3712a0fa32a0d6bdc05fb9c5026f0edf94a948a4a268204af3e7",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "même quand tout résiste"
+      ]
+    },
+    {
+      "slot": 6,
+      "timestamp": "00:34.19",
+      "start_centiseconds": 3419,
+      "end_centiseconds": 3716,
+      "first_frame_30fps": 1026,
+      "source_lyric": "Je suis mon propre soleil,même dans la nuit",
+      "display_text": "Je suis mon propre soleil,même dans la nuit",
+      "style": "cinema",
+      "scene_brief": "Son propre soleil : une petite lumière dorée éclaire la nuit depuis ses mains.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s06_propre_soleil_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s06_propre_soleil_cinema.png",
+      "sha256": "54a524872d7a5ebc373d74e24328f1b55b405652a7e92581035b7a631451ea0f",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation"
+    },
+    {
+      "slot": 7,
+      "timestamp": "00:37.16",
+      "start_centiseconds": 3716,
+      "end_centiseconds": 3820,
+      "first_frame_30fps": 1115,
+      "source_lyric": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+      "display_text": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+      "style": "anime",
+      "scene_brief": "Beauté et dureté de la vie : fleurs poussant parmi des marches de pierre.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s07_vie_belle_et_dure_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s07_vie_belle_et_dure_anime.png",
+      "sha256": "1678500b3408555192844bcfe5de40dd4177e82dcc8c4309ce8149e39255604f",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation"
+    },
+    {
+      "slot": 8,
+      "timestamp": "00:38.20",
+      "start_centiseconds": 3820,
+      "end_centiseconds": 4611,
+      "first_frame_30fps": 1146,
+      "source_lyric": "Wolof TechStein beat wê!(crié)",
+      "display_text": "Wolof TechStein beat wê!",
+      "style": "cinema",
+      "scene_brief": "Tag crié : interprétation intense au micro sur une terrasse.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s08_tag_crie_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s08_tag_crie_cinema.png",
+      "sha256": "4f86bfb588a12792ba9b4eefa8c0b3d12e47db0c7aa3478c77210873db0d5ec3",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation"
+    },
+    {
+      "slot": 9,
+      "timestamp": "00:46.11",
+      "start_centiseconds": 4611,
+      "end_centiseconds": 4801,
+      "first_frame_30fps": 1384,
+      "source_lyric": "J'ai passé des nuits à me détester",
+      "display_text": "J'ai passé des nuits à me détester",
+      "style": "anime",
+      "scene_brief": "Nuits de doute : solitude, regard baissé, chambre et lampe ambre.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s09_nuits_de_doute_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s09_nuits_de_doute_anime.png",
+      "sha256": "b30a51d21000959a4143a98ac995fe54138446d07e738139f3a751d1e3d8d295",
+      "width": 768,
+      "height": 1376,
+      "generation_references": [
+        "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png"
+      ],
+      "status": "awaiting_artist_validation"
+    }
+  ],
+  "technical_checks": {
+    "source_count": 10,
+    "unique_source_hashes": 10,
+    "cinema_count": 5,
+    "anime_count": 5,
+    "source_timestamps_preserved": true,
+    "text_advance_seconds": 0.0,
+    "original_mp3_and_lrc_unchanged": true,
+    "contact_sheet_inspected": true,
+    "artist_validation": "pending"
+  }
+}

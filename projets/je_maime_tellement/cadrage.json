@@ -14,8 +14,8 @@
     "album": "Success",
     "label": "Daïsky Prod / TechStein",
     "visual_chart": "A",
-    "visual_direction": "Lumière dorée, ambiance intime et émouvante, grain cinéma ; amour de soi, pas romance de couple.",
-    "protagonist": "Héroïne fictive créée par IA, cohérente sur tout le clip ; apparence à valider avec l'ancrage.",
+    "visual_direction": "Charte A : lumière dorée, ambiance intime, amour de soi. Images cinéma et images style animé, sur demande de l’utilisateur.",
+    "protagonist": "Héroïne fictive adulte noire, afro naturel, créoles dorées, blouse ivoire et jupe longue sombre ; silhouette plus généreuse. Même identité entre cinéma et animé.",
     "scope": [
       "clip 9:16",
       "clip 16:9 YouTube",
@@ -42,7 +42,11 @@
     "validate_each_contact_sheet_before_next_batch": true,
     "lyrics_source": "Paroles fournies par l’utilisateur dans la conversation, reconfirmées explicitement : ne pas leur substituer le texte intégré au MP3.",
     "lyrics_confirmed_by_user": true,
-    "ignore_embedded_uslt": true
+    "ignore_embedded_uslt": true,
+    "anchor_A_validated": true,
+    "include_anime_images": true,
+    "generous_silhouette": true,
+    "anchor_validation_message": "Oui continue... ajoute des images style animé..forme généreuse aussi"
   },
   "exceptions_to_v4_7": [
     "AUCUNE avance texte pour ce titre : 0,00 s au lieu de 0,03 s, à la demande explicite de l'artiste.",
@@ -50,11 +54,21 @@
   ],
   "pending": {
     "genre": "Rap dans le MP3 source ; à confirmer pour la publication.",
-    "anchor": "Image charte A générée ; maquette 9:16 à présenter pour validation artistique avant la première salve.",
-    "endcard_start_seconds": null
+    "endcard_start_seconds": null,
+    "portrait_batch_01": "10 images générées, slots 00 à 09 ; planche contact à valider avant toute salve suivante."
   },
   "verification_limits": [
     "Décodage et mesures audio effectués. Le texte et les timestamps sont confirmés par l’utilisateur et doivent rester inchangés.",
     "La correspondance des onsets vocaux à ±0,35 s n’a pas pu être certifiée indépendamment : téléchargement du modèle de transcription indisponible. Ne pas présenter cet audit technique comme une validation à l’écoute."
-  ]
+  ],
+  "batches": [
+    {
+      "manifest": "projets/je_maime_tellement/salves/portrait_01.json",
+      "status": "awaiting_artist_validation"
+    }
+  ],
+  "style_references": {
+    "cinema": "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+    "anime": "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png"
+  }
 }
