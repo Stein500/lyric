@@ -17,17 +17,14 @@
     "visual_direction": "Charte A : lumière dorée, ambiance intime, amour de soi. Images cinéma et images style animé, sur demande de l’utilisateur.",
     "protagonist": "Héroïne fictive adulte noire, afro naturel, créoles dorées, blouse ivoire et jupe longue sombre ; silhouette plus généreuse. Même identité entre cinéma et animé.",
     "scope": [
-      "clip 9:16",
-      "clip 16:9 YouTube",
-      "MP3 masterisé et tagué",
-      "covers",
-      "endcard"
+      "clip 9:16 complet",
+      "MP3 masterisé et tagué avec cover intégrée"
     ],
     "render_order": [
-      "9:16",
-      "16:9",
+      "dernière salve S20–S29",
+      "montage 9:16 et préparation du son",
       "MP3 master + tags",
-      "covers"
+      "contrôles et livraison"
     ],
     "text_advance_seconds": 0.0,
     "source_timestamps_authoritative": true,
@@ -46,16 +43,29 @@
     "anchor_A_validated": true,
     "include_anime_images": true,
     "generous_silhouette": true,
-    "anchor_validation_message": "Oui continue... ajoute des images style animé..forme généreuse aussi"
+    "anchor_validation_message": "Oui continue... ajoute des images style animé..forme généreuse aussi",
+    "deferred_scope": [
+      "clip 16:9",
+      "covers de publication"
+    ],
+    "image_reuse_allowed": true,
+    "scene_image_budget": 30,
+    "stop_image_generation_after_batch": 3,
+    "no_artistic_pause_after_batch_03": true,
+    "deliver_for_user_download_and_review": true,
+    "endcard_start_seconds": 189.5,
+    "immediate_genre_from_source": "Rap"
   },
   "exceptions_to_v4_7": [
     "AUCUNE avance texte pour ce titre : 0,00 s au lieu de 0,03 s, à la demande explicite de l'artiste.",
-    "Artiste Daïsky Pro et album Success, valeurs du LRC expressément choisies par l'utilisateur."
+    "Artiste Daïsky Pro et album Success, valeurs du LRC expressément choisies par l'utilisateur.",
+    "Dernière salve de 10 : arrêt à 30 fonds de scène, réutilisation explicitement autorisée sur les autres vers, intro et endcard.",
+    "Pas de nouvelle attente de validation de la salve 03 : enchaîner directement montage et livraison, à la demande de l’utilisateur.",
+    "Périmètre immédiat réduit au 9:16 complet et au MP3 propre ; les autres formats attendent le contrôle utilisateur."
   ],
   "pending": {
     "genre": "Rap dans le MP3 source ; à confirmer pour la publication.",
-    "endcard_start_seconds": null,
-    "portrait_batch_02": "10 images générées, slots S10 à S19 ; planche 02 à valider avant la salve 03."
+    "final_delivery": "À produire : 9:16 complet et MP3 propre, puis contrôle par téléchargement utilisateur."
   },
   "verification_limits": [
     "Décodage et mesures audio effectués. Le texte et les timestamps sont confirmés par l’utilisateur et doivent rester inchangés.",
@@ -68,7 +78,11 @@
     },
     {
       "manifest": "projets/je_maime_tellement/salves/portrait_02.json",
-      "status": "awaiting_artist_validation"
+      "status": "approved"
+    },
+    {
+      "manifest": "projets/je_maime_tellement/salves/portrait_03.json",
+      "status": "selected_for_render_per_user_instruction"
     }
   ],
   "style_references": {

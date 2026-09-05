@@ -6,7 +6,7 @@
     1080,
     1920
   ],
-  "status": "awaiting_artist_validation",
+  "status": "approved",
   "anchor_approved": true,
   "previous_batch_approved": true,
   "user_authorization": "On continue",
@@ -41,7 +41,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "width": 768,
       "height": 1376,
       "sha256": "2f5e8d52f0a87c1145cd0340f83204c67383b83e5269268c7d3bccb9627d7f81"
@@ -62,7 +62,7 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "width": 768,
       "height": 1376,
       "sha256": "0a7d7777086f77f247dc8a69b0b02dfc1aa6101a75545bc581cae026785eca0f"
@@ -83,7 +83,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "width": 768,
       "height": 1376,
       "sha256": "c4e4977a48e0e298b71b5302bd8030aa8bf21f974338851a154037503c4d4aed"
@@ -104,7 +104,7 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "width": 768,
       "height": 1376,
       "sha256": "9c62db921230f8281d991ab3d0fd620cccd72347105c93b5245e058caf9b1f87"
@@ -125,7 +125,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "width": 768,
       "height": 1376,
       "sha256": "51680c1e4ae263f798b7a864dd2fe29c6c667a86fa3edd6587c9bc5bc2b30143"
@@ -146,7 +146,7 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "display_lines": [
         "Mes cicatrices",
         "sont des victoires"
@@ -171,7 +171,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "width": 768,
       "height": 1376,
       "sha256": "4d75733c56304f44c6fd323dd886c2b666772a0b86f65971fd6d855cc1bde34d"
@@ -192,7 +192,7 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "width": 768,
       "height": 1376,
       "sha256": "5f93ee2bdd2b63e535bd168acfc17f8598c9819f4c68be344e66e27b150a207c"
@@ -213,7 +213,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "width": 768,
       "height": 1376,
       "sha256": "21065ced154c17f08b055623b1db439b19835e84b85ee36a30ae702a5c971afe"
@@ -234,7 +234,7 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "width": 768,
       "height": 1376,
       "sha256": "20eb2f245bf3bf1d6d736f200117110539bfadbd8df9b671e2efd6e1ea4423c0"
@@ -259,6 +259,10 @@
       1080,
       1920
     ],
-    "artist_validation": "pending"
+    "artist_validation": "approved"
+  },
+  "artist_validation": {
+    "message": "On continue. Dernière salve, puis montage avec réutilisation et livraison 9:16 + MP3.",
+    "date": "2026-09-05"
   }
 }

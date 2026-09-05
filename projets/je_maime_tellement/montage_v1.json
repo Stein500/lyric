@@ -1,0 +1,1080 @@
+{
+  "version": 1,
+  "title": "Je m'aime tellement",
+  "artist": "Daïsky Pro",
+  "album": "Success",
+  "genre": "Rap",
+  "year": "2026",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "text_advance_seconds": 0.0,
+  "source_audio": "Je m'aime tellement - Daïsky.mp3",
+  "source_audio_sha256": "c420d1a2788c5e2e4bb11b518e7bf779d70603ce36a67d0511f793d028eb328c",
+  "source_duration_seconds": 193.15997916666666,
+  "source_samples_per_channel": 9271679,
+  "sample_rate_hz": 48000,
+  "apad_requested_seconds": 5,
+  "total_frames": 5945,
+  "total_duration_seconds": 198.16666666666666,
+  "actual_padding_seconds": 5.006687499999998,
+  "endcard_start_seconds": 189.5,
+  "endcard_first_frame": 5685,
+  "endcard_basis": "Fondu audio final : RMS source de −10,66 à −25,67 dBFS entre les fenêtres 189,25 et 189,50 s.",
+  "fade_out_first_frame": 5855,
+  "fade_out_duration_seconds": 3,
+  "distinct_scene_images": 30,
+  "lyric_events": 49,
+  "reuse_authorized_by_user": true,
+  "new_image_generation_stopped": true,
+  "wave": {
+    "amplitude_px": 6,
+    "frequency_hz": 0.9,
+    "letter_phase_radians": 0.42,
+    "max_entry_seconds": 0.9,
+    "max_exit_seconds": 0.45
+  },
+  "text": {
+    "font": "DejaVuSans",
+    "size": 58,
+    "max_width": 920,
+    "first_line_top": 1620,
+    "line_height": 80
+  },
+  "badge": {
+    "x": 36,
+    "y": 36,
+    "width": 332,
+    "height": 94,
+    "rendered_last": true,
+    "same_rgba_every_frame": true
+  },
+  "ken_burns": {
+    "canvas": [
+      1188,
+      2112
+    ],
+    "zoom_min": 1.02,
+    "zoom_max": 1.08,
+    "resample": "OpenCV INTER_CUBIC fractional affine, LANCZOS canvas"
+  },
+  "encoding": {
+    "codec": "libx264",
+    "preset": "veryfast",
+    "crf": 19,
+    "pixel_format": "yuv420p",
+    "maxrate": "3500k",
+    "bufsize": "7000k",
+    "aac_bitrate": "192k",
+    "faststart": true
+  },
+  "video_output": "livrables/Je_maime_tellement_9x16_v1.mp4",
+  "mp3_output": "livrables/Je_maime_tellement_master_v1.mp3",
+  "backgrounds": {
+    "0": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
+      "sha256": "ab2199dfb3d0c493bdc890e5f4e79be46d0b7bad5a65035437e2645ca3203279",
+      "style": "cinema"
+    },
+    "1": {
+      "path": "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+      "sha256": "15357cc35ae49c401966cf7266a0968ce31a92d31d1f8f68af6db219aaef3135",
+      "style": "anime"
+    },
+    "2": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s02_tag_doux_cinema.png",
+      "sha256": "1fb906792def9fa8419c12909e2032f5cb05b37110c3a91beaf640d8cfc0eeba",
+      "style": "cinema"
+    },
+    "3": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s03_cri_du_coeur_anime.png",
+      "sha256": "3187f6ebcdb85be4dfbe6b18411f7df4251672b686670edb8e0ad26fcc55c802",
+      "style": "anime"
+    },
+    "4": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png",
+      "sha256": "132a254f3b5e8e2fc32a14159a013b7358d0ddeaa09e596a9be5c17a5bb107df",
+      "style": "cinema"
+    },
+    "5": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png",
+      "sha256": "4508033fe63c3712a0fa32a0d6bdc05fb9c5026f0edf94a948a4a268204af3e7",
+      "style": "anime"
+    },
+    "6": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s06_propre_soleil_cinema.png",
+      "sha256": "54a524872d7a5ebc373d74e24328f1b55b405652a7e92581035b7a631451ea0f",
+      "style": "cinema"
+    },
+    "7": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s07_vie_belle_et_dure_anime.png",
+      "sha256": "1678500b3408555192844bcfe5de40dd4177e82dcc8c4309ce8149e39255604f",
+      "style": "anime"
+    },
+    "8": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s08_tag_crie_cinema.png",
+      "sha256": "4f86bfb588a12792ba9b4eefa8c0b3d12e47db0c7aa3478c77210873db0d5ec3",
+      "style": "cinema"
+    },
+    "9": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s09_nuits_de_doute_anime.png",
+      "sha256": "b30a51d21000959a4143a98ac995fe54138446d07e738139f3a751d1e3d8d295",
+      "style": "anime"
+    },
+    "10": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s10_reflet_cinema.png",
+      "sha256": "2f5e8d52f0a87c1145cd0340f83204c67383b83e5269268c7d3bccb9627d7f81",
+      "style": "cinema"
+    },
+    "11": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s11_combat_interieur_anime.png",
+      "sha256": "0a7d7777086f77f247dc8a69b0b02dfc1aa6101a75545bc581cae026785eca0f",
+      "style": "anime"
+    },
+    "12": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s12_amour_des_autres_cinema.png",
+      "sha256": "c4e4977a48e0e298b71b5302bd8030aa8bf21f974338851a154037503c4d4aed",
+      "style": "cinema"
+    },
+    "13": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s13_ouvrir_les_yeux_anime.png",
+      "sha256": "9c62db921230f8281d991ab3d0fd620cccd72347105c93b5245e058caf9b1f87",
+      "style": "anime"
+    },
+    "14": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s14_propre_dieu_cinema.png",
+      "sha256": "51680c1e4ae263f798b7a864dd2fe29c6c667a86fa3edd6587c9bc5bc2b30143",
+      "style": "cinema"
+    },
+    "15": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s15_cicatrices_victoires_anime.png",
+      "sha256": "4ad13907ea0ec7d6cd13a7b1ac7231a5236a137660b58931af93255f7261902d",
+      "style": "anime"
+    },
+    "16": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s16_larmes_memoires_cinema.png",
+      "sha256": "4d75733c56304f44c6fd323dd886c2b666772a0b86f65971fd6d855cc1bde34d",
+      "style": "cinema"
+    },
+    "17": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s17_doucement_fortement_anime.png",
+      "sha256": "5f93ee2bdd2b63e535bd168acfc17f8598c9819f4c68be344e66e27b150a207c",
+      "style": "anime"
+    },
+    "18": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s18_apprendre_a_saimer_cinema.png",
+      "sha256": "21065ced154c17f08b055623b1db439b19835e84b85ee36a30ae702a5c971afe",
+      "style": "cinema"
+    },
+    "19": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s19_plus_precieux_anime.png",
+      "sha256": "20eb2f245bf3bf1d6d736f200117110539bfadbd8df9b671e2efd6e1ea4423c0",
+      "style": "anime"
+    },
+    "20": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s20_peu_importe_les_yeux_cinema.png",
+      "sha256": "295e1e4d5161f8d379a91d6edf3c1614c9a886b2986d7de43c0bb7319218b7ce",
+      "style": "cinema"
+    },
+    "21": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s21_maime_tendrement_anime.png",
+      "sha256": "f98055abdf7015da481bc4c3ff3383298d773169473e77c83056a2e4b65a9292",
+      "style": "anime"
+    },
+    "22": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s22_resister_cinema.png",
+      "sha256": "31937727214308382cd298d60f57546b2b03816777fe4249cf2b32b2a0d503a6",
+      "style": "cinema"
+    },
+    "23": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s23_soleil_dans_la_nuit_anime.png",
+      "sha256": "a1955ffa568e8a33ebe7b8dc5df6f79848ab87c7783c83e4ced9374bd5370b85",
+      "style": "anime"
+    },
+    "24": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s24_belle_et_dure_cinema.png",
+      "sha256": "5377fa08eff0474a38b1de5bfac43eba28f32d9f209aa85d5d376648b2f9f3eb",
+      "style": "cinema"
+    },
+    "25": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s25_tag_puissant_anime.png",
+      "sha256": "f6d01bfc3e4a865773a00e3e854e034db2d3b645907a19e9ea13aa95efd0ffc2",
+      "style": "anime"
+    },
+    "26": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s26_amour_non_partage_cinema.png",
+      "sha256": "98dde60e9b67ca4b35eb40ff04a6b3d8f0e07a999e56cd543a028dd9c638b7ab",
+      "style": "cinema"
+    },
+    "27": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s27_coeur_donne_anime.png",
+      "sha256": "5208be0c7fb4d269414c410ad15fd5b8e58cb2782f56dbec8c151738bb744968",
+      "style": "anime"
+    },
+    "28": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s28_amour_reflet_cinema.png",
+      "sha256": "a3aa9c3468147522204c6d9a567a9160efa750543ff9059e3012bda714383684",
+      "style": "cinema"
+    },
+    "29": {
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s29_promesse_a_soi_anime.png",
+      "sha256": "c5af8b0748d118394218d2d607403fee1cba0a967fe5b0821feb528c4ef292cf",
+      "style": "anime"
+    }
+  },
+  "segments": [
+    {
+      "kind": "intro",
+      "slot": 0,
+      "asset_slot": 0,
+      "start_centiseconds": 0,
+      "end_centiseconds": 659,
+      "first_frame": 0,
+      "end_frame": 198,
+      "display_text": "Je m'aime tellement"
+    },
+    {
+      "kind": "lyric",
+      "slot": 1,
+      "asset_slot": 1,
+      "source_timestamp": "[00:06.59]",
+      "source_text": "Wolof TechStein beat wê!(doux)",
+      "start_centiseconds": 659,
+      "end_centiseconds": 1924,
+      "first_frame": 198,
+      "end_frame": 578,
+      "display_text": "Wolof TechStein beat wê!",
+      "display_lines": [
+        "Wolof TechStein beat wê!"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 2,
+      "asset_slot": 2,
+      "source_timestamp": "[00:19.24]",
+      "source_text": "Wolof TechStein beat wê!(doux)",
+      "start_centiseconds": 1924,
+      "end_centiseconds": 2339,
+      "first_frame": 578,
+      "end_frame": 702,
+      "display_text": "Wolof TechStein beat wê!",
+      "display_lines": [
+        "Wolof TechStein beat wê!"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 3,
+      "asset_slot": 3,
+      "source_timestamp": "[00:23.39]",
+      "source_text": "Wolof TechStein beat wê!(cri du cœur)",
+      "start_centiseconds": 2339,
+      "end_centiseconds": 3047,
+      "first_frame": 702,
+      "end_frame": 915,
+      "display_text": "Wolof TechStein beat wê!",
+      "display_lines": [
+        "Wolof TechStein beat wê!"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 4,
+      "asset_slot": 4,
+      "source_timestamp": "[00:30.47]",
+      "source_text": "Je m'aime tellement,fort,sensationnel,triste",
+      "start_centiseconds": 3047,
+      "end_centiseconds": 3254,
+      "first_frame": 915,
+      "end_frame": 977,
+      "display_text": "Je m'aime tellement, fort, sensationnel, triste",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "fort, sensationnel, triste"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 5,
+      "asset_slot": 5,
+      "source_timestamp": "[00:32.54]",
+      "source_text": "Je m'aime tellement,même quand tout résiste",
+      "start_centiseconds": 3254,
+      "end_centiseconds": 3419,
+      "first_frame": 977,
+      "end_frame": 1026,
+      "display_text": "Je m'aime tellement, même quand tout résiste",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "même quand tout résiste"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 6,
+      "asset_slot": 6,
+      "source_timestamp": "[00:34.19]",
+      "source_text": "Je suis mon propre soleil,même dans la nuit",
+      "start_centiseconds": 3419,
+      "end_centiseconds": 3716,
+      "first_frame": 1026,
+      "end_frame": 1115,
+      "display_text": "Je suis mon propre soleil, même dans la nuit",
+      "display_lines": [
+        "Je suis mon propre soleil,",
+        "même dans la nuit"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 7,
+      "asset_slot": 7,
+      "source_timestamp": "[00:37.16]",
+      "source_text": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+      "start_centiseconds": 3716,
+      "end_centiseconds": 3820,
+      "first_frame": 1115,
+      "end_frame": 1146,
+      "display_text": "Je m'aime tellement, parce que la vie est si belle, si dure, si lui",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "parce que la vie est si belle, si",
+        "dure, si lui"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 8,
+      "asset_slot": 8,
+      "source_timestamp": "[00:38.20]",
+      "source_text": "Wolof TechStein beat wê!(crié)",
+      "start_centiseconds": 3820,
+      "end_centiseconds": 4611,
+      "first_frame": 1146,
+      "end_frame": 1384,
+      "display_text": "Wolof TechStein beat wê!",
+      "display_lines": [
+        "Wolof TechStein beat wê!"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 9,
+      "asset_slot": 9,
+      "source_timestamp": "[00:46.11]",
+      "source_text": "J'ai passé des nuits à me détester",
+      "start_centiseconds": 4611,
+      "end_centiseconds": 4801,
+      "first_frame": 1384,
+      "end_frame": 1441,
+      "display_text": "J'ai passé des nuits à me détester",
+      "display_lines": [
+        "J'ai passé des nuits à me",
+        "détester"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 10,
+      "asset_slot": 10,
+      "source_timestamp": "[00:48.01]",
+      "source_text": "À voir mon reflet,ne pas l'aimer",
+      "start_centiseconds": 4801,
+      "end_centiseconds": 4971,
+      "first_frame": 1441,
+      "end_frame": 1492,
+      "display_text": "À voir mon reflet, ne pas l'aimer",
+      "display_lines": [
+        "À voir mon reflet, ne pas",
+        "l'aimer"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 11,
+      "asset_slot": 11,
+      "source_timestamp": "[00:49.71]",
+      "source_text": "Les insultes dans ma tête,un combat sans fin",
+      "start_centiseconds": 4971,
+      "end_centiseconds": 5156,
+      "first_frame": 1492,
+      "end_frame": 1547,
+      "display_text": "Les insultes dans ma tête, un combat sans fin",
+      "display_lines": [
+        "Les insultes dans ma tête, un",
+        "combat sans fin"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 12,
+      "asset_slot": 12,
+      "source_timestamp": "[00:51.56]",
+      "source_text": "À chercher l'amour des autres,pour me sentir bien",
+      "start_centiseconds": 5156,
+      "end_centiseconds": 5290,
+      "first_frame": 1547,
+      "end_frame": 1587,
+      "display_text": "À chercher l'amour des autres, pour me sentir bien",
+      "display_lines": [
+        "À chercher l'amour des autres,",
+        "pour me sentir bien"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 13,
+      "asset_slot": 13,
+      "source_timestamp": "[00:52.90]",
+      "source_text": "Mais un matin,j'ai ouvert les yeux",
+      "start_centiseconds": 5290,
+      "end_centiseconds": 5473,
+      "first_frame": 1587,
+      "end_frame": 1642,
+      "display_text": "Mais un matin, j'ai ouvert les yeux",
+      "display_lines": [
+        "Mais un matin, j'ai ouvert les",
+        "yeux"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 14,
+      "asset_slot": 14,
+      "source_timestamp": "[00:54.73]",
+      "source_text": "J'ai vu que j'étais mon propre dieu",
+      "start_centiseconds": 5473,
+      "end_centiseconds": 5635,
+      "first_frame": 1642,
+      "end_frame": 1691,
+      "display_text": "J'ai vu que j'étais mon propre dieu",
+      "display_lines": [
+        "J'ai vu que j'étais mon propre",
+        "dieu"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 15,
+      "asset_slot": 15,
+      "source_timestamp": "[00:56.35]",
+      "source_text": "Mes cicatrices sont des victoires",
+      "start_centiseconds": 5635,
+      "end_centiseconds": 5822,
+      "first_frame": 1691,
+      "end_frame": 1747,
+      "display_text": "Mes cicatrices sont des victoires",
+      "display_lines": [
+        "Mes cicatrices",
+        "sont des victoires"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 16,
+      "asset_slot": 16,
+      "source_timestamp": "[00:58.22]",
+      "source_text": "Mes larmes sont des mémoires qui m'élèvent,qui m'portent",
+      "start_centiseconds": 5822,
+      "end_centiseconds": 6151,
+      "first_frame": 1747,
+      "end_frame": 1846,
+      "display_text": "Mes larmes sont des mémoires qui m'élèvent, qui m'portent",
+      "display_lines": [
+        "Mes larmes sont des mémoires",
+        "qui m'élèvent, qui m'portent"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 17,
+      "asset_slot": 17,
+      "source_timestamp": "[01:01.51]",
+      "source_text": "Doucement,fortement,sensationnellement",
+      "start_centiseconds": 6151,
+      "end_centiseconds": 6473,
+      "first_frame": 1846,
+      "end_frame": 1942,
+      "display_text": "Doucement, fortement, sensationnellement",
+      "display_lines": [
+        "Doucement, fortement,",
+        "sensationnellement"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 18,
+      "asset_slot": 18,
+      "source_timestamp": "[01:04.73]",
+      "source_text": "J'apprends à m'aimer,tristement,sûrement",
+      "start_centiseconds": 6473,
+      "end_centiseconds": 6797,
+      "first_frame": 1942,
+      "end_frame": 2040,
+      "display_text": "J'apprends à m'aimer, tristement, sûrement",
+      "display_lines": [
+        "J'apprends à m'aimer,",
+        "tristement, sûrement"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 19,
+      "asset_slot": 19,
+      "source_timestamp": "[01:07.97]",
+      "source_text": "Je suis tout ce que j'ai de plus précieux",
+      "start_centiseconds": 6797,
+      "end_centiseconds": 7129,
+      "first_frame": 2040,
+      "end_frame": 2139,
+      "display_text": "Je suis tout ce que j'ai de plus précieux",
+      "display_lines": [
+        "Je suis tout ce que j'ai de plus",
+        "précieux"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 20,
+      "asset_slot": 20,
+      "source_timestamp": "[01:11.29]",
+      "source_text": "Je m'aime tellement,peu importe les yeux",
+      "start_centiseconds": 7129,
+      "end_centiseconds": 7520,
+      "first_frame": 2139,
+      "end_frame": 2256,
+      "display_text": "Je m'aime tellement, peu importe les yeux",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "peu importe les yeux"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 21,
+      "asset_slot": 21,
+      "source_timestamp": "[01:15.20]",
+      "source_text": "Je m'aime tellement,fort,sensationnel,triste",
+      "start_centiseconds": 7520,
+      "end_centiseconds": 7858,
+      "first_frame": 2256,
+      "end_frame": 2358,
+      "display_text": "Je m'aime tellement, fort, sensationnel, triste",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "fort, sensationnel, triste"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 22,
+      "asset_slot": 22,
+      "source_timestamp": "[01:18.58]",
+      "source_text": "Je m'aime tellement,même quand tout résiste",
+      "start_centiseconds": 7858,
+      "end_centiseconds": 8200,
+      "first_frame": 2358,
+      "end_frame": 2460,
+      "display_text": "Je m'aime tellement, même quand tout résiste",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "même quand tout résiste"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 23,
+      "asset_slot": 23,
+      "source_timestamp": "[01:22.00]",
+      "source_text": "Je suis mon propre soleil,même dans la nuit",
+      "start_centiseconds": 8200,
+      "end_centiseconds": 8488,
+      "first_frame": 2460,
+      "end_frame": 2547,
+      "display_text": "Je suis mon propre soleil, même dans la nuit",
+      "display_lines": [
+        "Je suis mon propre soleil,",
+        "même dans la nuit"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 24,
+      "asset_slot": 24,
+      "source_timestamp": "[01:24.88]",
+      "source_text": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+      "start_centiseconds": 8488,
+      "end_centiseconds": 8607,
+      "first_frame": 2547,
+      "end_frame": 2583,
+      "display_text": "Je m'aime tellement, parce que la vie est si belle, si dure, si lui",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "parce que la vie est si belle, si",
+        "dure, si lui"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 25,
+      "asset_slot": 25,
+      "source_timestamp": "[01:26.07]",
+      "source_text": "Wolof TechStein beat wê!(crié)",
+      "start_centiseconds": 8607,
+      "end_centiseconds": 10121,
+      "first_frame": 2583,
+      "end_frame": 3037,
+      "display_text": "Wolof TechStein beat wê!",
+      "display_lines": [
+        "Wolof TechStein beat wê!"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 26,
+      "asset_slot": 26,
+      "source_timestamp": "[01:41.21]",
+      "source_text": "J'ai pleuré pour un amour qui n'me voulait pas",
+      "start_centiseconds": 10121,
+      "end_centiseconds": 10301,
+      "first_frame": 3037,
+      "end_frame": 3091,
+      "display_text": "J'ai pleuré pour un amour qui n'me voulait pas",
+      "display_lines": [
+        "J'ai pleuré pour un amour qui",
+        "n'me voulait pas"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 27,
+      "asset_slot": 27,
+      "source_timestamp": "[01:43.01]",
+      "source_text": "J'ai donné tout mon cœur,on m'a pris tout ça",
+      "start_centiseconds": 10301,
+      "end_centiseconds": 10451,
+      "first_frame": 3091,
+      "end_frame": 3136,
+      "display_text": "J'ai donné tout mon cœur, on m'a pris tout ça",
+      "display_lines": [
+        "J'ai donné tout mon cœur, on",
+        "m'a pris tout ça"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 28,
+      "asset_slot": 28,
+      "source_timestamp": "[01:44.51]",
+      "source_text": "Mais l'amour qu'on reçoit n'est qu'un reflet",
+      "start_centiseconds": 10451,
+      "end_centiseconds": 10620,
+      "first_frame": 3136,
+      "end_frame": 3186,
+      "display_text": "Mais l'amour qu'on reçoit n'est qu'un reflet",
+      "display_lines": [
+        "Mais l'amour qu'on reçoit n'est",
+        "qu'un reflet"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 29,
+      "asset_slot": 29,
+      "source_timestamp": "[01:46.20]",
+      "source_text": "De celui qu'on s'offre,de celui qu'on s'promet",
+      "start_centiseconds": 10620,
+      "end_centiseconds": 10807,
+      "first_frame": 3186,
+      "end_frame": 3243,
+      "display_text": "De celui qu'on s'offre, de celui qu'on s'promet",
+      "display_lines": [
+        "De celui qu'on s'offre, de celui",
+        "qu'on s'promet"
+      ],
+      "reused_image": false
+    },
+    {
+      "kind": "lyric",
+      "slot": 30,
+      "asset_slot": 22,
+      "source_timestamp": "[01:48.07]",
+      "source_text": "J'ai arrêté d'attendre la main qui n'viendra pas",
+      "start_centiseconds": 10807,
+      "end_centiseconds": 10985,
+      "first_frame": 3243,
+      "end_frame": 3296,
+      "display_text": "J'ai arrêté d'attendre la main qui n'viendra pas",
+      "display_lines": [
+        "J'ai arrêté d'attendre la main",
+        "qui n'viendra pas"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 31,
+      "asset_slot": 17,
+      "source_timestamp": "[01:49.85]",
+      "source_text": "J'ai appris à danser toute seule,sur mes pas",
+      "start_centiseconds": 10985,
+      "end_centiseconds": 11143,
+      "first_frame": 3296,
+      "end_frame": 3343,
+      "display_text": "J'ai appris à danser toute seule, sur mes pas",
+      "display_lines": [
+        "J'ai appris à danser toute seule,",
+        "sur mes pas"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 32,
+      "asset_slot": 20,
+      "source_timestamp": "[01:51.43]",
+      "source_text": "Ma beauté n'a pas besoin de regard",
+      "start_centiseconds": 11143,
+      "end_centiseconds": 11312,
+      "first_frame": 3343,
+      "end_frame": 3394,
+      "display_text": "Ma beauté n'a pas besoin de regard",
+      "display_lines": [
+        "Ma beauté n'a pas besoin de",
+        "regard"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 33,
+      "asset_slot": 23,
+      "source_timestamp": "[01:53.12]",
+      "source_text": "Je suis mon propre phare dans le brouillard",
+      "start_centiseconds": 11312,
+      "end_centiseconds": 11655,
+      "first_frame": 3394,
+      "end_frame": 3497,
+      "display_text": "Je suis mon propre phare dans le brouillard",
+      "display_lines": [
+        "Je suis mon propre phare dans",
+        "le brouillard"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 34,
+      "asset_slot": 17,
+      "source_timestamp": "[01:56.55]",
+      "source_text": "Doucement,fortement,sensationnellement",
+      "start_centiseconds": 11655,
+      "end_centiseconds": 11999,
+      "first_frame": 3497,
+      "end_frame": 3600,
+      "display_text": "Doucement, fortement, sensationnellement",
+      "display_lines": [
+        "Doucement, fortement,",
+        "sensationnellement"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 35,
+      "asset_slot": 18,
+      "source_timestamp": "[01:59.99]",
+      "source_text": "J'apprends à m'aimer,tristement,sûrement",
+      "start_centiseconds": 11999,
+      "end_centiseconds": 12329,
+      "first_frame": 3600,
+      "end_frame": 3699,
+      "display_text": "J'apprends à m'aimer, tristement, sûrement",
+      "display_lines": [
+        "J'apprends à m'aimer,",
+        "tristement, sûrement"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 36,
+      "asset_slot": 19,
+      "source_timestamp": "[02:03.29]",
+      "source_text": "Je suis tout ce que j'ai de plus précieux",
+      "start_centiseconds": 12329,
+      "end_centiseconds": 12721,
+      "first_frame": 3699,
+      "end_frame": 3817,
+      "display_text": "Je suis tout ce que j'ai de plus précieux",
+      "display_lines": [
+        "Je suis tout ce que j'ai de plus",
+        "précieux"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 37,
+      "asset_slot": 20,
+      "source_timestamp": "[02:07.21]",
+      "source_text": "Je m'aime tellement,peu importe les yeux",
+      "start_centiseconds": 12721,
+      "end_centiseconds": 13087,
+      "first_frame": 3817,
+      "end_frame": 3927,
+      "display_text": "Je m'aime tellement, peu importe les yeux",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "peu importe les yeux"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 38,
+      "asset_slot": 21,
+      "source_timestamp": "[02:10.87]",
+      "source_text": "Les jours où j'ai mal,je me serre dans mes bras",
+      "start_centiseconds": 13087,
+      "end_centiseconds": 13437,
+      "first_frame": 3927,
+      "end_frame": 4032,
+      "display_text": "Les jours où j'ai mal, je me serre dans mes bras",
+      "display_lines": [
+        "Les jours où j'ai mal, je me",
+        "serre dans mes bras"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 39,
+      "asset_slot": 18,
+      "source_timestamp": "[02:14.37]",
+      "source_text": "Je me dis que ça passe,que je suis assez",
+      "start_centiseconds": 13437,
+      "end_centiseconds": 13780,
+      "first_frame": 4032,
+      "end_frame": 4134,
+      "display_text": "Je me dis que ça passe, que je suis assez",
+      "display_lines": [
+        "Je me dis que ça passe, que je",
+        "suis assez"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 40,
+      "asset_slot": 15,
+      "source_timestamp": "[02:17.80]",
+      "source_text": "Mes failles sont mes forces,mes doutes mes guides",
+      "start_centiseconds": 13780,
+      "end_centiseconds": 14667,
+      "first_frame": 4134,
+      "end_frame": 4401,
+      "display_text": "Mes failles sont mes forces, mes doutes mes guides",
+      "display_lines": [
+        "Mes failles sont mes forces,",
+        "mes doutes mes guides"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 41,
+      "asset_slot": 21,
+      "source_timestamp": "[02:26.67]",
+      "source_text": "Je m'aime tellement,je suis mon abri",
+      "start_centiseconds": 14667,
+      "end_centiseconds": 15061,
+      "first_frame": 4401,
+      "end_frame": 4519,
+      "display_text": "Je m'aime tellement, je suis mon abri",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "je suis mon abri"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 42,
+      "asset_slot": 4,
+      "source_timestamp": "[02:30.61]",
+      "source_text": "Je m'aime tellement,fort,sensationnel,triste",
+      "start_centiseconds": 15061,
+      "end_centiseconds": 15404,
+      "first_frame": 4519,
+      "end_frame": 4622,
+      "display_text": "Je m'aime tellement, fort, sensationnel, triste",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "fort, sensationnel, triste"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 43,
+      "asset_slot": 22,
+      "source_timestamp": "[02:34.04]",
+      "source_text": "Je m'aime tellement,même quand tout résiste",
+      "start_centiseconds": 15404,
+      "end_centiseconds": 15736,
+      "first_frame": 4622,
+      "end_frame": 4721,
+      "display_text": "Je m'aime tellement, même quand tout résiste",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "même quand tout résiste"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 44,
+      "asset_slot": 23,
+      "source_timestamp": "[02:37.36]",
+      "source_text": "Je suis mon propre soleil,même dans la nuit",
+      "start_centiseconds": 15736,
+      "end_centiseconds": 16051,
+      "first_frame": 4721,
+      "end_frame": 4816,
+      "display_text": "Je suis mon propre soleil, même dans la nuit",
+      "display_lines": [
+        "Je suis mon propre soleil,",
+        "même dans la nuit"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 45,
+      "asset_slot": 24,
+      "source_timestamp": "[02:40.51]",
+      "source_text": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+      "start_centiseconds": 16051,
+      "end_centiseconds": 16158,
+      "first_frame": 4816,
+      "end_frame": 4848,
+      "display_text": "Je m'aime tellement, parce que la vie est si belle, si dure, si lui",
+      "display_lines": [
+        "Je m'aime tellement,",
+        "parce que la vie est si belle, si",
+        "dure, si lui"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 46,
+      "asset_slot": 3,
+      "source_timestamp": "[02:41.58]",
+      "source_text": "Wolof TechStein beat wê!(scream émotion)",
+      "start_centiseconds": 16158,
+      "end_centiseconds": 16833,
+      "first_frame": 4848,
+      "end_frame": 5050,
+      "display_text": "Wolof TechStein beat wê!",
+      "display_lines": [
+        "Wolof TechStein beat wê!"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 47,
+      "asset_slot": 8,
+      "source_timestamp": "[02:48.33]",
+      "source_text": "Wolof TechStein beat wê!(féminin puissant)",
+      "start_centiseconds": 16833,
+      "end_centiseconds": 17135,
+      "first_frame": 5050,
+      "end_frame": 5141,
+      "display_text": "Wolof TechStein beat wê!",
+      "display_lines": [
+        "Wolof TechStein beat wê!"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 48,
+      "asset_slot": 25,
+      "source_timestamp": "[02:51.35]",
+      "source_text": "Wolof TechStein beat wê!(ensemble,tam-tam,émotion)",
+      "start_centiseconds": 17135,
+      "end_centiseconds": 17554,
+      "first_frame": 5141,
+      "end_frame": 5267,
+      "display_text": "Wolof TechStein beat wê!",
+      "display_lines": [
+        "Wolof TechStein beat wê!"
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "lyric",
+      "slot": 49,
+      "asset_slot": 21,
+      "source_timestamp": "[02:55.54]",
+      "source_text": "(Je m'aime tellement...)",
+      "start_centiseconds": 17554,
+      "end_centiseconds": 18950,
+      "first_frame": 5267,
+      "end_frame": 5685,
+      "display_text": "Je m'aime tellement...",
+      "display_lines": [
+        "Je m'aime tellement..."
+      ],
+      "reused_image": true
+    },
+    {
+      "kind": "endcard",
+      "slot": 50,
+      "asset_slot": 0,
+      "start_centiseconds": 18950,
+      "end_centiseconds": 19816.666666666664,
+      "first_frame": 5685,
+      "end_frame": 5945,
+      "reused_image": true
+    }
+  ],
+  "notes": [
+    "Aucun recalage des timestamps. Quantification de première frame par plafond, jamais en avance.",
+    "Entrées/sorties des lettres raccourcies sur les fenêtres brèves pour préserver un maintien lisible, sans modifier les fenêtres.",
+    "Les fonds réutilisés sont autorisés explicitement ; aucune concaténation de clips.",
+    "Contrôle utilisateur des mots chantés/onsets demandé après téléchargement ; ne pas prétendre à une écoute indépendante."
+  ]
+}

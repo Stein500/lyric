@@ -71,3 +71,15 @@ bash scripts/setup_env.sh
 ```
 
 Les scripts sont versionnés. `.venv/`, `work/`, `.cache/` et `bin/` restent hors Git ; `livrables/` reste versionné. Les onsets vocaux, le début précis de l'endcard et les vérifications du rendu final ne doivent pas être déclarés validés sans contrôle effectif.
+
+## Changement de périmètre confirmé — dernière salve, puis livraison
+
+L’utilisateur demande l’arrêt après **30 fonds**, autorise leur réutilisation et demande d’enchaîner directement sur **le 9:16 complet et le MP3 propre**, sans nouvelle attente de validation des images. Le 16:9 et les autres publications attendent son contrôle par téléchargement.
+
+- Salve 02 validée ; salve 03 (S20–S29) générée, vérifiée et sélectionnée pour le montage selon cette instruction.
+- Génération IA arrêtée : **30 fonds de scène au total**, 15 cinéma et 15 animé.
+- La timeline `montage_v1.json` conserve les 49 vers et tous les timestamps, avance 0,00 s. Elle explicite chaque réutilisation.
+- Prévision vidéo : **5 945 frames / 30 fps = 198,166667 s**. Endcard sur le fondu audio à **189,50 s**, padding demandé 5 s, arrondi vidéo supplémentaire 0,006687 s.
+- Master PCM préparé pour le clip et MP3 exporté : **−13,93 LUFS / −1,70 dBTP**, 320 kb/s, 48 kHz stéréo, durée décodée conservée à l’échantillon près. Tags Daïsky Pro / Success, 49 lignes, contacts et cover carrée intégrée.
+- Loudnorm deux passes a basculé automatiquement en mode dynamique pour respecter le plafond true-peak de cette source ; le mode réellement appliqué est enregistré dans `controle_master_v1.json`.
+- Rendu à flux unique : Ken Burns calculé à chaque frame, vague des lettres continue, badge dernier et fixe. Aucun assemblage de clips. Contrôles MP4 à réaliser après encodage.

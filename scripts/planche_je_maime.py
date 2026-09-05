@@ -153,7 +153,9 @@ def main():
         for row, line in enumerate(lines):
             draw.text((x + 12, y + thumb_height + 59 + row * 19), line, font=caption_font, fill='#e4e5de')
         draw.rectangle((x, y, x + card_width - 1, y + thumb_height + caption_height - 1), outline='#294047', width=1)
-    draw.text((width / 2, height - 53), f"Paroles et minutage conservés · {batch['cumulative_generated']} / {batch['total_images_per_format']} fonds portrait · Validation avant la salve suivante",
+    tail = 'Génération terminée · Montage 9:16 + MP3' if batch.get('final_image_batch') else 'Validation avant la salve suivante'
+    footer_text = f"Paroles et minutage conservés · {batch['cumulative_generated']} / {batch['total_images_per_format']} fonds portrait · {tail}"
+    draw.text((width / 2, height - 53), footer_text,
               font=font(20), anchor='mt', fill='#b6c8c7')
     sheet.alpha_composite(make_badge(), (36, 36))
     destination = ROOT / batch['contact_sheet']

@@ -1,0 +1,78 @@
+{
+  "source": "Je m'aime tellement - Daïsky.mp3",
+  "source_sha256": "c420d1a2788c5e2e4bb11b518e7bf779d70603ce36a67d0511f793d028eb328c",
+  "output": "livrables/Je_maime_tellement_master_v1.mp3",
+  "sha256": "a1e4fbac58c5f8d17d7c5936037fe9f536d67ea84a6dd64ac351614acdecba94",
+  "pcm_for_video": "work/out/je_maime_tellement/master_48k_f32.wav",
+  "base_filters": "highpass=f=30,lowpass=f=18000",
+  "target_lufs": -14,
+  "target_true_peak_before_mp3_dbtp": -1.8,
+  "max_final_true_peak_dbtp": -1.5,
+  "pass1": {
+    "input_i": "-13.41",
+    "input_tp": "-0.52",
+    "input_lra": "5.10",
+    "input_thresh": "-23.56",
+    "output_i": "-13.22",
+    "output_tp": "-1.80",
+    "output_lra": "4.30",
+    "output_thresh": "-23.30",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.78"
+  },
+  "pass2": {
+    "input_i": "-13.41",
+    "input_tp": "-0.52",
+    "input_lra": "5.10",
+    "input_thresh": "-23.56",
+    "output_i": "-13.94",
+    "output_tp": "-1.80",
+    "output_lra": "4.50",
+    "output_thresh": "-24.01",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.06"
+  },
+  "normalization_mode_actual": "dynamic",
+  "post_codec_peak_guard_gain_db": [],
+  "final_lufs": -13.93,
+  "final_true_peak_dbtp": -1.7,
+  "final_lra_lu": 4.5,
+  "decoded": {
+    "samples_per_channel": 9271679,
+    "duration_seconds": 193.15997916666666,
+    "sample_rate_hz": 48000,
+    "channels": 2
+  },
+  "encoded_bitrate_bps": 320000,
+  "metadata": {
+    "artist": "Daïsky Pro",
+    "album": "Success",
+    "genre": "Rap",
+    "year": "2026",
+    "lyrics_lines": 49,
+    "cover_dimensions": [
+      1080,
+      1080
+    ],
+    "id3_version": [
+      2,
+      4,
+      0
+    ],
+    "mandatory_fields": [
+      "TIT2",
+      "TPE1",
+      "TALB",
+      "TPE2",
+      "TPUB",
+      "TCOM",
+      "TCON",
+      "TDRC",
+      "APIC",
+      "USLT"
+    ],
+    "original_provenance_comments_preserved": true
+  },
+  "source_audio_unchanged": true,
+  "lyrics_from_user_not_embedded_original_uslt": true
+}

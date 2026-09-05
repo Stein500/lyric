@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "batch_number": 3,
+  "format": "portrait",
+  "target_size": [
+    1080,
+    1920
+  ],
+  "status": "selected_for_render_per_user_instruction",
+  "previous_batch_approved": true,
+  "final_image_batch": true,
+  "continue_to_render_without_artistic_pause": true,
+  "generated_images_this_batch": 10,
+  "planned_images_this_batch": 10,
+  "total_images_per_format": 30,
+  "cumulative_generated": 30,
+  "text_advance_seconds": 0.0,
+  "timestamps_unchanged": true,
+  "contact_sheet": "livrables/Je_maime_tellement_planche_03_9x16_v1.jpg",
+  "preview_slot": 21,
+  "preview_file": "livrables/Je_maime_tellement_apercu_salve_03_9x16_v1.jpg",
+  "assets": [
+    {
+      "slot": 20,
+      "timestamp": "01:11.29",
+      "start_centiseconds": 7129,
+      "end_centiseconds": 7520,
+      "first_frame_30fps": 2139,
+      "source_lyric": "Je m'aime tellement,peu importe les yeux",
+      "display_text": "Je m'aime tellement,peu importe les yeux",
+      "style": "cinema",
+      "scene_brief": "Se reconnaître sans dépendre des regards : une présence calme et assurée.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s20_peu_importe_les_yeux_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s20_peu_importe_les_yeux_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "295e1e4d5161f8d379a91d6edf3c1614c9a886b2986d7de43c0bb7319218b7ce"
+    },
+    {
+      "slot": 21,
+      "timestamp": "01:15.20",
+      "start_centiseconds": 7520,
+      "end_centiseconds": 7858,
+      "first_frame_30fps": 2256,
+      "source_lyric": "Je m'aime tellement,fort,sensationnel,triste",
+      "display_text": "Je m'aime tellement,fort,sensationnel,triste",
+      "style": "anime",
+      "scene_brief": "Auto-étreinte émouvante : force et tristesse peuvent coexister.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s21_maime_tendrement_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s21_maime_tendrement_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "f98055abdf7015da481bc4c3ff3383298d773169473e77c83056a2e4b65a9292"
+    },
+    {
+      "slot": 22,
+      "timestamp": "01:18.58",
+      "start_centiseconds": 7858,
+      "end_centiseconds": 8200,
+      "first_frame_30fps": 2358,
+      "source_lyric": "Je m'aime tellement,même quand tout résiste",
+      "display_text": "Je m'aime tellement,même quand tout résiste",
+      "style": "cinema",
+      "scene_brief": "Avancer avec assurance dans le vent, sans s’abandonner.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s22_resister_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s22_resister_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "31937727214308382cd298d60f57546b2b03816777fe4249cf2b32b2a0d503a6"
+    },
+    {
+      "slot": 23,
+      "timestamp": "01:22.00",
+      "start_centiseconds": 8200,
+      "end_centiseconds": 8488,
+      "first_frame_30fps": 2460,
+      "source_lyric": "Je suis mon propre soleil,même dans la nuit",
+      "display_text": "Je suis mon propre soleil,même dans la nuit",
+      "style": "anime",
+      "scene_brief": "Sa lumière intérieure guide dans une nuit brumeuse près de l’eau.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s23_soleil_dans_la_nuit_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s23_soleil_dans_la_nuit_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "a1955ffa568e8a33ebe7b8dc5df6f79848ab87c7783c83e4ced9374bd5370b85"
+    },
+    {
+      "slot": 24,
+      "timestamp": "01:24.88",
+      "start_centiseconds": 8488,
+      "end_centiseconds": 8607,
+      "first_frame_30fps": 2547,
+      "source_lyric": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+      "display_text": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+      "style": "cinema",
+      "scene_brief": "Une fleur et des pierres rugueuses, beauté et dureté réunies.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s24_belle_et_dure_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s24_belle_et_dure_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "5377fa08eff0474a38b1de5bfac43eba28f32d9f209aa85d5d376648b2f9f3eb"
+    },
+    {
+      "slot": 25,
+      "timestamp": "01:26.07",
+      "start_centiseconds": 8607,
+      "end_centiseconds": 10121,
+      "first_frame_30fps": 2583,
+      "source_lyric": "Wolof TechStein beat wê!(crié)",
+      "display_text": "Wolof TechStein beat wê!",
+      "style": "anime",
+      "scene_brief": "Chant puissant au micro, percussion visible, lumière ambre.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s25_tag_puissant_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s25_tag_puissant_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "f6d01bfc3e4a865773a00e3e854e034db2d3b645907a19e9ea13aa95efd0ffc2"
+    },
+    {
+      "slot": 26,
+      "timestamp": "01:41.21",
+      "start_centiseconds": 10121,
+      "end_centiseconds": 10301,
+      "first_frame_30fps": 3037,
+      "source_lyric": "J'ai pleuré pour un amour qui n'me voulait pas",
+      "display_text": "J'ai pleuré pour un amour qui n'me voulait pas",
+      "style": "cinema",
+      "scene_brief": "Une place vide et une larme, souvenir d’un amour non partagé.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s26_amour_non_partage_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s26_amour_non_partage_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "98dde60e9b67ca4b35eb40ff04a6b3d8f0e07a999e56cd543a028dd9c638b7ab"
+    },
+    {
+      "slot": 27,
+      "timestamp": "01:43.01",
+      "start_centiseconds": 10301,
+      "end_centiseconds": 10451,
+      "first_frame_30fps": 3091,
+      "source_lyric": "J'ai donné tout mon cœur,on m'a pris tout ça",
+      "display_text": "J'ai donné tout mon cœur,on m'a pris tout ça",
+      "style": "anime",
+      "scene_brief": "Cœur de papier abîmé tenu tendrement, symbole de l’amour donné.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s27_coeur_donne_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s27_coeur_donne_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "5208be0c7fb4d269414c410ad15fd5b8e58cb2782f56dbec8c151738bb744968"
+    },
+    {
+      "slot": 28,
+      "timestamp": "01:44.51",
+      "start_centiseconds": 10451,
+      "end_centiseconds": 10620,
+      "first_frame_30fps": 3136,
+      "source_lyric": "Mais l'amour qu'on reçoit n'est qu'un reflet",
+      "display_text": "Mais l'amour qu'on reçoit n'est qu'un reflet",
+      "style": "cinema",
+      "scene_brief": "Un reflet désormais accueilli avec douceur, miroir intact.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s28_amour_reflet_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s28_amour_reflet_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "a3aa9c3468147522204c6d9a567a9160efa750543ff9059e3012bda714383684"
+    },
+    {
+      "slot": 29,
+      "timestamp": "01:46.20",
+      "start_centiseconds": 10620,
+      "end_centiseconds": 10807,
+      "first_frame_30fps": 3186,
+      "source_lyric": "De celui qu'on s'offre,de celui qu'on s'promet",
+      "display_text": "De celui qu'on s'offre,de celui qu'on s'promet",
+      "style": "anime",
+      "scene_brief": "Un ruban doré au poignet, promesse de prendre soin de soi.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s29_promesse_a_soi_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s29_promesse_a_soi_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "selected_for_render_per_user_instruction",
+      "width": 768,
+      "height": 1376,
+      "sha256": "c5af8b0748d118394218d2d607403fee1cba0a967fe5b0821feb528c4ef292cf"
+    }
+  ]
+}
