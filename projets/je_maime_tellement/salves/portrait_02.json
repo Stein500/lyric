@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "batch_number": 2,
+  "format": "portrait",
+  "target_size": [
+    1080,
+    1920
+  ],
+  "status": "awaiting_artist_validation",
+  "anchor_approved": true,
+  "previous_batch_approved": true,
+  "user_authorization": "On continue",
+  "style_policy": "Charte A, même héroïne adulte à la silhouette généreuse, alternance cinéma/animé.",
+  "planned_images_this_batch": 10,
+  "generated_images_this_batch": 10,
+  "total_images_per_format": 51,
+  "cumulative_generated": 20,
+  "text_advance_seconds": 0.0,
+  "timestamps_unchanged": true,
+  "contact_sheet": "livrables/Je_maime_tellement_planche_02_9x16_v1.jpg",
+  "preview_slot": 15,
+  "preview_file": "livrables/Je_maime_tellement_apercu_anime_salve_02_9x16_v1.jpg",
+  "next_batch_slots": [
+    20,
+    29
+  ],
+  "assets": [
+    {
+      "slot": 10,
+      "timestamp": "00:48.01",
+      "start_centiseconds": 4801,
+      "end_centiseconds": 4971,
+      "first_frame_30fps": 1441,
+      "source_lyric": "À voir mon reflet,ne pas l'aimer",
+      "display_text": "À voir mon reflet,ne pas l'aimer",
+      "style": "cinema",
+      "scene_brief": "Un reflet évité, dans un miroir intact ; tristesse intime et dignité.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s10_reflet_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s10_reflet_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "width": 768,
+      "height": 1376,
+      "sha256": "2f5e8d52f0a87c1145cd0340f83204c67383b83e5269268c7d3bccb9627d7f81"
+    },
+    {
+      "slot": 11,
+      "timestamp": "00:49.71",
+      "start_centiseconds": 4971,
+      "end_centiseconds": 5156,
+      "first_frame_30fps": 1492,
+      "source_lyric": "Les insultes dans ma tête,un combat sans fin",
+      "display_text": "Les insultes dans ma tête,un combat sans fin",
+      "style": "anime",
+      "scene_brief": "Pensées sombres en rubans abstraits autour de la tête, combat intérieur sans mots écrits.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s11_combat_interieur_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s11_combat_interieur_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "width": 768,
+      "height": 1376,
+      "sha256": "0a7d7777086f77f247dc8a69b0b02dfc1aa6101a75545bc581cae026785eca0f"
+    },
+    {
+      "slot": 12,
+      "timestamp": "00:51.56",
+      "start_centiseconds": 5156,
+      "end_centiseconds": 5290,
+      "first_frame_30fps": 1547,
+      "source_lyric": "À chercher l'amour des autres,pour me sentir bien",
+      "display_text": "À chercher l'amour des autres,pour me sentir bien",
+      "style": "cinema",
+      "scene_brief": "Chercher l’approbation à travers une vitre, silhouettes sociales lointaines et floues.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s12_amour_des_autres_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s12_amour_des_autres_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "width": 768,
+      "height": 1376,
+      "sha256": "c4e4977a48e0e298b71b5302bd8030aa8bf21f974338851a154037503c4d4aed"
+    },
+    {
+      "slot": 13,
+      "timestamp": "00:52.90",
+      "start_centiseconds": 5290,
+      "end_centiseconds": 5473,
+      "first_frame_30fps": 1587,
+      "source_lyric": "Mais un matin,j'ai ouvert les yeux",
+      "display_text": "Mais un matin,j'ai ouvert les yeux",
+      "style": "anime",
+      "scene_brief": "Ouvrir un rideau le matin, laisser entrer une lumière dorée et un regard neuf.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s13_ouvrir_les_yeux_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s13_ouvrir_les_yeux_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "width": 768,
+      "height": 1376,
+      "sha256": "9c62db921230f8281d991ab3d0fd620cccd72347105c93b5245e058caf9b1f87"
+    },
+    {
+      "slot": 14,
+      "timestamp": "00:54.73",
+      "start_centiseconds": 5473,
+      "end_centiseconds": 5635,
+      "first_frame_30fps": 1642,
+      "source_lyric": "J'ai vu que j'étais mon propre dieu",
+      "display_text": "J'ai vu que j'étais mon propre dieu",
+      "style": "cinema",
+      "scene_brief": "Présence souveraine et calme, halo solaire : symbole de son pouvoir intérieur.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s14_propre_dieu_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s14_propre_dieu_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "width": 768,
+      "height": 1376,
+      "sha256": "51680c1e4ae263f798b7a864dd2fe29c6c667a86fa3edd6587c9bc5bc2b30143"
+    },
+    {
+      "slot": 15,
+      "timestamp": "00:56.35",
+      "start_centiseconds": 5635,
+      "end_centiseconds": 5822,
+      "first_frame_30fps": 1691,
+      "source_lyric": "Mes cicatrices sont des victoires",
+      "display_text": "Mes cicatrices sont des victoires",
+      "style": "anime",
+      "scene_brief": "Bol réparé par des veines dorées : métaphore des cicatrices devenues victoires.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s15_cicatrices_victoires_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s15_cicatrices_victoires_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "display_lines": [
+        "Mes cicatrices",
+        "sont des victoires"
+      ],
+      "width": 768,
+      "height": 1376,
+      "sha256": "4ad13907ea0ec7d6cd13a7b1ac7231a5236a137660b58931af93255f7261902d"
+    },
+    {
+      "slot": 16,
+      "timestamp": "00:58.22",
+      "start_centiseconds": 5822,
+      "end_centiseconds": 6151,
+      "first_frame_30fps": 1747,
+      "source_lyric": "Mes larmes sont des mémoires qui m'élèvent,qui m'portent",
+      "display_text": "Mes larmes sont des mémoires qui m'élèvent,qui m'portent",
+      "style": "cinema",
+      "scene_brief": "Larme et particules de lumière ascendantes : les souvenirs portent et élèvent.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s16_larmes_memoires_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s16_larmes_memoires_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "width": 768,
+      "height": 1376,
+      "sha256": "4d75733c56304f44c6fd323dd886c2b666772a0b86f65971fd6d855cc1bde34d"
+    },
+    {
+      "slot": 17,
+      "timestamp": "01:01.51",
+      "start_centiseconds": 6151,
+      "end_centiseconds": 6473,
+      "first_frame_30fps": 1846,
+      "source_lyric": "Doucement,fortement,sensationnellement",
+      "display_text": "Doucement,fortement,sensationnellement",
+      "style": "anime",
+      "scene_brief": "Un mouvement de danse à la fois doux et assuré, confiance qui prend corps.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s17_doucement_fortement_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s17_doucement_fortement_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "width": 768,
+      "height": 1376,
+      "sha256": "5f93ee2bdd2b63e535bd168acfc17f8598c9819f4c68be344e66e27b150a207c"
+    },
+    {
+      "slot": 18,
+      "timestamp": "01:04.73",
+      "start_centiseconds": 6473,
+      "end_centiseconds": 6797,
+      "first_frame_30fps": 1942,
+      "source_lyric": "J'apprends à m'aimer,tristement,sûrement",
+      "display_text": "J'apprends à m'aimer,tristement,sûrement",
+      "style": "cinema",
+      "scene_brief": "Geste de compassion envers soi dans un fauteuil près de la fenêtre ; apaisement malgré la tristesse.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s18_apprendre_a_saimer_cinema.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s18_apprendre_a_saimer_cinema.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/ancrage/charte_A.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "width": 768,
+      "height": 1376,
+      "sha256": "21065ced154c17f08b055623b1db439b19835e84b85ee36a30ae702a5c971afe"
+    },
+    {
+      "slot": 19,
+      "timestamp": "01:07.97",
+      "start_centiseconds": 6797,
+      "end_centiseconds": 7129,
+      "first_frame_30fps": 2040,
+      "source_lyric": "Je suis tout ce que j'ai de plus précieux",
+      "display_text": "Je suis tout ce que j'ai de plus précieux",
+      "style": "anime",
+      "scene_brief": "Cristal doré tenu près du cœur : reconnaître sa propre valeur.",
+      "source_image": "projets/je_maime_tellement/assets/raw/portrait/s19_plus_precieux_anime.png",
+      "render_source": "projets/je_maime_tellement/assets/raw/portrait/s19_plus_precieux_anime.png",
+      "generation_references": [
+        "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
+        "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
+      ],
+      "status": "awaiting_artist_validation",
+      "width": 768,
+      "height": 1376,
+      "sha256": "20eb2f245bf3bf1d6d736f200117110539bfadbd8df9b671e2efd6e1ea4423c0"
+    }
+  ],
+  "technical_checks": {
+    "source_count": 10,
+    "unique_source_hashes_this_batch": 10,
+    "unique_source_hashes_total": 20,
+    "cinema_count": 5,
+    "anime_count": 5,
+    "source_timestamps_preserved": true,
+    "text_advance_seconds": 0.0,
+    "first_frames_never_early": true,
+    "original_mp3_and_lrc_unchanged": true,
+    "contact_sheet_inspected": true,
+    "contact_sheet_dimensions": [
+      1500,
+      1526
+    ],
+    "preview_dimensions": [
+      1080,
+      1920
+    ],
+    "artist_validation": "pending"
+  }
+}

@@ -163,7 +163,8 @@ def main():
     proof(preview, prepared_images[preview['slot']], ROOT / batch['preview_file'])
     print(destination.relative_to(ROOT))
     print(batch['preview_file'])
-    print('Sources IA originales intactes ; préparation du ciel S01 enregistrée séparément.')
+    prepared_count = sum(bool(asset.get('preparation')) for asset in assets)
+    print(f'{len(assets)} sources IA originales intactes ; {prepared_count} préparation(s) séparée(s).')
 
 
 if __name__ == '__main__':

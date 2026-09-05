@@ -6,7 +6,7 @@
     1080,
     1920
   ],
-  "status": "awaiting_artist_validation",
+  "status": "approved",
   "anchor_approved": true,
   "user_update": "Oui continue... ajoute des images style animé..forme généreuse aussi",
   "style_policy": "Charte A dorée conservée ; alternance cinéma et animé, même héroïne adulte et tenue, silhouette généreuse.",
@@ -41,7 +41,7 @@
       "generation_references": [
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation"
+      "status": "approved"
     },
     {
       "slot": 1,
@@ -62,7 +62,7 @@
         "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "preparation": {
         "method": "extend_own_sky_over_top_band",
         "band_height_px": 174,
@@ -89,7 +89,7 @@
         "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation"
+      "status": "approved"
     },
     {
       "slot": 3,
@@ -110,7 +110,7 @@
         "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation"
+      "status": "approved"
     },
     {
       "slot": 4,
@@ -131,7 +131,7 @@
         "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation"
+      "status": "approved"
     },
     {
       "slot": 5,
@@ -152,7 +152,7 @@
         "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation",
+      "status": "approved",
       "display_lines": [
         "Je m'aime tellement,",
         "même quand tout résiste"
@@ -177,7 +177,7 @@
         "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation"
+      "status": "approved"
     },
     {
       "slot": 7,
@@ -198,7 +198,7 @@
         "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation"
+      "status": "approved"
     },
     {
       "slot": 8,
@@ -219,7 +219,7 @@
         "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation"
+      "status": "approved"
     },
     {
       "slot": 9,
@@ -240,7 +240,7 @@
         "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/ancrage/charte_A.png"
       ],
-      "status": "awaiting_artist_validation"
+      "status": "approved"
     }
   ],
   "technical_checks": {
@@ -252,6 +252,10 @@
     "text_advance_seconds": 0.0,
     "original_mp3_and_lrc_unchanged": true,
     "contact_sheet_inspected": true,
-    "artist_validation": "pending"
+    "artist_validation": "approved"
+  },
+  "artist_validation": {
+    "message": "On continue",
+    "date": "2026-09-05"
   }
 }

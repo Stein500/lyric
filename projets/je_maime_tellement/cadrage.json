@@ -55,7 +55,7 @@
   "pending": {
     "genre": "Rap dans le MP3 source ; à confirmer pour la publication.",
     "endcard_start_seconds": null,
-    "portrait_batch_01": "10 images générées, slots 00 à 09 ; planche contact à valider avant toute salve suivante."
+    "portrait_batch_02": "10 images générées, slots S10 à S19 ; planche 02 à valider avant la salve 03."
   },
   "verification_limits": [
     "Décodage et mesures audio effectués. Le texte et les timestamps sont confirmés par l’utilisateur et doivent rester inchangés.",
@@ -64,6 +64,10 @@
   "batches": [
     {
       "manifest": "projets/je_maime_tellement/salves/portrait_01.json",
+      "status": "approved"
+    },
+    {
+      "manifest": "projets/je_maime_tellement/salves/portrait_02.json",
       "status": "awaiting_artist_validation"
     }
   ],
