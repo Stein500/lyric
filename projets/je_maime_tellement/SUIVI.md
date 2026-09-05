@@ -1,85 +1,73 @@
-# Je m'aime tellement — suivi de production
+# Je m'aime tellement — 9:16 + MP3 livrés, validation utilisateur attendue
 
-## Décisions confirmées
+## Instruction actuelle de l’utilisateur
 
-- Priorité exclusive à **Je m'aime tellement** ; **Drague moi 1** attend.
-- **Les paroles données par l'utilisateur font foi**, y compris « si belle,si dure,si lui ». Ne pas les remplacer par les paroles embarquées dans le MP3.
-- **Aucune avance : 0,00 s.** Tous les timestamps fournis sont conservés. À 30 fps, première frame à ou après le timestamp (quantification < 1 frame, aucune anticipation).
-- Artiste **Daïsky Pro**, album **Success**, label **Daïsky Prod / TechStein**.
-- Charte **A**, héroïne fictive IA, amour de soi, lumière dorée et grain cinéma.
-- Pack complet, 9:16 avant 16:9, MP3 master/tagué, covers et endcard v4.7.
+Après la troisième salve, **arrêter à 30 fonds**, autoriser les réutilisations et **enchaîner directement sur le 9:16 complet et le MP3 propre**. L’utilisateur télécharge, vérifie puis valide. Ne pas lancer le 16:9, une autre salve ou le morceau Drague moi avant une nouvelle demande.
 
-## Sources et contrôle technique
+## Livrables
 
-Les quatre fichiers MP3/LRC des deux titres ont été récupérés depuis le commit utilisateur `45d4b52`, sans quitter `arena/01a072d8-lyric`. Aucun traitement de Drague moi n'a été effectué.
+- `../../livrables/Je_maime_tellement_9x16_v1.mp4` — 1080×1920, 30 fps, H.264, AAC 192 kb/s, **198,166667 s**, environ 69,8 Mo.
+- `../../livrables/Je_maime_tellement_master_v1.mp3` — 320 kb/s, 48 kHz stéréo, **193,159979 s**, environ 8,0 Mo.
+- `../../livrables/cover_Je_maime_tellement_1080.jpg` — cover intégrée au MP3, dérivée d’un fond existant, aucune génération supplémentaire.
+- `../../livrables/Je_maime_tellement_v1_infos.md` — informations et contrôles lisibles.
+- `livraison_v1.json` — tailles, durées, empreintes et statut de la livraison.
 
-- Audio de Je m'aime tellement décodé **sans avertissement** : **193,159979 s**, 48 kHz, stéréo, 9 271 679 échantillons par canal.
-- Source : **−13,34 LUFS**, **−0,86 dBTP**, LRA **5,20 LU**. Il ne s'agit pas encore d'un master.
-- Tempo automatique estimé autour de **70 BPM**, ou **140** en double tempo ; ne sert pas à recaler les paroles.
-- **49 entrées vocales** et une indication INTRO : **51 images par format**, intro et endcard comprises. Refrains/tags répétés : images distinctes, pas de réutilisation.
-- Copie de production UTF-8 dans `paroles_utf8.lrc` ; les deux `cSur` du fichier reçu deviennent `cœur`, conformément au texte donné en conversation. Aucun autre mot ni timestamp modifié. Les deux fichiers source restent intacts (SHA-256 dans `analyse_audio.json`).
-- Limite honnête : audit technique réalisé, pas de certification indépendante des onsets chantés à ±0,35 s. Le téléchargement du modèle de transcription n'était pas accessible ; aucune transcription n'a été substituée au texte de l'utilisateur.
+## Décisions qui font foi
 
-## Ancrage validé — évolution demandée par l’utilisateur
+- Référence : `PROMPT_UNIVERSEL_v4.7.md`, avec les dérogations **propres à ce morceau** consignées dans `cadrage.json`.
+- **Paroles fournies par l’utilisateur**, y compris « si belle,si dure,si lui » ; ne jamais leur substituer l’ancien USLT embarqué dans le MP3 source.
+- **Aucune avance : 0,00 s.** À 30 fps, la première frame d’un vers est le plafond du timestamp × 30 ; jamais d’anticipation, quantification < 1 frame.
+- Artiste **Daïsky Pro**, album **Success**, label **Daïsky Prod / TechStein**. Genre Rap et année 2026 repris de la source.
+- Charte **A** dorée, cinéma et animé, même héroïne adulte noire, afro naturel, créoles dorées, blouse ivoire et jupe longue sombre, silhouette généreuse.
+- Salves 01 et 02 validées ; salve 03 sélectionnée puis rendue **sans nouvelle pause artistique**, comme demandé.
+- **30 fonds de scène** : 15 cinéma et 15 animé. Aucun nouvel appel de génération après S29. Les 20 vers restants et l’endcard réutilisent les fonds selon `montage_v1.json`.
+- Le 16:9 et les autres publications sont différés jusqu’au contrôle utilisateur.
 
-- Source IA sans texte : `assets/ancrage/charte_A.png`.
-- Maquette : `../../livrables/Je_maime_tellement_ancrage_A_9x16_v1.jpg`.
-- Héroïne adulte fictive : peau brun foncé, cheveux afro naturels, blouse ivoire, jupe sombre, petites créoles dorées ; geste d'auto-étreinte, fragilité et apaisement.
-- Validation reçue : « Oui continue... ajoute des images style animé..forme généreuse aussi ». Même identité et palette A, ajout d’images animé et silhouette plus généreuse.
-- Vers de démonstration : celui de **00:30.47**, sans réécriture (espaces typographiques et retour à la ligne seulement).
-- Badge ajouté en post à **(36,36)**, 332×94, contour cyan, éclair polygonal et @daiskypro ; sera posé en dernier et strictement identique sur les frames.
-- Cette image est une **maquette fixe d'ancrage**, pas un clip. Le clip aura Ken Burns, vague continue et rendu frame-accurate.
-- L’ancrage initial est validé ; ne pas redemander cette validation. La première salve ci-dessous intègre les changements demandés.
+## Sources préservées
 
-## Salve portrait 01 — validée
+Les deux MP3/LRC de Je m’aime tellement et Drague moi ont été récupérés depuis le commit utilisateur `45d4b52`, sans changer de branche. Aucun traitement de Drague moi n’a été effectué.
 
-- **10 nouvelles sources IA distinctes**, slots **S00 à S09** : intro et neuf premières lignes vocales. Période : 00:00.00 → 00:48.01 (fin exclue).
-- **5 cinéma + 5 animé**. Même héroïne adulte, tenue et palette dorée, avec une silhouette généreuse ; progression vers des métaphores de résistance, soleil intérieur et doutes nocturnes.
-- Planche : `../../livrables/Je_maime_tellement_planche_01_9x16_v1.jpg`.
-- Aperçu animé avec le vers de **00:32.54** : `../../livrables/Je_maime_tellement_apercu_anime_9x16_v1.jpg`. Aperçu fixe de composition, pas un clip animé.
-- Manifeste : `salves/portrait_01.json` (vers exacts, timestamps, styles, chemins, références, SHA-256 et statut de validation).
-- Sources sans typographie : `assets/raw/portrait/s00…s09_*.png`. Dix fichiers et dix empreintes distinctes vérifiés ; fichiers audio/LRC d’origine inchangés.
-- S01 avait une marge supérieure rectangulaire produite par le modèle. Un **dérivé séparé** dans `assets/prepared/portrait/` la remplace par un prolongement de son propre ciel ; le personnage et tous les pixels à partir de la ligne 190 sont préservés. Le brut reste intact. Aucun nouvel appel IA pour cette préparation.
-- Référence animé pour la suite : le dérivé préparé S01 ; référence cinéma : l’ancrage original. Corps, coiffure, peau, tenue et visage doivent rester cohérents.
-- **10 générations dans la salve 01.** Règle des 10 maximum par session respectée.
-- **Validée par l’utilisateur : « On continue ».** Les slots S00 à S09 sont approuvés ; aucune de leurs images sources n’a été modifiée.
-- Suite engagée après validation : **salve 02, S10 à S19**.
+- Source musicale : `Je m'aime tellement - Daïsky.mp3` ; décodage 48 kHz stéréo, **9 271 679 échantillons par canal**.
+- Source LRC conservée intacte. `paroles_utf8.lrc` rétablit l’UTF-8 et les deux `cSur` → `cœur` conformément au texte de la conversation ; aucun autre mot ni timestamp modifié.
+- 49 lignes vocales et une indication INTRO. Les annotations de jeu vocal ne sont pas affichées comme paroles.
+- Empreintes et analyse initiale : `analyse_audio.json`.
 
-## Salve portrait 02 — en attente de validation artistique
+## Rendu continu et contrôles
 
-- Autorisation : **« On continue »**, après présentation de la planche 01.
-- **10 nouvelles sources IA distinctes**, **S10 à S19**, de **00:48.01 à 01:11.29** (fin exclue).
-- **5 cinéma + 5 animé**, avec la même héroïne adulte, silhouette généreuse, afro naturel, blouse ivoire, jupe sombre et palette dorée.
-- Arc visuel : reflet douloureux → pensées qui tournent → quête d’approbation → matin neuf → pouvoir intérieur → cicatrices/victoires → larmes qui portent → mouvement → apprentissage → valeur de soi.
-- Les cicatrices sont illustrées par les veines dorées d’un bol réparé, sans blessure corporelle.
-- Planche : `../../livrables/Je_maime_tellement_planche_02_9x16_v1.jpg`.
-- Aperçu animé avec le vers de **00:56.35** : `../../livrables/Je_maime_tellement_apercu_anime_salve_02_9x16_v1.jpg`. Maquette fixe, pas encore un clip.
-- Manifeste : `salves/portrait_02.json`. Sources sans texte : `assets/raw/portrait/s10…s19_*.png`.
-- Contrôles : **20 empreintes distinctes** sur les deux salves, dimensions des images, sources audio/LRC intactes, texte et timestamps identiques, première frame jamais anticipée, planche et aperçu inspectés. Aucun traitement du morceau Drague moi.
-- **20 / 51 fonds portrait générés ; 31 restent à produire.** Le format paysage reste à faire séparément.
-- **10 générations dans cette salve/session ; pas de deuxième salve dans le même tour.**
-- **Attendre la validation de la planche 02.** Prochaine salve : **S20 à S29**. Ne reprendre que les slots refusés si l’artiste demande des retouches.
+- **5 945 frames** sur un flux MJPEG continu vers libx264 ; aucune concaténation de clips. Chaque frame i correspond à t=i/30.
+- Fonds LANCZOS sur canvas 1188×2112 puis Ken Burns affine fractionnel OpenCV, zoom 1,02–1,08, pan lent.
+- Lettres : apparition décalée, vague sinusoïdale continue 6 px / 0,9 Hz, disparition en cascade inversée. Entrées et sorties adaptées aux fenêtres brèves, sans les déplacer.
+- Badge exact de la maquette, **(36,36)**, 332×94, posé en dernier et jamais déplacé.
+- Endcard à **189,50 s**, sur le fondu audio détecté ; contacts complets, environ 5 s de padding, fondu final de 3 s. Pas de fondu d’entrée vidéo.
+- Vidéo : crf19, veryfast, yuv420p, plafond VBV 3500k / tampon 7000k, AAC 192k, faststart.
+- **Contrôles passés**, consignés dans `controle_video_v1.json` : streams/durée/frames, faststart, blackdetect limité au fondu final, aucun freezedetect au seuil −70 dB / 1 s, 16 comparaisons de frames (dont après 2:00), badge et mouvement, corrélation source/master.
+- `controle_master_v1.json` : MP3 **−13,93 LUFS / −1,70 dBTP**, durée identique à l’échantillon près, tags complets, cover carrée, paroles utilisateur. La provenance/commentaires et numéros de piste de l’original ont été conservés.
+- Loudnorm a utilisé son **mode dynamique réel** en passe 2 pour respecter le plafond TP de cette source ; ne pas présenter ce master comme une normalisation exclusivement linéaire.
+- Audio AAC du MP4 : **−14,00 LUFS / −1,04 dBTP**, sans clipping.
+
+**Limite honnête :** les contrôles établissent le respect de la timeline fournie et l’absence de décalage introduit par le mastering. Ils ne remplacent pas l’écoute ni la validation artistique de l’utilisateur. Le modèle de transcription n’a pas pu être téléchargé ; aucune transcription automatique n’a été substituée au texte.
+
+## Archivage sans perte des fonds
+
+Pour que le patch courant conserve surtout les livrables complets sans dépasser son budget de persistance, les **30 bruts PNG (67,7 Mo) sont archivés intégralement dans le commit distant `70c07ac60a79d56915357371d897bbe34f3b78e0`** et retirés de l’arbre courant. Ils ne sont pas perdus ni remplacés par des vignettes.
+
+- Index, tailles et SHA-256 : `archive_visuels.json`.
+- La sauvegarde distante a été vérifiée **avant** de retirer les fichiers ; restauration et empreinte des 30 bruts testées ensuite.
+- `resolve_asset()` restaure automatiquement les sources nécessaires dans `work/out/je_maime_tellement/restored_assets/`. En cas d’historique partiel, il fetch uniquement la branche de session, sans checkout ni reset.
+- Pour obtenir tous les chemins physiques des bruts : `.venv/bin/python scripts/archive_je_maime_assets.py --restore`.
+- Les chemins `source_image` et `generation_references` des manifestes restent leurs chemins **logiques** ; les outils d’images doivent utiliser les chemins de cache restaurés si ces bruts sont requis.
+- Ancrage, référence animé préparée, polices, planches contact et livrables restent directement dans l’arbre courant.
+- Le seul dérivé de préparation est S01 : prolongement de son propre ciel sur une marge supérieure ; tous les pixels à partir de la ligne 190, dont le personnage, sont conservés. Le brut d’origine est dans l’archive.
 
 ## Reproduire
 
 ```bash
 bash scripts/setup_env.sh
-.venv/bin/python scripts/analyse_je_maime.py
-.venv/bin/python scripts/maquette_je_maime.py
-.venv/bin/python scripts/planche_je_maime.py projets/je_maime_tellement/salves/portrait_01.json
-.venv/bin/python scripts/planche_je_maime.py projets/je_maime_tellement/salves/portrait_02.json
+.venv/bin/python scripts/archive_je_maime_assets.py --restore  # facultatif : restauration à la demande sinon
+.venv/bin/python scripts/master_je_maime.py
+.venv/bin/python scripts/prepare_montage_je_maime.py
+.venv/bin/python scripts/render_je_maime.py
+.venv/bin/python scripts/verify_je_maime.py
 ```
 
-Les scripts sont versionnés. `.venv/`, `work/`, `.cache/` et `bin/` restent hors Git ; `livrables/` reste versionné. Les onsets vocaux, le début précis de l'endcard et les vérifications du rendu final ne doivent pas être déclarés validés sans contrôle effectif.
-
-## Changement de périmètre confirmé — dernière salve, puis livraison
-
-L’utilisateur demande l’arrêt après **30 fonds**, autorise leur réutilisation et demande d’enchaîner directement sur **le 9:16 complet et le MP3 propre**, sans nouvelle attente de validation des images. Le 16:9 et les autres publications attendent son contrôle par téléchargement.
-
-- Salve 02 validée ; salve 03 (S20–S29) générée, vérifiée et sélectionnée pour le montage selon cette instruction.
-- Génération IA arrêtée : **30 fonds de scène au total**, 15 cinéma et 15 animé.
-- La timeline `montage_v1.json` conserve les 49 vers et tous les timestamps, avance 0,00 s. Elle explicite chaque réutilisation.
-- Prévision vidéo : **5 945 frames / 30 fps = 198,166667 s**. Endcard sur le fondu audio à **189,50 s**, padding demandé 5 s, arrondi vidéo supplémentaire 0,006687 s.
-- Master PCM préparé pour le clip et MP3 exporté : **−13,93 LUFS / −1,70 dBTP**, 320 kb/s, 48 kHz stéréo, durée décodée conservée à l’échantillon près. Tags Daïsky Pro / Success, 49 lignes, contacts et cover carrée intégrée.
-- Loudnorm deux passes a basculé automatiquement en mode dynamique pour respecter le plafond true-peak de cette source ; le mode réellement appliqué est enregistré dans `controle_master_v1.json`.
-- Rendu à flux unique : Ken Burns calculé à chaque frame, vague des lettres continue, badge dernier et fixe. Aucun assemblage de clips. Contrôles MP4 à réaliser après encodage.
+Les trois planches se reconstruisent avec `scripts/planche_je_maime.py` et le manifeste `salves/portrait_0N.json`. Le dossier `work/out/` est temporaire ; ne pas y compter sur des livrables persistants. `.venv/`, `work/`, `.cache/`, `bin/` et les caches Python sont hors Git ; **`livrables/` reste versionné**. Ne jamais committer ffmpeg ou l’environnement Python.

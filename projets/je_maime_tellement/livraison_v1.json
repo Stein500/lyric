@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "status": "awaiting_user_download_and_validation",
+  "technical_checks_passed": true,
+  "outputs": [
+    {
+      "kind": "video",
+      "path": "livrables/Je_maime_tellement_9x16_v1.mp4",
+      "bytes": 69803125,
+      "duration_seconds": 198.16666666666666,
+      "sha256": "664602d6ae7176acd56faa929e8de0a4565830e07ea96a339d9f00af230294c1"
+    },
+    {
+      "kind": "audio",
+      "path": "livrables/Je_maime_tellement_master_v1.mp3",
+      "bytes": 8034014,
+      "duration_seconds": 193.15997916666666,
+      "sha256": "a1e4fbac58c5f8d17d7c5936037fe9f536d67ea84a6dd64ac351614acdecba94"
+    }
+  ],
+  "scene_images": 30,
+  "lyric_events": 49,
+  "reuse_authorized": true,
+  "text_advance_seconds": 0.0,
+  "deferred": [
+    "16:9",
+    "autres publications"
+  ],
+  "asset_archive": "projets/je_maime_tellement/archive_visuels.json",
+  "notes": "Les images originales sont conservées sans perte dans le checkpoint Git distant. Le MP4 et le MP3 sont des fichiers autonomes."
+}

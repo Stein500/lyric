@@ -1,0 +1,20 @@
+{
+  "output": "livrables/Je_maime_tellement_9x16_v1.mp4",
+  "frames_sent": 5945,
+  "elapsed_seconds": 437.15191170900016,
+  "file_bytes": 69803125,
+  "sha256": "664602d6ae7176acd56faa929e8de0a4565830e07ea96a339d9f00af230294c1",
+  "continuous_stream": true,
+  "frame_time_formula": "t=i/30",
+  "text_advance_seconds": 0.0,
+  "encoder": {
+    "codec": "libx264",
+    "preset": "veryfast",
+    "crf": 19,
+    "pixel_format": "yuv420p",
+    "maxrate": "3500k",
+    "bufsize": "7000k",
+    "aac_bitrate": "192k",
+    "faststart": true
+  }
+}

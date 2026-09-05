@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "commit": "70c07ac60a79d56915357371d897bbe34f3b78e0",
+  "branch": "arena/01a072d8-lyric",
+  "verified_remote_checkpoint": true,
+  "reason": "Les bruts générés sont conservés dans le checkpoint distant, sans perte, afin que le patch courant privilégie le MP4 complet et le MP3 (budget de persistance).",
+  "restore_command": ".venv/bin/python scripts/archive_je_maime_assets.py --restore",
+  "restoration_directory": "work/out/je_maime_tellement/restored_assets",
+  "total_bytes": 67719892,
+  "assets": [
+    {
+      "slot": 0,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s00_intro.png",
+      "sha256": "ab2199dfb3d0c493bdc890e5f4e79be46d0b7bad5a65035437e2645ca3203279",
+      "bytes": 2287341
+    },
+    {
+      "slot": 1,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s01_tag_doux_anime.png",
+      "sha256": "53dd6e8cba65e945abcca3d5d0834999cfaf84185a0f032717e3ef81715d9b3a",
+      "bytes": 1822956
+    },
+    {
+      "slot": 2,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s02_tag_doux_cinema.png",
+      "sha256": "1fb906792def9fa8419c12909e2032f5cb05b37110c3a91beaf640d8cfc0eeba",
+      "bytes": 2142064
+    },
+    {
+      "slot": 3,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s03_cri_du_coeur_anime.png",
+      "sha256": "3187f6ebcdb85be4dfbe6b18411f7df4251672b686670edb8e0ad26fcc55c802",
+      "bytes": 2009313
+    },
+    {
+      "slot": 4,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png",
+      "sha256": "132a254f3b5e8e2fc32a14159a013b7358d0ddeaa09e596a9be5c17a5bb107df",
+      "bytes": 2149874
+    },
+    {
+      "slot": 5,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png",
+      "sha256": "4508033fe63c3712a0fa32a0d6bdc05fb9c5026f0edf94a948a4a268204af3e7",
+      "bytes": 2306228
+    },
+    {
+      "slot": 6,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s06_propre_soleil_cinema.png",
+      "sha256": "54a524872d7a5ebc373d74e24328f1b55b405652a7e92581035b7a631451ea0f",
+      "bytes": 1822983
+    },
+    {
+      "slot": 7,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s07_vie_belle_et_dure_anime.png",
+      "sha256": "1678500b3408555192844bcfe5de40dd4177e82dcc8c4309ce8149e39255604f",
+      "bytes": 2187721
+    },
+    {
+      "slot": 8,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s08_tag_crie_cinema.png",
+      "sha256": "4f86bfb588a12792ba9b4eefa8c0b3d12e47db0c7aa3478c77210873db0d5ec3",
+      "bytes": 2235248
+    },
+    {
+      "slot": 9,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s09_nuits_de_doute_anime.png",
+      "sha256": "b30a51d21000959a4143a98ac995fe54138446d07e738139f3a751d1e3d8d295",
+      "bytes": 2058873
+    },
+    {
+      "slot": 10,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s10_reflet_cinema.png",
+      "sha256": "2f5e8d52f0a87c1145cd0340f83204c67383b83e5269268c7d3bccb9627d7f81",
+      "bytes": 2165229
+    },
+    {
+      "slot": 11,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s11_combat_interieur_anime.png",
+      "sha256": "0a7d7777086f77f247dc8a69b0b02dfc1aa6101a75545bc581cae026785eca0f",
+      "bytes": 2102177
+    },
+    {
+      "slot": 12,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s12_amour_des_autres_cinema.png",
+      "sha256": "c4e4977a48e0e298b71b5302bd8030aa8bf21f974338851a154037503c4d4aed",
+      "bytes": 2464930
+    },
+    {
+      "slot": 13,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s13_ouvrir_les_yeux_anime.png",
+      "sha256": "9c62db921230f8281d991ab3d0fd620cccd72347105c93b5245e058caf9b1f87",
+      "bytes": 2315564
+    },
+    {
+      "slot": 14,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s14_propre_dieu_cinema.png",
+      "sha256": "51680c1e4ae263f798b7a864dd2fe29c6c667a86fa3edd6587c9bc5bc2b30143",
+      "bytes": 2218338
+    },
+    {
+      "slot": 15,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s15_cicatrices_victoires_anime.png",
+      "sha256": "4ad13907ea0ec7d6cd13a7b1ac7231a5236a137660b58931af93255f7261902d",
+      "bytes": 2275933
+    },
+    {
+      "slot": 16,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s16_larmes_memoires_cinema.png",
+      "sha256": "4d75733c56304f44c6fd323dd886c2b666772a0b86f65971fd6d855cc1bde34d",
+      "bytes": 2529770
+    },
+    {
+      "slot": 17,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s17_doucement_fortement_anime.png",
+      "sha256": "5f93ee2bdd2b63e535bd168acfc17f8598c9819f4c68be344e66e27b150a207c",
+      "bytes": 2393874
+    },
+    {
+      "slot": 18,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s18_apprendre_a_saimer_cinema.png",
+      "sha256": "21065ced154c17f08b055623b1db439b19835e84b85ee36a30ae702a5c971afe",
+      "bytes": 2371960
+    },
+    {
+      "slot": 19,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s19_plus_precieux_anime.png",
+      "sha256": "20eb2f245bf3bf1d6d736f200117110539bfadbd8df9b671e2efd6e1ea4423c0",
+      "bytes": 2374155
+    },
+    {
+      "slot": 20,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s20_peu_importe_les_yeux_cinema.png",
+      "sha256": "295e1e4d5161f8d379a91d6edf3c1614c9a886b2986d7de43c0bb7319218b7ce",
+      "bytes": 2482865
+    },
+    {
+      "slot": 21,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s21_maime_tendrement_anime.png",
+      "sha256": "f98055abdf7015da481bc4c3ff3383298d773169473e77c83056a2e4b65a9292",
+      "bytes": 2465509
+    },
+    {
+      "slot": 22,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s22_resister_cinema.png",
+      "sha256": "31937727214308382cd298d60f57546b2b03816777fe4249cf2b32b2a0d503a6",
+      "bytes": 2385899
+    },
+    {
+      "slot": 23,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s23_soleil_dans_la_nuit_anime.png",
+      "sha256": "a1955ffa568e8a33ebe7b8dc5df6f79848ab87c7783c83e4ced9374bd5370b85",
+      "bytes": 2105071
+    },
+    {
+      "slot": 24,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s24_belle_et_dure_cinema.png",
+      "sha256": "5377fa08eff0474a38b1de5bfac43eba28f32d9f209aa85d5d376648b2f9f3eb",
+      "bytes": 2479877
+    },
+    {
+      "slot": 25,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s25_tag_puissant_anime.png",
+      "sha256": "f6d01bfc3e4a865773a00e3e854e034db2d3b645907a19e9ea13aa95efd0ffc2",
+      "bytes": 2240315
+    },
+    {
+      "slot": 26,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s26_amour_non_partage_cinema.png",
+      "sha256": "98dde60e9b67ca4b35eb40ff04a6b3d8f0e07a999e56cd543a028dd9c638b7ab",
+      "bytes": 2262416
+    },
+    {
+      "slot": 27,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s27_coeur_donne_anime.png",
+      "sha256": "5208be0c7fb4d269414c410ad15fd5b8e58cb2782f56dbec8c151738bb744968",
+      "bytes": 2294763
+    },
+    {
+      "slot": 28,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s28_amour_reflet_cinema.png",
+      "sha256": "a3aa9c3468147522204c6d9a567a9160efa750543ff9059e3012bda714383684",
+      "bytes": 2398866
+    },
+    {
+      "slot": 29,
+      "path": "projets/je_maime_tellement/assets/raw/portrait/s29_promesse_a_soi_anime.png",
+      "sha256": "c5af8b0748d118394218d2d607403fee1cba0a967fe5b0821feb528c4ef292cf",
+      "bytes": 2369780
+    }
+  ]
+}

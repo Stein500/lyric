@@ -64,8 +64,7 @@
     "Périmètre immédiat réduit au 9:16 complet et au MP3 propre ; les autres formats attendent le contrôle utilisateur."
   ],
   "pending": {
-    "genre": "Rap dans le MP3 source ; à confirmer pour la publication.",
-    "final_delivery": "À produire : 9:16 complet et MP3 propre, puis contrôle par téléchargement utilisateur."
+    "user_review": "Télécharger le 9:16 complet et le MP3 propre, vérifier à l’écoute et valider avant toute suite."
   },
   "verification_limits": [
     "Décodage et mesures audio effectués. Le texte et les timestamps sont confirmés par l’utilisateur et doivent rester inchangés.",
@@ -82,11 +81,15 @@
     },
     {
       "manifest": "projets/je_maime_tellement/salves/portrait_03.json",
-      "status": "selected_for_render_per_user_instruction"
+      "status": "rendered_per_user_instruction"
     }
   ],
   "style_references": {
     "cinema": "projets/je_maime_tellement/assets/ancrage/charte_A.png",
     "anime": "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png"
+  },
+  "delivery": {
+    "status": "awaiting_user_download_and_validation",
+    "manifest": "projets/je_maime_tellement/livraison_v1.json"
   }
 }

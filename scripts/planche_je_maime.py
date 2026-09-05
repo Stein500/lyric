@@ -16,6 +16,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 from maquette_je_maime import make_badge
+from je_maime_common import resolve_asset
 
 ROOT = Path(__file__).resolve().parents[1]
 FONTS = Path('/usr/share/fonts/truetype/dejavu')
@@ -42,7 +43,7 @@ def wrap(text, face, max_width):
 
 
 def prepare(asset):
-    original = ROOT / asset['source_image']
+    original = resolve_asset(asset['source_image'], asset['sha256'])
     if hashlib.sha256(original.read_bytes()).hexdigest() != asset['sha256']:
         raise ValueError(f'Source modifiée : {original}')
     with Image.open(original) as opened:

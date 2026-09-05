@@ -124,7 +124,12 @@ def resolve_asset(relative_path, expected_sha=None):
             revision = archive['commit']
             if not re.fullmatch(r'[0-9a-f]{40}', revision):
                 raise ValueError('Commit d’archive invalide')
-            process = subprocess.run(['git', 'show', f'{revision}:{relative.as_posix()}'], cwd=ROOT, capture_output=True, check=True)
+            command = ['git', 'show', f'{revision}:{relative.as_posix()}']
+            process = subprocess.run(command, cwd=ROOT, capture_output=True)
+            if process.returncode:
+                # Cas d'un clone/snapshot à historique partiel : ne pas changer de branche.
+                subprocess.run(['git', 'fetch', 'origin', 'arena/01a072d8-lyric'], cwd=ROOT, check=True)
+                process = subprocess.run(command, cwd=ROOT, capture_output=True, check=True)
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes(process.stdout)
     if expected_sha and sha256(path) != expected_sha:

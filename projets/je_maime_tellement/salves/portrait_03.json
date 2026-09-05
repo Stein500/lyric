@@ -6,7 +6,7 @@
     1080,
     1920
   ],
-  "status": "selected_for_render_per_user_instruction",
+  "status": "rendered_per_user_instruction",
   "previous_batch_approved": true,
   "final_image_batch": true,
   "continue_to_render_without_artistic_pause": true,
@@ -36,7 +36,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "295e1e4d5161f8d379a91d6edf3c1614c9a886b2986d7de43c0bb7319218b7ce"
@@ -57,7 +57,7 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "f98055abdf7015da481bc4c3ff3383298d773169473e77c83056a2e4b65a9292"
@@ -78,7 +78,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "31937727214308382cd298d60f57546b2b03816777fe4249cf2b32b2a0d503a6"
@@ -99,7 +99,7 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "a1955ffa568e8a33ebe7b8dc5df6f79848ab87c7783c83e4ced9374bd5370b85"
@@ -120,7 +120,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "5377fa08eff0474a38b1de5bfac43eba28f32d9f209aa85d5d376648b2f9f3eb"
@@ -141,7 +141,7 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "f6d01bfc3e4a865773a00e3e854e034db2d3b645907a19e9ea13aa95efd0ffc2"
@@ -162,7 +162,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "98dde60e9b67ca4b35eb40ff04a6b3d8f0e07a999e56cd543a028dd9c638b7ab"
@@ -183,7 +183,7 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "5208be0c7fb4d269414c410ad15fd5b8e58cb2782f56dbec8c151738bb744968"
@@ -204,7 +204,7 @@
         "projets/je_maime_tellement/assets/ancrage/charte_A.png",
         "projets/je_maime_tellement/assets/raw/portrait/s04_amour_de_soi_cinema.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "a3aa9c3468147522204c6d9a567a9160efa750543ff9059e3012bda714383684"
@@ -225,10 +225,19 @@
         "projets/je_maime_tellement/assets/prepared/portrait/s01_tag_doux_anime.png",
         "projets/je_maime_tellement/assets/raw/portrait/s05_tout_resiste_anime.png"
       ],
-      "status": "selected_for_render_per_user_instruction",
+      "status": "used_in_delivered_video",
       "width": 768,
       "height": 1376,
       "sha256": "c5af8b0748d118394218d2d607403fee1cba0a967fe5b0821feb528c4ef292cf"
     }
-  ]
+  ],
+  "technical_checks": {
+    "sources_this_batch": 10,
+    "total_scene_sources": 30,
+    "source_hashes_distinct": true,
+    "contact_sheet_inspected": true,
+    "further_generation_stopped": true,
+    "video_checks_passed": true,
+    "artist_validation": "deferred_to_final_video_review"
+  }
 }
