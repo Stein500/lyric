@@ -1,0 +1,594 @@
+{
+  "source_audio": "Je m'aime tellement - Daïsky.mp3",
+  "sha256": "c420d1a2788c5e2e4bb11b518e7bf779d70603ce36a67d0511f793d028eb328c",
+  "ffmpeg_version": "7.0.2-static",
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "bitrate_bps_estimated": 190521,
+  "bitrate_mode": "BitrateMode.VBR",
+  "container_duration_seconds": 193.2,
+  "decoded_samples_per_channel": 9271679,
+  "decoded_duration_seconds": 193.15997916666666,
+  "decode_warnings": "",
+  "sample_peak_dbfs": -0.943,
+  "source_loudness_lufs": -13.34,
+  "source_true_peak_dbtp": -0.86,
+  "source_loudness_range_lu": 5.2,
+  "measurement_note": "Source intacte, sans filtres de mastering. Ce n'est PAS une passe de mastering validée ni un MP3 masterisé.",
+  "source_tags": {
+    "TIT2": "Je m'aime tellement",
+    "TPE1": "Daïsky ",
+    "TALB": "Succeed ",
+    "TPE2": "Daïsky Prod ",
+    "TCON": "Rap",
+    "TDRC": "2026"
+  },
+  "tempo": {
+    "method": "Autocorrélation du flux spectral positif comprimé et blanchi par bande.",
+    "status": "ESTIMATION : ambiguïté simple/double tempo ; ne pas utiliser pour déplacer les vers.",
+    "windows": [
+      {
+        "window_seconds": [
+          30,
+          175
+        ],
+        "candidates": [
+          {
+            "bpm": 69.97,
+            "relative_score": 0.6933
+          },
+          {
+            "bpm": 93.351,
+            "relative_score": 0.4324
+          },
+          {
+            "bpm": 139.995,
+            "relative_score": 0.4095
+          },
+          {
+            "bpm": 111.944,
+            "relative_score": 0.3636
+          },
+          {
+            "bpm": 80.026,
+            "relative_score": 0.1724
+          }
+        ]
+      },
+      {
+        "window_seconds": [
+          45,
+          87
+        ],
+        "candidates": [
+          {
+            "bpm": 69.962,
+            "relative_score": 0.6152
+          },
+          {
+            "bpm": 93.316,
+            "relative_score": 0.3512
+          },
+          {
+            "bpm": 111.841,
+            "relative_score": 0.3335
+          },
+          {
+            "bpm": 139.98,
+            "relative_score": 0.3195
+          },
+          {
+            "bpm": 80.14,
+            "relative_score": 0.1775
+          }
+        ]
+      },
+      {
+        "window_seconds": [
+          100,
+          162
+        ],
+        "candidates": [
+          {
+            "bpm": 69.974,
+            "relative_score": 0.6651
+          },
+          {
+            "bpm": 93.326,
+            "relative_score": 0.3863
+          },
+          {
+            "bpm": 139.907,
+            "relative_score": 0.3676
+          },
+          {
+            "bpm": 112.025,
+            "relative_score": 0.3159
+          },
+          {
+            "bpm": 79.965,
+            "relative_score": 0.1504
+          }
+        ]
+      }
+    ]
+  },
+  "lrc": {
+    "source": "Je m'aime tellement - Daïsky.lrc",
+    "sha256": "9dddebc5f0ab026031db36daa69beadff3f6f2847f55ce31fc47c306d13273e8",
+    "decoded_with": "cp1252 (compatible Latin-1 pour les octets de cette source)",
+    "production_copy": "projets/je_maime_tellement/paroles_utf8.lrc",
+    "production_copy_changes": [
+      "Encodage UTF-8.",
+      "cSur → cœur (2 occurrences), conformément au texte fourni dans la conversation.",
+      "Aucune modification des timestamps ni de la phrase si belle,si dure,si lui."
+    ],
+    "metadata": {
+      "ar": "Daïsky Pro",
+      "al": "Success",
+      "ti": "Je m'aime tellement",
+      "by": "Techstein beat",
+      "length": "03:13"
+    },
+    "timed_entries": 50,
+    "sung_lines": 49,
+    "images_per_format": 51,
+    "text_advance_seconds": 0.0,
+    "frame_rule": "ceil(timestamp × 30), sans offset : quantification tardive < 1 frame, jamais anticipée.",
+    "stage_directions": [
+      {
+        "source_line": 7,
+        "timestamp": "[00:03.35]",
+        "start_centiseconds": 335,
+        "start_seconds": 3.35,
+        "first_frame_30fps": 101,
+        "source_text": "[INTRO-Chant émouvant,2 voix,tag clair,piano]"
+      }
+    ],
+    "lyrics": [
+      {
+        "source_line": 8,
+        "timestamp": "[00:06.59]",
+        "start_centiseconds": 659,
+        "start_seconds": 6.59,
+        "first_frame_30fps": 198,
+        "source_text": "Wolof TechStein beat wê!(doux)",
+        "slot": 1
+      },
+      {
+        "source_line": 9,
+        "timestamp": "[00:19.24]",
+        "start_centiseconds": 1924,
+        "start_seconds": 19.24,
+        "first_frame_30fps": 578,
+        "source_text": "Wolof TechStein beat wê!(doux)",
+        "slot": 2
+      },
+      {
+        "source_line": 10,
+        "timestamp": "[00:23.39]",
+        "start_centiseconds": 2339,
+        "start_seconds": 23.39,
+        "first_frame_30fps": 702,
+        "source_text": "Wolof TechStein beat wê!(cri du cœur)",
+        "slot": 3
+      },
+      {
+        "source_line": 11,
+        "timestamp": "[00:30.47]",
+        "start_centiseconds": 3047,
+        "start_seconds": 30.47,
+        "first_frame_30fps": 915,
+        "source_text": "Je m'aime tellement,fort,sensationnel,triste",
+        "slot": 4
+      },
+      {
+        "source_line": 12,
+        "timestamp": "[00:32.54]",
+        "start_centiseconds": 3254,
+        "start_seconds": 32.54,
+        "first_frame_30fps": 977,
+        "source_text": "Je m'aime tellement,même quand tout résiste",
+        "slot": 5
+      },
+      {
+        "source_line": 13,
+        "timestamp": "[00:34.19]",
+        "start_centiseconds": 3419,
+        "start_seconds": 34.19,
+        "first_frame_30fps": 1026,
+        "source_text": "Je suis mon propre soleil,même dans la nuit",
+        "slot": 6
+      },
+      {
+        "source_line": 14,
+        "timestamp": "[00:37.16]",
+        "start_centiseconds": 3716,
+        "start_seconds": 37.16,
+        "first_frame_30fps": 1115,
+        "source_text": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+        "slot": 7
+      },
+      {
+        "source_line": 15,
+        "timestamp": "[00:38.20]",
+        "start_centiseconds": 3820,
+        "start_seconds": 38.2,
+        "first_frame_30fps": 1146,
+        "source_text": "Wolof TechStein beat wê!(crié)",
+        "slot": 8
+      },
+      {
+        "source_line": 16,
+        "timestamp": "[00:46.11]",
+        "start_centiseconds": 4611,
+        "start_seconds": 46.11,
+        "first_frame_30fps": 1384,
+        "source_text": "J'ai passé des nuits à me détester",
+        "slot": 9
+      },
+      {
+        "source_line": 17,
+        "timestamp": "[00:48.01]",
+        "start_centiseconds": 4801,
+        "start_seconds": 48.01,
+        "first_frame_30fps": 1441,
+        "source_text": "À voir mon reflet,ne pas l'aimer",
+        "slot": 10
+      },
+      {
+        "source_line": 18,
+        "timestamp": "[00:49.71]",
+        "start_centiseconds": 4971,
+        "start_seconds": 49.71,
+        "first_frame_30fps": 1492,
+        "source_text": "Les insultes dans ma tête,un combat sans fin",
+        "slot": 11
+      },
+      {
+        "source_line": 19,
+        "timestamp": "[00:51.56]",
+        "start_centiseconds": 5156,
+        "start_seconds": 51.56,
+        "first_frame_30fps": 1547,
+        "source_text": "À chercher l'amour des autres,pour me sentir bien",
+        "slot": 12
+      },
+      {
+        "source_line": 20,
+        "timestamp": "[00:52.90]",
+        "start_centiseconds": 5290,
+        "start_seconds": 52.9,
+        "first_frame_30fps": 1587,
+        "source_text": "Mais un matin,j'ai ouvert les yeux",
+        "slot": 13
+      },
+      {
+        "source_line": 21,
+        "timestamp": "[00:54.73]",
+        "start_centiseconds": 5473,
+        "start_seconds": 54.73,
+        "first_frame_30fps": 1642,
+        "source_text": "J'ai vu que j'étais mon propre dieu",
+        "slot": 14
+      },
+      {
+        "source_line": 22,
+        "timestamp": "[00:56.35]",
+        "start_centiseconds": 5635,
+        "start_seconds": 56.35,
+        "first_frame_30fps": 1691,
+        "source_text": "Mes cicatrices sont des victoires",
+        "slot": 15
+      },
+      {
+        "source_line": 23,
+        "timestamp": "[00:58.22]",
+        "start_centiseconds": 5822,
+        "start_seconds": 58.22,
+        "first_frame_30fps": 1747,
+        "source_text": "Mes larmes sont des mémoires qui m'élèvent,qui m'portent",
+        "slot": 16
+      },
+      {
+        "source_line": 24,
+        "timestamp": "[01:01.51]",
+        "start_centiseconds": 6151,
+        "start_seconds": 61.51,
+        "first_frame_30fps": 1846,
+        "source_text": "Doucement,fortement,sensationnellement",
+        "slot": 17
+      },
+      {
+        "source_line": 25,
+        "timestamp": "[01:04.73]",
+        "start_centiseconds": 6473,
+        "start_seconds": 64.73,
+        "first_frame_30fps": 1942,
+        "source_text": "J'apprends à m'aimer,tristement,sûrement",
+        "slot": 18
+      },
+      {
+        "source_line": 26,
+        "timestamp": "[01:07.97]",
+        "start_centiseconds": 6797,
+        "start_seconds": 67.97,
+        "first_frame_30fps": 2040,
+        "source_text": "Je suis tout ce que j'ai de plus précieux",
+        "slot": 19
+      },
+      {
+        "source_line": 27,
+        "timestamp": "[01:11.29]",
+        "start_centiseconds": 7129,
+        "start_seconds": 71.29,
+        "first_frame_30fps": 2139,
+        "source_text": "Je m'aime tellement,peu importe les yeux",
+        "slot": 20
+      },
+      {
+        "source_line": 28,
+        "timestamp": "[01:15.20]",
+        "start_centiseconds": 7520,
+        "start_seconds": 75.2,
+        "first_frame_30fps": 2256,
+        "source_text": "Je m'aime tellement,fort,sensationnel,triste",
+        "slot": 21
+      },
+      {
+        "source_line": 29,
+        "timestamp": "[01:18.58]",
+        "start_centiseconds": 7858,
+        "start_seconds": 78.58,
+        "first_frame_30fps": 2358,
+        "source_text": "Je m'aime tellement,même quand tout résiste",
+        "slot": 22
+      },
+      {
+        "source_line": 30,
+        "timestamp": "[01:22.00]",
+        "start_centiseconds": 8200,
+        "start_seconds": 82.0,
+        "first_frame_30fps": 2460,
+        "source_text": "Je suis mon propre soleil,même dans la nuit",
+        "slot": 23
+      },
+      {
+        "source_line": 31,
+        "timestamp": "[01:24.88]",
+        "start_centiseconds": 8488,
+        "start_seconds": 84.88,
+        "first_frame_30fps": 2547,
+        "source_text": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+        "slot": 24
+      },
+      {
+        "source_line": 32,
+        "timestamp": "[01:26.07]",
+        "start_centiseconds": 8607,
+        "start_seconds": 86.07,
+        "first_frame_30fps": 2583,
+        "source_text": "Wolof TechStein beat wê!(crié)",
+        "slot": 25
+      },
+      {
+        "source_line": 33,
+        "timestamp": "[01:41.21]",
+        "start_centiseconds": 10121,
+        "start_seconds": 101.21,
+        "first_frame_30fps": 3037,
+        "source_text": "J'ai pleuré pour un amour qui n'me voulait pas",
+        "slot": 26
+      },
+      {
+        "source_line": 34,
+        "timestamp": "[01:43.01]",
+        "start_centiseconds": 10301,
+        "start_seconds": 103.01,
+        "first_frame_30fps": 3091,
+        "source_text": "J'ai donné tout mon cœur,on m'a pris tout ça",
+        "slot": 27
+      },
+      {
+        "source_line": 35,
+        "timestamp": "[01:44.51]",
+        "start_centiseconds": 10451,
+        "start_seconds": 104.51,
+        "first_frame_30fps": 3136,
+        "source_text": "Mais l'amour qu'on reçoit n'est qu'un reflet",
+        "slot": 28
+      },
+      {
+        "source_line": 36,
+        "timestamp": "[01:46.20]",
+        "start_centiseconds": 10620,
+        "start_seconds": 106.2,
+        "first_frame_30fps": 3186,
+        "source_text": "De celui qu'on s'offre,de celui qu'on s'promet",
+        "slot": 29
+      },
+      {
+        "source_line": 37,
+        "timestamp": "[01:48.07]",
+        "start_centiseconds": 10807,
+        "start_seconds": 108.07,
+        "first_frame_30fps": 3243,
+        "source_text": "J'ai arrêté d'attendre la main qui n'viendra pas",
+        "slot": 30
+      },
+      {
+        "source_line": 38,
+        "timestamp": "[01:49.85]",
+        "start_centiseconds": 10985,
+        "start_seconds": 109.85,
+        "first_frame_30fps": 3296,
+        "source_text": "J'ai appris à danser toute seule,sur mes pas",
+        "slot": 31
+      },
+      {
+        "source_line": 39,
+        "timestamp": "[01:51.43]",
+        "start_centiseconds": 11143,
+        "start_seconds": 111.43,
+        "first_frame_30fps": 3343,
+        "source_text": "Ma beauté n'a pas besoin de regard",
+        "slot": 32
+      },
+      {
+        "source_line": 40,
+        "timestamp": "[01:53.12]",
+        "start_centiseconds": 11312,
+        "start_seconds": 113.12,
+        "first_frame_30fps": 3394,
+        "source_text": "Je suis mon propre phare dans le brouillard",
+        "slot": 33
+      },
+      {
+        "source_line": 41,
+        "timestamp": "[01:56.55]",
+        "start_centiseconds": 11655,
+        "start_seconds": 116.55,
+        "first_frame_30fps": 3497,
+        "source_text": "Doucement,fortement,sensationnellement",
+        "slot": 34
+      },
+      {
+        "source_line": 42,
+        "timestamp": "[01:59.99]",
+        "start_centiseconds": 11999,
+        "start_seconds": 119.99,
+        "first_frame_30fps": 3600,
+        "source_text": "J'apprends à m'aimer,tristement,sûrement",
+        "slot": 35
+      },
+      {
+        "source_line": 43,
+        "timestamp": "[02:03.29]",
+        "start_centiseconds": 12329,
+        "start_seconds": 123.29,
+        "first_frame_30fps": 3699,
+        "source_text": "Je suis tout ce que j'ai de plus précieux",
+        "slot": 36
+      },
+      {
+        "source_line": 44,
+        "timestamp": "[02:07.21]",
+        "start_centiseconds": 12721,
+        "start_seconds": 127.21,
+        "first_frame_30fps": 3817,
+        "source_text": "Je m'aime tellement,peu importe les yeux",
+        "slot": 37
+      },
+      {
+        "source_line": 45,
+        "timestamp": "[02:10.87]",
+        "start_centiseconds": 13087,
+        "start_seconds": 130.87,
+        "first_frame_30fps": 3927,
+        "source_text": "Les jours où j'ai mal,je me serre dans mes bras",
+        "slot": 38
+      },
+      {
+        "source_line": 46,
+        "timestamp": "[02:14.37]",
+        "start_centiseconds": 13437,
+        "start_seconds": 134.37,
+        "first_frame_30fps": 4032,
+        "source_text": "Je me dis que ça passe,que je suis assez",
+        "slot": 39
+      },
+      {
+        "source_line": 47,
+        "timestamp": "[02:17.80]",
+        "start_centiseconds": 13780,
+        "start_seconds": 137.8,
+        "first_frame_30fps": 4134,
+        "source_text": "Mes failles sont mes forces,mes doutes mes guides",
+        "slot": 40
+      },
+      {
+        "source_line": 48,
+        "timestamp": "[02:26.67]",
+        "start_centiseconds": 14667,
+        "start_seconds": 146.67,
+        "first_frame_30fps": 4401,
+        "source_text": "Je m'aime tellement,je suis mon abri",
+        "slot": 41
+      },
+      {
+        "source_line": 49,
+        "timestamp": "[02:30.61]",
+        "start_centiseconds": 15061,
+        "start_seconds": 150.61,
+        "first_frame_30fps": 4519,
+        "source_text": "Je m'aime tellement,fort,sensationnel,triste",
+        "slot": 42
+      },
+      {
+        "source_line": 50,
+        "timestamp": "[02:34.04]",
+        "start_centiseconds": 15404,
+        "start_seconds": 154.04,
+        "first_frame_30fps": 4622,
+        "source_text": "Je m'aime tellement,même quand tout résiste",
+        "slot": 43
+      },
+      {
+        "source_line": 51,
+        "timestamp": "[02:37.36]",
+        "start_centiseconds": 15736,
+        "start_seconds": 157.36,
+        "first_frame_30fps": 4721,
+        "source_text": "Je suis mon propre soleil,même dans la nuit",
+        "slot": 44
+      },
+      {
+        "source_line": 52,
+        "timestamp": "[02:40.51]",
+        "start_centiseconds": 16051,
+        "start_seconds": 160.51,
+        "first_frame_30fps": 4816,
+        "source_text": "Je m'aime tellement,parce que la vie est si belle,si dure,si lui",
+        "slot": 45
+      },
+      {
+        "source_line": 53,
+        "timestamp": "[02:41.58]",
+        "start_centiseconds": 16158,
+        "start_seconds": 161.58,
+        "first_frame_30fps": 4848,
+        "source_text": "Wolof TechStein beat wê!(scream émotion)",
+        "slot": 46
+      },
+      {
+        "source_line": 54,
+        "timestamp": "[02:48.33]",
+        "start_centiseconds": 16833,
+        "start_seconds": 168.33,
+        "first_frame_30fps": 5050,
+        "source_text": "Wolof TechStein beat wê!(féminin puissant)",
+        "slot": 47
+      },
+      {
+        "source_line": 55,
+        "timestamp": "[02:51.35]",
+        "start_centiseconds": 17135,
+        "start_seconds": 171.35,
+        "first_frame_30fps": 5141,
+        "source_text": "Wolof TechStein beat wê!(ensemble,tam-tam,émotion)",
+        "slot": 48
+      },
+      {
+        "source_line": 56,
+        "timestamp": "[02:55.54]",
+        "start_centiseconds": 17554,
+        "start_seconds": 175.54,
+        "first_frame_30fps": 5267,
+        "source_text": "(Je m'aime tellement...)",
+        "slot": 49
+      }
+    ],
+    "vocal_sync_status": "NON VALIDÉ : cet audit structurel ne vérifie pas les onsets vocaux à ±0,35 s."
+  },
+  "sources_unchanged": true
+}

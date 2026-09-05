@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "reference": "PROMPT_UNIVERSEL_v4.7.md",
+  "date": "2026-09-05",
+  "branch": "arena/01a072d8-lyric",
+  "source_commit": "45d4b52",
+  "source_audio": "Je m'aime tellement - Daïsky.mp3",
+  "source_lrc": "Je m'aime tellement - Daïsky.lrc",
+  "production_lrc": "projets/je_maime_tellement/paroles_utf8.lrc",
+  "priority": "Je m'aime tellement uniquement ; Drague moi 1 attend.",
+  "approved": {
+    "title": "Je m'aime tellement",
+    "artist": "Daïsky Pro",
+    "album": "Success",
+    "label": "Daïsky Prod / TechStein",
+    "visual_chart": "A",
+    "visual_direction": "Lumière dorée, ambiance intime et émouvante, grain cinéma ; amour de soi, pas romance de couple.",
+    "protagonist": "Héroïne fictive créée par IA, cohérente sur tout le clip ; apparence à valider avec l'ancrage.",
+    "scope": [
+      "clip 9:16",
+      "clip 16:9 YouTube",
+      "MP3 masterisé et tagué",
+      "covers",
+      "endcard"
+    ],
+    "render_order": [
+      "9:16",
+      "16:9",
+      "MP3 master + tags",
+      "covers"
+    ],
+    "text_advance_seconds": 0.0,
+    "source_timestamps_authoritative": true,
+    "retiming_requires_user_approval": true,
+    "source_audio_must_remain_unchanged": true,
+    "lyric_rewriting_requires_user_approval": true,
+    "endcard_policy": "Début sur le fondu final, contacts v4.7, puis 5 s de padding audio.",
+    "apad_seconds": 5.0,
+    "fps": 30,
+    "max_images_per_session": 10,
+    "validate_anchor_before_batch_1": true,
+    "validate_each_contact_sheet_before_next_batch": true,
+    "lyrics_source": "Paroles fournies par l’utilisateur dans la conversation, reconfirmées explicitement : ne pas leur substituer le texte intégré au MP3.",
+    "lyrics_confirmed_by_user": true,
+    "ignore_embedded_uslt": true
+  },
+  "exceptions_to_v4_7": [
+    "AUCUNE avance texte pour ce titre : 0,00 s au lieu de 0,03 s, à la demande explicite de l'artiste.",
+    "Artiste Daïsky Pro et album Success, valeurs du LRC expressément choisies par l'utilisateur."
+  ],
+  "pending": {
+    "genre": "Rap dans le MP3 source ; à confirmer pour la publication.",
+    "anchor": "Image charte A générée ; maquette 9:16 à présenter pour validation artistique avant la première salve.",
+    "endcard_start_seconds": null
+  },
+  "verification_limits": [
+    "Décodage et mesures audio effectués. Le texte et les timestamps sont confirmés par l’utilisateur et doivent rester inchangés.",
+    "La correspondance des onsets vocaux à ±0,35 s n’a pas pu être certifiée indépendamment : téléchargement du modèle de transcription indisponible. Ne pas présenter cet audit technique comme une validation à l’écoute."
+  ]
+}

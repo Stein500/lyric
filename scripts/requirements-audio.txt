@@ -1,0 +1,5 @@
+imageio-ffmpeg==0.6.0
+mutagen==1.47.0
+numpy==2.2.6
+scipy==1.15.3
+Pillow==11.3.0
