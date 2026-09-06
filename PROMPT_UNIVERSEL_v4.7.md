@@ -111,7 +111,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 ## 🖼 10. COVER DE PUBLICATION
 
 - Base IA : héros + éclair doré + cœur lumineux (ou équivalent selon titre), zones sommes réservées au texte (haut 9:16 / gauche 16:9).
-- Titre **cursive GreatVibes** si `work/fonts/GreatVibes-Regular.ttf` fourni (CDN polices bloqués → **fournir le .ttf dans le repo**), sinon fallback serif incliné + glow ambre.
+- Titre **cursive GreatVibes** si `assets/fonts/GreatVibes-Regular.ttf` fourni (CDN polices bloqués → **fournir le .ttf dans le repo**), sinon fallback serif incliné + glow ambre.
 - Sous-titre : Daïsky · Daïsky Prod / TechStein · Genre · Année · `@daiskypro` + badge haut-gauche.
 - Sorties : `livrables/cover_<titre>_9x16.jpg` (1080×1920) + `cover_<titre>_16x9.jpg` (1920×1080), JPEG q92.
 
@@ -141,8 +141,21 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 ---
 
 ## 📜 Historique des versions
+- **v4.7 MAJ** — TOUT EN CURSIVE GreatVibes (paroles, intro, endcard, badge, cover) ; police fournie dans le repo ; texte rendu en lignes connectées ; vague = onde douce par ligne. Deux styles produits (droit + cursive).
 - **v4.7** — règle 0,03 s d'avance · ordre de production validé · budget images N+2 · correctifs (`offset=`, TP=-1,8, pas de fade-in vidéo, GreatVibes local) · vérifs par diff pixel · endcard par défaut sur fondu + apad 5 s.
 - **v4.6** — désynchronisme corrigé (SOLUTION A/B/C), vague continue, endcard, tags ID3, badge haut-gauche, 16:9+9:16, covers, -14 LUFS.
 - **v4.3** — première structuration salves/ancrage.
+
+## ✍ 14. CHARTE TEXTE — TOUT EN CURSIVE (v4.7 MAJ)
+
+- **TOUS les textes s'affichent en CURSIVE GreatVibes** (`assets/fonts/GreatVibes-Regular.ttf` — fournie dans le repo) : les **paroles** de la vidéo, l'**intro avec titre**, l'**endcard/contacts**, le **texte du badge**, et le **titre des covers**.
+- Police connectée (scripte) → **rendre ligne par ligne en texte connecté**, PAS lettre par lettre (sinon les lettres se déconnectent). L'effet vague se fait par onde verticale douce de la ligne (ampl. ~5 px, ~0,9 Hz), pas de staggering lettre à lettre.
+- GreatVibes est fine → tailles adaptées : paroles 9:16 ≈ 76 px (max ~980 px), titre intro ≈ 210 px, badge ≈ 34/26 px, endcard 58→200 px. Vérifier l'aperçu (police fine = contour + ombre renforcés pour la lisibilité).
+- Fallback uniquement si GreatVibes absente (cursive nécessaire), sinon valider la dérogation.
+
+## 🎞 15. DEUX STYLES 9:16 PRODUITS (validation artiste)
+1. **`_9x16_v2.mp4`** — texte droit (DejaVu Bold), badge + vague + intro + endcard.
+2. **`_9x16_cursive.mp4`** — TOUT en cursive GreatVibes, badge + vague douce + intro + endcard.
+Les deux suivent SOLUTION A (§0/§9). Garder les deux jusqu'à ce que l'artiste tranche.
 
 **Signature :** « Wolof TechStein beat wê ! » ⚡
