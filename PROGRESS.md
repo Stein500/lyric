@@ -15,11 +15,13 @@
 - Export libmp3lame **320 k, 48 kHz, stéréo, 03:00** → `livrables/Drague_moi_DAISKY.mp3`.
 - Tags ID3v2.4 complets (titre, artiste, label, contacts, emails, paroles USLT, **cover carrée APIC**).
 
-## ✅ Étape 2 — Vidéo 9:16 (terminée)
-- **52 clips** Ken Burns (zoom in/out linéaire adaptatif — zéro image figée), 30 fps, 1080×1920.
-- Concatenation → burn **sous-titres ASS** (vague/avance 0,03 s simplifiées : fades 80/120 ms, contour noir, wrap) + muxage audio master + fondu final 3 s.
-- **Vérifs auto : durée 180,00 s ✓ · blackdetect 0 (hors fondu final) ✓ · freezedetect 0 ✓**
-- Livrable : `livrables/Drague_moi_9x16_v1.mp4` (1080×1920, ~79 Mo).
+## ✅ Étape 2 — Vidéo 9:16 (terminée) — SOLUTION A v4.7
+- Minutage artiste révisé : premier vers 00:05.46, dernier 02:46.33, outro → 03:00.
+- **SOLUTION A (v4.7 §0/§9) : flux continu frame-accurate** — UN SEUL flux de 5400 frames (180 s × 30 fps), t=i/30 exact, vers affectés par temps (pas de concat/clips séparés → 0 dérive).
+- Rendu Python (image2pipe mjpeg → libx264) : Ken Burns continu (zoom in/out + pan sinusoïdal, zéro image figée), sous-titres **féminins non-cursifs** dessinés par trame (fade in 0,12 s / out 0,18 s), **sans badge, sans effet vague**, avance 0,03 s.
+- Muxage audio master + fondu final 3 s (pas de fade-in vidéo).
+- **Vérifs auto : durée 180,00 s ✓ · blackdetect 0 (hors fondu final) ✓ · freezedetect 0 ✓ · timing texte vérifié (apparition à 5,46 s) ✓**
+- Livrable : `livrables/Drague_moi_9x16_final.mp4` (1080×1920, ~62 Mo).
 
 ## 📋 Reste à faire / options
 - [ ] 16:9 YouTube si demandé
