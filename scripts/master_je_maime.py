@@ -39,9 +39,16 @@ def make_cover():
         canvas.text((540, 765), title, font=f, anchor='mt', fill=(255, 218, 151, 255))
     image = Image.alpha_composite(image, glow.filter(ImageFilter.GaussianBlur(8)))
     image = Image.alpha_composite(image, letters)
-    d = ImageDraw.Draw(image)
-    d.text((540, 932), 'Daïsky Pro · Success', font=font(35, True), anchor='mt', fill='#fff4dd')
-    d.text((540, 994), 'Daïsky Prod / TechStein · Rap · 2026', font=font(23), anchor='mt', fill='#c5d9d9')
+    # Tout en cursive, à la demande de l'utilisateur : lignes secondaires en Great Vibes aussi.
+    for y, line, size, color in ((922, 'Daïsky Pro · Success', 64, '#fff4dd'),
+                                 (1000, 'Daïsky Prod / TechStein · Rap · 2026', 44, '#d9e6e4')):
+        while font(size, cursive=True).getlength(line) > 900:
+            size -= 2
+        face = font(size, cursive=True)
+        halo = Image.new('RGBA', image.size)
+        ImageDraw.Draw(halo).text((540, y), line, font=face, anchor='mt', fill=(20, 26, 30, 210))
+        image = Image.alpha_composite(image, halo.filter(ImageFilter.GaussianBlur(5)))
+        ImageDraw.Draw(image).text((540, y), line, font=face, anchor='mt', fill=color)
     image.alpha_composite(make_badge(), (36, 36))
     image.convert('RGB').save(COVER, quality=92, subsampling=0)
     with Image.open(COVER) as check:

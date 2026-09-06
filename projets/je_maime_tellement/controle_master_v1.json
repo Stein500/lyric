@@ -2,7 +2,7 @@
   "source": "Je m'aime tellement - Daïsky.mp3",
   "source_sha256": "c420d1a2788c5e2e4bb11b518e7bf779d70603ce36a67d0511f793d028eb328c",
   "output": "livrables/Je_maime_tellement_master_v1.mp3",
-  "sha256": "a1e4fbac58c5f8d17d7c5936037fe9f536d67ea84a6dd64ac351614acdecba94",
+  "sha256": "692b742ce3f71686983c22353d0d745828575652cfcda1caa88f5091fda128f6",
   "pcm_for_video": "work/out/je_maime_tellement/master_48k_f32.wav",
   "base_filters": "highpass=f=30,lowpass=f=18000",
   "target_lufs": -14,
@@ -74,5 +74,6 @@
     "original_provenance_comments_preserved": true
   },
   "source_audio_unchanged": true,
-  "lyrics_from_user_not_embedded_original_uslt": true
+  "lyrics_from_user_not_embedded_original_uslt": true,
+  "cover_all_cursive": true
 }

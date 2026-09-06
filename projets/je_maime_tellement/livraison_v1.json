@@ -14,9 +14,9 @@
     {
       "kind": "audio",
       "path": "livrables/Je_maime_tellement_master_v1.mp3",
-      "bytes": 8034014,
+      "bytes": 8045477,
       "duration_seconds": 193.15997916666666,
-      "sha256": "a1e4fbac58c5f8d17d7c5936037fe9f536d67ea84a6dd64ac351614acdecba94"
+      "sha256": "692b742ce3f71686983c22353d0d745828575652cfcda1caa88f5091fda128f6"
     }
   ],
   "scene_images": 30,
@@ -28,5 +28,11 @@
     "autres publications"
   ],
   "asset_archive": "projets/je_maime_tellement/archive_visuels.json",
-  "notes": "Les images originales sont conservées sans perte dans le checkpoint Git distant. Le MP4 et le MP3 sont des fichiers autonomes."
+  "notes": "Les images originales sont conservées sans perte dans le checkpoint Git distant. Le MP4 et le MP3 sont des fichiers autonomes.",
+  "cover": {
+    "path": "livrables/cover_Je_maime_tellement_1080.jpg",
+    "bytes": 304436,
+    "sha256": "67c3bbd69c41cf0bda0626e5a032aed88bd546372568d8ef98f1f065a2d8bcdc",
+    "style": "tout en cursive (Great Vibes), demande utilisateur du 2026-09-06"
+  }
 }
