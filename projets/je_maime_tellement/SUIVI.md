@@ -1,4 +1,8 @@
-# Je m'aime tellement — 9:16 + MP3 livrés, validation utilisateur attendue
+# Je m'aime tellement — 9:16 re-rendu avec les timings corrigés, validation utilisateur attendue
+
+## Correction du 2026-09-06
+
+L’utilisateur a fourni des **timings corrigés** en conversation. Le fichier source `Je m'aime tellement - Daïsky.lrc` a été remplacé par cette version (49 vers, timestamps strictement croissants, dernier vers à 176,50 s ; encodage cp1252 conservé pour compatibilité avec la chaîne). L’indication `[INTRO-...]` n’existe plus dans la nouvelle version. La chaîne complète a été relancée : analyse → montage → master → rendu → contrôles, tous passés. Le **MP3 est identique au bit près** (les paroles embarquées ne changent pas) ; seul le **MP4 change** (nouvelle synchro texte/image), nouveau SHA-256 `c443ef03…`.
 
 ## Instruction actuelle de l’utilisateur
 
@@ -28,8 +32,8 @@ Après la troisième salve, **arrêter à 30 fonds**, autoriser les réutilisati
 Les deux MP3/LRC de Je m’aime tellement et Drague moi ont été récupérés depuis le commit utilisateur `45d4b52`, sans changer de branche. Aucun traitement de Drague moi n’a été effectué.
 
 - Source musicale : `Je m'aime tellement - Daïsky.mp3` ; décodage 48 kHz stéréo, **9 271 679 échantillons par canal**.
-- Source LRC conservée intacte. `paroles_utf8.lrc` rétablit l’UTF-8 et les deux `cSur` → `cœur` conformément au texte de la conversation ; aucun autre mot ni timestamp modifié.
-- 49 lignes vocales et une indication INTRO. Les annotations de jeu vocal ne sont pas affichées comme paroles.
+- Source LRC : depuis le 2026-09-06, c’est la **version aux timings corrigés fournie par l’utilisateur** qui fait foi ; `paroles_utf8.lrc` en est la copie UTF-8 (les « cœur » sont déjà corrects dans cette version, aucun mot modifié).
+- 49 lignes vocales, sans indication INTRO. Les annotations de jeu vocal ne sont pas affichées comme paroles.
 - Empreintes et analyse initiale : `analyse_audio.json`.
 
 ## Rendu continu et contrôles

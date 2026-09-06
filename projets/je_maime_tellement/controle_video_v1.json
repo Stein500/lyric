@@ -30,17 +30,17 @@
         {
           "name": "moov",
           "offset": 32,
-          "bytes": 219935
+          "bytes": 219879
         },
         {
           "name": "free",
-          "offset": 219967,
+          "offset": 219911,
           "bytes": 8
         },
         {
           "name": "mdat",
-          "offset": 219975,
-          "bytes": 69583150
+          "offset": 219919,
+          "bytes": 69623276
         }
       ]
     },
@@ -63,86 +63,86 @@
       {
         "frame": 0,
         "time_seconds": 0.0,
-        "whole_frame_mae_0_255": 2.2311111111111113,
-        "text_zone_mae_0_255": 1.8371797839506172
+        "whole_frame_mae_0_255": 2.245776427469136,
+        "text_zone_mae_0_255": 1.853488940329218
       },
       {
         "frame": 197,
         "time_seconds": 6.566666666666666,
-        "whole_frame_mae_0_255": 2.2355962255658435,
-        "text_zone_mae_0_255": 1.754443158436214
+        "whole_frame_mae_0_255": 1.8667206790123456,
+        "text_zone_mae_0_255": 1.5354436728395062
       },
       {
         "frame": 198,
         "time_seconds": 6.6,
-        "whole_frame_mae_0_255": 1.754350083590535,
-        "text_zone_mae_0_255": 1.4395781893004116
+        "whole_frame_mae_0_255": 1.8725966113683128,
+        "text_zone_mae_0_255": 1.5125012860082305
       },
       {
         "frame": 240,
         "time_seconds": 8.0,
-        "whole_frame_mae_0_255": 1.8172807355967078,
-        "text_zone_mae_0_255": 1.785664866255144
+        "whole_frame_mae_0_255": 1.7484926376028807,
+        "text_zone_mae_0_255": 1.474610339506173
       },
       {
         "frame": 270,
         "time_seconds": 9.0,
-        "whole_frame_mae_0_255": 1.8624540252057613,
-        "text_zone_mae_0_255": 1.8292258230452676
+        "whole_frame_mae_0_255": 1.7583540702160494,
+        "text_zone_mae_0_255": 1.4639236111111111
       },
       {
         "frame": 930,
         "time_seconds": 31.0,
-        "whole_frame_mae_0_255": 1.7106023341049383,
-        "text_zone_mae_0_255": 1.7440419238683127
+        "whole_frame_mae_0_255": 1.8030004179526748,
+        "text_zone_mae_0_255": 2.075718878600823
       },
       {
-        "frame": 2138,
-        "time_seconds": 71.26666666666667,
-        "whole_frame_mae_0_255": 2.0036360275205762,
-        "text_zone_mae_0_255": 1.657161779835391
+        "frame": 2140,
+        "time_seconds": 71.33333333333333,
+        "whole_frame_mae_0_255": 2.0158415316358025,
+        "text_zone_mae_0_255": 1.6443312757201647
       },
       {
-        "frame": 2139,
-        "time_seconds": 71.3,
-        "whole_frame_mae_0_255": 1.8156642232510287,
-        "text_zone_mae_0_255": 1.4750437242798353
+        "frame": 2141,
+        "time_seconds": 71.36666666666666,
+        "whole_frame_mae_0_255": 1.8191581468621398,
+        "text_zone_mae_0_255": 1.4837345679012346
       },
       {
-        "frame": 3600,
-        "time_seconds": 120.0,
-        "whole_frame_mae_0_255": 1.803948688271605,
-        "text_zone_mae_0_255": 1.3139364711934156
+        "frame": 3610,
+        "time_seconds": 120.33333333333333,
+        "whole_frame_mae_0_255": 1.8086440650720164,
+        "text_zone_mae_0_255": 1.3207240226337449
       },
       {
-        "frame": 3630,
-        "time_seconds": 121.0,
-        "whole_frame_mae_0_255": 1.8119007201646091,
-        "text_zone_mae_0_255": 1.8108140432098765
+        "frame": 3640,
+        "time_seconds": 121.33333333333333,
+        "whole_frame_mae_0_255": 1.8120566486625513,
+        "text_zone_mae_0_255": 1.8205375514403292
       },
       {
         "frame": 4164,
         "time_seconds": 138.8,
-        "whole_frame_mae_0_255": 1.9522918274176955,
-        "text_zone_mae_0_255": 2.2947852366255144
+        "whole_frame_mae_0_255": 1.9584702932098765,
+        "text_zone_mae_0_255": 2.299243827160494
       },
       {
-        "frame": 4826,
-        "time_seconds": 160.86666666666667,
-        "whole_frame_mae_0_255": 1.7999844071502058,
-        "text_zone_mae_0_255": 2.3228600823045267
+        "frame": 4815,
+        "time_seconds": 160.5,
+        "whole_frame_mae_0_255": 1.7913298932613169,
+        "text_zone_mae_0_255": 2.3076054526748973
       },
       {
-        "frame": 5312,
-        "time_seconds": 177.06666666666666,
-        "whole_frame_mae_0_255": 1.830569380144033,
-        "text_zone_mae_0_255": 1.7905246913580246
+        "frame": 5340,
+        "time_seconds": 178.0,
+        "whole_frame_mae_0_255": 1.8248522698045266,
+        "text_zone_mae_0_255": 1.7839326131687243
       },
       {
         "frame": 5684,
         "time_seconds": 189.46666666666667,
-        "whole_frame_mae_0_255": 1.7289715149176954,
-        "text_zone_mae_0_255": 1.567034465020576
+        "whole_frame_mae_0_255": 1.7480774176954732,
+        "text_zone_mae_0_255": 1.5835532407407407
       },
       {
         "frame": 5685,
@@ -168,7 +168,7 @@
         332,
         94
       ],
-      "mean_difference": 0.46681406476971715,
+      "mean_difference": 0.12276766641032213,
       "max_allowed": 4,
       "source_rgba_identical": true
     },
@@ -177,303 +177,303 @@
         240,
         270
       ],
-      "mean_difference": 13.696125673795862,
+      "mean_difference": 9.42112610850287,
       "minimum": 0.05
     },
     "all_timestamp_boundaries": [
       {
         "slot": 1,
-        "source_cs": 659,
-        "first_frame": 198,
-        "display_delay_seconds": 0.009999999999999787
+        "source_cs": 335,
+        "first_frame": 101,
+        "display_delay_seconds": 0.016666666666666607
       },
       {
         "slot": 2,
-        "source_cs": 1924,
-        "first_frame": 578,
-        "display_delay_seconds": 0.026666666666667282
+        "source_cs": 667,
+        "first_frame": 201,
+        "display_delay_seconds": 0.03000000000000025
       },
       {
         "slot": 3,
-        "source_cs": 2339,
-        "first_frame": 702,
-        "display_delay_seconds": 0.00999999999999801
+        "source_cs": 2159,
+        "first_frame": 648,
+        "display_delay_seconds": 0.010000000000001563
       },
       {
         "slot": 4,
-        "source_cs": 3047,
-        "first_frame": 915,
-        "display_delay_seconds": 0.030000000000001137
+        "source_cs": 2706,
+        "first_frame": 812,
+        "display_delay_seconds": 0.006666666666667709
       },
       {
         "slot": 5,
-        "source_cs": 3254,
-        "first_frame": 977,
-        "display_delay_seconds": 0.026666666666670835
+        "source_cs": 3063,
+        "first_frame": 919,
+        "display_delay_seconds": 0.0033333333333338544
       },
       {
         "slot": 6,
-        "source_cs": 3419,
-        "first_frame": 1026,
-        "display_delay_seconds": 0.010000000000005116
+        "source_cs": 3391,
+        "first_frame": 1018,
+        "display_delay_seconds": 0.023333333333333428
       },
       {
         "slot": 7,
-        "source_cs": 3716,
-        "first_frame": 1115,
-        "display_delay_seconds": 0.006666666666667709
+        "source_cs": 3698,
+        "first_frame": 1110,
+        "display_delay_seconds": 0.020000000000003126
       },
       {
         "slot": 8,
-        "source_cs": 3820,
-        "first_frame": 1146,
-        "display_delay_seconds": 0.0
+        "source_cs": 3798,
+        "first_frame": 1140,
+        "display_delay_seconds": 0.020000000000003126
       },
       {
         "slot": 9,
-        "source_cs": 4611,
-        "first_frame": 1384,
-        "display_delay_seconds": 0.023333333333333428
+        "source_cs": 4620,
+        "first_frame": 1386,
+        "display_delay_seconds": 0.0
       },
       {
         "slot": 10,
-        "source_cs": 4801,
-        "first_frame": 1441,
-        "display_delay_seconds": 0.023333333333333428
-      },
-      {
-        "slot": 11,
-        "source_cs": 4971,
-        "first_frame": 1492,
-        "display_delay_seconds": 0.023333333333333428
-      },
-      {
-        "slot": 12,
-        "source_cs": 5156,
-        "first_frame": 1547,
+        "source_cs": 4796,
+        "first_frame": 1439,
         "display_delay_seconds": 0.006666666666667709
       },
       {
-        "slot": 13,
-        "source_cs": 5290,
-        "first_frame": 1587,
-        "display_delay_seconds": 0.0
-      },
-      {
-        "slot": 14,
-        "source_cs": 5473,
-        "first_frame": 1642,
+        "slot": 11,
+        "source_cs": 4983,
+        "first_frame": 1495,
         "display_delay_seconds": 0.003333333333337407
       },
       {
+        "slot": 12,
+        "source_cs": 5148,
+        "first_frame": 1545,
+        "display_delay_seconds": 0.020000000000003126
+      },
+      {
+        "slot": 13,
+        "source_cs": 5298,
+        "first_frame": 1590,
+        "display_delay_seconds": 0.020000000000003126
+      },
+      {
+        "slot": 14,
+        "source_cs": 5477,
+        "first_frame": 1644,
+        "display_delay_seconds": 0.02999999999999403
+      },
+      {
         "slot": 15,
-        "source_cs": 5635,
-        "first_frame": 1691,
-        "display_delay_seconds": 0.01666666666666572
+        "source_cs": 5626,
+        "first_frame": 1688,
+        "display_delay_seconds": 0.006666666666667709
       },
       {
         "slot": 16,
-        "source_cs": 5822,
-        "first_frame": 1747,
-        "display_delay_seconds": 0.013333333333335418
+        "source_cs": 5798,
+        "first_frame": 1740,
+        "display_delay_seconds": 0.020000000000003126
       },
       {
         "slot": 17,
-        "source_cs": 6151,
-        "first_frame": 1846,
-        "display_delay_seconds": 0.023333333333333428
+        "source_cs": 6140,
+        "first_frame": 1842,
+        "display_delay_seconds": 0.0
       },
       {
         "slot": 18,
-        "source_cs": 6473,
-        "first_frame": 1942,
-        "display_delay_seconds": 0.0033333333333303017
+        "source_cs": 6462,
+        "first_frame": 1939,
+        "display_delay_seconds": 0.013333333333335418
       },
       {
         "slot": 19,
-        "source_cs": 6797,
+        "source_cs": 6799,
         "first_frame": 2040,
-        "display_delay_seconds": 0.030000000000001137
+        "display_delay_seconds": 0.010000000000005116
       },
       {
         "slot": 20,
-        "source_cs": 7129,
-        "first_frame": 2139,
-        "display_delay_seconds": 0.009999999999990905
+        "source_cs": 7134,
+        "first_frame": 2141,
+        "display_delay_seconds": 0.026666666666656624
       },
       {
         "slot": 21,
-        "source_cs": 7520,
-        "first_frame": 2256,
-        "display_delay_seconds": 0.0
-      },
-      {
-        "slot": 22,
-        "source_cs": 7858,
-        "first_frame": 2358,
-        "display_delay_seconds": 0.01999999999999602
-      },
-      {
-        "slot": 23,
-        "source_cs": 8200,
-        "first_frame": 2460,
-        "display_delay_seconds": 0.0
-      },
-      {
-        "slot": 24,
-        "source_cs": 8488,
-        "first_frame": 2547,
-        "display_delay_seconds": 0.020000000000010232
-      },
-      {
-        "slot": 25,
-        "source_cs": 8607,
-        "first_frame": 2583,
+        "source_cs": 7497,
+        "first_frame": 2250,
         "display_delay_seconds": 0.030000000000001137
       },
       {
-        "slot": 26,
-        "source_cs": 10121,
-        "first_frame": 3037,
-        "display_delay_seconds": 0.023333333333340533
-      },
-      {
-        "slot": 27,
-        "source_cs": 10301,
-        "first_frame": 3091,
-        "display_delay_seconds": 0.023333333333326323
-      },
-      {
-        "slot": 28,
-        "source_cs": 10451,
-        "first_frame": 3136,
-        "display_delay_seconds": 0.023333333333326323
-      },
-      {
-        "slot": 29,
-        "source_cs": 10620,
-        "first_frame": 3186,
+        "slot": 22,
+        "source_cs": 7860,
+        "first_frame": 2358,
         "display_delay_seconds": 0.0
       },
       {
+        "slot": 23,
+        "source_cs": 8193,
+        "first_frame": 2458,
+        "display_delay_seconds": 0.0033333333333303017
+      },
+      {
+        "slot": 24,
+        "source_cs": 8503,
+        "first_frame": 2551,
+        "display_delay_seconds": 0.0033333333333303017
+      },
+      {
+        "slot": 25,
+        "source_cs": 8604,
+        "first_frame": 2582,
+        "display_delay_seconds": 0.026666666666656624
+      },
+      {
+        "slot": 26,
+        "source_cs": 10117,
+        "first_frame": 3036,
+        "display_delay_seconds": 0.030000000000001137
+      },
+      {
+        "slot": 27,
+        "source_cs": 10277,
+        "first_frame": 3084,
+        "display_delay_seconds": 0.030000000000001137
+      },
+      {
+        "slot": 28,
+        "source_cs": 10460,
+        "first_frame": 3138,
+        "display_delay_seconds": 0.0
+      },
+      {
+        "slot": 29,
+        "source_cs": 10554,
+        "first_frame": 3167,
+        "display_delay_seconds": 0.026666666666656624
+      },
+      {
         "slot": 30,
-        "source_cs": 10807,
-        "first_frame": 3243,
+        "source_cs": 10817,
+        "first_frame": 3246,
         "display_delay_seconds": 0.030000000000001137
       },
       {
         "slot": 31,
-        "source_cs": 10985,
-        "first_frame": 3296,
+        "source_cs": 10995,
+        "first_frame": 3299,
         "display_delay_seconds": 0.01666666666666572
       },
       {
         "slot": 32,
-        "source_cs": 11143,
-        "first_frame": 3343,
-        "display_delay_seconds": 0.0033333333333303017
+        "source_cs": 11154,
+        "first_frame": 3347,
+        "display_delay_seconds": 0.026666666666656624
       },
       {
         "slot": 33,
-        "source_cs": 11312,
-        "first_frame": 3394,
-        "display_delay_seconds": 0.013333333333335418
-      },
-      {
-        "slot": 34,
-        "source_cs": 11655,
-        "first_frame": 3497,
+        "source_cs": 11315,
+        "first_frame": 3395,
         "display_delay_seconds": 0.01666666666666572
       },
       {
+        "slot": 34,
+        "source_cs": 11647,
+        "first_frame": 3495,
+        "display_delay_seconds": 0.030000000000001137
+      },
+      {
         "slot": 35,
-        "source_cs": 11999,
-        "first_frame": 3600,
-        "display_delay_seconds": 0.010000000000005116
+        "source_cs": 12032,
+        "first_frame": 3610,
+        "display_delay_seconds": 0.013333333333335418
       },
       {
         "slot": 36,
-        "source_cs": 12329,
-        "first_frame": 3699,
-        "display_delay_seconds": 0.009999999999990905
+        "source_cs": 12311,
+        "first_frame": 3694,
+        "display_delay_seconds": 0.023333333333340533
       },
       {
         "slot": 37,
-        "source_cs": 12721,
-        "first_frame": 3817,
-        "display_delay_seconds": 0.023333333333340533
+        "source_cs": 12748,
+        "first_frame": 3825,
+        "display_delay_seconds": 0.01999999999999602
       },
       {
         "slot": 38,
-        "source_cs": 13087,
-        "first_frame": 3927,
-        "display_delay_seconds": 0.030000000000001137
-      },
-      {
-        "slot": 39,
-        "source_cs": 13437,
-        "first_frame": 4032,
-        "display_delay_seconds": 0.030000000000001137
-      },
-      {
-        "slot": 40,
-        "source_cs": 13780,
-        "first_frame": 4134,
-        "display_delay_seconds": 0.0
-      },
-      {
-        "slot": 41,
-        "source_cs": 14667,
-        "first_frame": 4401,
-        "display_delay_seconds": 0.030000000000001137
-      },
-      {
-        "slot": 42,
-        "source_cs": 15061,
-        "first_frame": 4519,
-        "display_delay_seconds": 0.023333333333312112
-      },
-      {
-        "slot": 43,
-        "source_cs": 15404,
-        "first_frame": 4622,
-        "display_delay_seconds": 0.026666666666670835
-      },
-      {
-        "slot": 44,
-        "source_cs": 15736,
-        "first_frame": 4721,
-        "display_delay_seconds": 0.006666666666660603
-      },
-      {
-        "slot": 45,
-        "source_cs": 16051,
-        "first_frame": 4816,
-        "display_delay_seconds": 0.023333333333340533
-      },
-      {
-        "slot": 46,
-        "source_cs": 16158,
-        "first_frame": 4848,
-        "display_delay_seconds": 0.01999999999998181
-      },
-      {
-        "slot": 47,
-        "source_cs": 16833,
-        "first_frame": 5050,
-        "display_delay_seconds": 0.0033333333333303017
-      },
-      {
-        "slot": 48,
-        "source_cs": 17135,
-        "first_frame": 5141,
+        "source_cs": 13095,
+        "first_frame": 3929,
         "display_delay_seconds": 0.01666666666667993
       },
       {
-        "slot": 49,
-        "source_cs": 17554,
-        "first_frame": 5267,
+        "slot": 39,
+        "source_cs": 13438,
+        "first_frame": 4032,
+        "display_delay_seconds": 0.020000000000010232
+      },
+      {
+        "slot": 40,
+        "source_cs": 13778,
+        "first_frame": 4134,
+        "display_delay_seconds": 0.020000000000010232
+      },
+      {
+        "slot": 41,
+        "source_cs": 14678,
+        "first_frame": 4404,
+        "display_delay_seconds": 0.020000000000010232
+      },
+      {
+        "slot": 42,
+        "source_cs": 15051,
+        "first_frame": 4516,
+        "display_delay_seconds": 0.023333333333340533
+      },
+      {
+        "slot": 43,
+        "source_cs": 15403,
+        "first_frame": 4621,
+        "display_delay_seconds": 0.0033333333333303017
+      },
+      {
+        "slot": 44,
+        "source_cs": 15749,
+        "first_frame": 4725,
+        "display_delay_seconds": 0.009999999999990905
+      },
+      {
+        "slot": 45,
+        "source_cs": 16014,
+        "first_frame": 4805,
         "display_delay_seconds": 0.026666666666670835
+      },
+      {
+        "slot": 46,
+        "source_cs": 16148,
+        "first_frame": 4845,
+        "display_delay_seconds": 0.020000000000010232
+      },
+      {
+        "slot": 47,
+        "source_cs": 16875,
+        "first_frame": 5063,
+        "display_delay_seconds": 0.01666666666667993
+      },
+      {
+        "slot": 48,
+        "source_cs": 17217,
+        "first_frame": 5166,
+        "display_delay_seconds": 0.030000000000001137
+      },
+      {
+        "slot": 49,
+        "source_cs": 17650,
+        "first_frame": 5295,
+        "display_delay_seconds": 0.0
       }
     ],
     "source_master_audio_alignment": [
@@ -519,7 +519,7 @@
     },
     "source_files_unchanged": true
   },
-  "video_sha256": "664602d6ae7176acd56faa929e8de0a4565830e07ea96a339d9f00af230294c1",
+  "video_sha256": "c443ef032a58e75a321f69efc02082e7bafea72c2a065613448c8971872f4b34",
   "mp3_sha256": "a1e4fbac58c5f8d17d7c5936037fe9f536d67ea84a6dd64ac351614acdecba94",
   "limits": "Respect des timestamps utilisateur et comparaison des frames encodées vérifiés ; validation artistique et correspondance perceptive chant/texte laissées au contrôle utilisateur demandé."
 }

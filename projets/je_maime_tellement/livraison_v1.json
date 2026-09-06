@@ -1,14 +1,15 @@
 {
-  "version": 1,
+  "version": 2,
   "status": "awaiting_user_download_and_validation",
   "technical_checks_passed": true,
+  "retimed_from_user_lrc": "2026-09-06 : timings corrigés fournis par l’utilisateur, LRC source remplacé et chaîne complète relancée.",
   "outputs": [
     {
       "kind": "video",
       "path": "livrables/Je_maime_tellement_9x16_v1.mp4",
-      "bytes": 69803125,
+      "bytes": 69843195,
       "duration_seconds": 198.16666666666666,
-      "sha256": "664602d6ae7176acd56faa929e8de0a4565830e07ea96a339d9f00af230294c1"
+      "sha256": "c443ef032a58e75a321f69efc02082e7bafea72c2a065613448c8971872f4b34"
     },
     {
       "kind": "audio",

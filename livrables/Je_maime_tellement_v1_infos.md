@@ -1,6 +1,8 @@
-# Je m'aime tellement — livraison v1
+# Je m'aime tellement — livraison v1 (timings corrigés)
 
 **Statut : prêt pour ton téléchargement et ta validation.**
+
+**Mise à jour 2026-09-06 :** les timings corrigés que tu as fournis remplacent l'ancien LRC. Le clip 9:16 a été entièrement re-rendu sur cette nouvelle timeline (49 vers, mêmes fonds, mêmes réglages). Le MP3 est inchangé au bit près : la correction ne concerne que la synchronisation du texte à l'image.
 
 | Fichier | Caractéristiques |
 |---|---|
@@ -19,8 +21,8 @@
 
 - 5 945 frames, dimensions et durée conformes, lecture progressive `faststart`.
 - Aucune séquence noire hors fondu final ; aucun événement `freezedetect` au seuil −70 dB / 1 s.
-- Comparaison de 16 frames encodées avec leur reconstruction, notamment après 2:00 : erreur moyenne maximale **2,24 / 255** (tolérance 6).
-- Badge : différence moyenne **0,47 / 255** sur deux instants du même fond (tolérance 4).
+- Comparaison de 16 frames encodées avec leur reconstruction, notamment après 2:00 : erreur moyenne maximale **2,25 / 255** (tolérance 6).
+- Badge : différence moyenne **0,12 / 255** sur deux instants du même fond (tolérance 4).
 - Source/master : aucun décalage détecté par corrélation sur les trois extraits testés.
 - **MP3 : −13,93 LUFS / −1,70 dBTP**, durée décodée inchangée à l’échantillon près ; tags, paroles françaises et cover carrée intégrée.
 - Audio AAC du clip : **−14,00 LUFS / −1,04 dBTP**, sans clipping.
@@ -31,5 +33,5 @@ Le mastering est effectué en deux passes. Pour ce morceau, loudnorm a utilisé 
 
 ## Empreintes SHA-256
 
-- MP4 : `664602d6ae7176acd56faa929e8de0a4565830e07ea96a339d9f00af230294c1`
-- MP3 : `a1e4fbac58c5f8d17d7c5936037fe9f536d67ea84a6dd64ac351614acdecba94`
+- MP4 : `c443ef032a58e75a321f69efc02082e7bafea72c2a065613448c8971872f4b34`
+- MP3 : `a1e4fbac58c5f8d17d7c5936037fe9f536d67ea84a6dd64ac351614acdecba94` (identique à la livraison précédente)
