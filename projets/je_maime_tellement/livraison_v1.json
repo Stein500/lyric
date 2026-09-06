@@ -34,5 +34,12 @@
     "bytes": 304436,
     "sha256": "67c3bbd69c41cf0bda0626e5a032aed88bd546372568d8ef98f1f065a2d8bcdc",
     "style": "tout en cursive (Great Vibes), demande utilisateur du 2026-09-06"
+  },
+  "cover_tiktok": {
+    "path": "livrables/cover_tiktok_Je_maime_tellement_9x16.jpg",
+    "bytes": 474550,
+    "sha256": "dcffafada7838d78dd565028f5cc54529d41b0191f59545bf5d0c326e6de8ffd",
+    "size": "1080x1920",
+    "style": "tout en cursive, fond S21 réutilisé, zone sûre TikTok"
   }
 }

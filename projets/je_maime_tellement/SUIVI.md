@@ -2,6 +2,8 @@
 
 ## Correction du 2026-09-06
 
+**Cover TikTok 9:16** : `livrables/cover_tiktok_Je_maime_tellement_9x16.jpg` (1080×1920), tout en cursive, générée par `scripts/cover_tiktok_je_maime.py` depuis le fond S21 restauré — aucune nouvelle génération d'image. Texte centré dans la zone sûre TikTok.
+
 **Cover tout en cursive** : à la demande de l’utilisateur, les lignes « Daïsky Pro · Success » et « Daïsky Prod / TechStein · Rap · 2026 » sont désormais en Great Vibes comme le titre, avec halo sombre pour la lisibilité. Cover régénérée et ré-embarquée dans le MP3 (l’audio du MP3 est inchangé ; seul le tag APIC change, nouveau SHA `692b742c…`).
 
 L’utilisateur a fourni des **timings corrigés** en conversation. Le fichier source `Je m'aime tellement - Daïsky.lrc` a été remplacé par cette version (49 vers, timestamps strictement croissants, dernier vers à 176,50 s ; encodage cp1252 conservé pour compatibilité avec la chaîne). L’indication `[INTRO-...]` n’existe plus dans la nouvelle version. La chaîne complète a été relancée : analyse → montage → master → rendu → contrôles, tous passés. Le **MP3 est identique au bit près** (les paroles embarquées ne changent pas) ; seul le **MP4 change** (nouvelle synchro texte/image), nouveau SHA-256 `c443ef03…`.
