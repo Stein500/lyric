@@ -1,4 +1,4 @@
-# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.7 (PROPRE, CONSOLIDÉE)
+# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.7.1 (PROPRE, CONSOLIDÉE + §14 cursive + §15 deux styles)
 
 **Artiste :** Daïsky · **Projets de référence :** *Le Survivant* (FR/Wolof, 2:30, ~128 BPM)
 **Utilisation :** Référence OBLIGATOIRE pour tous les clips lyrics Daïsky Prod / TechStein. Toute déviation doit être validée.
@@ -141,8 +141,21 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 ---
 
 ## 📜 Historique des versions
+- **v4.7.1** — §14 charte tout-cursive GreatVibes + §15 deux styles 9:16 (v2 droit / cursive) produits en parallèle.
 - **v4.7** — règle 0,03 s d'avance · ordre de production validé · budget images N+2 · correctifs (`offset=`, TP=-1,8, pas de fade-in vidéo, GreatVibes local) · vérifs par diff pixel · endcard par défaut sur fondu + apad 5 s.
 - **v4.6** — désynchronisme corrigé (SOLUTION A/B/C), vague continue, endcard, tags ID3, badge haut-gauche, 16:9+9:16, covers, -14 LUFS.
 - **v4.3** — première structuration salves/ancrage.
+
+## ✍ 14. CHARTE TEXTE — TOUT EN CURSIVE (v4.7 MAJ)
+
+- **TOUS les textes s'affichent en CURSIVE GreatVibes** (`assets/fonts/GreatVibes-Regular.ttf` — fournie dans le repo) : les **paroles** de la vidéo, l'**intro avec titre**, l'**endcard/contacts**, le **texte du badge**, et le **titre des covers**.
+- Police connectée (scripte) → **rendre ligne par ligne en texte connecté**, PAS lettre par lettre (sinon les lettres se déconnectent). L'effet vague se fait par onde verticale douce de la ligne (ampl. ~5 px, ~0,9 Hz), pas de staggering lettre à lettre.
+- GreatVibes est fine → tailles adaptées : paroles 9:16 ≈ 76 px (max ~980 px), titre intro ≈ 210 px, badge ≈ 34/26 px, endcard 58→200 px. Vérifier l'aperçu (police fine = contour + ombre renforcés pour la lisibilité).
+- Fallback uniquement si GreatVibes absente (cursive nécessaire), sinon valider la dérogation.
+
+## 🎞 15. DEUX STYLES 9:16 PRODUITS (validation artiste)
+1. **`_9x16_v2.mp4`** — texte droit (DejaVu Bold), badge + vague + intro + endcard.
+2. **`_9x16_cursive.mp4`** — TOUT en cursive GreatVibes, badge + vague douce + intro + endcard.
+Les deux suivent SOLUTION A (§0/§9). Garder les deux jusqu'à ce que l'artiste tranche.
 
 **Signature :** « Wolof TechStein beat wê ! » ⚡
