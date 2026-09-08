@@ -1,4 +1,4 @@
-# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.8.1 (badge droit + anti-coupure + prompts précis + refrains dédupliqués)
+# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.8.2 (texte des covers généré par l'IA, badge toujours en post)
 
 **Artiste :** Daïsky · **Projets de référence :** *Le Survivant* (FR/Wolof, 2:30, ~128 BPM)
 **Utilisation :** Référence OBLIGATOIRE pour tous les clips lyrics Daïsky Prod / TechStein. Toute déviation doit être validée.
@@ -80,6 +80,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **B. Dark Trap / Lightning** (titres sombres) : éclairs cyan/ambre, reflets mouillés, noir animé seinen — même suffixe technique.
 - **Hybride autorisé** : B pour couplets/refrains + A pour le pont calme (ex. pont piano *Le Survivant* slots 35-38 → glow ambre au lieu de cyan).
 - **Interdit** : tout texte/logo généré par l'IA dans l'image source ; wrap manuel.
+- **EXCEPTION v4.8.2 (validée artiste)** : le **titre des covers** (et le titre d'intro si désiré) est **généré PAR l'IA, intégré au rendu** — typographie dorée cursive élégante fondue dans la scène. Vérifier l'orthographe du titre rendu (régénérer si illisible). **Le badge ⚡ reste TOUJOURS posé en post** (identité de marque, jamais généré par l'IA).
 
 ## 🖼 7. IMAGES — RÈGLES ABSOLUES
 
@@ -113,7 +114,8 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 
 ## 🖼 10. COVER DE PUBLICATION
 
-- Base IA : héros + éclair doré + cœur lumineux (ou équivalent selon titre), zones sommes réservées au texte (haut 9:16 / gauche 16:9).
+- Base IA générée **AVEC le titre intégré** (v4.8.2) : le prompt demande le titre exact — ex. `Seul(e) dans ma tête` — en grande cursive dorée lumineuse (zone sombre : haut 9:16 / gauche 16:9), et `Daïsky` en plus petit dessous. **Pas de texte composé manuellement sur la cover** (jugé moche) — seul le badge est posé en post.
+- Orthographe du titre rendu par l'IA = point de validation obligatoire (régénérer la base si lettres déformées).
 - **Hook visuel** : composition simple et symétrique, UN seul point focal lumineux, compréhensible en 2 s et lisible en vignette (règles du §16).
 - Titre **cursive GreatVibes** si `work/fonts/GreatVibes-Regular.ttf` fourni (CDN polices bloqués → **fournir le .ttf dans le repo**), sinon fallback serif incliné + glow ambre.
 - Sous-titre : Daïsky · Daïsky Prod / TechStein · Genre · Année · `@daiskypro` + badge haut-gauche.
@@ -173,6 +175,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **Contrôle post-génération** : ratio exact (9:16 ou 16:9), pas de texte/lettre/chiffre détecté, héros conforme → planche contact AVANT la salve suivante.
 
 ## 📜 Historique des versions
+- **v4.8.2** — §6/§10 : titre des covers généré PAR l'IA (intégré au rendu, plus beau que le texte composé), badge toujours en post, orthographe validée.
 - **v4.8.1** — RÈGLE 1 modifiée : image par ligne UNIQUE, refrains/tags répétés dédupliqués ; l'IA calcule `N = uniques + 2` et l'utilisateur choisit nombre + ambiance.
 - **v4.8** — §16 prompts d'image à 7 blocs (cadrage, bloc héros, plan, suffixe canonique, zone texte, interdits) · règles anti-hors-cadre (sujet complet, mains, visage) · hook covers/intro/endcard · arc lumineux narratif · contrôle post-génération.
 - **v4.7.2** — badge/endcard en DejaVu Sans Bold (jamais script), cursive = paroles uniquement (option artiste), règle anti-coupure (bbox ≥ 6 px, jamais de troncature), §12.9.
