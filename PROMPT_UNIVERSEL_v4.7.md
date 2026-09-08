@@ -1,4 +1,4 @@
-# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.7.1 (PROPRE, CONSOLIDÉE + §14 cursive + §15 deux styles)
+# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.7.2 (badge droit obligatoire + anti-coupure)
 
 **Artiste :** Daïsky · **Projets de référence :** *Le Survivant* (FR/Wolof, 2:30, ~128 BPM)
 **Utilisation :** Référence OBLIGATOIRE pour tous les clips lyrics Daïsky Prod / TechStein. Toute déviation doit être validée.
@@ -72,7 +72,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 
 ## 🏷 5. RÈGLE D'OR — BADGE / CTA
 
-- Badge « ⚡ DAÏSKY PROD » (+ @daiskypro) = **100 % STATIQUE**, **EN HAUT-GAUCHE** (36,36 px), même taille/position/police/couleurs sur toutes les frames, posé en POST en **dernier** (jamais recouvert), pastille semi-transparente + contour cyan + éclair polygonal (pas d'emoji). Identique sur les covers.
+- Badge « ⚡ DAÏSKY PROD » (+ @daiskypro) = **100 % STATIQUE**, **EN HAUT-GAUCHE** (36,36 px), même taille/position/police/couleurs sur toutes les frames, posé en POST en **dernier** (jamais recouvert), carte OPAQUE + liseré cyan + éclair polygonal (pas d'emoji). **POLICE DROITE, GRASSE ET LISIBLE (DejaVu Sans Bold, fournie dans `assets/fonts/`) — JAMAIS d'écriture script/cursive sur le badge** (validé artiste : le script sur le badge est illisible). Identique sur les covers.
 
 ## 🎨 6. CHARTE GRAPHIQUE
 
@@ -133,6 +133,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 6. Écran de fin + contacts + apad.
 7. MP3 : LUFS/TP/durée + tous les tags présents.
 8. Cover lisible (dimensions + zone titre + badge).
+9. **Texte non coupé** : audit bbox des sprites à la construction (marge glyphs ≥ 6 px des bords) + sur frames échantillonnées, aucun pixel de texte tronqué ni chevauché.
 
 ## 📦 13. TÉLÉCHARGEMENTS (REPRENABLES)
 
@@ -141,21 +142,23 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 ---
 
 ## 📜 Historique des versions
+- **v4.7.2** — badge/endcard en DejaVu Sans Bold (jamais script), cursive = paroles uniquement (option artiste), règle anti-coupure (bbox ≥ 6 px, jamais de troncature), §12.9.
 - **v4.7.1** — §14 charte tout-cursive GreatVibes + §15 deux styles 9:16 (v2 droit / cursive) produits en parallèle.
 - **v4.7** — règle 0,03 s d'avance · ordre de production validé · budget images N+2 · correctifs (`offset=`, TP=-1,8, pas de fade-in vidéo, GreatVibes local) · vérifs par diff pixel · endcard par défaut sur fondu + apad 5 s.
 - **v4.6** — désynchronisme corrigé (SOLUTION A/B/C), vague continue, endcard, tags ID3, badge haut-gauche, 16:9+9:16, covers, -14 LUFS.
 - **v4.3** — première structuration salves/ancrage.
 
-## ✍ 14. CHARTE TEXTE — TOUT EN CURSIVE (v4.7 MAJ)
+## ✍ 14. CHARTE TEXTE — CURSIVE = PAROLES UNIQUEMENT (v4.7.2)
 
-- **TOUS les textes s'affichent en CURSIVE GreatVibes** (`assets/fonts/GreatVibes-Regular.ttf` — fournie dans le repo) : les **paroles** de la vidéo, l'**intro avec titre**, l'**endcard/contacts**, le **texte du badge**, et le **titre des covers**.
-- Police connectée (scripte) → **rendre ligne par ligne en texte connecté**, PAS lettre par lettre (sinon les lettres se déconnectent). L'effet vague se fait par onde verticale douce de la ligne (ampl. ~5 px, ~0,9 Hz), pas de staggering lettre à lettre.
-- GreatVibes est fine → tailles adaptées : paroles 9:16 ≈ 76 px (max ~980 px), titre intro ≈ 210 px, badge ≈ 34/26 px, endcard 58→200 px. Vérifier l'aperçu (police fine = contour + ombre renforcés pour la lisibilité).
+- **Règle d'or** : la cursive GreatVibes est réservée aux **PAROLES** (et au titre du morceau affiché en intro/endcard/covers) — et seulement **si l'artiste le désire**. **TOUT le reste est en police DROITE, GRASSE et LISIBLE (DejaVu Sans Bold, fournie dans le repo)** : badge, endcard/contacts, téléphones, emails, @daiskypro. **JAMAIS de script sur ces éléments** (validé artiste).
+- Police connectée (scripte) → **rendre ligne par ligne en texte connecté**, PAS lettre par lettre (sinon les lettres se déconnectent). L'effet vague se fait par onde verticale douce de la ligne (ampl. ~4 px, ~0,9 Hz), pas de staggering lettre à lettre.
+- **RÈGLE ANTI-COUPURE (obligatoire — validée artiste)** : aucun glyphe ne doit être tronqué ni toucher le bord de son sprite. Marges de sécurité **vérifiées par bbox à la construction** (≥ 6 px sur les 4 côtés), padding large (côtés ≥ 0,6× taille, haut ~0,7×, bas ~0,8×, où taille = corps de police). Si une ligne dépasse : **réduction de la taille puis retour à la ligne, jamais de troncature** ; une ligne supplémentaire est autorisée plutôt que couper. Vérif « pire cas » (ligne la plus longue) à l'aperçu AVANT rendu + audit automatique de tous les sprites + vérif pixel sur les frames (§12.9). Les paroles doivent être **intégralement lisibles** du début à la fin de leur fenêtre.
+- GreatVibes est fine → tailles adaptées : paroles 9:16 ≈ 76 px (max ~940 px), titre intro ≈ 120 px, endcard 110 px. Contour léger (2 px) + ombre renforcée pour la lisibilité ; ne pas sur-épaissir le contour (cela hache les lettres fines).
 - Fallback uniquement si GreatVibes absente (cursive nécessaire), sinon valider la dérogation.
 
 ## 🎞 15. DEUX STYLES 9:16 PRODUITS (validation artiste)
 1. **`_9x16_v2.mp4`** — texte droit (DejaVu Bold), badge + vague + intro + endcard.
 2. **`_9x16_cursive.mp4`** — TOUT en cursive GreatVibes, badge + vague douce + intro + endcard.
-Les deux suivent SOLUTION A (§0/§9). Garder les deux jusqu'à ce que l'artiste tranche.
+Les deux suivent SOLUTION A (§0/§9). **Dans les deux styles, badge + endcard/contacts restent en police droite lisible (DejaVu Sans Bold)** — seule la police des paroles change. Garder les deux jusqu'à ce que l'artiste tranche.
 
 **Signature :** « Wolof TechStein beat wê ! » ⚡
