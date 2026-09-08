@@ -1,4 +1,4 @@
-# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.8 (badge droit + anti-coupure + prompts d'image précis)
+# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.8.1 (badge droit + anti-coupure + prompts précis + refrains dédupliqués)
 
 **Artiste :** Daïsky · **Projets de référence :** *Le Survivant* (FR/Wolof, 2:30, ~128 BPM)
 **Utilisation :** Référence OBLIGATOIRE pour tous les clips lyrics Daïsky Prod / TechStein. Toute déviation doit être validée.
@@ -83,13 +83,15 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 
 ## 🖼 7. IMAGES — RÈGLES ABSOLUES
 
-> **RÈGLE 1 — UN VERS = UNE IMAGE (à lui, uniquement la sienne).**
-> Chaque vers a **sa propre image, générée pour illustrer ce vers précis** — et ce, **dans CHAQUE format** : le vers n°12 possède une image portrait 9:16 **et** une image paysage 16:9, distinctes. ❌ Interdit : réutiliser l'image d'un vers pour un autre vers, partager une image entre plusieurs vers, dédoublonner.
+> **RÈGLE 1 — UNE IMAGE PAR LIGNE UNIQUE (réutilisation des refrains validée par l'artiste).**
+> Chaque **ligne unique** a sa propre image, et ce **dans CHAQUE format** (portrait 9:16 ET paysage 16:9 distincts). **Les répétitions réutilisent la même image** : refrain repris (les lignes du refrain 2 réutilisent les images du refrain 1), tags/outro répétés à l'identique (ex. 2× « Wolof TechStein beat wê... » = 1 seule image).
+> **L'IA calcule le décompte** : `N = lignes uniques + 2 (intro + endcard)` **par format**, présente le calcul, puis **c'est L'UTILISATEUR qui choisit le nombre final ET l'ambiance** (charte A/B/hybride) avant toute génération.
+> ❌ Interdit : réutiliser une image pour une ligne au texte DIFFÉRENT, partager une image entre formats, dédoublonner une ligne unique.
 
 > **RÈGLE 2 — GÉNÉRATION PAR SALVES DE 10 MAX PAR SESSION.**
 > On ne génère **JAMAIS tout d'un coup** : salves de **10 images maximum par session** (limite IA dure). Exemple : 49 images = **5 salves** (10+10+10+10+9). Après **chaque salve** : planche contact → **validation artistique AVANT de lancer la suivante**. Une salve refusée = seuls les slots concernés sont régénérés.
 
-- **Budget par format = `N vers + 2`** (fond intro musicale + fond endcard). Ex. *Le Survivant* : 47+2 = 49 par format → 98 images + 1 base cover = 99.
+- **Budget par format = `N lignes uniques + 2`** (fond intro musicale + fond endcard), refrains/tags répétés dédupliqués. Ex. *Seul(e) dans ma tête* : 50 lignes − 8 (refrain 2 = refrain 1) − 1 (tag outro ×2) = **41 uniques + 2 = 43 par format** au lieu de 52 (économie de 9 images/format). Le décompte exact est présenté à l'utilisateur AVANT génération ; l'utilisateur tranche nombre + ambiance.
 - **Nommage** : `assets/raw/{portrait|landscape}/s{slot:02d}_<motclé>.png` · `s00` = intro musicale · `s01…s{N}` = vers 1→N (slot = index vers + 1) · `s{N+1}` = fond endcard.
 - **Ancrage** : 1 image de référence par charte (B et/ou A) validée **avant** la salve 1.
 - **Arc narratif** : chaque image illustre son vers (métaphores visuelles), même héros d'un bout à l'autre, décrescendo lumineux sur l'outro, fond endcard sombre et épuré.
@@ -171,6 +173,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **Contrôle post-génération** : ratio exact (9:16 ou 16:9), pas de texte/lettre/chiffre détecté, héros conforme → planche contact AVANT la salve suivante.
 
 ## 📜 Historique des versions
+- **v4.8.1** — RÈGLE 1 modifiée : image par ligne UNIQUE, refrains/tags répétés dédupliqués ; l'IA calcule `N = uniques + 2` et l'utilisateur choisit nombre + ambiance.
 - **v4.8** — §16 prompts d'image à 7 blocs (cadrage, bloc héros, plan, suffixe canonique, zone texte, interdits) · règles anti-hors-cadre (sujet complet, mains, visage) · hook covers/intro/endcard · arc lumineux narratif · contrôle post-génération.
 - **v4.7.2** — badge/endcard en DejaVu Sans Bold (jamais script), cursive = paroles uniquement (option artiste), règle anti-coupure (bbox ≥ 6 px, jamais de troncature), §12.9.
 - **v4.7.1** — §14 charte tout-cursive GreatVibes + §15 deux styles 9:16 (v2 droit / cursive) produits en parallèle.
