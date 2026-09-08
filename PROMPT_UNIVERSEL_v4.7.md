@@ -1,4 +1,4 @@
-# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.7.2 (badge droit obligatoire + anti-coupure)
+# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.8 (badge droit + anti-coupure + prompts d'image précis)
 
 **Artiste :** Daïsky · **Projets de référence :** *Le Survivant* (FR/Wolof, 2:30, ~128 BPM)
 **Utilisation :** Référence OBLIGATOIRE pour tous les clips lyrics Daïsky Prod / TechStein. Toute déviation doit être validée.
@@ -94,6 +94,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **Ancrage** : 1 image de référence par charte (B et/ou A) validée **avant** la salve 1.
 - **Arc narratif** : chaque image illustre son vers (métaphores visuelles), même héros d'un bout à l'autre, décrescendo lumineux sur l'outro, fond endcard sombre et épuré.
 - Pendant les salves d'un format, on peut continuer le reste du pipeline (rendu de l'autre format, MP3…) — mais **jamais deux salves d'images dans la même session**.
+- **Chaque prompt d'image suit la structure à 7 blocs du §16** (cadrage exact, bloc héros identique, plan, suffixe canonique, zone texte, interdits) — **jamais de prompt improvisé** ; les 10 prompts d'une salve sont écrits en entier AVANT de lancer.
 
 ## 💫 8. EFFET VAGUE + KEN BURNS
 
@@ -111,6 +112,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 ## 🖼 10. COVER DE PUBLICATION
 
 - Base IA : héros + éclair doré + cœur lumineux (ou équivalent selon titre), zones sommes réservées au texte (haut 9:16 / gauche 16:9).
+- **Hook visuel** : composition simple et symétrique, UN seul point focal lumineux, compréhensible en 2 s et lisible en vignette (règles du §16).
 - Titre **cursive GreatVibes** si `work/fonts/GreatVibes-Regular.ttf` fourni (CDN polices bloqués → **fournir le .ttf dans le repo**), sinon fallback serif incliné + glow ambre.
 - Sous-titre : Daïsky · Daïsky Prod / TechStein · Genre · Année · `@daiskypro` + badge haut-gauche.
 - Sorties : `livrables/cover_<titre>_9x16.jpg` (1080×1920) + `cover_<titre>_16x9.jpg` (1920×1080), JPEG q92.
@@ -141,7 +143,35 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 
 ---
 
+## 🎯 16. PROMPTS D'IMAGE — PRÉCISION MAXIMALE (v4.8)
+
+**Structure OBLIGATOIRE d'un prompt d'image (7 blocs, dans l'ordre) :**
+1. **Cadrage** : `vertical 9:16 portrait composition, tall framing` OU `horizontal 16:9 landscape composition, wide framing` — toujours en tête.
+2. **Sujet + action + émotion du vers** (une phrase visuelle).
+3. **BLOC HÉROS** (recopié à l'identique, jamais modifié) : `the same mature androgynous hero, mid-thirties, mixed masculine and feminine features, short dark hair, open dark silk shirt, thin silver chain`.
+4. **Plan** (rythme visuel) : `wide shot` (refrains/show, paysages) · `medium shot` (narration) · `close-up` (émotion, pont) — alterner les plans au sein de chaque salve.
+5. **Suffixe technique canonique** (recopié tel quel) :
+   - **Charte B** : `deep blue-black night, warm amber backlight, subtle electric cyan rim light, wet asphalt reflections, atmospheric haze, crushed blacks with cyan highlights, moody anime-seinen cinematic grading, 35mm film grain`
+   - **Charte A** : `warm golden sunset backlight, subtle electric cyan rim light, amber accents, soft atmospheric haze, light bokeh, 35mm film grain, crushed blacks with cyan highlights, moody romantic cinematic grading`
+6. **Zone réservée au texte** (toujours) :
+   - Intro / endcard / covers 9:16 : `large dark negative space across the top quarter of the frame for title text`
+   - Covers 16:9 : `large dark negative space across the left third of the frame for title text`
+   - Vers (paroles en bas d'écran) : `darker, less busy lower third with soft bokeh for lyric text readability`
+7. **Interdictions** (toujours) : `no text, no letters, no numbers, no logos, no watermark, no subtitles, no borders`.
+
+**Règles ANTI-HORS-CADRE (validées artiste) :**
+- Sujet TOUJOURS complet : `full figure, head and hands completely in frame, no cropped face, no out-of-frame elements`.
+- Mains visibles → ajouter `all fingers visible`. Jamais de main coupée, jamais de visage coupé au bord.
+- Pas de perspective extrême qui déforme le héros ; pas de premier plan qui masque le visage.
+
+**Règles qualité / beauté :**
+- **Intro, covers, endcard = « hook »** : composition simple et symétrique, UN SEUL point focal lumineux, forte lisibilité en vignette (compréhensible en 2 s).
+- **Arc lumineux narratif** : intro = pénombre calme → couplets = cyan modéré → refrains = lumière max → pont = ambre pur → outro = décrescendo → endcard = sombre épuré. Chaque prompt précise l'intensité (`dim`, `moderate`, `full energy`…).
+- Cohérence : générer toute une salve dans une même session, blocs 3/5 strictement identiques.
+- **Contrôle post-génération** : ratio exact (9:16 ou 16:9), pas de texte/lettre/chiffre détecté, héros conforme → planche contact AVANT la salve suivante.
+
 ## 📜 Historique des versions
+- **v4.8** — §16 prompts d'image à 7 blocs (cadrage, bloc héros, plan, suffixe canonique, zone texte, interdits) · règles anti-hors-cadre (sujet complet, mains, visage) · hook covers/intro/endcard · arc lumineux narratif · contrôle post-génération.
 - **v4.7.2** — badge/endcard en DejaVu Sans Bold (jamais script), cursive = paroles uniquement (option artiste), règle anti-coupure (bbox ≥ 6 px, jamais de troncature), §12.9.
 - **v4.7.1** — §14 charte tout-cursive GreatVibes + §15 deux styles 9:16 (v2 droit / cursive) produits en parallèle.
 - **v4.7** — règle 0,03 s d'avance · ordre de production validé · budget images N+2 · correctifs (`offset=`, TP=-1,8, pas de fade-in vidéo, GreatVibes local) · vérifs par diff pixel · endcard par défaut sur fondu + apad 5 s.
