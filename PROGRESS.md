@@ -36,14 +36,14 @@
 - [x] Cadre : PROMPT v4.9, .gitignore, PROGRESS.md, assets/fonts, setup_env, venv OK
 - [ ] Maquette timing → onsets validés par écoute (fichier `work/timeline_yafoy.json`)
 - [ ] Image(s) d'ancrage + maquette badge DSKY✓ / CTA / vers → validation
-- [ ] Salves 9:16 (34 imgs → 4 salves) → planches contact + validations
+- [x] Salves 9:16 charte S : 35 images (s00-s34, s17/s28 regen) + planches validées
 - [ ] Salves 16:9 (34 imgs) → planches contact + validations
-- [ ] Pré-calcul fonds → rendu 9:16 (SOLUTION A) → vérifs §12
+- [x] Rendu 9:16 cursive (SOLUTION A, CTA 0-2s, partage mi-vidéo repositionné, badge DSKY✓, paroles 4 couches) → vérifs §12 OK (250 s, 0 black, 0 freeze)
 - [ ] Rendu 16:9
-- [ ] MP3 master + tags ID3 (si besoin)
-- [ ] Covers (2 formats, titre IA + badge DSKY✓ post)
-- [ ] **Teaser §17** : 2 images retravaillées IA + CTA 0–2 s + annonce sortie
-- [ ] CTA like/sub/comment 0→2 s sur lyrics (§5.2) + icône partage mi-vidéo (§5.3)
+- [x] MP3 master -14.0 LUFS / -2.3 dBTP 320k + 17 frames ID3 + APIC
+- [x] Covers 9:16 + carré 1080 (titre IA orthographe validée + badge DSKY✓ post)
+- [x] **Teaser §17** : vidéo autonome 20 s (2 images retravaillées IA, hook refrain final, CTA 0-2 s, annonce sortie) — 0 black / 0 freeze
+- [x] CTA 0→2 s + icône partage à 123.2–126.2 s (pulse, y=1180)
 - [ ] Vérifs finales §12 + livrables dans `livrables/`
 - [ ] Commit final + commandes curl `-C -` reprenables avec hash
 

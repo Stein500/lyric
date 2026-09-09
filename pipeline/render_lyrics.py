@@ -172,7 +172,7 @@ for i in range(nfr):
         sw,shh = int(SHARE.width*sc), int(SHARE.height*sc)
         sh2 = SHARE.resize((sw,shh), Image.BILINEAR)
         if a<1.0: sh2.putalpha(sh2.getchannel('A').point(lambda p:int(p*a)))
-        sx,sy=(W-sw)//2, 620
+        sx,sy=(W-sw)//2, 1180
         frame.paste(sh2,(sx,sy),sh2)
         d=ImageDraw.Draw(frame,'RGBA')
         pt='PARTAGE'; pw=d.textbbox((0,0),pt,font=pf)[2]
