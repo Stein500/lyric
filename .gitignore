@@ -1,0 +1,16 @@
+# venv & python
+.venv/
+__pycache__/
+*.pyc
+
+# artefacts transitoires (jamais committés) — scripts pipeline versionnés dans pipeline/
+work/
+out/
+build/
+dist/
+target/
+
+# os
+.DS_Store
+
+# livrables/ n'est JAMAIS ignoré (doit être versionné)

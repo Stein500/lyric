@@ -42,7 +42,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **Téléphones :** `229 01 61 16 24 08 · 229 01 49 11 49 51`
 - **Emails :** `daiskypro@proton.me` (principal) · `daiskyproduction@gmail.com` · `techsteinsecureway@gmail.com`
 - **Handles :** `@daiskypro`
-- Écran de fin : Titre du morceau · Label **Daïsky Prod / TechStein** · Artiste **Daïsky** · Genre · **Année** · « ⚡ DAÏSKY PROD » + @daiskypro + « Wolof TechStein beat wê ! »
+- Écran de fin : Titre du morceau · Label **Daïsky Prod / TechStein** · Artiste **Daïsky** · Genre · **Année** · **DSKY✓** (badge §5.1) + @daiskypro + « Wolof TechStein beat wê ! »
 - **Endcard par défaut :** démarre sur le fondu final de la chanson + `apad` 5 s (ex. *Le Survivant* : endcard 2:29.5 → total **2:35.00**).
 
 ## 📦 3. TAGS / MÉTADONNÉES ID3 (obligatoires sur TOUS les MP3)
@@ -95,7 +95,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **B. Dark Trap / Lightning** (titres sombres) : éclairs cyan/ambre, reflets mouillés, noir animé seinen — même suffixe technique.
 - **Hybride autorisé** : B pour couplets/refrains + A pour le pont calme (ex. pont piano *Le Survivant* slots 35-38 → glow ambre au lieu de cyan).
 - **Interdit** : tout texte/logo généré par l'IA dans l'image source ; wrap manuel.
-- **EXCEPTION v4.8.2 (validée artiste)** : le **titre des covers** (et le titre d'intro si désiré) est **généré PAR l'IA, intégré au rendu** — typographie dorée cursive élégante fondue dans la scène. Vérifier l'orthographe du titre rendu (régénérer si illisible). **Le badge ⚡ reste TOUJOURS posé en post** (identité de marque, jamais généré par l'IA).
+- **EXCEPTION v4.8.2 (validée artiste)** : le **titre des covers** (et le titre d'intro si désiré) est **généré PAR l'IA, intégré au rendu** — typographie dorée cursive élégante fondue dans la scène. Vérifier l'orthographe du titre rendu (régénérer si illisible). **Le badge DSKY✓ reste TOUJOURS posé en post** (identité de marque, jamais généré par l'IA).
 
 ## 🖼 7. IMAGES — RÈGLES ABSOLUES
 
