@@ -162,6 +162,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 
 ## 📣 17. TEASER OBLIGATOIRE (v4.9 — après chaque vidéo lyrics)
 
+- **⚠️ LE TEASER EST UNE VIDÉO À PART ENTIÈRE** : un livrable AUTONOME, distinct du clip lyrics, avec son propre fichier, son propre montage, sa propre publication (avant la sortie du clip). Ce n'est PAS un extrait coupé du clip — il est produit avec le même soin (SOLUTION A, vérifs §12, badge, mastering audio de l'extrait).
 - **Quand** : systématiquement APRÈS la finalisation du clip lyrics (les deux formats rendus et vérifiés).
 - **Matière première : SEULEMENT 2 images générées** (choisies parmi les plus fortes du clip — typiquement l'image d'intro/hook et une image de refrain pleine énergie). **L'IA retravaille ces 2 images** (recadrage dramatique, glow renforcé, contraste boosté, éventuel edit IA image-à-image) pour créer une tension visuelle qui pousse le viewer à **cliquer, s'abonner, liker et commenter**.
 - **Contenu** : extrait audio court du morceau (le hook le plus fort, ~15-25 s), les 2 images en Ken Burns dynamique + transitions énergiques, texte d'annonce (droit, DejaVu Sans Bold) : sortie imminente du **prochain clip + lyrics** (« Bientôt… », titre, « Abonne-toi pour ne rien rater »).
