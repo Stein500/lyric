@@ -208,6 +208,8 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **Contrôle post-génération** : ratio exact (9:16 ou 16:9), pas de texte/lettre/chiffre détecté, héros conforme → planche contact AVANT la salve suivante.
 
 ## 📜 Historique des versions
+- **v4.9.2** — §14 règle LISIBILITÉ MAXIMALE des paroles : 4 couches (bandeau adaptatif selon luminance locale du fond, ombre, contour, remplissage blanc chaud/doré pâle), tailles minimales (cursive ≥ 80 px en 9:16), contraste ≥ 4,5:1 vérifié sur frames — indispensable sur fonds clairs (charte S).
+- **v4.9.1** — nouvelle charte S Printemps ensoleillé (§6/§16).
 - **v4.9** — Badge devient **DSKY✓** haut-CENTRE discret+visible (§5.1) · icônes CTA like/abonne/commente visibles les **2 premières secondes** sur lyrics ET teaser (§5.2) · **icône partage IA** en pulse au **milieu de la vidéo** ~3 s (§5.3) · **teaser obligatoire** après chaque clip, à partir de 2 images retravaillées par l'IA, annonçant la sortie du prochain clip+lyrics (§17) · vérifs §12 étendues (CTA, partage) · nouvelle **charte P Pluie/Fraîcheur** (§6/§16, validée sur *Yafoy*) · les longs solos instrumentaux (> 20 s) reçoivent **2-3 images dédiées** (ex. guitare hero épique) au lieu de réutiliser le refrain.
 - **v4.8.2** — §6/§10 : titre des covers généré PAR l'IA (intégré au rendu, plus beau que le texte composé), badge toujours en post, orthographe validée.
 - **v4.8.1** — RÈGLE 1 modifiée : image par ligne UNIQUE, refrains/tags répétés dédupliqués ; l'IA calcule `N = uniques + 2` et l'utilisateur choisit nombre + ambiance.
@@ -219,6 +221,14 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **v4.3** — première structuration salves/ancrage.
 
 ## ✍ 14. CHARTE TEXTE — CURSIVE = PAROLES UNIQUEMENT (v4.7.2)
+
+- **RÈGLE LISIBILITÉ MAXIMALE (v4.9.2 — validée artiste)** : les sous-titres/paroles doivent être **lisibles sur N'IMPORTE QUEL fond**, y compris les fonds clairs (charte S printemps : ciel lumineux, prairies claires). Dispositif OBLIGATOIRE à 4 couches, rendu dans cet ordre :
+  1. **Bandeau de contraste adaptatif** : rectangle arrondi semi-opaque sombre (noir bleuté ~(8,14,20), opacité 55-70 %) derrière chaque ligne, padding généreux (≥ 0,35× la taille de police), coins arrondis — SEULEMENT si le fond local est clair ou chargé ; sur fond déjà sombre, un dégradé/scrim doux suffit. La luminance locale de la zone texte est **mesurée sur le fond** (moyenne des pixels sous la bbox) pour choisir bandeau fort / scrim léger automatiquement.
+  2. **Ombre portée** : décalage 3-4 px, noir opacité ~75 %.
+  3. **Contour (stroke)** : 2-3 px sombre autour des glyphes (2 px pour cursive fine type GreatVibes pour ne pas hacher les lettres ; 3 px pour police droite).
+  4. **Remplissage** : **blanc chaud (245,248,250)** par défaut ; option **doré pâle (255,235,190)** pour les refrains/mots-clés — JAMAIS de couleur sombre ni saturée sur les paroles, jamais de cyan/ambre pur (réservés aux accents/CTA).
+- **Tailles minimales 9:16 (1080×1920)** : paroles droites ≥ 58 px, cursive GreatVibes ≥ **80 px** (elle paraît plus petite à corps égal) ; largeur max 920 px → si dépassement : réduction douce PUIS retour à la ligne (2 lignes max), jamais de troncature. Titre intro ≥ 120 px, endcard ≥ 100 px.
+- **Vérification systématique** : sur frames échantillonnées (début/milieu/fin + pire cas ligne la plus longue sur le fond le plus clair), contraste texte/fond ≥ 4,5:1 (WCAG AA) ; sinon renforcer le bandeau et re-rendre.
 
 - **Règle d'or** : la cursive GreatVibes est réservée aux **PAROLES** (et au titre du morceau affiché en intro/endcard/covers) — et seulement **si l'artiste le désire**. **TOUT le reste est en police DROITE, GRASSE et LISIBLE (DejaVu Sans Bold, fournie dans le repo)** : badge, endcard/contacts, téléphones, emails, @daiskypro. **JAMAIS de script sur ces éléments** (validé artiste).
 - Police connectée (scripte) → **rendre ligne par ligne en texte connecté**, PAS lettre par lettre (sinon les lettres se déconnectent). L'effet vague se fait par onde verticale douce de la ligne (ampl. ~4 px, ~0,9 Hz), pas de staggering lettre à lettre.
