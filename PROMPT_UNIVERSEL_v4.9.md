@@ -93,6 +93,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 
 - **A. Mixte (amour)** : coucher de soleil chaud, halo doré, bokeh, grain 35 mm — suffixe : `warm golden sunset backlight, subtle electric cyan rim light, amber accents, soft atmospheric haze, light bokeh, 35mm film grain, crushed blacks with cyan highlights, moody romantic cinematic grading, no text, no watermark, no logo`.
 - **B. Dark Trap / Lightning** (titres sombres) : éclairs cyan/ambre, reflets mouillés, noir animé seinen — même suffixe technique.
+- **P. Pluie / Fraîcheur (v4.9 — validée artiste sur *Yafoy t'es encore là*)** : nuit de pluie rafraîchissante, palette bleu-teal froide + touches ambre chaudes, rideaux de pluie, reflets sur asphalte mouillé, bokeh de gouttes — suffixe canonique : `cool rain-soaked night, fresh blue-teal palette, falling rain streaks, wet asphalt mirror reflections, raindrop bokeh, atmospheric mist, electric cyan rim light, subtle warm amber accents, crushed blacks with cyan highlights, moody anime-seinen cinematic grading, 35mm film grain`.
 - **Hybride autorisé** : B pour couplets/refrains + A pour le pont calme (ex. pont piano *Le Survivant* slots 35-38 → glow ambre au lieu de cyan).
 - **Interdit** : tout texte/logo généré par l'IA dans l'image source ; wrap manuel.
 - **EXCEPTION v4.8.2 (validée artiste)** : le **titre des covers** (et le titre d'intro si désiré) est **généré PAR l'IA, intégré au rendu** — typographie dorée cursive élégante fondue dans la scène. Vérifier l'orthographe du titre rendu (régénérer si illisible). **Le badge DSKY✓ reste TOUJOURS posé en post** (identité de marque, jamais généré par l'IA).
@@ -107,7 +108,8 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 > **RÈGLE 2 — GÉNÉRATION PAR SALVES DE 10 MAX PAR SESSION.**
 > On ne génère **JAMAIS tout d'un coup** : salves de **10 images maximum par session** (limite IA dure). Exemple : 49 images = **5 salves** (10+10+10+10+9). Après **chaque salve** : planche contact → **validation artistique AVANT de lancer la suivante**. Une salve refusée = seuls les slots concernés sont régénérés.
 
-- **Budget par format = `N lignes uniques + 2`** (fond intro musicale + fond endcard), refrains/tags répétés dédupliqués. Ex. *Seul(e) dans ma tête* : 50 lignes − 8 (refrain 2 = refrain 1) − 1 (tag outro ×2) = **41 uniques + 2 = 43 par format** au lieu de 52 (économie de 9 images/format). Le décompte exact est présenté à l'utilisateur AVANT génération ; l'utilisateur tranche nombre + ambiance.
+- **RÈGLE SOLO (v4.9)** : tout passage instrumental **> 20 s** (solo guitare, break) reçoit **2-3 images dédiées** épiques (ex. « guitare hero » sous la pluie), enchaînées en Ken Burns — on ne réutilise PAS les images du refrain pour un long solo. Ces images s'ajoutent au budget (`+2 ou +3`).
+- **Budget par format = `N lignes uniques + 2`** (fond intro musicale + fond endcard) **+ images solo éventuelles**, refrains/tags répétés dédupliqués. Ex. *Seul(e) dans ma tête* : 50 lignes − 8 (refrain 2 = refrain 1) − 1 (tag outro ×2) = **41 uniques + 2 = 43 par format** au lieu de 52 (économie de 9 images/format). Le décompte exact est présenté à l'utilisateur AVANT génération ; l'utilisateur tranche nombre + ambiance.
 - **Nommage** : `assets/raw/{portrait|landscape}/s{slot:02d}_<motclé>.png` · `s00` = intro musicale · `s01…s{N}` = vers 1→N (slot = index vers + 1) · `s{N+1}` = fond endcard.
 - **Ancrage** : 1 image de référence par charte (B et/ou A) validée **avant** la salve 1.
 - **Arc narratif** : chaque image illustre son vers (métaphores visuelles), même héros d'un bout à l'autre, décrescendo lumineux sur l'outro, fond endcard sombre et épuré.
@@ -184,6 +186,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 5. **Suffixe technique canonique** (recopié tel quel) :
    - **Charte B** : `deep blue-black night, warm amber backlight, subtle electric cyan rim light, wet asphalt reflections, atmospheric haze, crushed blacks with cyan highlights, moody anime-seinen cinematic grading, 35mm film grain`
    - **Charte A** : `warm golden sunset backlight, subtle electric cyan rim light, amber accents, soft atmospheric haze, light bokeh, 35mm film grain, crushed blacks with cyan highlights, moody romantic cinematic grading`
+   - **Charte P (pluie/fraîcheur)** : `cool rain-soaked night, fresh blue-teal palette, falling rain streaks, wet asphalt mirror reflections, raindrop bokeh, atmospheric mist, electric cyan rim light, subtle warm amber accents, crushed blacks with cyan highlights, moody anime-seinen cinematic grading, 35mm film grain`
 6. **Zone réservée au texte** (toujours) :
    - Intro / endcard / covers 9:16 : `large dark negative space across the top quarter of the frame for title text`
    - Covers 16:9 : `large dark negative space across the left third of the frame for title text`
@@ -202,7 +205,7 @@ Exemple *Le Survivant* : 47 vers + 2 = **49 images 9:16 + 49 images 16:9 + 1 bas
 - **Contrôle post-génération** : ratio exact (9:16 ou 16:9), pas de texte/lettre/chiffre détecté, héros conforme → planche contact AVANT la salve suivante.
 
 ## 📜 Historique des versions
-- **v4.9** — Badge devient **DSKY✓** haut-CENTRE discret+visible (§5.1) · icônes CTA like/abonne/commente visibles les **2 premières secondes** sur lyrics ET teaser (§5.2) · **icône partage IA** en pulse au **milieu de la vidéo** ~3 s (§5.3) · **teaser obligatoire** après chaque clip, à partir de 2 images retravaillées par l'IA, annonçant la sortie du prochain clip+lyrics (§17) · vérifs §12 étendues (CTA, partage).
+- **v4.9** — Badge devient **DSKY✓** haut-CENTRE discret+visible (§5.1) · icônes CTA like/abonne/commente visibles les **2 premières secondes** sur lyrics ET teaser (§5.2) · **icône partage IA** en pulse au **milieu de la vidéo** ~3 s (§5.3) · **teaser obligatoire** après chaque clip, à partir de 2 images retravaillées par l'IA, annonçant la sortie du prochain clip+lyrics (§17) · vérifs §12 étendues (CTA, partage) · nouvelle **charte P Pluie/Fraîcheur** (§6/§16, validée sur *Yafoy*) · les longs solos instrumentaux (> 20 s) reçoivent **2-3 images dédiées** (ex. guitare hero épique) au lieu de réutiliser le refrain.
 - **v4.8.2** — §6/§10 : titre des covers généré PAR l'IA (intégré au rendu, plus beau que le texte composé), badge toujours en post, orthographe validée.
 - **v4.8.1** — RÈGLE 1 modifiée : image par ligne UNIQUE, refrains/tags répétés dédupliqués ; l'IA calcule `N = uniques + 2` et l'utilisateur choisit nombre + ambiance.
 - **v4.8** — §16 prompts d'image à 7 blocs (cadrage, bloc héros, plan, suffixe canonique, zone texte, interdits) · règles anti-hors-cadre (sujet complet, mains, visage) · hook covers/intro/endcard · arc lumineux narratif · contrôle post-génération.

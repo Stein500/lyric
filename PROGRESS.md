@@ -25,11 +25,11 @@
 | True Peak | ~ -2,5 dBTP |
 | Conclusion | utiliser le MP3 fourni comme master (pas de remaster agressif) |
 
-### Décisions à valider (bloquant avant salves)
-- [ ] Charte : **A** (chaud) · **B** (dark/éclair) · hybride (B couplets/refrains + A pont)
-- [ ] Budget images final (proposition : **32 lignes uniques + 2 = 34/format**, refrains/tags dédupliqués)
-- [ ] Police paroles : droite (DejaVu Bold) — cursive GreatVibes seulement si le `.ttf` fourni
-- [ ] Couverture : titre généré par l'IA (exception v4.9 §6) — OUI par défaut
+### Décisions VALIDÉES par l'artiste (2026-09-09)
+- [x] **Charte : P — Pluie / Fraîcheur** (nouvelle charte v4.9 §6 : nuit de pluie, palette bleu-teal fraîche, reflets mouillés, bokeh de gouttes, accents ambre)
+- [x] **Budget images : 34 + 3 solo = 37 en 9:16** (32 lignes uniques + intro + endcard + 2-3 images dédiées au solo guitare 2:48→3:30)
+- [x] **Police paroles : ÉCRITURE SCRIPT ÉLÉGANTE** (GreatVibes, à fournir dans `work/fonts/` ou `assets/fonts/`) — badge/endcard/contacts restent DejaVu Bold (§14)
+- [x] **Périmètre actuel : 9:16 cursive + covers + MP3 taggé + prompt à jour.** 16:9 et teaser = plus tard.
 - [ ] Icône partage IA `assets/icons/share_daisky.png` — à générer + valider
 
 ### Pipeline *Yafoy*
