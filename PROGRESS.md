@@ -29,3 +29,8 @@
 - [ ] Salves images portrait 9:16 puis paysage 16:9
 - [ ] Rendu 9:16 v2 + cursive → vérifs §12 → 16:9 → MP3 master + tags → covers
 - [ ] Teaser autonome (§17)
+
+## 🚨 Dérogation validée artiste (2026-09-10) — BLOC HÉROS GUERRIER
+Le bloc héros universel (andogyne clair) est **remplacé pour « Guerrier »** par un héros **noir africain** (demande artiste : le personnage doit cadrer avec « On est africains ») :
+`the same Black African hero, mid-thirties, proud strong features, deep brown skin, short natural black hair, mixed masculine and feminine grace, open dark silk shirt, thin silver chain`
+→ régénération des ancres B/A puis des salves P1/P2 avec ce bloc. Les scènes de foule/reines/ancêtres montrent des visages africains.
