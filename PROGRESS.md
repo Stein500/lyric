@@ -35,3 +35,8 @@ Le bloc héros universel (andogyne clair) est **remplacé pour « Guerrier »** 
 `the same Black African hero, mid-thirties, proud strong features, deep brown skin, short natural black hair, mixed masculine and feminine grace, open dark silk shirt, thin silver chain`
 → régénération des ancres B/A puis des salves P1/P2 avec ce bloc. Les scènes de foule/reines/ancêtres montrent des visages africains.
 - **Extension dérogation (2026-09-10, demande artiste)** : pas UN seul héros mais **plusieurs sexes, ethnies, pays — en commençant par les Béninois(e)s**. Bloc communauté (copié tel quel quand la scène est collective) : `surrounded by a diverse African community of multiple genders and ethnicities, Beninese people first with Fon and Ewe features and subtle traditional Benin cloth patterns, joined by proud West and Central African faces from Mali, Senegal and Congo, men and women joyful and dignified`. Répartition : close-ups alternés femme béninoise / homme béninois / femme âgée / jeune homme ; scènes collectives pour africains, debout, reines, ancêtres, bamako.
+
+## 📌 État salves portrait (2026-09-10)
+- P1 v2 ✅ (10/10, drapeau béninois sur s01/s02/s04)
+- P2 v2 : s10→s16 ✅ (7/10) · **restent s17_bamako, s18_accepte_toi, s19_traverse + s20_endcard** (limite 10 images/turn atteinte) → prochaine session
+- puis salves paysage 16:9 L1/L2/L3 (21 images) → rendu.
