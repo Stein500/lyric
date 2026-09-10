@@ -18,8 +18,13 @@
 - option **recommandée** : +1 image tag « crié » milieu (1:08) +1 image tag final (2:26) = **21 images/format** (3 moments de tag distincts : intro ×4 / cri 1:08 / cri 2:26)
 - ×2 formats (9:16 + 16:9) + 1 base cover → salves de 10 max.
 
+## ✅ Étape 2 — Décisions artiste (2026-09-10)
+- [x] **Charte : HYBRIDE B+A** — couplets/tags en Dark Trap B (nuit, éclairs cyan/ambre), refrains « On est africains » en coucher de soleil doré A (lumière max), pont/outro décrescendo ambre, endcard sombre épuré.
+- [x] **Budget : 21 images/format** (17 uniques + intro + endcard + 2 images tag dédiées) → ×2 formats = 42 images + 1 base cover. Salves de 10 : P-1(10) P-2(10) P-3(1) / L-1(10) L-2(10) L-3(1).
+- Plan des slots (verse → image) :
+  - s00 intro_bg (0→2.71) · f01 tag_intro (×4 : 2.71/8.48/14.59/20.17) · f02 africains (35.51/41.78/119.75/125.98) · f03 blanc_de_coeur (47.80/131.58) · f04 on_avance (51.83/135.74) · f05 tag_cri_1 (68.01) · f06-f13 couplet 1 (83.90→114.07) · f14 tag_cri_2 (146.76) · f15-f19 couplet 2/pont (155.88→187.19) · f20 endcard_bg (fondu final ~202s → fin + apad 5 s)
+
 ## ⏳ À venir (ordre §1)
-- [ ] Décisions artiste : charte + nombre d'images (voir question posée)
 - [ ] Image d'ancrage + maquette badge/stickers → validation
 - [ ] Salves images portrait 9:16 puis paysage 16:9
 - [ ] Rendu 9:16 v2 + cursive → vérifs §12 → 16:9 → MP3 master + tags → covers
