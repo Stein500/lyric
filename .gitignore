@@ -1,0 +1,11 @@
+# Outils / environnement (jamais commités)
+.venv/
+work/
+bin/
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# livrables/ ne doit JAMAIS être ignoré (règle §4)
+!livrables/
