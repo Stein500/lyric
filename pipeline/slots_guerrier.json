@@ -1,0 +1,15 @@
+{
+ "titre": "Guerrier",
+ "vers": [
+  [2.71, "s01_tag_intro"], [8.48, "s01_tag_intro"], [14.59, "s01_tag_intro"], [20.17, "s01_tag_intro"],
+  [35.51, "s02_africains"], [41.78, "s02_africains"], [47.80, "s03_blanc_coeur"], [51.83, "s04_on_avance"],
+  [68.01, "s05_tag_cri1"],
+  [83.90, "s06_epoque"], [87.22, "s07_envahisseurs"], [90.01, "s08_pleure"], [91.98, "s09_renaitre"],
+  [95.30, "s10_oublions"], [98.55, "s11_debout"], [107.67, "s12_reines"], [114.07, "s13_ancetres"],
+  [119.75, "s02_africains"], [125.98, "s02_africains"], [131.58, "s03_blanc_coeur"], [135.74, "s04_on_avance"],
+  [146.76, "s14_tag_cri2"],
+  [155.88, "s15_arretons"], [168.43, "s16_racines"], [178.92, "s17_bamako"], [183.34, "s18_accepte_toi"], [187.19, "s19_traverse"]
+ ],
+ "intro": [0.0, 2.71, "s00_intro"],
+ "endcard": [205.9, "s20_endcard"]
+}
