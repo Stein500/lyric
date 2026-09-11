@@ -1,5 +1,6 @@
 # Outils / environnement (jamais commités)
 .venv/
+venv/
 work/
 bin/
 *.pyc
