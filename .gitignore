@@ -1,0 +1,18 @@
+# Local toolchains and render scratch space
+work/.venv/
+work/tmp/
+work/frames/
+work/cache/
+work/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Never commit bundled media tools
+ffmpeg
+ffprobe
+bin/
+
+# Keep production deliverables and generated assets versioned.
+# livrables/ is intentionally NOT ignored.
