@@ -1,0 +1,452 @@
+{
+  "title": "Toko Longa",
+  "format": "9:16 portrait",
+  "unique_lyric_lines": 63,
+  "intro_and_endcard": 2,
+  "required_portrait_images": 65,
+  "generated_this_salvo": 10,
+  "salvo": 1,
+  "lines": [
+    {
+      "slot": 1,
+      "first_timestamp": 12.18,
+      "text": "(Yeah, yeah)",
+      "image": "assets/raw/portrait/s01_yeah_yeah.png",
+      "status": "generated"
+    },
+    {
+      "slot": 2,
+      "first_timestamp": 14.95,
+      "text": "Mabele ekauki ata je toko longa",
+      "image": "assets/raw/portrait/s02_mabele_ekauki.png",
+      "status": "generated"
+    },
+    {
+      "slot": 3,
+      "first_timestamp": 18.24,
+      "text": "(Longa)",
+      "image": "assets/raw/portrait/s03_longa.png",
+      "status": "generated"
+    },
+    {
+      "slot": 4,
+      "first_timestamp": 21.64,
+      "text": "Pas de pluie, pas de choix, faut y aller",
+      "image": "assets/raw/portrait/s04_pas_de_pluie.png",
+      "status": "generated"
+    },
+    {
+      "slot": 5,
+      "first_timestamp": 25.44,
+      "text": "(Han, han)",
+      "image": "assets/raw/portrait/s05_han_han.png",
+      "status": "generated"
+    },
+    {
+      "slot": 6,
+      "first_timestamp": 26.4,
+      "text": "Écoute le sol qui craque sous mes pas",
+      "image": "assets/raw/portrait/s06_ecoute_le_sol.png",
+      "status": "generated"
+    },
+    {
+      "slot": 7,
+      "first_timestamp": 28.57,
+      "text": "La terre est dure mais on va y arriver",
+      "image": "assets/raw/portrait/s07_terre_dure_reussir.png",
+      "status": "generated"
+    },
+    {
+      "slot": 8,
+      "first_timestamp": 29.89,
+      "text": "Ouais toko longa",
+      "image": "assets/raw/portrait/s08_ouais_toko_longa.png",
+      "status": "generated"
+    },
+    {
+      "slot": 9,
+      "first_timestamp": 32.25,
+      "text": "(Ouaip)",
+      "image": "assets/raw/portrait/s09_ouaip.png",
+      "status": "generated"
+    },
+    {
+      "slot": 10,
+      "first_timestamp": 32.97,
+      "text": "On creuse la nuit pour trouver de l'or",
+      "image": "assets/raw/portrait/s10_creuse_la_nuit.png",
+      "status": "generated"
+    },
+    {
+      "slot": 11,
+      "first_timestamp": 35.57,
+      "text": "Avec ma lampe, toko kata pongi",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 12,
+      "first_timestamp": 38.5,
+      "text": "(Mabele oyo eza yaba paresseux te)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 13,
+      "first_timestamp": 40.11,
+      "text": "Pas de place pour les traîtres ici",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 14,
+      "first_timestamp": 42.08,
+      "text": "On reste unis sous le soleil lourd",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 15,
+      "first_timestamp": 46.62,
+      "text": "Mobali akufaka na yaye na maboko",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 16,
+      "first_timestamp": 52.82,
+      "text": "(Telemisa matoyi oyoka Bango te)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 17,
+      "first_timestamp": 54.67,
+      "text": "La gorge sèche, on veut le million",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 18,
+      "first_timestamp": 57.32,
+      "text": "Chaque goutte d'eau vaut un lingot",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 19,
+      "first_timestamp": 58.93,
+      "text": "(Vaut un lingot)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 20,
+      "first_timestamp": 59.8,
+      "text": "On a bravé le vent et la poussière",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 21,
+      "first_timestamp": 61.47,
+      "text": "Pas de larmes, que de la sueur",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 22,
+      "first_timestamp": 64.0,
+      "text": "Mon frère tient la pelle, je tiens le sac",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 23,
+      "first_timestamp": 66.48,
+      "text": "On vise le sommet, pas de marche arrière",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 24,
+      "first_timestamp": 68.55,
+      "text": "(Jamais)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 25,
+      "first_timestamp": 69.79,
+      "text": "Les faux amis veulent notre récolte",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 26,
+      "first_timestamp": 72.94,
+      "text": "Mais ils n'étaient pas là sous la chaleur",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 27,
+      "first_timestamp": 75.03,
+      "text": "(Non, jamais)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 28,
+      "first_timestamp": 76.75,
+      "text": "On a souffert en silence, maintenant on brille",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 29,
+      "first_timestamp": 78.72,
+      "text": "On roule en grand sur la terre rouge",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 30,
+      "first_timestamp": 80.5,
+      "text": "(Vroum)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 31,
+      "first_timestamp": 81.55,
+      "text": "Le ciel est vide mais nos cœurs sont pleins",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 32,
+      "first_timestamp": 83.76,
+      "text": "On va arracher ce que le sol nous doit",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 33,
+      "first_timestamp": 87.53,
+      "text": "La terre est dure mais on va réussir",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 34,
+      "first_timestamp": 89.92,
+      "text": "Toko réussir, toko réussir",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 35,
+      "first_timestamp": 97.25,
+      "text": "Ata je lobi na biso eko simba",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 36,
+      "first_timestamp": 100.35,
+      "text": "(Le Congo appartient au courageux)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 37,
+      "first_timestamp": 108.32,
+      "text": "Ça va y aller lobi toko longa",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 38,
+      "first_timestamp": 110.88,
+      "text": "(Nass'M)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 39,
+      "first_timestamp": 112.73,
+      "text": "On a la dalle, on n'attend plus la pluie",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 40,
+      "first_timestamp": 116.13,
+      "text": "Le travail paie, regarde le triomphe",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 41,
+      "first_timestamp": 118.74,
+      "text": "(Regarde ça)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 42,
+      "first_timestamp": 119.6,
+      "text": "Des chaînes de diamants sur la peau noire",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 43,
+      "first_timestamp": 121.36,
+      "text": "On a bravé la mort et le désert",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 44,
+      "first_timestamp": 123.13,
+      "text": "(Le désert)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 45,
+      "first_timestamp": 124.77,
+      "text": "Le village attend, le clan est soudé",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 46,
+      "first_timestamp": 126.61,
+      "text": "On partage les fruits du grand combat",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 47,
+      "first_timestamp": 128.33,
+      "text": "(Tout pour la famille)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 48,
+      "first_timestamp": 129.91,
+      "text": "On a croisé la faim, on l'a vaincue",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 49,
+      "first_timestamp": 131.29,
+      "text": "Maintenant on pèse la récolte en euros",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 50,
+      "first_timestamp": 134.01,
+      "text": "Ozo senga nga 500 franc",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 51,
+      "first_timestamp": 139.39,
+      "text": "Biso pe toko longa",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 52,
+      "first_timestamp": 145.91,
+      "text": "Pona lobi bana ba lala na nzalate",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 53,
+      "first_timestamp": 146.53,
+      "text": "(Kinshasa capital ya ba courageux)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 54,
+      "first_timestamp": 148.74,
+      "text": "Lobi na biso eko simba,",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 55,
+      "first_timestamp": 154.54,
+      "text": "On a réussi",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 56,
+      "first_timestamp": 155.62,
+      "text": "(Lobi na biso eko simba)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 57,
+      "first_timestamp": 156.82,
+      "text": "Mabele ekauki mais on brille quand même",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 58,
+      "first_timestamp": 159.43,
+      "text": "Le clan est fort",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 59,
+      "first_timestamp": 163.04,
+      "text": "(Très fort)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 60,
+      "first_timestamp": 165.66,
+      "text": "Sous la chaleur, on a vaincu la peur",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 61,
+      "first_timestamp": 166.54,
+      "text": "(Yeah, toko longa)",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 62,
+      "first_timestamp": 172.11,
+      "text": "On va y arriver",
+      "image": null,
+      "status": "pending"
+    },
+    {
+      "slot": 63,
+      "first_timestamp": 174.27,
+      "text": "C'est le triomphe",
+      "image": null,
+      "status": "pending"
+    }
+  ]
+}
