@@ -5,7 +5,7 @@
   "intro_and_endcard": 2,
   "required_portrait_images": 65,
   "generated_this_salvo": 10,
-  "salvo": 4,
+  "salvo": 5,
   "lines": [
     {
       "slot": 1,
@@ -277,71 +277,71 @@
       "slot": 39,
       "first_timestamp": 112.73,
       "text": "On a la dalle, on n'attend plus la pluie",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s39_dalle_nattend_plus_pluie.png",
+      "status": "generated"
     },
     {
       "slot": 40,
       "first_timestamp": 116.13,
       "text": "Le travail paie, regarde le triomphe",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s40_travail_paie_triomphe.png",
+      "status": "generated"
     },
     {
       "slot": 41,
       "first_timestamp": 118.74,
       "text": "(Regarde ça)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s41_regarde_ca.png",
+      "status": "generated"
     },
     {
       "slot": 42,
       "first_timestamp": 119.6,
       "text": "Des chaînes de diamants sur la peau noire",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s42_chaines_diamants.png",
+      "status": "generated"
     },
     {
       "slot": 43,
       "first_timestamp": 121.36,
       "text": "On a bravé la mort et le désert",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s43_brave_mort_desert.png",
+      "status": "generated"
     },
     {
       "slot": 44,
       "first_timestamp": 123.13,
       "text": "(Le désert)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s44_le_desert.png",
+      "status": "generated"
     },
     {
       "slot": 45,
       "first_timestamp": 124.77,
       "text": "Le village attend, le clan est soudé",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s45_village_clan_soude.png",
+      "status": "generated"
     },
     {
       "slot": 46,
       "first_timestamp": 126.61,
       "text": "On partage les fruits du grand combat",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s46_partage_fruits_combat.png",
+      "status": "generated"
     },
     {
       "slot": 47,
       "first_timestamp": 128.33,
       "text": "(Tout pour la famille)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s47_tout_pour_la_famille.png",
+      "status": "generated"
     },
     {
       "slot": 48,
       "first_timestamp": 129.91,
       "text": "On a croisé la faim, on l'a vaincue",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s48_vaincu_faim.png",
+      "status": "generated"
     },
     {
       "slot": 49,
@@ -449,7 +449,7 @@
       "status": "pending"
     }
   ],
-  "generated_slots": "correction s02 + s30-s38",
-  "completed_slots": "s01-s38",
-  "notes": "s02 was regenerated with a different female-led cast at the artist request; s30-s38 use varied women, men and community groups."
+  "generated_slots": "s39-s48",
+  "completed_slots": "s01-s48",
+  "notes": "s02 was regenerated with a different female-led cast at the artist request; s30-s48 use varied women, men and community groups."
 }

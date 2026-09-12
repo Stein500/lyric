@@ -31,12 +31,11 @@ Le LRC contient **73 entrées horodatées**, soit **63 lignes uniques** après d
 - [x] Salve 03 validée pour continuer avec un casting plus varié.
 - [x] Correction de `s02` avec un casting féminin différent.
 - [x] Salve 04 générée : correction `s02` + slots `s30` à `s38` (10 générations).
-- [ ] Validation artistique de la salve 04.
-- [ ] Salve 05 : slot `s39` + slots `s40` à `s48`.
-- [ ] Salve 04 : slots `s31` à `s40`.
-- [ ] Salve 05 : slots `s41` à `s50`.
-- [ ] Salve 06 : slots `s51` à `s60`.
-- [ ] Salve 07 : slots `s61` à `s63` + intro + endcard.
+- [x] Salve 04 validée avec la correction de `s02` et le casting varié.
+- [x] Salve 05 générée : slots `s39` à `s48` (10 générations).
+- [ ] Validation artistique de la salve 05.
+- [ ] Salve 06 : slots `s49` à `s58`.
+- [ ] Salve 07 : slots `s59` à `s63` + intro + endcard.
 - [ ] Planche contact et validation après chaque salve.
 
 Le suivi exact des textes, timestamps et fichiers est dans `assets/raw/portrait/verse_index.json`.
