@@ -1,0 +1,27 @@
+{
+  "title": "Toko Longa",
+  "artist": "Nass'M Rodyboy",
+  "realization": "Techstein / DSKY Prod",
+  "audio_duration_seconds": 179.328,
+  "fps": 30,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "badge": "DSKY✓",
+  "teaser": {
+    "audio_start": 112.73,
+    "audio_end": 140.68,
+    "duration": 27.95,
+    "image_count": 5,
+    "images": [
+      "assets/raw/teaser/01_pas_de_pluie.png",
+      "assets/raw/teaser/02_creuse_la_nuit.png",
+      "assets/raw/teaser/03_goutte_lingot.png",
+      "assets/raw/teaser/04_clan_soude.png",
+      "assets/raw/teaser/05_triomphe.png"
+    ]
+  },
+  "lyrics_count": 73,
+  "lyric_source": "assets/lyrics/Toko_Longa_clean.lrc"
+}

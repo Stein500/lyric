@@ -1,0 +1,19 @@
+# Local rendering environment and reproducible caches
+work/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Never commit bundled tools or temporary binaries
+bin/
+*.tmp
+*.part
+
+# Deliverables are intentional release assets; do not ignore livrables/
