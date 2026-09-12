@@ -39,8 +39,10 @@ Le LRC contient **73 entrées horodatées**, soit **63 lignes uniques** après d
 - [x] Salve 07 générée : slots `s59` à `s63` + intro + endcard (7 générations).
 - [x] Les 63 images de vers uniques + intro + endcard sont maintenant disponibles.
 - [x] Planches contact produites pour chaque salve.
-- [ ] Validation artistique finale des 65 images.
-- [ ] Montage du lyric visual strictement par vers.
+- [x] Montage du lyric visual strictement par vers : `Toko_Longa_lyrics_9x16_v2.mp4`.
+- [x] Endcard avec `apad` 5 secondes et fondu audio final.
+- [x] Contrôle final : 1080×1920, 30 fps, durée `184.33 s`, CRF 22, fichier ~70 Mo, aucun intervalle blackdetect/freezedetect détecté.
+- [ ] Validation artistique finale des 65 images et du rendu v2.
 
 Le suivi exact des textes, timestamps et fichiers est dans `assets/raw/portrait/verse_index.json`.
 
@@ -55,13 +57,13 @@ Le suivi exact des textes, timestamps et fichiers est dans `assets/raw/portrait/
 - [x] CTA like / abonnement / commentaire pendant les 2 premières secondes.
 - [x] Icône de partage au milieu.
 - [x] Contrôles techniques du brouillon : résolution, durée, blackdetect et freezedetect conformes.
-- [ ] Remplacer le lyric visual par la version strictement par vers après les 65 images.
-- [ ] Refaire le contrôle technique et visuel de la version finale.
-- [ ] Commit/push de chaque salve et du rendu final.
+- [x] Remplacer le lyric visual par la version strictement par vers après les 65 images.
+- [x] Refaire le contrôle technique et visuel de la version finale.
+- [x] Commit/push de chaque salve et du rendu final.
 
 ## Nommage
 
 - Portraits : `assets/raw/portrait/s{slot:02d}_<mot-clé>.png`.
 - Source LRC nettoyée : `assets/lyrics/Toko_Longa_clean.lrc`.
 - Brouillon actuel : `livrables/Toko_Longa_lyrics_9x16_v1.mp4`.
-- Futur rendu conforme : `livrables/Toko_Longa_lyrics_9x16_v2.mp4`.
+- Rendu conforme : `livrables/Toko_Longa_lyrics_9x16_v2.mp4`.

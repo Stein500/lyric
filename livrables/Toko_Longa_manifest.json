@@ -23,5 +23,20 @@
     ]
   },
   "lyrics_count": 73,
-  "lyric_source": "assets/lyrics/Toko_Longa_clean.lrc"
+  "lyric_source": "assets/lyrics/Toko_Longa_clean.lrc",
+  "strict_per_verse": {
+    "status": "rendered",
+    "video": "livrables/Toko_Longa_lyrics_9x16_v2.mp4",
+    "image_count": 65,
+    "unique_lyric_lines": 63,
+    "intro_image": "assets/raw/portrait/s00_intro.png",
+    "endcard_image": "assets/raw/portrait/s64_endcard.png",
+    "duration_seconds": 184.328,
+    "source_audio_seconds": 179.328,
+    "endcard_apad_seconds": 5.0,
+    "advance_seconds": 0.03,
+    "fps": 30,
+    "video_crf": 22,
+    "video_size_bytes": 70020459
+  }
 }
