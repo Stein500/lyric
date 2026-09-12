@@ -5,7 +5,7 @@
   "intro_and_endcard": 2,
   "required_portrait_images": 65,
   "generated_this_salvo": 10,
-  "salvo": 5,
+  "salvo": 6,
   "lines": [
     {
       "slot": 1,
@@ -347,71 +347,71 @@
       "slot": 49,
       "first_timestamp": 131.29,
       "text": "Maintenant on pèse la récolte en euros",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s49_pese_recolte_euros.png",
+      "status": "generated"
     },
     {
       "slot": 50,
       "first_timestamp": 134.01,
       "text": "Ozo senga nga 500 franc",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s50_500_franc.png",
+      "status": "generated"
     },
     {
       "slot": 51,
       "first_timestamp": 139.39,
       "text": "Biso pe toko longa",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s51_biso_pe_toko_longa.png",
+      "status": "generated"
     },
     {
       "slot": 52,
       "first_timestamp": 145.91,
       "text": "Pona lobi bana ba lala na nzalate",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s52_bana_lala_nzalate.png",
+      "status": "generated"
     },
     {
       "slot": 53,
       "first_timestamp": 146.53,
       "text": "(Kinshasa capital ya ba courageux)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s53_kinshasa_courageux.png",
+      "status": "generated"
     },
     {
       "slot": 54,
       "first_timestamp": 148.74,
       "text": "Lobi na biso eko simba,",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s54_lobi_na_biso_simba.png",
+      "status": "generated"
     },
     {
       "slot": 55,
       "first_timestamp": 154.54,
       "text": "On a réussi",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s55_on_a_reussi.png",
+      "status": "generated"
     },
     {
       "slot": 56,
       "first_timestamp": 155.62,
       "text": "(Lobi na biso eko simba)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s56_lobi_na_biso_simba.png",
+      "status": "generated"
     },
     {
       "slot": 57,
       "first_timestamp": 156.82,
       "text": "Mabele ekauki mais on brille quand même",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s57_mabele_brille.png",
+      "status": "generated"
     },
     {
       "slot": 58,
       "first_timestamp": 159.43,
       "text": "Le clan est fort",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s58_clan_fort.png",
+      "status": "generated"
     },
     {
       "slot": 59,
@@ -449,7 +449,7 @@
       "status": "pending"
     }
   ],
-  "generated_slots": "s39-s48",
-  "completed_slots": "s01-s48",
-  "notes": "s02 was regenerated with a different female-led cast at the artist request; s30-s48 use varied women, men and community groups."
+  "generated_slots": "s49-s58",
+  "completed_slots": "s01-s58",
+  "notes": "s02 was regenerated with a different female-led cast at the artist request; s30-s58 use varied women, men, elders, youth and community groups."
 }

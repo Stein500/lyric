@@ -33,8 +33,9 @@ Le LRC contient **73 entrées horodatées**, soit **63 lignes uniques** après d
 - [x] Salve 04 générée : correction `s02` + slots `s30` à `s38` (10 générations).
 - [x] Salve 04 validée avec la correction de `s02` et le casting varié.
 - [x] Salve 05 générée : slots `s39` à `s48` (10 générations).
-- [ ] Validation artistique de la salve 05.
-- [ ] Salve 06 : slots `s49` à `s58`.
+- [x] Salve 05 validée pour continuer.
+- [x] Salve 06 générée : slots `s49` à `s58` (10 générations).
+- [ ] Validation artistique de la salve 06.
 - [ ] Salve 07 : slots `s59` à `s63` + intro + endcard.
 - [ ] Planche contact et validation après chaque salve.
 
