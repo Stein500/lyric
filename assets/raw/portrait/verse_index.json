@@ -5,7 +5,7 @@
   "intro_and_endcard": 2,
   "required_portrait_images": 65,
   "generated_this_salvo": 10,
-  "salvo": 2,
+  "salvo": 3,
   "lines": [
     {
       "slot": 1,
@@ -151,64 +151,64 @@
       "slot": 21,
       "first_timestamp": 61.47,
       "text": "Pas de larmes, que de la sueur",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s21_pas_de_larmes_sueur.png",
+      "status": "generated"
     },
     {
       "slot": 22,
       "first_timestamp": 64.0,
       "text": "Mon frère tient la pelle, je tiens le sac",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s22_frere_pelle_sac.png",
+      "status": "generated"
     },
     {
       "slot": 23,
       "first_timestamp": 66.48,
       "text": "On vise le sommet, pas de marche arrière",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s23_vise_sommet.png",
+      "status": "generated"
     },
     {
       "slot": 24,
       "first_timestamp": 68.55,
       "text": "(Jamais)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s24_jamais.png",
+      "status": "generated"
     },
     {
       "slot": 25,
       "first_timestamp": 69.79,
       "text": "Les faux amis veulent notre récolte",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s25_faux_amis_recolte.png",
+      "status": "generated"
     },
     {
       "slot": 26,
       "first_timestamp": 72.94,
       "text": "Mais ils n'étaient pas là sous la chaleur",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s26_chaleur_absents.png",
+      "status": "generated"
     },
     {
       "slot": 27,
       "first_timestamp": 75.03,
       "text": "(Non, jamais)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s27_non_jamais.png",
+      "status": "generated"
     },
     {
       "slot": 28,
       "first_timestamp": 76.75,
       "text": "On a souffert en silence, maintenant on brille",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s28_souffert_brille.png",
+      "status": "generated"
     },
     {
       "slot": 29,
       "first_timestamp": 78.72,
       "text": "On roule en grand sur la terre rouge",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s29_roule_terre_rouge.png",
+      "status": "generated"
     },
     {
       "slot": 30,
@@ -449,6 +449,7 @@
       "status": "pending"
     }
   ],
-  "generated_slots": "s11-s20",
-  "completed_slots": "s01-s20"
+  "generated_slots": "correction s12 + s21-s29",
+  "completed_slots": "s01-s29",
+  "notes": "s12 was regenerated with a different female-led cast at the artist request."
 }
