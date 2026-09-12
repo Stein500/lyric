@@ -5,7 +5,7 @@
   "intro_and_endcard": 2,
   "required_portrait_images": 65,
   "generated_this_salvo": 10,
-  "salvo": 1,
+  "salvo": 2,
   "lines": [
     {
       "slot": 1,
@@ -81,71 +81,71 @@
       "slot": 11,
       "first_timestamp": 35.57,
       "text": "Avec ma lampe, toko kata pongi",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s11_avec_ma_lampe.png",
+      "status": "generated"
     },
     {
       "slot": 12,
       "first_timestamp": 38.5,
       "text": "(Mabele oyo eza yaba paresseux te)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s12_mabele_oyo_paresseux_te.png",
+      "status": "generated"
     },
     {
       "slot": 13,
       "first_timestamp": 40.11,
       "text": "Pas de place pour les traîtres ici",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s13_pas_de_place_traitres.png",
+      "status": "generated"
     },
     {
       "slot": 14,
       "first_timestamp": 42.08,
       "text": "On reste unis sous le soleil lourd",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s14_reste_unis.png",
+      "status": "generated"
     },
     {
       "slot": 15,
       "first_timestamp": 46.62,
       "text": "Mobali akufaka na yaye na maboko",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s15_mobali_maboko.png",
+      "status": "generated"
     },
     {
       "slot": 16,
       "first_timestamp": 52.82,
       "text": "(Telemisa matoyi oyoka Bango te)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s16_telemisa_matoyi.png",
+      "status": "generated"
     },
     {
       "slot": 17,
       "first_timestamp": 54.67,
       "text": "La gorge sèche, on veut le million",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s17_gorge_seche_million.png",
+      "status": "generated"
     },
     {
       "slot": 18,
       "first_timestamp": 57.32,
       "text": "Chaque goutte d'eau vaut un lingot",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s18_goutte_lingot.png",
+      "status": "generated"
     },
     {
       "slot": 19,
       "first_timestamp": 58.93,
       "text": "(Vaut un lingot)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s19_vaut_un_lingot.png",
+      "status": "generated"
     },
     {
       "slot": 20,
       "first_timestamp": 59.8,
       "text": "On a bravé le vent et la poussière",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s20_vent_poussiere.png",
+      "status": "generated"
     },
     {
       "slot": 21,
@@ -448,5 +448,7 @@
       "image": null,
       "status": "pending"
     }
-  ]
+  ],
+  "generated_slots": "s11-s20",
+  "completed_slots": "s01-s20"
 }
