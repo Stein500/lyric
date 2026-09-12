@@ -5,7 +5,7 @@
   "intro_and_endcard": 2,
   "required_portrait_images": 65,
   "generated_this_salvo": 10,
-  "salvo": 3,
+  "salvo": 4,
   "lines": [
     {
       "slot": 1,
@@ -214,64 +214,64 @@
       "slot": 30,
       "first_timestamp": 80.5,
       "text": "(Vroum)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s30_vroum.png",
+      "status": "generated"
     },
     {
       "slot": 31,
       "first_timestamp": 81.55,
       "text": "Le ciel est vide mais nos cœurs sont pleins",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s31_ciel_vide_coeurs_pleins.png",
+      "status": "generated"
     },
     {
       "slot": 32,
       "first_timestamp": 83.76,
       "text": "On va arracher ce que le sol nous doit",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s32_arrachera_sol.png",
+      "status": "generated"
     },
     {
       "slot": 33,
       "first_timestamp": 87.53,
       "text": "La terre est dure mais on va réussir",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s33_terre_dure_reussir.png",
+      "status": "generated"
     },
     {
       "slot": 34,
       "first_timestamp": 89.92,
       "text": "Toko réussir, toko réussir",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s34_toko_reussir.png",
+      "status": "generated"
     },
     {
       "slot": 35,
       "first_timestamp": 97.25,
       "text": "Ata je lobi na biso eko simba",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s35_ata_je_lobi.png",
+      "status": "generated"
     },
     {
       "slot": 36,
       "first_timestamp": 100.35,
       "text": "(Le Congo appartient au courageux)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s36_congo_courageux.png",
+      "status": "generated"
     },
     {
       "slot": 37,
       "first_timestamp": 108.32,
       "text": "Ça va y aller lobi toko longa",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s37_ca_va_y_aller.png",
+      "status": "generated"
     },
     {
       "slot": 38,
       "first_timestamp": 110.88,
       "text": "(Nass'M)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s38_nass_m.png",
+      "status": "generated"
     },
     {
       "slot": 39,
@@ -449,7 +449,7 @@
       "status": "pending"
     }
   ],
-  "generated_slots": "correction s12 + s21-s29",
-  "completed_slots": "s01-s29",
-  "notes": "s12 was regenerated with a different female-led cast at the artist request."
+  "generated_slots": "correction s02 + s30-s38",
+  "completed_slots": "s01-s38",
+  "notes": "s02 was regenerated with a different female-led cast at the artist request; s30-s38 use varied women, men and community groups."
 }
