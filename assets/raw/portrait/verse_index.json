@@ -4,8 +4,8 @@
   "unique_lyric_lines": 63,
   "intro_and_endcard": 2,
   "required_portrait_images": 65,
-  "generated_this_salvo": 10,
-  "salvo": 6,
+  "generated_this_salvo": 7,
+  "salvo": 7,
   "lines": [
     {
       "slot": 1,
@@ -417,39 +417,42 @@
       "slot": 59,
       "first_timestamp": 163.04,
       "text": "(Très fort)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s59_tres_fort.png",
+      "status": "generated"
     },
     {
       "slot": 60,
       "first_timestamp": 165.66,
       "text": "Sous la chaleur, on a vaincu la peur",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s60_chaleur_vaincu_peur.png",
+      "status": "generated"
     },
     {
       "slot": 61,
       "first_timestamp": 166.54,
       "text": "(Yeah, toko longa)",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s61_yeah_toko_longa.png",
+      "status": "generated"
     },
     {
       "slot": 62,
       "first_timestamp": 172.11,
       "text": "On va y arriver",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s62_on_va_y_arriver.png",
+      "status": "generated"
     },
     {
       "slot": 63,
       "first_timestamp": 174.27,
       "text": "C'est le triomphe",
-      "image": null,
-      "status": "pending"
+      "image": "assets/raw/portrait/s63_c_est_le_triomphe.png",
+      "status": "generated"
     }
   ],
-  "generated_slots": "s49-s58",
-  "completed_slots": "s01-s58",
-  "notes": "s02 was regenerated with a different female-led cast at the artist request; s30-s58 use varied women, men, elders, youth and community groups."
+  "generated_slots": "s59-s63 + s00 intro + s64 endcard",
+  "completed_slots": "s01-s63",
+  "notes": "All 63 unique lyric lines now have distinct portrait plates; repeated LRC lines reuse their first slot. s02 was regenerated with a different female-led cast.",
+  "intro_image": "assets/raw/portrait/s00_intro.png",
+  "endcard_image": "assets/raw/portrait/s64_endcard.png",
+  "status": "all_65_portrait_images_generated"
 }

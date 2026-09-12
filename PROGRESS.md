@@ -35,9 +35,12 @@ Le LRC contient **73 entrées horodatées**, soit **63 lignes uniques** après d
 - [x] Salve 05 générée : slots `s39` à `s48` (10 générations).
 - [x] Salve 05 validée pour continuer.
 - [x] Salve 06 générée : slots `s49` à `s58` (10 générations).
-- [ ] Validation artistique de la salve 06.
-- [ ] Salve 07 : slots `s59` à `s63` + intro + endcard.
-- [ ] Planche contact et validation après chaque salve.
+- [x] Salve 06 validée pour continuer.
+- [x] Salve 07 générée : slots `s59` à `s63` + intro + endcard (7 générations).
+- [x] Les 63 images de vers uniques + intro + endcard sont maintenant disponibles.
+- [x] Planches contact produites pour chaque salve.
+- [ ] Validation artistique finale des 65 images.
+- [ ] Montage du lyric visual strictement par vers.
 
 Le suivi exact des textes, timestamps et fichiers est dans `assets/raw/portrait/verse_index.json`.
 
