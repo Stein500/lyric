@@ -116,6 +116,25 @@ def icon_sprite(name, size):
     _cache[key] = rgba
     return rgba
 
+def scrim_sprite():
+    """Bande dégradée sombre derrière les paroles (lisibilité sur UI plateformes)."""
+    if "scrim" in _cache:
+        return _cache["scrim"]
+    h = 320
+    sc = Image.new("RGBA", (W, h), (0, 0, 0, 0))
+    a = np.zeros((h, W, 4), np.uint8)
+    prof = (np.sin(np.linspace(0, np.pi, h)) * 110).astype(np.uint8)
+    a[:, :, 3] = prof[:, None]
+    sc = Image.fromarray(a, "RGBA")
+    _cache["scrim"] = sc
+    return sc
+
+SAFE_TOP = 150          # sous barre de recherche/tabs (0-144 px)
+SAFE_CTA = 232          # rangée CTA sous le badge
+SAFE_TITLE = 330        # titres hook/intro
+SAFE_LYR = H - 520      # top sprite paroles -> glyphs <= 0.80H (au-dessus caption/nav)
+SAFE_LYR_SCRIM = 1330
+
 def cta_sprite(size=72, gap=24):
     key = ("cta", size)
     if key in _cache:
@@ -249,27 +268,29 @@ def frame(i):
               "t1": 3.0 if t < 3 else HOOK}
         spr = cursive_sprite(oc["text"])
         ap = (t - oc["t0"]) / 0.9
+        img.alpha_composite(scrim_sprite(), (0, SAFE_LYR_SCRIM))
         img.alpha_composite(wave(spr, t, reveal=min(ap, 1.0)),
-                            (W // 2 - spr.width // 2, H - 300))
+                            (W // 2 - spr.width // 2, SAFE_LYR))
         tit = cursive_sprite("Je crache mes démons", 96)
-        img.alpha_composite(wave(tit, t, amp=6), (W // 2 - tit.width // 2, 210))
+        img.alpha_composite(wave(tit, t, amp=6), (W // 2 - tit.width // 2, SAFE_TITLE))
     elif t < OCC[0]["t0"]:
         tit = cursive_sprite("Je crache mes démons", 118)
-        img.alpha_composite(wave(tit, t, amp=6), (W // 2 - tit.width // 2, 300))
+        img.alpha_composite(wave(tit, t, amp=6), (W // 2 - tit.width // 2, SAFE_TITLE + 30))
         sub = cursive_sprite("Daïsky", 84)
-        img.alpha_composite(wave(sub, t, amp=5), (W // 2 - sub.width // 2, 300 + tit.height - 40))
+        img.alpha_composite(wave(sub, t, amp=5), (W // 2 - sub.width // 2, SAFE_TITLE + 30 + tit.height - 40))
     elif t < SONG_END - 1.0:
         oc = next(o for o in OCC if o["t0"] - ADV <= t < o["t1"] - ADV)
         spr = cursive_sprite(oc["text"])
         ap = (t - (oc["t0"] - ADV)) / 0.9
         op = (oc["t1"] - ADV - t) / 0.8
+        img.alpha_composite(scrim_sprite(), (0, SAFE_LYR_SCRIM))
         img.alpha_composite(wave(spr, t, reveal=min(ap, 1.0), out=0.0 if op > 1 else max(0.0, 1 - op)),
-                            (W // 2 - spr.width // 2, H - 300))
+                            (W // 2 - spr.width // 2, SAFE_LYR))
     if t < 2.0:                               # CTA 2 premières secondes
         row = cta_sprite()
         al = int(255 * min(t / 0.3, (2.0 - t) / 0.4, 1.0))
         r2 = row.copy(); r2.putalpha(r2.getchannel("A").point(lambda v: v * al // 255))
-        img.alpha_composite(r2, (W // 2 - row.width // 2, H - 30 - row.height))
+        img.alpha_composite(r2, (W // 2 - row.width // 2, SAFE_CTA))
     mid = TOTAL / 2                           # icône partage au milieu
     if abs(t - mid) < 2.5:
         s = icon_sprite("share", 150)
@@ -279,7 +300,7 @@ def frame(i):
         s2.putalpha(s2.getchannel("A").point(lambda v: v * al // 255))
         img.alpha_composite(s2, (W // 2 - s2.width // 2, int(H * 0.40)))
     b = badge_sprite()                        # badge DSKY✓ milieu haut, en dernier
-    img.alpha_composite(b, (W // 2 - b.width // 2, 36))
+    img.alpha_composite(b, (W // 2 - b.width // 2, SAFE_TOP))
     return img.convert("RGB")
 
 def render(f0, f1, out):
