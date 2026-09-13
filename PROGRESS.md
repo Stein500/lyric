@@ -1,4 +1,4 @@
-# 🎬 PROGRESS — « Je crache les démons » (Daïsky Prod / TechStein)
+# 🎬 PROGRESS — « Je crache mes démons » (Daïsky Prod / TechStein)
 
 Branche : `arena/01a09a22-lyric` · Référence : `PROMPT_UNIVERSEL_v4.8.2.md`
 Dernière mise à jour : étape 2 — décisions validées + images d'ancrage générées
@@ -18,7 +18,7 @@ Dernière mise à jour : étape 2 — décisions validées + images d'ancrage g�
 | LRA | 5,9 LU |
 | Dernier son utile | **207,82 s (3:27.8)** |
 
-### Paroles (`Je crache les démons.txt`) → `Je crache les démons - timing.txt`
+### Paroles (`Je crache les démons.txt` (fichier source artiste — le TITRE officiel est « mes démons ») → `Je crache mes démons - timing.txt`
 - 9 sections : INTRO · REFRAIN (×3) · COUPLET 1 · PRÉ-REFRAIN (×2) · COUPLET 2 · PONT · OUTRO
 - **65 lignes** → **39 lignes uniques** (refrain ×6, pré-refrain ×2, tag ×3 dédupliqués)
 - ⚠️ **CORRECTION v1** : ligne 05 « Je me relève… » marquée `−0:36.5` dans le .txt → hors chronologie. Corrigée en **−0:27.0** (calée sur le refrain 2 : 1:25.0). À confirmer à l'oreille.
@@ -33,7 +33,7 @@ Dernière mise à jour : étape 2 — décisions validées + images d'ancrage g�
 
 | # | Décision | Choix |
 |---|---|---|
-| 1 | **Titre** (cover / intro / endcard) | **Je crache les démons** |
+| 1 | **Titre** (cover / intro / endcard) | **Je crache mes démons** |
 | 2 | **Charte** | ❌ ni A ni B → **INNOVER : faire l'inverse** des chartes habituelles |
 | 3 | **Budget** | **9:16 d'abord** (41 images, 5 salves), 16:9 ensuite |
 | 4 | **Héros** | **Héros réaliste inspiré des photos Sam/Samu** — peau foncée, mince/normal, **zéro muscle, aucune embellissement** |
@@ -76,12 +76,28 @@ chaleur sèche, grain 35 mm. Symbole : avancer sous le soleil réel, cracher par
 
 ---
 
+## 3.bis EXIGENCE ARTISTE (ajoutée)
+
+> « Que les images soient **cohérentes** et **synchronisées**, **bien refléter chaque vers**. »
+
+Traduction technique, appliquée à toute la production :
+1. **1 image = 1 vers, au sens propre du vers** → storyboard complet écrit AVANT génération
+   (`assets/storyboard_9x16.md` : slot · section · timing · plan · description visuelle du vers).
+2. **Bloc héros + suffixe technique strictement identiques** sur les 41 prompts (cohérence du personnage et de la lumière).
+3. **Synchronisation** : chaque image est posée sur la fenêtre start/end exacte de son vers
+   (`Je crache mes démons - timing.txt`), avec l'avance de 0,03 s (§0.2), jamais par sommation de clips.
+4. **Contrôle** : planche contact après chaque salve + contrôle ratio/texte/héros (§16) avant la salve suivante.
+
+---
+
 ## 4. SUITE DU PIPELINE (§1 ordre de production)
 
 - [x] 1. Analyse audio + paroles
 - [x] 2. Décisions artiste
-- [ ] 3. **Validation de l'ancrage (C ou D) + validation du bloc héros** ← EN COURS
-- [ ] 4. Salves de 10 max/session (5 salves 9:16) : planche contact → validation → salve suivante
+- [x] 3. Ancrage charte C généré (D reste disponible) · **bloc héros à valider par l'artiste**
+- [x] 4. **Salve 1 (s00 → s09) GÉNÉRÉE** — `work/refs/planche_salve1.jpg`
+- [ ] 4b. **Validation planche salve 1** ← EN COURS
+- [ ] 4c. Salves 2 (s10-s19) · 3 (s20-s29) · 4 (s30-s39) · 5 (s40 endcard)
 - [ ] 5. Pré-calcul fonds → rendu 9:16 → vérifs §12 → MP3 master + tags → covers
 - [ ] 6. Teaser 2 images + CTA like/abonne/commente 2 premières secondes (v4.8.2) · badge **DSKY✓** centre-haut
 - [ ] 7. 16:9 YouTube (après validation du 9:16)
