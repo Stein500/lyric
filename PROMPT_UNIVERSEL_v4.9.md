@@ -8,10 +8,14 @@
 
 ## 🚨 0. MISES À JOUR INTÉGRÉES (validées artiste sur *Je crache mes démons*)
 
-1. **PLUS DE TEASER FINAL.** Le teasing est remplacé par un **COLD-OPEN en tête de vidéo** :
-   - **4 à 6 s** (validé : **6 s**) qui jouent **la partie croustillante du morceau** (extrait audio du refrain explosif, ici 21.5→27.5 s = 2 lignes refrain) AVANT l'intro musicale.
-   - Visuel cold-open : images des 2 lignes chantées (slots refrain) + **titre cursive en haut** + **icônes CTA** ; puis coupe propre vers l'intro (fond s00 + titre + Daïsky).
-   - Structure temporelle : `TOTAL = HOOK + durée_chanson + apad(5 s)` ; toutes les fenêtres de vers sont décalées de `HOOK` (ici 6.0 s).
+1. **🎯 RÈGLE D'OR — LE LYRICS COMMENCE TOUJOURS PAR LE MOMENT FORT (cold-open).**
+   Plus de teaser final : c'est la **partie croustillante du morceau qui ouvre la vidéo**,
+   avant l'intro musicale, pour hooker le viewer puis laisser le lyrics démarrer proprement.
+   - **4 à 6 s** (validé artiste : **6 s**) d'extrait audio du moment fort (défaut = 1ʳᵉ apparition
+     du refrain-titre explosif ; ici 21.5→27.5 s = 2 lignes refrain), sur les images de ces lignes
+     + **titre cursive en haut** + **icônes CTA** ; puis coupe propre vers l'intro (fond s00 + titre + Daïsky).
+   - Structure temporelle : `TOTAL = HOOK + durée_chanson + apad(5 s)` ; toutes les fenêtres de vers
+     sont décalées de `HOOK` (ici 6.0 s). Implémenté : `scripts/pipeline_rendu_9x16.py` (branche `t < HOOK`).
 2. **Icônes like / s'abonner / commenter** visibles **les 2 premières secondes** (fondu entrée 0,3 s / sortie 0,4 s).
 3. **Badge = `DSKY✓`** (carte opaque + liseré cyan + éclair polygonal, DejaVu Sans Bold) **AU MILIEU EN HAUT** (y = 36 px), discret et visible, posé en POST en dernier sur TOUTES les frames + covers. Remplace « ⚡ DAÏSKY PROD » haut-gauche (⚡ reste dans la signature endcard).
 4. **Icône partage** « ultra cool » générée par l'IA (fond noir → composite screen/alpha luminance) affichée **au milieu de la vidéo** (`TOTAL/2 ± 2,5 s`, pulse 1,4 Hz, fondu 0,4 s).
@@ -38,6 +42,16 @@
 - **Monotonie obligatoire** + **fenêtre mini 1,2 s** entre vers consécutifs (détecte les timestamps inversés/copiés).
 - Correction : motif miroir d'un refrain répété (deltas identiques) + pics audio (piano/bridge) ; corrections journalisées (`work/timings_validated.json`) + **fichier `.lrc` corrigé committé**.
 - Cas réel : refrain 1 l3 `36.5→27.0`, l8 `40.0→39.5` ; pont l3 `148.5→146.5`.
+
+## 🧱 4bis. ANTI-RESET — SCRIPTS VERSIONNÉS (leçon du reset sandbox 2026-09-13)
+
+- **Reset subi en production** : HEAD retombé au commit de base → récupéré à 100 % via
+  `git fetch origin arena/<id>-<slug> && git reset --hard FETCH_HEAD` (push après chaque étape = salvateur).
+- `work/` (non versionné) avait été **perdu** (pipeline, icônes, fonds) → désormais :
+  **scripts de rendu VERSIONNÉS dans `scripts/`** : `setup_env.sh` (venv+deps+ffmpeg),
+  `pipeline_rendu_9x16.py` (rendu complet v4.9), `rebuild_timings.py` (timings depuis le `.lrc` committé).
+- `work/` = **cache uniquement** (fonds, wav, icônes, planches) ; icônes CTA/partage = 4 générations régénérables.
+- `.gitignore` : `.venv/`, `work/`, `*.pyc`, `bin/`, `__pycache__/` ; **`livrables/` et `assets/` JAMAIS ignorés**.
 
 ## 🖼 7. IMAGES — RÈGLES ABSOLUES (+ 7bis quotas)
 
@@ -100,10 +114,25 @@
      "https://raw.githubusercontent.com/Stein500/lyric/<HASH>/livrables/FICHIER"
   ```
 - Fichiers livrables : `Je_crache_mes_demons_9x16_v2.mp4` (final, endcard IA) · `Je_crache_mes_demons_master_320k.mp3` · `cover_je_crache_mes_demons_9x16.jpg` · `cover_je_crache_mes_demons_1080x1080.jpg`.
+- **COMMANDE EXACTE LIVRÉE (production *Je crache mes démons*, hash vérifié contenant les livrables) :**
+  ```bash
+  mkdir -p /storage/emulated/0/Web+ && cd /storage/emulated/0/Web+ \
+  && curl -fL --retry 5 --retry-delay 3 -C - -o "Je_crache_mes_demons_9x16_v2.mp4" \
+     "https://raw.githubusercontent.com/Stein500/lyric/487849fd7ee296a31fd5e4df7b4a2539577da0e3/livrables/Je_crache_mes_demons_9x16_v2.mp4" \
+  && curl -fL --retry 5 --retry-delay 3 -C - -o "Je_crache_mes_demons_master_320k.mp3" \
+     "https://raw.githubusercontent.com/Stein500/lyric/487849fd7ee296a31fd5e4df7b4a2539577da0e3/livrables/Je_crache_mes_demons_master_320k.mp3" \
+  && curl -fL --retry 5 --retry-delay 3 -C - -o "cover_9x16.jpg" \
+     "https://raw.githubusercontent.com/Stein500/lyric/487849fd7ee296a31fd5e4df7b4a2539577da0e3/livrables/cover_je_crache_mes_demons_9x16.jpg" \
+  && curl -fL --retry 5 --retry-delay 3 -C - -o "cover_1080x1080.jpg" \
+     "https://raw.githubusercontent.com/Stein500/lyric/487849fd7ee296a31fd5e4df7b4a2539577da0e3/livrables/cover_je_crache_mes_demons_1080x1080.jpg" \
+  && ls -la
+  ```
+  (Pour une production future : remplacer le hash par `git rev-parse HEAD` du commit contenant les livrables.)
 - ⚠️ **Limite GitHub 100 Mo/fichier** : exporter le MP4 ≤ ~95 Mo (crf 21 veryfast ≈ 81-86 Mo pour 3:41) sinon push refusé (v4.9 : crf19 réservé au master local `work/video_silent.mp4`).
 - v1 (endcard procédural) conservée en historique uniquement ; **v2 = final**.
 
 ## 📜 Historique
+- **v4.9.1** — §0.1 règle d'or « LE LYRICS COMMENCE PAR LE MOMENT FORT » · §4bis scripts versionnés scripts/ (post-reset) · §13 commande Termux EXACTE avec hash vérifié.
 - **v4.9** — cold-open 6 s (partie croustillante) remplace le teaser · DSKY✓ milieu haut · CTA 2 s bas centré 72 px + règle anti-mélange · icône partage milieu · quotas 10 gén/tour + contournement modération · validation paroles (monotonie, fenêtre mini, miroir refrain, .lrc) · pièges audio (`-v info`, concat WAV, `-c:v copy`+filtre) · bloc héros DAÏSKY fidèle/anti-embellissement · acquisition polices npm/fontTools · valeurs de vérif de référence.
 - v4.8.2 → v4.6 : voir archives `PROMPT_UNIVERSEL_v4.8.2.md`.
 
