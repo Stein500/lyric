@@ -90,6 +90,19 @@
 - GreatVibes : `npm pack @fontsource/great-vibes` → woff2 latin → **fontTools+brotli → .ttf** committé dans `assets/fonts/GreatVibes-Regular.ttf` (coverage complet, « œuvre » inclus) ; DejaVu Sans Bold dans `assets/fonts/`.
 - Cursive = paroles + titres intro/endcard/covers UNIQUEMENT ; tout le reste (badge, endcard, contacts) = DejaVu Sans Bold.
 
+## 📦 13. TÉLÉCHARGEMENTS TERMUX (REPRENABLES — preuve en production)
+
+- Dest téléphone : `/storage/emulated/0/Web+/` ; **toujours `git rev-parse HEAD` AVANT de partager** (le hash doit contenir les livrables).
+- Modèle de commande Termux (reprendable, retry, resume) :
+  ```bash
+  mkdir -p /storage/emulated/0/Web+ && cd /storage/emulated/0/Web+ \
+  && curl -fL --retry 5 --retry-delay 3 -C - -o "FICHIER" \
+     "https://raw.githubusercontent.com/Stein500/lyric/<HASH>/livrables/FICHIER"
+  ```
+- Fichiers livrables : `Je_crache_mes_demons_9x16_v2.mp4` (final, endcard IA) · `Je_crache_mes_demons_master_320k.mp3` · `cover_je_crache_mes_demons_9x16.jpg` · `cover_je_crache_mes_demons_1080x1080.jpg`.
+- ⚠️ **Limite GitHub 100 Mo/fichier** : exporter le MP4 ≤ ~95 Mo (crf 21 veryfast ≈ 81-86 Mo pour 3:41) sinon push refusé (v4.9 : crf19 réservé au master local `work/video_silent.mp4`).
+- v1 (endcard procédural) conservée en historique uniquement ; **v2 = final**.
+
 ## 📜 Historique
 - **v4.9** — cold-open 6 s (partie croustillante) remplace le teaser · DSKY✓ milieu haut · CTA 2 s bas centré 72 px + règle anti-mélange · icône partage milieu · quotas 10 gén/tour + contournement modération · validation paroles (monotonie, fenêtre mini, miroir refrain, .lrc) · pièges audio (`-v info`, concat WAV, `-c:v copy`+filtre) · bloc héros DAÏSKY fidèle/anti-embellissement · acquisition polices npm/fontTools · valeurs de vérif de référence.
 - v4.8.2 → v4.6 : voir archives `PROMPT_UNIVERSEL_v4.8.2.md`.
