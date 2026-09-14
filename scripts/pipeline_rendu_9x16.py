@@ -115,19 +115,20 @@ def load_bg(slot):
 BG = {s: load_bg(s) for s in SLOT_FILE}
 
 def kb_frame(slot, t):
-    """Ken Burns: zoom 1.02<->1.08 (alternating per slot), sinusoidal pan."""
-    slotnum = int(slot[1:])
-    # zoom oscillates; direction by slot parity
-    z = 1.02 + 0.06 * (0.5 - 0.5*math.cos(2*math.pi*t/ (TOTAL/2) ))
-    if slotnum % 2 == 0:
-        z = 1.08 - 0.06 * (0.5 - 0.5*math.cos(2*math.pi*t/(TOTAL/2)))
-    cw = W/z; ch = H/z
-    cw = min(cw, 1188); ch = min(ch, 2112)
-    mx = 1188 - cw; my = 2112 - ch
-    cx = mx/2 + (mx/2)*math.sin(2*math.pi*t/(TOTAL/3) + slotnum)
-    cy = my/2 + (my/2)*math.cos(2*math.pi*t/(TOTAL/4) + slotnum)
+    """Ken Burns: triangle zoom 1.02<->1.08 (16 s) + pan sinus + dérive continue (mouvement permanent, jamais de gel)."""
+    arr = BG[slot]
+    CH, CW = arr.shape[0], arr.shape[1]
+    slotnum = int(slot[1:]) if slot.startswith("s") and slot[1:].isdigit() else 0
+    # triangle zoom
+    zz = (t % 16.0)/16.0
+    z = 1.02 + 0.06*(zz*2) if zz < 0.5 else 1.08 - 0.06*((zz-0.5)*2)
+    cw = min(W/z, CW); ch = min(H/z, CH)
+    mx = CW - cw; my = CH - ch
+    # drift constant (>=1px/frame) + wobble, wrapped
+    cx = (mx/2 + (mx/2)*math.sin(2*math.pi*t/13.0 + slotnum) + 33.0*t) % mx
+    cy = (my/2 + (my/2)*math.cos(2*math.pi*t/17.0 + slotnum) + 29.0*t) % my
     x0 = int(np.clip(cx, 0, mx)); y0 = int(np.clip(cy, 0, my))
-    crop = BG[slot][y0:y0+int(ch), x0:x0+int(cw)]
+    crop = arr[y0:y0+int(ch), x0:x0+int(cw)]
     im = Image.fromarray(crop.astype(np.uint8)).resize((W,H), Image.LANCZOS)
     return np.asarray(im).astype(np.float32)
 
@@ -218,36 +219,34 @@ CTA = render_ui("♥  AIME     ▶  ABONNE-TOI     ●  COMMENTE", BOLD, 40, CRE
 TITLE = render_cursive("Ayon dèkpè", target_h=260, maxw=900)
 SUBTITLE = render_ui("Daïsky  ·  Wolof TechStein", BOLD, 48, AMBER+(255,))
 
-# endcard
-def build_endcard():
-    im = Image.new("RGB", (W,H), NAVY)
+# endcard (rendered at canvas size 1188x2112 so Ken Burns keeps moving on it too)
+def build_endcard(CW=1188, CH=2112):
+    im = Image.new("RGB", (CW, CH), NAVY)
     d = ImageDraw.Draw(im)
-    # vertical gradient
-    for y in range(H):
-        k = y/H
-        d.line([(0,y),(W,y)], fill=(int(10+8*k), int(12+6*k), int(22+10*k)))
-    # title
-    f = ImageFont.truetype(CURSIVE, 200)
+    for y in range(CH):
+        k = y/CH
+        d.line([(0,y),(CW,y)], fill=(int(10+8*k), int(12+6*k), int(22+10*k)))
+    sx = CW/W  # scale factor
+    f = ImageFont.truetype(CURSIVE, int(200*sx))
     t = "Ayon dèkpè"
-    d.text(((W-ImageFont.truetype(CURSIVE,200).getlength(t))/2, 240), t, font=f, fill=GOLD)
-    # credits (DejaVu bold)
-    fb = ImageFont.truetype(BOLD, 40)
+    d.text(((CW-f.getlength(t))/2, int(240*sx)), t, font=f, fill=GOLD)
+    fb = ImageFont.truetype(BOLD, int(40*sx))
     lines = [
         "Daïsky  ·  Wolof TechStein",
         "Afropop · 2026",
         "+229 00 00 00 00  ·  contact@daïsky.com",
         "@Daïsky",
     ]
-    y = 560
+    y = int(560*sx)
     for ln in lines:
-        d.text(((W-fb.getlength(ln))/2, y), ln, font=fb, fill=CREAM)
-        y += 64
+        d.text(((CW-fb.getlength(ln))/2, y), ln, font=fb, fill=CREAM)
+        y += int(64*sx)
     sig = "« Wolof TechStein beat wê ! »"
-    fs = ImageFont.truetype(CURSIVE, 64)
-    d.text(((W-ImageFont.truetype(CURSIVE,64).getlength(sig))/2, 880), sig, font=fs, fill=AMBER)
+    fs = ImageFont.truetype(CURSIVE, int(64*sx))
+    d.text(((CW-fs.getlength(sig))/2, int(880*sx)), sig, font=fs, fill=AMBER)
     return np.asarray(im).astype(np.float32)
 
-ENDCARD = build_endcard()
+BG["s10"] = build_endcard()
 
 # ----------------------------------------------------------------------------
 # frame pipeline
@@ -297,9 +296,10 @@ def build_frame(i):
             x0 = (W - sp.shape[1])/2
             blend(frame, sp, x0, y0, alpha=a)
     else:
-        # endcard with 0.5s fade-in
+        # endcard (slot s10) with Ken Burns + 0.5s fade-in
         a = min(1.0, (t - (HOOK+SONG_DUR))/0.5)
-        frame = ENDCARD*a + frame*(1-a)
+        ec = kb_frame("s10", t)
+        frame = ec*a + frame*(1-a)
 
     # global fade-out last 3s
     if t > TOTAL - 3.0:

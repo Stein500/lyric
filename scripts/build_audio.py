@@ -28,9 +28,11 @@ input_i, input_tp, input_lra, input_thresh, target_offset = (grab(k) for k in
 print("PASS1:", input_i, input_tp, input_lra, input_thresh, target_offset)
 
 # ---- pass 2 ----
+# alimiter (true-peak ceiling ~ -3 dB) en fin de chaîne : l'encodage MP3/AAC
+# crée des overs inter-échantillons (TP remonte), on les bride pour tenir TP <= -1.5.
 wav_norm = "work/song_norm.wav"
 r = sh(FF, "-y", "-i", INP,
-       "-af", f"loudnorm=I=-14:TP=-1.8:LRA=11:measured_I={input_i}:measured_TP={input_tp}:measured_LRA={input_lra}:measured_thresh={input_thresh}:offset={target_offset},highpass=f=30,lowpass=f=18000",
+       "-af", f"loudnorm=I=-14:TP=-1.8:LRA=11:measured_I={input_i}:measured_TP={input_tp}:measured_LRA={input_lra}:measured_thresh={input_thresh}:offset={target_offset},highpass=f=30,lowpass=f=18000,alimiter=limit=0.7079:level=disabled",
        "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", wav_norm)
 if not os.path.exists(wav_norm):
     print("PASS2 FAILED:\n", r.stderr[-2000:]); sys.exit(1)
