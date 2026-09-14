@@ -52,6 +52,35 @@
 
 ---
 
+## SALVE 2 — 10 images (découpage plan par plan des scènes s03–s07)
+> Découpe chaque scène multi-lignes en plans distincts (1 image par moment visuel).
+- **s11** « Quand tu marches dans la rue / les gens se retournent » (marche, foule qui se tourne)
+- **s12** « Tu as ce truc qui fait bouger / rêver » (aura magnétique, cercles de lumière)
+- **s13** « Tes pas sont une mélodie » (pieds + rubans de lumière, low angle)
+- **s14** « tu es une œuvre d'art / tu illumines le noir » (pose sculpture dorée)
+- **s15** « Danse avec moi » (invitation, main tendue au caméra)
+- **s16** « jusqu'au bout de la nuit / tu es la vie » (apogée fête, lanternes)
+- **s17** « Je danse comme si demain n'existait pas » (yeux fermés, vent, liberté)
+- **s18** « Pour la house, le break, pour la vie » (groove attitude, urbain dusk)
+- **s19** « Mes hanches parlent, mes pieds racontent » (plan hanches/pieds, joyaux)
+- **s20** « c'est ce qu'ils me disent / me crient » (foule, téléphones levés)
+
+## SALVE 3 — 10 images (refrain variants, pont, 2ᵉ bloc danse, outro)
+> Dernière salve : chaque vers distinct a désormais son propre plan. 30 images IA + endcard.
+- **s21** « Danse avec moi » (2ᵉ bloc, playful, main + hanche)
+- **s22** « jusqu'au bout de la nuit » (2ᵉ bloc, ciel dusk + premières étoiles)
+- **s23** « tu es belle / tu est celle » (portrait intime, self-love)
+- **s24** « bouger les murs / trembler le sol / champ de bataille » (stance puissante, low angle)
+  ⚠️ **Modération** : le prompt v1 (« battlefield / fierce ») a été bloqué → re-gén avec « commanding the dance floor like a queen ». Fichier `s24_champ_bataille.jpg` à (re)générer ; le pipeline a un **fallback s24→s23** tant que le fichier est absent.
+- **s25** « tu es trop jolie » A (twirl, jupe wax en volute dorée)
+- **s26** « tu es trop jolie » B (pose glamour, mains encadrant le visage)
+- **s27** « tu fais danser la vie » (rue animée dusk, bras ouverts, vie rayonnante)
+- **s28** « tu fais danser la nuit » v2 (canopée de guirlandes, rim cyan/amber, onirique)
+- **s29** OUTRO 1 (silhouette immobile, coucher de soleil → ambre/violet)
+- **s30** OUTRO 2 (dernier balancement, bras qui descendent, souffle final)
+
+---
+
 ## s10 — ENDCARD (programmatique, fond sombre épuré — pas d'IA)
 Fond dégradé sombre (noir profond → bleu nuit) généré par PIL + texte cursive GreatVibes (titre) + crédits DejaVu Sans Bold :
 - **Ayon dèkpè** (cursive 110)
