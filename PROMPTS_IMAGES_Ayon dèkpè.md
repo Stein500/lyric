@@ -94,6 +94,35 @@
 - **s39** gogo fin — « Ovèor gogo tipé... » (181.09) — dernier balancement, dusk
 > Images orphelines (supplantées, conservées en réserve) : s03, s04, s05, s06, s07, s27 (en partie), s28.
 
+## SALVE 5 « SEXY » — 10 images (tenues provocatrices, bon sens)
+> **Override §B utilisateur** : « aller un peu sexy aussi, tenues provocateur ». Bloc héros inchangé
+> (âge, formes, peau, cheveux) sauf la tenue → *« bold provocative take on traditional West-African
+> fashion (sleek fitted wax/ankara, backless or high-slit dresses, sequin and fabric mixes) »*.
+> Objectif : 1 image par ligne → ces 10 images couvrent les 1ʳᵉ déduplications.
+- **s40** (11.78 « Ayon dèkpè... ») — over-the-shoulder, backless, tension du cold-open
+- **s41** (33.58 « Wolof TechStein beat wê! ») — power pose, high slit, tag hit
+- **s42** (42.21 « Les gens se retournent ») — marche slow, fitted high-slit
+- **s43** (46.18 « ce truc qui fait rêver ») — fumée dorée, backless, aura hypnotique
+- **s44** (52.38 « tu es une œuvre d'art ») — pose statue, backless sculptée
+- **s45** (61.20 « danse avec moi » 2ᵉ) — invitation, cropped top + wrap skirt
+- **s46** (63.19 « tu es la vie » 1ʳᵉ) — groove énergique, sequins + wax
+- **s47** (72.85 « trop jolie » 2ᵉ) — twirl, high slit, flare
+- **s48** (79.97 « Wolof TechStein beat wê! » 2ᵉ) — night drop, backless, city glow
+- **s49** (99.33 « le monde était à moi ») — vent, cropped + wrap, mouvement libre
+
+## SALVE 6 « SEXY » — 10 images (à générer : les 10 dernières déduplications)
+> Objectif final : **50 vers = 50 images**. Lignes restantes à couvrir :
+- s50 (103.69 « histoire que seuls les danseurs comprennent »)
+- s51 (111.67 « pour la house, le break, pour la vie »)
+- s52 (118.17 « danse avec moi » 3ᵉ)
+- s53 (129.36 « champ de bataille » 2ᵉ)
+- s54 (132.48 « trop jolie » 3ᵉ)
+- s55 (134.94 « danser la nuit » 2ᵉ gogo)
+- s56 (140.30 « trop jolie » 4ᵉ)
+- s57 (143.07 « danser la vie » 2ᵉ gogo)
+- s58 (147.29 « Wolof TechStein beat wê! » 3ᵉ)
+- s59 (173.50 outro « Ayon dèkpè... »)
+
 ---
 
 ## s10 — ENDCARD (programmatique, fond sombre épuré — pas d'IA)
