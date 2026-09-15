@@ -79,6 +79,21 @@
 - **s29** OUTRO 1 (silhouette immobile, coucher de soleil → ambre/violet)
 - **s30** OUTRO 2 (dernier balancement, bras qui descendent, souffle final)
 
+## SALVE 4 « GOGO » — 9 images (fessiers, bon sens)
+> « Ovèor gogo tipé » = très beaux fessiers → les 9 lignes « gogo » du morceau passent sur des plans
+> **fessiers avec bon sens** : silhouette vue de dos / 3⁄4, courbes généreuses célébrées,
+> **tenue traditionnelle wax/ankara toujours complète**, lumière dorée, aucun nu, jamais de nudité.
+- **s31** gogo intro — « Ovèor gogo tipé... » (14.89) — vue de dos, premier balancement
+- **s32** gogo nuit — « danser la nuit » (18.75) — marché nocturne, vagues lentes
+- **s33** gogo vie — « danser la vie » (31.29) — low angle, jupe en volute dorée
+- **s34** gogo noir — « tu illumines le noir » (54.47) — silhouette dorée dans le noir
+- **s35** gogo guirlandes — « danser la nuit » (67.95) — over-the-shoulder, canopée de lumières
+- **s36** gogo foule — « c'est ce qu'ils me crient » (107.58) — dos au centre, foule en téléphones
+- **s37** gogo celle — « tu es celle » (125.26) — 3⁄4 arrière intime, chaîne de taille
+- **s38** gogo bounce — « danser la nuit » (134.94) — side-rear low angle, bounce puissant
+- **s39** gogo fin — « Ovèor gogo tipé... » (181.09) — dernier balancement, dusk
+> Images orphelines (supplantées, conservées en réserve) : s03, s04, s05, s06, s07, s27 (en partie), s28.
+
 ---
 
 ## s10 — ENDCARD (programmatique, fond sombre épuré — pas d'IA)
