@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 CURSIVE = os.path.join(ROOT, "assets", "fonts", "GreatVibes-Regular.ttf")
 BOLD = os.path.join(ROOT, "assets", "fonts", "DejaVuSans-Bold.ttf")
-BASE = os.path.join(ROOT, "assets", "raw", "portrait", "s01_refrain1.jpg")
+BASE = os.path.join(ROOT, "assets", "raw", "cover_base.jpg")  # base IA dédiée (salve covers) — v2
 os.makedirs(os.path.join(ROOT, "livrables"), exist_ok=True)
 
 TITLE = "Ayon dèkpè"
