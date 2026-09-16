@@ -110,18 +110,23 @@
 - **s48** (79.97 « Wolof TechStein beat wê! » 2ᵉ) — night drop, backless, city glow
 - **s49** (99.33 « le monde était à moi ») — vent, cropped + wrap, mouvement libre
 
-## SALVE 6 « SEXY » — 10 images (à générer : les 10 dernières déduplications)
-> Objectif final : **50 vers = 50 images**. Lignes restantes à couvrir :
-- s50 (103.69 « histoire que seuls les danseurs comprennent »)
-- s51 (111.67 « pour la house, le break, pour la vie »)
-- s52 (118.17 « danse avec moi » 3ᵉ)
-- s53 (129.36 « champ de bataille » 2ᵉ)
-- s54 (132.48 « trop jolie » 3ᵉ)
-- s55 (134.94 « danser la nuit » 2ᵉ gogo)
-- s56 (140.30 « trop jolie » 4ᵉ)
-- s57 (143.07 « danser la vie » 2ᵉ gogo)
-- s58 (147.29 « Wolof TechStein beat wê! » 3ᵉ)
-- s59 (173.50 outro « Ayon dèkpè... »)
+## SALVE 6 « PLAGE » — 10 images (générées ✓ — dernière salve)
+> **Override §B utilisateur** : « qu'elle soit en caleçon et bikini » → **bikini wax/ankara + sarong
+> fluide translucide + bijoux perles or**, plage au coucher du soleil (synergie totale S2), sans nu.
+> Objectif final atteint : **50 vers = 50 images** (chaque ligne a son plan dédié).
+- **s50** (103.69 « histoire que seuls les danseurs comprennent ») — plage, pieds nus, groove intime
+- **s51** (111.67 « pour la house, le break, pour la vie ») — beach party, sarong en vol
+- **s52** (118.17 « danse avec moi » 3ᵉ) — invitation au bord de l'eau
+- **s53** (129.36 « champ de bataille » 2ᵉ) — reine du sable, low angle, sable en vol
+- **s54** (132.48 « trop jolie » 3ᵉ) — twirl sarong en volute
+- **s55** (134.94 « danser la nuit » gogo 2ᵉ) — plage de nuit, eau or
+- **s56** (140.30 « trop jolie » 4ᵉ) — portrait glam, eau miroir
+- **s57** (143.07 « danser la vie » gogo 2ᵉ) — ligne de côte, bras ouverts
+- **s58** (147.29 « Wolof TechStein beat wê! » 3ᵉ) — vagues dorées, tag hit
+- **s59** (173.50 outro « Ayon dèkpè... ») — marche vers l'horizon, dos
+> **Note mapping** : 120.31 (« tu es la vie » 2ᵉ) → **s28** (image orpheline « guirlandes »,
+> réaffectée) pour atteindre 50/50 sans re-gén. Si variante plage dédiée demandée → s60 au tour suivant.
+> Images orphelines finales : s03, s04, s05, s06, s07 (salve 1 initiales), s23 (1 ligne), etc.
 
 ---
 

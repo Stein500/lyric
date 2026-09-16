@@ -31,7 +31,7 @@
 3. **📐 Formats** — (a) **9:16 seul (défaut)** · (b) 9:16 + 16:9 · (c) + version texte droit en parallèle.
 4. **✍️ Texte** — (a) **cursive + vague eau (défaut)** · (b) droit gras · (c) les deux styles 9:16.
 5. **⚡ Cold-open** — (a) 4 s · (b) **6 s (défaut)** · moment = défaut A.5 sauf choix artiste.
-6. **📣 CTA & badge** — icônes like/abonne-toi/commente 2 premières secondes : **rangée bas centrée (défaut)** / bas droite / colonne ; texte badge = label artiste (défaut `DSKY✓` ou initiales+✓) **milieu haut**.
+6. **📣 CTA & badge** — icônes like/abonne-toi/commente 2 premières secondes : **rangée bas centrée (défaut)** / bas droite / colonne ; texte badge = label artiste (défaut `DSKY✓` ou initiales+✓) — **pilule AU-DESSUS du vers affiché : apparait/disparait avec chaque vers (v5.1.1, plus fixe en haut)**.
 7. **🖼 Cover** — **100 % IA titre intégré (défaut)** · sinon texte post (dérogation tracée).
 8. **📦 Livrables** — vidéo+MP3+cover **(défaut)** · +16:9 ? · +version allégée ≤50 Mo ? · destination Termux `/storage/emulated/0/Web+/`.
 
@@ -49,7 +49,7 @@
 
 **D.2 Mouvement permanent.** Ken Burns canvas 1,1× (1188×2112 / 2112×1188), zoom 1,02→1,08 alterné par slot, pan sinusoïdal ; **vague eau** : cursive = ligne connectée ondulée par colonnes (ampl. ~4,5 px, 0,9 Hz) + apparition staggered 0,9 s / cascade inversée ; texte droit = lettres une à une (ampl. ~6 px).
 
-**D.3 Anti-coupure, anti-mélange & SAFE ZONES PLATFORMES (§H).** Bbox sprites : marges glyphs **≥6 px** ; dépassement = réduction puis retour à ligne, JAMAIS troncature. Positions UI canoniques 9:16 = **§H (safe zones TikTok/Reels/Shorts)** : badge y=150 centré · CTA y=232 · titres y=330 · paroles top sprite **H−520** (glyphs ≤ 0,80H) + **scrim dégradé sombre** derrière · partage 0,40×H · endcard crédits dans [0,25H ; 0,75H]. 16:9 YouTube : paroles base H−170, endcard cx=0,38×W, bande basse H−120 vide.
+**D.3 Anti-coupure, anti-mélange & SAFE ZONES PLATFORMES (§H).** Bbox sprites : marges glyphs **≥6 px** ; dépassement = réduction puis retour à ligne, JAMAIS troncature. Positions UI canoniques 9:16 = **§H (safe zones TikTok/Reels/Shorts)** : CTA y=232 · titres y=330 · **paroles : sprite centré 0,50×H (milieu de la vidéo, v5.1.1 — remplace top H−520)** + **scrim dégradé sombre central UNIQUEMENT quand un vers est affiché** · **badge = pilule au-dessus du vers, même fade in/out que le vers (v5.1.1 — remplace badge fixe y=150)** · partage 0,40×H · endcard crédits dans [0,25H ; 0,75H]. 16:9 YouTube : paroles base H−170, endcard cx=0,38×W, bande basse H−120 vide.
 
 **D.4 Audio.** loudnorm 2 passes : passe 1 `-v info` ; passe 2 `offset=` (pas target_offset) + `highpass=30,lowpass=18000` ; **TP cible −1,8** ; concat hook+chanson : **tout décoder en WAV 48 k d'abord** (concat pcm+mp3 = durées/gains faux) ; MP3 livrable = chanson seule 320 k 48 k `-t durée` ; tags ID3v2.4 : TIT2/TPE1/TALB/TPE2/TPUB/TCOM/TCON/TDRC + TXXX contact,email,producer,label + **USLT paroles nettoyées** + **APIC cover carrée**.
 
@@ -63,7 +63,7 @@
 
 **D.9 Covers.** Base IA **titre intégré** : grande cursive dorée lumineuse + nom artiste dessous, orthographe VÉRIFIÉE (régénérer si lettres déformées), hook visuel 1 point focal, lisible en vignette ; **badge posé en post** (bas-centre si haut occupé par le titre) ; sorties 1080×1920 q92 + carré 1080×1080 (APIC) + 1920×1080 si 16:9 ; pièges réels : cigarette ajoutée par l'IA si « smoke » → écrire « smoke from mouth, no cigarette » ; enseignes → `no signage`.
 
-**D.10 Vérifs avant commit.** Durée `nb_frames/fps` ±0,05 s · streams conformes · blackdetect = fade final seul · freezedetect 0 · frontières vers par diff pixel MP4 vs reconstruction <6 px (mesuré 1,8-2,6) · badge statique · bbox sprites ≥6 px (mesuré 39) · MP3 LUFS≈−14/TP≤−1,5/durée/tags · covers lisibles + badge.
+**D.10 Vérifs avant commit.** Durée `nb_frames/fps` ±0,05 s · streams conformes · blackdetect = fade final seul · freezedetect 0 · frontières vers par diff pixel MP4 vs reconstruction <6 px (mesuré 1,8-2,6) · badge suit les paroles (apparait/disparait avec les vers, v5.1.1) · bbox sprites ≥6 px (mesuré 39) · MP3 LUFS≈−14/TP≤−1,5/durée/tags · covers lisibles + badge.
 
 **D.11 Git/anti-reset.** Push après chaque étape ; reset sandbox → `git fetch origin <branche> && git reset --hard FETCH_HEAD` ; **scripts VERSIONNÉS dans `scripts/`** (setup_env.sh, pipeline_rendu_9x16.py, rebuild_timings.py) ; `work/` = cache non versionné (fonds, wav, icônes régénérables 4 gén.) ; `.gitignore` : .venv/, work/, *.pyc, bin/ ; livrables/ et assets/ JAMAIS ignorés.
 
@@ -111,11 +111,11 @@ A : `warm golden sunset backlight, subtle electric cyan rim light, amber accents
 
 | Zone | Pixels | Interdit d'y mettre |
 |---|---|---|
-| Bande haute (recherche/tabs) | y 0 → 144 | badge, titres, CTA |
+| Bande haute (recherche/tabs) | y 0 → 144 | titres, CTA (badge plus fixe — suit les vers, v5.1.1) |
 | Rail droit (boutons action) | x ≥ 910 ET y 960 → 1690 | paroles, icônes CTA, partage |
 | Bande basse (caption + nav + ➕) | y ≥ 1574 | paroles, CTA, crédits endcard |
 
-**Positions canoniques v5.1 (9:16) :** badge `y=150` centré (sous la barre) · rangée CTA 72 px `y=232` (sous le badge, visible 2 s) · titres hook/intro `y=330` · **paroles : top sprite `H−520`** (glyphs finissent ≤ 1560, au-dessus de la caption) largeur max **880 px** centrée (bord droit ≤ 910) · **scrim dégradé sombre** (alpha max ~110, bande y 1330→1650) derrière les paroles pour lisibilité sur toute UI/image · icône partage 150 px à `0,40×H` centrée (hors rail) · endcard : titre cursive y≈260 + crédits centrés dans [560 ; 1400].
+**Positions canoniques v5.1.1 (9:16) :** titres hook/intro `y=330` · rangée CTA 72 px `y=232` (visible 2 s) · **paroles : sprite centré `0,50×H` (y≈960, AU MILIEU de la vidéo)** largeur max **880 px** centrée · **badge DSKY✓ = pilule** (DejaVu Sans Bold 40, fond navy semi-transparent + liseré or) **centrée ~24 px AU-DESSUS du vers — fade-in 0,9 s avec le vers, fade-out 0,3 s à sa disparition (le badge ne reste JAMAIS seul en haut)** · **scrim dégradé sombre central** (bande y 620→1220, alpha max ~117, pré-calculé) **appliqué UNIQUEMENT quand un vers est affiché** (pas de voile permanent sur le héros) · icône partage 150 px à `0,40×H` centrée (hors rail) · endcard : titre cursive y≈260 + crédits centrés dans [560 ; 1400].
 **16:9 YouTube :** bande basse contrôles y ≥ H−120 vide · paroles base H−170 max 1640 px · titre intro haut-gauche sous y=140 · endcard cx=0,38×W.
 **Vérif ajoutée §D.10 :** frame test avec overlay UI TikTok (template `work/overlay_tiktok.png` si fourni) → aucun élément clé masqué.
 
@@ -125,6 +125,7 @@ A : `warm golden sunset backlight, subtle electric cyan rim light, amber accents
 
 ## 📜 Historique
 - **v5.1** — §G **5 styles canoniques + liberté d'innovation IA** + règles de beauté universelles · §H **SAFE ZONES plateformes** (barre recherche haut, rail droit, caption/nav bas) avec positions canoniques v5.1 (badge y150, CTA y232, titres y330, paroles top H−520 + scrim) · §B.Q1 et §D.3 mis à jour · production de référence re-rendue en `..._9x16_v3_safezones.mp4`.
+- **v5.1.1** (2026-09-15, « Ayon dèkpè ») — **paroles AU MILIEU de la vidéo** (sprite centré 0,50×H, remplace top H−520) + **badge DSKY✓ en pilule qui suit les vers** (centré ~24 px au-dessus du vers, même fade in/out que le vers — plus de badge fixe y=150) + **scrim central conditionnel** (seulement quand un vers est affiché, plus de voile permanent) · §B.Q6, §D.3, §D.10, §H mis à jour.
 - **v5.0** — UNIVERSALISATION : §A analyse auto tout format · §B questionnaire unique 8 questions avec défauts (« direct/confiance » = défauts) · §E gabarits à trous pour tout morceau · hérite v4.9.1.
 - v4.x : productions & leçons archivées (`PROMPT_UNIVERSEL_v4.8.2.md`, `PROMPT_UNIVERSEL_v4.9.md`).
 

@@ -61,26 +61,26 @@ L = [
     (97.55, "Je danse comme si demain n'existait pas", "s17"),
     (99.33, "Je danse comme si le monde était à moi", "s49"),
     (101.40,"Mes hanches parlent, mes pieds racontent", "s19"),
-    (103.69,"Une histoire que seuls les danseurs comprennent", "s19"),
+    (103.69,"Une histoire que seuls les danseurs comprennent", "s50"),
     (105.49,"Ayon dèkpè, c'est ce qu'ils me disent", "s20"),
     (107.58,"Ovèor gogo tipé, c'est ce qu'ils me crient", "s36"),
     (109.66,"Mais moi je danse pour moi, pour la nuit", "s18"),
-    (111.67,"Pour la house, le break, pour la vie", "s18"),
+    (111.67,"Pour la house, le break, pour la vie", "s51"),
     (113.68,"Danse, danse, danse avec moi", "s21"),
     (116.13,"Danse, danse, danse jusqu'au bout de la nuit", "s22"),
-    (118.17,"Danse, danse, danse avec moi", "s21"),
-    (120.31,"Danse, danse, danse, tu es la vie", "s22"),
+    (118.17,"Danse, danse, danse avec moi", "s52"),
+    (120.31,"Danse, danse, danse, tu es la vie", "s28"),
     (122.35,"Ayon dèkpè... tu es belle", "s23"),
     (125.26,"Ovèor gogo tipé... tu es celle", "s37"),
     (127.09,"Qui fait bouger les murs, qui fait trembler le sol", "s24"),
-    (129.36,"Qui transforme la piste en un champ de bataille", "s24"),
-    (132.48,"Ayon dèkpè, tu es trop jolie", "s26"),
-    (134.94,"Ovèor gogo tipé, tu fais danser la nuit", "s38"),
-    (140.30,"Ayon dèkpè, tu es trop jolie", "s25"),
-    (143.07,"Ovèor gogo tipé, tu fais danser la vie", "s27"),
-    (147.29,"Wolof TechStein beat wê!", "s00"),
+    (129.36,"Qui transforme la piste en un champ de bataille", "s53"),
+    (132.48,"Ayon dèkpè, tu es trop jolie", "s54"),
+    (134.94,"Ovèor gogo tipé, tu fais danser la nuit", "s55"),
+    (140.30,"Ayon dèkpè, tu es trop jolie", "s56"),
+    (143.07,"Ovèor gogo tipé, tu fais danser la vie", "s57"),
+    (147.29,"Wolof TechStein beat wê!", "s58"),
     (155.49,"Wolof TechStein beat wê...", "s29"),
-    (173.50,"Ayon dèkpè...", "s29"),
+    (173.50,"Ayon dèkpè...", "s59"),
     (181.09,"Ovèor gogo tipé...", "s39"),
     (187.28,"(Danse... danse...)", "s30"),
 ]
@@ -130,6 +130,12 @@ SLOT_FILE = {
     "s44": "s44_oeuvre_backless.jpg", "s45": "s45_invitation_sultry.jpg",
     "s46": "s46_vie_sequins.jpg", "s47": "s47_jolie_twirl.jpg",
     "s48": "s48_tag_nuit.jpg", "s49": "s49_monde_vent.jpg",
+    # Salve 6 « plage » (bikini wax + sarong — dernière salve, 1 vers = 1 image)
+    "s50": "s50_plage_histoire.jpg", "s51": "s51_plage_house.jpg",
+    "s52": "s52_plage_invitation.jpg", "s53": "s53_plage_reine.jpg",
+    "s54": "s54_plage_twirl.jpg", "s55": "s55_plage_nuit.jpg",
+    "s56": "s56_plage_glam.jpg", "s57": "s57_plage_vie.jpg",
+    "s58": "s58_plage_tag.jpg", "s59": "s59_plage_fin.jpg",
 }
 # fallback si un fichier d'image est absent (ex: s24 en attente de re-gén modération)
 SLOT_FALLBACK = {"s24": "s23"}
@@ -247,7 +253,20 @@ for t, txt, slot, win in L:
         LYR[txt] = render_cursive(txt)
 
 # UI sprites
-BADGE = render_ui("DSKY✓", BOLD, 52, CREAM+(255,))
+def render_badge_pill(text, size=40):
+    """Badge DSKY✓ en pilule (fond navy + bordure or) — suit les paroles (v5.1.1)."""
+    f = ImageFont.truetype(BOLD, size)
+    asc, desc = f.getmetrics()
+    tw = int(f.getlength(text)); th = asc + desc
+    pad_x, pad_y = 24, 13
+    w = tw + pad_x*2; h = th + pad_y*2
+    sp = Image.new("RGBA", (w, h), (0,0,0,0))
+    d = ImageDraw.Draw(sp)
+    d.rounded_rectangle([1, 1, w-2, h-2], radius=h//2, fill=NAVY+(200,), outline=GOLD+(210,), width=2)
+    d.text((pad_x, pad_y-3), text, font=f, fill=CREAM+(255,))
+    return np.asarray(sp).astype(np.float32)
+
+BADGE = render_badge_pill("DSKY✓", 40)
 CTA = render_ui("♥  AIME     ▶  ABONNE-TOI     ●  COMMENTE", BOLD, 40, CREAM+(255,))
 TITLE = render_cursive("Ayon dèkpè", target_h=260, maxw=900)
 SUBTITLE = render_ui("Daïsky  ·  Wolof TechStein", BOLD, 48, AMBER+(255,))
@@ -283,6 +302,12 @@ BG["s10"] = build_endcard()
 
 # ----------------------------------------------------------------------------
 # frame pipeline
+# v5.1.1: scrim central pré-calculé (bande ~620→1220), appliqué UNIQUEMENT quand un vers est affiché
+SCRIM_C = np.zeros((H, W, 1), np.float32)
+for _yy in range(620, 1220):
+    _k = min(min(1.0, (_yy-620)/150.0), min(1.0, (1220-_yy)/130.0))
+    SCRIM_C[_yy, :, 0] = 0.46*_k
+
 def build_frame(i):
     t = i/FPS
     # background slot
@@ -296,16 +321,7 @@ def build_frame(i):
                 slot = sl; break
     frame = kb_frame(slot, t)
 
-    # scrim behind lyrics (band 1330..1650)
-    scrim = np.zeros((H, W, 1), np.float32)
-    for yy in range(1330, 1650):
-        scrim[yy, :, 0] = min(0.43, (yy-1330)/320*0.43 + 0.05)
-    frame = frame*(1-scrim) + (frame*0.15)*scrim  # darken behind text
-
-    # badge (always, y=150 centered)
-    blend(frame, BADGE, (W-BADGE.shape[1])/2, 150)
-
-    # CTA row (first 2s)
+    # CTA row (first 2s) — zone haut inchangée
     if t < 2.0:
         blend(frame, CTA, (W-CTA.shape[1])/2, 232)
 
@@ -319,15 +335,19 @@ def build_frame(i):
         cur = None
         for onset, txt, sl, win in L:
             if st >= onset - 0.02 and st < onset + win:
-                cur = (txt, st - onset); break
+                cur = (txt, st - onset, win); break
         if cur:
-            txt, el = cur
+            txt, el, win = cur
             sp = wave_shift(LYR[txt], t)
-            a = min(1.0, el/0.9)
+            # fade-in 0.9 s + fade-out 0.3 s (le vers « disparaît » proprement)
+            a = min(min(1.0, el/0.9), min(1.0, max(0.0, win-el)/0.3))
             th = sp.shape[0]
-            y0 = 1400 + max(0, (150 - th)//2)   # top sprite H-520=1400, keep <=1560
+            y0 = H//2 - th//2                    # v5.1.1: paroles AU MILIEU de la vidéo
             x0 = (W - sp.shape[1])/2
+            frame = frame*(1-SCRIM_C) + (frame*0.15)*SCRIM_C  # scrim central conditionnel
             blend(frame, sp, x0, y0, alpha=a)
+            # v5.1.1: badge DSKY✓ au-dessus du vers — apparait/disparait AVEC le vers
+            blend(frame, BADGE, (W-BADGE.shape[1])/2, y0 - BADGE.shape[0] - 24, alpha=a)
     else:
         # endcard (slot s10) with Ken Burns + 0.5s fade-in
         a = min(1.0, (t - (HOOK+SONG_DUR))/0.5)
@@ -347,7 +367,7 @@ def run():
     cmd = [FF, "-y", "-loglevel", "error",
            "-f", "image2pipe", "-framerate", str(FPS), "-i", "-",
            "-i", os.path.join(ROOT, "work", "master_audio.wav"),
-           "-c:v", "libx264", "-preset", "medium", "-crf", "21",
+           "-c:v", "libx264", "-preset", "medium", "-crf", "23",
            "-pix_fmt", "yuv420p", "-tune", "film",
            "-c:a", "aac", "-b:a", "192k",
            "-af", f"afade=t=out:st={TOTAL-3.0:.2f}:d=3",
