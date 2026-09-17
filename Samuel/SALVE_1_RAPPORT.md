@@ -43,5 +43,5 @@
 Commande reprenable sur UNE SEULE LIGNE (norme anti-casse) :
 
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/salve1_samuel.zip; ls -lh /storage/emulated/0/Web+/
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/2a4a5d40687a39e1c80fffe53e9ad12a185b4abb/livrables/salve1_samuel.zip; ls -lh /storage/emulated/0/Web+/
 ```
