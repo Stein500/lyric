@@ -50,44 +50,44 @@ Chaque image a été générée en utilisant l'image originale correspondante co
 
 ### 1. Commande globale (Pack ZIP complet avec les 8 photos)
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/salve1_samuel.zip && unzip -o salve1_samuel.zip; ls -lh /storage/emulated/0/Web+/
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/salve1_samuel.zip && unzip -o salve1_samuel.zip; ls -lh /storage/emulated/0/Web+/
 ```
 
 ### 2. Commande combinée (Télécharge les 8 images individuelles en direct)
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; for img in Snapchat-1058718015_DSLR.jpg Snapchat-1240900071_DSLR.jpg Snapchat-1725744679_DSLR.jpg Snapchat-2000062992_DSLR.jpg Snapchat-2138729779_DSLR.jpg Snapchat-354156549_DSLR.jpg Snapchat-374649989_DSLR.jpg Snapchat-948631217_DSLR.jpg; do curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/Samuel/$img; done; ls -lh /storage/emulated/0/Web+/
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; for img in Snapchat-1058718015_DSLR.jpg Snapchat-1240900071_DSLR.jpg Snapchat-1725744679_DSLR.jpg Snapchat-2000062992_DSLR.jpg Snapchat-2138729779_DSLR.jpg Snapchat-354156549_DSLR.jpg Snapchat-374649989_DSLR.jpg Snapchat-948631217_DSLR.jpg; do curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/Samuel/$img; done; ls -lh /storage/emulated/0/Web+/
 ```
 
 ### 3. Commandes unitaires image par image (au choix)
 - **Image 1 (`Snapchat-1058718015_DSLR.jpg`) :**
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/Samuel/Snapchat-1058718015_DSLR.jpg
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/Samuel/Snapchat-1058718015_DSLR.jpg
 ```
 - **Image 2 (`Snapchat-1240900071_DSLR.jpg`) :**
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/Samuel/Snapchat-1240900071_DSLR.jpg
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/Samuel/Snapchat-1240900071_DSLR.jpg
 ```
 - **Image 3 (`Snapchat-1725744679_DSLR.jpg`) :**
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/Samuel/Snapchat-1725744679_DSLR.jpg
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/Samuel/Snapchat-1725744679_DSLR.jpg
 ```
 - **Image 4 (`Snapchat-2000062992_DSLR.jpg`) :**
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/Samuel/Snapchat-2000062992_DSLR.jpg
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/Samuel/Snapchat-2000062992_DSLR.jpg
 ```
 - **Image 5 (`Snapchat-2138729779_DSLR.jpg`) :**
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/Samuel/Snapchat-2138729779_DSLR.jpg
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/Samuel/Snapchat-2138729779_DSLR.jpg
 ```
 - **Image 6 (`Snapchat-354156549_DSLR.jpg`) :**
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/Samuel/Snapchat-354156549_DSLR.jpg
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/Samuel/Snapchat-354156549_DSLR.jpg
 ```
 - **Image 7 (`Snapchat-374649989_DSLR.jpg`) :**
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/Samuel/Snapchat-374649989_DSLR.jpg
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/Samuel/Snapchat-374649989_DSLR.jpg
 ```
 - **Image 8 (`Snapchat-948631217_DSLR.jpg`) :**
 ```bash
-mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/{COMMIT_HASH}/livrables/Samuel/Snapchat-948631217_DSLR.jpg
+mkdir -p /storage/emulated/0/Web+; cd /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -O https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b07b-lyric/livrables/Samuel/Snapchat-948631217_DSLR.jpg
 ```
