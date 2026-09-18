@@ -129,3 +129,9 @@ A : `warm golden sunset backlight, subtle electric cyan rim light, amber accents
 - v4.x : productions & leçons archivées (`PROMPT_UNIVERSEL_v4.8.2.md`, `PROMPT_UNIVERSEL_v4.9.md`).
 
 **Signature :** « Wolof TechStein beat wê ! » ⚡
+es v5.1 (badge y150, CTA y232, titres y330, paroles top H−520 + scrim) · §B.Q1 et §D.3 mis à jour · production de référence re-rendue en `..._9x16_v3_safezones.mp4`.
+- **v5.1.1** (2026-09-15, « Ayon dèkpè ») — **paroles AU MILIEU de la vidéo** (sprite centré 0,50×H, remplace top H−520) + **badge DSKY✓ en pilule qui suit les vers** (centré ~24 px au-dessus du vers, même fade in/out que le vers — plus de badge fixe y=150) + **scrim central conditionnel** (seulement quand un vers est affiché, plus de voile permanent) · §B.Q6, §D.3, §D.10, §H mis à jour.
+- **v5.0** — UNIVERSALISATION : §A analyse auto tout format · §B questionnaire unique 8 questions avec défauts (« direct/confiance » = défauts) · §E gabarits à trous pour tout morceau · hérite v4.9.1.
+- v4.x : productions & leçons archivées (`PROMPT_UNIVERSEL_v4.8.2.md`, `PROMPT_UNIVERSEL_v4.9.md`).
+
+**Signature :** « Wolof TechStein beat wê ! » ⚡
