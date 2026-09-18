@@ -100,7 +100,7 @@ titre = fit(wavy("Nan yi a ga djin wê", fcT))
 
 # ---- endcard ----
 def endcard():
-    im = BG["s37_endcard"].resize((W, H), Image.LANCZOS).convert("RGBA")
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dd = ImageDraw.Draw(ov)
     dd.rectangle([(0, int(0.25 * H)), (W, int(0.75 * H))], fill=(5, 5, 8, 190))
     tt = fit(wavy("Nan yi a ga djin wê", fcT, amp=3), W - 160)
@@ -149,43 +149,32 @@ def current_slot(t):
 def render_frame(i):
     t = i / FPS
     fade_end = max(0.0, min(1.0, (TOTAL - t) / 3.0)) if t > TOTAL - 3 else 1.0
-    # fond
-    if t >= HOOK + SONG - 3.0:
-        base = END.convert("RGB")
-        slot = "s37_endcard"
-        tin, dur = t - (HOOK + SONG - 3), 8
+    is_end = t >= HOOK + SONG - 3.0
+    if is_end:
+        tin = t - (HOOK + SONG - 3)
+        base = crop_canvas(BG["s37_endcard"], kb_params("s37_endcard", tin, 8.0), tin)
+        frame = Image.alpha_composite(base.convert("RGBA"), END)
+        alpha = min(1.0, tin / 0.5)
     else:
         slot, tv, dur = current_slot(t)
-        canvas = BG[slot]
-        base = crop_canvas(canvas, kb_params(slot, tv, dur), tv)
-    arr = np.array(base).astype(np.float32)
-    arr *= (0.4 + 0.6 * SCRIM)[..., None] * 0 + 1.0  # scrim appliqué via overlay ci-dessous
-    frame = base.convert("RGBA")
-    ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    # scrim bas
-    sc = Image.fromarray((SCRIM * 255).astype(np.uint8), "L")
-    ov.paste((0, 0, 0, 255), (0, 0, W, H), sc)
-    frame = Image.alpha_composite(frame, ov)
-    out = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    # vers courant
-    for t0, t1, txt, s in vers:
-        if t0 - 0.05 <= t < t1:
-            img = VERSW[txt]
-            prog = stagger_alpha((t - t0) / 0.9)
-            nchars = max(1, int(img.width * prog)) if prog < 1 else img.width
-            vis = img.crop((0, 0, nchars, img.height))
-            frame.alpha_composite(vis, ((W - img.width) // 2, H - 520 - img.height // 2))
-            break
-    # badge : apparaît/disparaît avec les paroles du hook + endcard
-    alpha = 0.0
-    if t < HOOK:
-        alpha = min(1.0, t / 0.5) * min(1.0, (HOOK - t) / 0.5)
-    if t >= HOOK + SONG - 3.0:
-        alpha = min(1.0, (t - (HOOK + SONG - 3)) / 0.5)
+        base = crop_canvas(BG[slot], kb_params(slot, tv, dur), tv)
+        frame = base.convert("RGBA")
+        ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        sc = Image.fromarray((SCRIM * 255).astype(np.uint8), "L")
+        ov.paste((0, 0, 0, 255), (0, 0, W, H), sc)
+        frame = Image.alpha_composite(frame, ov)
+        alpha = min(1.0, t / 0.5) * min(1.0, (HOOK - t) / 0.5) if t < HOOK else 0.0
+        for t0, t1, txt, s in vers:
+            if t0 - 0.05 <= t < t1:
+                img = VERSW[txt]
+                prog = stagger_alpha((t - t0) / 0.9)
+                nchars = max(1, int(img.width * prog)) if prog < 1 else img.width
+                vis = img.crop((0, 0, nchars, img.height))
+                frame.alpha_composite(vis, ((W - img.width) // 2, H - 520 - img.height // 2))
+                break
     if alpha > 0.01:
         b = (BADGE * np.array([1, 1, 1, alpha])[None, None, :])
         frame = Image.alpha_composite(frame, Image.fromarray((b * 255).astype(np.uint8)))
-    # titre hook y=330
     if t < HOOK:
         a = min(1.0, t / 0.6) * min(1.0, (HOOK - t) / 0.6)
         tt = titre.copy()
