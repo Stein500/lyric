@@ -114,7 +114,7 @@ def endcard():
         c = (235, 225, 200, 255) if i < 7 else (255, 205, 90, 255)
         dd.text(((W - dd.textlength(ln, font=f)) / 2, y), ln, font=f, fill=c)
         y += 58
-    return im
+    return Image.alpha_composite(im, ov)
 
 END = endcard()
 
@@ -139,11 +139,11 @@ def current_slot(t):
     """slot de fond : suit le vers courant (intro s00 avant 1er vers)."""
     tv = t - HOOK
     if tv < vers[0][0] - HOOK + 0.03:
-        return "s00_intro", tv
+        return "s00_intro", tv, vers[0][0] - HOOK
     for t0, t1, txt, s in vers:
         if t0 <= t < t1:
-            return s, tv
-    return vers[-1][3], tv
+            return s, tv, t1 - t0
+    return vers[-1][3], tv, 6.0
 
 # transitions fondu entre slots 0,35 s
 def render_frame(i):
@@ -155,11 +155,9 @@ def render_frame(i):
         slot = "s37_endcard"
         tin, dur = t - (HOOK + SONG - 3), 8
     else:
-        slot, tv = current_slot(t)
+        slot, tv, dur = current_slot(t)
         canvas = BG[slot]
-        # micro-fondu entre slots
-        base = crop_canvas(canvas, kb_params(slot, tv, 4.0), tv)
-        tin, dur = tv, 4
+        base = crop_canvas(canvas, kb_params(slot, tv, dur), tv)
     arr = np.array(base).astype(np.float32)
     arr *= (0.4 + 0.6 * SCRIM)[..., None] * 0 + 1.0  # scrim appliqué via overlay ci-dessous
     frame = base.convert("RGBA")
