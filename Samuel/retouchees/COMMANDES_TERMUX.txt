@@ -1,0 +1,22 @@
+# ── Téléchargement des photos retouchées (Termux) ──
+# Source fiable : GitHub (branche arena/01a0b5b6-lyric du dépôt Stein500/lyric)
+# Les fichiers sont mis à jour sur GitHub après CHAQUE salve.
+
+BASE="https://raw.githubusercontent.com/Stein500/lyric/arena/01a0b5b6-lyric/Samuel/retouchees"
+
+# OPTION 1 : tout en un (ZIP — recommandé)
+mkdir -p ~/Samuel && cd ~/Samuel
+curl -L -o Samuel_retouchees.zip "$BASE/Samuel_retouchees.zip"
+unzip -o Samuel_retouchees.zip
+# si "unzip: command not found" ->  pkg install unzip
+
+# OPTION 2 : fichier par fichier (liste toujours à jour)
+mkdir -p ~/Samuel && cd ~/Samuel
+for f in $(curl -sL "$BASE/liste.txt"); do curl -LO "$BASE/$f"; done
+
+# OPTION 3 : une seule image précise
+# curl -LO "$BASE/Snapchat-1240900071_P3_Etalonnage.jpg"
+
+# ── Ancien lien (serveur de session, navigateur uniquement) ──
+# https://8000-icz7gz8mau64kf4n1thyy.e2b.app  ->  ne marche pas avec curl,
+# utilise les liens GitHub ci-dessus.
