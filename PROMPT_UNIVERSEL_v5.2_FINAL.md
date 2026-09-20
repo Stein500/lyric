@@ -12,7 +12,7 @@
 
 **0.2 Badge DISCRET qui vit avec les paroles.** Badge artiste (défaut `DSKY✓`) : compact (police UI ~40 px), opacité **≤ 75 %**, il **apparaît en fondu 0,4 s avec chaque vers et disparaît en fondu 0,4 s à sa fin** — rien de permanent, jamais de grosse pastille fixe. Présent aussi pendant le hook (discret) et l'endcard.
 
-**0.3 Endcard SIMPLE.** Fini la longue liste de crédits : endcard = titre cursive + **WhatsApp + email seulement** + badge DSKY✓. Contacts défaut artiste : `daiskypro@proton.me` · WhatsApp `+229 01 61 16 24 08` / `+229 01 49 11 49 51`. Les mêmes contacts vont dans les tags ID3 (TXXX contact/email).
+**0.3 Endcard SIMPLE.** Fini la longue liste de crédits : endcard = titre cursive + **WhatsApp + email seulement** + badge DSKY✓. Contacts défaut artiste : `daiskyproduction@gmail.com` · WhatsApp `+229 01 61 16 24 08` / `+229 01 49 11 49 51`. Les mêmes contacts vont dans les tags ID3 (TXXX contact/email).
 
 **0.4 Douceur optionnelle.** Si l'artiste dit « adoucis » : voile lumineux chaud (blend glow 0,22), contraste ×0,92, noirs relevés (+14), et suffixe de style soft (haze ambre, ombres douces) sur TOUTES les salves suivantes — appliqué rétroactivement aux salves déjà validées pour cohérence.
 

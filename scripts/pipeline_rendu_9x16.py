@@ -107,7 +107,7 @@ def endcard():
     tt = fit(wavy("Nan yi a ga djin wê", fcT, amp=3), W - 160)
     ov.paste(tt, ((W - tt.width) // 2, int(0.27 * H)), tt)
     y = int(0.27 * H) + tt.height + 46
-    lines = ["WhatsApp : +229 01 61 16 24 08", "ou +229 01 49 11 49 51", "daiskypro@proton.me"]
+    lines = ["WhatsApp : +229 01 61 16 24 08", "ou +229 01 49 11 49 51", "daiskyproduction@gmail.com"]
     for i, ln in enumerate(lines):
         f = fui
         c = (235, 225, 200, 255) if i < 2 else (255, 205, 90, 255)
