@@ -79,20 +79,21 @@ def stagger_alpha(prog):
 # ---- scrim précalculé ----
 scrim = Image.new("L", (W, H), 0)
 d = ImageDraw.Draw(scrim)
-for y in range(H - 760, H - 380):
-    d.line([(0, y), (W, y)], fill=int(200 * (y - (H - 760)) / 380))
-for y in range(H - 380, H):
-    d.line([(0, y), (W, y)], fill=200)
+cy = H // 2
+for y in range(cy - 260, cy + 260):
+    dist = abs(y - cy)
+    a = int(170 * max(0.0, 1.0 - (dist / 260.0) ** 2))
+    d.line([(0, y), (W, y)], fill=a)
 SCRIM = np.array(scrim) / 255.0
 
 # ---- badge DSKY✓ ----
 badge_lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
 db = ImageDraw.Draw(badge_lay)
-fb = ImageFont.truetype(FONT_UI, 58)
+fb = ImageFont.truetype(FONT_UI, 40)
 tw = db.textlength("DSKY✓", font=fb)
-db.rounded_rectangle([(W / 2 - tw / 2 - 40, 98), (W / 2 + tw / 2 + 40, 202)], radius=26,
-                     fill=(10, 10, 14, 205), outline=(255, 190, 60, 255), width=3)
-db.text(((W - tw) / 2, 118), "DSKY✓", font=fb, fill=(255, 205, 90, 255))
+db.rounded_rectangle([(W / 2 - tw / 2 - 28, 118), (W / 2 + tw / 2 + 28, 190)], radius=20,
+                     fill=(10, 10, 14, 150), outline=(255, 190, 60, 190), width=2)
+db.text(((W - tw) / 2, 132), "DSKY✓", font=fb, fill=(255, 205, 90, 210))
 BADGE = np.array(badge_lay).astype(np.float32) / 255.0
 
 # ---- titre hook ----
@@ -106,14 +107,12 @@ def endcard():
     tt = fit(wavy("Nan yi a ga djin wê", fcT, amp=3), W - 160)
     ov.paste(tt, ((W - tt.width) // 2, int(0.27 * H)), tt)
     y = int(0.27 * H) + tt.height + 46
-    lines = ["Artiste : Daïsky", "Genre : Hip-Hop Afro motivation", "Label / prod : Wolof TechStein",
-             "Année : 2026", "Contact : +229 — à compléter", "Email : à compléter",
-             "@daisky_officiel", "Wolof TechStein beat wê !"]
+    lines = ["WhatsApp : +229 01 61 16 24 08", "ou +229 01 49 11 49 51", "daiskypro@proton.me"]
     for i, ln in enumerate(lines):
-        f = fui if i < 4 else fuiS
-        c = (235, 225, 200, 255) if i < 7 else (255, 205, 90, 255)
+        f = fui
+        c = (235, 225, 200, 255) if i < 2 else (255, 205, 90, 255)
         dd.text(((W - dd.textlength(ln, font=f)) / 2, y), ln, font=f, fill=c)
-        y += 58
+        y += 64
     return Image.alpha_composite(im, ov)
 
 END = endcard()
@@ -154,7 +153,7 @@ def render_frame(i):
         tin = t - (HOOK + SONG - 3)
         base = crop_canvas(BG["s37_endcard"], kb_params("s37_endcard", tin, 8.0), tin)
         frame = Image.alpha_composite(base.convert("RGBA"), END)
-        alpha = min(1.0, tin / 0.5)
+        alpha = min(1.0, tin / 0.5) * 0.9
     else:
         slot, tv, dur = current_slot(t)
         base = crop_canvas(BG[slot], kb_params(slot, tv, dur), tv)
@@ -163,14 +162,16 @@ def render_frame(i):
         sc = Image.fromarray((SCRIM * 255).astype(np.uint8), "L")
         ov.paste((0, 0, 0, 255), (0, 0, W, H), sc)
         frame = Image.alpha_composite(frame, ov)
-        alpha = min(1.0, t / 0.5) * min(1.0, (HOOK - t) / 0.5) if t < HOOK else 0.0
+        alpha = min(1.0, t / 0.4) * min(1.0, (HOOK - t) / 0.4) * 0.75 if t < HOOK else 0.0
         for t0, t1, txt, s in vers:
             if t0 - 0.05 <= t < t1:
                 img = VERSW[txt]
                 prog = stagger_alpha((t - t0) / 0.9)
                 nchars = max(1, int(img.width * prog)) if prog < 1 else img.width
                 vis = img.crop((0, 0, nchars, img.height))
-                frame.alpha_composite(vis, ((W - img.width) // 2, H - 520 - img.height // 2))
+                frame.alpha_composite(vis, ((W - img.width) // 2, (H - img.height) // 2))
+                a = min(1.0, (t - t0) / 0.4) * min(1.0, (t1 - t) / 0.4) * 0.75
+                alpha = max(alpha, a)
                 break
     if alpha > 0.01:
         b = (BADGE * np.array([1, 1, 1, alpha])[None, None, :])
