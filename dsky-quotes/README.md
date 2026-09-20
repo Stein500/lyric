@@ -49,6 +49,7 @@ python3 compose.py 01     # → salve-01/post/*.png + salve-01/story/*.png
 - [x] **Salve 01** — citations 1 → 10
 - [x] **Salve 02** — citations 11 → 20 *(photos réelles de l'auteur, grading cinéma par citation)*
 - [x] **Salve 03** — citations 21 → 30 *(fonds studio/cinéma régénérés, texte hors visage)*
+- [x] **Salve 04** — citations 31 → 40 *(les 3 photos studio d'origine, 10 fonds uniques)*
 - [ ] **Salve 03** — citations 21 → 30
 - [ ] **Salve 04** — citations 31 → 40
 - [ ] **Salve 05** — citation 41 (clôture)
