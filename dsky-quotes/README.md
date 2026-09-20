@@ -47,7 +47,7 @@ python3 compose.py 01     # → salve-01/post/*.png + salve-01/story/*.png
 ## 🗺️ Planning des salves
 
 - [x] **Salve 01** — citations 1 → 10
-- [ ] **Salve 02** — citations 11 → 20
+- [x] **Salve 02** — citations 11 → 20 *(photos réelles de l'auteur, grading cinéma par citation)*
 - [ ] **Salve 03** — citations 21 → 30
 - [ ] **Salve 04** — citations 31 → 40
 - [ ] **Salve 05** — citation 41 (clôture)

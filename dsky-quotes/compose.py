@@ -45,11 +45,13 @@ def tracking_w(draw, text, f, tr):
         w += draw.textlength(ch, font=f) + tr
     return max(0, w - tr)
 
-def draw_tracking(draw, xy, text, f, fill, tr=0, anchor_center_x=None):
+def draw_tracking(draw, xy, text, f, fill, tr=0, anchor_center_x=None, shadow=None):
     x, y = xy
     if anchor_center_x is not None:
         x = anchor_center_x - tracking_w(draw, text, f, tr) / 2
     for ch in text:
+        if shadow:
+            draw.text((x + 2, y + 2), ch, font=f, fill=shadow)
         draw.text((x, y), ch, font=f, fill=fill)
         x += draw.textlength(ch, font=f) + tr
     return x
@@ -91,7 +93,7 @@ def draw_badge(img, x, y, accent, scale=1.0):
     d = ImageDraw.Draw(overlay)
     d.rounded_rectangle([20, 20, 20 + W, 20 + H], radius=H // 2, fill=(8, 8, 12, 170),
                         outline=accent + (230,), width=max(2, int(2 * scale)))
-    fx, fy, fw, fh = 20 + int(16 * scale), 20 + int(18 * scale), int(34 * scale), int(26 * scale)
+    fx, fy, fw, fh = 20 + int(15 * scale), 20 + int(17 * scale), int(38 * scale), int(28 * scale)
     mask = Image.new("L", (fw, fh), 0)
     ImageDraw.Draw(mask).rounded_rectangle([0, 0, fw, fh], radius=4, fill=255)
     flag = Image.new("RGBA", (fw, fh))
@@ -181,10 +183,26 @@ def compose(base_path, quote_text, style, num, out_post, out_story):
         d.rectangle([W / 2 - rule_w / 2, fy - 34, W / 2 + rule_w / 2, fy - 31], fill=pal["accent"] + (255,))
         fsig = montserrat(25, 700)
         draw_tracking(d, (0, fy - 8), "C. JÉSUTONDJI SAMUEL STEIN", fsig,
-                      pal["text"] + (235,), tr=3.2, anchor_center_x=W / 2)
+                      pal["text"] + (235,), tr=3.2, anchor_center_x=W / 2, shadow=(0, 0, 0, 150))
         fsub = montserrat(15, 500)
-        draw_tracking(d, (0, fy + 26), "LYRICISTE  ·  BÉNIN", fsub,
-                      pal["accent"] + (220,), tr=3.6, anchor_center_x=W / 2)
+        sub = "LYRICISTE  ·  BÉNIN"
+        subw = tracking_w(d, sub, fsub, 3.6)
+        draw_tracking(d, (0, fy + 26), sub, fsub,
+                      pal["accent"] + (220,), tr=3.6, anchor_center_x=W / 2, shadow=(0, 0, 0, 150))
+        # mini-drapeaux 🇧🇯 flanquant la ligne de signature
+        fw2, fh2, gap = 27, 18, 16
+        for fx in (W / 2 - subw / 2 - gap - fw2, W / 2 + subw / 2 + gap):
+            mflag = Image.new("L", (fw2, fh2), 0)
+            ImageDraw.Draw(mflag).rounded_rectangle([0, 0, fw2, fh2], radius=3, fill=255)
+            fl = Image.new("RGBA", (fw2, fh2))
+            draw_flag(ImageDraw.Draw(fl), 0, 0, fw2, fh2)
+            img.paste(fl, (int(fx), fy + 27), mflag)
+        # liseré tricolore béninois sur le bord inférieur
+        sh_ = max(6, int(H * 0.0065))
+        third = int(W / 3)
+        d.rectangle([0, H - sh_, third, H], fill=BENIN_GREEN)
+        d.rectangle([third, H - sh_, W, H - sh_ // 2], fill=BENIN_YELLOW)
+        d.rectangle([third, H - sh_ // 2, W, H], fill=BENIN_RED)
         grain(img)
         return img.convert("RGB")
 
