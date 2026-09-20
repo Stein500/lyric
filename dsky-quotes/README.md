@@ -55,9 +55,6 @@ python3 compose.py 01     # → salve-01/post/*.jpg + salve-01/story/*.jpg
 - [x] **Salve 03** — citations 21 → 30 *(fonds studio/cinéma régénérés, texte hors visage)*
 - [x] **Salve 04** — citations 31 → 40 *(les 3 photos studio d'origine, 10 fonds uniques)*
 - [x] **Salve 05** — citation 41, la finale *(+ couverture « PENSÉES d'un Lyriciste béninois »)*
-- [ ] **Salve 03** — citations 21 → 30
-- [ ] **Salve 04** — citations 31 → 40
-- [ ] **Salve 05** — citation 41 (clôture)
 
 ---
 
