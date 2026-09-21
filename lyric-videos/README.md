@@ -34,26 +34,20 @@ lyricvideo.py  ──►  MP4 1080×1920 (karaoké synchronisé) + .srt (YouTube
 
 ---
 
-## 2. État des morceaux du repo
+## 2. Morceau en cours : « Noukiko tché wê »
 
-| Morceau | Source paroles | Timings | État du clip |
-|---|---|---|---|
-| **Seul dans ma tête** | `Seul dans ma tête _ Daïsky.lrc` | ✅ `.lrc` propre | ✅ **rendu** (voir `seul-dans-ma-tete/`) |
-| **Noukiko tché wê** | `Noukiko.txt` | ✅ timestamps `[mm:ss.xx]` | prêt (lancer la commande §4) |
-| Je m'aime tellement | `... - Daïsky.lrc` | ✅ * | prêt |
-| Drague moi 1 | `Drague moi 1.lrc` | ✅ * | prêt |
-| TOKO-LONGA | `Nass'M RB__…lrc` | ✅ (texte crédité Nass'M RB) | prêt |
-| Guerrier | `guerrier.txt` | ✅ `[mm:ss.xx]` | prêt |
-| Le Survivant | `le survivant... timing.txt` | 🟡 **approximatif** → à valider par l'auteur | après validation |
-| Testostérone · Je crache les démons · Ayon dèkpè · Nan yi a ga djin wê · yafoy · Je suis pauvre et riche | `.txt` | ❌ **sans timestamps** | → demander les `.lrc` exportés de l'app, ou valider ligne par ligne |
+| Élément | Valeur |
+|---|---|
+| Paroles | `Noukiko.txt` (timestamps `[mm:ss.xx]`, 50 lignes) |
+| Master audio | `Noukiko tché wê.mp3` — **165,96 s** |
+| Dernière ligne | 150,91 s → 15 s d'outro musicale |
+| Style détecté | **gold** (lexique : sourire, joie, soleil…) |
+| Fonds | `noukiko/fonds/f1-couplet.jpg` · `f2-refrain.jpg` · `f3-pont.jpg` · `f4-endcard.jpg` |
+| Sortie | `lyric-videos/noukiko/` |
 
-\* LRC avec entêtes `[INTRO-…]`/`[REFRAIN-…]` : conservés comme métadonnées, ignorés à l'affichage.
-
-Les `.lrc` du repo sont en **encodage mixte** (cp1252 + séquences UTF-8) : `smart_decode()`
-les décode sans caractère `�`. Le script **normalise** aussi les timings (monotonie stricte,
-fenêtre mini entre vers) — rien à corriger à la main.
-
----
+> Les autres morceaux du repo (Seul dans ma tête, Drague moi 1, TOKO-LONGA, Guerrier,
+> Le Survivant, Testostérone…) ne sont **pas** traités pour l'instant : on réalise
+> **Noukiko uniquement**, puis on décidera de la suite.
 
 ## 3. Installation (aucun ffmpeg préinstallé au départ)
 
@@ -81,7 +75,7 @@ python3 lyricvideo.py --song "Noukiko" \
         --photo "../Samu/Snapchat-1029267384.jpg"
 
 # extrait de contrôle (rapide) : de 60 s à 90 s
-python3 lyricvideo.py --song "Seul dans ma tête" --start 60 --limit 30 --crf 24
+python3 lyricvideo.py --song "Noukiko" --start 60 --limit 30 --crf 24
 
 # variantes
 python3 lyricvideo.py --song "Noukiko" --style neon        # S3 Afro-futurism
@@ -157,8 +151,8 @@ livré **à valider** : la règle d'or reste la validation humaine du timing.
 ## 7. Suite
 
 - [x] moteur `lyricvideo.py` + environnement
-- [x] clip **Seul dans ma tête**
-- [ ] clip **Noukiko tché wê** (fichier fourni)
+- [x] moteur + fonds IA Noukiko (4 plans, style gold)
+- [ ] clip **Noukiko tché wê**
 - [ ] clips `.lrc` déjà propres : Je m'aime tellement · Drague moi 1 · TOKO-LONGA · Guerrier
 - [ ] téléchargement direct des livrables (Termux, cf. §E.6 du prompt universel)
 - [ ] chantier `.lrc` des 6 sons sans timestamps

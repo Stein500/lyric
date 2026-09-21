@@ -27,6 +27,7 @@ Dépendances : pillow, numpy, imageio-ffmpeg  →  voir setup_env.sh
 from __future__ import annotations
 
 import argparse
+import glob
 import json
 import math
 import os
@@ -808,12 +809,19 @@ def run(cmd, **kw):
 
 
 def probe_duration(path: str) -> float:
-    out = run([ffmpeg_exe(), "-hide_banner", "-i", path, "-f", "null", "-"])
+    """Durée décodée (en-tête `Duration:` de ffmpeg — fiable même si l'audio contient
+    une pochette : le décodage complet s'arrête alors au premier paquet vidéo)."""
+    ff = ffmpeg_exe()
+    out = run([ff, "-hide_banner", "-i", path, "-map", "0:a:0", "-f", "null", "-"])
+    m = re.search(r"Duration: (\d+):(\d+):([\d.]+)", out)
+    if m:
+        h, mi, sec = m.groups()
+        return int(h) * 3600 + int(mi) * 60 + float(sec)
     m = re.findall(r"time=(\d+):(\d+):([\d.]+)", out)
-    if not m:
-        raise SystemExit(f"[dsky] durée indécodable : {path}")
-    h, mi, s = m[-1]
-    return int(h) * 3600 + int(mi) * 60 + float(s)
+    if m:
+        h, mi, sec = m[-1]
+        return int(h) * 3600 + int(mi) * 60 + float(sec)
+    raise SystemExit(f"[dsky] durée indécodable : {path}")
 
 
 def master_audio(src: str, out_wav: str, target_i=-14.0, tp=-1.8):
@@ -966,6 +974,32 @@ def auto_style(entries: list[Entry]) -> str:
 # --------------------------------------------------------------------------- #
 #  MAIN
 # --------------------------------------------------------------------------- #
+def assemble(workdir: str, outdir: str, wav: str, duration: float, title: str,
+             cues: list[Cue], ff: str) -> str:
+    """Concatène les segments vidéo, applique le master audio, écrit le mp4 + le srt."""
+    parts = sorted(glob.glob(os.path.join(workdir, "part_*.mp4")))
+    if not parts:
+        raise SystemExit("[dsky] aucun segment work/part_*.mp4 — lancer d'abord --video-only")
+    lst = os.path.join(workdir, "parts.txt")
+    open(lst, "w").write("".join(f"file '{os.path.abspath(p)}'\n" for p in parts))
+    log(f"assemblage de {len(parts)} segments…")
+    raw = os.path.join(workdir, "video.mp4")
+    run([ff, "-y", "-hide_banner", "-loglevel", "error", "-f", "concat", "-safe", "0",
+         "-i", lst, "-c", "copy", raw])
+    mp4_out = os.path.join(outdir, f"{title}_9x16.mp4")
+    af = "afade=t=out:st={:.2f}:d=1.4,afade=t=in:st=0:d=0.5".format(max(0, duration - 1.6))
+    run([ff, "-y", "-hide_banner", "-loglevel", "error", "-i", raw, "-i", wav,
+         "-filter_complex", f"[1:a]{af}[a]", "-map", "0:v", "-map", "[a]",
+         "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
+         "-shortest", mp4_out])
+    mo = os.path.getsize(mp4_out) / 1e6
+    log("vidéo →", mp4_out, f"({mo:.1f} Mo)")
+    srt = os.path.join(outdir, f"{title}.srt")
+    write_srt(srt, cues)
+    log("srt   →", srt)
+    return mp4_out
+
+
 def main(argv=None):
     global FPS_DEF
     ap = argparse.ArgumentParser(description="DSKY lyric videos (karaoké 9:16)")
@@ -980,7 +1014,16 @@ def main(argv=None):
     ap.add_argument("--limit", type=float, default=0.0, help="rendu partiel (secondes)")
     ap.add_argument("--start", type=float, default=0.0, help="début du rendu partiel")
     ap.add_argument("--fps", type=int, default=FPS_DEF)
-    ap.add_argument("--crf", type=int, default=19)
+    ap.add_argument("--crf", type=int, default=22, help="qualité x264 (défaut 22 ≈ < 95 Mo, "
+                                                        "limite GitHub ; 19 = master local)")
+    ap.add_argument("--preset", default="veryfast",
+                    choices=["ultrafast", "superfast", "veryfast", "faster", "fast", "medium"])
+    ap.add_argument("--vbv", default="3500k",
+                    help="plafond de débit vidéo (défaut 3500k ≈ < 90 Mo pour un clip de 3-4 min)")
+    ap.add_argument("--video-only", action="store_true",
+                    help="rend un SEGMENT vidéo (work/part_*.mp4) sans audio ni srt")
+    ap.add_argument("--assemble", action="store_true",
+                    help="assemble les segments work/part_*.mp4 + audio + srt → clip final")
     ap.add_argument("--preview", action="store_true", help="4 PNG de contrôle, pas de vidéo")
     ap.add_argument("--no-endcard", action="store_true")
     ap.add_argument("--no-srt", action="store_true")
@@ -988,6 +1031,21 @@ def main(argv=None):
     FPS_DEF = args.fps
     global LYR_CY
     LYR_CY = args.cy
+
+    if args.assemble:
+        lyr_path, mp3_path = find_pair(args.song)
+        slug0 = re.sub(r"[^a-z0-9]+", "-", norm_key(args.song)).strip("-") or "clip"
+        outdir0 = os.path.join(HERE, slug0)
+        workdir0 = os.path.join(outdir0, "work")
+        duration0 = probe_duration(mp3_path)
+        entries0, _, _ = parse_lyrics(lyr_path)
+        detect_refrains(entries0, norm_key(args.song))
+        cues0 = build_cues(normalize_timings(entries0), duration0)
+        wav0 = os.path.join(workdir0, "master.wav")
+        master_audio(mp3_path, wav0)
+        title0 = re.sub(r"[^\w \-'’()À-ÿ]+", "", args.song.split(" - ")[0]).strip()
+        assemble(workdir0, outdir0, wav0, duration0, title0, cues0, ffmpeg_exe())
+        return
 
     lyr_path, mp3_path = find_pair(args.song)
     log("paroles :", os.path.basename(lyr_path))
@@ -1090,11 +1148,13 @@ def main(argv=None):
     start = max(0.0, args.start)
     dur = (min(total, start + args.limit) - start) if args.limit else total - start
     n_frames = int(math.ceil(dur * args.fps))
-    video_raw = os.path.join(workdir, "video.mp4")
+    video_raw = (os.path.join(workdir, f"part_{start:09.3f}.mp4") if args.video_only
+                 else os.path.join(workdir, "video.mp4"))
     ff = ffmpeg_exe()
     cmd = [ff, "-y", "-hide_banner", "-loglevel", "error",
            "-f", "image2pipe", "-framerate", str(args.fps), "-vcodec", "mjpeg", "-i", "-",
-           "-c:v", "libx264", "-preset", "medium", "-crf", str(args.crf),
+           "-c:v", "libx264", "-preset", args.preset, "-crf", str(args.crf),
+           "-maxrate", args.vbv, "-bufsize", str(int(float(args.vbv.rstrip("kK")) * 2)) + "k",
            "-pix_fmt", "yuv420p", "-r", str(args.fps), video_raw]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL,
                             stderr=subprocess.PIPE)
@@ -1118,6 +1178,10 @@ def main(argv=None):
     if proc.wait() != 0:
         raise SystemExit("[dsky] ffmpeg vidéo KO:\n" + err[-1500:])
 
+    if args.video_only:
+        log(f"segment → {video_raw} ({os.path.getsize(video_raw)/1e6:.1f} Mo)")
+        return
+
     # ---------- audio master ---------- #
     wav = os.path.join(workdir, "master.wav")
     master_audio(mp3_path, wav)
@@ -1135,7 +1199,11 @@ def main(argv=None):
          "-filter_complex", f"[1:a]{af}[a]", "-map", "0:v", "-map", "[a]",
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
          "-shortest", mp4_out])
-    log("vidéo →", mp4_out, f"({os.path.getsize(mp4_out)/1e6:.1f} Mo)")
+    mo = os.path.getsize(mp4_out) / 1e6
+    log("vidéo →", mp4_out, f"({mo:.1f} Mo)")
+    if mo > 95:
+        log(f"⚠ {mo:.0f} Mo : au-dessus de la limite GitHub (100 Mo) — relancer avec "
+            f"--crf {args.crf + 2} ou --fps 24 pour alléger.")
 
     if not args.no_srt:
         srt = os.path.join(outdir, f"{title}.srt")
