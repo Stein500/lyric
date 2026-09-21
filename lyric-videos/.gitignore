@@ -1,0 +1,7 @@
+# DSKY lyric videos — on versionne le code, les fonds et les livrables ;
+# le cache de rendu (regénérable) reste hors dépôt.
+*/work/
+work/
+__pycache__/
+*.pyc
+*.wav
