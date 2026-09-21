@@ -1,4 +1,4 @@
-# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v5.2 « FINAL » (5 styles + innovation + safe zones plateformes + retours artiste)
+# 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v5.2 « FINAL » (5 styles + innovation + safe zones plateformes + identité béninoise)
 
 **Portée :** N'IMPORTE QUEL audio (mp3/wav) + N'IMPORTE QUELLES paroles (txt/lrc, tous langues) + photos optionnelles → un clip lyrics complet (vidéo 9:16/16:9, MP3 master taggé, covers IA) + livraisons Termux.
 **Mode d'emploi :** l'IA exécute **§A (analyse auto, sans questions)** → **§B (questionnaire UNIQUE, 8 questions avec défauts)** → **§C→§F (production complète)**. Si l'artiste dit « vas-y direct / je te fais confiance » : appliquer les défauts marqués (défaut) et les journaliser dans le commit.
@@ -6,17 +6,24 @@
 
 ---
 
-## §0. ADDITIONS v5.2 FINAL (retours artiste — OBLIGATOIRES, priorité max)
+## §0. ADDITIONS v5.2 FINAL (retours artiste + identité béninoise — OBLIGATOIRES, priorité max)
 
 **0.1 Paroles AU MILIEU.** Les vers sont centrés **horizontalement ET verticalement** (base y = H/2), jamais en bas de frame ; scrim dégradé doux **central** (bande ±260 px autour de H/2) pour la lisibilité. Le centrage se fait sur la largeur FINALE du vers (pas de dérive pendant l'apparition staggered).
 
-**0.2 Badge DISCRET qui vit avec les paroles.** Badge artiste (défaut `DSKY✓`) : compact (police UI ~40 px), opacité **≤ 75 %**, il **apparaît en fondu 0,4 s avec chaque vers et disparaît en fondu 0,4 s à sa fin** — rien de permanent, jamais de grosse pastille fixe. Présent aussi pendant le hook (discret) et l'endcard.
+**0.2 Badge DISCRET qui vit avec les paroles.** Le badge mobile artiste (défaut `DSKY✓`) forme un **lock-up horizontal avec le drapeau béninois** — drapeau propre à gauche, badge à droite, écart 8–12 px, même hauteur visuelle. L'ensemble reste compact (police UI ~40 px), opacité **≤ 75 %**, et **apparaît en fondu 0,4 s avec chaque vers puis disparaît en fondu 0,4 s à sa fin** — rien de permanent, jamais de grosse pastille fixe. Présent aussi pendant le hook (discret) et l'endcard, selon la règle de placement §0.6.
 
-**0.3 Endcard SIMPLE.** Fini la longue liste de crédits : endcard = titre cursive + **WhatsApp + email seulement** + badge DSKY✓. Contacts défaut artiste : `daiskyproduction@gmail.com` · WhatsApp `+229 01 61 16 24 08` / `+229 01 49 11 49 51`. Les mêmes contacts vont dans les tags ID3 (TXXX contact/email).
+**0.3 Endcard SIMPLE.** Fini la longue liste de crédits : endcard = titre cursive + **WhatsApp + email seulement** + lock-up drapeau béninois + badge DSKY✓. Contacts défaut artiste : `daiskyproduction@gmail.com` · WhatsApp `+229 01 61 16 24 08` / `+229 01 49 11 49 51`. Les mêmes contacts vont dans les tags ID3 (TXXX contact/email).
 
 **0.4 Douceur optionnelle.** Si l'artiste dit « adoucis » : voile lumineux chaud (blend glow 0,22), contraste ×0,92, noirs relevés (+14), et suffixe de style soft (haze ambre, ombres douces) sur TOUTES les salves suivantes — appliqué rétroactivement aux salves déjà validées pour cohérence.
 
 **0.5 Livraison = clip + prompt à jour + commandes Termux.** Chaque livraison inclut OBLIGATOIREMENT : le clip final, le **prompt universel à jour** (ce fichier) et les **commandes Termux §E.6** régénérées avec le nouveau HASH de commit (fichiers : clip, master, covers, prompt md).
+
+**0.6 Drapeau et motifs béninois — signature visuelle permanente.**
+- **Chaque image livrée** (ancre, frame, intro, hook, endcard, cover 9:16, carré et 16:9) doit afficher le lock-up `drapeau du Bénin + badge mobile DSKY✓` en post-production. Le drapeau est vectorisé/dessiné proprement en PIL/ASS, **jamais confié au générateur IA ni remplacé par un emoji seul** : ratio 2:3, bande verte verticale côté hampe sur **2/5 de la largeur**, partie droite divisée en jaune en haut et rouge en bas, couleurs nettes et non déformées.
+- **Placement paroles :** le lock-up est centré sur le même axe que le sprite de paroles et placé **juste au-dessus de ses glyphes**, avec un espace constant de 18–28 px. Sa position est calculée depuis le `lyric_bbox` (`badge_bottom = lyric_top − 18..28`) ; il est donc **interdit de le fixer en haut de l'image** ou à `y=150`. Le drapeau et le badge ne chevauchent jamais les paroles, le scrim, le visage ou les mains.
+- **Images sans paroles** (intro, endcard, covers) : placer le même lock-up, toujours dans une zone sûre, directement au-dessus ou juste à côté du bloc titre/texte principal — jamais collé au bord supérieur. Même échelle, même ordre, mêmes marges et même rendu sur toute la livraison.
+- **Motifs du Bénin :** intégrer dans chaque image un motif béninois **discret, non textuel et non logo** (inspiré des appliqués/textiles royaux d'Abomey-Danxomè : chevrons, triangles, rosettes ou géométrie répétitive). Le motif vit dans le **fond ou une bordure latérale**, derrière le héros, jamais sur le visage, les mains, le lock-up ou les paroles. Opacité indicative 8–18 %, un seul motif dominant par image/salve, couleurs harmonisées avec la charte — pas de grand drapeau en arrière-plan ni de répétition criarde.
+- **Safe zones :** en 9:16, privilégier les marges latérales/coins extérieurs hors du rail droit et hors des bandes UI ; en 16:9, privilégier les bords latéraux et le fond autour du point focal. Le motif est coupé/supprimé localement s'il gêne la lisibilité : l'identité béninoise doit être visible, jamais envahissante.
 
 ---
 
@@ -45,7 +52,7 @@
 3. **📐 Formats** — (a) **9:16 seul (défaut)** · (b) 9:16 + 16:9 · (c) + version texte droit en parallèle.
 4. **✍️ Texte** — (a) **cursive + vague eau (défaut)** · (b) droit gras · (c) les deux styles 9:16.
 5. **⚡ Cold-open** — (a) 4 s · (b) **6 s (défaut)** · moment = défaut A.5 sauf choix artiste.
-6. **📣 Badge** — **discret, apparaît/disparaît AVEC les paroles (§0.2)**, JAMAIS permanent ; pas d'icônes CTA fixes sauf demande artiste ; label défaut `DSKY✓` milieu haut ; contacts défaut §0.3.
+6. **📣 Badge + identité béninoise** — **drapeau béninois propre à gauche du badge mobile `DSKY✓`**, lock-up discret qui apparaît/disparaît AVEC les paroles (§0.2), **juste au-dessus du sprite de paroles (§0.6)**, JAMAIS en haut de l'image ni permanent ; pas d'icônes CTA fixes sauf demande artiste ; contacts défaut §0.3.
 7. **🖼 Cover** — **100 % IA titre intégré (défaut)** · sinon texte post (dérogation tracée).
 8. **📦 Livrables** — vidéo+MP3+cover+**prompt à jour** **(défaut)** · +16:9 ? · +version allégée ≤50 Mo ? · destination Termux `/storage/emulated/0/Web+/` avec commandes §E.6 régénérées au HASH du commit de livraison (§0.5).
 
@@ -53,7 +60,7 @@
 
 ## §C. ORDRE DE PRODUCTION (universel, ne pas inverser)
 
-1. §A complet → 2. §B → 3. **Ancres** (1/charte retenue) + maquette badge/vers/CTA → validation artiste → 4. **Salves de 10** : prompts écrits EN ENTIER avant lancement (§E.1), planche contact + validation entre salves, salve refusée = seuls slots concernés → 5. Pré-calcul fonds → rendu 9:16 d'abord → vérifs §D.10 → 16:9 si demandé → MP3 master + tags → covers → 6. **Commit + push après CHAQUE étape** (branche `arena/<id>-<slug>`).
+1. §A complet → 2. §B → 3. **Ancres** (1/charte retenue) + maquette **drapeau + badge / motifs béninois / vers / CTA** → validation artiste → 4. **Salves de 10** : prompts écrits EN ENTIER avant lancement (§E.1), planche contact + validation entre salves, salve refusée = seuls slots concernés → 5. Pré-calcul fonds → rendu 9:16 d'abord → vérifs §D.10 → 16:9 si demandé → MP3 master + tags → covers → 6. **Commit + push après CHAQUE étape** (branche `arena/<id>-<slug>`).
 
 ---
 
@@ -63,21 +70,21 @@
 
 **D.2 Mouvement permanent.** Ken Burns canvas 1,1× (1188×2112 / 2112×1188), zoom 1,02→1,08 alterné par slot, pan sinusoïdal ; **vague eau** : cursive = ligne connectée ondulée par colonnes (ampl. ~4,5 px, 0,9 Hz) + apparition staggered 0,9 s / cascade inversée ; texte droit = lettres une à une (ampl. ~6 px).
 
-**D.3 Anti-coupure, anti-mélange & SAFE ZONES PLATFORMES (§H).** Bbox sprites : marges glyphs **≥6 px** ; dépassement = réduction puis retour à ligne, JAMAIS troncature. Positions UI canoniques 9:16 = **§H (safe zones TikTok/Reels/Shorts)** : badge y=150 centré **discret ≤75 % opacité, fondu avec les vers (§0.2)** · titres hook y=330 · paroles **centrées H/2 (§0.1)** + **scrim dégradé central** derrière · endcard contacts dans [0,25H ; 0,75H]. 16:9 YouTube : paroles base H−170, endcard cx=0,38×W, bande basse H−120 vide.
+**D.3 Anti-coupure, anti-mélange & SAFE ZONES PLATFORMES (§H).** Bbox sprites : marges glyphs **≥6 px** ; dépassement = réduction puis retour à ligne, JAMAIS troncature. Positions UI canoniques 9:16 = **§H (safe zones TikTok/Reels/Shorts)** : lock-up **drapeau + badge centré juste au-dessus du `lyric_bbox`**, écart 18–28 px, **discret ≤75 % opacité, fondu avec les vers (§0.2)**, jamais à `y=150` · titres hook y=330 · paroles **centrées H/2 (§0.1)** + **scrim dégradé central** derrière · motifs béninois dans les marges/fonds sûrs (§0.6), jamais dans le sprite. 16:9 YouTube : paroles **centrées H/2**, lock-up juste au-dessus, endcard cx=0,38×W, bande basse H−120 vide.
 
 **D.4 Audio.** loudnorm 2 passes : passe 1 `-v info` ; passe 2 `offset=` (pas target_offset) + `highpass=30,lowpass=18000` ; **TP cible −1,8** ; concat hook+chanson : **tout décoder en WAV 48 k d'abord** (concat pcm+mp3 = durées/gains faux) ; MP3 livrable = chanson seule 320 k 48 k `-t durée` ; tags ID3v2.4 : TIT2/TPE1/TALB/TPE2/TPUB/TCOM/TCON/TDRC + TXXX contact,email,producer,label + **USLT paroles nettoyées** + **APIC cover carrée**.
 
 **D.5 Vidéo.** Encodage image2pipe mjpeg → libx264 une passe ; master local crf19 ; **export git crf21 ≤ ~95 Mo** (limite GitHub 100 Mo/fichier, warning OK >50 Mo) ; aac 192k +faststart ; fades out audio+vidéo 3 s fin uniquement ; mux = ré-encodage vidéo obligatoire si filtre fade (`-c:v copy` + filtre = erreur).
 
-**D.6 Images.** Prompt 7 blocs (§E.1) ; suffixes canoniques A/B (§E.3) ; interdits toujours + `no signage` (enseignes néon = texte !) ; anti-hors-cadre (sujet complet, mains, visage) ; arc lumineux (intro dim → refrains full → pont ambre → outro décrescendo → endcard sombre) ; post-contrôle ratio/texte/héros ; **modération bloquante = reformuler** (retenue physique → « poids de fumée », « soutenir un ami »).
+**D.6 Images.** Prompt 8 blocs (§E.1) ; suffixes canoniques A/B (§E.3) ; interdits toujours + `no signage` (enseignes néon = texte !) ; anti-hors-cadre (sujet complet, mains, visage) ; arc lumineux (intro dim → refrains full → pont ambre → outro décrescendo → endcard sombre) ; **motif béninois discret obligatoire dans le fond/bordure**, jamais sur le visage, les mains ou les paroles (§0.6) ; post-contrôle ratio/texte/héros ; **modération bloquante = reformuler** (retenue physique → « poids de fumée », « soutenir un ami »).
 
 **D.7 Polices.** Cursive GreatVibes = paroles + titres intro/endcard/covers SEULEMENT ; UI (badge, endcard, contacts) = DejaVu Sans Bold jamais script. Acquisition CDN bloqués : `npm pack @fontsource/<police>` → woff2 → **fontTools+brotli → .ttf committé dans `assets/fonts/`** ; vérifier coverage glyphs du texte réel (ex. « œuvre »).
 
-**D.8 Endcard.** Fond sombre épuré dédié (slot s{N+1}) en Ken Burns (freezedetect 0) ; titre cursive + **WhatsApp + email seulement (§0.3)** + badge DSKY✓ discret ; démarre au fondu final + apad 5 s.
+**D.8 Endcard.** Fond sombre épuré dédié (slot s{N+1}) en Ken Burns (freezedetect 0) ; titre cursive + **WhatsApp + email seulement (§0.3)** + lock-up drapeau béninois + badge DSKY✓ discret, placé au-dessus/à côté du bloc titre selon §0.6 ; démarre au fondu final + apad 5 s.
 
-**D.9 Covers.** Base IA **titre intégré** : grande cursive dorée lumineuse + nom artiste dessous, orthographe VÉRIFIÉE (régénérer si lettres déformées), hook visuel 1 point focal, lisible en vignette ; **badge posé en post** (bas-centre si haut occupé par le titre) ; sorties 1080×1920 q92 + carré 1080×1080 (APIC) + 1920×1080 si 16:9 ; pièges réels : cigarette ajoutée par l'IA si « smoke » → écrire « smoke from mouth, no cigarette » ; enseignes → `no signage`.
+**D.9 Covers.** Base IA **titre intégré** : grande cursive dorée lumineuse + nom artiste dessous, orthographe VÉRIFIÉE (régénérer si lettres déformées), hook visuel 1 point focal, lisible en vignette ; **drapeau béninois + badge posés ensemble en post** (lock-up placé au-dessus/à côté du bloc titre, jamais en haut par défaut) ; motif béninois discret dans le fond ou une bordure latérale (§0.6) ; sorties 1080×1920 q92 + carré 1080×1080 (APIC) + 1920×1080 si 16:9 ; pièges réels : cigarette ajoutée par l'IA si « smoke » → écrire « smoke from mouth, no cigarette » ; enseignes → `no signage`.
 
-**D.10 Vérifs avant commit.** Durée `nb_frames/fps` ±0,05 s · streams conformes · blackdetect = fade final seul · freezedetect 0 · frontières vers par diff pixel MP4 vs reconstruction <6 px (mesuré 1,8-2,6) · badge statique · bbox sprites ≥6 px (mesuré 39) · MP3 LUFS≈−14/TP≤−1,5/durée/tags · covers lisibles + badge.
+**D.10 Vérifs avant commit.** Durée `nb_frames/fps` ±0,05 s · streams conformes · blackdetect = fade final seul · freezedetect 0 · frontières vers par diff pixel MP4 vs reconstruction <6 px (mesuré 1,8-2,6) · lock-up **drapeau + badge** présent, propre, à 18–28 px au-dessus du `lyric_bbox` et sans waver/zoom · motifs béninois visibles mais discrets, hors texte/visage/safe zones · bbox sprites ≥6 px (mesuré 39) · MP3 LUFS≈−14/TP≤−1,5/durée/tags · covers lisibles + lock-up + motif.
 
 **D.11 Git/anti-reset.** Push après chaque étape ; reset sandbox → `git fetch origin <branche> && git reset --hard FETCH_HEAD` ; **scripts VERSIONNÉS dans `scripts/`** (setup_env.sh, pipeline_rendu_9x16.py, rebuild_timings.py) ; `work/` = cache non versionné (fonds, wav, icônes régénérables 4 gén.) ; `.gitignore` : .venv/, work/, *.pyc, bin/ ; livrables/ et assets/ JAMAIS ignorés.
 
@@ -87,8 +94,10 @@
 
 ## §E. GABARITS UNIVERSELS (copier-coller, remplir les {})
 
-**E.1 Prompt image (7 blocs, dans l'ordre) :**
-`{CADRAGE : vertical 9:16 portrait composition, tall framing | horizontal 16:9 landscape composition, wide framing}` · `{SUJET-VERS : une phrase VISUELLE = métaphore du vers, jamais le texte literal, intensité lumineuse précisée (dim/moderate/full)}` · `{HÉROS : bloc §A.6 recopié à l'identique}` · `{PLAN : wide (refrains/show) | medium (narration) | close-up (émotion/pont) — alterner dans la salve}` · `{SUFFIXE : §E.3}` · `{ZONE : vers → darker, less busy lower third with soft bokeh for lyric text readability | intro/covers 9:16 → large dark negative space across the top quarter | covers 16:9 → left third | endcard → center}` · `{INTERDITS : no text, no letters, no numbers, no logos, no watermark, no subtitles, no borders, no signage}` + anti-hors-cadre `full figure, head and hands completely in frame, no cropped face, no out-of-frame elements, all fingers visible`.
+**E.1 Prompt image (8 blocs, dans l'ordre) :**
+`{CADRAGE : vertical 9:16 portrait composition, tall framing | horizontal 16:9 landscape composition, wide framing}` · `{SUJET-VERS : une phrase VISUELLE = métaphore du vers, jamais le texte literal, intensité lumineuse précisée (dim/moderate/full)}` · `{HÉROS : bloc §A.6 recopié à l'identique}` · `{PLAN : wide (refrains/show) | medium (narration) | close-up (émotion/pont) — alterner dans la salve}` · `{SUFFIXE : §E.3}` · `{MOTIFS BÉNIN : subtle Beninese textile/appliqué-inspired geometric motifs (chevrons, triangles, rosettes), non-textual, background or side border only, low contrast, never on face/hands/lyrics, no large flag wallpaper}` · `{ZONE : vers → darker, less busy central lyric area with soft bokeh; motifs in outer margins | intro/covers 9:16 → large dark negative space across the top quarter, motifs in a side border | covers 16:9 → left/right side background, never across the title or focal point | endcard → center with motif kept at the edges}` · `{INTERDITS : no text, no letters, no numbers, no logos, no watermark, no subtitles, no borders, no signage, no fake flag}` + anti-hors-cadre `full figure, head and hands completely in frame, no cropped face, no out-of-frame elements, all fingers visible`.
+
+> Le drapeau béninois et le badge ne sont **pas** demandés dans le prompt IA : ils sont ajoutés ensuite en post selon §0.6, pour garantir une forme et une position identiques sur toutes les images.
 
 **E.2 Écriture SUJET-VERS (méthode) :** verbe d'action + objet métaphorique + émotion ; fumée/lumière/eau pour l'abstrait ; jamais d'objets à risque modération (armes, retenue physique) → substituts (fumée pesante, silhouettes floues, mains tendues).
 
@@ -119,18 +128,18 @@ A : `warm golden sunset backlight, subtle electric cyan rim light, amber accents
 
 **RÈGLES DE BEAUTÉ UNIVERSELLES (tous styles) :** UN seul point focal lumineux · règle des tiers pour le héros · rim light systématique · palette ≤ 3 couleurs dominantes · profondeur (bokeh/brume/atmosphère) · grain film léger toujours · lisible en vignette 2 s (hook covers/intro/endcard = composition simple symétrique) · héros soigné mais FIDÈLE (peau propre, jamais embelli/musclé sans demande) · décrescendo lumineux sur outro · fond endcard sombre épuré.
 
-## §H. SAFE ZONES PLATEFORMES (v5.1 — TikTok / Reels / Shorts / YouTube)
+## §H. SAFE ZONES PLATEFORMES (v5.2.1 — TikTok / Reels / Shorts / YouTube)
 
-> Problème réel constaté : la **barre de recherche + tabs** (haut), le **rail de boutons** (droite : like/comment/share), la **caption + bottom nav (+ bouton ➕)** (bas) masquent badge, paroles et CTA. Règles OBLIGATOIRES 9:16 (1080×1920) :
+> Problème réel constaté : la **barre de recherche + tabs** (haut), le **rail de boutons** (droite : like/comment/share), la **caption + bottom nav (+ bouton ➕)** (bas) masquent badge, drapeau, paroles et CTA. Règles OBLIGATOIRES 9:16 (1080×1920) :
 
 | Zone | Pixels | Interdit d'y mettre |
 |---|---|---|
-| Bande haute (recherche/tabs) | y 0 → 144 | badge, titres, CTA |
+| Bande haute (recherche/tabs) | y 0 → 144 | badge + drapeau, titres, CTA |
 | Rail droit (boutons action) | x ≥ 910 ET y 960 → 1690 | paroles, icônes CTA, partage |
 | Bande basse (caption + nav + ➕) | y ≥ 1574 | paroles, CTA, crédits endcard |
 
-**Positions canoniques v5.1 (9:16) :** badge `y=150` centré (sous la barre) · rangée CTA 72 px `y=232` (sous le badge, visible 2 s) · titres hook/intro `y=330` · **paroles : top sprite `H−520`** (glyphs finissent ≤ 1560, au-dessus de la caption) largeur max **880 px** centrée (bord droit ≤ 910) · **scrim dégradé sombre** (alpha max ~110, bande y 1330→1650) derrière les paroles pour lisibilité sur toute UI/image · icône partage 150 px à `0,40×H` centrée (hors rail) · endcard : titre cursive y≈260 + crédits centrés dans [560 ; 1400].
-**16:9 YouTube :** bande basse contrôles y ≥ H−120 vide · paroles base H−170 max 1640 px · titre intro haut-gauche sous y=140 · endcard cx=0,38×W.
+**Positions canoniques (9:16) :** paroles centrées sur `H/2` ; lock-up **drapeau à gauche + badge mobile à droite**, centré sur le même axe, avec `badge_bottom = lyric_top − 18..28 px` — **aucune position fixe en haut** · titres hook/intro seulement dans leur zone dédiée · largeur de paroles max **880 px** centrée (bord droit ≤ 910) · **scrim dégradé sombre central** derrière les paroles pour lisibilité sur toute UI/image · motifs béninois dans les marges/fond, hors sprite et hors rail droit · icône partage 150 px à `0,40×H` centrée (hors rail) · endcard : titre cursive + lock-up dans [0,25H ; 0,75H], sans bande haute.
+**16:9 YouTube :** paroles centrées sur `H/2` ; lock-up juste au-dessus du sprite ; bande basse contrôles y ≥ H−120 vide · titre intro et motifs sur les côtés, hors texte · endcard cx=0,38×W.
 **Vérif ajoutée §D.10 :** frame test avec overlay UI TikTok (template `work/overlay_tiktok.png` si fourni) → aucun élément clé masqué.
 
 ## §F. NOMMAGE & RÉFÉRENCES
@@ -138,6 +147,7 @@ A : `warm golden sunset backlight, subtle electric cyan rim light, amber accents
 `assets/raw/{portrait|landscape}/s{slot:02d}_{motclé}.png` (s00 intro, s{N+1} endcard) · `work/fonds_{format}/f{slot:02d}.jpg` · `livrables/{Titre}_9x16_v{N}.mp4`, `{Titre}_16x9_YT_v{N}.mp4`, `cover_{titre}_9x16.jpg`, `cover_{titre}_1080x1080.jpg`, `{Titre}_master_320k.mp3` · `PROMPTS_IMAGES_{Titre}.md` (catalogue prompts séparés) · `<Titre>.lrc`.
 
 ## 📜 Historique
+- **v5.2.1 (2026-09-21)** — ajout de l'identité béninoise obligatoire : drapeau vectorisé propre à côté du badge mobile, lock-up placé juste au-dessus des paroles (plus jamais en haut), motifs béninois discrets dans les fonds/bordures, spécifications §0.6 · §B.Q6 · §D.3/§D.6/§D.9/§D.10 · §E.1 · §H.
 - **v5.1** — §G **5 styles canoniques + liberté d'innovation IA** + règles de beauté universelles · §H **SAFE ZONES plateformes** (barre recherche haut, rail droit, caption/nav bas) avec positions canoniques v5.1 (badge y150, CTA y232, titres y330, paroles top H−520 + scrim) · §B.Q1 et §D.3 mis à jour · production de référence re-rendue en `..._9x16_v3_safezones.mp4`.
 - **v5.0** — UNIVERSALISATION : §A analyse auto tout format · §B questionnaire unique 8 questions avec défauts (« direct/confiance » = défauts) · §E gabarits à trous pour tout morceau · hérite v4.9.1.
 - v4.x : productions & leçons archivées (`PROMPT_UNIVERSEL_v4.8.2.md`, `PROMPT_UNIVERSEL_v4.9.md`).
