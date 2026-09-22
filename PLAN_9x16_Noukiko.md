@@ -16,7 +16,7 @@
 | 01 | 006.82 | 010.61 | Wolof TechStein beat wê! | `s01_noukiko_wolof_intro.png` |
 | 02 | 010.61 | 012.82 | Noukiko tché wê! | `s02_noukiko_sourire.png` |
 | 03 | 012.82 | 014.16 | C'est mon sourire à moi! | `s07_noukiko_joie.png` |
-| 04 | 014.16 | 016.19 | Han han! | `s65_noukiko_rire_tete_inclinee.png` |
+| 04 | 014.16 | 016.19 | Han han! | `s03_noukiko_danse.png` |
 | 05 | 016.19 | 019.23 | Noukiko tché wê, c'est mon sourire à moi | `s30_noukiko_refrain_final.png` |
 | 06 | 019.23 | 022.92 | Noukiko tché wê, personne me l'enlèvera | `s31_noukiko_personne_ne_lenlevera.png` |
 | 07 | 022.92 | 026.40 | Noukiko tché wê, c'est mon sourire à moi | `s30_noukiko_refrain_final.png` |
@@ -24,7 +24,7 @@
 | 09 | 028.86 | 035.76 | Wolof TechStein beat wê! | `s01_noukiko_wolof_intro.png` |
 | 10 | 035.76 | 037.58 | Ils ont voulu me voir pleurer, j'ai souri | `s04_noukiko_je_souris.png` |
 | 11 | 037.58 | 039.38 | Ils ont voulu me voir tomber, j'ai dansé | `s20_noukiko_je_danse.png` |
-| 12 | 039.38 | 041.43 | Ils ont voulu me voler ma joie, j'ai ri | `s07_noukiko_joie.png` |
+| 12 | 039.38 | 041.43 | Ils ont voulu me voler ma joie, j'ai ri | `s65_noukiko_rire_tete_inclinee.png` |
 | 13 | 041.43 | 043.26 | Mon sourire est à moi, personne peut me l'prendre | `s10_noukiko_personne_ne_touche.png` |
 | 14 | 043.26 | 045.07 | J'ai grandi dans la poussière, mais je brille | `s40_noukiko_poussiere_et_lumiere.png` |
 | 15 | 045.07 | 046.93 | J'ai connu la galère, mais je souris | `s41_noukiko_galere_et_sourire.png` |
