@@ -1,0 +1,7 @@
+# Render caches and local tool environments
+work/
+.venv/
+venv/
+__pycache__/
+*.pyc
+bin/
