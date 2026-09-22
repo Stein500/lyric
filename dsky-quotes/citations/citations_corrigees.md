@@ -175,3 +175,10 @@ Tu as sacrifié ta vie et tu meurs à 30 ans pour la richesse… Arrivé là-bas
 | matérialiste (elles sont toutes) | matérialistes |
 | tu deviennes | tu deviendrais |
 | il t'e regarde | il te regarde |
+
+---
+
+## HORS SÉRIE — Citation 42 (Saison 1+)
+
+**42.** `LUXE`
+Quel pur bonheur de pouvoir transmettre son savoir, ses principes et surtout de la bonne humeur aux enfants. Oui, instituteur, enseignant, formateur, tu vaux de l'or.
