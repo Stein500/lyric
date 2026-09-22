@@ -145,21 +145,42 @@ def prepare_images(rows: list[Row], cache: Path) -> dict[Path, bytes]:
     return output
 
 
-def render(rows: list[Row], frames: dict[Path, bytes], ass: Path, audio: Path, out: Path) -> None:
-    ffmpeg = shutil.which("ffmpeg")
-    if not ffmpeg:
-        raise RuntimeError("ffmpeg/ffprobe is unavailable; use --dry-run or install ffmpeg before encoding")
+def get_ffmpeg() -> str:
+    system = shutil.which("ffmpeg")
+    if system:
+        return system
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception as exc:
+        raise RuntimeError("ffmpeg is unavailable; install imageio-ffmpeg or system ffmpeg") from exc
+
+
+def audio_duration(audio: Path, ffmpeg: str) -> float:
+    """Read duration through ffmpeg itself; ffprobe is not required."""
+    proc = subprocess.run(
+        [ffmpeg, "-hide_banner", "-i", str(audio), "-f", "null", "-"],
+        text=True, capture_output=True, check=False,
+    )
+    match = re.search(r"Duration:\s*(\d+):(\d+):(\d+(?:\.\d+)?)", proc.stderr)
+    if not match:
+        raise RuntimeError(f"Could not read audio duration from ffmpeg for {audio}")
+    hours, minutes, seconds = match.groups()
+    return int(hours) * 3600 + int(minutes) * 60 + float(seconds)
+
+
+def render(rows: list[Row], frames: dict[Path, bytes], ass: Path, audio: Path, out: Path, duration: float, ffmpeg: str) -> None:
     out.parent.mkdir(parents=True, exist_ok=True)
     cmd = [
         ffmpeg, "-y", "-f", "image2pipe", "-vcodec", "mjpeg", "-framerate", str(FPS), "-i", "pipe:0",
-        "-i", str(audio), "-filter_complex", f"[0:v]ass={ass},format=yuv420p[v];[1:a]afade=t=in:st=0:d=0.3,afade=t=out:st=162:d=3[a]",
-        "-map", "[v]", "-map", "[a]", "-t", "165", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium",
+        "-i", str(audio), "-filter_complex", f"[0:v]ass={ass},format=yuv420p[v];[1:a]afade=t=in:st=0:d=0.3,afade=t=out:st={max(0.0, duration - 3.0):.3f}:d=3[a]",
+        "-map", "[v]", "-map", "[a]", "-t", f"{duration:.3f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium",
         "-crf", "21", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-ac", "2",
         "-movflags", "+faststart", str(out),
     ]
     process = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     assert process.stdin is not None
-    total = math.ceil(165 * FPS)
+    total = math.ceil(duration * FPS)
     for index in range(total):
         t = index / FPS
         row = next((item for item in rows if item.start <= t < item.end), rows[-1])
@@ -176,15 +197,18 @@ def main() -> int:
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     args = parser.parse_args()
     rows = parse_plan()
+    ffmpeg = get_ffmpeg()
+    duration = audio_duration(args.audio, ffmpeg)
     work = ROOT / "work" / "noukiko_9x16"
     ass = work / "Noukiko_9x16.ass"
     write_ass(rows, ass)
     frames = prepare_images(rows, work / "prep")
+    print(f"Audio duration from ffmpeg: {duration:.3f}s")
     print(f"Prepared {len(frames)} unique 1080x1920 backgrounds")
     print(f"Prepared ASS subtitles and vector Benin lock-up: {ass}")
     if args.dry_run:
         return 0
-    render(rows, frames, ass, args.audio, args.out)
+    render(rows, frames, ass, args.audio, args.out, duration, ffmpeg)
     print(f"Rendered {args.out}")
     return 0
 
