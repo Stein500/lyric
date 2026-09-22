@@ -111,7 +111,7 @@ def badge_events(row: Row) -> list[str]:
 
 def write_ass(rows: list[Row], path: Path) -> None:
     lines = [
-        "[Script Info]", "ScriptType: v4.00+", "WrapStyle: 2",
+        "[Script Info]", "ScriptType: v4.00+", "WrapStyle: 1",
         f"PlayResX: {W}", f"PlayResY: {H}", "ScaledBorderAndShadow: yes", "",
         "[V4+ Styles]",
         "Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour, Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding",
