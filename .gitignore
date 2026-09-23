@@ -1,4 +1,4 @@
-# Render caches and local tool environments
+# Generated caches and temporary tooling
 work/
 .venv/
 venv/
