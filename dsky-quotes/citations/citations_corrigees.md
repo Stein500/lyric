@@ -186,3 +186,7 @@ Quel pur bonheur de pouvoir transmettre son savoir, ses principes et surtout de 
 **44.** `LUXE`
 Comment vois-tu le partage ? Je te réveille. Toi seul crois ou penses que partager signifie donner 50 % de ce que tu as, ou tout donner. Donner 0,00009 % de ce que tu as suffit pour dire que « je partage toujours ce que j'ai »… Tu t'étonnes d'être toujours vidé et les autres non, après un partage ? Bah, le souci est que tu en donnes plus que tu ne supporterais.
 > *(n°43 réservé — en attente du texte de l'auteur)*
+
+**43.** `LUXE`
+Voici les deux choses qui prennent beaucoup plus de temps : réparer une erreur stupide et te faire respecter.
+> *(n°43 : sablier doré + fissures kintsugi — l'erreur réparée, le temps qu'il faut)*
