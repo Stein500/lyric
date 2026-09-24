@@ -83,14 +83,6 @@ def quote44():
         draw_tracking(d, (W-m-tw_, m+14), t, fnum, pal["accent"]+(255,), tr=3,
                       shadow=(0,0,0,160))
 
-        # stickers — sur le mur, à côté de la tête, JAMAIS dans la zone de texte
-        if H > 1400:
-            sticker_coin(img,  W*0.855, H*0.520, 46, "0,00009 %")
-            sticker_share(img, W*0.135, H*0.500, 26)
-        else:
-            sticker_coin(img,  W*0.850, H*0.560, 42, "0,00009 %")
-            sticker_share(img, W*0.135, H*0.535, 24)
-
         zx0, zy0f, zy1f = zone
         f, lines, lh = fit_text(d, TXT, W*(1-2*zx0), H*(zy1f-zy0f),
                                 lambda s: playfair(s, 600), 64 if H > 1400 else 58, 34)
