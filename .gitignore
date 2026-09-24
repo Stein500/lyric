@@ -1,0 +1,9 @@
+.venv/
+work/
+*.pyc
+__pycache__/
+bin/
+.arena/
+.cache/
+.local/
+*.egg-info/
