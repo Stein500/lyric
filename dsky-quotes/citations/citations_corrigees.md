@@ -182,3 +182,7 @@ Tu as sacrifié ta vie et tu meurs à 30 ans pour la richesse… Arrivé là-bas
 
 **42.** `LUXE`
 Quel pur bonheur de pouvoir transmettre son savoir, ses principes et surtout de la bonne humeur aux enfants. Oui, instituteur, enseignant, formateur, tu vaux de l'or.
+
+**44.** `LUXE`
+Comment vois-tu le partage ? Je te réveille. Toi seul crois ou penses que partager signifie donner 50 % de ce que tu as, ou tout donner. Donner 0,00009 % de ce que tu as suffit pour dire que « je partage toujours ce que j'ai »… Tu t'étonnes d'être toujours vidé et les autres non, après un partage ? Bah, le souci est que tu en donnes plus que tu ne supporterais.
+> *(n°43 réservé — en attente du texte de l'auteur)*
