@@ -1,20 +1,33 @@
-# Le goût bon de la vie — chantier
+# Le goût bon de la vie — état GitHub
 
 **Branche :** `arena/01a0d480-lyric`  
-**Style :** S2 Golden Sunset · 9:16 · cursive + vague eau · cold-open 6 s  
-**Héros :** 3 photos du chat (tee / doudoune batik / assis) — visage non recréé volontairement  
-**Audio :** 204.36 s · loudnorm I=-14.46 TP=+0.01 → passe 2 prévue TP -1.8
+**Prompt suivi :** `PROMPT_UNIVERSEL_v5.3_FINAL.md` (pas v5.2 / pas v4)
 
 ## Décisions artiste
-- Style S2, photos = les 3 du début, 9:16 seul, cold-open 6 s, cover IA titre en post, livrables défaut
-- Images IA, 1 visuel / vers unique, base = ces 3 photos
+- Titre : *Le goût bon de la vie* — Daïsky
+- Style **S2 Golden Sunset**
+- 9:16 seul · cold-open 6 s · cursive + **vague eau** · Ken Burns + transitions
+- Badge DSKY✓ discret (fondu avec les vers)
+- Endcard simple : titre + WhatsApp + email
+- Cover IA titre en post (sans visage généré)
+- **Visage :** uniquement les 2 photos du dépôt  
+  `Snapchat-1276583406.jpg` · `Snapchat-768468460.jpg`  
+  (hoodie bleu, mur rose) — pas d’autre look
 
-## Salve 1 (10) — à valider VISAGE
-`assets/raw/portrait/salve01/`
-- s00 intro · s01 wê… · s02 Vivi oor · s03 goût vie (ancre) · s04 refrain
-- s05 Wadjaya · s06 Kissi · s07 savoure · s08 wê! · s09 sourire
+## Ce qui EST dans ce commit
+- Les 2 photos originales
+- Variantes hoodie20 v01–v19 + salve01 (ancres IA)
+- Polices GreatVibes + DejaVu
+- Scripts pipeline 9:16 (vague + Ken Burns)
+- LRC timings
+- Prompt images
 
-**Note :** s09 reste le plus fidèle à la photo réelle. Les autres sont des cousins IA (lumière ciné OK, identité qui dérive).
+## Ce qui MANQUE encore (prochaine étape)
+- Clip 9:16 rendu (prompt §C étape 5) — **pas encore livré**
+- MP3 master 320k taggé + covers
+- lock10 (9 images les plus fidèles) : à recoller si absentes du snapshot
 
-## Suivant
-Valider / refuser slots → salve 2 (vers 10–19) → rendu vague + Ken Burns
+## Prompt vidéo (rappel ultra)
+§0 paroles au milieu · badge discret · endcard simple  
+§D.1 sync 1 flux · §D.2 vague + Ken Burns · §D.3 safe zones  
+§D.4 loudnorm 2 passes · 9:16 1080×1920 (TikTok diffuse ça, pas du 8K)
