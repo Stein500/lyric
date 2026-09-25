@@ -10,9 +10,22 @@
 
 **À éviter en 2026 :** 15 hashtags, `#fypシ゚viral` spam, `#benin` tout seul (trop local sans le genre).
 
-## Caption à coller (TikTok / Reels / Shorts)
+## TikTok / Reels / Shorts (colle tel quel)
 
 Vivi oor 🍯 le goût bon de la vie. Tag la personne avec qui tu savoures la nuit.
+
+#Afrobeats #PourToi #AfroPop #ViviOor
+
+## Facebook / Reels FB (colle tel quel)
+
+Le goût bon de la vie — Daïsky
+
+Vivi oor. Un coucher de soleil, un verre d’or, et quelqu’un à qui le dire.
+
+Écoute. Partage. Tag la personne avec qui tu savoures la nuit.
+
+WhatsApp : +229 01 61 16 24 08 / +229 01 49 11 49 51
+daiskyproduction@gmail.com
 
 #Afrobeats #PourToi #AfroPop #ViviOor
 
