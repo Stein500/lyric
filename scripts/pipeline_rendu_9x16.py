@@ -120,12 +120,12 @@ class WordBank:
         key = ("h" if hook else "v") + w
         if key not in self.big:
             fill = (240, 193, 90, 255) if hook else (255, 244, 220, 255)
-            self.big[key] = render_word(w, 78, fill, glow=True)
+            self.big[key] = render_word(w, 118, fill, glow=True)
         return self.big[key]
 
     def get_small(self, w: str) -> np.ndarray:
         if w not in self.small:
-            self.small[w] = render_word(w, 28, (255, 230, 190, 170), glow=False)
+            self.small[w] = render_word(w, 24, (255, 230, 190, 130), glow=False)
         return self.small[w]
 
 
@@ -189,13 +189,17 @@ def draw_kinetic(frame: np.ndarray, verse: dict, local: float, dur: float, bank:
             frame = alpha_over(frame, c, x, Y_TRAIL)
             x += c.shape[1] - 16
     # current word pops BIG then eases
-    pop = 1.18 - 0.18 * min(1.0, phase * 2.2)
-    if phase < 0.12:
-        pop += 0.22 * (1 - phase / 0.12)  # attack
+    # Attack: explodes big, then holds. Next word = this one drops to the small trail.
+    if phase < 0.15:
+        pop = 1.55 - 0.35 * (phase / 0.15)
+    else:
+        pop = 1.20 - 0.08 * min(1.0, (phase - 0.15) / 0.85)
     big = bank.get_big(words[idx], hook)
-    # scale via resize
     nh = max(8, int(big.shape[0] * pop))
     nw = max(8, int(big.shape[1] * pop))
+    if nw > 1000:
+        s = 1000 / nw
+        nw, nh = 1000, max(8, int(nh * s))
     scaled = np.array(Image.fromarray(big).resize((nw, nh), Image.Resampling.BILINEAR))
     x = (W - nw) // 2
     y = Y_WORD - nh // 2
