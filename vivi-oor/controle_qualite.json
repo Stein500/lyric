@@ -1,0 +1,145 @@
+{
+  "source": "Samu/Snapchat-795169778.jpg",
+  "source_sha256": "cf839ce002e1135a2763144d30c24e8d619c049fd1b73985e11af7993cb58c5d",
+  "original_unchanged": true,
+  "snapchat_stickers_removed_from_mask": true,
+  "generated_background_count": 10,
+  "final_image_count": 10,
+  "size": [
+    1080,
+    1920
+  ],
+  "format": "PNG RGB",
+  "text_in_individual_images": false,
+  "face_core_box_at_delivery_size": [
+    352,
+    570,
+    630,
+    870
+  ],
+  "method": "Original RGB, uniform Lanczos resize 1.5x, shared alpha matte; no AI face, body or clothing generation.",
+  "boundary_note": "Only the 1–3 pixel feathered silhouette is blended with the new environment. All fully opaque subject pixels are identical to the uniformly resized source.",
+  "background_processing": "Center-fit without distortion to 9:16, Gaussian blur 1.8 px for portrait depth of field. No global grade over the original portrait.",
+  "files": [
+    {
+      "file": "livrables/VIVI_OOR_01_invitation.png",
+      "sha256": "5ece512e5c694d22053051015221156e7d2a61bc2134d571ad020a679a105013",
+      "bytes": 2055129,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "5ee09f97cc670b29d4692aea2efadc6efe6cae09a4b1f7a1779ff215a48ed135",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    },
+    {
+      "file": "livrables/VIVI_OOR_02_miel.png",
+      "sha256": "e2affeb2a83882b78e17b023400422ae4cc20f8af507cd6693b57f62c9feff13",
+      "bytes": 2401316,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "72e1e0c6f134ded7c4a7e0617fe1e80ce37e61a9b49ae58096e56a542d9d979d",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    },
+    {
+      "file": "livrables/VIVI_OOR_03_etincelles.png",
+      "sha256": "cf31f8185e557a7e9cfdaf7457a1d89558f69549c04a8b3a3ad994b87595fae5",
+      "bytes": 2177702,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "0de54d70de52133d1cd9ba2f65e30e48faf962e70e8cb7bde217d2394266c855",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    },
+    {
+      "file": "livrables/VIVI_OOR_04_reste.png",
+      "sha256": "dd4fd00106b46387c57d7428e17f3f8539ca1104438d499a1d0395950bed0c13",
+      "bytes": 1860557,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "d00bd1884e305ab3f5c8599d670a56c5680f141fcc769151a9f3c045ed599457",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    },
+    {
+      "file": "livrables/VIVI_OOR_05_instants.png",
+      "sha256": "a75936252bc55dc69076af94b6f2d8211a9670ecbfc678435fb1685284882a62",
+      "bytes": 1855359,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "0a5bf4f334750d32f1be6e51d05b177d53d85b62f4406e0a3837df37f3038fda",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    },
+    {
+      "file": "livrables/VIVI_OOR_06_coeur.png",
+      "sha256": "89d1971a8bb7ac1c0e86036ba1ecf2b420fa73c07f9ebc055247239f96724173",
+      "bytes": 2132580,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "ce02fe4e03454cbc7113dd7579052ff3407437e0f48bc58d2947c8b219c1f44f",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    },
+    {
+      "file": "livrables/VIVI_OOR_07_tresor.png",
+      "sha256": "21d3d604af7b5c96f76590cdb879e87495a493059cf0781205b461ee19ef7b5a",
+      "bytes": 1909399,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "160cdefe9ac2990c4327785adabd1c7eb20d7b82900a3d1f5115b60b427ef8c2",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    },
+    {
+      "file": "livrables/VIVI_OOR_08_festin.png",
+      "sha256": "e25f7ae9e564b781306cd4503f6efc6ab769e78bc082309f9630e6f65427d39a",
+      "bytes": 2162847,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "956fa56686589d66ad1c986c0ce7918a6efd3690b6a6675666442c5e00d0d932",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    },
+    {
+      "file": "livrables/VIVI_OOR_09_danse.png",
+      "sha256": "d4cf9809b91d8b0e1a240e8268d84976690ee4f906a79d6f601d1b3643b2c264",
+      "bytes": 2054927,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "f8f8d610b58e2abe71c1d8890b883e282fc5b085f628f69c20f4ea2ed1091895",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    },
+    {
+      "file": "livrables/VIVI_OOR_10_aube.png",
+      "sha256": "e584ef72ccef2253c16f40b3d358a58503133d29246f5f3065dfd6d429d42520",
+      "bytes": 1611514,
+      "background_size": [
+        768,
+        1376
+      ],
+      "background_sha256": "99cda8ce8c77a22741dec55a68ea0c0c0276f74b552ed12ce33f7b5a005a57f8",
+      "opaque_portrait_max_pixel_error": 0,
+      "face_core_max_pixel_error": 0
+    }
+  ]
+}
