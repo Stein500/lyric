@@ -1,13 +1,15 @@
 # VIVI OOR — 10 images, une seule photo
 
-> **Nouvelle livraison : [V2 — les dix retouches IA](v2/README.md)**, avec une [galerie autonome, images directement intégrées](v2/VIVI_OOR_10_images_directement_ici.html), un [PDF de dix images en grand](v2/VIVI_OOR_10_images_a_feuilleter.pdf) et un [nouveau ZIP](v2/VIVI_OOR_V2_10_images_9x16.zip). La documentation ci-dessous décrit la **V1**, conservée sans modification. Ses tests de conservation pixel ne s’appliquent pas à la V2.
+> **Clip, MP3 et covers prêts : [livraison musique complète](production/README.md).** Le montage utilise les dix portraits V2 validés et le nouveau mode d’apparition des paroles.
+
+> **Nouvelle livraison : [V2 — les dix retouches IA](v2/README.md)**, avec une [galerie autonome, images directement intégrées](v2/VIVI_OOR_10_images_directement_ici.html), un [PDF de dix images en grand](v2/VIVI_OOR_10_images_a_feuilleter.pdf) et un [nouveau ZIP](https://raw.githubusercontent.com/Stein500/lyric/eaec1480a8a5875f30681ee270d70dcb12e335cd/vivi-oor/v2/VIVI_OOR_V2_10_images_9x16.zip). La documentation ci-dessous décrit la **V1**, conservée sans modification. Ses tests de conservation pixel ne s’appliquent pas à la V2.
 
 **Choix validés par l’artiste le 26 septembre 2026 :** photo proposée acceptée · carte blanche pour les décors · vertical 9:16 · aucun texte.
 
 ## Livraison
 
 - **10 PNG RGB en 1080 × 1920**, dans [`livrables/`](livrables/).
-- [`VIVI_OOR_10_images_9x16.zip`](VIVI_OOR_10_images_9x16.zip) : uniquement les dix PNG, environ 20 Mo.
+- [`VIVI_OOR_10_images_9x16.zip`](https://raw.githubusercontent.com/Stein500/lyric/d086aed69b3ea636f36768b65feb5d2accb6abe6/vivi-oor/VIVI_OOR_10_images_9x16.zip) : uniquement les dix PNG, environ 20 Mo.
 - [`VIVI_OOR_apercu_10_images.jpg`](VIVI_OOR_apercu_10_images.jpg) : planche des dix résultats. Ses légendes sont à l’extérieur des vignettes ; **les images individuelles n’ont aucun texte, badge ou logo**.
 - [`PROMPTS_IMAGES_VIVI_OOR.md`](PROMPTS_IMAGES_VIVI_OOR.md) : les dix prompts complets et leurs liens avec les paroles.
 - [`controle_qualite.json`](controle_qualite.json) : dimensions, empreintes et contrôle de conservation du portrait.

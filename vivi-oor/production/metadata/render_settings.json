@@ -1,0 +1,24 @@
+{
+  "frames": 6479,
+  "fps": 30,
+  "size": [
+    1080,
+    1920
+  ],
+  "crf": 21,
+  "maxrate_kbps": 1500,
+  "preset": "fast",
+  "video_codec": "H.264 high / yuv420p",
+  "audio_codec": "AAC 192k 48k stereo",
+  "single_frame_clock": true,
+  "video_input_concatenation": false,
+  "source_images": "approved Vivi OOR V2",
+  "opacity_badge_max": 0.69,
+  "lyrics_safe_bounds": [
+    50,
+    1100,
+    910,
+    1494
+  ],
+  "final_fade_seconds": 3
+}

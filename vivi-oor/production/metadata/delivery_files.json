@@ -1,0 +1,72 @@
+[
+  {
+    "file": "CAPTION_VIVI_OOR.txt",
+    "bytes": 181,
+    "sha256": "ea3664ab4e6a73a5a52a7588c91937f26311374f513c3ec6fca83a16e5f63409"
+  },
+  {
+    "file": "PROMPT_UNIVERSEL_v5.3.2.md",
+    "bytes": 28486,
+    "sha256": "db7d1bfcf29617d789404ce6a92addfeb17491c2192d77fd56224aa67dbba76d"
+  },
+  {
+    "file": "VIVI_OOR_lyrics_9x16.mp4",
+    "bytes": 44482163,
+    "sha256": "8e396d626911979cd3f6343e3739aece1065015d083a3a71a4d3fe1fa0f87afb"
+  },
+  {
+    "file": "VIVI_OOR_lyrics_mot_a_mot.ass",
+    "bytes": 195115,
+    "sha256": "0ff9cbe725264b228b8d56340ab9089e4cd847a7aaf221de4cde7acaef8dec30"
+  },
+  {
+    "file": "VIVI_OOR_master_320k.mp3",
+    "bytes": 8529249,
+    "sha256": "2fe6814ed527a86ae43d3f8f5c8f3a88a5aa27f49dece057f06aabf94561486f"
+  },
+  {
+    "file": "Vivi_OOR.lrc",
+    "bytes": 2323,
+    "sha256": "b7d3152206292b302141f79ae87bacd2fd09b1e30992b475032be1e6a6fe4612"
+  },
+  {
+    "file": "Vivi_OOR_chanson.srt",
+    "bytes": 3324,
+    "sha256": "6ede22f4e1227e2e300fa609f00207ae14ff55cdb1471cc53a7fb468f974c18b"
+  },
+  {
+    "file": "Vivi_OOR_clip.srt",
+    "bytes": 3413,
+    "sha256": "0f3480a238cf012ca0be9e84695e1848ec162f8aafea10a38c13d2711a1e685d"
+  },
+  {
+    "file": "Vivi_OOR_paroles.txt",
+    "bytes": 1838,
+    "sha256": "cf9eb80d01872c471d82e3bb4200eb2ebe37522026f4e459a7822f75f4073bf3"
+  },
+  {
+    "file": "cover_vivi_oor_1080x1080.jpg",
+    "bytes": 300879,
+    "sha256": "56be324f51d0eab39a1991020b7606788bbc77cee96cdd50a75b0cc62f132b71"
+  },
+  {
+    "file": "cover_vivi_oor_16x9.jpg",
+    "bytes": 324232,
+    "sha256": "f86d58c7bf1a56483944e0b967735de6d22163744719865175919c9d6ed1a4de"
+  },
+  {
+    "file": "cover_vivi_oor_9x16.jpg",
+    "bytes": 533418,
+    "sha256": "699e935518fd29a07b486dfe70fe7076e11bfe97b466e0a8037c216680839e2a"
+  },
+  {
+    "file": "cover_vivi_oor_portrait_alternative_1080.jpg",
+    "bytes": 343721,
+    "sha256": "c0e0fffdfc3e846689be5359eae54e7533fcfd31996df04e2b7daf500c98872b"
+  },
+  {
+    "file": "cover_vivi_oor_universelle_3000.jpg",
+    "bytes": 1299234,
+    "sha256": "980f6e29a6a50eb751d736ec928d7afaeebff63967185b3a5311165cf4f9462e"
+  }
+]

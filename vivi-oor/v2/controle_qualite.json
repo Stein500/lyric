@@ -113,6 +113,9 @@
     "file": "VIVI_OOR_V2_10_images_9x16.zip",
     "bytes": 19802273,
     "sha256": "cfc80ce40af8308a65f9f770295880a90fce95ab669801cb374a81543093f5cd",
-    "count": 10
+    "count": 10,
+    "storage": "immutable Git commit, duplicate ZIP removed from current tree",
+    "commit": "eaec1480a8a5875f30681ee270d70dcb12e335cd",
+    "download_url": "https://raw.githubusercontent.com/Stein500/lyric/eaec1480a8a5875f30681ee270d70dcb12e335cd/vivi-oor/v2/VIVI_OOR_V2_10_images_9x16.zip"
   }
 }

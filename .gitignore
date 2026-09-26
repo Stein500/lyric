@@ -5,3 +5,7 @@ __pycache__/
 *.pyc
 bin/
 .DS_Store
+
+# Rebuildable, duplicate image ZIPs: archived at verified immutable commits.
+vivi-oor/VIVI_OOR_10_images_9x16.zip
+vivi-oor/v2/VIVI_OOR_V2_10_images_9x16.zip

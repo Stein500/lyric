@@ -8,7 +8,7 @@ Nouvelle demande : **afficher les dix images ici et les retravailler avec l’IA
 - **[`VIVI_OOR_10_images_a_feuilleter.pdf`](VIVI_OOR_10_images_a_feuilleter.pdf)** : dix pages, une image 9:16 en grand par page ; consultation sans dépendance externe.
 - [`index.html`](index.html) : galerie interactive à utiliser avec le serveur local, agrandissement au clic, navigation précédente/suivante et téléchargement individuel. Adaptée au téléphone.
 - [`livrables/`](livrables/) : **10 PNG, 1080 × 1920, sans texte**.
-- [`VIVI_OOR_V2_10_images_9x16.zip`](VIVI_OOR_V2_10_images_9x16.zip) : exactement les dix PNG, environ 20 Mo.
+- [`VIVI_OOR_V2_10_images_9x16.zip`](https://raw.githubusercontent.com/Stein500/lyric/eaec1480a8a5875f30681ee270d70dcb12e335cd/vivi-oor/v2/VIVI_OOR_V2_10_images_9x16.zip) : exactement les dix PNG, environ 20 Mo.
 - [`VIVI_OOR_V2_apercu.jpg`](VIVI_OOR_V2_apercu.jpg) : vue d’ensemble secondaire ; la galerie permet de voir chaque portrait en grand.
 - [`LIVRAISON_TERMUX.md`](LIVRAISON_TERMUX.md) : téléchargement reprenable du ZIP et du catalogue de prompts au commit immuable de livraison.
 

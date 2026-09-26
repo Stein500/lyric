@@ -1,0 +1,52 @@
+{
+  "file": "VIVI_OOR_lyrics_9x16.mp4",
+  "bytes": 44482163,
+  "sha256": "8e396d626911979cd3f6343e3739aece1065015d083a3a71a4d3fe1fa0f87afb",
+  "frames": 6479,
+  "fps": 30,
+  "duration": 215.96666666666667,
+  "expected_duration": 215.96,
+  "width": 1080,
+  "height": 1920,
+  "codec": "H.264 High / yuv420p",
+  "audio": "AAC 192 kb/s / 48000 Hz / stereo",
+  "audio_integrated_lufs": -15.23,
+  "audio_true_peak_dbtp": -2.02,
+  "audio_constant_correction_db": -1.2,
+  "black_intervals": [
+    {
+      "start": 215.266667,
+      "end": 215.933333,
+      "duration": 0.666667
+    }
+  ],
+  "black_only_final_fade": true,
+  "freeze_intervals": [],
+  "freeze_test": "noise=-80dB; minimum duration=1.5 seconds",
+  "faststart": true,
+  "mp4_atoms": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "size": 32
+    },
+    {
+      "type": "moov",
+      "offset": 32,
+      "size": 239069
+    },
+    {
+      "type": "free",
+      "offset": 239101,
+      "size": 8
+    },
+    {
+      "type": "mdat",
+      "offset": 239109,
+      "size": 44243054
+    }
+  ],
+  "lyrics_face_free_by_layout": true,
+  "word_timing_precision": "Estimated within the supplied line timestamps, not ASR-validated",
+  "audio_alignment_checks": "Waveform correlation before/after mastering at 5,45,95,154,176 s: zero measured offset at 16 kHz."
+}
