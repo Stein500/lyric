@@ -8,6 +8,7 @@ Nouvelle demande : **afficher les dix images ici et les retravailler avec l’IA
 - [`livrables/`](livrables/) : **10 PNG, 1080 × 1920, sans texte**.
 - [`VIVI_OOR_V2_10_images_9x16.zip`](VIVI_OOR_V2_10_images_9x16.zip) : exactement les dix PNG, environ 20 Mo.
 - [`VIVI_OOR_V2_apercu.jpg`](VIVI_OOR_V2_apercu.jpg) : vue d’ensemble secondaire ; la galerie permet de voir chaque portrait en grand.
+- [`LIVRAISON_TERMUX.md`](LIVRAISON_TERMUX.md) : téléchargement reprenable du ZIP et du catalogue de prompts au commit immuable de livraison.
 
 Les noms et numéros de la galerie sont placés **hors des images**. Aucun titre, badge ou contact n’est incrusté dans les dix PNG.
 
