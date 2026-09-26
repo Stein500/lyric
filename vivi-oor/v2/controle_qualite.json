@@ -1,0 +1,118 @@
+{
+  "version": 2,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "count": 10,
+  "source_unchanged": true,
+  "identity_check": "Visual review only; AI retouches are not pixel-identical to the original.",
+  "files": [
+    {
+      "file": "livrables/VIVI_OOR_V2_01_invitation.png",
+      "sha256": "1c07e92bc33417252a0e9bc8e03fb43809615a05b399bd758e1f415bcc012a7d",
+      "bytes": 2004699,
+      "raw_size": [
+        768,
+        1376
+      ],
+      "raw_sha256": "37f864c9fc8648892467384b777f8400becb8302d0c8e405b8727ae59608eca5"
+    },
+    {
+      "file": "livrables/VIVI_OOR_V2_02_miel.png",
+      "sha256": "290a758499f6b8c71d9cd55943de6ea7aa567d889c80b0ae59081a6bf5b05b70",
+      "bytes": 2554695,
+      "raw_size": [
+        768,
+        1365
+      ],
+      "raw_sha256": "83e445d14adb1a6d5a349866c3e99f867c95066eabb3c8a592c3707d093030c8"
+    },
+    {
+      "file": "livrables/VIVI_OOR_V2_03_etincelles.png",
+      "sha256": "348989c52dfc51012ad07c9bd961d70dd6e804402fbf5c5099241caf2122d71c",
+      "bytes": 2230078,
+      "raw_size": [
+        768,
+        1376
+      ],
+      "raw_sha256": "65694cb51173f8d66be31af2dc2896796fd09619fb054ae28ce96be28d04ede0"
+    },
+    {
+      "file": "livrables/VIVI_OOR_V2_04_reste.png",
+      "sha256": "b2bf802f2b8773cb299230cbfe33f4d51005c351adb19db17b77f01e78c61e3b",
+      "bytes": 1785394,
+      "raw_size": [
+        768,
+        1376
+      ],
+      "raw_sha256": "5260f1861fe25d8b6dbb8b93b6d4a2fc30ae318d135450dbea807cb9e8073680"
+    },
+    {
+      "file": "livrables/VIVI_OOR_V2_05_instants.png",
+      "sha256": "dbf10dd8e370ba12dddb406474002cc5e329df57ed3f829a4232366ef96f3f81",
+      "bytes": 1702830,
+      "raw_size": [
+        768,
+        1376
+      ],
+      "raw_sha256": "180f3a8adfd72be1d0bf7affe13dcf7bfae53430894cfaac1b0387696b3d04b9"
+    },
+    {
+      "file": "livrables/VIVI_OOR_V2_06_coeur.png",
+      "sha256": "6fcc3ec12db8974f2947efdda952a2349f35b9ff24690dfedac533afb3bda903",
+      "bytes": 2051223,
+      "raw_size": [
+        768,
+        1376
+      ],
+      "raw_sha256": "9c090d0f14120f6e6619a7bebb5f6fde85fde9ef4538987080ff384d7b03b73a"
+    },
+    {
+      "file": "livrables/VIVI_OOR_V2_07_tresor.png",
+      "sha256": "7e15c46950395e2c13b1e38978a28acb40bc3aadf2ae767797fe25488dcf02a6",
+      "bytes": 1791497,
+      "raw_size": [
+        768,
+        1376
+      ],
+      "raw_sha256": "023d91364c873cc24328829464ceb3ed525b6bc91f2adf20c11c2b54da979d11"
+    },
+    {
+      "file": "livrables/VIVI_OOR_V2_08_festin.png",
+      "sha256": "88300bb1f177f7707cc510a7f543edf91455bf1c866d43ba638a08bff9500e95",
+      "bytes": 2190374,
+      "raw_size": [
+        768,
+        1376
+      ],
+      "raw_sha256": "c3555c56e2f8dc10c6628475a14cd064e6ef9f459fa3aade596efad874fef140"
+    },
+    {
+      "file": "livrables/VIVI_OOR_V2_09_danse.png",
+      "sha256": "f6f6e289b6937edaa5c12c025b2a0a5b9664f87850bc18773e4d219c42bab8b3",
+      "bytes": 1986470,
+      "raw_size": [
+        768,
+        1376
+      ],
+      "raw_sha256": "b6960b15da6e9dfdd2ace5e413ca5f0c0bb391452e879a0eaafd6b83fcf6cd25"
+    },
+    {
+      "file": "livrables/VIVI_OOR_V2_10_aube.png",
+      "sha256": "849c99ae518a9eb7ed4d20bfee74ebd882c6efb8744c6b2ea72e1d8f80fe62d2",
+      "bytes": 1503725,
+      "raw_size": [
+        768,
+        1376
+      ],
+      "raw_sha256": "15f8e5f81583d3a76d1601e37c5eb78499d66d1964a22dcb92d0febb0096f12d"
+    }
+  ],
+  "zip": {
+    "file": "VIVI_OOR_V2_10_images_9x16.zip",
+    "bytes": 19802273,
+    "sha256": "cfc80ce40af8308a65f9f770295880a90fce95ab669801cb374a81543093f5cd",
+    "count": 10
+  }
+}
