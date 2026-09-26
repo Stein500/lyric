@@ -4,7 +4,9 @@ Nouvelle demande : **afficher les dix images ici et les retravailler avec l’IA
 
 ## Voir les images
 
-- **[`index.html`](index.html)** : galerie des dix images séparées, agrandissement au clic, navigation précédente/suivante et téléchargement individuel. Adaptée au téléphone.
+- **[`VIVI_OOR_10_images_directement_ici.html`](VIVI_OOR_10_images_directement_ici.html)** : affichage direct des dix retouches IA, avec les photos intégrées au fichier. **Aucune URL externe, aucun chemin d’image relatif, aucun serveur requis.** Faire défiler pour voir chaque portrait séparément. À privilégier dans le viewer.
+- **[`VIVI_OOR_10_images_a_feuilleter.pdf`](VIVI_OOR_10_images_a_feuilleter.pdf)** : dix pages, une image 9:16 en grand par page ; consultation sans dépendance externe.
+- [`index.html`](index.html) : galerie interactive à utiliser avec le serveur local, agrandissement au clic, navigation précédente/suivante et téléchargement individuel. Adaptée au téléphone.
 - [`livrables/`](livrables/) : **10 PNG, 1080 × 1920, sans texte**.
 - [`VIVI_OOR_V2_10_images_9x16.zip`](VIVI_OOR_V2_10_images_9x16.zip) : exactement les dix PNG, environ 20 Mo.
 - [`VIVI_OOR_V2_apercu.jpg`](VIVI_OOR_V2_apercu.jpg) : vue d’ensemble secondaire ; la galerie permet de voir chaque portrait en grand.
@@ -52,3 +54,11 @@ python3 -m http.server 3000 --bind 0.0.0.0 --directory vivi-oor/v2
 ```
 
 L’export utilise les retouches IA déjà enregistrées dans `assets/edits/`. Les petits JPEG d’`apercus/` servent uniquement à l’affichage rapide : ce ne sont pas dix scènes supplémentaires et ils ne sont pas dans le ZIP.
+
+Pour reconstruire la présentation autonome et le PDF, avec Pillow et pypdf installés :
+
+```bash
+python3 vivi-oor/v2/scripts/presentation.py
+```
+
+Ce script vérifie les empreintes des dix PNG, crée les dix pages et intègre les dix aperçus au HTML. Il ne retouche aucune image et ne lance aucune nouvelle génération IA. Ces nouveaux fichiers changent uniquement la présentation des dix retouches V2, pour éviter les problèmes d’affichage des liens externes et des chemins relatifs.

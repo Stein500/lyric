@@ -1,6 +1,6 @@
 # VIVI OOR — 10 images, une seule photo
 
-> **Nouvelle livraison : [V2 — les dix retouches IA](v2/README.md)**, avec une [galerie image par image](v2/index.html) et un [nouveau ZIP](v2/VIVI_OOR_V2_10_images_9x16.zip). La documentation ci-dessous décrit la **V1**, conservée sans modification. Ses tests de conservation pixel ne s’appliquent pas à la V2.
+> **Nouvelle livraison : [V2 — les dix retouches IA](v2/README.md)**, avec une [galerie autonome, images directement intégrées](v2/VIVI_OOR_10_images_directement_ici.html), un [PDF de dix images en grand](v2/VIVI_OOR_10_images_a_feuilleter.pdf) et un [nouveau ZIP](v2/VIVI_OOR_V2_10_images_9x16.zip). La documentation ci-dessous décrit la **V1**, conservée sans modification. Ses tests de conservation pixel ne s’appliquent pas à la V2.
 
 **Choix validés par l’artiste le 26 septembre 2026 :** photo proposée acceptée · carte blanche pour les décors · vertical 9:16 · aucun texte.
 
