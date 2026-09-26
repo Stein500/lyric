@@ -1,0 +1,9 @@
+# Tested with Python 3.11; environments and FFmpeg binaries stay outside Git.
+Pillow==12.3.0
+numpy==2.4.6
+scipy==1.17.1
+mutagen==1.48.1
+imageio-ffmpeg==0.6.0
+fonttools==4.66.0
+Brotli==1.2.0
+opencv-python-headless==5.0.0.93

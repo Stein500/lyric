@@ -1,0 +1,3679 @@
+{
+  "title": "Vivi OOR",
+  "artist": "Daïsky",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "source_duration": 204.96,
+  "hook_duration": 6.0,
+  "hook_source_start": 152.43,
+  "hook_source_end": 158.43,
+  "total_duration": 215.96,
+  "frames": 6479,
+  "endcard_start": 207.96,
+  "lead_seconds": 0.03,
+  "line_timing_method": "Artist supplied LRC timestamps, no unverified line-time correction",
+  "word_timing_method": "Estimated from syllables, mirrored repeated lines and musical onset attraction ±0.10 s. Not forced-aligned vocals.",
+  "lyric_mode": "Active word 1.45→1.20 scale, settles into fixed small-word trail; soft entrance, discreet glow; face-free safe zone.",
+  "events": [
+    {
+      "text": "Vivi oor, vivi oor, je savoure chaque instant avec toi",
+      "scene": 5,
+      "tokens": [
+        "Vivi",
+        "oor,",
+        "vivi",
+        "oor,",
+        "je",
+        "savoure",
+        "chaque",
+        "instant",
+        "avec",
+        "toi"
+      ],
+      "start": 0.22,
+      "end": 5.870000000000005,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 0.22,
+          "end": 0.8777999999999804,
+          "trail_x": 183.594,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor,",
+          "start": 0.8777999999999804,
+          "end": 1.172699999999993,
+          "trail_x": 292.539,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "vivi",
+          "start": 1.172699999999993,
+          "end": 1.9145999999999799,
+          "trail_x": 398.992,
+          "trail_y": 1400,
+          "trail_width": 86.0
+        },
+        {
+          "text": "oor,",
+          "start": 1.9145999999999799,
+          "end": 2.22739999999999,
+          "trail_x": 505.445,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "je",
+          "start": 2.22739999999999,
+          "end": 2.4661999999999877,
+          "trail_x": 590.898,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "savoure",
+          "start": 2.4661999999999877,
+          "end": 3.1032999999999915,
+          "trail_x": 724.898,
+          "trail_y": 1400,
+          "trail_width": 194.0
+        },
+        {
+          "text": "chaque",
+          "start": 3.1032999999999915,
+          "end": 3.8451000000000035,
+          "trail_x": 282.0,
+          "trail_y": 1460,
+          "trail_width": 176.0
+        },
+        {
+          "text": "instant",
+          "start": 3.8451000000000035,
+          "end": 4.461799999999983,
+          "trail_x": 472.0,
+          "trail_y": 1460,
+          "trail_width": 174.0
+        },
+        {
+          "text": "avec",
+          "start": 4.461799999999983,
+          "end": 5.194699999999984,
+          "trail_x": 629.5,
+          "trail_y": 1460,
+          "trail_width": 111.0
+        },
+        {
+          "text": "toi",
+          "start": 5.194699999999984,
+          "end": 5.650000000000007,
+          "trail_x": 733.0,
+          "trail_y": 1460,
+          "trail_width": 66.0
+        }
+      ]
+    },
+    {
+      "text": "Wolof TechStein beat wê...",
+      "scene": 7,
+      "tokens": [
+        "Wolof",
+        "TechStein",
+        "beat",
+        "wê..."
+      ],
+      "start": 10.82,
+      "end": 14.5,
+      "words": [
+        {
+          "text": "Wolof",
+          "start": 10.82,
+          "end": 11.956000000000001,
+          "trail_x": 223.547,
+          "trail_y": 1400,
+          "trail_width": 140.969
+        },
+        {
+          "text": "TechStein",
+          "start": 11.956000000000001,
+          "end": 12.986,
+          "trail_x": 429.484,
+          "trail_y": 1400,
+          "trail_width": 240.906
+        },
+        {
+          "text": "beat",
+          "start": 12.986,
+          "end": 13.595,
+          "trail_x": 619.938,
+          "trail_y": 1400,
+          "trail_width": 110.0
+        },
+        {
+          "text": "wê...",
+          "start": 13.595,
+          "end": 14.280000000000001,
+          "trail_x": 748.438,
+          "trail_y": 1400,
+          "trail_width": 117.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé... Yiwan noumi...",
+      "scene": 1,
+      "tokens": [
+        "Djalé...",
+        "Yiwan",
+        "noumi..."
+      ],
+      "start": 14.600000000000001,
+      "end": 17.78,
+      "words": [
+        {
+          "text": "Djalé...",
+          "start": 14.600000000000001,
+          "end": 15.446000000000002,
+          "trail_x": 292.0,
+          "trail_y": 1400,
+          "trail_width": 172.0
+        },
+        {
+          "text": "Yiwan",
+          "start": 15.446000000000002,
+          "end": 16.4867,
+          "trail_x": 466.0,
+          "trail_y": 1400,
+          "trail_width": 146.0
+        },
+        {
+          "text": "noumi...",
+          "start": 16.4867,
+          "end": 17.56,
+          "trail_x": 654.0,
+          "trail_y": 1400,
+          "trail_width": 200.0
+        }
+      ]
+    },
+    {
+      "text": "Vivi oor...",
+      "scene": 1,
+      "tokens": [
+        "Vivi",
+        "oor..."
+      ],
+      "start": 23.86,
+      "end": 27.0,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 23.86,
+          "end": 25.785999999999998,
+          "trail_x": 408.047,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor...",
+          "start": 25.785999999999998,
+          "end": 26.779999999999998,
+          "trail_x": 532.992,
+          "trail_y": 1400,
+          "trail_width": 128.906
+        }
+      ]
+    },
+    {
+      "text": "Djalé, s'il te plaît, yiwan noumi, aime-moi",
+      "scene": 1,
+      "tokens": [
+        "Djalé,",
+        "s'il",
+        "te",
+        "plaît,",
+        "yiwan",
+        "noumi,",
+        "aime-moi"
+      ],
+      "start": 27.099999999999998,
+      "end": 30.709999999999997,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 27.099999999999998,
+          "end": 27.656,
+          "trail_x": 164.0,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "s'il",
+          "start": 27.656,
+          "end": 28.296,
+          "trail_x": 283.5,
+          "trail_y": 1400,
+          "trail_width": 69.0
+        },
+        {
+          "text": "te",
+          "start": 28.296,
+          "end": 28.496,
+          "trail_x": 358.0,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "plaît,",
+          "start": 28.496,
+          "end": 28.656,
+          "trail_x": 461.5,
+          "trail_y": 1400,
+          "trail_width": 127.0
+        },
+        {
+          "text": "yiwan",
+          "start": 28.656,
+          "end": 29.296,
+          "trail_x": 611.5,
+          "trail_y": 1400,
+          "trail_width": 143.0
+        },
+        {
+          "text": "noumi,",
+          "start": 29.296,
+          "end": 29.805999999999997,
+          "trail_x": 782.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "aime-moi",
+          "start": 29.805999999999997,
+          "end": 30.49,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 226.0
+        }
+      ]
+    },
+    {
+      "text": "Kissi noumi, embrasse-moi, vivi oor, ton goût est si doux",
+      "scene": 2,
+      "tokens": [
+        "Kissi",
+        "noumi,",
+        "embrasse-moi,",
+        "vivi",
+        "oor,",
+        "ton",
+        "goût",
+        "est",
+        "si",
+        "doux"
+      ],
+      "start": 30.81,
+      "end": 37.87,
+      "words": [
+        {
+          "text": "Kissi",
+          "start": 30.81,
+          "end": 31.785999999999998,
+          "trail_x": 150.5,
+          "trail_y": 1400,
+          "trail_width": 115.0
+        },
+        {
+          "text": "noumi,",
+          "start": 31.785999999999998,
+          "end": 32.626,
+          "trail_x": 307.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "embrasse-moi,",
+          "start": 32.626,
+          "end": 33.946,
+          "trail_x": 586.0,
+          "trail_y": 1400,
+          "trail_width": 360.0
+        },
+        {
+          "text": "vivi",
+          "start": 33.946,
+          "end": 34.965999999999994,
+          "trail_x": 824.0,
+          "trail_y": 1400,
+          "trail_width": 86.0
+        },
+        {
+          "text": "oor,",
+          "start": 34.965999999999994,
+          "end": 35.446,
+          "trail_x": 226.5,
+          "trail_y": 1460,
+          "trail_width": 96.906
+        },
+        {
+          "text": "ton",
+          "start": 35.446,
+          "end": 35.956,
+          "trail_x": 330.953,
+          "trail_y": 1460,
+          "trail_width": 82.0
+        },
+        {
+          "text": "goût",
+          "start": 35.956,
+          "end": 36.286,
+          "trail_x": 443.453,
+          "trail_y": 1460,
+          "trail_width": 113.0
+        },
+        {
+          "text": "est",
+          "start": 36.286,
+          "end": 36.616,
+          "trail_x": 552.953,
+          "trail_y": 1460,
+          "trail_width": 76.0
+        },
+        {
+          "text": "si",
+          "start": 36.616,
+          "end": 37.116,
+          "trail_x": 626.453,
+          "trail_y": 1460,
+          "trail_width": 41.0
+        },
+        {
+          "text": "doux",
+          "start": 37.116,
+          "end": 37.65,
+          "trail_x": 721.953,
+          "trail_y": 1460,
+          "trail_width": 120.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, s'il te plaît, yiwan noumi, aime-moi",
+      "scene": 1,
+      "tokens": [
+        "Djalé,",
+        "s'il",
+        "te",
+        "plaît,",
+        "yiwan",
+        "noumi,",
+        "aime-moi"
+      ],
+      "start": 37.97,
+      "end": 41.46,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 37.97,
+          "end": 38.5055,
+          "trail_x": 164.0,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "s'il",
+          "start": 38.5055,
+          "end": 39.122,
+          "trail_x": 283.5,
+          "trail_y": 1400,
+          "trail_width": 69.0
+        },
+        {
+          "text": "te",
+          "start": 39.122,
+          "end": 39.3146,
+          "trail_x": 358.0,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "plaît,",
+          "start": 39.3146,
+          "end": 39.4687,
+          "trail_x": 461.5,
+          "trail_y": 1400,
+          "trail_width": 127.0
+        },
+        {
+          "text": "yiwan",
+          "start": 39.4687,
+          "end": 40.0852,
+          "trail_x": 611.5,
+          "trail_y": 1400,
+          "trail_width": 143.0
+        },
+        {
+          "text": "noumi,",
+          "start": 40.0852,
+          "end": 40.5764,
+          "trail_x": 782.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "aime-moi",
+          "start": 40.5764,
+          "end": 41.24,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 226.0
+        }
+      ]
+    },
+    {
+      "text": "Vivi oor, vivi oor, je savoure chaque instant avec toi",
+      "scene": 5,
+      "tokens": [
+        "Vivi",
+        "oor,",
+        "vivi",
+        "oor,",
+        "je",
+        "savoure",
+        "chaque",
+        "instant",
+        "avec",
+        "toi"
+      ],
+      "start": 41.56,
+      "end": 47.839999999999996,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 41.56,
+          "end": 42.296,
+          "trail_x": 183.594,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor,",
+          "start": 42.296,
+          "end": 42.626,
+          "trail_x": 292.539,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "vivi",
+          "start": 42.626,
+          "end": 43.455999999999996,
+          "trail_x": 398.992,
+          "trail_y": 1400,
+          "trail_width": 86.0
+        },
+        {
+          "text": "oor,",
+          "start": 43.455999999999996,
+          "end": 43.806,
+          "trail_x": 505.445,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "je",
+          "start": 43.806,
+          "end": 44.0732,
+          "trail_x": 590.898,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "savoure",
+          "start": 44.0732,
+          "end": 44.786,
+          "trail_x": 724.898,
+          "trail_y": 1400,
+          "trail_width": 194.0
+        },
+        {
+          "text": "chaque",
+          "start": 44.786,
+          "end": 45.616,
+          "trail_x": 282.0,
+          "trail_y": 1460,
+          "trail_width": 176.0
+        },
+        {
+          "text": "instant",
+          "start": 45.616,
+          "end": 46.306,
+          "trail_x": 472.0,
+          "trail_y": 1460,
+          "trail_width": 174.0
+        },
+        {
+          "text": "avec",
+          "start": 46.306,
+          "end": 47.126,
+          "trail_x": 629.5,
+          "trail_y": 1460,
+          "trail_width": 111.0
+        },
+        {
+          "text": "toi",
+          "start": 47.126,
+          "end": 47.62,
+          "trail_x": 733.0,
+          "trail_y": 1460,
+          "trail_width": 66.0
+        }
+      ]
+    },
+    {
+      "text": "J'ai envie de toi, chaque nuit, chaque jour",
+      "scene": 9,
+      "tokens": [
+        "J'ai",
+        "envie",
+        "de",
+        "toi,",
+        "chaque",
+        "nuit,",
+        "chaque",
+        "jour"
+      ],
+      "start": 47.94,
+      "end": 50.54,
+      "words": [
+        {
+          "text": "J'ai",
+          "start": 47.94,
+          "end": 48.315999999999995,
+          "trail_x": 160.5,
+          "trail_y": 1400,
+          "trail_width": 73.0
+        },
+        {
+          "text": "envie",
+          "start": 48.315999999999995,
+          "end": 48.786,
+          "trail_x": 278.0,
+          "trail_y": 1400,
+          "trail_width": 132.0
+        },
+        {
+          "text": "de",
+          "start": 48.786,
+          "end": 48.900999999999996,
+          "trail_x": 389.0,
+          "trail_y": 1400,
+          "trail_width": 60.0
+        },
+        {
+          "text": "toi,",
+          "start": 48.900999999999996,
+          "end": 49.096,
+          "trail_x": 475.0,
+          "trail_y": 1400,
+          "trail_width": 82.0
+        },
+        {
+          "text": "chaque",
+          "start": 49.096,
+          "end": 49.466,
+          "trail_x": 619.0,
+          "trail_y": 1400,
+          "trail_width": 176.0
+        },
+        {
+          "text": "nuit,",
+          "start": 49.466,
+          "end": 49.635999999999996,
+          "trail_x": 779.0,
+          "trail_y": 1400,
+          "trail_width": 114.0
+        },
+        {
+          "text": "chaque",
+          "start": 49.635999999999996,
+          "end": 49.966,
+          "trail_x": 424.0,
+          "trail_y": 1460,
+          "trail_width": 176.0
+        },
+        {
+          "text": "jour",
+          "start": 49.966,
+          "end": 50.32,
+          "trail_x": 575.5,
+          "trail_y": 1460,
+          "trail_width": 97.0
+        }
+      ]
+    },
+    {
+      "text": "Wanyiyi dans mon cœur, c'est toi mon amour",
+      "scene": 6,
+      "tokens": [
+        "Wanyiyi",
+        "dans",
+        "mon",
+        "cœur,",
+        "c'est",
+        "toi",
+        "mon",
+        "amour"
+      ],
+      "start": 50.64,
+      "end": 52.97,
+      "words": [
+        {
+          "text": "Wanyiyi",
+          "start": 50.64,
+          "end": 51.126,
+          "trail_x": 211.547,
+          "trail_y": 1400,
+          "trail_width": 192.969
+        },
+        {
+          "text": "dans",
+          "start": 51.126,
+          "end": 51.306,
+          "trail_x": 381.531,
+          "trail_y": 1400,
+          "trail_width": 117.0
+        },
+        {
+          "text": "mon",
+          "start": 51.306,
+          "end": 51.455999999999996,
+          "trail_x": 508.031,
+          "trail_y": 1400,
+          "trail_width": 106.0
+        },
+        {
+          "text": "cœur,",
+          "start": 51.455999999999996,
+          "end": 51.629999999999995,
+          "trail_x": 645.984,
+          "trail_y": 1400,
+          "trail_width": 139.906
+        },
+        {
+          "text": "c'est",
+          "start": 51.629999999999995,
+          "end": 51.955999999999996,
+          "trail_x": 787.938,
+          "trail_y": 1400,
+          "trail_width": 114.0
+        },
+        {
+          "text": "toi",
+          "start": 51.955999999999996,
+          "end": 52.116,
+          "trail_x": 334.0,
+          "trail_y": 1460,
+          "trail_width": 66.0
+        },
+        {
+          "text": "mon",
+          "start": 52.116,
+          "end": 52.296,
+          "trail_x": 435.0,
+          "trail_y": 1460,
+          "trail_width": 106.0
+        },
+        {
+          "text": "amour",
+          "start": 52.296,
+          "end": 52.75,
+          "trail_x": 581.0,
+          "trail_y": 1460,
+          "trail_width": 156.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, reste avec moi, ne t'en va pas",
+      "scene": 4,
+      "tokens": [
+        "Djalé,",
+        "reste",
+        "avec",
+        "moi,",
+        "ne",
+        "t'en",
+        "va",
+        "pas"
+      ],
+      "start": 53.07,
+      "end": 55.83,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 53.07,
+          "end": 53.455999999999996,
+          "trail_x": 158.0,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "reste",
+          "start": 53.455999999999996,
+          "end": 53.796,
+          "trail_x": 306.0,
+          "trail_y": 1400,
+          "trail_width": 126.0
+        },
+        {
+          "text": "avec",
+          "start": 53.796,
+          "end": 54.126,
+          "trail_x": 439.5,
+          "trail_y": 1400,
+          "trail_width": 111.0
+        },
+        {
+          "text": "moi,",
+          "start": 54.126,
+          "end": 54.346,
+          "trail_x": 563.0,
+          "trail_y": 1400,
+          "trail_width": 106.0
+        },
+        {
+          "text": "ne",
+          "start": 54.346,
+          "end": 54.626,
+          "trail_x": 661.0,
+          "trail_y": 1400,
+          "trail_width": 60.0
+        },
+        {
+          "text": "t'en",
+          "start": 54.626,
+          "end": 54.946,
+          "trail_x": 753.0,
+          "trail_y": 1400,
+          "trail_width": 94.0
+        },
+        {
+          "text": "va",
+          "start": 54.946,
+          "end": 55.253099999999996,
+          "trail_x": 843.5,
+          "trail_y": 1400,
+          "trail_width": 57.0
+        },
+        {
+          "text": "pas",
+          "start": 55.253099999999996,
+          "end": 55.61,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 86.0
+        }
+      ]
+    },
+    {
+      "text": "Yiwan noumi, je t'en supplie, sois là",
+      "scene": 4,
+      "tokens": [
+        "Yiwan",
+        "noumi,",
+        "je",
+        "t'en",
+        "supplie,",
+        "sois",
+        "là"
+      ],
+      "start": 55.93,
+      "end": 58.58,
+      "words": [
+        {
+          "text": "Yiwan",
+          "start": 55.93,
+          "end": 56.455999999999996,
+          "trail_x": 200.0,
+          "trail_y": 1400,
+          "trail_width": 146.0
+        },
+        {
+          "text": "noumi,",
+          "start": 56.455999999999996,
+          "end": 56.786,
+          "trail_x": 372.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "je",
+          "start": 56.786,
+          "end": 56.966,
+          "trail_x": 493.0,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "t'en",
+          "start": 56.966,
+          "end": 57.296,
+          "trail_x": 577.0,
+          "trail_y": 1400,
+          "trail_width": 94.0
+        },
+        {
+          "text": "supplie,",
+          "start": 57.296,
+          "end": 57.796,
+          "trail_x": 736.0,
+          "trail_y": 1400,
+          "trail_width": 194.0
+        },
+        {
+          "text": "sois",
+          "start": 57.796,
+          "end": 57.966,
+          "trail_x": 450.5,
+          "trail_y": 1460,
+          "trail_width": 97.0
+        },
+        {
+          "text": "là",
+          "start": 57.966,
+          "end": 58.36,
+          "trail_x": 536.0,
+          "trail_y": 1460,
+          "trail_width": 44.0
+        }
+      ]
+    },
+    {
+      "text": "Kissi noumi, ta bouche a le goût du miel",
+      "scene": 2,
+      "tokens": [
+        "Kissi",
+        "noumi,",
+        "ta",
+        "bouche",
+        "a",
+        "le",
+        "goût",
+        "du",
+        "miel"
+      ],
+      "start": 58.68,
+      "end": 61.94,
+      "words": [
+        {
+          "text": "Kissi",
+          "start": 58.68,
+          "end": 59.286,
+          "trail_x": 144.5,
+          "trail_y": 1400,
+          "trail_width": 115.0
+        },
+        {
+          "text": "noumi,",
+          "start": 59.286,
+          "end": 59.806,
+          "trail_x": 301.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "ta",
+          "start": 59.806,
+          "end": 60.135999999999996,
+          "trail_x": 425.0,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "bouche",
+          "start": 60.135999999999996,
+          "end": 60.455999999999996,
+          "trail_x": 553.5,
+          "trail_y": 1400,
+          "trail_width": 177.0
+        },
+        {
+          "text": "a",
+          "start": 60.455999999999996,
+          "end": 60.606,
+          "trail_x": 671.5,
+          "trail_y": 1400,
+          "trail_width": 29.0
+        },
+        {
+          "text": "le",
+          "start": 60.606,
+          "end": 60.786,
+          "trail_x": 723.0,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "goût",
+          "start": 60.786,
+          "end": 61.126,
+          "trail_x": 816.5,
+          "trail_y": 1400,
+          "trail_width": 113.0
+        },
+        {
+          "text": "du",
+          "start": 61.126,
+          "end": 61.296,
+          "trail_x": 420.5,
+          "trail_y": 1460,
+          "trail_width": 62.0
+        },
+        {
+          "text": "miel",
+          "start": 61.296,
+          "end": 61.72,
+          "trail_x": 518.5,
+          "trail_y": 1460,
+          "trail_width": 104.0
+        }
+      ]
+    },
+    {
+      "text": "Chaque baiser est une étincelle",
+      "scene": 3,
+      "tokens": [
+        "Chaque",
+        "baiser",
+        "est",
+        "une",
+        "étincelle"
+      ],
+      "start": 62.04,
+      "end": 63.97999999999999,
+      "words": [
+        {
+          "text": "Chaque",
+          "start": 62.04,
+          "end": 62.306,
+          "trail_x": 186.5,
+          "trail_y": 1400,
+          "trail_width": 183.0
+        },
+        {
+          "text": "baiser",
+          "start": 62.306,
+          "end": 62.626,
+          "trail_x": 368.5,
+          "trail_y": 1400,
+          "trail_width": 151.0
+        },
+        {
+          "text": "est",
+          "start": 62.626,
+          "end": 62.806,
+          "trail_x": 497.0,
+          "trail_y": 1400,
+          "trail_width": 76.0
+        },
+        {
+          "text": "une",
+          "start": 62.806,
+          "end": 63.126,
+          "trail_x": 595.5,
+          "trail_y": 1400,
+          "trail_width": 91.0
+        },
+        {
+          "text": "étincelle",
+          "start": 63.126,
+          "end": 63.76,
+          "trail_x": 760.5,
+          "trail_y": 1400,
+          "trail_width": 209.0
+        }
+      ]
+    },
+    {
+      "text": "Vivi oor, c'est ma philosophie",
+      "scene": 1,
+      "tokens": [
+        "Vivi",
+        "oor,",
+        "c'est",
+        "ma",
+        "philosophie"
+      ],
+      "start": 64.08,
+      "end": 66.75,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 64.08,
+          "end": 64.606,
+          "trail_x": 165.547,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor,",
+          "start": 64.606,
+          "end": 64.786,
+          "trail_x": 274.492,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "c'est",
+          "start": 64.786,
+          "end": 65.29599999999999,
+          "trail_x": 394.945,
+          "trail_y": 1400,
+          "trail_width": 114.0
+        },
+        {
+          "text": "ma",
+          "start": 65.29599999999999,
+          "end": 65.49600000000001,
+          "trail_x": 503.945,
+          "trail_y": 1400,
+          "trail_width": 74.0
+        },
+        {
+          "text": "philosophie",
+          "start": 65.49600000000001,
+          "end": 66.53,
+          "trail_x": 697.945,
+          "trail_y": 1400,
+          "trail_width": 284.0
+        }
+      ]
+    },
+    {
+      "text": "Savoure la vie, savoure chaque nuit",
+      "scene": 5,
+      "tokens": [
+        "Savoure",
+        "la",
+        "vie,",
+        "savoure",
+        "chaque",
+        "nuit"
+      ],
+      "start": 66.85,
+      "end": 69.38,
+      "words": [
+        {
+          "text": "Savoure",
+          "start": 66.85,
+          "end": 67.29599999999999,
+          "trail_x": 199.0,
+          "trail_y": 1400,
+          "trail_width": 199.0
+        },
+        {
+          "text": "la",
+          "start": 67.29599999999999,
+          "end": 67.45599999999999,
+          "trail_x": 335.5,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "vie,",
+          "start": 67.45599999999999,
+          "end": 67.7655,
+          "trail_x": 416.5,
+          "trail_y": 1400,
+          "trail_width": 88.0
+        },
+        {
+          "text": "savoure",
+          "start": 67.7655,
+          "end": 68.24600000000001,
+          "trail_x": 572.5,
+          "trail_y": 1400,
+          "trail_width": 194.0
+        },
+        {
+          "text": "chaque",
+          "start": 68.24600000000001,
+          "end": 68.786,
+          "trail_x": 772.5,
+          "trail_y": 1400,
+          "trail_width": 176.0
+        },
+        {
+          "text": "nuit",
+          "start": 68.786,
+          "end": 69.16,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 98.0
+        }
+      ]
+    },
+    {
+      "text": "Wadjaya, viens dans mes bras, on va s'aimer",
+      "scene": 1,
+      "tokens": [
+        "Wadjaya,",
+        "viens",
+        "dans",
+        "mes",
+        "bras,",
+        "on",
+        "va",
+        "s'aimer"
+      ],
+      "start": 69.47999999999999,
+      "end": 74.58,
+      "words": [
+        {
+          "text": "Wadjaya,",
+          "start": 69.47999999999999,
+          "end": 70.626,
+          "trail_x": 215.5,
+          "trail_y": 1400,
+          "trail_width": 223.953
+        },
+        {
+          "text": "viens",
+          "start": 70.626,
+          "end": 71.126,
+          "trail_x": 406.977,
+          "trail_y": 1400,
+          "trail_width": 129.0
+        },
+        {
+          "text": "dans",
+          "start": 71.126,
+          "end": 71.456,
+          "trail_x": 544.977,
+          "trail_y": 1400,
+          "trail_width": 117.0
+        },
+        {
+          "text": "mes",
+          "start": 71.456,
+          "end": 71.786,
+          "trail_x": 668.477,
+          "trail_y": 1400,
+          "trail_width": 100.0
+        },
+        {
+          "text": "bras,",
+          "start": 71.786,
+          "end": 72.2508,
+          "trail_x": 794.977,
+          "trail_y": 1400,
+          "trail_width": 123.0
+        },
+        {
+          "text": "on",
+          "start": 72.2508,
+          "end": 72.636,
+          "trail_x": 347.5,
+          "trail_y": 1460,
+          "trail_width": 61.0
+        },
+        {
+          "text": "va",
+          "start": 72.636,
+          "end": 72.966,
+          "trail_x": 421.5,
+          "trail_y": 1460,
+          "trail_width": 57.0
+        },
+        {
+          "text": "s'aimer",
+          "start": 72.966,
+          "end": 74.36,
+          "trail_x": 554.0,
+          "trail_y": 1460,
+          "trail_width": 178.0
+        }
+      ]
+    },
+    {
+      "text": "Vivi oor, la vie est belle quand tu es à mes côtés",
+      "scene": 1,
+      "tokens": [
+        "Vivi",
+        "oor,",
+        "la",
+        "vie",
+        "est",
+        "belle",
+        "quand",
+        "tu",
+        "es",
+        "à",
+        "mes",
+        "côtés"
+      ],
+      "start": 74.68,
+      "end": 78.31,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 74.67999999999999,
+          "end": 75.126,
+          "trail_x": 154.547,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor,",
+          "start": 75.126,
+          "end": 75.456,
+          "trail_x": 263.492,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "la",
+          "start": 75.456,
+          "end": 75.636,
+          "trail_x": 348.945,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "vie",
+          "start": 75.636,
+          "end": 75.956,
+          "trail_x": 421.945,
+          "trail_y": 1400,
+          "trail_width": 72.0
+        },
+        {
+          "text": "est",
+          "start": 75.956,
+          "end": 76.116,
+          "trail_x": 510.945,
+          "trail_y": 1400,
+          "trail_width": 76.0
+        },
+        {
+          "text": "belle",
+          "start": 76.116,
+          "end": 76.286,
+          "trail_x": 623.445,
+          "trail_y": 1400,
+          "trail_width": 119.0
+        },
+        {
+          "text": "quand",
+          "start": 76.286,
+          "end": 76.616,
+          "trail_x": 774.445,
+          "trail_y": 1400,
+          "trail_width": 153.0
+        },
+        {
+          "text": "tu",
+          "start": 76.616,
+          "end": 76.786,
+          "trail_x": 292.5,
+          "trail_y": 1460,
+          "trail_width": 52.0
+        },
+        {
+          "text": "es",
+          "start": 76.786,
+          "end": 76.956,
+          "trail_x": 361.0,
+          "trail_y": 1460,
+          "trail_width": 55.0
+        },
+        {
+          "text": "à",
+          "start": 76.956,
+          "end": 77.116,
+          "trail_x": 418.0,
+          "trail_y": 1460,
+          "trail_width": 29.0
+        },
+        {
+          "text": "mes",
+          "start": 77.116,
+          "end": 77.456,
+          "trail_x": 497.5,
+          "trail_y": 1460,
+          "trail_width": 100.0
+        },
+        {
+          "text": "côtés",
+          "start": 77.456,
+          "end": 78.09,
+          "trail_x": 628.0,
+          "trail_y": 1460,
+          "trail_width": 131.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, yiwan noumi, je t'attends",
+      "scene": 4,
+      "tokens": [
+        "Djalé,",
+        "yiwan",
+        "noumi,",
+        "je",
+        "t'attends"
+      ],
+      "start": 78.41,
+      "end": 80.65,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 78.41,
+          "end": 78.786,
+          "trail_x": 161.5,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "yiwan",
+          "start": 78.786,
+          "end": 79.126,
+          "trail_x": 318.0,
+          "trail_y": 1400,
+          "trail_width": 143.0
+        },
+        {
+          "text": "noumi,",
+          "start": 79.126,
+          "end": 79.636,
+          "trail_x": 488.5,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "je",
+          "start": 79.636,
+          "end": 79.776,
+          "trail_x": 609.5,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "t'attends",
+          "start": 79.776,
+          "end": 80.42999999999999,
+          "trail_x": 757.5,
+          "trail_y": 1400,
+          "trail_width": 222.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, s'il te plaît, yiwan noumi, aime-moi",
+      "scene": 1,
+      "tokens": [
+        "Djalé,",
+        "s'il",
+        "te",
+        "plaît,",
+        "yiwan",
+        "noumi,",
+        "aime-moi"
+      ],
+      "start": 80.75,
+      "end": 84.03,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 80.75,
+          "end": 81.2497,
+          "trail_x": 164.0,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "s'il",
+          "start": 81.2497,
+          "end": 81.8249,
+          "trail_x": 283.5,
+          "trail_y": 1400,
+          "trail_width": 69.0
+        },
+        {
+          "text": "te",
+          "start": 81.8249,
+          "end": 82.0047,
+          "trail_x": 358.0,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "plaît,",
+          "start": 82.0047,
+          "end": 82.1485,
+          "trail_x": 461.5,
+          "trail_y": 1400,
+          "trail_width": 127.0
+        },
+        {
+          "text": "yiwan",
+          "start": 82.1485,
+          "end": 82.7237,
+          "trail_x": 611.5,
+          "trail_y": 1400,
+          "trail_width": 143.0
+        },
+        {
+          "text": "noumi,",
+          "start": 82.7237,
+          "end": 83.1821,
+          "trail_x": 782.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "aime-moi",
+          "start": 83.1821,
+          "end": 83.81,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 226.0
+        }
+      ]
+    },
+    {
+      "text": "Kissi noumi, embrasse-moi, vivi oor, ton goût est si doux",
+      "scene": 2,
+      "tokens": [
+        "Kissi",
+        "noumi,",
+        "embrasse-moi,",
+        "vivi",
+        "oor,",
+        "ton",
+        "goût",
+        "est",
+        "si",
+        "doux"
+      ],
+      "start": 84.13,
+      "end": 91.12,
+      "words": [
+        {
+          "text": "Kissi",
+          "start": 84.13,
+          "end": 85.0958,
+          "trail_x": 150.5,
+          "trail_y": 1400,
+          "trail_width": 115.0
+        },
+        {
+          "text": "noumi,",
+          "start": 85.0958,
+          "end": 85.9271,
+          "trail_x": 307.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "embrasse-moi,",
+          "start": 85.9271,
+          "end": 87.2333,
+          "trail_x": 586.0,
+          "trail_y": 1400,
+          "trail_width": 360.0
+        },
+        {
+          "text": "vivi",
+          "start": 87.2333,
+          "end": 88.2426,
+          "trail_x": 824.0,
+          "trail_y": 1400,
+          "trail_width": 86.0
+        },
+        {
+          "text": "oor,",
+          "start": 88.2426,
+          "end": 88.7176,
+          "trail_x": 226.5,
+          "trail_y": 1460,
+          "trail_width": 96.906
+        },
+        {
+          "text": "ton",
+          "start": 88.7176,
+          "end": 89.2223,
+          "trail_x": 330.953,
+          "trail_y": 1460,
+          "trail_width": 82.0
+        },
+        {
+          "text": "goût",
+          "start": 89.2223,
+          "end": 89.5489,
+          "trail_x": 443.453,
+          "trail_y": 1460,
+          "trail_width": 113.0
+        },
+        {
+          "text": "est",
+          "start": 89.5489,
+          "end": 89.8754,
+          "trail_x": 552.953,
+          "trail_y": 1460,
+          "trail_width": 76.0
+        },
+        {
+          "text": "si",
+          "start": 89.8754,
+          "end": 90.3702,
+          "trail_x": 626.453,
+          "trail_y": 1460,
+          "trail_width": 41.0
+        },
+        {
+          "text": "doux",
+          "start": 90.3702,
+          "end": 90.9,
+          "trail_x": 721.953,
+          "trail_y": 1460,
+          "trail_width": 120.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, s'il te plaît, yiwan noumi, aime-moi",
+      "scene": 1,
+      "tokens": [
+        "Djalé,",
+        "s'il",
+        "te",
+        "plaît,",
+        "yiwan",
+        "noumi,",
+        "aime-moi"
+      ],
+      "start": 91.22,
+      "end": 94.71,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 91.22,
+          "end": 91.7555,
+          "trail_x": 164.0,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "s'il",
+          "start": 91.7555,
+          "end": 92.372,
+          "trail_x": 283.5,
+          "trail_y": 1400,
+          "trail_width": 69.0
+        },
+        {
+          "text": "te",
+          "start": 92.372,
+          "end": 92.5646,
+          "trail_x": 358.0,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "plaît,",
+          "start": 92.5646,
+          "end": 92.7187,
+          "trail_x": 461.5,
+          "trail_y": 1400,
+          "trail_width": 127.0
+        },
+        {
+          "text": "yiwan",
+          "start": 92.7187,
+          "end": 93.3352,
+          "trail_x": 611.5,
+          "trail_y": 1400,
+          "trail_width": 143.0
+        },
+        {
+          "text": "noumi,",
+          "start": 93.3352,
+          "end": 93.82639999999999,
+          "trail_x": 782.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "aime-moi",
+          "start": 93.82639999999999,
+          "end": 94.49,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 226.0
+        }
+      ]
+    },
+    {
+      "text": "Vivi oor, vivi oor, je savoure chaque instant avec toi",
+      "scene": 5,
+      "tokens": [
+        "Vivi",
+        "oor,",
+        "vivi",
+        "oor,",
+        "je",
+        "savoure",
+        "chaque",
+        "instant",
+        "avec",
+        "toi"
+      ],
+      "start": 94.81,
+      "end": 100.66,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 94.81,
+          "end": 95.4926,
+          "trail_x": 183.594,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor,",
+          "start": 95.4926,
+          "end": 95.7987,
+          "trail_x": 292.539,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "vivi",
+          "start": 95.7987,
+          "end": 96.5685,
+          "trail_x": 398.992,
+          "trail_y": 1400,
+          "trail_width": 86.0
+        },
+        {
+          "text": "oor,",
+          "start": 96.5685,
+          "end": 96.8931,
+          "trail_x": 505.445,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "je",
+          "start": 96.8931,
+          "end": 97.141,
+          "trail_x": 590.898,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "savoure",
+          "start": 97.141,
+          "end": 97.8021,
+          "trail_x": 724.898,
+          "trail_y": 1400,
+          "trail_width": 194.0
+        },
+        {
+          "text": "chaque",
+          "start": 97.8021,
+          "end": 98.5719,
+          "trail_x": 282.0,
+          "trail_y": 1460,
+          "trail_width": 176.0
+        },
+        {
+          "text": "instant",
+          "start": 98.5719,
+          "end": 99.2119,
+          "trail_x": 472.0,
+          "trail_y": 1460,
+          "trail_width": 174.0
+        },
+        {
+          "text": "avec",
+          "start": 99.2119,
+          "end": 99.9724,
+          "trail_x": 629.5,
+          "trail_y": 1460,
+          "trail_width": 111.0
+        },
+        {
+          "text": "toi",
+          "start": 99.9724,
+          "end": 100.44,
+          "trail_x": 733.0,
+          "trail_y": 1460,
+          "trail_width": 66.0
+        }
+      ]
+    },
+    {
+      "text": "Je te veux près de moi, je te veux pour la vie",
+      "scene": 1,
+      "tokens": [
+        "Je",
+        "te",
+        "veux",
+        "près",
+        "de",
+        "moi,",
+        "je",
+        "te",
+        "veux",
+        "pour",
+        "la",
+        "vie"
+      ],
+      "start": 100.75999999999999,
+      "end": 103.2,
+      "words": [
+        {
+          "text": "Je",
+          "start": 100.76,
+          "end": 100.966,
+          "trail_x": 161.0,
+          "trail_y": 1400,
+          "trail_width": 45.0
+        },
+        {
+          "text": "te",
+          "start": 100.966,
+          "end": 101.116,
+          "trail_x": 223.5,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "veux",
+          "start": 101.116,
+          "end": 101.316,
+          "trail_x": 321.5,
+          "trail_y": 1400,
+          "trail_width": 116.0
+        },
+        {
+          "text": "près",
+          "start": 101.316,
+          "end": 101.456,
+          "trail_x": 448.0,
+          "trail_y": 1400,
+          "trail_width": 107.0
+        },
+        {
+          "text": "de",
+          "start": 101.456,
+          "end": 101.646,
+          "trail_x": 546.5,
+          "trail_y": 1400,
+          "trail_width": 60.0
+        },
+        {
+          "text": "moi,",
+          "start": 101.646,
+          "end": 101.786,
+          "trail_x": 644.5,
+          "trail_y": 1400,
+          "trail_width": 106.0
+        },
+        {
+          "text": "je",
+          "start": 101.786,
+          "end": 101.976,
+          "trail_x": 734.5,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "te",
+          "start": 101.976,
+          "end": 102.126,
+          "trail_x": 796.5,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "veux",
+          "start": 102.126,
+          "end": 102.29599999999999,
+          "trail_x": 343.0,
+          "trail_y": 1460,
+          "trail_width": 116.0
+        },
+        {
+          "text": "pour",
+          "start": 102.29599999999999,
+          "end": 102.486,
+          "trail_x": 472.5,
+          "trail_y": 1460,
+          "trail_width": 113.0
+        },
+        {
+          "text": "la",
+          "start": 102.486,
+          "end": 102.626,
+          "trail_x": 566.0,
+          "trail_y": 1460,
+          "trail_width": 44.0
+        },
+        {
+          "text": "vie",
+          "start": 102.626,
+          "end": 102.98,
+          "trail_x": 639.0,
+          "trail_y": 1460,
+          "trail_width": 72.0
+        }
+      ]
+    },
+    {
+      "text": "Kissi noumi, mon amour, donne-moi ton envie",
+      "scene": 1,
+      "tokens": [
+        "Kissi",
+        "noumi,",
+        "mon",
+        "amour,",
+        "donne-moi",
+        "ton",
+        "envie"
+      ],
+      "start": 103.3,
+      "end": 105.72,
+      "words": [
+        {
+          "text": "Kissi",
+          "start": 103.3,
+          "end": 103.626,
+          "trail_x": 234.547,
+          "trail_y": 1400,
+          "trail_width": 115.0
+        },
+        {
+          "text": "noumi,",
+          "start": 103.626,
+          "end": 103.956,
+          "trail_x": 391.047,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "mon",
+          "start": 103.956,
+          "end": 104.156,
+          "trail_x": 543.047,
+          "trail_y": 1400,
+          "trail_width": 106.0
+        },
+        {
+          "text": "amour,",
+          "start": 104.156,
+          "end": 104.446,
+          "trail_x": 697.0,
+          "trail_y": 1400,
+          "trail_width": 171.906
+        },
+        {
+          "text": "donne-moi",
+          "start": 104.446,
+          "end": 104.786,
+          "trail_x": 358.0,
+          "trail_y": 1460,
+          "trail_width": 260.0
+        },
+        {
+          "text": "ton",
+          "start": 104.786,
+          "end": 104.956,
+          "trail_x": 544.0,
+          "trail_y": 1460,
+          "trail_width": 82.0
+        },
+        {
+          "text": "envie",
+          "start": 104.956,
+          "end": 105.5,
+          "trail_x": 666.0,
+          "trail_y": 1460,
+          "trail_width": 132.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, je t'attends, je t'ouvre mon cœur",
+      "scene": 6,
+      "tokens": [
+        "Djalé,",
+        "je",
+        "t'attends,",
+        "je",
+        "t'ouvre",
+        "mon",
+        "cœur"
+      ],
+      "start": 105.82,
+      "end": 108.48,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 105.82,
+          "end": 106.306,
+          "trail_x": 200.5,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "je",
+          "start": 106.306,
+          "end": 106.456,
+          "trail_x": 307.5,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "t'attends,",
+          "start": 106.456,
+          "end": 107.126,
+          "trail_x": 463.5,
+          "trail_y": 1400,
+          "trail_width": 238.0
+        },
+        {
+          "text": "je",
+          "start": 107.126,
+          "end": 107.246,
+          "trail_x": 619.5,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "t'ouvre",
+          "start": 107.246,
+          "end": 107.626,
+          "trail_x": 743.0,
+          "trail_y": 1400,
+          "trail_width": 173.0
+        },
+        {
+          "text": "mon",
+          "start": 107.626,
+          "end": 107.956,
+          "trail_x": 410.5,
+          "trail_y": 1460,
+          "trail_width": 106.0
+        },
+        {
+          "text": "cœur",
+          "start": 107.956,
+          "end": 108.26,
+          "trail_x": 540.5,
+          "trail_y": 1460,
+          "trail_width": 124.0
+        }
+      ]
+    },
+    {
+      "text": "Yiwan noumi, toi et moi, c'est le bonheur",
+      "scene": 1,
+      "tokens": [
+        "Yiwan",
+        "noumi,",
+        "toi",
+        "et",
+        "moi,",
+        "c'est",
+        "le",
+        "bonheur"
+      ],
+      "start": 108.58,
+      "end": 111.26,
+      "words": [
+        {
+          "text": "Yiwan",
+          "start": 108.58,
+          "end": 108.966,
+          "trail_x": 161.0,
+          "trail_y": 1400,
+          "trail_width": 146.0
+        },
+        {
+          "text": "noumi,",
+          "start": 108.966,
+          "end": 109.456,
+          "trail_x": 333.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "toi",
+          "start": 109.456,
+          "end": 109.646,
+          "trail_x": 465.0,
+          "trail_y": 1400,
+          "trail_width": 66.0
+        },
+        {
+          "text": "et",
+          "start": 109.646,
+          "end": 109.786,
+          "trail_x": 538.0,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "moi,",
+          "start": 109.786,
+          "end": 109.976,
+          "trail_x": 631.0,
+          "trail_y": 1400,
+          "trail_width": 106.0
+        },
+        {
+          "text": "c'est",
+          "start": 109.976,
+          "end": 110.29599999999999,
+          "trail_x": 756.0,
+          "trail_y": 1400,
+          "trail_width": 114.0
+        },
+        {
+          "text": "le",
+          "start": 110.29599999999999,
+          "end": 110.456,
+          "trail_x": 850.0,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "bonheur",
+          "start": 110.456,
+          "end": 111.03999999999999,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 204.0
+        }
+      ]
+    },
+    {
+      "text": "Gbètché vivi, ma vie me plaît avec toi",
+      "scene": 5,
+      "tokens": [
+        "Gbètché",
+        "vivi,",
+        "ma",
+        "vie",
+        "me",
+        "plaît",
+        "avec",
+        "toi"
+      ],
+      "start": 111.36,
+      "end": 113.95,
+      "words": [
+        {
+          "text": "Gbètché",
+          "start": 111.36,
+          "end": 111.786,
+          "trail_x": 226.0,
+          "trail_y": 1400,
+          "trail_width": 201.0
+        },
+        {
+          "text": "vivi,",
+          "start": 111.786,
+          "end": 112.126,
+          "trail_x": 392.5,
+          "trail_y": 1400,
+          "trail_width": 102.0
+        },
+        {
+          "text": "ma",
+          "start": 112.126,
+          "end": 112.456,
+          "trail_x": 495.5,
+          "trail_y": 1400,
+          "trail_width": 74.0
+        },
+        {
+          "text": "vie",
+          "start": 112.456,
+          "end": 112.666,
+          "trail_x": 583.5,
+          "trail_y": 1400,
+          "trail_width": 72.0
+        },
+        {
+          "text": "me",
+          "start": 112.666,
+          "end": 112.786,
+          "trail_x": 671.5,
+          "trail_y": 1400,
+          "trail_width": 74.0
+        },
+        {
+          "text": "plaît",
+          "start": 112.786,
+          "end": 112.946,
+          "trail_x": 779.0,
+          "trail_y": 1400,
+          "trail_width": 111.0
+        },
+        {
+          "text": "avec",
+          "start": 112.946,
+          "end": 113.456,
+          "trail_x": 439.5,
+          "trail_y": 1460,
+          "trail_width": 111.0
+        },
+        {
+          "text": "toi",
+          "start": 113.456,
+          "end": 113.73,
+          "trail_x": 543.0,
+          "trail_y": 1460,
+          "trail_width": 66.0
+        }
+      ]
+    },
+    {
+      "text": "Wanyiyi, notre amour est plus fort que tout",
+      "scene": 7,
+      "tokens": [
+        "Wanyiyi,",
+        "notre",
+        "amour",
+        "est",
+        "plus",
+        "fort",
+        "que",
+        "tout"
+      ],
+      "start": 114.05,
+      "end": 116.81,
+      "words": [
+        {
+          "text": "Wanyiyi,",
+          "start": 114.05,
+          "end": 114.806,
+          "trail_x": 216.5,
+          "trail_y": 1400,
+          "trail_width": 208.969
+        },
+        {
+          "text": "notre",
+          "start": 114.806,
+          "end": 114.976,
+          "trail_x": 401.984,
+          "trail_y": 1400,
+          "trail_width": 132.0
+        },
+        {
+          "text": "amour",
+          "start": 114.976,
+          "end": 115.456,
+          "trail_x": 560.984,
+          "trail_y": 1400,
+          "trail_width": 156.0
+        },
+        {
+          "text": "est",
+          "start": 115.456,
+          "end": 115.626,
+          "trail_x": 691.984,
+          "trail_y": 1400,
+          "trail_width": 76.0
+        },
+        {
+          "text": "plus",
+          "start": 115.626,
+          "end": 115.806,
+          "trail_x": 796.484,
+          "trail_y": 1400,
+          "trail_width": 103.0
+        },
+        {
+          "text": "fort",
+          "start": 115.806,
+          "end": 115.956,
+          "trail_x": 368.0,
+          "trail_y": 1460,
+          "trail_width": 91.0
+        },
+        {
+          "text": "que",
+          "start": 115.956,
+          "end": 116.2331,
+          "trail_x": 474.0,
+          "trail_y": 1460,
+          "trail_width": 91.0
+        },
+        {
+          "text": "tout",
+          "start": 116.2331,
+          "end": 116.59,
+          "trail_x": 586.0,
+          "trail_y": 1460,
+          "trail_width": 103.0
+        }
+      ]
+    },
+    {
+      "text": "Vivi oor, c'est le cri de mon cœur",
+      "scene": 6,
+      "tokens": [
+        "Vivi",
+        "oor,",
+        "c'est",
+        "le",
+        "cri",
+        "de",
+        "mon",
+        "cœur"
+      ],
+      "start": 116.91,
+      "end": 119.25,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 116.91,
+          "end": 117.286,
+          "trail_x": 194.047,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor,",
+          "start": 117.286,
+          "end": 117.626,
+          "trail_x": 302.992,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "c'est",
+          "start": 117.626,
+          "end": 117.946,
+          "trail_x": 423.445,
+          "trail_y": 1400,
+          "trail_width": 114.0
+        },
+        {
+          "text": "le",
+          "start": 117.946,
+          "end": 118.116,
+          "trail_x": 517.445,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "cri",
+          "start": 118.116,
+          "end": 118.29599999999999,
+          "trail_x": 584.945,
+          "trail_y": 1400,
+          "trail_width": 61.0
+        },
+        {
+          "text": "de",
+          "start": 118.29599999999999,
+          "end": 118.466,
+          "trail_x": 660.445,
+          "trail_y": 1400,
+          "trail_width": 60.0
+        },
+        {
+          "text": "mon",
+          "start": 118.466,
+          "end": 118.626,
+          "trail_x": 758.445,
+          "trail_y": 1400,
+          "trail_width": 106.0
+        },
+        {
+          "text": "cœur",
+          "start": 118.626,
+          "end": 119.03,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 124.0
+        }
+      ]
+    },
+    {
+      "text": "La vie est un festin, je suis le mangeur",
+      "scene": 8,
+      "tokens": [
+        "La",
+        "vie",
+        "est",
+        "un",
+        "festin,",
+        "je",
+        "suis",
+        "le",
+        "mangeur"
+      ],
+      "start": 119.35,
+      "end": 122.63,
+      "words": [
+        {
+          "text": "La",
+          "start": 119.35,
+          "end": 119.626,
+          "trail_x": 151.0,
+          "trail_y": 1400,
+          "trail_width": 56.0
+        },
+        {
+          "text": "vie",
+          "start": 119.626,
+          "end": 119.786,
+          "trail_x": 230.0,
+          "trail_y": 1400,
+          "trail_width": 72.0
+        },
+        {
+          "text": "est",
+          "start": 119.786,
+          "end": 120.116,
+          "trail_x": 319.0,
+          "trail_y": 1400,
+          "trail_width": 76.0
+        },
+        {
+          "text": "un",
+          "start": 120.116,
+          "end": 120.29599999999999,
+          "trail_x": 403.0,
+          "trail_y": 1400,
+          "trail_width": 62.0
+        },
+        {
+          "text": "festin,",
+          "start": 120.29599999999999,
+          "end": 120.966,
+          "trail_x": 527.5,
+          "trail_y": 1400,
+          "trail_width": 157.0
+        },
+        {
+          "text": "je",
+          "start": 120.966,
+          "end": 121.116,
+          "trail_x": 643.0,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "suis",
+          "start": 121.116,
+          "end": 121.456,
+          "trail_x": 729.0,
+          "trail_y": 1400,
+          "trail_width": 98.0
+        },
+        {
+          "text": "le",
+          "start": 121.456,
+          "end": 121.646,
+          "trail_x": 815.0,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "mangeur",
+          "start": 121.646,
+          "end": 122.41,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 217.0
+        }
+      ]
+    },
+    {
+      "text": "Wadjaya, viens dans mes bras, on va s'aimer",
+      "scene": 1,
+      "tokens": [
+        "Wadjaya,",
+        "viens",
+        "dans",
+        "mes",
+        "bras,",
+        "on",
+        "va",
+        "s'aimer"
+      ],
+      "start": 122.72999999999999,
+      "end": 127.81,
+      "words": [
+        {
+          "text": "Wadjaya,",
+          "start": 122.73,
+          "end": 123.8712,
+          "trail_x": 215.5,
+          "trail_y": 1400,
+          "trail_width": 223.953
+        },
+        {
+          "text": "viens",
+          "start": 123.8712,
+          "end": 124.3691,
+          "trail_x": 406.977,
+          "trail_y": 1400,
+          "trail_width": 129.0
+        },
+        {
+          "text": "dans",
+          "start": 124.3691,
+          "end": 124.6977,
+          "trail_x": 544.977,
+          "trail_y": 1400,
+          "trail_width": 117.0
+        },
+        {
+          "text": "mes",
+          "start": 124.6977,
+          "end": 125.02629999999999,
+          "trail_x": 668.477,
+          "trail_y": 1400,
+          "trail_width": 100.0
+        },
+        {
+          "text": "bras,",
+          "start": 125.02629999999999,
+          "end": 125.4892,
+          "trail_x": 794.977,
+          "trail_y": 1400,
+          "trail_width": 123.0
+        },
+        {
+          "text": "on",
+          "start": 125.4892,
+          "end": 125.8727,
+          "trail_x": 347.5,
+          "trail_y": 1460,
+          "trail_width": 61.0
+        },
+        {
+          "text": "va",
+          "start": 125.8727,
+          "end": 126.2013,
+          "trail_x": 421.5,
+          "trail_y": 1460,
+          "trail_width": 57.0
+        },
+        {
+          "text": "s'aimer",
+          "start": 126.2013,
+          "end": 127.59,
+          "trail_x": 554.0,
+          "trail_y": 1460,
+          "trail_width": 178.0
+        }
+      ]
+    },
+    {
+      "text": "Vivi oor, la vie est belle quand tu es à mes côtés",
+      "scene": 1,
+      "tokens": [
+        "Vivi",
+        "oor,",
+        "la",
+        "vie",
+        "est",
+        "belle",
+        "quand",
+        "tu",
+        "es",
+        "à",
+        "mes",
+        "côtés"
+      ],
+      "start": 127.91,
+      "end": 131.67,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 127.91,
+          "end": 128.3737,
+          "trail_x": 154.547,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor,",
+          "start": 128.3737,
+          "end": 128.7168,
+          "trail_x": 263.492,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "la",
+          "start": 128.7168,
+          "end": 128.9039,
+          "trail_x": 348.945,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "vie",
+          "start": 128.9039,
+          "end": 129.23659999999998,
+          "trail_x": 421.945,
+          "trail_y": 1400,
+          "trail_width": 72.0
+        },
+        {
+          "text": "est",
+          "start": 129.23659999999998,
+          "end": 129.40290000000002,
+          "trail_x": 510.945,
+          "trail_y": 1400,
+          "trail_width": 76.0
+        },
+        {
+          "text": "belle",
+          "start": 129.40290000000002,
+          "end": 129.5797,
+          "trail_x": 623.445,
+          "trail_y": 1400,
+          "trail_width": 119.0
+        },
+        {
+          "text": "quand",
+          "start": 129.5797,
+          "end": 129.9227,
+          "trail_x": 774.445,
+          "trail_y": 1400,
+          "trail_width": 153.0
+        },
+        {
+          "text": "tu",
+          "start": 129.9227,
+          "end": 130.0995,
+          "trail_x": 292.5,
+          "trail_y": 1460,
+          "trail_width": 52.0
+        },
+        {
+          "text": "es",
+          "start": 130.0995,
+          "end": 130.2762,
+          "trail_x": 361.0,
+          "trail_y": 1460,
+          "trail_width": 55.0
+        },
+        {
+          "text": "à",
+          "start": 130.2762,
+          "end": 130.4425,
+          "trail_x": 418.0,
+          "trail_y": 1460,
+          "trail_width": 29.0
+        },
+        {
+          "text": "mes",
+          "start": 130.4425,
+          "end": 130.796,
+          "trail_x": 497.5,
+          "trail_y": 1460,
+          "trail_width": 100.0
+        },
+        {
+          "text": "côtés",
+          "start": 130.796,
+          "end": 131.45000000000002,
+          "trail_x": 628.0,
+          "trail_y": 1460,
+          "trail_width": 131.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, yiwan noumi, je t'attends",
+      "scene": 4,
+      "tokens": [
+        "Djalé,",
+        "yiwan",
+        "noumi,",
+        "je",
+        "t'attends"
+      ],
+      "start": 131.77,
+      "end": 134.04,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 131.77,
+          "end": 132.15200000000002,
+          "trail_x": 161.5,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "yiwan",
+          "start": 132.15200000000002,
+          "end": 132.4974,
+          "trail_x": 318.0,
+          "trail_y": 1400,
+          "trail_width": 143.0
+        },
+        {
+          "text": "noumi,",
+          "start": 132.4974,
+          "end": 133.0155,
+          "trail_x": 488.5,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "je",
+          "start": 133.0155,
+          "end": 133.1577,
+          "trail_x": 609.5,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "t'attends",
+          "start": 133.1577,
+          "end": 133.82,
+          "trail_x": 757.5,
+          "trail_y": 1400,
+          "trail_width": 222.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, yiwan noumi, kissi noumi, vivi oor",
+      "scene": 1,
+      "tokens": [
+        "Djalé,",
+        "yiwan",
+        "noumi,",
+        "kissi",
+        "noumi,",
+        "vivi",
+        "oor"
+      ],
+      "start": 134.14,
+      "end": 136.58,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 134.14,
+          "end": 134.436,
+          "trail_x": 155.0,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "yiwan",
+          "start": 134.436,
+          "end": 134.7831,
+          "trail_x": 311.5,
+          "trail_y": 1400,
+          "trail_width": 143.0
+        },
+        {
+          "text": "noumi,",
+          "start": 134.7831,
+          "end": 135.126,
+          "trail_x": 482.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "kissi",
+          "start": 135.126,
+          "end": 135.456,
+          "trail_x": 636.5,
+          "trail_y": 1400,
+          "trail_width": 111.0
+        },
+        {
+          "text": "noumi,",
+          "start": 135.456,
+          "end": 135.786,
+          "trail_x": 791.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "vivi",
+          "start": 135.786,
+          "end": 136.126,
+          "trail_x": 432.0,
+          "trail_y": 1460,
+          "trail_width": 86.0
+        },
+        {
+          "text": "oor",
+          "start": 136.126,
+          "end": 136.35999999999999,
+          "trail_x": 530.5,
+          "trail_y": 1460,
+          "trail_width": 81.0
+        }
+      ]
+    },
+    {
+      "text": "Notre amour est un trésor, on le garde encore",
+      "scene": 7,
+      "tokens": [
+        "Notre",
+        "amour",
+        "est",
+        "un",
+        "trésor,",
+        "on",
+        "le",
+        "garde",
+        "encore"
+      ],
+      "start": 136.68,
+      "end": 139.76,
+      "words": [
+        {
+          "text": "Notre",
+          "start": 136.68,
+          "end": 136.966,
+          "trail_x": 153.547,
+          "trail_y": 1400,
+          "trail_width": 137.0
+        },
+        {
+          "text": "amour",
+          "start": 136.966,
+          "end": 137.456,
+          "trail_x": 315.047,
+          "trail_y": 1400,
+          "trail_width": 156.0
+        },
+        {
+          "text": "est",
+          "start": 137.456,
+          "end": 137.61599999999999,
+          "trail_x": 446.047,
+          "trail_y": 1400,
+          "trail_width": 76.0
+        },
+        {
+          "text": "un",
+          "start": 137.61599999999999,
+          "end": 137.786,
+          "trail_x": 530.047,
+          "trail_y": 1400,
+          "trail_width": 62.0
+        },
+        {
+          "text": "trésor,",
+          "start": 137.786,
+          "end": 138.2879,
+          "trail_x": 658.0,
+          "trail_y": 1400,
+          "trail_width": 163.906
+        },
+        {
+          "text": "on",
+          "start": 138.2879,
+          "end": 138.456,
+          "trail_x": 785.453,
+          "trail_y": 1400,
+          "trail_width": 61.0
+        },
+        {
+          "text": "le",
+          "start": 138.456,
+          "end": 138.626,
+          "trail_x": 852.953,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "garde",
+          "start": 138.626,
+          "end": 138.906,
+          "trail_x": 390.0,
+          "trail_y": 1460,
+          "trail_width": 141.0
+        },
+        {
+          "text": "encore",
+          "start": 138.906,
+          "end": 139.54,
+          "trail_x": 558.0,
+          "trail_y": 1460,
+          "trail_width": 165.0
+        }
+      ]
+    },
+    {
+      "text": "Wadjaya, dansons jusqu'au matin",
+      "scene": 9,
+      "tokens": [
+        "Wadjaya,",
+        "dansons",
+        "jusqu'au",
+        "matin"
+      ],
+      "start": 139.85999999999999,
+      "end": 142.25,
+      "words": [
+        {
+          "text": "Wadjaya,",
+          "start": 139.85999999999999,
+          "end": 140.456,
+          "trail_x": 259.5,
+          "trail_y": 1400,
+          "trail_width": 223.953
+        },
+        {
+          "text": "dansons",
+          "start": 140.456,
+          "end": 140.796,
+          "trail_x": 488.477,
+          "trail_y": 1400,
+          "trail_width": 204.0
+        },
+        {
+          "text": "jusqu'au",
+          "start": 140.796,
+          "end": 141.456,
+          "trail_x": 708.977,
+          "trail_y": 1400,
+          "trail_width": 207.0
+        },
+        {
+          "text": "matin",
+          "start": 141.456,
+          "end": 142.03,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 141.0
+        }
+      ]
+    },
+    {
+      "text": "Vivi oor, le bon goût, c'est mon destin",
+      "scene": 1,
+      "tokens": [
+        "Vivi",
+        "oor,",
+        "le",
+        "bon",
+        "goût,",
+        "c'est",
+        "mon",
+        "destin"
+      ],
+      "start": 142.35,
+      "end": 144.69,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 142.35,
+          "end": 142.796,
+          "trail_x": 144.047,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor,",
+          "start": 142.796,
+          "end": 142.976,
+          "trail_x": 252.992,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "le",
+          "start": 142.976,
+          "end": 143.126,
+          "trail_x": 338.445,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "bon",
+          "start": 143.126,
+          "end": 143.24099999999999,
+          "trail_x": 421.445,
+          "trail_y": 1400,
+          "trail_width": 92.0
+        },
+        {
+          "text": "goût,",
+          "start": 143.24099999999999,
+          "end": 143.456,
+          "trail_x": 546.945,
+          "trail_y": 1400,
+          "trail_width": 129.0
+        },
+        {
+          "text": "c'est",
+          "start": 143.456,
+          "end": 143.786,
+          "trail_x": 683.445,
+          "trail_y": 1400,
+          "trail_width": 114.0
+        },
+        {
+          "text": "mon",
+          "start": 143.786,
+          "end": 143.986,
+          "trail_x": 808.445,
+          "trail_y": 1400,
+          "trail_width": 106.0
+        },
+        {
+          "text": "destin",
+          "start": 143.986,
+          "end": 144.47,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 153.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, s'il te plaît, yiwan noumi, aime-moi",
+      "scene": 1,
+      "tokens": [
+        "Djalé,",
+        "s'il",
+        "te",
+        "plaît,",
+        "yiwan",
+        "noumi,",
+        "aime-moi"
+      ],
+      "start": 144.79,
+      "end": 147.83,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 144.79,
+          "end": 145.2488,
+          "trail_x": 164.0,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "s'il",
+          "start": 145.2488,
+          "end": 145.7769,
+          "trail_x": 283.5,
+          "trail_y": 1400,
+          "trail_width": 69.0
+        },
+        {
+          "text": "te",
+          "start": 145.7769,
+          "end": 145.9419,
+          "trail_x": 358.0,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "plaît,",
+          "start": 145.9419,
+          "end": 146.0739,
+          "trail_x": 461.5,
+          "trail_y": 1400,
+          "trail_width": 127.0
+        },
+        {
+          "text": "yiwan",
+          "start": 146.0739,
+          "end": 146.602,
+          "trail_x": 611.5,
+          "trail_y": 1400,
+          "trail_width": 143.0
+        },
+        {
+          "text": "noumi,",
+          "start": 146.602,
+          "end": 147.0229,
+          "trail_x": 782.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "aime-moi",
+          "start": 147.0229,
+          "end": 147.60999999999999,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 226.0
+        }
+      ]
+    },
+    {
+      "text": "Kissi noumi, embrasse-moi, vivi oor, ton goût est si doux",
+      "scene": 2,
+      "tokens": [
+        "Kissi",
+        "noumi,",
+        "embrasse-moi,",
+        "vivi",
+        "oor,",
+        "ton",
+        "goût",
+        "est",
+        "si",
+        "doux"
+      ],
+      "start": 147.93,
+      "end": 154.97,
+      "words": [
+        {
+          "text": "Kissi",
+          "start": 147.93,
+          "end": 148.9031,
+          "trail_x": 150.5,
+          "trail_y": 1400,
+          "trail_width": 115.0
+        },
+        {
+          "text": "noumi,",
+          "start": 148.9031,
+          "end": 149.7406,
+          "trail_x": 307.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "embrasse-moi,",
+          "start": 149.7406,
+          "end": 151.0567,
+          "trail_x": 586.0,
+          "trail_y": 1400,
+          "trail_width": 360.0
+        },
+        {
+          "text": "vivi",
+          "start": 151.0567,
+          "end": 152.0736,
+          "trail_x": 824.0,
+          "trail_y": 1400,
+          "trail_width": 86.0
+        },
+        {
+          "text": "oor,",
+          "start": 152.0736,
+          "end": 152.5522,
+          "trail_x": 226.5,
+          "trail_y": 1460,
+          "trail_width": 96.906
+        },
+        {
+          "text": "ton",
+          "start": 152.5522,
+          "end": 153.0607,
+          "trail_x": 330.953,
+          "trail_y": 1460,
+          "trail_width": 82.0
+        },
+        {
+          "text": "goût",
+          "start": 153.0607,
+          "end": 153.3897,
+          "trail_x": 443.453,
+          "trail_y": 1460,
+          "trail_width": 113.0
+        },
+        {
+          "text": "est",
+          "start": 153.3897,
+          "end": 153.7187,
+          "trail_x": 552.953,
+          "trail_y": 1460,
+          "trail_width": 76.0
+        },
+        {
+          "text": "si",
+          "start": 153.7187,
+          "end": 154.2172,
+          "trail_x": 626.453,
+          "trail_y": 1460,
+          "trail_width": 41.0
+        },
+        {
+          "text": "doux",
+          "start": 154.2172,
+          "end": 154.75,
+          "trail_x": 721.953,
+          "trail_y": 1460,
+          "trail_width": 120.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé, s'il te plaît, yiwan noumi, aime-moi",
+      "scene": 1,
+      "tokens": [
+        "Djalé,",
+        "s'il",
+        "te",
+        "plaît,",
+        "yiwan",
+        "noumi,",
+        "aime-moi"
+      ],
+      "start": 155.07,
+      "end": 158.55,
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 155.07,
+          "end": 155.6038,
+          "trail_x": 164.0,
+          "trail_y": 1400,
+          "trail_width": 140.0
+        },
+        {
+          "text": "s'il",
+          "start": 155.6038,
+          "end": 156.2183,
+          "trail_x": 283.5,
+          "trail_y": 1400,
+          "trail_width": 69.0
+        },
+        {
+          "text": "te",
+          "start": 156.2183,
+          "end": 156.4103,
+          "trail_x": 358.0,
+          "trail_y": 1400,
+          "trail_width": 50.0
+        },
+        {
+          "text": "plaît,",
+          "start": 156.4103,
+          "end": 156.564,
+          "trail_x": 461.5,
+          "trail_y": 1400,
+          "trail_width": 127.0
+        },
+        {
+          "text": "yiwan",
+          "start": 156.564,
+          "end": 157.1784,
+          "trail_x": 611.5,
+          "trail_y": 1400,
+          "trail_width": 143.0
+        },
+        {
+          "text": "noumi,",
+          "start": 157.1784,
+          "end": 157.6681,
+          "trail_x": 782.0,
+          "trail_y": 1400,
+          "trail_width": 168.0
+        },
+        {
+          "text": "aime-moi",
+          "start": 157.6681,
+          "end": 158.33,
+          "trail_x": 480.0,
+          "trail_y": 1460,
+          "trail_width": 226.0
+        }
+      ]
+    },
+    {
+      "text": "Vivi oor, vivi oor, je savoure chaque instant avec toi",
+      "scene": 5,
+      "tokens": [
+        "Vivi",
+        "oor,",
+        "vivi",
+        "oor,",
+        "je",
+        "savoure",
+        "chaque",
+        "instant",
+        "avec",
+        "toi"
+      ],
+      "start": 158.65,
+      "end": 164.3,
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 158.65,
+          "end": 159.3078,
+          "trail_x": 183.594,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor,",
+          "start": 159.3078,
+          "end": 159.6027,
+          "trail_x": 292.539,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "vivi",
+          "start": 159.6027,
+          "end": 160.34459999999999,
+          "trail_x": 398.992,
+          "trail_y": 1400,
+          "trail_width": 86.0
+        },
+        {
+          "text": "oor,",
+          "start": 160.34459999999999,
+          "end": 160.6574,
+          "trail_x": 505.445,
+          "trail_y": 1400,
+          "trail_width": 96.906
+        },
+        {
+          "text": "je",
+          "start": 160.6574,
+          "end": 160.8962,
+          "trail_x": 590.898,
+          "trail_y": 1400,
+          "trail_width": 44.0
+        },
+        {
+          "text": "savoure",
+          "start": 160.8962,
+          "end": 161.5333,
+          "trail_x": 724.898,
+          "trail_y": 1400,
+          "trail_width": 194.0
+        },
+        {
+          "text": "chaque",
+          "start": 161.5333,
+          "end": 162.2751,
+          "trail_x": 282.0,
+          "trail_y": 1460,
+          "trail_width": 176.0
+        },
+        {
+          "text": "instant",
+          "start": 162.2751,
+          "end": 162.8918,
+          "trail_x": 472.0,
+          "trail_y": 1460,
+          "trail_width": 174.0
+        },
+        {
+          "text": "avec",
+          "start": 162.8918,
+          "end": 163.6247,
+          "trail_x": 629.5,
+          "trail_y": 1460,
+          "trail_width": 111.0
+        },
+        {
+          "text": "toi",
+          "start": 163.6247,
+          "end": 164.08,
+          "trail_x": 733.0,
+          "trail_y": 1460,
+          "trail_width": 66.0
+        }
+      ]
+    },
+    {
+      "text": "Wolof TechStein beat wê...",
+      "scene": 7,
+      "tokens": [
+        "Wolof",
+        "TechStein",
+        "beat",
+        "wê..."
+      ],
+      "start": 164.4,
+      "end": 168.24,
+      "words": [
+        {
+          "text": "Wolof",
+          "start": 164.4,
+          "end": 165.5906,
+          "trail_x": 223.547,
+          "trail_y": 1400,
+          "trail_width": 140.969
+        },
+        {
+          "text": "TechStein",
+          "start": 165.5906,
+          "end": 166.6701,
+          "trail_x": 429.484,
+          "trail_y": 1400,
+          "trail_width": 240.906
+        },
+        {
+          "text": "beat",
+          "start": 166.6701,
+          "end": 167.3083,
+          "trail_x": 619.938,
+          "trail_y": 1400,
+          "trail_width": 110.0
+        },
+        {
+          "text": "wê...",
+          "start": 167.3083,
+          "end": 168.02,
+          "trail_x": 748.438,
+          "trail_y": 1400,
+          "trail_width": 117.0
+        }
+      ]
+    },
+    {
+      "text": "Djalé... Yiwan noumi...",
+      "scene": 1,
+      "tokens": [
+        "Djalé...",
+        "Yiwan",
+        "noumi..."
+      ],
+      "start": 174.84,
+      "end": 180.59,
+      "words": [
+        {
+          "text": "Djalé...",
+          "start": 174.84,
+          "end": 176.4543,
+          "trail_x": 292.0,
+          "trail_y": 1400,
+          "trail_width": 172.0
+        },
+        {
+          "text": "Yiwan",
+          "start": 176.4543,
+          "end": 178.44,
+          "trail_x": 466.0,
+          "trail_y": 1400,
+          "trail_width": 146.0
+        },
+        {
+          "text": "noumi...",
+          "start": 178.44,
+          "end": 180.37,
+          "trail_x": 654.0,
+          "trail_y": 1400,
+          "trail_width": 200.0
+        }
+      ]
+    },
+    {
+      "text": "Kissi noumi... Vivi oor...",
+      "scene": 1,
+      "tokens": [
+        "Kissi",
+        "noumi...",
+        "Vivi",
+        "oor..."
+      ],
+      "start": 180.69,
+      "end": 184.53,
+      "words": [
+        {
+          "text": "Kissi",
+          "start": 180.69,
+          "end": 181.666,
+          "trail_x": 247.555,
+          "trail_y": 1400,
+          "trail_width": 115.0
+        },
+        {
+          "text": "noumi...",
+          "start": 181.666,
+          "end": 182.626,
+          "trail_x": 420.055,
+          "trail_y": 1400,
+          "trail_width": 200.0
+        },
+        {
+          "text": "Vivi",
+          "start": 182.626,
+          "end": 183.6814,
+          "trail_x": 580.547,
+          "trail_y": 1400,
+          "trail_width": 90.984
+        },
+        {
+          "text": "oor...",
+          "start": 183.6814,
+          "end": 184.31,
+          "trail_x": 705.492,
+          "trail_y": 1400,
+          "trail_width": 128.906
+        }
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.0,
+      "scene": 3
+    },
+    {
+      "start": 6.0,
+      "end": 10.85,
+      "scene": 1
+    },
+    {
+      "start": 10.85,
+      "end": 14.63,
+      "scene": 7
+    },
+    {
+      "start": 14.63,
+      "end": 30.84,
+      "scene": 1
+    },
+    {
+      "start": 30.84,
+      "end": 38.0,
+      "scene": 2
+    },
+    {
+      "start": 38.0,
+      "end": 41.59,
+      "scene": 1
+    },
+    {
+      "start": 41.59,
+      "end": 47.97,
+      "scene": 5
+    },
+    {
+      "start": 47.97,
+      "end": 50.67,
+      "scene": 9
+    },
+    {
+      "start": 50.67,
+      "end": 53.1,
+      "scene": 6
+    },
+    {
+      "start": 53.1,
+      "end": 58.71,
+      "scene": 4
+    },
+    {
+      "start": 58.71,
+      "end": 62.07,
+      "scene": 2
+    },
+    {
+      "start": 62.07,
+      "end": 64.11,
+      "scene": 3
+    },
+    {
+      "start": 64.11,
+      "end": 66.88,
+      "scene": 1
+    },
+    {
+      "start": 66.88,
+      "end": 69.50999999999999,
+      "scene": 5
+    },
+    {
+      "start": 69.50999999999999,
+      "end": 78.44,
+      "scene": 1
+    },
+    {
+      "start": 78.44,
+      "end": 80.78,
+      "scene": 4
+    },
+    {
+      "start": 80.78,
+      "end": 84.16,
+      "scene": 1
+    },
+    {
+      "start": 84.16,
+      "end": 91.25,
+      "scene": 2
+    },
+    {
+      "start": 91.25,
+      "end": 94.84,
+      "scene": 1
+    },
+    {
+      "start": 94.84,
+      "end": 100.78999999999999,
+      "scene": 5
+    },
+    {
+      "start": 100.78999999999999,
+      "end": 105.85,
+      "scene": 1
+    },
+    {
+      "start": 105.85,
+      "end": 108.61,
+      "scene": 6
+    },
+    {
+      "start": 108.61,
+      "end": 111.39,
+      "scene": 1
+    },
+    {
+      "start": 111.39,
+      "end": 114.08,
+      "scene": 5
+    },
+    {
+      "start": 114.08,
+      "end": 116.94,
+      "scene": 7
+    },
+    {
+      "start": 116.94,
+      "end": 119.38,
+      "scene": 6
+    },
+    {
+      "start": 119.38,
+      "end": 122.75999999999999,
+      "scene": 8
+    },
+    {
+      "start": 122.75999999999999,
+      "end": 131.8,
+      "scene": 1
+    },
+    {
+      "start": 131.8,
+      "end": 134.17,
+      "scene": 4
+    },
+    {
+      "start": 134.17,
+      "end": 136.71,
+      "scene": 1
+    },
+    {
+      "start": 136.71,
+      "end": 139.89,
+      "scene": 7
+    },
+    {
+      "start": 139.89,
+      "end": 142.38,
+      "scene": 9
+    },
+    {
+      "start": 142.38,
+      "end": 147.96,
+      "scene": 1
+    },
+    {
+      "start": 147.96,
+      "end": 155.1,
+      "scene": 2
+    },
+    {
+      "start": 155.1,
+      "end": 158.68,
+      "scene": 1
+    },
+    {
+      "start": 158.68,
+      "end": 164.43,
+      "scene": 5
+    },
+    {
+      "start": 164.43,
+      "end": 174.87,
+      "scene": 7
+    },
+    {
+      "start": 174.87,
+      "end": 186,
+      "scene": 1
+    },
+    {
+      "start": 186,
+      "end": 192,
+      "scene": 9
+    },
+    {
+      "start": 192,
+      "end": 199,
+      "scene": 5
+    },
+    {
+      "start": 199,
+      "end": 207.96,
+      "scene": 10
+    },
+    {
+      "start": 207.96,
+      "end": 215.96,
+      "scene": 0
+    }
+  ]
+}

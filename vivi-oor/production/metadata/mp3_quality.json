@@ -1,0 +1,30 @@
+{
+  "file": "VIVI_OOR_master_320k.mp3",
+  "bytes": 8529249,
+  "sha256": "2fe6814ed527a86ae43d3f8f5c8f3a88a5aa27f49dece057f06aabf94561486f",
+  "sample_rate": 48000,
+  "channels": 2,
+  "bitrate": 320000,
+  "decoded_duration": 204.96,
+  "integrated_lufs": -14.0,
+  "true_peak_dbtp": -1.72,
+  "loudness_range_lu": 2.8,
+  "constant_gain_after_pass2_db": -0.28,
+  "id3_version": [
+    2,
+    4,
+    0
+  ],
+  "lyrics_entries": 44,
+  "cover": "cover_vivi_oor_1080x1080.jpg",
+  "source_origin_preserved": true,
+  "source_manifests": [
+    {
+      "mime": "application/c2pa",
+      "bytes": 13659,
+      "sha256": "ae0c69850abe12f44eae55845a6f986610331b0b8c1668b49415970dee0d2644"
+    }
+  ],
+  "metadata_note": "Daïsky and default contact/label metadata follow the artist prompt. Afro-pop is an editorial genre label; no unconfirmed composer is invented.",
+  "quality_note": "320 kb/s is the output encoding, not a recovery of information missing from the original ~184 kb/s MP3."
+}

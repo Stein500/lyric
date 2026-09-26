@@ -1,0 +1,42 @@
+[
+  {
+    "file": "cover_vivi_oor_universelle_3000.jpg",
+    "size": [
+      3000,
+      3000
+    ],
+    "type": "Official S2 decor cover, no regenerated face"
+  },
+  {
+    "file": "cover_vivi_oor_1080x1080.jpg",
+    "size": [
+      1080,
+      1080
+    ],
+    "type": "Official S2 decor cover, no regenerated face"
+  },
+  {
+    "file": "cover_vivi_oor_9x16.jpg",
+    "size": [
+      1080,
+      1920
+    ],
+    "type": "Official S2 decor cover, no regenerated face"
+  },
+  {
+    "file": "cover_vivi_oor_16x9.jpg",
+    "size": [
+      1920,
+      1080
+    ],
+    "type": "Official S2 decor cover, no regenerated face"
+  },
+  {
+    "file": "cover_vivi_oor_portrait_alternative_1080.jpg",
+    "size": [
+      1080,
+      1080
+    ],
+    "type": "Alternative using the approved V2 portrait 03, no additional generation"
+  }
+]
