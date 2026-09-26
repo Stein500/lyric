@@ -1,0 +1,7 @@
+# Reproducible caches and local Python environments (never publish models/binaries).
+.venv/
+work/
+__pycache__/
+*.pyc
+bin/
+.DS_Store
