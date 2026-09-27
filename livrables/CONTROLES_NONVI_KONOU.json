@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "checks": {
+    "clip_duration_tolerance_0_05s": true,
+    "clip_frame_duration_tolerance_0_05s": true,
+    "clip_dimensions_1080x1920": true,
+    "clip_fps_30": true,
+    "clip_audio_48k_stereo": true,
+    "blackdetect_zero": true,
+    "freezedetect_zero_default_threshold": true,
+    "flag_and_badge_color_delta_le_8": true,
+    "master_duration_tolerance_0_05s": true,
+    "master_320k": true,
+    "master_48k": true,
+    "master_lufs_tolerance_0_2": true,
+    "master_true_peak_le_minus_1_5": true,
+    "id3_required_tags": true,
+    "covers_dimensions": true
+  },
+  "clip": {
+    "duration_seconds": 204.47,
+    "frames": 6134,
+    "frame_duration_seconds": 204.466667,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "audio_hz": 48000,
+    "audio_channels": "stereo",
+    "black_events": 0,
+    "freeze_events_default_threshold": 0
+  },
+  "flag_badge_max_channel_delta": {
+    "footer_green": 2,
+    "footer_yellow": 2,
+    "footer_red": 1,
+    "badge_green": 2,
+    "badge_yellow": 3,
+    "badge_red": 1
+  },
+  "master": {
+    "duration_seconds": 193.488,
+    "bitrate": 320000,
+    "sample_rate": 48000,
+    "loudness_lufs": -13.84,
+    "true_peak_dbtp": -1.53,
+    "tag_keys": [
+      "APIC:Cover",
+      "TALB",
+      "TCOM",
+      "TCON",
+      "TDRC",
+      "TIT2",
+      "TPE1",
+      "TPE2",
+      "TPUB",
+      "TXXX:contact",
+      "TXXX:email",
+      "TXXX:label",
+      "TXXX:producer",
+      "USLT::fra"
+    ]
+  },
+  "covers": {
+    "cover_nonvi_konou_9x16.jpg": [
+      1080,
+      1920
+    ],
+    "cover_nonvi_konou_1080.jpg": [
+      1080,
+      1080
+    ],
+    "cover_nonvi_konou_universelle_3000.jpg": [
+      3000,
+      3000
+    ]
+  },
+  "files": {
+    "Nonvi_Konou_9x16_v1.mp4": {
+      "bytes": 61208692,
+      "sha256": "7aaf5e82cf07daff52c43c3d64ae50d6a1692f256bc9e04cd9fa85f1dda9ece8"
+    },
+    "Nonvi_Konou_master_320k.mp3": {
+      "bytes": 8132427,
+      "sha256": "e2a3735a885fd4f0f4d40ababb8600fb62c291c38831fcd7af9bc7a78303faee"
+    },
+    "cover_nonvi_konou_9x16.jpg": {
+      "bytes": 538315,
+      "sha256": "ca928af0ac6c2f62fc41243f8f6f768c6ff87722f803ee22a0c625c3372912b1"
+    },
+    "cover_nonvi_konou_1080.jpg": {
+      "bytes": 380710,
+      "sha256": "9f7678c5826fabcecfc9a831dd918ca12d3f0171dd8ec0c1c91d88ac0d0e23d9"
+    },
+    "cover_nonvi_konou_universelle_3000.jpg": {
+      "bytes": 1583376,
+      "sha256": "647d94e3e7a0632d10d0b24a14ff19a3c31a0efaa3d7b56ed4c8a31331d3d0c2"
+    }
+  }
+}
