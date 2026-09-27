@@ -1,6 +1,6 @@
 # Nonvi Konou — analyse préalable et direction de production
 
-État : **ancre, salves 01 et 02 validées par l'artiste ; salve 03 produite, en attente de validation**. 30 fonds sur 37 terminés (7 restent). Le bandeau béninois a été réduit à 54 px selon la demande. Pas de clip livré à ce stade. Choix : style « Réalit » = photographie réaliste cinématographique chaleureuse ; héros inventé (aucun selfie utilisé) ; 9:16 seul ; cold-open 6 s à 135,56 s ; cover titrée en post ; livraison standard.
+État : **ancre, salves 01, 02 et 03 validées par l'artiste ; dernière salve 04 en cours**. 30 fonds sur 37 terminés (7 restent). Le bandeau béninois a été réduit à 54 px selon la demande. Pas de clip livré à ce stade. Choix : style « Réalit » = photographie réaliste cinématographique chaleureuse ; héros inventé (aucun selfie utilisé) ; 9:16 seul ; cold-open 6 s à 135,56 s ; cover titrée en post ; livraison standard.
 
 ## Sources et mesures (27 septembre 2026)
 
