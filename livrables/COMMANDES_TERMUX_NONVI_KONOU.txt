@@ -1,0 +1,15 @@
+NONVI KONOU — TÉLÉCHARGEMENT TERMUX
+
+Commit immuable des livrables :
+549f8dc6e1221b98da4536ad1ed8104c01bee281
+
+Destination :
+/storage/emulated/0/Web+/Nonvi_Konou/
+
+Commande unique à copier-coller dans Termux (les points-virgules permettent de relancer ; curl reprend avec -C -) :
+
+pkg update -y; pkg install -y curl coreutils; termux-setup-storage; DEST='/storage/emulated/0/Web+/Nonvi_Konou'; mkdir -p "$DEST"; cd "$DEST"; BASE='https://raw.githubusercontent.com/Stein500/lyric/549f8dc6e1221b98da4536ad1ed8104c01bee281'; curl -fL --retry 5 --retry-delay 3 -C - -o 'Nonvi_Konou_9x16_v1.mp4' "$BASE/livrables/Nonvi_Konou_9x16_v1.mp4"; curl -fL --retry 5 --retry-delay 3 -C - -o 'Nonvi_Konou_master_320k.mp3' "$BASE/livrables/Nonvi_Konou_master_320k.mp3"; curl -fL --retry 5 --retry-delay 3 -C - -o 'cover_nonvi_konou_9x16.jpg' "$BASE/livrables/cover_nonvi_konou_9x16.jpg"; curl -fL --retry 5 --retry-delay 3 -C - -o 'cover_nonvi_konou_1080.jpg' "$BASE/livrables/cover_nonvi_konou_1080.jpg"; curl -fL --retry 5 --retry-delay 3 -C - -o 'cover_nonvi_konou_universelle_3000.jpg' "$BASE/livrables/cover_nonvi_konou_universelle_3000.jpg"; curl -fL --retry 5 --retry-delay 3 -C - -o 'CAPTION_NONVI_KONOU.txt' "$BASE/livrables/CAPTION_NONVI_KONOU.txt"; curl -fL --retry 5 --retry-delay 3 -C - -o 'CONTROLES_NONVI_KONOU.json' "$BASE/livrables/CONTROLES_NONVI_KONOU.json"; curl -fL --retry 5 --retry-delay 3 -C - -o 'README_NONVI_KONOU.md' "$BASE/livrables/README_NONVI_KONOU.md"; curl -fL --retry 5 --retry-delay 3 -C - -o 'PROMPT_UNIVERSEL_v5.4_HYBRIDE_DRAPEAU.md' "$BASE/PROMPT_UNIVERSEL_v5.4_HYBRIDE_DRAPEAU.md"; printf '%s  %s\n' '7aaf5e82cf07daff52c43c3d64ae50d6a1692f256bc9e04cd9fa85f1dda9ece8' 'Nonvi_Konou_9x16_v1.mp4' 'e2a3735a885fd4f0f4d40ababb8600fb62c291c38831fcd7af9bc7a78303faee' 'Nonvi_Konou_master_320k.mp3' 'ca928af0ac6c2f62fc41243f8f6f768c6ff87722f803ee22a0c625c3372912b1' 'cover_nonvi_konou_9x16.jpg' '9f7678c5826fabcecfc9a831dd918ca12d3f0171dd8ec0c1c91d88ac0d0e23d9' 'cover_nonvi_konou_1080.jpg' '647d94e3e7a0632d10d0b24a14ff19a3c31a0efaa3d7b56ed4c8a31331d3d0c2' 'cover_nonvi_konou_universelle_3000.jpg' '803af069135b223eb2a31b0d6b54761067c2fd7af5a6fcabf9e8797f7c5bd254' 'CAPTION_NONVI_KONOU.txt' '9ab244627351c4e83f2db3338cce5fb34f8b167627a2c94a6ad9e71343aa3465' 'CONTROLES_NONVI_KONOU.json' '242de21a21543b4a924ecf99b4982e130a10379b716ab0c416409e0a8f512830' 'README_NONVI_KONOU.md' '2ece7ec029ad51eb4c0857123aed32fd22ecef0b5f64519febc5d05c5164e08a' 'PROMPT_UNIVERSEL_v5.4_HYBRIDE_DRAPEAU.md' > 'SHA256SUMS_NONVI_KONOU.txt'; sha256sum -c 'SHA256SUMS_NONVI_KONOU.txt'; ls -lh
+
+Si une coupure réseau survient, relancer exactement la même ligne : les téléchargements reprennent. Si curl signale qu'un serveur ne permet pas la reprise alors qu'un fichier est déjà complet, vérifier d'abord avec :
+
+cd '/storage/emulated/0/Web+/Nonvi_Konou'; sha256sum -c 'SHA256SUMS_NONVI_KONOU.txt'; ls -lh
