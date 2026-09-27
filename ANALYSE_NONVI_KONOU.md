@@ -1,6 +1,6 @@
 # Nonvi Konou — analyse préalable et direction de production
 
-État : **analyse terminée, choix artiste / ancre visuelle en attente**. Pas de clip ni d'images IA livrés à ce stade.
+État : **analyse et première ancre terminées, validation de l'ancre par l'artiste en attente**. Pas de clip livré à ce stade. Choix : style « Réalit » = photographie réaliste cinématographique chaleureuse ; héros inventé (aucun selfie utilisé) ; 9:16 seul ; cold-open 6 s à 135,56 s ; cover titrée en post ; livraison standard.
 
 ## Sources et mesures (27 septembre 2026)
 
@@ -17,10 +17,10 @@
 - **Une image IA narrative par vers distinct** ; recyclage seulement lorsque le texte est strictement identique.
 - **Texte hybride simultané** : animation de vague d'eau et suivi **mot à mot**, vers centré horizontalement et verticalement, scrim central ; garder la largeur du vers stable durant le suivi. Adapter les vers longs en plusieurs lignes sans troncature.
 - **Toutes les images** : bandeau long et propre en pied de page aux couleurs et à la géométrie correctes du **drapeau du Bénin** (vert vertical à gauche, jaune au-dessus du rouge à droite), et **« Dsky 🇧🇯 » lisible en haut**. Pour garantir l'orthographe, le drapeau et le badge seront dessinés en post-production sur chaque illustration, pas confiés au générateur d'images. Le badge peut être réanimé avec les vers dans la vidéo ; la présence du badge sur *chaque image* prime sur la consigne antérieure de badge uniquement intermittent. Position du bandeau en zone basse décorative, sans paroles sur les contrôles de plateformes.
-- L'identité du héros sur les trois photos à la racine semble être un jeune homme noir à peau foncée, visage rond/ovale, cheveux naturels courts, petit bouc discret, corpulence naturelle, parfois gilet gris-bleu marbré sur haut sombre, parfois T-shirt blanc ; aucune modification de morphologie, de visage ou de teint. **Confirmer que ces photos sont bien la référence pour ce morceau** avant de générer une ancre.
+- **Héros inventé confirmé**, sans lien avec les photos du dépôt : homme béninois fictif d'environ 27 ans, corpulence naturellement moyenne, peau brun foncé, visage ovale-arrondi, cheveux noirs crépus courts, barbe courte, sans lunettes, chemise de coton indigo à manches courtes avec col, pantalon sable. Garder ces caractéristiques à l'identique dans chaque prompt ; aucun embellissement du corps.
 
 ## Prochaine étape
 
-Un seul questionnaire pour verrouiller style, héros, format, cold-open, pochette et livraison. Ensuite : 1 ancre IA et maquette de badge/bandeau/paroles pour validation, puis salves de 10 maximum avec planches de contrôle et validation. Le master MP3, les covers et les commandes Termux au hash immuable ne seront produits qu'après validation des visuels et réalisation du clip.
+Le questionnaire unique a été renseigné. **Ancre 01 créée** : `assets/nonvi_konou/ancre_01_brute.png` (génération IA sans texte), `assets/nonvi_konou/ancre_01_habillee.png` (badge + drapeau corrects) et `assets/nonvi_konou/ancre_01_maquette.png` (simulation du suivi mot à mot + vague au centre) ; prompt intégral `assets/nonvi_konou/ancre_01_prompt.md`. Cette maquette est une **image fixe de direction artistique**, et non une animation déjà rendue. Attendre le retour de l'artiste sur le style, l'identité du héros, la place des paroles, la taille du badge et du bandeau avant les salves de 10 maximum avec planches de contrôle. Le master MP3, les covers et les commandes Termux au hash immuable ne seront produits qu'après validation des visuels et réalisation du clip.
 
 Reconstruction : installer les dépendances temporaires `imageio-ffmpeg numpy scipy` hors dépôt, puis exécuter `python scripts/analyse_nonvi.py`.
