@@ -21,13 +21,14 @@ font=ImageFont.truetype(str(ROOT/'assets/fonts/DejaVuSans-Bold.ttf'),19)
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument('--salve',type=int,choices=(1,2),default=1)
+    parser.add_argument('--salve',type=int,choices=(1,2,3,4),default=1)
     args=parser.parse_args()
     if args.salve==1:
         slots=SLOTS_01
     else:
         plan=json.loads((DIR/'plan_images.json').read_text())
-        slots=[(s['slot'],s['text']) for s in plan[10:20]]
+        first=10*(args.salve-1)
+        slots=[(s['slot'],s['text']) for s in plan[first:min(first+10,len(plan))]]
     cells=[]
     for slug,label in slots:
         raw=DIR/f'{slug}_brute.png'
