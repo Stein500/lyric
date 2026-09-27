@@ -54,7 +54,12 @@ def corriger_artefacts_ia(im, source_name):
     La vraie bannière est créée APRÈS correction ; ne pas garder deux drapeaux
     (dont certains tricolores erronés) ni un faux logo sous le vrai badge.
     """
-    if not source_name.startswith('s') or '_brute' not in source_name:
+    slot=source_name.split('_brute')[0]
+    # Ces artefacts n'existent que dans les neuf images de la première salve.
+    # Ne pas créer une grande bande sombre sous les images propres des salves suivantes.
+    artefact_slots={'s00_intro','s01_wolof','s02_yeah','s03_on_est_la',
+                    's05_misere','s06_dokpe','s07_vivi','s08_beat','s09_millions'}
+    if slot not in artefact_slots or '_brute' not in source_name:
         return
     layer=Image.new('RGBA',(W,H))
     d=ImageDraw.Draw(layer)

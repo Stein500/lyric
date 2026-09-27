@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Habillage de la salve et planche contact, sans masquer les images originales."""
+import argparse
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -7,7 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/'assets/nonvi_konou'
-SLOTS=[
+SLOTS_01=[
  ('s00_intro','INTRO instrumentale'),('s01_wolof','Wolof TechStein beat wê...'),
  ('s02_yeah','Yeah... Nonvi konou...'),('s03_on_est_la','On est là, on brille...'),
  ('ancre_01','Nonvi konou, mon frère sourit'),('s05_misere','Gbè manfo do ohin min...'),
@@ -18,8 +20,16 @@ font=ImageFont.truetype(str(ROOT/'assets/fonts/DejaVuSans-Bold.ttf'),19)
 
 
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--salve',type=int,choices=(1,2),default=1)
+    args=parser.parse_args()
+    if args.salve==1:
+        slots=SLOTS_01
+    else:
+        plan=json.loads((DIR/'plan_images.json').read_text())
+        slots=[(s['slot'],s['text']) for s in plan[10:20]]
     cells=[]
-    for slug,label in SLOTS:
+    for slug,label in slots:
         raw=DIR/f'{slug}_brute.png'
         dressed=DIR/f'{slug}_habillee.png'
         if not dressed.exists():
@@ -42,8 +52,8 @@ def main():
         d.text((x,y+576),slug,font=font,fill=(252,213,130))
         short=label if len(label)<=29 else label[:27]+'…'
         d.text((x,y+603),short,font=font,fill=(246,245,240))
-    path=DIR/'planche_salve_01.jpg'
+    path=DIR/f'planche_salve_{args.salve:02d}.jpg'
     board.save(path,quality=88,optimize=True)
-    print('Planche prête:',path,board.size,'; 10 images : 1 ancre + 9 nouvelles')
+    print('Planche prête:',path,board.size,';',len(cells),'images')
 
 if __name__=='__main__':main()
