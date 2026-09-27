@@ -1,6 +1,6 @@
 # Nonvi Konou — analyse préalable et direction de production
 
-État : **ancre validée, salve 01 achevée, planche-contact en attente de validation**. Pas de clip livré à ce stade. Choix : style « Réalit » = photographie réaliste cinématographique chaleureuse ; héros inventé (aucun selfie utilisé) ; 9:16 seul ; cold-open 6 s à 135,56 s ; cover titrée en post ; livraison standard.
+État : **ancre et salve 01 validées par l'artiste**. 10 fonds sur 37 terminés ; prochaine étape : salve 02 lors du prochain tour. Pas de clip livré à ce stade. Choix : style « Réalit » = photographie réaliste cinématographique chaleureuse ; héros inventé (aucun selfie utilisé) ; 9:16 seul ; cold-open 6 s à 135,56 s ; cover titrée en post ; livraison standard.
 
 ## Sources et mesures (27 septembre 2026)
 
@@ -23,6 +23,6 @@
 
 Le questionnaire unique a été renseigné et **l'ancre a été validée par l'artiste**. Salve 01 : **10/37 images** (ancre + 9 nouvelles), soit encore **27 fonds à créer** en trois salves maximum (10 + 10 + 7). Voir `assets/nonvi_konou/plan_images.json` pour la correspondance des 50 occurrences avec les 35 vers distincts. Le modèle a parfois ajouté à tort des médaillons et des drapeaux approximatifs malgré les interdits ; ils ont été occultés sur les images habillées avant ajout du vrai bandeau géométrique. Éviter même la mention du mot « drapeau » dans les futurs prompts d'image ; ne parler que d'espace négatif réservé aux incrustations. Les brutes des 9 nouveaux visuels restent uniquement dans le cache ignoré `work/nonvi_salve_01/` pour limiter le poids Git, les images habillées et prompts étant versionnés.
 
-**Ancre 01 créée** : `assets/nonvi_konou/ancre_01_brute.png` (génération IA sans texte), `assets/nonvi_konou/ancre_01_habillee.png` (badge + drapeau corrects) et `assets/nonvi_konou/ancre_01_maquette.png` (simulation du suivi mot à mot + vague au centre) ; prompt intégral `assets/nonvi_konou/ancre_01_prompt.md`. Cette maquette est une **image fixe de direction artistique**, et non une animation déjà rendue. **Attendre la validation de `assets/nonvi_konou/planche_salve_01.jpg` avant la salve 02**, puis continuer par lots de 10 au maximum. Le master MP3, les covers et les commandes Termux au hash immuable ne seront produits qu'après validation des visuels et réalisation du clip.
+**Ancre 01 créée** : `assets/nonvi_konou/ancre_01_brute.png` (génération IA sans texte), `assets/nonvi_konou/ancre_01_habillee.png` (badge + drapeau corrects) et `assets/nonvi_konou/ancre_01_maquette.png` (simulation du suivi mot à mot + vague au centre) ; prompt intégral `assets/nonvi_konou/ancre_01_prompt.md`. Cette maquette est une **image fixe de direction artistique**, et non une animation déjà rendue. **La planche `assets/nonvi_konou/planche_salve_01.jpg` est validée ; salve 02 à lancer au prochain tour**, puis continuer par lots de 10 au maximum. Le master MP3, les covers et les commandes Termux au hash immuable ne seront produits qu'après validation des visuels et réalisation du clip.
 
 Reconstruction : installer les dépendances temporaires `imageio-ffmpeg numpy scipy` hors dépôt, puis exécuter `python scripts/analyse_nonvi.py`.
