@@ -46,6 +46,31 @@ def footer(im):
     im.alpha_composite(layer)
 
 
+def corriger_artefacts_ia(im, source_name):
+    """La salve 01 a halluciné des drapeaux bas et trois médaillons hauts.
+
+    La vraie bannière est créée APRÈS correction ; ne pas garder deux drapeaux
+    (dont certains tricolores erronés) ni un faux logo sous le vrai badge.
+    """
+    if not source_name.startswith('s') or '_brute' not in source_name:
+        return
+    layer=Image.new('RGBA',(W,H))
+    d=ImageDraw.Draw(layer)
+    # Vignette nocturne croissante dans la zone décorative (aucune parole ici).
+    for y in range(1500,1776,2):
+        a=min(255,round(255*(y-1500)/110))
+        d.rectangle((0,y,W,y+1),fill=(5,13,20,a))
+    im.alpha_composite(layer)
+    if source_name.split('_brute')[0] in {'s06_dokpe','s07_vivi','s09_millions'}:
+        top=Image.new('RGBA',(W,H))
+        d=ImageDraw.Draw(top)
+        d.rectangle((0,0,W,365),fill=(5,14,20,255))
+        for y in range(366,531,2):
+            alpha=round(251*(531-y)/165)
+            d.rectangle((0,y,W,y+1),fill=(5,14,20,alpha))
+        im.alpha_composite(top)
+
+
 def maquette(im):
     # Extrait visuel de l'animation future : vers complet centré sur sa largeur FINALE,
     # mot courant en or, mots précédents adoucis, vague sinusoïdale sur chaque colonne.
@@ -109,6 +134,7 @@ def main():
         target=round(im.width/ratio); top=(im.height-target)//2
         im=im.crop((0,top,im.width,top+target))
     im=im.resize((W,H),Image.Resampling.LANCZOS).convert('RGBA')
+    corriger_artefacts_ia(im,args.source.stem)
     badge(im)
     if args.maquette:
         maquette(im)

@@ -1,0 +1,383 @@
+[
+  {
+    "index": 0,
+    "slot": "s00_intro",
+    "text": "INTRO INSTRUMENTALE",
+    "occurrences": [],
+    "image": "s00_intro_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 1,
+    "slot": "s01_wolof",
+    "text": "Wolof TechStein beat wê...",
+    "occurrences": [
+      3.7,
+      153.85
+    ],
+    "image": "s01_wolof_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 2,
+    "slot": "s02_yeah",
+    "text": "Yeah... Nonvi konou...",
+    "occurrences": [
+      6.29
+    ],
+    "image": "s02_yeah_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 3,
+    "slot": "s03_on_est_la",
+    "text": "On est là, on brille, on remercie...",
+    "occurrences": [
+      9.17
+    ],
+    "image": "s03_on_est_la_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 4,
+    "slot": "ancre_01",
+    "text": "Nonvi konou, mon frère sourit",
+    "occurrences": [
+      15.61,
+      59.3,
+      135.56
+    ],
+    "image": "ancre_01_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 5,
+    "slot": "s05_misere",
+    "text": "Gbè manfo do ohin min, la vie ne finit pas dans la misère",
+    "occurrences": [
+      17.72,
+      61.26,
+      137.74
+    ],
+    "image": "s05_misere_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 6,
+    "slot": "s06_dokpe",
+    "text": "Dokpè nou mahou nou kpèè or, remercie Dieu pour le peu",
+    "occurrences": [
+      20.94,
+      64.31,
+      140.88
+    ],
+    "image": "s06_dokpe_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 7,
+    "slot": "s07_vivi",
+    "text": "Gbètché vivi, ma vie me plaît, je suis heureux",
+    "occurrences": [
+      24.4,
+      67.81,
+      144.31
+    ],
+    "image": "s07_vivi_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 8,
+    "slot": "s08_beat",
+    "text": "Wolof TechStein beat wê!",
+    "occurrences": [
+      27.13,
+      70.44,
+      146.78
+    ],
+    "image": "s08_beat_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 9,
+    "slot": "s09_millions",
+    "text": "J'ai pas besoin de millions pour sourire",
+    "occurrences": [
+      29.84
+    ],
+    "image": "s09_millions_habillee.png",
+    "status": "created"
+  },
+  {
+    "index": 10,
+    "slot": "s10",
+    "text": "J'ai pas besoin de leur approbation pour vivre",
+    "occurrences": [
+      33.11
+    ],
+    "image": "s10_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 11,
+    "slot": "s11",
+    "text": "Dokpè, je remercie pour ce que j'ai",
+    "occurrences": [
+      35.97
+    ],
+    "image": "s11_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 12,
+    "slot": "s12",
+    "text": "Un toit, un repas, une famille, la santé",
+    "occurrences": [
+      38.68
+    ],
+    "image": "s12_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 13,
+    "slot": "s13",
+    "text": "Nonvi konou, regarde mon frère, il brille",
+    "occurrences": [
+      43.22
+    ],
+    "image": "s13_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 14,
+    "slot": "s14",
+    "text": "On a connu la galère, maintenant on rit",
+    "occurrences": [
+      45.54
+    ],
+    "image": "s14_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 15,
+    "slot": "s15",
+    "text": "Gbè manfo do ohin min, la misère n'est pas notre fin",
+    "occurrences": [
+      47.01
+    ],
+    "image": "s15_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 16,
+    "slot": "s16",
+    "text": "On avance, on progresse, on trace notre chemin",
+    "occurrences": [
+      49.59
+    ],
+    "image": "s16_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 17,
+    "slot": "s17",
+    "text": "Wanyiyi dans nos cœurs, c'est ça notre force",
+    "occurrences": [
+      51.39,
+      113.66
+    ],
+    "image": "s17_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 18,
+    "slot": "s18",
+    "text": "Dagbé dans nos rires, c'est ça notre torque",
+    "occurrences": [
+      53.15,
+      115.76
+    ],
+    "image": "s18_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 19,
+    "slot": "s19",
+    "text": "Gbètché vivi, on crie notre joie",
+    "occurrences": [
+      54.88,
+      117.46
+    ],
+    "image": "s19_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 20,
+    "slot": "s20",
+    "text": "Nonvi konou, on sourit à la vie",
+    "occurrences": [
+      56.61,
+      119.25
+    ],
+    "image": "s20_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 21,
+    "slot": "s21",
+    "text": "Je marche dans la rue, je souris aux passants",
+    "occurrences": [
+      86.22
+    ],
+    "image": "s21_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 22,
+    "slot": "s22",
+    "text": "Wanyiyi me guide, l'amour est mon carburant",
+    "occurrences": [
+      89.02
+    ],
+    "image": "s22_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 23,
+    "slot": "s23",
+    "text": "Dagbé n'est pas un rêve, c'est ma réalité",
+    "occurrences": [
+      92.45
+    ],
+    "image": "s23_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 24,
+    "slot": "s24",
+    "text": "Chaque jour je me lève avec la joie dans le nez",
+    "occurrences": [
+      95.63
+    ],
+    "image": "s24_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 25,
+    "slot": "s25",
+    "text": "Ils ont voulu nous voir pleurer, on a dansé",
+    "occurrences": [
+      98.87
+    ],
+    "image": "s25_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 26,
+    "slot": "s26",
+    "text": "Ils ont voulu nous voir tomber, on s'est relevés",
+    "occurrences": [
+      101.61
+    ],
+    "image": "s26_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 27,
+    "slot": "s27",
+    "text": "Gbètché vivi, c'est mon hymne, mon credo",
+    "occurrences": [
+      105.13
+    ],
+    "image": "s27_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 28,
+    "slot": "s28",
+    "text": "Bandit Positif, je vole que du bonheur, c'est mon lot",
+    "occurrences": [
+      108.46
+    ],
+    "image": "s28_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 29,
+    "slot": "s29",
+    "text": "Dokpè pour le peu, dokpè pour l'amour",
+    "occurrences": [
+      121.61
+    ],
+    "image": "s29_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 30,
+    "slot": "s30",
+    "text": "Dokpè pour la vie, dokpè pour toujours",
+    "occurrences": [
+      124.75
+    ],
+    "image": "s30_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 31,
+    "slot": "s31",
+    "text": "Nonvi konou, mon frère, tu es ma force",
+    "occurrences": [
+      127.77
+    ],
+    "image": "s31_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 32,
+    "slot": "s32",
+    "text": "Gbè manfo do ohin min, ensemble on trace",
+    "occurrences": [
+      131.03
+    ],
+    "image": "s32_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 33,
+    "slot": "s33",
+    "text": "Nonvi konou...",
+    "occurrences": [
+      161.56
+    ],
+    "image": "s33_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 34,
+    "slot": "s34",
+    "text": "Dokpè... Gbètché vivi...",
+    "occurrences": [
+      173.9
+    ],
+    "image": "s34_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 35,
+    "slot": "s35",
+    "text": "(La joie... toujours la joie...)",
+    "occurrences": [
+      181.2
+    ],
+    "image": "s35_habillee.png",
+    "status": "pending"
+  },
+  {
+    "index": 36,
+    "slot": "s36_endcard",
+    "text": "ENDCARD",
+    "occurrences": [],
+    "image": "s36_endcard_habillee.png",
+    "status": "pending"
+  }
+]
