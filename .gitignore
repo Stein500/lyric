@@ -1,0 +1,6 @@
+# Caches de rendu, reconstruits depuis les scripts et les assets sources
+.venv/
+work/
+*.pyc
+bin/
+__pycache__/
