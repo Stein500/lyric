@@ -320,7 +320,7 @@
       124.75
     ],
     "image": "s30_habillee.png",
-    "status": "pending"
+    "status": "created"
   },
   {
     "index": 31,
@@ -330,7 +330,7 @@
       127.77
     ],
     "image": "s31_habillee.png",
-    "status": "pending"
+    "status": "created"
   },
   {
     "index": 32,
@@ -340,7 +340,7 @@
       131.03
     ],
     "image": "s32_habillee.png",
-    "status": "pending"
+    "status": "created"
   },
   {
     "index": 33,
@@ -350,7 +350,7 @@
       161.56
     ],
     "image": "s33_habillee.png",
-    "status": "pending"
+    "status": "created"
   },
   {
     "index": 34,
@@ -360,7 +360,7 @@
       173.9
     ],
     "image": "s34_habillee.png",
-    "status": "pending"
+    "status": "created"
   },
   {
     "index": 35,
@@ -370,7 +370,7 @@
       181.2
     ],
     "image": "s35_habillee.png",
-    "status": "pending"
+    "status": "created"
   },
   {
     "index": 36,
@@ -378,6 +378,6 @@
     "text": "ENDCARD",
     "occurrences": [],
     "image": "s36_endcard_habillee.png",
-    "status": "pending"
+    "status": "created"
   }
 ]
