@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BOLD = ROOT/'assets/fonts/DejaVuSans-Bold.ttf'
 CURSIVE = ROOT/'assets/fonts/GreatVibes-latin.ttf'
 W,H = 1080,1920
+FOOTER_HEIGHT = 54  # 2,8 % de l'image, contre 144 px auparavant (-62,5 %)
+FOOTER_TOP = H - FOOTER_HEIGHT
 
 
 def flag(draw, bounds):
@@ -40,8 +42,8 @@ def badge(im):
 def footer(im):
     layer=Image.new('RGBA',(W,H))
     d=ImageDraw.Draw(layer)
-    start=1776
-    d.rectangle((0,start-5,W,start),fill=(236,194,101,255))
+    start=FOOTER_TOP
+    d.rectangle((0,start-2,W,start-1),fill=(236,194,101,255))
     flag(d,(0,start,W,H))
     im.alpha_composite(layer)
 
@@ -57,7 +59,7 @@ def corriger_artefacts_ia(im, source_name):
     layer=Image.new('RGBA',(W,H))
     d=ImageDraw.Draw(layer)
     # Vignette nocturne croissante dans la zone décorative (aucune parole ici).
-    for y in range(1500,1776,2):
+    for y in range(1500,FOOTER_TOP,2):
         a=min(255,round(255*(y-1500)/110))
         d.rectangle((0,y,W,y+1),fill=(5,13,20,a))
     im.alpha_composite(layer)

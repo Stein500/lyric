@@ -26,9 +26,10 @@ def main():
             subprocess.run([sys.executable,str(ROOT/'scripts/habiller_image_nonvi.py'),str(raw),str(dressed)],check=True)
         im=Image.open(dressed).convert('RGB')
         assert im.size==(1080,1920), (slug,im.size)
-        assert im.getpixel((80,1820))==(0,135,81),slug
-        assert im.getpixel((800,1820))==(252,209,22),slug
-        assert im.getpixel((800,1880))==(232,17,45),slug
+        # Bandeau 54 px en pied de page ; trois couleurs exactes sur chaque image.
+        assert im.getpixel((80,1880))==(0,135,81),slug
+        assert im.getpixel((800,1880))==(252,209,22),slug
+        assert im.getpixel((800,1905))==(232,17,45),slug
         cells.append((im,label,slug))
     # Portrait thumbnails 330x587, 3 colonnes pour contrôle facile sur mobile.
     cols=3; cw,ch=346,648; pad=16
