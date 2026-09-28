@@ -5,12 +5,18 @@
   "lyrics_source": "concentré sur le chemin.txt",
   "lyrics_lrc": "Concentré sur le chemin.lrc",
   "branch": "arena/01a0e931-lyric",
-  "stage": "awaiting_photo_authorization_and_visual_choices",
+  "stage": "anchor_generated_preview_in_progress",
   "confirmed": {
     "scene_count": 5,
     "formats": {
-      "portrait": [1080, 1920],
-      "landscape": [1920, 1080]
+      "portrait": [
+        1080,
+        1920
+      ],
+      "landscape": [
+        1920,
+        1080
+      ]
     },
     "final_background_count": 10,
     "image_per_verse": false,
@@ -22,7 +28,19 @@
     "pose": "both_hands_on_head_cigarette_held_between_fingers",
     "large_lyrics": true,
     "badge_behavior": "fade_in_and_out_on_every_verse",
-    "badge_baked_into_background": false
+    "badge_baked_into_background": false,
+    "typeface_style": "bold",
+    "text_effect": "word_by_word_plus_continuous_water_wave",
+    "artist": "Daïsky",
+    "badge_label": "Dsky",
+    "badge_flag_country": "Bénin",
+    "footer_flag": true,
+    "footer_portrait_height_px": 54,
+    "style": "anime_seinen_blue_black_amber_cyan",
+    "deliverables": "two_clips_mp3_covers_prompt_termux",
+    "hook_requested": true,
+    "lyric_font": "assets/fonts/BarlowCondensed-Bold.ttf",
+    "ui_font": "assets/fonts/DejaVuSans-Bold.ttf"
   },
   "proposed_defaults": {
     "artist": "Daïsky",
@@ -30,11 +48,11 @@
     "text_effect": "word_by_word_plus_continuous_water_wave",
     "wave_amplitude_px": 4.5,
     "wave_frequency_hz": 0.9,
-    "badge_label": "DSKY✓",
+    "badge_label": "Dsky",
     "badge_max_opacity": 0.75,
     "badge_fade_seconds": 0.4,
-    "flag_country": null,
-    "footer_flag": false,
+    "flag_country": "Bénin",
+    "footer_flag": true,
     "hook_source_start": 113.28,
     "hook_source_end": 120.18,
     "hook_duration_seconds": 6.9,
@@ -49,22 +67,84 @@
     "master_true_peak_target_dbtp": -1.8,
     "cover_text": "postproduction",
     "email": "daiskyproduction@gmail.com",
-    "whatsapp": ["+229 01 61 16 24 08", "+229 01 49 11 49 51"]
+    "whatsapp": [
+      "+229 01 61 16 24 08",
+      "+229 01 49 11 49 51"
+    ],
+    "portrait_lyric_font_px": 112
   },
   "approvals": {
-    "reference_photos_authorized": false,
-    "reference_photo_paths": [],
-    "typeface": null,
-    "brand_and_flag": false,
+    "reference_photos_authorized": true,
+    "reference_photo_paths": [
+      "Samu/Snapchat-1835992965.jpg",
+      "Samu/Snapchat-1275781156.jpg",
+      "Samu/Snapchat-959878741.jpg"
+    ],
+    "typeface": "bold",
+    "brand_and_flag": true,
     "hook": false,
     "anchor": false,
-    "vocal_sync": false
+    "vocal_sync": false,
+    "reference_photo_folder": "Samu",
+    "deliverables": true,
+    "hook_option": true
   },
   "scenes": [
-    {"slot": "s01", "name": "Tête lourde", "uses": ["intro", "cover_possible"], "portrait": null, "landscape": null},
-    {"slot": "s02", "name": "Dans le bruit", "uses": ["couplets"], "portrait": null, "landscape": null},
-    {"slot": "s03", "name": "Tenir le cap", "uses": ["refrains", "hook"], "portrait": null, "landscape": null},
-    {"slot": "s04", "name": "Patience", "uses": ["pre_refrains", "pont"], "portrait": null, "landscape": null},
-    {"slot": "s05", "name": "Encore debout", "uses": ["outro", "endcard"], "portrait": null, "landscape": null}
-  ]
+    {
+      "slot": "s01",
+      "name": "Tête lourde",
+      "uses": [
+        "intro",
+        "cover_possible"
+      ],
+      "portrait": "assets/raw/concentre_sur_le_chemin/portrait/s01_tete_lourde.png",
+      "landscape": null,
+      "status": "pending_artist_approval"
+    },
+    {
+      "slot": "s02",
+      "name": "Dans le bruit",
+      "uses": [
+        "couplets"
+      ],
+      "portrait": null,
+      "landscape": null
+    },
+    {
+      "slot": "s03",
+      "name": "Tenir le cap",
+      "uses": [
+        "refrains",
+        "hook"
+      ],
+      "portrait": null,
+      "landscape": null
+    },
+    {
+      "slot": "s04",
+      "name": "Patience",
+      "uses": [
+        "pre_refrains",
+        "pont"
+      ],
+      "portrait": null,
+      "landscape": null
+    },
+    {
+      "slot": "s05",
+      "name": "Encore debout",
+      "uses": [
+        "outro",
+        "endcard"
+      ],
+      "portrait": null,
+      "landscape": null
+    }
+  ],
+  "questionnaire_answers": {
+    "references_visage": "samu",
+    "typographie": "gras",
+    "signature": "benin_bandeau",
+    "options_restantes": "complet"
+  }
 }

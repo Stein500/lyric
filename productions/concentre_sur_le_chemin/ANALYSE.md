@@ -93,7 +93,7 @@ La consigne explicite **5 portraits + 5 paysages** remplace la règle génériqu
 - 5 scènes × 2 compositions = **10 fonds finaux**.
 - Ancre portrait comprise dans le budget.
 - Intro, endcard et covers dérivées de ces fonds en post, sans génération supplémentaire.
-- Références photo, ancre et choix typographique : en attente d'approbation.
+- Questionnaire résolu : références `Samu` autorisées, caractères gras et drapeau Bénin validés. Ancre et synchronisation vocale encore en attente d’approbation.
 
 ## Reproduire les mesures
 

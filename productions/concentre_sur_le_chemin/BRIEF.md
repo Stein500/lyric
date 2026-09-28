@@ -2,8 +2,8 @@
 
 Date : 2026-09-28. Branche de session : `arena/01a0e931-lyric`.
 
-**Étape actuelle : analyse automatique effectuée, références photo et ancre non validées.**
-Aucune image de personne n'a été envoyée au générateur. Aucun clip/master final n'est livré à ce stade.
+**Étape actuelle : questionnaire validé, une ancre portrait générée, maquette en préparation ; ancre non encore approuvée par l’artiste.**
+Les références originales du dossier `Samu` ont été explicitement autorisées. Seul le slot portrait s01 a été généré avec trois de ces originaux. Aucun clip/master final n’est livré à ce stade.
 
 ## Sources confirmées
 
@@ -26,16 +26,16 @@ Ces choix remplacent les exemples contradictoires de « Nonvi Konou », les déf
 6. **Fumoir qui est aussi un studio de musique**, matériel ancien, cabine, microphone, console et enceintes sans marques ; fumée atmosphérique.
 7. **Les deux mains sur la tête et une cigarette tenue entre les doigts**. Pose proposée : cigarette entre index et majeur de la main droite posée près de la tempe, extrémité dirigée loin du visage. Les deux mains restent sur la tête, sans main surnuméraire et sans visage caché. Aucun changement de pose incompatible dans les scènes suivantes.
 
-## Réglages hérités, à confirmer avec le questionnaire unique
+## Choix du questionnaire validés et détails de maquette
 
-- Style proposé : animé seinen semi-réaliste, nuit bleu-noir, contre-jour ambre et bord cyan discret ; lumière plus douce sur le pont.
-- Texte : mode hybride **mot à mot + vague simultanée**, mot actif or/crème, mots passés atténués mais lisibles. Largeur finale du vers calculée avant animation. Choix gras/cursive à confirmer ; « gros puis petit sans vague » n'est pas activé automatiquement.
-- Repères de taille à tester : gras 104–120 px en 1080×1920 ; 96–112 px en 1920×1080. Tailles indicatives, validation sur les vrais vers longs et sur mobile. Le bloc entier est centré verticalement, chaque ligne horizontalement.
-- Badge proposé : `DSKY✓`. Variante `Dsky` + drapeau vectoriel Bénin, avec/sans bandeau, seulement sur confirmation. Ne pas imposer le drapeau d'un exemple précédent.
+- Style validé : animé seinen semi-réaliste, nuit bleu-noir, contre-jour ambre et bord cyan discret ; lumière plus douce sur le pont.
+- Texte : mode hybride **mot à mot + vague simultanée**, mot actif or/crème, mots passés atténués mais lisibles. Largeur finale du vers calculée avant animation. **Gras validé** : Barlow Condensed Bold pour les paroles, DejaVu Sans Bold pour l’UI ; « gros puis petit sans vague » n'est pas activé automatiquement.
+- Repères de taille à tester : gras 104–112 px en 1080×1920 ; 96–112 px en 1920×1080. Tailles indicatives, validation sur les vrais vers longs et sur mobile. Le bloc entier est centré verticalement, chaque ligne horizontalement.
+- Badge validé : `Dsky` + drapeau vectoriel Bénin, fondu à chaque vers. **Bandeau Bénin de 54 px validé**. Ces choix viennent du questionnaire de cette chanson, pas d’une attribution automatique depuis un autre exemple.
 - Cold-open proposé : deux premières lignes du refrain le plus énergétique, intervalle source 01:53.28 → 02:00.18, soit **6,90 s**. Un hook de 6 s exactement pourrait couper le second vers ; vérifier à l'écoute et faire approuver l'extrait. Variante sans cold-open possible.
 - Covers : réutilisation d'un fond validé, titre exact et artiste en post-production ; aucun lettrage généré par IA.
-- Livrables proposés : clips 1080×1920 + 1920×1080, MP3 320 kb/s 48 kHz de la chanson seule, covers carré 1080 + portrait + paysage, prompt universel mis à jour, commandes Termux au hash publié. Variante ≤50 Mo uniquement si demandée.
-- Artiste / contacts hérités à confirmer : Daïsky ; `daiskyproduction@gmail.com` ; WhatsApp `+229 01 61 16 24 08` / `+229 01 49 11 49 51`. Ne pas ajouter une longue liste de crédits.
+- Pack complet validé : clips 1080×1920 + 1920×1080, MP3 320 kb/s 48 kHz de la chanson seule, covers carré 1080 + portrait + paysage, prompt universel mis à jour, commandes Termux au hash publié. Variante ≤50 Mo uniquement si demandée.
+- Artiste / contacts du pack validé : Daïsky ; `daiskyproduction@gmail.com` ; WhatsApp `+229 01 61 16 24 08` / `+229 01 49 11 49 51`. Ne pas ajouter une longue liste de crédits.
 
 ## Cadrage et safe zones
 
@@ -43,11 +43,11 @@ Ces choix remplacent les exemples contradictoires de « Nonvi Konou », les déf
 - Aucune parole/contact à y≥1574 ; pas de CTA fixe.
 - Paysage 1920×1080 : bloc paroles au centre, largeur contrôlée, pas dans la bande des contrôles y≥960. Le visage est décalé à un tiers si nécessaire.
 - Scrim central doux localisé sous les paroles, pas un voile opaque sur le visage.
-- Si bandeau Bénin validé : vectoriel en post, 54 px tout en bas du portrait (y=1866→1920), vert #008751 sur le tiers gauche, jaune #FCD116 en haut à droite, rouge #E8112D en bas à droite. Hauteur relative identique pour les autres formats ; tests de pixels. Le badge reste animé séparément.
+- Bandeau Bénin validé : vectoriel en post, 54 px tout en bas du portrait (y=1866→1920), vert #008751 sur le tiers gauche, jaune #FCD116 en haut à droite, rouge #E8112D en bas à droite. Hauteur relative identique pour les autres formats ; tests de pixels. Le badge reste animé séparément.
 
 ## Storyboard proposé — cinq scènes seulement
 
-Le bloc héros et la tenue seront écrits après validation des photos, puis recopiés à l'identique dans les dix prompts complets.
+Le bloc héros et la tenue sont documentés dans `PROMPTS_IMAGES_Concentre_sur_le_chemin.md`. Les trois originaux autorisés utilisés sont `Samu/Snapchat-1835992965.jpg`, `Samu/Snapchat-1275781156.jpg` et `Samu/Snapchat-959878741.jpg`. Lunettes rectangulaires conservées. La ressemblance et les traits de l’ancre restent soumis à l’approbation de l’artiste avant de recopier le bloc dans les neuf autres prompts complets.
 
 | Scène | Mise en scène, même studio et même pose | Usage proposé |
 |---|---|---|
@@ -71,7 +71,7 @@ Cette répartition est une proposition, pas une salve validée. Tous les prompts
 ## État / prochaine action
 
 - Titre, formats et budget : confirmés.
-- Photos de référence : **non confirmées**.
-- Ancre / autres fonds : **non générés**.
-- Typographie finale, badge/drapeau et extrait d'ouverture : à confirmer.
+- Photos de référence : **dossier Samu confirmé et autorisé** ; trois originaux utilisés pour l’ancre.
+- Ancre s01 portrait : **générée, à valider**. Autres fonds : **non générés**.
+- Typographie grasse et badge/drapeau : **validés au questionnaire**. Extrait d’ouverture demandé ; coupe exacte et lisibilité à valider sur la maquette.
 - Horaires : sources conservées, aucun faux statut « alignement vocal validé ».
