@@ -1,15 +1,16 @@
-NONVI KONOU v2 — TÉLÉCHARGEMENT TERMUX
+NONVI KONOU — 3 COMMANDES TERMUX
 
-Commit immuable des livrables corrigés :
-9cee5beb46c540282b26595cd2d7fb9294f74f67
+Livrables immuables au commit :
+5eac2d656a70c6ce96d60414d7963c0bfde76225
 
-Destination :
-/storage/emulated/0/Web+/Nonvi_Konou/
+1. Préparer Termux et le dossier :
 
-Commande unique à copier-coller dans Termux (curl reprend avec -C -) :
+pkg install -y curl; termux-setup-storage; mkdir -p '/storage/emulated/0/Web+/Nonvi_Konou'; rm -f '/storage/emulated/0/Web+/Nonvi_Konou/Nonvi_Konou_9x16_v1.mp4'
 
-pkg update -y; pkg install -y curl coreutils; termux-setup-storage; DEST='/storage/emulated/0/Web+/Nonvi_Konou'; mkdir -p "$DEST"; cd "$DEST"; rm -f 'Nonvi_Konou_9x16_v1.mp4'; BASE='https://raw.githubusercontent.com/Stein500/lyric/9cee5beb46c540282b26595cd2d7fb9294f74f67'; curl -fL --retry 5 --retry-delay 3 -C - -o 'Nonvi_Konou_9x16_v2.mp4' "$BASE/livrables/Nonvi_Konou_9x16_v2.mp4"; curl -fL --retry 5 --retry-delay 3 -C - -o 'Nonvi_Konou_master_320k.mp3' "$BASE/livrables/Nonvi_Konou_master_320k.mp3"; curl -fL --retry 5 --retry-delay 3 -C - -o 'cover_nonvi_konou_9x16.jpg' "$BASE/livrables/cover_nonvi_konou_9x16.jpg"; curl -fL --retry 5 --retry-delay 3 -C - -o 'cover_nonvi_konou_1080.jpg' "$BASE/livrables/cover_nonvi_konou_1080.jpg"; curl -fL --retry 5 --retry-delay 3 -C - -o 'cover_nonvi_konou_universelle_3000.jpg' "$BASE/livrables/cover_nonvi_konou_universelle_3000.jpg"; curl -fL --retry 5 --retry-delay 3 -C - -o 'CAPTION_NONVI_KONOU.txt' "$BASE/livrables/CAPTION_NONVI_KONOU.txt"; curl -fL --retry 5 --retry-delay 3 -C - -o 'CONTROLES_NONVI_KONOU.json' "$BASE/livrables/CONTROLES_NONVI_KONOU.json"; curl -fL --retry 5 --retry-delay 3 -C - -o 'README_NONVI_KONOU.md' "$BASE/livrables/README_NONVI_KONOU.md"; curl -fL --retry 5 --retry-delay 3 -C - -o 'PROMPT_UNIVERSEL_v5.4_HYBRIDE_DRAPEAU.md' "$BASE/PROMPT_UNIVERSEL_v5.4_HYBRIDE_DRAPEAU.md"; printf '%s  %s\n' '0482cf64ae3f6daa864556a57593f1dc33a80d6e1452c7fa30231e7d4f6128a5' 'Nonvi_Konou_9x16_v2.mp4' 'e2a3735a885fd4f0f4d40ababb8600fb62c291c38831fcd7af9bc7a78303faee' 'Nonvi_Konou_master_320k.mp3' 'ca928af0ac6c2f62fc41243f8f6f768c6ff87722f803ee22a0c625c3372912b1' 'cover_nonvi_konou_9x16.jpg' '9f7678c5826fabcecfc9a831dd918ca12d3f0171dd8ec0c1c91d88ac0d0e23d9' 'cover_nonvi_konou_1080.jpg' '647d94e3e7a0632d10d0b24a14ff19a3c31a0efaa3d7b56ed4c8a31331d3d0c2' 'cover_nonvi_konou_universelle_3000.jpg' '803af069135b223eb2a31b0d6b54761067c2fd7af5a6fcabf9e8797f7c5bd254' 'CAPTION_NONVI_KONOU.txt' '4498650a85c948da020bb2ea113a523b9ce514ab0dfb626c3a18ae9fddfc332b' 'CONTROLES_NONVI_KONOU.json' '57603fe1cd63b9b3f1912019782bb943860b638a8b63027e321b3e7b76e87fb6' 'README_NONVI_KONOU.md' '29e827bba6919b1f12935088800f2246767ea07292060b056ded01204e1446ae' 'PROMPT_UNIVERSEL_v5.4_HYBRIDE_DRAPEAU.md' > 'SHA256SUMS_NONVI_KONOU.txt'; sha256sum -c 'SHA256SUMS_NONVI_KONOU.txt'; ls -lh
+2. Télécharger uniquement le MP4 corrigé :
 
-En cas de coupure réseau, relancer exactement la même ligne. Vérification seule :
+curl -fL --retry 5 --retry-delay 3 -C - -o '/storage/emulated/0/Web+/Nonvi_Konou/Nonvi_Konou_9x16_v2.mp4' 'https://raw.githubusercontent.com/Stein500/lyric/5eac2d656a70c6ce96d60414d7963c0bfde76225/livrables/Nonvi_Konou_9x16_v2.mp4'
 
-cd '/storage/emulated/0/Web+/Nonvi_Konou'; sha256sum -c 'SHA256SUMS_NONVI_KONOU.txt'; ls -lh
+3. Télécharger uniquement le prompt à jour :
+
+curl -fL --retry 5 --retry-delay 3 -C - -o '/storage/emulated/0/Web+/Nonvi_Konou/PROMPT_UNIVERSEL_v5.4_HYBRIDE_DRAPEAU.md' 'https://raw.githubusercontent.com/Stein500/lyric/5eac2d656a70c6ce96d60414d7963c0bfde76225/PROMPT_UNIVERSEL_v5.4_HYBRIDE_DRAPEAU.md'
