@@ -5,7 +5,7 @@
   "lyrics_source": "concentré sur le chemin.txt",
   "lyrics_lrc": "Concentré sur le chemin.lrc",
   "branch": "arena/01a0e931-lyric",
-  "stage": "awaiting_artist_anchor_approval",
+  "stage": "anchor_approved_remaining_backgrounds_planned",
   "confirmed": {
     "scene_count": 5,
     "formats": {
@@ -83,11 +83,12 @@
     "typeface": "bold",
     "brand_and_flag": true,
     "hook": false,
-    "anchor": false,
+    "anchor": true,
     "vocal_sync": false,
     "reference_photo_folder": "Samu",
     "deliverables": true,
-    "hook_option": true
+    "hook_option": true,
+    "anchor_message": "Oui continue..."
   },
   "scenes": [
     {
@@ -99,7 +100,7 @@
       ],
       "portrait": "assets/raw/concentre_sur_le_chemin/portrait/s01_tete_lourde.png",
       "landscape": null,
-      "status": "pending_artist_approval"
+      "status": "portrait_approved_landscape_pending"
     },
     {
       "slot": "s02",
@@ -155,6 +156,6 @@
     "source_start_seconds": 113.0,
     "word_timing": "provisional",
     "technical_checks": "passed",
-    "artist_approved": false
+    "artist_approved": true
   }
 }
