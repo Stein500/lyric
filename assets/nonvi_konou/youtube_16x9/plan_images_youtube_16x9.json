@@ -1,0 +1,82 @@
+[
+  {
+    "index": 0,
+    "slot": "y00_intro",
+    "source_slot": "s00_intro",
+    "lyric": "INTRO INSTRUMENTALE",
+    "image": "y00_intro_paysage.png",
+    "status": "created"
+  },
+  {
+    "index": 1,
+    "slot": "y01_wolof",
+    "source_slot": "s01_wolof",
+    "lyric": "Wolof TechStein beat wê...",
+    "image": "y01_wolof_paysage.png",
+    "status": "created"
+  },
+  {
+    "index": 2,
+    "slot": "y02_yeah",
+    "source_slot": "s02_yeah",
+    "lyric": "Yeah... Nonvi konou...",
+    "image": "y02_yeah_paysage.png",
+    "status": "created"
+  },
+  {
+    "index": 3,
+    "slot": "y03_on_est_la",
+    "source_slot": "s03_on_est_la",
+    "lyric": "On est là, on brille, on remercie...",
+    "image": "y03_on_est_la_paysage.png",
+    "status": "created"
+  },
+  {
+    "index": 4,
+    "slot": "y04_nonvi_sourit",
+    "source_slot": "ancre_01",
+    "lyric": "Nonvi konou, mon frère sourit",
+    "image": "y04_nonvi_sourit_paysage.png",
+    "status": "created"
+  },
+  {
+    "index": 5,
+    "slot": "y05_misere",
+    "source_slot": "s05_misere",
+    "lyric": "Gbè manfo do ohin min, la vie ne finit pas dans la misère",
+    "image": "y05_misere_paysage.png",
+    "status": "created"
+  },
+  {
+    "index": 6,
+    "slot": "y06_dokpe",
+    "source_slot": "s06_dokpe",
+    "lyric": "Dokpè nou mahou nou kpèè or, remercie Dieu pour le peu",
+    "image": "y06_dokpe_paysage.png",
+    "status": "created"
+  },
+  {
+    "index": 7,
+    "slot": "y07_vivi",
+    "source_slot": "s07_vivi",
+    "lyric": "Gbètché vivi, ma vie me plaît, je suis heureux",
+    "image": "y07_vivi_paysage.png",
+    "status": "created"
+  },
+  {
+    "index": 8,
+    "slot": "y08_beat",
+    "source_slot": "s08_beat",
+    "lyric": "Wolof TechStein beat wê!",
+    "image": "y08_beat_paysage.png",
+    "status": "created"
+  },
+  {
+    "index": 9,
+    "slot": "y09_millions",
+    "source_slot": "s09_millions",
+    "lyric": "J'ai pas besoin de millions pour sourire",
+    "image": "y09_millions_paysage.png",
+    "status": "created"
+  }
+]
