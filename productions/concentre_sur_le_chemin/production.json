@@ -5,7 +5,7 @@
   "lyrics_source": "concentré sur le chemin.txt",
   "lyrics_lrc": "Concentré sur le chemin.lrc",
   "branch": "arena/01a0e931-lyric",
-  "stage": "anchor_generated_preview_in_progress",
+  "stage": "awaiting_artist_anchor_approval",
   "confirmed": {
     "scene_count": 5,
     "formats": {
@@ -146,5 +146,15 @@
     "typographie": "gras",
     "signature": "benin_bandeau",
     "options_restantes": "complet"
+  },
+  "preview": {
+    "video": "livrables/Concentre_sur_le_chemin_maquette_9x16_v1.mp4",
+    "still": "livrables/Concentre_sur_le_chemin_ancre_9x16_v1.jpg",
+    "lossless_still": "livrables/Concentre_sur_le_chemin_ancre_9x16_v1.png",
+    "duration_seconds": 14.5,
+    "source_start_seconds": 113.0,
+    "word_timing": "provisional",
+    "technical_checks": "passed",
+    "artist_approved": false
   }
 }

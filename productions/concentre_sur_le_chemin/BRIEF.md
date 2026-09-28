@@ -2,7 +2,7 @@
 
 Date : 2026-09-28. Branche de session : `arena/01a0e931-lyric`.
 
-**Étape actuelle : questionnaire validé, une ancre portrait générée, maquette en préparation ; ancre non encore approuvée par l’artiste.**
+**Étape actuelle : questionnaire validé, une ancre portrait générée, maquette 14,5 s rendue et contrôlée ; ancre non encore approuvée par l’artiste.**
 Les références originales du dossier `Samu` ont été explicitement autorisées. Seul le slot portrait s01 a été généré avec trois de ces originaux. Aucun clip/master final n’est livré à ce stade.
 
 ## Sources confirmées
@@ -75,3 +75,11 @@ Cette répartition est une proposition, pas une salve validée. Tous les prompts
 - Ancre s01 portrait : **générée, à valider**. Autres fonds : **non générés**.
 - Typographie grasse et badge/drapeau : **validés au questionnaire**. Extrait d’ouverture demandé ; coupe exacte et lisibilité à valider sur la maquette.
 - Horaires : sources conservées, aucun faux statut « alignement vocal validé ».
+
+## Maquette livrée pour validation (pas le clip final)
+
+- Vidéo : `livrables/Concentre_sur_le_chemin_maquette_9x16_v1.mp4` (1080×1920, 14,5 s, vrai audio source).
+- Image fixe : `livrables/Concentre_sur_le_chemin_ancre_9x16_v1.jpg` ; version PNG sans perte également disponible.
+- Prompt complet : `PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md`.
+- Contrôles et limites : `VALIDATION_ANCRE.md`.
+- **Arrêt de génération après une ancre : attendre que l’artiste confirme la ressemblance, les lunettes, la pose et la lisibilité avant les neuf autres fonds.** Le calage mot à mot n’est pas encore un alignement vocal validé.
