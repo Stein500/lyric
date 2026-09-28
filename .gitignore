@@ -1,0 +1,7 @@
+# Caches et outils régénérables — ne pas ignorer assets/ ni livrables/.
+/work/
+.venv/
+__pycache__/
+*.py[cod]
+/bin/
+.pytest_cache/
