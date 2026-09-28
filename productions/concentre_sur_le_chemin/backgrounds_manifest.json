@@ -1,0 +1,246 @@
+[
+  {
+    "slot": "s01",
+    "name": "Tête lourde",
+    "format": "portrait",
+    "raw": "assets/raw/concentre_sur_le_chemin/portrait/s01_tete_lourde.png",
+    "raw_sha256": "3262cb4b1e2cb68e1d22350c5ae2904264748017898c1ee9d3b5409ac7c0d0e8",
+    "raw_size": [
+      768,
+      1376
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/portrait/s01_tete_lourde_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/portrait/s01_tete_lourde_flag.png",
+    "export": "livrables/images_concentre_sur_le_chemin/portrait/s01_tete_lourde.jpg",
+    "technical_status": "ready_for_artist_review",
+    "artist_approved": true,
+    "corrections": [
+      "reprise du cadrage de l’ancre : plafond −120 px, prolongement du sol vide"
+    ],
+    "flag_height": 54
+  },
+  {
+    "slot": "s02",
+    "name": "Dans le bruit",
+    "format": "portrait",
+    "raw": "assets/raw/concentre_sur_le_chemin/portrait/s02_dans_le_bruit.png",
+    "raw_sha256": "583ad4d95b2cb15635bd8d178caf35dd851524a5bb535e34e54b02d731019d9b",
+    "raw_size": [
+      768,
+      1376
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/portrait/s02_dans_le_bruit_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/portrait/s02_dans_le_bruit_flag.png",
+    "export": "livrables/images_concentre_sur_le_chemin/portrait/s02_dans_le_bruit.jpg",
+    "technical_status": "ready_for_artist_review",
+    "artist_approved": false,
+    "corrections": [
+      "retrait local du lettrage parasite dans le plafond, hors personnage",
+      "reprise du cadrage de l’ancre : plafond −120 px, prolongement du sol vide"
+    ],
+    "flag_height": 54
+  },
+  {
+    "slot": "s03",
+    "name": "Tenir le cap",
+    "format": "portrait",
+    "raw": "assets/raw/concentre_sur_le_chemin/portrait/s03_tenir_le_cap.png",
+    "raw_sha256": "48734579943a0ce283c0cfa77d493a8d144aee29525b24bb597ef966efcc28ce",
+    "raw_size": [
+      768,
+      1376
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/portrait/s03_tenir_le_cap_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/portrait/s03_tenir_le_cap_flag.png",
+    "export": "livrables/images_concentre_sur_le_chemin/portrait/s03_tenir_le_cap.jpg",
+    "technical_status": "ready_for_artist_review",
+    "artist_approved": false,
+    "corrections": [
+      "reprise du cadrage de l’ancre : plafond −120 px, prolongement du sol vide"
+    ],
+    "flag_height": 54
+  },
+  {
+    "slot": "s04",
+    "name": "Patience",
+    "format": "portrait",
+    "raw": "assets/raw/concentre_sur_le_chemin/portrait/s04_patience.png",
+    "raw_sha256": "5be57f856aceae4bc86a3f219897dd452c320d102a7bb5d9b26233f5bf3914f8",
+    "raw_size": [
+      768,
+      1376
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/portrait/s04_patience_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/portrait/s04_patience_flag.png",
+    "export": "livrables/images_concentre_sur_le_chemin/portrait/s04_patience.jpg",
+    "technical_status": "ready_for_artist_review",
+    "artist_approved": false,
+    "corrections": [
+      "reprise du cadrage de l’ancre : plafond −120 px, prolongement du sol vide"
+    ],
+    "flag_height": 54
+  },
+  {
+    "slot": "s05",
+    "name": "Encore debout",
+    "format": "portrait",
+    "raw": "assets/raw/concentre_sur_le_chemin/portrait/s05_encore_debout.png",
+    "raw_sha256": "cfb2326cf037c5112882c3e8a32665daebb2cea3dd0d0d1e26eea432546c250a",
+    "raw_size": [
+      768,
+      1376
+    ],
+    "size": [
+      1080,
+      1920
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/portrait/s05_encore_debout_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/portrait/s05_encore_debout_flag.png",
+    "export": "livrables/images_concentre_sur_le_chemin/portrait/s05_encore_debout.jpg",
+    "technical_status": "ready_for_artist_review",
+    "artist_approved": false,
+    "corrections": [
+      "reprise du cadrage de l’ancre : plafond −120 px, prolongement du sol vide"
+    ],
+    "flag_height": 54
+  },
+  {
+    "slot": "s01",
+    "name": "Tête lourde",
+    "format": "landscape",
+    "raw": "assets/raw/concentre_sur_le_chemin/landscape/s01_tete_lourde.png",
+    "raw_sha256": "7f69c62d5761b694b4764b3c9e5d197d1704f03a61c992ca72e2618bd54aa741",
+    "raw_size": [
+      1376,
+      768
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/landscape/s01_tete_lourde_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/landscape/s01_tete_lourde_flag.png",
+    "export": "livrables/images_concentre_sur_le_chemin/landscape/s01_tete_lourde.jpg",
+    "technical_status": "ready_for_artist_review",
+    "artist_approved": false,
+    "corrections": [
+      "correction du seul assombrissement rectangulaire du décor, frontières masquées image par image autour du personnage",
+      "recul proportionnel 92 %, marges du décor prolongées ; aucun étirement du héros"
+    ],
+    "flag_height": 30
+  },
+  {
+    "slot": "s02",
+    "name": "Dans le bruit",
+    "format": "landscape",
+    "raw": "assets/raw/concentre_sur_le_chemin/landscape/s02_dans_le_bruit.png",
+    "raw_sha256": "5ec217fa608393a0f3a11b92a14b81aa5c2352cd28cfd187a85c9899a253215a",
+    "raw_size": [
+      1376,
+      768
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/landscape/s02_dans_le_bruit_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/landscape/s02_dans_le_bruit_flag.png",
+    "export": "livrables/images_concentre_sur_le_chemin/landscape/s02_dans_le_bruit.jpg",
+    "technical_status": "ready_for_artist_review",
+    "artist_approved": false,
+    "corrections": [
+      "correction du seul assombrissement rectangulaire du décor, frontières masquées image par image autour du personnage",
+      "recul proportionnel 92 %, marges du décor prolongées ; aucun étirement du héros"
+    ],
+    "flag_height": 30
+  },
+  {
+    "slot": "s03",
+    "name": "Tenir le cap",
+    "format": "landscape",
+    "raw": "assets/raw/concentre_sur_le_chemin/landscape/s03_tenir_le_cap.png",
+    "raw_sha256": "8ad5f4737fea3250306128b9e49587bdc7cc5fccc38bae8564a0ea03128c375a",
+    "raw_size": [
+      1376,
+      768
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/landscape/s03_tenir_le_cap_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/landscape/s03_tenir_le_cap_flag.png",
+    "export": null,
+    "technical_status": "needs_full_figure_reframe",
+    "artist_approved": false,
+    "corrections": [
+      "correction du seul assombrissement rectangulaire du décor, frontières masquées image par image autour du personnage",
+      "recul proportionnel 92 %, marges du décor prolongées ; aucun étirement du héros"
+    ],
+    "flag_height": 30
+  },
+  {
+    "slot": "s04",
+    "name": "Patience",
+    "format": "landscape",
+    "raw": "assets/raw/concentre_sur_le_chemin/landscape/s04_patience.png",
+    "raw_sha256": "49313b1b8a8d02b676621ca149def6218325e68d69151bf591ed66ae1cadc766",
+    "raw_size": [
+      1376,
+      768
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/landscape/s04_patience_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/landscape/s04_patience_flag.png",
+    "export": null,
+    "technical_status": "needs_full_figure_reframe",
+    "artist_approved": false,
+    "corrections": [
+      "recul proportionnel 92 %, marges du décor prolongées ; aucun étirement du héros"
+    ],
+    "flag_height": 30
+  },
+  {
+    "slot": "s05",
+    "name": "Encore debout",
+    "format": "landscape",
+    "raw": "assets/raw/concentre_sur_le_chemin/landscape/s05_encore_debout.png",
+    "raw_sha256": "4828a50212a87b773849cd7dd353da5f9ed6571264af6ee1729585b1fb97e29c",
+    "raw_size": [
+      1376,
+      768
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "background_cache": "work/concentre_sur_le_chemin/backgrounds/landscape/s05_encore_debout_frame.png",
+    "flag_proof": "work/concentre_sur_le_chemin/backgrounds/landscape/s05_encore_debout_flag.png",
+    "export": "livrables/images_concentre_sur_le_chemin/landscape/s05_encore_debout.jpg",
+    "technical_status": "ready_for_artist_review",
+    "artist_approved": false,
+    "corrections": [
+      "recul proportionnel 92 %, marges du décor prolongées ; aucun étirement du héros"
+    ],
+    "flag_height": 30
+  }
+]
