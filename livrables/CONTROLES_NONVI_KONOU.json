@@ -8,7 +8,9 @@
     "clip_audio_48k_stereo": true,
     "blackdetect_zero": true,
     "freezedetect_zero_default_threshold": true,
-    "flag_and_badge_color_delta_le_8": true,
+    "flag_and_visible_badge_color_delta_le_8": true,
+    "badge_absent_between_vers": true,
+    "lyric_font_at_least_120px": true,
     "master_duration_tolerance_0_05s": true,
     "master_320k": true,
     "master_48k": true,
@@ -33,10 +35,16 @@
     "footer_green": 2,
     "footer_yellow": 2,
     "footer_red": 1,
-    "badge_green": 2,
-    "badge_yellow": 3,
+    "badge_green": 1,
+    "badge_yellow": 2,
     "badge_red": 1
   },
+  "hidden_badge_distance_from_flag_colors": {
+    "green": 105,
+    "yellow": 237,
+    "red": 212
+  },
+  "lyric_font_px": 126,
   "master": {
     "duration_seconds": 193.488,
     "bitrate": 320000,
@@ -75,9 +83,9 @@
     ]
   },
   "files": {
-    "Nonvi_Konou_9x16_v1.mp4": {
-      "bytes": 61208692,
-      "sha256": "7aaf5e82cf07daff52c43c3d64ae50d6a1692f256bc9e04cd9fa85f1dda9ece8"
+    "Nonvi_Konou_9x16_v2.mp4": {
+      "bytes": 62105994,
+      "sha256": "0482cf64ae3f6daa864556a57593f1dc33a80d6e1452c7fa30231e7d4f6128a5"
     },
     "Nonvi_Konou_master_320k.mp3": {
       "bytes": 8132427,

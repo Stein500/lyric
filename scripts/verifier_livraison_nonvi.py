@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'livrables'
 WORK = ROOT / 'work' / 'final_nonvi' / 'qa'
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
-CLIP = OUT / 'Nonvi_Konou_9x16_v1.mp4'
+CLIP = OUT / 'Nonvi_Konou_9x16_v2.mp4'
 MASTER = OUT / 'Nonvi_Konou_master_320k.mp3'
 EXPECTED_TAGS = {'TIT2', 'TPE1', 'TALB', 'TPE2', 'TPUB', 'TCOM', 'TCON', 'TDRC',
                  'TXXX:contact', 'TXXX:email', 'TXXX:producer', 'TXXX:label',
@@ -50,11 +50,14 @@ def main():
     video = re.search(r'Video: h264 .*?, (\d+)x(\d+).*?, ([\d.]+) fps', log)
     audio = re.search(r'Audio: aac .*?, (\d+) Hz, (\w+)', log)
     assert video and audio
-    # Image de référence décodée pour le bandeau géométrique et le petit pictogramme.
-    frame = WORK / 'reference_1s.png'
-    subprocess.run([FFMPEG, '-hide_banner', '-loglevel', 'error', '-ss', '1.0', '-i', str(CLIP),
-                    '-frames:v', '1', '-y', str(frame)], check=True)
-    im = Image.open(frame).convert('RGB')
+    # Références : badge visible pendant un vers (1 s), absent dans l'intro sans vers (7,2 s).
+    def extract_frame(seconds, name):
+        path = WORK / name
+        subprocess.run([FFMPEG, '-hide_banner', '-loglevel', 'error', '-ss', str(seconds),
+                        '-i', str(CLIP), '-frames:v', '1', '-y', str(path)], check=True)
+        return Image.open(path).convert('RGB')
+    im = extract_frame(1.0, 'badge_visible_1s.png')
+    hidden = extract_frame(7.2, 'badge_hidden_7_2s.png')
     refs = {
         'footer_green': (im.getpixel((80, 1880)), (0, 135, 81)),
         'footer_yellow': (im.getpixel((800, 1880)), (252, 209, 22)),
@@ -65,6 +68,13 @@ def main():
     }
     color_deltas = {k: max(abs(a - b) for a, b in zip(got, expected))
                     for k, (got, expected) in refs.items()}
+    hidden_badge_deltas = {
+        'green': max(abs(a - b) for a, b in zip(hidden.getpixel((600, 190)), (0, 135, 81))),
+        'yellow': max(abs(a - b) for a, b in zip(hidden.getpixel((640, 190)), (252, 209, 22))),
+        'red': max(abs(a - b) for a, b in zip(hidden.getpixel((640, 214)), (232, 17, 45))),
+    }
+    render_source = (ROOT / 'scripts' / 'rendre_clip_nonvi.py').read_text()
+    lyric_font = int(re.search(r'Style: Lyric,Great Vibes,(\d+),', render_source).group(1))
     mp3 = MP3(MASTER)
     tag_keys = set(mp3.tags.keys())
     loud_log = capture([FFMPEG, '-hide_banner', '-v', 'info', '-i', str(MASTER),
@@ -88,7 +98,9 @@ def main():
         'clip_audio_48k_stereo': audio.group(1, 2) == ('48000', 'stereo'),
         'blackdetect_zero': 'black_start' not in log,
         'freezedetect_zero_default_threshold': 'freeze_start' not in log,
-        'flag_and_badge_color_delta_le_8': max(color_deltas.values()) <= 8,
+        'flag_and_visible_badge_color_delta_le_8': max(color_deltas.values()) <= 8,
+        'badge_absent_between_vers': min(hidden_badge_deltas.values()) >= 20,
+        'lyric_font_at_least_120px': lyric_font >= 120,
         'master_duration_tolerance_0_05s': abs(mp3.info.length - 193.48) <= .05,
         'master_320k': mp3.info.bitrate == 320000,
         'master_48k': mp3.info.sample_rate == 48000,
@@ -111,6 +123,8 @@ def main():
                  'audio_channels': audio.group(2), 'black_events': log.count('black_start'),
                  'freeze_events_default_threshold': log.count('freeze_start')},
         'flag_badge_max_channel_delta': color_deltas,
+        'hidden_badge_distance_from_flag_colors': hidden_badge_deltas,
+        'lyric_font_px': lyric_font,
         'master': {'duration_seconds': round(mp3.info.length, 6),
                    'bitrate': mp3.info.bitrate, 'sample_rate': mp3.info.sample_rate,
                    'loudness_lufs': float(loud['input_i']),

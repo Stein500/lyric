@@ -4,7 +4,8 @@
 Architecture légère et reproductible : concat de fonds validés, lent mouvement
 photographique, puis paroles ASS. Chaque mot garde sa place finale ; la couleur
 progresse mot à mot pendant qu'une onde d'eau anime simultanément les mots.
-Le badge n'est PAS redessiné : il est déjà incrusté sur chaque fond validé.
+Les copies de rendu retirent le badge incrusté des fonds ; une capsule nette est
+recomposée en fondu à l'entrée et à la sortie de chaque vers.
 """
 from __future__ import annotations
 
@@ -68,11 +69,11 @@ def split_lines(words, font, max_width=850):
 
 
 def layout(text: str):
-    # 86 px garde les vers longs dans 2–3 lignes sans troncature.
-    font = ImageFont.truetype(FONTS / 'GreatVibes-latin.ttf', 86)
+    # Taille mobile forte : +46 % par rapport au premier rendu, avec wrap avant réduction.
+    font = ImageFont.truetype(FONTS / 'GreatVibes-latin.ttf', 126)
     words = text.split()
-    lines = split_lines(words, font)
-    row_gap = 108
+    lines = split_lines(words, font, max_width=870)
+    row_gap = 150
     block_h = len(lines) * row_gap
     top = 960 - block_h / 2
     entries = []
@@ -113,7 +114,7 @@ def lyric_events(start, end, text):
     total_weight = running
     events = []
     # Scrim central unique, doux et indépendant du changement de mot.
-    y0, y1 = max(660, top - 46), min(1280, bottom + 34)
+    y0, y1 = max(500, top - 52), min(1460, bottom + 42)
     rect = (r'{\an7\pos(0,0)\p1\bord0\blur16\1c&H07101A&\1a&H58&}'
             f'm 82 {round(y0)} l 998 {round(y0)} l 998 {round(y1)} l 82 {round(y1)}')
     events.append(dialogue(0, start, end, 'Vector', rect))
@@ -158,7 +159,7 @@ YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Lyric,Great Vibes,86,&H00E8F8FF,&H000000FF,&H00201008,&H00000000,0,0,0,0,100,100,0,0,1,2.3,0,7,0,0,0,1
+Style: Lyric,Great Vibes,126,&H00E8F8FF,&H000000FF,&H00201008,&H00000000,0,0,0,0,100,100,0,0,1,2.3,0,7,0,0,0,1
 Style: Vector,DejaVu Sans,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
 Style: Title,Great Vibes,148,&H009CDEFF,&H000000FF,&H00201508,&H90000000,0,0,0,0,100,100,0,0,1,3,1,8,80,80,0,1
 Style: Artist,DejaVu Sans,43,&H00F3F5F7,&H000000FF,&H00130C06,&H80000000,-1,0,0,0,100,100,2,0,1,2,0,8,80,80,0,1
@@ -170,38 +171,57 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     lines = report['lines']
     events = []
-    # Incrustations statiques APRÈS le Ken Burns : jamais de badge ni bandeau mobile.
-    # Pied de page exact, 54 px : tiers vert puis jaune au-dessus du rouge.
-    def shape(color, path, layer=8, border=0, border_color='&H000000&', alpha='00'):
+    # Le bandeau reste statique ; le badge, lui, vit avec chaque vers.
+    def shape(color, path, layer=8, border=0, border_color='&H000000&', alpha='00',
+              start=0, end=TOTAL_DURATION, fade=0):
+        fade_tag = f'\\fad({fade},{fade})' if fade else ''
         tag = (r'{\an7\pos(0,0)\p1'
-               f'\\bord{border}\\1c{color}\\3c{border_color}\\1a&H{alpha}&}}')
-        events.append(dialogue(layer, 0, TOTAL_DURATION, 'Vector', tag + path))
+               f'\\bord{border}\\1c{color}\\3c{border_color}\\1a&H{alpha}&{fade_tag}}}')
+        events.append(dialogue(layer, start, end, 'Vector', tag + path))
+
+    # Pied de page exact, 54 px : tiers vert puis jaune au-dessus du rouge.
     shape('&H65C2EC&', 'm 0 1864 l 1080 1864 l 1080 1866 l 0 1866')
     shape('&H518700&', 'm 0 1866 l 360 1866 l 360 1920 l 0 1920')
     shape('&H16D1FC&', 'm 360 1866 l 1080 1866 l 1080 1893 l 360 1893')
     shape('&H2D11E8&', 'm 360 1893 l 1080 1893 l 1080 1920 l 360 1920')
-    # Badge sombre arrondi, libellé Dsky et pictogramme béninois vectoriel.
+
     rounded = ('m 395 160 l 685 160 b 702 160 715 173 715 190 l 715 209 '
                'b 715 226 702 239 685 239 l 395 239 b 378 239 365 226 365 209 '
                'l 365 190 b 365 173 378 160 395 160')
-    shape('&H1A1203&', rounded, layer=8, border=2, border_color='&H9ADAF8&', alpha='18')
-    shape('&H518700&', 'm 587 177 l 613 177 l 613 225 l 587 225', layer=9)
-    shape('&H16D1FC&', 'm 613 177 l 666 177 l 666 201 l 613 201', layer=9)
-    shape('&H2D11E8&', 'm 613 201 l 666 201 l 666 225 l 613 225', layer=9)
-    events.append(dialogue(10, 0, TOTAL_DURATION, 'Badge',
-                           r'{\an7\pos(391,164)}Dsky'))
+
+    def badge_for(start, end):
+        """Capsule complète en fondu à l'entrée et à la sortie du vers."""
+        fade = min(280, max(150, round((end - start) * 120)))
+        shape('&H1A1203&', rounded, layer=8, border=2, border_color='&H9ADAF8&',
+              alpha='18', start=start, end=end, fade=fade)
+        shape('&H518700&', 'm 587 177 l 613 177 l 613 225 l 587 225', layer=9,
+              start=start, end=end, fade=fade)
+        shape('&H16D1FC&', 'm 613 177 l 666 177 l 666 201 l 613 201', layer=9,
+              start=start, end=end, fade=fade)
+        shape('&H2D11E8&', 'm 613 201 l 666 201 l 666 225 l 613 225', layer=9,
+              start=start, end=end, fade=fade)
+        events.append(dialogue(10, start, end, 'Badge',
+                               rf'{{\an7\pos(391,164)\fad({fade},{fade})}}Dsky'))
     # Cold-open : seulement les deux vers retenus, sur six secondes.
     events.append(dialogue(3, 0, 6, 'UI', r'{\an8\pos(540,325)\fad(180,260)}REFRAIN'))
     events.append(dialogue(3, 0, 6, 'Title', r'{\an8\pos(540,390)\fad(180,260)}Nonvi Konou'))
-    events += lyric_events(0, lines[41]['end'] - lines[41]['start'], lines[41]['text'])
+    hook_first_end = lines[41]['end'] - lines[41]['start']
+    badge_for(0, hook_first_end)
+    events += lyric_events(0, hook_first_end, lines[41]['text'])
     hook_second_end = min(6.0, lines[42]['end'] - lines[41]['start'])
-    events += lyric_events(lines[41]['end'] - lines[41]['start'], hook_second_end, lines[42]['text'])
+    badge_for(hook_first_end, hook_second_end)
+    events += lyric_events(hook_first_end, hook_second_end, lines[42]['text'])
     # Titre dans l'intro de la chanson complète.
     events.append(dialogue(3, 6.20, 9.50, 'Title', r'{\an8\pos(540,710)\fad(350,350)}Nonvi Konou'))
     events.append(dialogue(3, 6.35, 9.50, 'Artist', r'{\an8\pos(540,885)\fad(450,350)}DAÏSKY'))
     for line in lines:
-        events += lyric_events(HOOK_DURATION + line['start'], HOOK_DURATION + line['end'], line['text'])
+        start = HOOK_DURATION + line['start']
+        stop = HOOK_DURATION + line['end']
+        badge_for(start, stop)
+        events += lyric_events(start, stop, line['text'])
     end = HOOK_DURATION + SONG_DURATION
+    # Endcard : une dernière apparition en fondu, jamais de badge permanent.
+    badge_for(end + .15, end + 4.80)
     # Endcard simple : titre cursif, artiste, WhatsApp et email seulement.
     events.append(dialogue(3, end + .15, end + 4.80, 'Title',
                            r'{\an8\pos(540,600)\fad(350,450)}Nonvi Konou'))
@@ -219,8 +239,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 def make_clean_fonds(plan):
     """Retire les incrustations des copies de travail avant mouvement caméra.
 
-    Les éléments exacts seront reposés une seule fois, immobiles, après le Ken Burns.
-    Le remplissage interpolé reste invisible sous l'incrustation.
+    Le bandeau exact est reposé après le Ken Burns ; le badge est recomposé par vers.
+    Le remplissage interpolé reste invisible sous les incrustations.
     """
     clean_dir = WORK / 'fonds_clean'
     clean_dir.mkdir(exist_ok=True)
@@ -329,7 +349,7 @@ def main():
     if args.preview_seconds:
         output = WORK / f'preview_{args.preview_seconds:g}s.mp4'
     else:
-        output = OUT / 'Nonvi_Konou_9x16_v1.mp4'
+        output = OUT / 'Nonvi_Konou_9x16_v2.mp4'
     render(concat, ass, audio, output, args.preview_seconds)
     print('Clip rendu :', output)
 
