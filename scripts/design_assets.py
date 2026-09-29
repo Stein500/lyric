@@ -89,7 +89,7 @@ def make_covers():
         return Image.open(ROOT/entry['background_cache']).convert('RGBA')
     portrait = load('portrait', 's01')
     specs = [
-        ('1080x1080', portrait.crop((0, 120, 1080, 1200)), 540, 754, 966, 154, 86),
+        ('1080x1080', portrait.crop((0, 120, 1080, 1200)), 540, 754, 962, 154, 86),
         ('9x16', portrait.copy(), 540, 993, 1264, 188, 156),
         ('16x9', load('landscape', 's05'), 1220, 528, 780, 206, 144),
     ]
