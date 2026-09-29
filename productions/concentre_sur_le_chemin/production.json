@@ -5,7 +5,7 @@
   "lyrics_source": "concentré sur le chemin.txt",
   "lyrics_lrc": "Concentré sur le chemin.lrc",
   "branch": "arena/01a0e931-lyric",
-  "stage": "anchor_approved_remaining_backgrounds_planned",
+  "stage": "anchor_approved_landscape_corrections_planned",
   "confirmed": {
     "scene_count": 5,
     "formats": {
@@ -88,7 +88,8 @@
     "reference_photo_folder": "Samu",
     "deliverables": true,
     "hook_option": true,
-    "anchor_message": "Oui continue..."
+    "anchor_message": "Oui continue...",
+    "anchor_confirmation_date": "2026-09-29"
   },
   "scenes": [
     {
@@ -157,5 +158,15 @@
     "word_timing": "provisional",
     "technical_checks": "passed",
     "artist_approved": true
+  },
+  "recovery": {
+    "published_commit": "67525732617ae9b6acfb23243b43c8f3f999004c",
+    "method": "verified local files against published checkpoint, mixed index reset, restore only matching or absent paths; no hard reset"
+  },
+  "generation_budget": {
+    "final_portraits": 5,
+    "final_landscapes": 5,
+    "planned_correction_calls_this_turn": 5,
+    "extra_scenes": 0
   }
 }

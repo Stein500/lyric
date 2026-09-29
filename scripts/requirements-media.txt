@@ -5,3 +5,4 @@ Pillow==12.3.0
 mutagen==1.48.1
 fonttools==4.66.0
 brotli==1.2.0
+opencv-python-headless==5.0.0.93
