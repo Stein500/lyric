@@ -34,6 +34,9 @@ ANATOMY = ('One recognizable person with exactly two arms and two anatomically p
 
 
 def main():
+    existing = ROOT/'productions/concentre_sur_le_chemin/landscape_corrections_v2.json'
+    if existing.exists() and any('generated_sha256' in job for job in json.loads(existing.read_text())):
+        raise SystemExit('Révision 2 déjà générée : ne pas écraser son journal. Préparer une nouvelle révision pour une nouvelle correction.')
     source = CATALOG.read_text()
     hero = re.search(r'## Bloc héros invariant\n\n> (.*?)\n\n##', source, re.S)[1]
     source = source.split(MARKER)[0].rstrip()

@@ -1,9 +1,9 @@
 # Concentré sur le chemin — brief de production
 
-Date : 2026-09-28. Branche de session : `arena/01a0e931-lyric`.
+Création : 2026-09-28. Mise à jour : 2026-09-29. Branche de session : `arena/01a0e931-lyric`.
 
-**Étape actuelle : questionnaire validé, une ancre portrait générée, maquette 14,5 s rendue et contrôlée ; ancre non encore approuvée par l’artiste.**
-Les références originales du dossier `Samu` ont été explicitement autorisées. Seul le slot portrait s01 a été généré avec trois de ces originaux. Aucun clip/master final n’est livré à ce stade.
+**Étape actuelle : ancre, ressemblance, lunettes et grosse typographie approuvées (« Oui continue... »). Dix fonds exportés, série complète en attente de validation avant les clips.**
+Les références originales du dossier `Samu` ont été explicitement autorisées. Les cinq scènes sont disponibles en portrait et paysage ; chaque correction IA utilise les trois originaux Samu autorisés et l’ancre approuvée. Aucun clip/master final n’est livré à ce stade.
 
 ## Sources confirmées
 
@@ -47,7 +47,7 @@ Ces choix remplacent les exemples contradictoires de « Nonvi Konou », les déf
 
 ## Storyboard proposé — cinq scènes seulement
 
-Le bloc héros et la tenue sont documentés dans `PROMPTS_IMAGES_Concentre_sur_le_chemin.md`. Les trois originaux autorisés utilisés sont `Samu/Snapchat-1835992965.jpg`, `Samu/Snapchat-1275781156.jpg` et `Samu/Snapchat-959878741.jpg`. Lunettes rectangulaires conservées. La ressemblance et les traits de l’ancre restent soumis à l’approbation de l’artiste avant de recopier le bloc dans les neuf autres prompts complets.
+Le bloc héros et la tenue sont documentés dans `PROMPTS_IMAGES_Concentre_sur_le_chemin.md`. Les trois originaux autorisés utilisés sont `Samu/Snapchat-1835992965.jpg`, `Samu/Snapchat-1275781156.jpg` et `Samu/Snapchat-959878741.jpg`. Lunettes rectangulaires conservées. La ressemblance, les lunettes et la maquette de l’ancre ont été approuvées. Le même bloc héros figure dans les autres prompts ; la série complète reste à faire confirmer.
 
 | Scène | Mise en scène, même studio et même pose | Usage proposé |
 |---|---|---|
@@ -72,8 +72,8 @@ Cette répartition est une proposition, pas une salve validée. Tous les prompts
 
 - Titre, formats et budget : confirmés.
 - Photos de référence : **dossier Samu confirmé et autorisé** ; trois originaux utilisés pour l’ancre.
-- Ancre s01 portrait : **générée, à valider**. Autres fonds : **non générés**.
-- Typographie grasse et badge/drapeau : **validés au questionnaire**. Extrait d’ouverture demandé ; coupe exacte et lisibilité à valider sur la maquette.
+- Ancre s01 portrait : **approuvée**. **5 portraits + 5 paysages exportés**, contrôlés et réunis dans la planche v2 ; validation de la série encore attendue.
+- Typographie grasse, taille, ressemblance et lunettes : **approuvées sur la maquette**. Badge/drapeau validés. Extrait d’ouverture demandé ; la validation vocale complète reste distincte.
 - Horaires : sources conservées, aucun faux statut « alignement vocal validé ».
 
 ## Maquette livrée pour validation (pas le clip final)
@@ -82,4 +82,14 @@ Cette répartition est une proposition, pas une salve validée. Tous les prompts
 - Image fixe : `livrables/Concentre_sur_le_chemin_ancre_9x16_v1.jpg` ; version PNG sans perte également disponible.
 - Prompt complet : `PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md`.
 - Contrôles et limites : `VALIDATION_ANCRE.md`.
-- **Arrêt de génération après une ancre : attendre que l’artiste confirme la ressemblance, les lunettes, la pose et la lisibilité avant les neuf autres fonds.** Le calage mot à mot n’est pas encore un alignement vocal validé.
+- **L’ancre est désormais approuvée. Attendre la validation de la planche des dix fonds avant les rendus complets.** Le calage mot à mot reste provisoire, pas un alignement vocal validé.
+
+## Salve complète — étape du 2026-09-29
+
+- Planche courante : `livrables/Concentre_sur_le_chemin_planche_10_fonds_v2.jpg`. La v1 historique signalait deux cadrages incomplets et n’est plus la version à valider.
+- Pack courant : `livrables/Concentre_sur_le_chemin_10_images_v2.zip` ; exactement cinq portraits 1080×1920 et cinq paysages 1920×1080.
+- Les cinq portraits récupérés de la sauvegarde sont conservés ; les cinq paysages sont recomposés proprement, sans ajouter de scène. Originaux refusés disponibles dans le commit `67525732617ae9b6acfb23243b43c8f3f999004c`.
+- Éléments parasites du décor nettoyés localement, mains/visages/tenues intacts en post. Le badge n’est gravé dans aucun fond pour permettre son animation par vers.
+- Bandeau vectoriel Bénin : 54 px portrait, 30 px paysage ; pixels PNG exacts et contrôle JPEG.
+- Scripts et 31 tests : voir `VALIDATION_FONDS.md`.
+- Aucun clip complet, master ni cover finale n’est annoncé à cette étape.

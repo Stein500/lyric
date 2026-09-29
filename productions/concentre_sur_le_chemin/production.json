@@ -5,7 +5,7 @@
   "lyrics_source": "concentré sur le chemin.txt",
   "lyrics_lrc": "Concentré sur le chemin.lrc",
   "branch": "arena/01a0e931-lyric",
-  "stage": "anchor_approved_landscape_corrections_planned",
+  "stage": "awaiting_artist_series_approval",
   "confirmed": {
     "scene_count": 5,
     "formats": {
@@ -89,7 +89,8 @@
     "deliverables": true,
     "hook_option": true,
     "anchor_message": "Oui continue...",
-    "anchor_confirmation_date": "2026-09-29"
+    "anchor_confirmation_date": "2026-09-29",
+    "image_series": false
   },
   "scenes": [
     {
@@ -100,8 +101,10 @@
         "cover_possible"
       ],
       "portrait": "assets/raw/concentre_sur_le_chemin/portrait/s01_tete_lourde.png",
-      "landscape": null,
-      "status": "portrait_approved_landscape_pending"
+      "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s01_tete_lourde.png",
+      "status": "anchor_portrait_approved_series_pending",
+      "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s01_tete_lourde.jpg",
+      "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s01_tete_lourde.jpg"
     },
     {
       "slot": "s02",
@@ -109,8 +112,11 @@
       "uses": [
         "couplets"
       ],
-      "portrait": null,
-      "landscape": null
+      "portrait": "assets/raw/concentre_sur_le_chemin/portrait/s02_dans_le_bruit.png",
+      "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s02_dans_le_bruit.png",
+      "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s02_dans_le_bruit.jpg",
+      "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s02_dans_le_bruit.jpg",
+      "status": "ready_for_artist_review"
     },
     {
       "slot": "s03",
@@ -119,8 +125,11 @@
         "refrains",
         "hook"
       ],
-      "portrait": null,
-      "landscape": null
+      "portrait": "assets/raw/concentre_sur_le_chemin/portrait/s03_tenir_le_cap.png",
+      "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s03_tenir_le_cap.png",
+      "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s03_tenir_le_cap.jpg",
+      "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s03_tenir_le_cap.jpg",
+      "status": "ready_for_artist_review"
     },
     {
       "slot": "s04",
@@ -129,8 +138,11 @@
         "pre_refrains",
         "pont"
       ],
-      "portrait": null,
-      "landscape": null
+      "portrait": "assets/raw/concentre_sur_le_chemin/portrait/s04_patience.png",
+      "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s04_patience.png",
+      "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s04_patience.jpg",
+      "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s04_patience.jpg",
+      "status": "ready_for_artist_review"
     },
     {
       "slot": "s05",
@@ -139,8 +151,11 @@
         "outro",
         "endcard"
       ],
-      "portrait": null,
-      "landscape": null
+      "portrait": "assets/raw/concentre_sur_le_chemin/portrait/s05_encore_debout.png",
+      "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s05_encore_debout.png",
+      "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s05_encore_debout.jpg",
+      "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s05_encore_debout.jpg",
+      "status": "ready_for_artist_review"
     }
   ],
   "questionnaire_answers": {
@@ -167,6 +182,17 @@
     "final_portraits": 5,
     "final_landscapes": 5,
     "planned_correction_calls_this_turn": 5,
-    "extra_scenes": 0
+    "extra_scenes": 0,
+    "actual_correction_calls_this_turn": 5
+  },
+  "backgrounds_manifest": "productions/concentre_sur_le_chemin/backgrounds_manifest.json",
+  "image_delivery": {
+    "contact_sheet": "livrables/Concentre_sur_le_chemin_planche_10_fonds_v2.jpg",
+    "archive": "livrables/Concentre_sur_le_chemin_10_images_v2.zip",
+    "count": 10,
+    "portraits": 5,
+    "landscapes": 5,
+    "technical_checks": "passed_31_tests",
+    "artist_series_approved": false
   }
 }

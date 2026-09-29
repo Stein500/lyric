@@ -367,3 +367,13 @@ Références : `Samu/Snapchat-1835992965.jpg` · `Samu/Snapchat-1275781156.jpg` 
 6 — ROOM. Natural continuous illumination across all walls, furniture, clothing and floor. Shadows blend gradually in a physically coherent room, and surfaces have smooth uninterrupted shading. Simple unadorned upper walls and a quiet natural floor. All visible details belong to the physical studio. The space to the right is softly lit, uncluttered and atmospheric.
 
 7 — ANATOMY. One recognizable person with exactly two arms and two anatomically plausible hands touching the top and sides of his head. One cigarette held between the fingers beside his temple, pointed away from his hair. Both feet stand on the floor, fully enclosed within the picture. Preserve the approved pose, face and body proportions; keep all extremities comfortably inside the frame.
+
+## État après la reprise du 2026-09-29
+
+Cinq appels de correction effectués, un par paysage ; tous les slots ont été remplacés sans nouvelle scène. Les cinq portraits de la première salve sont conservés. La planche v2 et le ZIP contiennent exactement dix images.
+
+- Nettoyage local du plafond de s02 portrait (lettrage parasite).
+- Nettoyage local du plafond de s03 paysage (autocollants recopiés des références) et de trois libellés d’appareil ; aucun pixel du personnage modifié.
+- Recadrage portrait hérité de l’ancre ; paysage relevé de 80 px pour protéger les chaussures du bandeau, avec prolongement du seul sol en bas. Pas de bordures latérales ajoutées.
+- Le bandeau est dessiné en post. **Badge non intégré** aux fonds, car il doit apparaître/disparaître à chaque vers.
+- Géométrie, tailles, checksums, archive et intégrité du personnage dans les masques contrôlées ; **validation artiste de la série encore attendue**.

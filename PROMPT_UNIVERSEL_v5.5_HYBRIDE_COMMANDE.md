@@ -1,6 +1,6 @@
 # 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v5.5 « HYBRIDE & COMMANDE »
 
-Mise à jour : **2026-09-28**. Ce document est universel ; les paramètres d'une chanson ne doivent jamais être attribués automatiquement à une autre. Il consolide v5.4 et les consignes récentes de « Concentré sur le chemin ». Le référentiel v5.3 est conservé ci-dessous comme archive technique, **subordonnée aux règles de priorité de cette page**.
+Mise à jour : **2026-09-29**. Ce document est universel ; les paramètres d'une chanson ne doivent jamais être attribués automatiquement à une autre. Il consolide v5.4 et les consignes récentes de « Concentré sur le chemin ». Le référentiel v5.3 est conservé ci-dessous comme archive technique, **subordonnée aux règles de priorité de cette page**.
 
 ## 0 — Priorité et états de validation
 
@@ -97,8 +97,8 @@ Cette section est **locale à cette commande**, non un défaut pour les suivante
 - `MODE_IMAGES=cinq_scenes`, deux formats 1080×1920 / 1920×1080, **dix fonds en tout** ; ancre s01 portrait comprise.
 - Héros animé à la ressemblance de l'artiste, lunettes des références, habits très usés/rapiécés, deux mains sur la tête avec une cigarette entre les doigts, fumoir qui est aussi un studio de musique. Aucun personnage fictif indigo/pantalon sable hérité de Nonvi Konou.
 - Barlow Condensed Bold, mots or/crème, vague simultanée, centre H/2 ; badge `Dsky` + pictogramme Bénin en fondu 0,4 s, plafond 75 % ; bandeau portrait 54 px fixe au bord inférieur.
-- Une ancre générée ; maquette de 14,5 s sur le troisième refrain. **Ressemblance et ancre à valider ; mot à mot provisoire.** Les neuf fonds restants ne sont pas encore générés.
-- Détails et états courants : `productions/concentre_sur_le_chemin/production.json`, `BRIEF.md`, `ANALYSE.md` et `PROMPTS_IMAGES_Concentre_sur_le_chemin.md`.
+- **Ancre et maquette de 14,5 s approuvées** : ressemblance, lunettes et taille des caractères conservées. **Dix fonds désormais disponibles** (cinq scènes dans les deux formats), planche v2 à faire valider avant les clips. Les cinq paysages ont été repris pour un cadrage complet et un éclairage continu ; aucune scène supplémentaire. Mot à mot et synchronisation vocale complète toujours à contrôler.
+- Détails et états courants : `productions/concentre_sur_le_chemin/production.json`, `BRIEF.md`, `ANALYSE.md`, `VALIDATION_FONDS.md`, `backgrounds_manifest.json` et `PROMPTS_IMAGES_Concentre_sur_le_chemin.md`. Pack des dix fonds : `livrables/Concentre_sur_le_chemin_10_images_v2.zip`.
 
 ---
 
