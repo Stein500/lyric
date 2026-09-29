@@ -1,0 +1,71 @@
+[
+  {
+    "file": "livrables/cover_concentre_sur_le_chemin_1080x1080.jpg",
+    "size": [
+      1080,
+      1080
+    ],
+    "title": "Concentré sur le chemin",
+    "artist": "Daïsky",
+    "title_bbox": [
+      239,
+      602,
+      841,
+      905
+    ],
+    "artist_bbox": [
+      448,
+      935,
+      632,
+      997
+    ],
+    "flag_height": 30,
+    "new_ai_generations": 0
+  },
+  {
+    "file": "livrables/cover_concentre_sur_le_chemin_9x16.jpg",
+    "size": [
+      1080,
+      1920
+    ],
+    "title": "Concentré sur le chemin",
+    "artist": "Daïsky",
+    "title_bbox": [
+      176,
+      814,
+      903,
+      1173
+    ],
+    "artist_bbox": [
+      448,
+      1233,
+      632,
+      1295
+    ],
+    "flag_height": 54,
+    "new_ai_generations": 0
+  },
+  {
+    "file": "livrables/cover_concentre_sur_le_chemin_16x9.jpg",
+    "size": [
+      1920,
+      1080
+    ],
+    "title": "Concentré sur le chemin",
+    "artist": "Daïsky",
+    "title_bbox": [
+      824,
+      332,
+      1617,
+      725
+    ],
+    "artist_bbox": [
+      1106,
+      744,
+      1334,
+      817
+    ],
+    "flag_height": 30,
+    "new_ai_generations": 0
+  }
+]

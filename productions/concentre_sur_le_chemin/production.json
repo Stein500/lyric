@@ -5,7 +5,7 @@
   "lyrics_source": "concentré sur le chemin.txt",
   "lyrics_lrc": "Concentré sur le chemin.lrc",
   "branch": "arena/01a0e931-lyric",
-  "stage": "awaiting_artist_series_approval",
+  "stage": "approved_images_full_production_in_progress",
   "confirmed": {
     "scene_count": 5,
     "formats": {
@@ -90,7 +90,9 @@
     "hook_option": true,
     "anchor_message": "Oui continue...",
     "anchor_confirmation_date": "2026-09-29",
-    "image_series": false
+    "image_series": true,
+    "image_series_message": "Oui je valide !!",
+    "image_series_date": "2026-09-29"
   },
   "scenes": [
     {
@@ -102,7 +104,7 @@
       ],
       "portrait": "assets/raw/concentre_sur_le_chemin/portrait/s01_tete_lourde.png",
       "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s01_tete_lourde.png",
-      "status": "anchor_portrait_approved_series_pending",
+      "status": "artist_approved",
       "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s01_tete_lourde.jpg",
       "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s01_tete_lourde.jpg"
     },
@@ -116,7 +118,7 @@
       "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s02_dans_le_bruit.png",
       "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s02_dans_le_bruit.jpg",
       "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s02_dans_le_bruit.jpg",
-      "status": "ready_for_artist_review"
+      "status": "artist_approved"
     },
     {
       "slot": "s03",
@@ -129,7 +131,7 @@
       "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s03_tenir_le_cap.png",
       "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s03_tenir_le_cap.jpg",
       "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s03_tenir_le_cap.jpg",
-      "status": "ready_for_artist_review"
+      "status": "artist_approved"
     },
     {
       "slot": "s04",
@@ -142,7 +144,7 @@
       "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s04_patience.png",
       "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s04_patience.jpg",
       "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s04_patience.jpg",
-      "status": "ready_for_artist_review"
+      "status": "artist_approved"
     },
     {
       "slot": "s05",
@@ -155,7 +157,7 @@
       "landscape": "assets/raw/concentre_sur_le_chemin/landscape/s05_encore_debout.png",
       "portrait_export": "livrables/images_concentre_sur_le_chemin/portrait/s05_encore_debout.jpg",
       "landscape_export": "livrables/images_concentre_sur_le_chemin/landscape/s05_encore_debout.jpg",
-      "status": "ready_for_artist_review"
+      "status": "artist_approved"
     }
   ],
   "questionnaire_answers": {
@@ -193,6 +195,6 @@
     "portraits": 5,
     "landscapes": 5,
     "technical_checks": "passed_31_tests",
-    "artist_series_approved": false
+    "artist_series_approved": true
   }
 }

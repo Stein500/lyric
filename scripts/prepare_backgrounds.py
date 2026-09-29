@@ -136,6 +136,7 @@ def verify_flag(image, height, tolerance=0):
 
 
 def prepare():
+    approvals = json.loads((ROOT/'productions/concentre_sur_le_chemin/production.json').read_text())['approvals']
     plan = json.loads(PLAN.read_text())
     jobs = {job['slot']: job for job in plan}
     records = []
@@ -192,7 +193,7 @@ def prepare():
                 'export': str(destination.relative_to(ROOT)),
                 'export_sha256': hashlib.sha256(destination.read_bytes()).hexdigest(),
                 'technical_status': 'ready_for_artist_review',
-                'artist_approved': fmt == 'portrait' and slot == 's01',
+                'artist_approved': approvals.get('image_series', False) or (fmt == 'portrait' and slot == 's01' and approvals.get('anchor', False)),
                 'corrections': corrections, 'flag_height': flag_height,
                 'badge_baked_in': False,
             })
@@ -245,8 +246,8 @@ def bundle_images(records):
               'Bandeau Bénin : 54 px en portrait, 30 px en paysage.\n'
               'Aucun badge gravé : Dsky et son drapeau apparaîtront/disparaîtront\n'
               'à chaque vers dans les clips. La typographie s’ajoute au montage.\n'
-              'L’ancre portrait s01 est approuvée ; les autres compositions restent\n'
-              'à confirmer par l’artiste. Ce pack ne contient pas les clips finaux.\n')
+              'Les dix compositions ont été approuvées par l’artiste le 2026-09-29.\n'
+              'Ce pack contient les fonds, sans les clips finaux.\n')
     with zipfile.ZipFile(destination, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=3) as archive:
         archive.writestr('LISEZ_MOI.txt', readme)
         for row in records:

@@ -1,0 +1,621 @@
+[
+  {
+    "text": "Wolof TechStein beat wê...",
+    "font_size": 112,
+    "bbox": [
+      180,
+      841,
+      900,
+      1079
+    ],
+    "lines": [
+      "Wolof TechStein",
+      "beat wê..."
+    ],
+    "word_count": 4
+  },
+  {
+    "text": "Yeah... Concentré sur le chemin...",
+    "font_size": 112,
+    "bbox": [
+      180,
+      780,
+      900,
+      1140
+    ],
+    "lines": [
+      "Yeah...",
+      "Concentré sur",
+      "le chemin..."
+    ],
+    "word_count": 5
+  },
+  {
+    "text": "Wassého...",
+    "font_size": 112,
+    "bbox": [
+      180,
+      904,
+      900,
+      1016
+    ],
+    "lines": [
+      "Wassého..."
+    ],
+    "word_count": 1
+  },
+  {
+    "text": "Concentré sur le chemin, je regarde plus en arrière",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "Concentré sur",
+      "le chemin, je",
+      "regarde plus",
+      "en arrière"
+    ],
+    "word_count": 9
+  },
+  {
+    "text": "Concentré sur le chemin, je marche vers la lumière",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "Concentré sur",
+      "le chemin, je",
+      "marche vers",
+      "la lumière"
+    ],
+    "word_count": 9
+  },
+  {
+    "text": "Tchité, tchité, je me relève encore",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Tchité, tchité,",
+      "je me",
+      "relève encore"
+    ],
+    "word_count": 6
+  },
+  {
+    "text": "Djayi man roumindé, tomber n'a jamais tué, je sors",
+    "font_size": 104,
+    "bbox": [
+      180,
+      726,
+      900,
+      1194
+    ],
+    "lines": [
+      "Djayi man",
+      "roumindé, tomber",
+      "n'a jamais",
+      "tué, je sors"
+    ],
+    "word_count": 9
+  },
+  {
+    "text": "Wolof TechStein beat wê!",
+    "font_size": 112,
+    "bbox": [
+      180,
+      841,
+      900,
+      1079
+    ],
+    "lines": [
+      "Wolof TechStein",
+      "beat wê!"
+    ],
+    "word_count": 4
+  },
+  {
+    "text": "J'ai grandi dans l'bruit, j'ai appris à m'concentrer",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "J'ai grandi dans",
+      "l'bruit, j'ai appris",
+      "à m'concentrer"
+    ],
+    "word_count": 8
+  },
+  {
+    "text": "Les voix dans ma tête, j'ai appris à les dompter",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "Les voix",
+      "dans ma tête,",
+      "j'ai appris à",
+      "les dompter"
+    ],
+    "word_count": 10
+  },
+  {
+    "text": "Djidjan yi, assoie-toi, écoute mon histoire",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "Djidjan yi,",
+      "assoie-toi,",
+      "écoute mon",
+      "histoire"
+    ],
+    "word_count": 6
+  },
+  {
+    "text": "Do sourou, patience, le succès vient ce soir",
+    "font_size": 112,
+    "bbox": [
+      180,
+      709,
+      900,
+      1211
+    ],
+    "lines": [
+      "Do sourou,",
+      "patience, le",
+      "succès vient",
+      "ce soir"
+    ],
+    "word_count": 8
+  },
+  {
+    "text": "Damlon, dors tranquille, j'gère tout, j'suis debout",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "Damlon, dors",
+      "tranquille,",
+      "j'gère tout,",
+      "j'suis debout"
+    ],
+    "word_count": 7
+  },
+  {
+    "text": "Monwê, c'est cela même, j'avance malgré tout",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1211
+    ],
+    "lines": [
+      "Monwê, c'est",
+      "cela même,",
+      "j'avance",
+      "malgré tout"
+    ],
+    "word_count": 7
+  },
+  {
+    "text": "Mansékpon, jamais entendu parler d'ça",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Mansékpon,",
+      "jamais entendu",
+      "parler d'ça"
+    ],
+    "word_count": 5
+  },
+  {
+    "text": "Mais j'le vis, j'le vis, j'le vis, crois-moi",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Mais j'le vis,",
+      "j'le vis, j'le",
+      "vis, crois-moi"
+    ],
+    "word_count": 8
+  },
+  {
+    "text": "Dokpè nou mahou nou kpèè or, j'remercie pour le peu",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "Dokpè nou",
+      "mahou nou kpèè",
+      "or, j'remercie",
+      "pour le peu"
+    ],
+    "word_count": 10
+  },
+  {
+    "text": "Gbètché vivi, ma vie me plaît, j'suis heureux",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Gbètché vivi,",
+      "ma vie me plaît,",
+      "j'suis heureux"
+    ],
+    "word_count": 8
+  },
+  {
+    "text": "Concentré, concentré, rien ne m'détourne",
+    "font_size": 112,
+    "bbox": [
+      180,
+      775,
+      900,
+      1145
+    ],
+    "lines": [
+      "Concentré,",
+      "concentré, rien",
+      "ne m'détourne"
+    ],
+    "word_count": 5
+  },
+  {
+    "text": "Concentré, concentré, j'brûle toutes les bornes",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1211
+    ],
+    "lines": [
+      "Concentré,",
+      "concentré,",
+      "j'brûle toutes",
+      "les bornes"
+    ],
+    "word_count": 6
+  },
+  {
+    "text": "Djalé, aide-moi à porter ma couronne",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Djalé, aide-moi",
+      "à porter",
+      "ma couronne"
+    ],
+    "word_count": 6
+  },
+  {
+    "text": "Yiwan noumi, l'amour me donne la force",
+    "font_size": 112,
+    "bbox": [
+      180,
+      775,
+      900,
+      1145
+    ],
+    "lines": [
+      "Yiwan noumi,",
+      "l'amour me",
+      "donne la force"
+    ],
+    "word_count": 7
+  },
+  {
+    "text": "J'suis concentrée, j'regarde droit devant",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "J'suis",
+      "concentrée,",
+      "j'regarde",
+      "droit devant"
+    ],
+    "word_count": 5
+  },
+  {
+    "text": "Wanyiyi dans l'cœur, l'amour est mon carburant",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "Wanyiyi",
+      "dans l'cœur,",
+      "l'amour est",
+      "mon carburant"
+    ],
+    "word_count": 7
+  },
+  {
+    "text": "Nonvi konou, mon frère sourit, on avance",
+    "font_size": 112,
+    "bbox": [
+      180,
+      775,
+      900,
+      1145
+    ],
+    "lines": [
+      "Nonvi konou,",
+      "mon frère sourit,",
+      "on avance"
+    ],
+    "word_count": 7
+  },
+  {
+    "text": "Dagbé dans nos rires, on danse, on danse",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Dagbé dans",
+      "nos rires, on",
+      "danse, on danse"
+    ],
+    "word_count": 8
+  },
+  {
+    "text": "Kissi noumi, embrasse-moi, donne-moi la force",
+    "font_size": 112,
+    "bbox": [
+      180,
+      714,
+      900,
+      1206
+    ],
+    "lines": [
+      "Kissi noumi,",
+      "embrasse-moi,",
+      "donne-moi",
+      "la force"
+    ],
+    "word_count": 6
+  },
+  {
+    "text": "Vivi oor, ton goût est doux, j'me renforce",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Vivi oor, ton",
+      "goût est doux,",
+      "j'me renforce"
+    ],
+    "word_count": 8
+  },
+  {
+    "text": "Wadjaya, viens t'enjailler avec moi",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Wadjaya, viens",
+      "t'enjailler",
+      "avec moi"
+    ],
+    "word_count": 5
+  },
+  {
+    "text": "Yoryor, nouveau départ, sans tache, sans poids",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "Yoryor,",
+      "nouveau départ,",
+      "sans tache,",
+      "sans poids"
+    ],
+    "word_count": 7
+  },
+  {
+    "text": "Walèblanou, aïe pitié, non j'demande pas",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Walèblanou, aïe",
+      "pitié, non",
+      "j'demande pas"
+    ],
+    "word_count": 6
+  },
+  {
+    "text": "J'prends mon destin en main, j'avance pas à pas",
+    "font_size": 112,
+    "bbox": [
+      180,
+      708,
+      900,
+      1212
+    ],
+    "lines": [
+      "J'prends mon",
+      "destin en",
+      "main, j'avance",
+      "pas à pas"
+    ],
+    "word_count": 9
+  },
+  {
+    "text": "Wassého, viens entendre mon histoire",
+    "font_size": 112,
+    "bbox": [
+      180,
+      775,
+      900,
+      1145
+    ],
+    "lines": [
+      "Wassého,",
+      "viens entendre",
+      "mon histoire"
+    ],
+    "word_count": 5
+  },
+  {
+    "text": "Do sourou, patiente, la victoire vient ce soir",
+    "font_size": 112,
+    "bbox": [
+      180,
+      709,
+      900,
+      1211
+    ],
+    "lines": [
+      "Do sourou,",
+      "patiente, la",
+      "victoire vient",
+      "ce soir"
+    ],
+    "word_count": 8
+  },
+  {
+    "text": "Djidjan yi, assoie-toi, écoute la vérité",
+    "font_size": 112,
+    "bbox": [
+      180,
+      769,
+      900,
+      1151
+    ],
+    "lines": [
+      "Djidjan yi,",
+      "assoie-toi,",
+      "écoute la vérité"
+    ],
+    "word_count": 6
+  },
+  {
+    "text": "Damlon, dors en paix, demain sera plus beau qu'hier",
+    "font_size": 112,
+    "bbox": [
+      180,
+      709,
+      900,
+      1211
+    ],
+    "lines": [
+      "Damlon, dors",
+      "en paix, demain",
+      "sera plus",
+      "beau qu'hier"
+    ],
+    "word_count": 9
+  },
+  {
+    "text": "Concentré... sur le chemin...",
+    "font_size": 112,
+    "bbox": [
+      180,
+      841,
+      900,
+      1079
+    ],
+    "lines": [
+      "Concentré... sur",
+      "le chemin..."
+    ],
+    "word_count": 4
+  },
+  {
+    "text": "(Toujours concentré...)",
+    "font_size": 112,
+    "bbox": [
+      180,
+      828,
+      900,
+      1091
+    ],
+    "lines": [
+      "(Toujours",
+      "concentré...)"
+    ],
+    "word_count": 2
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "source_duration": 213.16,
+  "decoded_master_duration": 213.16,
+  "mp3_sample_rate": 48000,
+  "mp3_bitrate": 320000,
+  "channels": 2,
+  "pass1_prefilter": "highpass=30,lowpass=18000",
+  "pass1": {
+    "input_i": "-14.72",
+    "input_tp": "-0.22",
+    "input_lra": "4.70",
+    "input_thresh": "-24.80",
+    "output_i": "-13.47",
+    "output_tp": "-1.80",
+    "output_lra": "4.00",
+    "output_thresh": "-23.49",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.53"
+  },
+  "pass2_target_tp": -1.8,
+  "codec_peak_compensation_db": 0.0,
+  "duration_guard": "loudnorm tail padded/trimmed to exact source duration (40 ms filter flush loss corrected)",
+  "master_mp3_measurement": {
+    "input_i": "-14.02",
+    "input_tp": "-1.64",
+    "input_lra": "4.60",
+    "input_thresh": "-24.10",
+    "output_i": "-14.03",
+    "output_tp": "-1.80",
+    "output_lra": "4.30",
+    "output_thresh": "-24.04",
+    "normalization_type": "dynamic",
+    "target_offset": "0.03"
+  },
+  "id3_version": [
+    2,
+    4,
+    0
+  ],
+  "tag_frames": [
+    "APIC:Cover universelle",
+    "COMM::eng",
+    "TALB",
+    "TDRC",
+    "TIT2",
+    "TLEN",
+    "TPE1",
+    "TPE2",
+    "TSSE",
+    "TXXX:contact",
+    "TXXX:email",
+    "TXXX:label",
+    "TXXX:producer",
+    "TXXX:source_artist",
+    "TXXX:source_audio_sha256",
+    "USLT::fra",
+    "WOAS"
+  ],
+  "unconfirmed_metadata_not_invented": [
+    "composer",
+    "genre",
+    "publisher",
+    "producer",
+    "label"
+  ],
+  "video_audio_duration": 225.066667,
+  "cover": "livrables/cover_concentre_sur_le_chemin_1080x1080.jpg",
+  "file": "livrables/Concentre_sur_le_chemin_master_320k.mp3",
+  "sha256": "381a7337f4439feb6a7570d4f6f1ec727787f17e2600b32786d6edf6cb751e84"
+}

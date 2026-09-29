@@ -1,0 +1,2800 @@
+{
+  "title": "Concentré sur le chemin",
+  "artist": "Daïsky",
+  "duration_source": 213.16,
+  "hook_start": 113.28,
+  "hook_end": 120.18,
+  "hook_duration": 6.9,
+  "padding": 5.0,
+  "fps": 30,
+  "total": 225.06,
+  "frames": 6752,
+  "encoded_duration": 225.06666666666666,
+  "lyrics_lead": 0.03,
+  "endcard_start": 217.06,
+  "verse_starts": "source_LRC_unchanged",
+  "word_alignment": "estimated_not_forced",
+  "human_vocal_validation": false,
+  "alignment_fallback_reason": "model weights unavailable: TLS failures on model hosts; use artist LRC without changing the words",
+  "sections": [
+    {
+      "start": 0.0,
+      "end": 25.3,
+      "name": "intro",
+      "slot": "s01"
+    },
+    {
+      "start": 25.3,
+      "end": 38.96,
+      "name": "refrain_1",
+      "slot": "s03"
+    },
+    {
+      "start": 38.96,
+      "end": 59.32,
+      "name": "couplet_1",
+      "slot": "s02"
+    },
+    {
+      "start": 59.32,
+      "end": 66.71,
+      "name": "pre_refrain_1",
+      "slot": "s04"
+    },
+    {
+      "start": 66.71,
+      "end": 81.3,
+      "name": "refrain_2",
+      "slot": "s03"
+    },
+    {
+      "start": 81.3,
+      "end": 85.64,
+      "name": "interlude_1",
+      "slot": "s01"
+    },
+    {
+      "start": 85.64,
+      "end": 106.6,
+      "name": "couplet_2",
+      "slot": "s02"
+    },
+    {
+      "start": 106.6,
+      "end": 113.28,
+      "name": "pre_refrain_2",
+      "slot": "s04"
+    },
+    {
+      "start": 113.28,
+      "end": 127.7,
+      "name": "refrain_3",
+      "slot": "s03"
+    },
+    {
+      "start": 127.7,
+      "end": 140.0,
+      "name": "interlude_2",
+      "slot": "s05"
+    },
+    {
+      "start": 140.0,
+      "end": 152.84,
+      "name": "pont",
+      "slot": "s04"
+    },
+    {
+      "start": 152.84,
+      "end": 168.1,
+      "name": "refrain_final",
+      "slot": "s03"
+    },
+    {
+      "start": 168.1,
+      "end": 213.16,
+      "name": "outro",
+      "slot": "s05"
+    }
+  ],
+  "verses": [
+    {
+      "id": 1,
+      "text": "Wolof TechStein beat wê...",
+      "start": 4.44,
+      "end": 7.54,
+      "source_line": 3,
+      "section": "intro",
+      "slot": "s01",
+      "end_method": "bounded_adlib_display_estimate",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wolof",
+          "start": 4.44,
+          "end": 5.37542
+        },
+        {
+          "text": "TechStein",
+          "start": 5.37542,
+          "end": 6.36227
+        },
+        {
+          "text": "beat",
+          "start": 6.36227,
+          "end": 6.76862
+        },
+        {
+          "text": "wê...",
+          "start": 6.76862,
+          "end": 7.54
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Yeah... Concentré sur le chemin...",
+      "start": 11.42,
+      "end": 15.92,
+      "source_line": 4,
+      "section": "intro",
+      "slot": "s01",
+      "end_method": "bounded_adlib_display_estimate",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Yeah...",
+          "start": 11.42,
+          "end": 11.94667
+        },
+        {
+          "text": "Concentré",
+          "start": 11.94667,
+          "end": 13.53723
+        },
+        {
+          "text": "sur",
+          "start": 13.53723,
+          "end": 14.12934
+        },
+        {
+          "text": "le",
+          "start": 14.12934,
+          "end": 14.5473
+        },
+        {
+          "text": "chemin...",
+          "start": 14.5473,
+          "end": 15.92
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Wassého...",
+      "start": 19.45,
+      "end": 21.7,
+      "source_line": 5,
+      "section": "intro",
+      "slot": "s01",
+      "end_method": "bounded_adlib_display_estimate",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wassého...",
+          "start": 19.45,
+          "end": 21.7
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Concentré sur le chemin, je regarde plus en arrière",
+      "start": 25.3,
+      "end": 28.375,
+      "source_line": 6,
+      "section": "refrain_1",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré",
+          "start": 25.3,
+          "end": 25.83036
+        },
+        {
+          "text": "sur",
+          "start": 25.83036,
+          "end": 26.05279
+        },
+        {
+          "text": "le",
+          "start": 26.05279,
+          "end": 26.21533
+        },
+        {
+          "text": "chemin,",
+          "start": 26.21533,
+          "end": 26.53191
+        },
+        {
+          "text": "je",
+          "start": 26.53191,
+          "end": 26.761
+        },
+        {
+          "text": "regarde",
+          "start": 26.761,
+          "end": 27.21379
+        },
+        {
+          "text": "plus",
+          "start": 27.21379,
+          "end": 27.3415
+        },
+        {
+          "text": "en",
+          "start": 27.3415,
+          "end": 27.57584
+        },
+        {
+          "text": "arrière",
+          "start": 27.57584,
+          "end": 28.375
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Concentré sur le chemin, je marche vers la lumière",
+      "start": 28.43,
+      "end": 31.835,
+      "source_line": 7,
+      "section": "refrain_1",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré",
+          "start": 28.43,
+          "end": 29.10621
+        },
+        {
+          "text": "sur",
+          "start": 29.10621,
+          "end": 29.26875
+        },
+        {
+          "text": "le",
+          "start": 29.26875,
+          "end": 29.47389
+        },
+        {
+          "text": "chemin,",
+          "start": 29.47389,
+          "end": 29.94213
+        },
+        {
+          "text": "je",
+          "start": 29.94213,
+          "end": 30.09755
+        },
+        {
+          "text": "marche",
+          "start": 30.09755,
+          "end": 30.56907
+        },
+        {
+          "text": "vers",
+          "start": 30.56907,
+          "end": 30.70839
+        },
+        {
+          "text": "la",
+          "start": 30.70839,
+          "end": 30.94059
+        },
+        {
+          "text": "lumière",
+          "start": 30.94059,
+          "end": 31.835
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Tchité, tchité, je me relève encore",
+      "start": 31.89,
+      "end": 33.915,
+      "source_line": 8,
+      "section": "refrain_1",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Tchité,",
+          "start": 31.89,
+          "end": 32.19447
+        },
+        {
+          "text": "tchité,",
+          "start": 32.19447,
+          "end": 32.48421
+        },
+        {
+          "text": "je",
+          "start": 32.48421,
+          "end": 32.61243
+        },
+        {
+          "text": "me",
+          "start": 32.61243,
+          "end": 32.77497
+        },
+        {
+          "text": "relève",
+          "start": 32.77497,
+          "end": 33.19293
+        },
+        {
+          "text": "encore",
+          "start": 33.19293,
+          "end": 33.915
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Djayi man roumindé, tomber n'a jamais tué, je sors",
+      "start": 33.97,
+      "end": 36.815,
+      "source_line": 9,
+      "section": "refrain_1",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Djayi",
+          "start": 33.97,
+          "end": 34.17981
+        },
+        {
+          "text": "man",
+          "start": 34.17981,
+          "end": 34.31909
+        },
+        {
+          "text": "roumindé,",
+          "start": 34.31909,
+          "end": 34.96279
+        },
+        {
+          "text": "tomber",
+          "start": 34.96279,
+          "end": 35.3574
+        },
+        {
+          "text": "n'a",
+          "start": 35.3574,
+          "end": 35.56136
+        },
+        {
+          "text": "jamais",
+          "start": 35.56136,
+          "end": 35.96771
+        },
+        {
+          "text": "tué,",
+          "start": 35.96771,
+          "end": 36.13025
+        },
+        {
+          "text": "je",
+          "start": 36.13025,
+          "end": 36.35084
+        },
+        {
+          "text": "sors",
+          "start": 36.35084,
+          "end": 36.815
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Wolof TechStein beat wê!",
+      "start": 36.87,
+      "end": 38.905,
+      "source_line": 10,
+      "section": "refrain_1",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wolof",
+          "start": 36.87,
+          "end": 37.43972
+        },
+        {
+          "text": "TechStein",
+          "start": 37.43972,
+          "end": 38.05751
+        },
+        {
+          "text": "beat",
+          "start": 38.05751,
+          "end": 38.34472
+        },
+        {
+          "text": "wê!",
+          "start": 38.34472,
+          "end": 38.905
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "J'ai grandi dans l'bruit, j'ai appris à m'concentrer",
+      "start": 38.96,
+      "end": 41.195,
+      "source_line": 11,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "J'ai",
+          "start": 38.96,
+          "end": 39.1024
+        },
+        {
+          "text": "grandi",
+          "start": 39.1024,
+          "end": 39.41587
+        },
+        {
+          "text": "dans",
+          "start": 39.41587,
+          "end": 39.57841
+        },
+        {
+          "text": "l'bruit,",
+          "start": 39.57841,
+          "end": 39.84544
+        },
+        {
+          "text": "j'ai",
+          "start": 39.84544,
+          "end": 39.94993
+        },
+        {
+          "text": "appris",
+          "start": 39.94993,
+          "end": 40.29823
+        },
+        {
+          "text": "à",
+          "start": 40.29823,
+          "end": 40.42114
+        },
+        {
+          "text": "m'concentrer",
+          "start": 40.42114,
+          "end": 41.195
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Les voix dans ma tête, j'ai appris à les dompter",
+      "start": 41.25,
+      "end": 42.775,
+      "source_line": 12,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Les",
+          "start": 41.25,
+          "end": 41.38957
+        },
+        {
+          "text": "voix",
+          "start": 41.38957,
+          "end": 41.44457
+        },
+        {
+          "text": "dans",
+          "start": 41.44457,
+          "end": 41.52889
+        },
+        {
+          "text": "ma",
+          "start": 41.52889,
+          "end": 41.6566
+        },
+        {
+          "text": "tête,",
+          "start": 41.6566,
+          "end": 41.80753
+        },
+        {
+          "text": "j'ai",
+          "start": 41.80753,
+          "end": 41.93524
+        },
+        {
+          "text": "appris",
+          "start": 41.93524,
+          "end": 42.07456
+        },
+        {
+          "text": "à",
+          "start": 42.07456,
+          "end": 42.21388
+        },
+        {
+          "text": "les",
+          "start": 42.21388,
+          "end": 42.29948
+        },
+        {
+          "text": "dompter",
+          "start": 42.29948,
+          "end": 42.775
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Djidjan yi, assoie-toi, écoute mon histoire",
+      "start": 42.83,
+      "end": 44.545,
+      "source_line": 13,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Djidjan",
+          "start": 42.83,
+          "end": 43.0498
+        },
+        {
+          "text": "yi,",
+          "start": 43.0498,
+          "end": 43.18912
+        },
+        {
+          "text": "assoie-toi,",
+          "start": 43.18912,
+          "end": 43.46776
+        },
+        {
+          "text": "écoute",
+          "start": 43.46776,
+          "end": 43.758
+        },
+        {
+          "text": "mon",
+          "start": 43.758,
+          "end": 43.89732
+        },
+        {
+          "text": "histoire",
+          "start": 43.89732,
+          "end": 44.545
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Do sourou, patience, le succès vient ce soir",
+      "start": 44.6,
+      "end": 46.355,
+      "source_line": 14,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Do",
+          "start": 44.6,
+          "end": 44.72163
+        },
+        {
+          "text": "sourou,",
+          "start": 44.72163,
+          "end": 45.02349
+        },
+        {
+          "text": "patience,",
+          "start": 45.02349,
+          "end": 45.27891
+        },
+        {
+          "text": "le",
+          "start": 45.27891,
+          "end": 45.41823
+        },
+        {
+          "text": "succès",
+          "start": 45.41823,
+          "end": 45.69687
+        },
+        {
+          "text": "vient",
+          "start": 45.69687,
+          "end": 45.83619
+        },
+        {
+          "text": "ce",
+          "start": 45.83619,
+          "end": 45.9639
+        },
+        {
+          "text": "soir",
+          "start": 45.9639,
+          "end": 46.355
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Damlon, dors tranquille, j'gère tout, j'suis debout",
+      "start": 46.41,
+      "end": 48.215,
+      "source_line": 15,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Damlon,",
+          "start": 46.41,
+          "end": 46.64889
+        },
+        {
+          "text": "dors",
+          "start": 46.64889,
+          "end": 46.79982
+        },
+        {
+          "text": "tranquille,",
+          "start": 46.79982,
+          "end": 47.22939
+        },
+        {
+          "text": "j'gère",
+          "start": 47.22939,
+          "end": 47.38032
+        },
+        {
+          "text": "tout,",
+          "start": 47.38032,
+          "end": 47.49642
+        },
+        {
+          "text": "j'suis",
+          "start": 47.49642,
+          "end": 47.63574
+        },
+        {
+          "text": "debout",
+          "start": 47.63574,
+          "end": 48.215
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Monwê, c'est cela même, j'avance malgré tout",
+      "start": 48.27,
+      "end": 49.815,
+      "source_line": 16,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Monwê,",
+          "start": 48.27,
+          "end": 48.48327
+        },
+        {
+          "text": "c'est",
+          "start": 48.48327,
+          "end": 48.56552
+        },
+        {
+          "text": "cela",
+          "start": 48.56552,
+          "end": 48.75029
+        },
+        {
+          "text": "même,",
+          "start": 48.75029,
+          "end": 48.88961
+        },
+        {
+          "text": "j'avance",
+          "start": 48.88961,
+          "end": 49.23636
+        },
+        {
+          "text": "malgré",
+          "start": 49.23636,
+          "end": 49.44689
+        },
+        {
+          "text": "tout",
+          "start": 49.44689,
+          "end": 49.815
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Mansékpon, jamais entendu parler d'ça",
+      "start": 49.87,
+      "end": 51.465,
+      "source_line": 17,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Mansékpon,",
+          "start": 49.87,
+          "end": 50.29442
+        },
+        {
+          "text": "jamais",
+          "start": 50.29442,
+          "end": 50.42213
+        },
+        {
+          "text": "entendu",
+          "start": 50.42213,
+          "end": 50.82848
+        },
+        {
+          "text": "parler",
+          "start": 50.82848,
+          "end": 51.06476
+        },
+        {
+          "text": "d'ça",
+          "start": 51.06476,
+          "end": 51.465
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Mais j'le vis, j'le vis, j'le vis, crois-moi",
+      "start": 51.52,
+      "end": 53.205,
+      "source_line": 18,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Mais",
+          "start": 51.52,
+          "end": 51.67601
+        },
+        {
+          "text": "j'le",
+          "start": 51.67601,
+          "end": 51.80372
+        },
+        {
+          "text": "vis,",
+          "start": 51.80372,
+          "end": 51.98833
+        },
+        {
+          "text": "j'le",
+          "start": 51.98833,
+          "end": 52.09397
+        },
+        {
+          "text": "vis,",
+          "start": 52.09397,
+          "end": 52.29729
+        },
+        {
+          "text": "j'le",
+          "start": 52.29729,
+          "end": 52.50032
+        },
+        {
+          "text": "vis,",
+          "start": 52.50032,
+          "end": 52.63964
+        },
+        {
+          "text": "crois-moi",
+          "start": 52.63964,
+          "end": 53.205
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Dokpè nou mahou nou kpèè or, j'remercie pour le peu",
+      "start": 53.26,
+      "end": 56.465,
+      "source_line": 19,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Dokpè",
+          "start": 53.26,
+          "end": 53.62649
+        },
+        {
+          "text": "nou",
+          "start": 53.62649,
+          "end": 53.89351
+        },
+        {
+          "text": "mahou",
+          "start": 53.89351,
+          "end": 54.31147
+        },
+        {
+          "text": "nou",
+          "start": 54.31147,
+          "end": 54.4624
+        },
+        {
+          "text": "kpèè",
+          "start": 54.4624,
+          "end": 54.72943
+        },
+        {
+          "text": "or,",
+          "start": 54.72943,
+          "end": 54.88036
+        },
+        {
+          "text": "j'remercie",
+          "start": 54.88036,
+          "end": 55.55374
+        },
+        {
+          "text": "pour",
+          "start": 55.55374,
+          "end": 55.82077
+        },
+        {
+          "text": "le",
+          "start": 55.82077,
+          "end": 55.9717
+        },
+        {
+          "text": "peu",
+          "start": 55.9717,
+          "end": 56.465
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Gbètché vivi, ma vie me plaît, j'suis heureux",
+      "start": 56.52,
+      "end": 59.265,
+      "source_line": 20,
+      "section": "couplet_1",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Gbètché",
+          "start": 56.52,
+          "end": 56.95855
+        },
+        {
+          "text": "vivi,",
+          "start": 56.95855,
+          "end": 57.38812
+        },
+        {
+          "text": "ma",
+          "start": 57.38812,
+          "end": 57.64354
+        },
+        {
+          "text": "vie",
+          "start": 57.64354,
+          "end": 57.80608
+        },
+        {
+          "text": "me",
+          "start": 57.80608,
+          "end": 58.0615
+        },
+        {
+          "text": "plaît,",
+          "start": 58.0615,
+          "end": 58.34014
+        },
+        {
+          "text": "j'suis",
+          "start": 58.34014,
+          "end": 58.47946
+        },
+        {
+          "text": "heureux",
+          "start": 58.47946,
+          "end": 59.265
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Concentré, concentré, rien ne m'détourne",
+      "start": 59.32,
+      "end": 61.215,
+      "source_line": 21,
+      "section": "pre_refrain_1",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré,",
+          "start": 59.32,
+          "end": 59.72172
+        },
+        {
+          "text": "concentré,",
+          "start": 59.72172,
+          "end": 60.23256
+        },
+        {
+          "text": "rien",
+          "start": 60.23256,
+          "end": 60.40671
+        },
+        {
+          "text": "ne",
+          "start": 60.40671,
+          "end": 60.49455
+        },
+        {
+          "text": "m'détourne",
+          "start": 60.49455,
+          "end": 61.215
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Concentré, concentré, j'brûle toutes les bornes",
+      "start": 61.27,
+      "end": 62.835,
+      "source_line": 22,
+      "section": "pre_refrain_1",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré,",
+          "start": 61.27,
+          "end": 61.53288
+        },
+        {
+          "text": "concentré,",
+          "start": 61.53288,
+          "end": 61.81152
+        },
+        {
+          "text": "j'brûle",
+          "start": 61.81152,
+          "end": 62.07855
+        },
+        {
+          "text": "toutes",
+          "start": 62.07855,
+          "end": 62.22948
+        },
+        {
+          "text": "les",
+          "start": 62.22948,
+          "end": 62.38041
+        },
+        {
+          "text": "bornes",
+          "start": 62.38041,
+          "end": 62.835
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "Djalé, aide-moi à porter ma couronne",
+      "start": 62.89,
+      "end": 64.565,
+      "source_line": 23,
+      "section": "pre_refrain_1",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 62.89,
+          "end": 63.0654
+        },
+        {
+          "text": "aide-moi",
+          "start": 63.0654,
+          "end": 63.47175
+        },
+        {
+          "text": "à",
+          "start": 63.47175,
+          "end": 63.59946
+        },
+        {
+          "text": "porter",
+          "start": 63.59946,
+          "end": 63.81875
+        },
+        {
+          "text": "ma",
+          "start": 63.81875,
+          "end": 63.88971
+        },
+        {
+          "text": "couronne",
+          "start": 63.88971,
+          "end": 64.565
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "text": "Yiwan noumi, l'amour me donne la force",
+      "start": 64.62,
+      "end": 66.655,
+      "source_line": 24,
+      "section": "pre_refrain_1",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Yiwan",
+          "start": 64.62,
+          "end": 64.88816
+        },
+        {
+          "text": "noumi,",
+          "start": 64.88816,
+          "end": 65.14358
+        },
+        {
+          "text": "l'amour",
+          "start": 65.14358,
+          "end": 65.56154
+        },
+        {
+          "text": "me",
+          "start": 65.56154,
+          "end": 65.70086
+        },
+        {
+          "text": "donne",
+          "start": 65.70086,
+          "end": 65.9795
+        },
+        {
+          "text": "la",
+          "start": 65.9795,
+          "end": 66.13043
+        },
+        {
+          "text": "force",
+          "start": 66.13043,
+          "end": 66.655
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "Concentré sur le chemin, je regarde plus en arrière",
+      "start": 66.71,
+      "end": 70.325,
+      "source_line": 25,
+      "section": "refrain_2",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré",
+          "start": 66.71,
+          "end": 67.39592
+        },
+        {
+          "text": "sur",
+          "start": 67.39592,
+          "end": 67.51202
+        },
+        {
+          "text": "le",
+          "start": 67.51202,
+          "end": 67.81388
+        },
+        {
+          "text": "chemin,",
+          "start": 67.81388,
+          "end": 68.23184
+        },
+        {
+          "text": "je",
+          "start": 68.23184,
+          "end": 68.34794
+        },
+        {
+          "text": "regarde",
+          "start": 68.34794,
+          "end": 69.05615
+        },
+        {
+          "text": "plus",
+          "start": 69.05615,
+          "end": 69.22127
+        },
+        {
+          "text": "en",
+          "start": 69.22127,
+          "end": 69.45088
+        },
+        {
+          "text": "arrière",
+          "start": 69.45088,
+          "end": 70.325
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Concentré sur le chemin, je marche vers la lumière",
+      "start": 70.38,
+      "end": 73.545,
+      "source_line": 26,
+      "section": "refrain_2",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré",
+          "start": 70.38,
+          "end": 70.9834
+        },
+        {
+          "text": "sur",
+          "start": 70.9834,
+          "end": 71.14594
+        },
+        {
+          "text": "le",
+          "start": 71.14594,
+          "end": 71.40136
+        },
+        {
+          "text": "chemin,",
+          "start": 71.40136,
+          "end": 71.68
+        },
+        {
+          "text": "je",
+          "start": 71.68,
+          "end": 71.95864
+        },
+        {
+          "text": "marche",
+          "start": 71.95864,
+          "end": 72.30743
+        },
+        {
+          "text": "vers",
+          "start": 72.30743,
+          "end": 72.51592
+        },
+        {
+          "text": "la",
+          "start": 72.51592,
+          "end": 72.65524
+        },
+        {
+          "text": "lumière",
+          "start": 72.65524,
+          "end": 73.545
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Tchité, tchité, je me relève encore",
+      "start": 73.6,
+      "end": 75.735,
+      "source_line": 27,
+      "section": "refrain_2",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Tchité,",
+          "start": 73.6,
+          "end": 73.87429
+        },
+        {
+          "text": "tchité,",
+          "start": 73.87429,
+          "end": 74.23167
+        },
+        {
+          "text": "je",
+          "start": 74.23167,
+          "end": 74.38459
+        },
+        {
+          "text": "me",
+          "start": 74.38459,
+          "end": 74.5375
+        },
+        {
+          "text": "relève",
+          "start": 74.5375,
+          "end": 75.01206
+        },
+        {
+          "text": "encore",
+          "start": 75.01206,
+          "end": 75.735
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Djayi man roumindé, tomber n'a jamais tué, je sors",
+      "start": 75.78999999999999,
+      "end": 78.545,
+      "source_line": 28,
+      "section": "refrain_2",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Djayi",
+          "start": 75.79,
+          "end": 75.9873
+        },
+        {
+          "text": "man",
+          "start": 75.9873,
+          "end": 76.12662
+        },
+        {
+          "text": "roumindé,",
+          "start": 76.12662,
+          "end": 76.6839
+        },
+        {
+          "text": "tomber",
+          "start": 76.6839,
+          "end": 77.12872
+        },
+        {
+          "text": "n'a",
+          "start": 77.12872,
+          "end": 77.31308
+        },
+        {
+          "text": "jamais",
+          "start": 77.31308,
+          "end": 77.65914
+        },
+        {
+          "text": "tué,",
+          "start": 77.65914,
+          "end": 77.93778
+        },
+        {
+          "text": "je",
+          "start": 77.93778,
+          "end": 78.0771
+        },
+        {
+          "text": "sors",
+          "start": 78.0771,
+          "end": 78.545
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "text": "Wolof TechStein beat wê!",
+      "start": 78.6,
+      "end": 81.05,
+      "source_line": 29,
+      "section": "refrain_2",
+      "slot": "s03",
+      "end_method": "bounded_adlib_display_estimate",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wolof",
+          "start": 78.6,
+          "end": 79.31937
+        },
+        {
+          "text": "TechStein",
+          "start": 79.31937,
+          "end": 80.02757
+        },
+        {
+          "text": "beat",
+          "start": 80.02757,
+          "end": 80.39909
+        },
+        {
+          "text": "wê!",
+          "start": 80.39909,
+          "end": 81.05
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "text": "J'suis concentrée, j'regarde droit devant",
+      "start": 85.64,
+      "end": 88.355,
+      "source_line": 30,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "J'suis",
+          "start": 85.64,
+          "end": 85.84417
+        },
+        {
+          "text": "concentrée,",
+          "start": 85.84417,
+          "end": 86.62466
+        },
+        {
+          "text": "j'regarde",
+          "start": 86.62466,
+          "end": 87.37669
+        },
+        {
+          "text": "droit",
+          "start": 87.37669,
+          "end": 87.63211
+        },
+        {
+          "text": "devant",
+          "start": 87.63211,
+          "end": 88.355
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "text": "Wanyiyi dans l'cœur, l'amour est mon carburant",
+      "start": 88.41,
+      "end": 90.225,
+      "source_line": 31,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wanyiyi",
+          "start": 88.41,
+          "end": 88.68949
+        },
+        {
+          "text": "dans",
+          "start": 88.68949,
+          "end": 88.76989
+        },
+        {
+          "text": "l'cœur,",
+          "start": 88.76989,
+          "end": 88.98205
+        },
+        {
+          "text": "l'amour",
+          "start": 88.98205,
+          "end": 89.25718
+        },
+        {
+          "text": "est",
+          "start": 89.25718,
+          "end": 89.39474
+        },
+        {
+          "text": "mon",
+          "start": 89.39474,
+          "end": 89.53231
+        },
+        {
+          "text": "carburant",
+          "start": 89.53231,
+          "end": 90.225
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "text": "Nonvi konou, mon frère sourit, on avance",
+      "start": 90.28,
+      "end": 91.715,
+      "source_line": 32,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Nonvi",
+          "start": 90.28,
+          "end": 90.44172
+        },
+        {
+          "text": "konou,",
+          "start": 90.44172,
+          "end": 90.58104
+        },
+        {
+          "text": "mon",
+          "start": 90.58104,
+          "end": 90.72036
+        },
+        {
+          "text": "frère",
+          "start": 90.72036,
+          "end": 90.85968
+        },
+        {
+          "text": "sourit,",
+          "start": 90.85968,
+          "end": 91.09188
+        },
+        {
+          "text": "on",
+          "start": 91.09188,
+          "end": 91.17243
+        },
+        {
+          "text": "avance",
+          "start": 91.17243,
+          "end": 91.715
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "text": "Dagbé dans nos rires, on danse, on danse",
+      "start": 91.77,
+      "end": 93.635,
+      "source_line": 33,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Dagbé",
+          "start": 91.77,
+          "end": 92.09034
+        },
+        {
+          "text": "dans",
+          "start": 92.09034,
+          "end": 92.17155
+        },
+        {
+          "text": "nos",
+          "start": 92.17155,
+          "end": 92.24127
+        },
+        {
+          "text": "rires,",
+          "start": 92.24127,
+          "end": 92.51991
+        },
+        {
+          "text": "on",
+          "start": 92.51991,
+          "end": 92.65923
+        },
+        {
+          "text": "danse,",
+          "start": 92.65923,
+          "end": 92.94948
+        },
+        {
+          "text": "on",
+          "start": 92.94948,
+          "end": 93.07719
+        },
+        {
+          "text": "danse",
+          "start": 93.07719,
+          "end": 93.635
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "text": "Kissi noumi, embrasse-moi, donne-moi la force",
+      "start": 93.69,
+      "end": 96.595,
+      "source_line": 34,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Kissi",
+          "start": 93.69,
+          "end": 94.06404
+        },
+        {
+          "text": "noumi,",
+          "start": 94.06404,
+          "end": 94.482
+        },
+        {
+          "text": "embrasse-moi,",
+          "start": 94.482,
+          "end": 95.15537
+        },
+        {
+          "text": "donne-moi",
+          "start": 95.15537,
+          "end": 95.72426
+        },
+        {
+          "text": "la",
+          "start": 95.72426,
+          "end": 95.99129
+        },
+        {
+          "text": "force",
+          "start": 95.99129,
+          "end": 96.595
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "text": "Vivi oor, ton goût est doux, j'me renforce",
+      "start": 96.65,
+      "end": 99.525,
+      "source_line": 35,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Vivi",
+          "start": 96.65,
+          "end": 97.09424
+        },
+        {
+          "text": "oor,",
+          "start": 97.09424,
+          "end": 97.38449
+        },
+        {
+          "text": "ton",
+          "start": 97.38449,
+          "end": 97.52381
+        },
+        {
+          "text": "goût",
+          "start": 97.52381,
+          "end": 97.80245
+        },
+        {
+          "text": "est",
+          "start": 97.80245,
+          "end": 98.08109
+        },
+        {
+          "text": "doux,",
+          "start": 98.08109,
+          "end": 98.35973
+        },
+        {
+          "text": "j'me",
+          "start": 98.35973,
+          "end": 98.49905
+        },
+        {
+          "text": "renforce",
+          "start": 98.49905,
+          "end": 99.525
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "text": "Wadjaya, viens t'enjailler avec moi",
+      "start": 99.58,
+      "end": 101.545,
+      "source_line": 36,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wadjaya,",
+          "start": 99.58,
+          "end": 99.95772
+        },
+        {
+          "text": "viens",
+          "start": 99.95772,
+          "end": 100.15927
+        },
+        {
+          "text": "t'enjailler",
+          "start": 100.15927,
+          "end": 100.71655
+        },
+        {
+          "text": "avec",
+          "start": 100.71655,
+          "end": 101.07909
+        },
+        {
+          "text": "moi",
+          "start": 101.07909,
+          "end": 101.545
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "text": "Yoryor, nouveau départ, sans tache, sans poids",
+      "start": 101.6,
+      "end": 103.245,
+      "source_line": 37,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Yoryor,",
+          "start": 101.6,
+          "end": 101.83111
+        },
+        {
+          "text": "nouveau",
+          "start": 101.83111,
+          "end": 102.09814
+        },
+        {
+          "text": "départ,",
+          "start": 102.09814,
+          "end": 102.37678
+        },
+        {
+          "text": "sans",
+          "start": 102.37678,
+          "end": 102.5161
+        },
+        {
+          "text": "tache,",
+          "start": 102.5161,
+          "end": 102.65542
+        },
+        {
+          "text": "sans",
+          "start": 102.65542,
+          "end": 102.77152
+        },
+        {
+          "text": "poids",
+          "start": 102.77152,
+          "end": 103.245
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "text": "Walèblanou, aïe pitié, non j'demande pas",
+      "start": 103.3,
+      "end": 104.915,
+      "source_line": 38,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Walèblanou,",
+          "start": 103.3,
+          "end": 103.73515
+        },
+        {
+          "text": "aïe",
+          "start": 103.73515,
+          "end": 103.9093
+        },
+        {
+          "text": "pitié,",
+          "start": 103.9093,
+          "end": 104.04862
+        },
+        {
+          "text": "non",
+          "start": 104.04862,
+          "end": 104.18794
+        },
+        {
+          "text": "j'demande",
+          "start": 104.18794,
+          "end": 104.46658
+        },
+        {
+          "text": "pas",
+          "start": 104.46658,
+          "end": 104.915
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "text": "J'prends mon destin en main, j'avance pas à pas",
+      "start": 104.97,
+      "end": 106.545,
+      "source_line": 39,
+      "section": "couplet_2",
+      "slot": "s02",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "J'prends",
+          "start": 104.97,
+          "end": 105.15156
+        },
+        {
+          "text": "mon",
+          "start": 105.15156,
+          "end": 105.20656
+        },
+        {
+          "text": "destin",
+          "start": 105.20656,
+          "end": 105.41859
+        },
+        {
+          "text": "en",
+          "start": 105.41859,
+          "end": 105.56952
+        },
+        {
+          "text": "main,",
+          "start": 105.56952,
+          "end": 105.62452
+        },
+        {
+          "text": "j'avance",
+          "start": 105.62452,
+          "end": 105.98748
+        },
+        {
+          "text": "pas",
+          "start": 105.98748,
+          "end": 106.056
+        },
+        {
+          "text": "à",
+          "start": 106.056,
+          "end": 106.1268
+        },
+        {
+          "text": "pas",
+          "start": 106.1268,
+          "end": 106.545
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "text": "Concentré, concentré, rien ne m'détourne",
+      "start": 106.6,
+      "end": 107.845,
+      "source_line": 40,
+      "section": "pre_refrain_2",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré,",
+          "start": 106.6,
+          "end": 106.90467
+        },
+        {
+          "text": "concentré,",
+          "start": 106.90467,
+          "end": 107.07882
+        },
+        {
+          "text": "rien",
+          "start": 107.07882,
+          "end": 107.26458
+        },
+        {
+          "text": "ne",
+          "start": 107.26458,
+          "end": 107.31958
+        },
+        {
+          "text": "m'détourne",
+          "start": 107.31958,
+          "end": 107.845
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "text": "Concentré, concentré, j'brûle toutes les bornes",
+      "start": 107.9,
+      "end": 109.545,
+      "source_line": 41,
+      "section": "pre_refrain_2",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré,",
+          "start": 107.9,
+          "end": 108.2166
+        },
+        {
+          "text": "concentré,",
+          "start": 108.2166,
+          "end": 108.49524
+        },
+        {
+          "text": "j'brûle",
+          "start": 108.49524,
+          "end": 108.73905
+        },
+        {
+          "text": "toutes",
+          "start": 108.73905,
+          "end": 108.90159
+        },
+        {
+          "text": "les",
+          "start": 108.90159,
+          "end": 109.05252
+        },
+        {
+          "text": "bornes",
+          "start": 109.05252,
+          "end": 109.545
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "text": "Djalé, aide-moi à porter ma couronne",
+      "start": 109.6,
+      "end": 111.155,
+      "source_line": 42,
+      "section": "pre_refrain_2",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Djalé,",
+          "start": 109.6,
+          "end": 109.74912
+        },
+        {
+          "text": "aide-moi",
+          "start": 109.74912,
+          "end": 110.15546
+        },
+        {
+          "text": "à",
+          "start": 110.15546,
+          "end": 110.23236
+        },
+        {
+          "text": "porter",
+          "start": 110.23236,
+          "end": 110.44886
+        },
+        {
+          "text": "ma",
+          "start": 110.44886,
+          "end": 110.57342
+        },
+        {
+          "text": "couronne",
+          "start": 110.57342,
+          "end": 111.155
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "text": "Yiwan noumi, l'amour me donne la force",
+      "start": 111.21000000000001,
+      "end": 113.225,
+      "source_line": 43,
+      "section": "pre_refrain_2",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Yiwan",
+          "start": 111.21,
+          "end": 111.49917
+        },
+        {
+          "text": "noumi,",
+          "start": 111.49917,
+          "end": 111.81569
+        },
+        {
+          "text": "l'amour",
+          "start": 111.81569,
+          "end": 112.09433
+        },
+        {
+          "text": "me",
+          "start": 112.09433,
+          "end": 112.23365
+        },
+        {
+          "text": "donne",
+          "start": 112.23365,
+          "end": 112.51229
+        },
+        {
+          "text": "la",
+          "start": 112.51229,
+          "end": 112.65161
+        },
+        {
+          "text": "force",
+          "start": 112.65161,
+          "end": 113.225
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "text": "Concentré sur le chemin, je regarde plus en arrière",
+      "start": 113.28,
+      "end": 116.925,
+      "source_line": 44,
+      "section": "refrain_3",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré",
+          "start": 113.28,
+          "end": 113.90549
+        },
+        {
+          "text": "sur",
+          "start": 113.90549,
+          "end": 114.18413
+        },
+        {
+          "text": "le",
+          "start": 114.18413,
+          "end": 114.32345
+        },
+        {
+          "text": "chemin,",
+          "start": 114.32345,
+          "end": 114.75302
+        },
+        {
+          "text": "je",
+          "start": 114.75302,
+          "end": 115.00844
+        },
+        {
+          "text": "regarde",
+          "start": 115.00844,
+          "end": 115.56571
+        },
+        {
+          "text": "plus",
+          "start": 115.56571,
+          "end": 115.81386
+        },
+        {
+          "text": "en",
+          "start": 115.81386,
+          "end": 115.99528
+        },
+        {
+          "text": "arrière",
+          "start": 115.99528,
+          "end": 116.925
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "text": "Concentré sur le chemin, je marche vers la lumière",
+      "start": 116.97999999999999,
+      "end": 120.125,
+      "source_line": 45,
+      "section": "refrain_3",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré",
+          "start": 116.98,
+          "end": 117.51619
+        },
+        {
+          "text": "sur",
+          "start": 117.51619,
+          "end": 117.75051
+        },
+        {
+          "text": "le",
+          "start": 117.75051,
+          "end": 117.93415
+        },
+        {
+          "text": "chemin,",
+          "start": 117.93415,
+          "end": 118.35211
+        },
+        {
+          "text": "je",
+          "start": 118.35211,
+          "end": 118.49143
+        },
+        {
+          "text": "marche",
+          "start": 118.49143,
+          "end": 118.89778
+        },
+        {
+          "text": "vers",
+          "start": 118.89778,
+          "end": 119.0371
+        },
+        {
+          "text": "la",
+          "start": 119.0371,
+          "end": 119.31574
+        },
+        {
+          "text": "lumière",
+          "start": 119.31574,
+          "end": 120.125
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "text": "Tchité, tchité, je me relève encore",
+      "start": 120.18,
+      "end": 122.115,
+      "source_line": 46,
+      "section": "refrain_3",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Tchité,",
+          "start": 120.18,
+          "end": 120.40707
+        },
+        {
+          "text": "tchité,",
+          "start": 120.40707,
+          "end": 120.72054
+        },
+        {
+          "text": "je",
+          "start": 120.72054,
+          "end": 120.88
+        },
+        {
+          "text": "me",
+          "start": 120.88,
+          "end": 120.98757
+        },
+        {
+          "text": "relève",
+          "start": 120.98757,
+          "end": 121.41714
+        },
+        {
+          "text": "encore",
+          "start": 121.41714,
+          "end": 122.115
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "text": "Djayi man roumindé, tomber n'a jamais tué, je sors",
+      "start": 122.17,
+      "end": 124.995,
+      "source_line": 47,
+      "section": "refrain_3",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Djayi",
+          "start": 122.17,
+          "end": 122.38077
+        },
+        {
+          "text": "man",
+          "start": 122.38077,
+          "end": 122.57394
+        },
+        {
+          "text": "roumindé,",
+          "start": 122.57394,
+          "end": 123.15505
+        },
+        {
+          "text": "tomber",
+          "start": 123.15505,
+          "end": 123.48372
+        },
+        {
+          "text": "n'a",
+          "start": 123.48372,
+          "end": 123.73615
+        },
+        {
+          "text": "jamais",
+          "start": 123.73615,
+          "end": 124.18032
+        },
+        {
+          "text": "tué,",
+          "start": 124.18032,
+          "end": 124.31964
+        },
+        {
+          "text": "je",
+          "start": 124.31964,
+          "end": 124.48218
+        },
+        {
+          "text": "sors",
+          "start": 124.48218,
+          "end": 124.995
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "text": "Wolof TechStein beat wê!",
+      "start": 125.05,
+      "end": 127.5,
+      "source_line": 48,
+      "section": "refrain_3",
+      "slot": "s03",
+      "end_method": "bounded_adlib_display_estimate",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wolof",
+          "start": 125.05,
+          "end": 125.71283
+        },
+        {
+          "text": "TechStein",
+          "start": 125.71283,
+          "end": 126.54875
+        },
+        {
+          "text": "beat",
+          "start": 126.54875,
+          "end": 126.81578
+        },
+        {
+          "text": "wê!",
+          "start": 126.81578,
+          "end": 127.5
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "text": "Wassého, viens entendre mon histoire",
+      "start": 140.0,
+      "end": 143.185,
+      "source_line": 49,
+      "section": "pont",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wassého,",
+          "start": 140.0,
+          "end": 140.78004
+        },
+        {
+          "text": "viens",
+          "start": 140.78004,
+          "end": 141.10766
+        },
+        {
+          "text": "entendre",
+          "start": 141.10766,
+          "end": 141.82748
+        },
+        {
+          "text": "mon",
+          "start": 141.82748,
+          "end": 142.12934
+        },
+        {
+          "text": "histoire",
+          "start": 142.12934,
+          "end": 143.185
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "text": "Do sourou, patiente, la victoire vient ce soir",
+      "start": 143.24,
+      "end": 146.425,
+      "source_line": 50,
+      "section": "pont",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Do",
+          "start": 143.24,
+          "end": 143.49932
+        },
+        {
+          "text": "sourou,",
+          "start": 143.49932,
+          "end": 143.92889
+        },
+        {
+          "text": "patiente,",
+          "start": 143.92889,
+          "end": 144.57311
+        },
+        {
+          "text": "la",
+          "start": 144.57311,
+          "end": 144.7532
+        },
+        {
+          "text": "victoire",
+          "start": 144.7532,
+          "end": 145.41497
+        },
+        {
+          "text": "vient",
+          "start": 145.41497,
+          "end": 145.69589
+        },
+        {
+          "text": "ce",
+          "start": 145.69589,
+          "end": 145.97224
+        },
+        {
+          "text": "soir",
+          "start": 145.97224,
+          "end": 146.425
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "text": "Djidjan yi, assoie-toi, écoute la vérité",
+      "start": 146.48,
+      "end": 149.335,
+      "source_line": 51,
+      "section": "pont",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Djidjan",
+          "start": 146.48,
+          "end": 146.94748
+        },
+        {
+          "text": "yi,",
+          "start": 146.94748,
+          "end": 147.06358
+        },
+        {
+          "text": "assoie-toi,",
+          "start": 147.06358,
+          "end": 147.64408
+        },
+        {
+          "text": "écoute",
+          "start": 147.64408,
+          "end": 148.2478
+        },
+        {
+          "text": "la",
+          "start": 148.2478,
+          "end": 148.49161
+        },
+        {
+          "text": "vérité",
+          "start": 148.49161,
+          "end": 149.335
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "text": "Damlon, dors en paix, demain sera plus beau qu'hier",
+      "start": 149.39,
+      "end": 152.785,
+      "source_line": 52,
+      "section": "pont",
+      "slot": "s04",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Damlon,",
+          "start": 149.39,
+          "end": 149.86807
+        },
+        {
+          "text": "dors",
+          "start": 149.86807,
+          "end": 150.15184
+        },
+        {
+          "text": "en",
+          "start": 150.15184,
+          "end": 150.34613
+        },
+        {
+          "text": "paix,",
+          "start": 150.34613,
+          "end": 150.59302
+        },
+        {
+          "text": "demain",
+          "start": 150.59302,
+          "end": 151.0708
+        },
+        {
+          "text": "sera",
+          "start": 151.0708,
+          "end": 151.55664
+        },
+        {
+          "text": "plus",
+          "start": 151.55664,
+          "end": 151.82367
+        },
+        {
+          "text": "beau",
+          "start": 151.82367,
+          "end": 152.00943
+        },
+        {
+          "text": "qu'hier",
+          "start": 152.00943,
+          "end": 152.785
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "text": "Concentré sur le chemin, je regarde plus en arrière",
+      "start": 152.84,
+      "end": 157.005,
+      "source_line": 53,
+      "section": "refrain_final",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré",
+          "start": 152.84,
+          "end": 153.57719
+        },
+        {
+          "text": "sur",
+          "start": 153.57719,
+          "end": 153.77415
+        },
+        {
+          "text": "le",
+          "start": 153.77415,
+          "end": 154.05279
+        },
+        {
+          "text": "chemin,",
+          "start": 154.05279,
+          "end": 154.59846
+        },
+        {
+          "text": "je",
+          "start": 154.59846,
+          "end": 154.74939
+        },
+        {
+          "text": "regarde",
+          "start": 154.74939,
+          "end": 155.51191
+        },
+        {
+          "text": "plus",
+          "start": 155.51191,
+          "end": 155.72463
+        },
+        {
+          "text": "en",
+          "start": 155.72463,
+          "end": 156.02649
+        },
+        {
+          "text": "arrière",
+          "start": 156.02649,
+          "end": 157.005
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "text": "Concentré sur le chemin, je marche vers la lumière",
+      "start": 157.06,
+      "end": 160.195,
+      "source_line": 54,
+      "section": "refrain_final",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré",
+          "start": 157.06,
+          "end": 157.6751
+        },
+        {
+          "text": "sur",
+          "start": 157.6751,
+          "end": 157.81442
+        },
+        {
+          "text": "le",
+          "start": 157.81442,
+          "end": 158.01369
+        },
+        {
+          "text": "chemin,",
+          "start": 158.01369,
+          "end": 158.3976
+        },
+        {
+          "text": "je",
+          "start": 158.3976,
+          "end": 158.58348
+        },
+        {
+          "text": "marche",
+          "start": 158.58348,
+          "end": 158.91737
+        },
+        {
+          "text": "vers",
+          "start": 158.91737,
+          "end": 159.19601
+        },
+        {
+          "text": "la",
+          "start": 159.19601,
+          "end": 159.3005
+        },
+        {
+          "text": "lumière",
+          "start": 159.3005,
+          "end": 160.195
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "text": "Tchité, tchité, je me relève encore",
+      "start": 160.25,
+      "end": 162.255,
+      "source_line": 55,
+      "section": "refrain_final",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Tchité,",
+          "start": 160.25,
+          "end": 160.56599
+        },
+        {
+          "text": "tchité,",
+          "start": 160.56599,
+          "end": 160.8374
+        },
+        {
+          "text": "je",
+          "start": 160.8374,
+          "end": 160.98395
+        },
+        {
+          "text": "me",
+          "start": 160.98395,
+          "end": 161.13488
+        },
+        {
+          "text": "relève",
+          "start": 161.13488,
+          "end": 161.56444
+        },
+        {
+          "text": "encore",
+          "start": 161.56444,
+          "end": 162.255
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "text": "Djayi man roumindé, tomber n'a jamais tué, je sors",
+      "start": 162.31,
+      "end": 165.325,
+      "source_line": 56,
+      "section": "refrain_final",
+      "slot": "s03",
+      "end_method": "next_source_verse_minus_55ms",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Djayi",
+          "start": 162.31,
+          "end": 162.53371
+        },
+        {
+          "text": "man",
+          "start": 162.53371,
+          "end": 162.80671
+        },
+        {
+          "text": "roumindé,",
+          "start": 162.80671,
+          "end": 163.36859
+        },
+        {
+          "text": "tomber",
+          "start": 163.36859,
+          "end": 163.78936
+        },
+        {
+          "text": "n'a",
+          "start": 163.78936,
+          "end": 164.04898
+        },
+        {
+          "text": "jamais",
+          "start": 164.04898,
+          "end": 164.47855
+        },
+        {
+          "text": "tué,",
+          "start": 164.47855,
+          "end": 164.62423
+        },
+        {
+          "text": "je",
+          "start": 164.62423,
+          "end": 164.82795
+        },
+        {
+          "text": "sors",
+          "start": 164.82795,
+          "end": 165.325
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "text": "Wolof TechStein beat wê!",
+      "start": 165.38,
+      "end": 167.83,
+      "source_line": 57,
+      "section": "refrain_final",
+      "slot": "s03",
+      "end_method": "bounded_adlib_display_estimate",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wolof",
+          "start": 165.38,
+          "end": 166.12717
+        },
+        {
+          "text": "TechStein",
+          "start": 166.12717,
+          "end": 166.82376
+        },
+        {
+          "text": "beat",
+          "start": 166.82376,
+          "end": 167.24172
+        },
+        {
+          "text": "wê!",
+          "start": 167.24172,
+          "end": 167.83
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "text": "Wolof TechStein beat wê...",
+      "start": 172.01,
+      "end": 176.01,
+      "source_line": 58,
+      "section": "outro",
+      "slot": "s05",
+      "end_method": "bounded_adlib_display_estimate",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Wolof",
+          "start": 172.01,
+          "end": 173.20925
+        },
+        {
+          "text": "TechStein",
+          "start": 173.20925,
+          "end": 174.47474
+        },
+        {
+          "text": "beat",
+          "start": 174.47474,
+          "end": 175.15973
+        },
+        {
+          "text": "wê...",
+          "start": 175.15973,
+          "end": 176.01
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "text": "Concentré... sur le chemin...",
+      "start": 183.21,
+      "end": 188.51,
+      "source_line": 59,
+      "section": "outro",
+      "slot": "s05",
+      "end_method": "bounded_adlib_display_estimate",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "Concentré...",
+          "start": 183.21,
+          "end": 185.43456
+        },
+        {
+          "text": "sur",
+          "start": 185.43456,
+          "end": 186.13116
+        },
+        {
+          "text": "le",
+          "start": 186.13116,
+          "end": 186.82776
+        },
+        {
+          "text": "chemin...",
+          "start": 186.82776,
+          "end": 188.51
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "text": "(Toujours concentré...)",
+      "start": 190.9,
+      "end": 195.1,
+      "source_line": 60,
+      "section": "outro",
+      "slot": "s05",
+      "end_method": "bounded_adlib_display_estimate",
+      "words_method": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+      "words": [
+        {
+          "text": "(Toujours",
+          "start": 190.9,
+          "end": 192.55147
+        },
+        {
+          "text": "concentré...)",
+          "start": 192.55147,
+          "end": 195.1
+        }
+      ]
+    }
+  ]
+}

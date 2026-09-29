@@ -42,7 +42,9 @@ class BackgroundTests(unittest.TestCase):
 
     def test_review_status_does_not_invent_artist_approval(self):
         approved = [(r['format'], r['slot']) for r in self.records if r['artist_approved']]
-        self.assertEqual(approved, [('portrait', 's01')])
+        state = json.loads((self.root/'productions/concentre_sur_le_chemin/production.json').read_text())['approvals']
+        expected = [(r['format'], r['slot']) for r in self.records] if state.get('image_series') else [('portrait', 's01')]
+        self.assertEqual(approved, expected)
 
     def test_raw_images_match_recorded_generations(self):
         jobs = {j['slot']: j for j in self.jobs}

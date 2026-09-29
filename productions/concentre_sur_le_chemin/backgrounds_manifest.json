@@ -46,7 +46,7 @@
     "export": "livrables/images_concentre_sur_le_chemin/portrait/s02_dans_le_bruit.jpg",
     "export_sha256": "d70a1e5a6e7c7e5ad2821bb9bb60d762d5f6ae2a3805ad4ce340a2e13471aa1b",
     "technical_status": "ready_for_artist_review",
-    "artist_approved": false,
+    "artist_approved": true,
     "corrections": [
       "lettrage parasite retiré localement du plafond ; personnage intact",
       "cadrage au-dessus des paroles, plafond −120 px, sol vide prolongé",
@@ -75,7 +75,7 @@
     "export": "livrables/images_concentre_sur_le_chemin/portrait/s03_tenir_le_cap.jpg",
     "export_sha256": "87a858cb7ea29c91064a8c77de90c03b4751c5f6b5775b3bbb1bab4b84fb960a",
     "technical_status": "ready_for_artist_review",
-    "artist_approved": false,
+    "artist_approved": true,
     "corrections": [
       "cadrage au-dessus des paroles, plafond −120 px, sol vide prolongé",
       "adoucissement du sol ajouté uniquement, aucun pixel original du héros modifié"
@@ -103,7 +103,7 @@
     "export": "livrables/images_concentre_sur_le_chemin/portrait/s04_patience.jpg",
     "export_sha256": "824bdb3ff0db5d56a3996ce57070682595408a459e3db55a462283209fbae309",
     "technical_status": "ready_for_artist_review",
-    "artist_approved": false,
+    "artist_approved": true,
     "corrections": [
       "cadrage au-dessus des paroles, plafond −120 px, sol vide prolongé",
       "adoucissement du sol ajouté uniquement, aucun pixel original du héros modifié"
@@ -131,7 +131,7 @@
     "export": "livrables/images_concentre_sur_le_chemin/portrait/s05_encore_debout.jpg",
     "export_sha256": "c82c1d182cb7b81b3839e12de8511e8e4c70b7db321dc8c59bf6a49a3d4b6236",
     "technical_status": "ready_for_artist_review",
-    "artist_approved": false,
+    "artist_approved": true,
     "corrections": [
       "cadrage au-dessus des paroles, plafond −120 px, sol vide prolongé",
       "adoucissement du sol ajouté uniquement, aucun pixel original du héros modifié"
@@ -159,7 +159,7 @@
     "export": "livrables/images_concentre_sur_le_chemin/landscape/s01_tete_lourde.jpg",
     "export_sha256": "6ec764769f6f3a5d759afd57223fab8215cc392e3a7d8a0bfb78f938c5dbf789",
     "technical_status": "ready_for_artist_review",
-    "artist_approved": false,
+    "artist_approved": true,
     "corrections": [
       "cadrage relevé de 80 px ; dégradé de sol ajouté uniquement en bas, sans bordures latérales ni étirement du héros"
     ],
@@ -186,7 +186,7 @@
     "export": "livrables/images_concentre_sur_le_chemin/landscape/s02_dans_le_bruit.jpg",
     "export_sha256": "f17ab035dc4f407295e5e53de1c0220f788d3352089d95b7d0d4a9d10158cbc5",
     "technical_status": "ready_for_artist_review",
-    "artist_approved": false,
+    "artist_approved": true,
     "corrections": [
       "cadrage relevé de 80 px ; dégradé de sol ajouté uniquement en bas, sans bordures latérales ni étirement du héros"
     ],
@@ -213,7 +213,7 @@
     "export": "livrables/images_concentre_sur_le_chemin/landscape/s03_tenir_le_cap.jpg",
     "export_sha256": "fe5970b33e72522f080f9534b5089dcd43bd23ded6f2810c6b3e6dd25fea08d1",
     "technical_status": "ready_for_artist_review",
-    "artist_approved": false,
+    "artist_approved": true,
     "corrections": [
       "trois autocollants au plafond et trois faux libellés du rack retirés localement ; héros intact",
       "cadrage relevé de 80 px ; dégradé de sol ajouté uniquement en bas, sans bordures latérales ni étirement du héros"
@@ -241,7 +241,7 @@
     "export": "livrables/images_concentre_sur_le_chemin/landscape/s04_patience.jpg",
     "export_sha256": "a14261a16eb7c444d894abe668d44c4e8957b39eff8c44077555829d45142b72",
     "technical_status": "ready_for_artist_review",
-    "artist_approved": false,
+    "artist_approved": true,
     "corrections": [
       "cadrage relevé de 80 px ; dégradé de sol ajouté uniquement en bas, sans bordures latérales ni étirement du héros"
     ],
@@ -268,7 +268,7 @@
     "export": "livrables/images_concentre_sur_le_chemin/landscape/s05_encore_debout.jpg",
     "export_sha256": "990bf41f281874503d20ebd93ddfb3d5c14f10401ca549b1c910aedb948e5be6",
     "technical_status": "ready_for_artist_review",
-    "artist_approved": false,
+    "artist_approved": true,
     "corrections": [
       "cadrage relevé de 80 px ; dégradé de sol ajouté uniquement en bas, sans bordures latérales ni étirement du héros"
     ],
