@@ -4,7 +4,7 @@
 
 Le questionnaire du 2026-09-28 autorise explicitement **les photos du dossier `Samu`** comme références pour ce clip. Choix validés : animé sombre, gros texte gras hybride, badge `Dsky` + drapeau vectoriel Bénin animé par vers, bandeau Bénin fin, pack complet. Ancre approuvée par l’artiste : « Oui continue... » (2026-09-28).
 
-Budget : **cinq portraits + cinq paysages**, intro/endcard/covers réutilisent les fonds. L’ancre approuvée occupe le slot portrait s01. La salve suivante contient uniquement les neuf fonds restants.
+Budget : **cinq portraits + cinq paysages**, intro/endcard/covers réutilisent les fonds. L’ancre approuvée occupe le slot portrait s01. La salve historique contenait uniquement les neuf fonds restants. Les dix compositions courantes (paysages révision 2) ont depuis été approuvées : « Oui je valide !! ». Aucune nouvelle génération pour les clips ou les covers.
 
 ## Références originales utilisées pour l'ancre
 
@@ -376,4 +376,4 @@ Cinq appels de correction effectués, un par paysage ; tous les slots ont été 
 - Nettoyage local du plafond de s03 paysage (autocollants recopiés des références) et de trois libellés d’appareil ; aucun pixel du personnage modifié.
 - Recadrage portrait hérité de l’ancre ; paysage relevé de 80 px pour protéger les chaussures du bandeau, avec prolongement du seul sol en bas. Pas de bordures latérales ajoutées.
 - Le bandeau est dessiné en post. **Badge non intégré** aux fonds, car il doit apparaître/disparaître à chaque vers.
-- Géométrie, tailles, checksums, archive et intégrité du personnage dans les masques contrôlées ; **validation artiste de la série encore attendue**.
+- Géométrie, tailles, checksums, archive et intégrité du personnage dans les masques contrôlées ; **validation artiste de la série obtenue : « Oui je valide !! »**. Validation visuelle distincte du futur calage vocal. Mise à jour de statut : 2026-09-30.

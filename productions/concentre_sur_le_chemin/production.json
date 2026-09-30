@@ -5,7 +5,7 @@
   "lyrics_source": "concentré sur le chemin.txt",
   "lyrics_lrc": "Concentré sur le chemin.lrc",
   "branch": "arena/01a0e931-lyric",
-  "stage": "approved_images_full_production_in_progress",
+  "stage": "portrait_checked_rendering_landscape",
   "confirmed": {
     "scene_count": 5,
     "formats": {
@@ -56,7 +56,7 @@
     "hook_source_start": 113.28,
     "hook_source_end": 120.18,
     "hook_duration_seconds": 6.9,
-    "hook_status": "proposed_not_auditioned_not_approved",
+    "hook_status": "rendered_in_portrait_from_requested_option_not_separately_artist_approved",
     "fps": 30,
     "endcard_padding_seconds": 5,
     "lyrics_lead_seconds": 0.03,
@@ -177,8 +177,9 @@
     "artist_approved": true
   },
   "recovery": {
-    "published_commit": "67525732617ae9b6acfb23243b43c8f3f999004c",
-    "method": "verified local files against published checkpoint, mixed index reset, restore only matching or absent paths; no hard reset"
+    "published_commit": "c5ecbaf8350984fff9e1ad3818958d664d3ae6cc",
+    "date": "2026-09-30",
+    "method": "Compared every file against FETCH_HEAD and 7452e1e; all existing files matched a published checkpoint. Mixed index update then restore only absent/older matching paths; no hard reset. Published portrait/master/covers preserved."
   },
   "generation_budget": {
     "final_portraits": 5,
@@ -196,5 +197,27 @@
     "landscapes": 5,
     "technical_checks": "passed_31_tests",
     "artist_series_approved": true
+  },
+  "last_updated": "2026-09-30",
+  "outputs": {
+    "portrait": {
+      "file": "livrables/Concentre_sur_le_chemin_9x16_v1.mp4",
+      "status": "rendered_technical_checks_passed",
+      "artist_approved": false
+    },
+    "landscape": {
+      "file": "livrables/Concentre_sur_le_chemin_16x9_YT_v1.mp4",
+      "status": "rendering",
+      "artist_approved": false
+    },
+    "audio_master": {
+      "file": "livrables/Concentre_sur_le_chemin_master_320k.mp3",
+      "status": "encoded_measured_tagged"
+    },
+    "covers": {
+      "report": "productions/concentre_sur_le_chemin/covers_report.json",
+      "status": "exported_technical_checks_passed"
+    },
+    "vocal_word_timing": "estimated_from_source_LRC_not_human_validated"
   }
 }

@@ -1,6 +1,6 @@
 # Dix fonds — contrôle de la salve, 2026-09-29
 
-**Ancre approuvée par l’artiste : « Oui continue... ». Série complète encore à confirmer.**
+**Ancre approuvée : « Oui continue... ». Les dix compositions de la planche v2 sont désormais approuvées par l’artiste : « Oui je valide !! ». État mis à jour le 2026-09-30.**
 
 ## Livraison de cette étape
 
@@ -50,11 +50,11 @@ Les originaux IA ne sont pas modifiés par ces opérations : les nettoyages s’
 
 ## Ce qui reste à faire
 
-- **Validation de la série par l’artiste** : choix des dix compositions avant de figer leur utilisation dans les clips.
+- **Validation de la série par l’artiste : effectuée.** Les cinq paires sont figées ; aucune nouvelle génération pour le montage.
 - Les grosses paroles, le mode mot-à-mot + vague et le badge en fondu restent ceux de la maquette approuvée. Les fonds sans texte sont volontairement des calques de montage, pas des captures finales du clip.
 - Tester le cadrage pendant les mouvements et l’overlay des paroles dans les deux formats ; ne pas déduire d’une image fixe que tous les futurs Ken Burns sont sûrs. Le paysage s03 nécessite notamment un mouvement horizontal conservateur, car la chaussure gauche est proche du bord.
 - Valider les trois passages de synchronisation, les fins des vers et le calage des mots. La proximité d’un pic instrumental n’est pas une validation vocale.
-- Clips complets, MP3 master deux passes, covers et commandes Termux finales : **non livrés à cette étape**.
+- Les clips et autres exports ne sont pas couverts par les seuls contrôles des fonds : leurs résultats figurent dans `qa_portrait.json`, `qa_landscape.json` lorsqu’il est produit, `audio_master_report.json` et `covers_report.json`.
 
 ## Reproduire les exports et les tests
 

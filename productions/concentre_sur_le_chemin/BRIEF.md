@@ -1,9 +1,9 @@
 # Concentré sur le chemin — brief de production
 
-Création : 2026-09-28. Mise à jour : 2026-09-29. Branche de session : `arena/01a0e931-lyric`.
+Création : 2026-09-28. Mise à jour : 2026-09-30. Branche de session : `arena/01a0e931-lyric`.
 
-**Étape actuelle : ancre, ressemblance, lunettes et grosse typographie approuvées (« Oui continue... »). Dix fonds exportés, série complète en attente de validation avant les clips.**
-Les références originales du dossier `Samu` ont été explicitement autorisées. Les cinq scènes sont disponibles en portrait et paysage ; chaque correction IA utilise les trois originaux Samu autorisés et l’ancre approuvée. Aucun clip/master final n’est livré à ce stade.
+**Étape actuelle : les dix fonds sont approuvés (« Oui je valide !! »). Clip portrait complet contrôlé, master et trois pochettes exportés ; rendu YouTube 16:9 en cours.**
+Les références originales du dossier `Samu` ont été explicitement autorisées. Les cinq scènes sont disponibles en portrait et paysage ; chaque correction IA utilise les trois originaux Samu autorisés et l’ancre approuvée. Le mot à mot reste estimé depuis le LRC source : contrôle technique du montage ≠ validation vocale à l’écoute.
 
 ## Sources confirmées
 
@@ -47,7 +47,7 @@ Ces choix remplacent les exemples contradictoires de « Nonvi Konou », les déf
 
 ## Storyboard proposé — cinq scènes seulement
 
-Le bloc héros et la tenue sont documentés dans `PROMPTS_IMAGES_Concentre_sur_le_chemin.md`. Les trois originaux autorisés utilisés sont `Samu/Snapchat-1835992965.jpg`, `Samu/Snapchat-1275781156.jpg` et `Samu/Snapchat-959878741.jpg`. Lunettes rectangulaires conservées. La ressemblance, les lunettes et la maquette de l’ancre ont été approuvées. Le même bloc héros figure dans les autres prompts ; la série complète reste à faire confirmer.
+Le bloc héros et la tenue sont documentés dans `PROMPTS_IMAGES_Concentre_sur_le_chemin.md`. Les trois originaux autorisés utilisés sont `Samu/Snapchat-1835992965.jpg`, `Samu/Snapchat-1275781156.jpg` et `Samu/Snapchat-959878741.jpg`. Lunettes rectangulaires conservées. La ressemblance, les lunettes et la maquette de l’ancre ont été approuvées. Le même bloc héros figure dans les autres prompts ; la série complète est désormais approuvée par l’artiste.
 
 | Scène | Mise en scène, même studio et même pose | Usage proposé |
 |---|---|---|
@@ -57,7 +57,7 @@ Le bloc héros et la tenue sont documentés dans `PROMPTS_IMAGES_Concentre_sur_l
 | s04 — Patience | Trois-quarts intime mais tête et mains entièrement cadrées, lumière ambre adoucie, fumée plus légère, même pose. | Pré-refrains / pont |
 | s05 — Encore debout | Plan large du studio silencieux, même héros, même pose, éclairage en décroissance et centre peu chargé. | Outro / endcard |
 
-Cette répartition est une proposition, pas une salve validée. Tous les prompts devront interdire le lettrage du décor ; titre, paroles, badge et éventuel drapeau sont composés séparément.
+Cette répartition est utilisée dans le montage des cinq scènes approuvées. Les prompts interdisent le lettrage du décor ; titre, paroles, badge et drapeau sont composés séparément.
 
 ## Portes de validation et budget
 
@@ -72,7 +72,7 @@ Cette répartition est une proposition, pas une salve validée. Tous les prompts
 
 - Titre, formats et budget : confirmés.
 - Photos de référence : **dossier Samu confirmé et autorisé** ; trois originaux utilisés pour l’ancre.
-- Ancre s01 portrait : **approuvée**. **5 portraits + 5 paysages exportés**, contrôlés et réunis dans la planche v2 ; validation de la série encore attendue.
+- Ancre s01 portrait : **approuvée**. **5 portraits + 5 paysages exportés**, contrôlés et approuvés après la planche v2 (« Oui je valide !! »).
 - Typographie grasse, taille, ressemblance et lunettes : **approuvées sur la maquette**. Badge/drapeau validés. Extrait d’ouverture demandé ; la validation vocale complète reste distincte.
 - Horaires : sources conservées, aucun faux statut « alignement vocal validé ».
 
@@ -82,7 +82,7 @@ Cette répartition est une proposition, pas une salve validée. Tous les prompts
 - Image fixe : `livrables/Concentre_sur_le_chemin_ancre_9x16_v1.jpg` ; version PNG sans perte également disponible.
 - Prompt complet : `PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md`.
 - Contrôles et limites : `VALIDATION_ANCRE.md`.
-- **L’ancre est désormais approuvée. Attendre la validation de la planche des dix fonds avant les rendus complets.** Le calage mot à mot reste provisoire, pas un alignement vocal validé.
+- **L’ancre et les dix fonds sont désormais approuvés. La maquette est conservée comme étape historique, pas comme livraison du clip entier.** Le calage mot à mot reste provisoire, pas un alignement vocal validé.
 
 ## Salve complète — étape du 2026-09-29
 
@@ -92,4 +92,4 @@ Cette répartition est une proposition, pas une salve validée. Tous les prompts
 - Éléments parasites du décor nettoyés localement, mains/visages/tenues intacts en post. Le badge n’est gravé dans aucun fond pour permettre son animation par vers.
 - Bandeau vectoriel Bénin : 54 px portrait, 30 px paysage ; pixels PNG exacts et contrôle JPEG.
 - Scripts et 31 tests : voir `VALIDATION_FONDS.md`.
-- Aucun clip complet, master ni cover finale n’est annoncé à cette étape.
+- État historique de la salve du 29 septembre : aucun clip complet n’était alors annoncé. Voir l’état actuel en tête de ce brief.
