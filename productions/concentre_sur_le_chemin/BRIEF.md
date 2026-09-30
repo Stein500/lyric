@@ -2,7 +2,7 @@
 
 Création : 2026-09-28. Mise à jour : 2026-09-30. Branche de session : `arena/01a0e931-lyric`.
 
-**Étape actuelle : les dix fonds sont approuvés (« Oui je valide !! »). Clip portrait complet contrôlé, master et trois pochettes exportés ; rendu YouTube 16:9 en cours.**
+**Étape actuelle : les dix fonds sont approuvés (« Oui je valide !! »). Clips portrait et YouTube complets contrôlés, master et trois pochettes exportés. Livraison v1 prête techniquement ; contrôle vocal à l’écoute toujours distinct.**
 Les références originales du dossier `Samu` ont été explicitement autorisées. Les cinq scènes sont disponibles en portrait et paysage ; chaque correction IA utilise les trois originaux Samu autorisés et l’ancre approuvée. Le mot à mot reste estimé depuis le LRC source : contrôle technique du montage ≠ validation vocale à l’écoute.
 
 ## Sources confirmées
@@ -32,7 +32,7 @@ Ces choix remplacent les exemples contradictoires de « Nonvi Konou », les déf
 - Texte : mode hybride **mot à mot + vague simultanée**, mot actif or/crème, mots passés atténués mais lisibles. Largeur finale du vers calculée avant animation. **Gras validé** : Barlow Condensed Bold pour les paroles, DejaVu Sans Bold pour l’UI ; « gros puis petit sans vague » n'est pas activé automatiquement.
 - Repères de taille à tester : gras 104–112 px en 1080×1920 ; 96–112 px en 1920×1080. Tailles indicatives, validation sur les vrais vers longs et sur mobile. Le bloc entier est centré verticalement, chaque ligne horizontalement.
 - Badge validé : `Dsky` + drapeau vectoriel Bénin, fondu à chaque vers. **Bandeau Bénin de 54 px validé**. Ces choix viennent du questionnaire de cette chanson, pas d’une attribution automatique depuis un autre exemple.
-- Cold-open proposé : deux premières lignes du refrain le plus énergétique, intervalle source 01:53.28 → 02:00.18, soit **6,90 s**. Un hook de 6 s exactement pourrait couper le second vers ; vérifier à l'écoute et faire approuver l'extrait. Variante sans cold-open possible.
+- Cold-open monté selon l’option demandée : deux premières lignes du refrain le plus énergétique, intervalle source 01:53.28 → 02:00.18, soit **6,90 s**. La coupe n’a pas reçu d’approbation séparée ; vérifier à l’écoute. Variante sans ouverture possible si demandée.
 - Covers : réutilisation d'un fond validé, titre exact et artiste en post-production ; aucun lettrage généré par IA.
 - Pack complet validé : clips 1080×1920 + 1920×1080, MP3 320 kb/s 48 kHz de la chanson seule, covers carré 1080 + portrait + paysage, prompt universel mis à jour, commandes Termux au hash publié. Variante ≤50 Mo uniquement si demandée.
 - Artiste / contacts du pack validé : Daïsky ; `daiskyproduction@gmail.com` ; WhatsApp `+229 01 61 16 24 08` / `+229 01 49 11 49 51`. Ne pas ajouter une longue liste de crédits.
@@ -93,3 +93,14 @@ Cette répartition est utilisée dans le montage des cinq scènes approuvées. L
 - Bandeau vectoriel Bénin : 54 px portrait, 30 px paysage ; pixels PNG exacts et contrôle JPEG.
 - Scripts et 31 tests : voir `VALIDATION_FONDS.md`.
 - État historique de la salve du 29 septembre : aucun clip complet n’était alors annoncé. Voir l’état actuel en tête de ce brief.
+
+## Exports complets — 2026-09-30
+
+- Portrait : `livrables/Concentre_sur_le_chemin_9x16_v1.mp4` ; 1080×1920, 30 fps, 30 147 295 octets.
+- YouTube : `livrables/Concentre_sur_le_chemin_16x9_YT_v1.mp4` ; 1920×1080, 30 fps, 29 379 843 octets.
+- Deux clips de 225,066667 s / 6 752 frames ; ouverture 6,90 s + chanson 213,160 s + fin 5 s.
+- Master : `livrables/Concentre_sur_le_chemin_master_320k.mp3` ; MP3 320 kb/s, 48 kHz stéréo, chanson seule. Mesuré −14,02 LUFS / −1,64 dBTP, ID3v2.4 avec APIC/USLT.
+- Pochettes : carré 1080×1080, portrait 1080×1920, paysage 1920×1080, texte en post.
+- L’index du pack et les repères d’écoute : `livrables/LIVRAISON_Concentre_sur_le_chemin.md`. Les commandes Termux sont écrites après publication et contrôle des vrais téléchargements au hash immuable.
+- Contrôles : `VALIDATION_CLIPS.md`, `qa_portrait.json`, `qa_landscape.json`, `audio_master_report.json`, `covers_report.json`.
+- **Aucune dérive de montage mesurée sur trois passages ; ce n’est pas une validation vocale du mot-à-mot.** La validation des dix fonds n’est pas une validation finale des clips.

@@ -1,0 +1,106 @@
+{
+  "date": "2026-09-30",
+  "title": "Concentré sur le chemin",
+  "artist": "Daïsky",
+  "status": "exports_technically_checked_artist_word_timing_review_pending",
+  "images_artist_approved": true,
+  "vocal_word_alignment_human_validated": false,
+  "video_duration_seconds": 225.06666666666666,
+  "video_frames": 6752,
+  "song_duration_seconds": 213.16,
+  "hook_duration_seconds": 6.9,
+  "new_ai_images_this_step": 0,
+  "files": [
+    {
+      "label": "Clip vertical · TikTok / Reels / Shorts",
+      "file": "livrables/Concentre_sur_le_chemin_9x16_v1.mp4",
+      "download_name": "Concentre_sur_le_chemin_9x16_v1.mp4",
+      "size_bytes": 30147295,
+      "sha256": "4a20eb47c71c5f3b74b6b74b77ab34df6f1d83a79be116e5670de02b570c35db"
+    },
+    {
+      "label": "Clip horizontal · YouTube",
+      "file": "livrables/Concentre_sur_le_chemin_16x9_YT_v1.mp4",
+      "download_name": "Concentre_sur_le_chemin_16x9_YT_v1.mp4",
+      "size_bytes": 29379843,
+      "sha256": "f3c3e8f4004db6ea0413c93700c2201e2f24ffb26a1a810d244539362210d989"
+    },
+    {
+      "label": "Master MP3 · chanson seule, 320 kb/s",
+      "file": "livrables/Concentre_sur_le_chemin_master_320k.mp3",
+      "download_name": "Concentre_sur_le_chemin_master_320k.mp3",
+      "size_bytes": 9071735,
+      "sha256": "2bae6f88839a7060433d2fe37e174ec8c5c9f2bd1b994af632530e606bb657ec"
+    },
+    {
+      "label": "Pochette carrée · 1080 × 1080",
+      "file": "livrables/cover_concentre_sur_le_chemin_1080x1080.jpg",
+      "download_name": "cover_concentre_sur_le_chemin_1080x1080.jpg",
+      "size_bytes": 530290,
+      "sha256": "7b9e8e46ebf1e537955cbe59caf532b7076629e1054d6aa0e02ad17af0cf1bc8"
+    },
+    {
+      "label": "Pochette portrait · 1080 × 1920",
+      "file": "livrables/cover_concentre_sur_le_chemin_9x16.jpg",
+      "download_name": "cover_concentre_sur_le_chemin_9x16.jpg",
+      "size_bytes": 799580,
+      "sha256": "45060aa5327c279800d332f995ebba655164edf48dc8b2b2a38fdcdbc4f67946"
+    },
+    {
+      "label": "Pochette YouTube · 1920 × 1080",
+      "file": "livrables/cover_concentre_sur_le_chemin_16x9.jpg",
+      "download_name": "cover_concentre_sur_le_chemin_16x9.jpg",
+      "size_bytes": 686184,
+      "sha256": "2c1c45c5e2d5be4370539c3fb2614d958e085ad5c925959ab2b57fb4220d52d4"
+    },
+    {
+      "label": "Les dix fonds approuvés · ZIP",
+      "file": "livrables/Concentre_sur_le_chemin_10_images_v2.zip",
+      "download_name": "Concentre_sur_le_chemin_10_images_v2.zip",
+      "size_bytes": 6412030,
+      "sha256": "350dbb042f046d3c29173a6cb1182bb34f95619ed8d9a7fa1297c28185e3968b"
+    },
+    {
+      "label": "Planche des cinq paires de fonds",
+      "file": "livrables/Concentre_sur_le_chemin_planche_10_fonds_v2.jpg",
+      "download_name": "Concentre_sur_le_chemin_planche_10_fonds_v2.jpg",
+      "size_bytes": 1667153,
+      "sha256": "fc1b1d352bc90a8b1ee48276233273b2202dcdb1791bc090251696fb92291bde"
+    },
+    {
+      "label": "Paroles LRC · horaires de la chanson source",
+      "file": "Concentré sur le chemin.lrc",
+      "download_name": "Concentre_sur_le_chemin.lrc",
+      "size_bytes": 3155,
+      "sha256": "8f26905b791b2b78deaafae2937344f415c3a4ade778adcd5e63d5a7bbbfc167"
+    },
+    {
+      "label": "Prompt universel complet à jour",
+      "file": "PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md",
+      "download_name": "PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md",
+      "size_bytes": 38906,
+      "sha256": "84d70281b59fb645fa486fcfa9b8644cac8cde1b46a08dcb55d05697303a948e"
+    },
+    {
+      "label": "Catalogue des prompts d’images",
+      "file": "PROMPTS_IMAGES_Concentre_sur_le_chemin.md",
+      "download_name": "PROMPTS_IMAGES_Concentre_sur_le_chemin.md",
+      "size_bytes": 71559,
+      "sha256": "8d7436dbccd358bc5ddf7cae5f9a59b0e877b5c1291cd4196b2986f8f733669a"
+    },
+    {
+      "label": "Index de la livraison et repères d’écoute",
+      "file": "livrables/LIVRAISON_Concentre_sur_le_chemin.md",
+      "download_name": "LIVRAISON_Concentre_sur_le_chemin.md",
+      "size_bytes": 4783,
+      "sha256": "c48790785c929b2895137dfe68de137cd8d84e216369ff092d728b7f08ad64c0"
+    },
+    {
+      "label": "Empreintes SHA-256 des fichiers",
+      "file": "livrables/Concentre_sur_le_chemin_SHA256.txt",
+      "download_name": "Concentre_sur_le_chemin_SHA256.txt",
+      "size_bytes": 1267,
+      "sha256": "86a221d25ba4f8a230b50005d4485d0fa43b35a04ef21f649ada6e83eec41602"
+    }
+  ]
+}

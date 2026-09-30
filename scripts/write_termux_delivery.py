@@ -71,7 +71,7 @@ def verify_remote(row: dict, ref: str) -> dict:
     # Vérifier aussi le téléchargement raw réel, pas seulement son existence API.
     url = raw_url(path, ref)
     process = subprocess.Popen(
-        ['curl', '-fL', '--retry', '2', '--retry-delay', '1', '-sS', url],
+        ['curl', '-fL', '--retry', '2', '--retry-delay', '1', '--connect-timeout', '30', '--max-time', '180', '-sS', url],
         stdout=subprocess.PIPE, stderr=subprocess.PIPE,
     )
     digest = hashlib.sha256()
@@ -79,7 +79,9 @@ def verify_remote(row: dict, ref: str) -> dict:
     while chunk := process.stdout.read(1024 * 1024):
         digest.update(chunk)
         count += len(chunk)
+    process.stdout.close()
     error = process.stderr.read().decode('utf-8', errors='replace')
+    process.stderr.close()
     code = process.wait(timeout=120)
     if code or count != row['size_bytes'] or digest.hexdigest() != row['sha256']:
         raise RuntimeError(f'Téléchargement raw invalide : {path}, code={code}, octets={count}. {error}')

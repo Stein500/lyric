@@ -1,0 +1,16 @@
+{
+  "file": "livrables/Concentre_sur_le_chemin_16x9_YT_v1.mp4",
+  "format": "landscape",
+  "frames": 6752,
+  "fps": 30,
+  "duration": 225.06666666666666,
+  "render_seconds": 479.87,
+  "size_bytes": 29379843,
+  "codec": "H.264",
+  "crf": 21,
+  "vbv_maxrate_kbps": 950,
+  "audio": "AAC 192 kb/s 48 kHz stereo",
+  "word_alignment": "estimated from artist LRC, not forced vocal alignment",
+  "single_frame_clock": true,
+  "new_ai_images": 0
+}

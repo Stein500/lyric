@@ -5,7 +5,7 @@
   "lyrics_source": "concentré sur le chemin.txt",
   "lyrics_lrc": "Concentré sur le chemin.lrc",
   "branch": "arena/01a0e931-lyric",
-  "stage": "portrait_checked_rendering_landscape",
+  "stage": "full_pack_exported_checked_word_timing_review_pending",
   "confirmed": {
     "scene_count": 5,
     "formats": {
@@ -56,7 +56,7 @@
     "hook_source_start": 113.28,
     "hook_source_end": 120.18,
     "hook_duration_seconds": 6.9,
-    "hook_status": "rendered_in_portrait_from_requested_option_not_separately_artist_approved",
+    "hook_status": "rendered_in_both_clips_from_requested_option_separate_cut_approval_pending",
     "fps": 30,
     "endcard_padding_seconds": 5,
     "lyrics_lead_seconds": 0.03,
@@ -203,21 +203,46 @@
     "portrait": {
       "file": "livrables/Concentre_sur_le_chemin_9x16_v1.mp4",
       "status": "rendered_technical_checks_passed",
-      "artist_approved": false
+      "artist_approved": false,
+      "qa_report": "productions/concentre_sur_le_chemin/qa_portrait.json",
+      "frames": 6752,
+      "fps": 30,
+      "duration_seconds": 225.066667,
+      "size_bytes": 30147295,
+      "sha256": "4a20eb47c71c5f3b74b6b74b77ab34df6f1d83a79be116e5670de02b570c35db"
     },
     "landscape": {
       "file": "livrables/Concentre_sur_le_chemin_16x9_YT_v1.mp4",
-      "status": "rendering",
-      "artist_approved": false
+      "status": "rendered_technical_checks_passed",
+      "artist_approved": false,
+      "qa_report": "productions/concentre_sur_le_chemin/qa_landscape.json",
+      "frames": 6752,
+      "fps": 30,
+      "duration_seconds": 225.066667,
+      "size_bytes": 29379843,
+      "sha256": "f3c3e8f4004db6ea0413c93700c2201e2f24ffb26a1a810d244539362210d989"
     },
     "audio_master": {
       "file": "livrables/Concentre_sur_le_chemin_master_320k.mp3",
-      "status": "encoded_measured_tagged"
+      "status": "encoded_measured_tagged_technical_checks_passed",
+      "report": "productions/concentre_sur_le_chemin/audio_master_report.json"
     },
     "covers": {
       "report": "productions/concentre_sur_le_chemin/covers_report.json",
       "status": "exported_technical_checks_passed"
     },
-    "vocal_word_timing": "estimated_from_source_LRC_not_human_validated"
+    "vocal_word_timing": "estimated_from_source_LRC_not_human_validated",
+    "delivery_index": "livrables/LIVRAISON_Concentre_sur_le_chemin.md",
+    "termux_commands": "livrables/TERMUX_Concentre_sur_le_chemin_COMPLET.md",
+    "download_commands_status": "to_be_generated_after_media_commit_push_and_remote_verification"
+  },
+  "technical_sync": {
+    "audio_montage": {
+      "portrait": "three_correlation_checks_zero_lag",
+      "landscape": "three_correlation_checks_zero_lag"
+    },
+    "word_alignment": "syllable_weighted_nearby_onsets_not_forced_vocal_alignment",
+    "human_vocal_validation": false,
+    "artist_full_clip_approval": false
   }
 }
