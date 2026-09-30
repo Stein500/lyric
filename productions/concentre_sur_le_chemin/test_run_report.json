@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-30",
+  "command": "/tmp/lyric-venv/bin/python -m unittest discover -s tests -v",
+  "tests_run": 56,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "duration_seconds": 7.695,
+  "media_commit": "7321792a9d81bff773c695287e58a76b602b0a5e",
+  "code_sha256": {
+    "scripts/analyse_chanson.py": "5c206cfede03c99fa63171495845be6286df9b70cc6788850c03e59e91184c65",
+    "scripts/build_timeline.py": "76f4ac51df7426f5fee33f822f007fd3a432152a9a8f664d1fe859ddf87adef0",
+    "scripts/check_maquette.py": "d2e4118d5671248403476bd8b3428e211b00afdcf7ff52dd702b90ceed82a5dd",
+    "scripts/design_assets.py": "1cdf415f6cd5d57cfd9f60881802061ac86ebdb1ca2dbd9674f116e449f4178f",
+    "scripts/prepare_backgrounds.py": "b7d5049304d48d03105d53bf66045d64f34c73ee822ab3d6f1455354a9deeaaf",
+    "scripts/prepare_delivery.py": "8a7e8f90345ebe2c4cc647871db128e970feea5b6daef5e268806a10cca59768",
+    "scripts/prepare_landscape_corrections.py": "2a57ed5abc7e50e4172195e8144a0508c166aaa3e10f404fdde8df2a99ce3397",
+    "scripts/prepare_salve.py": "57a8bc04c9cb5bdf5af1b2010f08c571d989fbd93ebb98f141c180ee0782e43d",
+    "scripts/produce_audio.py": "a7328f962f607bce792f95991306b483c9242dd58f2b650a3abd5b4eb682cc3f",
+    "scripts/render_ancre.py": "86e8b68baf6b80b45884c3ef808727c4965df139122639d8f4e8bc4f42386420",
+    "scripts/render_clip.py": "3c1dc57c6987c85ac07c9949bb02568a4a0dddf4c3d521bbbde78bbad9f8edb7",
+    "scripts/verify_clip.py": "e7508279225aa92c38c8f79fc634f2673cef8933e03a84253a03c4d96c498615",
+    "scripts/write_termux_delivery.py": "4cd17ad2bcd8798751ee709a6b82ac8f93a2c71160cb91b432afaf20a8f19221",
+    "tests/test_analyse_chanson.py": "f986180fae6078e2e0ce53ea356c110e71a89ac5de8d8bfccc979c015fc1ffe7",
+    "tests/test_backgrounds.py": "c62987ec969b965e296b6d9af52ae563f74d233ff4459a221d4b1057574aa7ce",
+    "tests/test_delivery.py": "55dff6fb35586e2d1fc6a487feccc9caf1273bac18c982241212e625cc8966f0",
+    "tests/test_full_pipeline.py": "d11763b09004d8785e62af6d198b177de179f5ed18896458d6e712d1ced839c5",
+    "tests/test_render_ancre.py": "fadc33d7fba3b76f403ff5d11b50ee3d1d85ccdf9c9bf2e5f037605cce8faf58"
+  }
+}

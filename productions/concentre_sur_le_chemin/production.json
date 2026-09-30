@@ -5,7 +5,7 @@
   "lyrics_source": "concentré sur le chemin.txt",
   "lyrics_lrc": "Concentré sur le chemin.lrc",
   "branch": "arena/01a0e931-lyric",
-  "stage": "full_pack_exported_checked_word_timing_review_pending",
+  "stage": "pack_delivered_technical_checks_passed_artist_word_timing_review_pending",
   "confirmed": {
     "scene_count": 5,
     "formats": {
@@ -234,7 +234,12 @@
     "vocal_word_timing": "estimated_from_source_LRC_not_human_validated",
     "delivery_index": "livrables/LIVRAISON_Concentre_sur_le_chemin.md",
     "termux_commands": "livrables/TERMUX_Concentre_sur_le_chemin_COMPLET.md",
-    "download_commands_status": "to_be_generated_after_media_commit_push_and_remote_verification"
+    "download_commands_status": "generated_at_pushed_media_commit_github_blobs_and_downloaded_api_raw_content_verified",
+    "media_commit": "7321792a9d81bff773c695287e58a76b602b0a5e",
+    "delivery_manifest": "productions/concentre_sur_le_chemin/delivery_manifest.json",
+    "remote_verification": "productions/concentre_sur_le_chemin/delivery_remote_checks.json",
+    "final_test_report": "productions/concentre_sur_le_chemin/test_run_report.json",
+    "tests_passed": 56
   },
   "technical_sync": {
     "audio_montage": {

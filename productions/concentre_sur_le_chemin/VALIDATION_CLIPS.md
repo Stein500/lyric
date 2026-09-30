@@ -70,8 +70,12 @@ Détails : `audio_master_report.json`, `covers_report.json` ; le SHA-256 du mast
 - Suite : `python -m unittest discover -s tests -v` dans `/tmp/lyric-venv`.
 - Résultat du passage final, après vérification distante : `test_run_report.json`.
 - Manifeste des vrais fichiers : `delivery_manifest.json`.
-- Preuves du hash GitHub, tailles, blobs, **téléchargements raw réels** et SHA-256 : `delivery_remote_checks.json`, écrit seulement après publication des médias.
+- Preuves du hash GitHub, tailles, blobs, **contenu brut réellement téléchargé** et SHA-256 : `delivery_remote_checks.json`, écrit seulement après publication des médias.
 - Index utilisateur : `livrables/LIVRAISON_Concentre_sur_le_chemin.md` ; empreintes `livrables/Concentre_sur_le_chemin_SHA256.txt`.
 - Commandes Termux : `livrables/TERMUX_Concentre_sur_le_chemin_COMPLET.md`, une ligne par fichier, séparateurs `;`, `curl -fL --retry 5 --retry-delay 3 -C -`, dossier `/storage/emulated/0/Web+/`.
 - Les commandes référencent le **commit immuable des médias/prompt**, contrôlé après push ; le document de commandes est naturellement committé ensuite. Pas de lien à une branche mutable, pas de faux hash.
 - Pas de seconde archive contenant des copies des deux gros MP4 ; les fichiers se téléchargent séparément. Le ZIP existant reste limité aux dix fonds approuvés.
+
+### Accès réseau pendant le contrôle distant
+
+Le TLS direct vers `raw.githubusercontent.com` échoue dans cette sandbox (`curl` code 35), tandis que GitHub/API reste accessible. Le contrôle télécharge donc les **octets bruts via l’API GitHub** (`Accept: application/vnd.github.raw+json`) au même hash, puis compare taille et SHA-256. Le rapport distingue `raw_download_verified=false` et `api_raw_download_verified=true` : aucun faux statut de téléchargement direct. Certificats TLS toujours vérifiés. Les commandes Android restent les URL publiques raw canoniques, adaptées à la reprise ; l’API ne garantit pas `Range` et ne remplace donc pas silencieusement le lien de téléchargement Termux.

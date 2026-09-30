@@ -6,9 +6,10 @@ import re
 import shlex
 import sys
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from write_termux_delivery import checked_ref, raw_url, download_command, verify_metadata, ROOT, STATE
+from write_termux_delivery import checked_ref, raw_url, download_command, verify_metadata, download_proof, ROOT, STATE
 
 REF = '1234567890abcdef1234567890abcdef12345678'
 
@@ -56,6 +57,24 @@ class TermuxCommandTests(unittest.TestCase):
         for field, bad in [('type', 'dir'), ('sha', 'b' * 40), ('size', 123455)]:
             with self.subTest(field=field), self.assertRaises(ValueError):
                 verify_metadata({**valid, field: bad}, 'a' * 40, 123456)
+
+
+    def test_tls_failure_uses_api_raw_without_pretending_direct_raw_succeeded(self):
+        sha = 'a' * 64
+        endpoint = 'repos/Stein500/lyric/contents/clip.mp4?ref=' + REF
+        with patch('write_termux_delivery.stream_digest', side_effect=[
+                (35, 0, 'b' * 64, 'SSL_ERROR_SYSCALL'), (0, 12345, sha, '')]) as fetch:
+            proof = download_proof(raw_url('clip.mp4', REF), endpoint, 12345, sha)
+        self.assertFalse(proof['raw_download_verified'])
+        self.assertTrue(proof['api_raw_download_verified'])
+        self.assertEqual(proof['download_verification_method'], 'github_api_raw')
+        self.assertIn('SSL_ERROR_SYSCALL', proof['raw_url_check_error'])
+        self.assertEqual(fetch.call_args_list[1].args[0], [
+            'gh', 'api', '-H', 'Accept: application/vnd.github.raw+json', endpoint])
+        self.assertNotIn('-k', fetch.call_args_list[0].args[0])
+        with patch('write_termux_delivery.stream_digest', return_value=(0, 12345, 'c' * 64, '')):
+            with self.assertRaises(RuntimeError):
+                download_proof(raw_url('clip.mp4', REF), endpoint, 12345, sha)
 
 
 class FinalExportTests(unittest.TestCase):
@@ -136,7 +155,8 @@ class FinalExportTests(unittest.TestCase):
         for row, command, source in zip(report['files'], commands, manifest['files']):
             with self.subTest(file=row['file']):
                 self.assertTrue(row['github_contents_verified'])
-                self.assertTrue(row['raw_download_verified'])
+                self.assertTrue(row['raw_download_verified'] or row['api_raw_download_verified'])
+                self.assertNotEqual(row['raw_download_verified'], row['api_raw_download_verified'])
                 self.assertEqual(row['sha256'], source['sha256'])
                 self.assertEqual(row['size_bytes'], source['size_bytes'])
                 self.assertEqual(row['url'], raw_url(row['file'], ref))

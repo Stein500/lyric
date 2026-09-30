@@ -55,6 +55,44 @@ def git(*args: str) -> str:
     return subprocess.check_output(['git', *args], cwd=ROOT, text=True).strip()
 
 
+def stream_digest(command: list[str]) -> tuple[int, int, str, str]:
+    """Hacher le contenu reçu sans dupliquer les médias dans le dépôt."""
+    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    digest = hashlib.sha256()
+    count = 0
+    while chunk := process.stdout.read(1024 * 1024):
+        digest.update(chunk)
+        count += len(chunk)
+    process.stdout.close()
+    error = process.stderr.read().decode('utf-8', errors='replace')
+    process.stderr.close()
+    code = process.wait(timeout=120)
+    return code, count, digest.hexdigest(), error
+
+
+def download_proof(url: str, endpoint: str, size: int, sha256: str) -> dict:
+    command = ['curl', '-fL', '--retry', '2', '--retry-delay', '1',
+               '--connect-timeout', '30', '--max-time', '180', '-sS', url]
+    code, count, digest, error = stream_digest(command)
+    raw_success = code == 0
+    # Certains sandboxes refusent le TLS de raw.githubusercontent.com. Ne jamais
+    # désactiver TLS : l'API GitHub fournit aussi les octets bruts du même ref.
+    method = 'raw_url'
+    if code:
+        method = 'github_api_raw'
+        api_command = ['gh', 'api', '-H', 'Accept: application/vnd.github.raw+json', endpoint]
+        api_code, count, digest, api_error = stream_digest(api_command)
+        if api_code:
+            raise RuntimeError(f'Échec raw puis API raw : {error} {api_error}')
+    if count != size or digest != sha256:
+        raise RuntimeError(f'Contenu téléchargé différent : méthode={method}, octets={count}')
+    return {'size_bytes': count, 'sha256': digest,
+            'raw_download_verified': raw_success,
+            'api_raw_download_verified': not raw_success,
+            'download_verification_method': method,
+            'raw_url_check_error': error.strip()[:500] if not raw_success else None}
+
+
 def verify_remote(row: dict, ref: str) -> dict:
     path = row['file']
     local = ROOT / path
@@ -68,27 +106,12 @@ def verify_remote(row: dict, ref: str) -> dict:
     endpoint = f'repos/{REPOSITORY}/contents/{quote(path, safe="/")}?ref={ref}'
     metadata = json.loads(subprocess.check_output(['gh', 'api', endpoint], cwd=ROOT, text=True))
     verify_metadata(metadata, blob, row['size_bytes'])
-    # Vérifier aussi le téléchargement raw réel, pas seulement son existence API.
     url = raw_url(path, ref)
-    process = subprocess.Popen(
-        ['curl', '-fL', '--retry', '2', '--retry-delay', '1', '--connect-timeout', '30', '--max-time', '180', '-sS', url],
-        stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-    )
-    digest = hashlib.sha256()
-    count = 0
-    while chunk := process.stdout.read(1024 * 1024):
-        digest.update(chunk)
-        count += len(chunk)
-    process.stdout.close()
-    error = process.stderr.read().decode('utf-8', errors='replace')
-    process.stderr.close()
-    code = process.wait(timeout=120)
-    if code or count != row['size_bytes'] or digest.hexdigest() != row['sha256']:
-        raise RuntimeError(f'Téléchargement raw invalide : {path}, code={code}, octets={count}. {error}')
-    print(f'Publié et téléchargé : {row["download_name"]} ({count:,} octets)', flush=True)
+    proof = download_proof(url, endpoint, row['size_bytes'], row['sha256'])
+    print(f'Publié et contenu téléchargé : {row["download_name"]} '
+          f'({proof["size_bytes"]:,} octets, {proof["download_verification_method"]})', flush=True)
     return {'file': path, 'download_name': row['download_name'], 'url': url,
-            'git_blob_sha': blob, 'size_bytes': count, 'sha256': digest.hexdigest(),
-            'github_contents_verified': True, 'raw_download_verified': True}
+            'git_blob_sha': blob, 'github_contents_verified': True, **proof}
 
 
 def main() -> None:
@@ -104,7 +127,7 @@ def main() -> None:
     results = [verify_remote(row, ref) for row in manifest['files']]
     (STATE / 'delivery_remote_checks.json').write_text(json.dumps(
         {'date': '2026-09-30', 'repository': REPOSITORY, 'media_commit': ref,
-         'files': results, 'status': 'all_files_verified_via_api_and_raw_download'},
+         'files': results, 'status': 'all_files_verified_via_api_and_downloaded_contents'},
         ensure_ascii=False, indent=2) + '\n')
     lines = [
         '# Télécharger le pack — Concentré sur le chemin', '',
@@ -112,7 +135,10 @@ def main() -> None:
         'Les exports v1 sont contrôlés techniquement. Les fonds sont approuvés ; '
         'le calage mot à mot reste estimé depuis ton LRC, pas encore validé à l’écoute.', '',
         f'Commit immuable des médias et du prompt : `{ref}`. Chaque fichier a été '
-        'vérifié par l’API GitHub puis réellement téléchargé et comparé en SHA-256. '
+        'vérifié par l’API GitHub puis son contenu brut réellement téléchargé et comparé en SHA-256. '
+        'L’accès TLS direct à raw.githubusercontent.com échoue dans ce sandbox ; '
+        'les octets ont été vérifiés via l’API GitHub (format raw), sans désactiver TLS. '
+        'Les liens publics ci-dessous restent au même hash vérifié. '
         'Ce document de commandes est enregistré dans le commit suivant.', '',
         '## 1. Préparer Termux une fois', '',
         'Copier cette ligne et accepter l’autorisation Android :', '',
