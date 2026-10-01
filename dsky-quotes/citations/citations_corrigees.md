@@ -225,3 +225,28 @@ Un jour, mes enfants liront mes vers et me rencontreront. Écrire, c'est laisser
 
 **54.** `LUXE` — *appel aux lecteurs*
 Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : commente le vers qui t'a touché. Un parolier vit de ces retours-là.
+
+---
+
+## SAISON 2 — Les Vraies (55 → 64)
+*Citations de vie universelles écrites pour l'auteur : motivation, amour, foi, guerre, confiance, émotions, finances, ingratitude, sexe, pauvreté/richesse.*
+
+**55.** `MOTIVATION` — Personne ne viendra te sauver. Pas ton oncle, pas le gouvernement, pas la chance. Le jour où tu comprendras que tu es ton propre plan A, B et C, tu arrêteras d'attendre et tu commenceras à avancer.
+
+**56.** `DÉCEPTION AMOUREUSE` — On ne meurt pas d'une déception amoureuse. On renaît avec une liste de vérités qu'on aurait dû lire plus tôt. La douleur part, la leçon reste — et la leçon vaut plus que la personne.
+
+**57.** `LA FOI` — Prie comme si tout dépendait de Dieu, agis comme si tout dépendait de toi. La foi sans travaux est un champ sans semences : tu récolteras des excuses, pas des moissons.
+
+**58.** `LA GUERRE` — La vraie guerre ne fait pas de bruit. C'est toi contre toi : tes excuses contre ta discipline, ta peur contre tes rêves. Gagne-la chaque matin avant 6 h, et le reste du monde ne pourra rien contre toi.
+
+**59.** `LA CONFIANCE` — Ne donne pas ta confiance à voix basse et ton pardon à voix haute. Ceux qui te voient pardonner trop facilement reviennent te mentir aussi facilement.
+
+**60.** `GESTION DES ÉMOTIONS` — Ta colère est une lettre écrite à chaud : laisse refroidir l'encre avant de l'envoyer. Maîtriser ses émotions, ce n'est pas ne plus les sentir — c'est choisir l'heure de la réponse.
+
+**61.** `LES FINANCES` — Ne paie jamais le prix d'impressionner les autres : celui qui s'endette pour briller met son avenir en gage. La richesse commence le jour où ton portefeuille cesse de dépendre de ton orgueil.
+
+**62.** `L'INGRATITUDE` — L'ingrat n'oublie pas ce que tu as fait ; il compte sur le fait que tu vas le refaire. Ne t'humilie pas à récolter de la reconnaissance chez qui n'a jamais planté : change simplement de champ.
+
+**63.** `LE SEXE` — Le sexe sans affection est un contrat à court terme : le corps signe, mais l'âme refuse de parapher. Tu peux posséder toutes les nuits d'une personne et jamais ses matins. Choisis ce que tu veux vraiment.
+
+**64.** `PAUVRETÉ & RICHESSE` — On peut avoir les poches vides et l'esprit plein : ce n'est pas la pauvreté, c'est la plantation en cours. On peut avoir le compte plein et l'esprit vide : ce n'est pas la richesse, c'est la faim déguisée.
