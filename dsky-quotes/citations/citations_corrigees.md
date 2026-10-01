@@ -267,3 +267,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **69.** `FAUX AMIS` — style BD franco-belge (ligne claire) — « Le vrai ami dit la vérité en face. Le faux la raconte derrière ton dos. »
 
 **70.** `LE TEMPS` — style Art Déco sensuel (Gatsby) — « Le temps guérit tout, sauf ce que tu refuses de laisser partir. »
+
+---
+
+## SAISON 2 — Série ART II (71 → 80)
+*Tenue en un seul tour : 10 œuvres, 10 styles, citations typographiées par l'IA. Orthographe vérifiée 10/10.*
+
+**71.** `LE SILENCE` — estampe ukiyo-e (Hokusai) — « Apprends à te taire : le silence cache tes forces et agace tes ennemis. »
+
+**72.** `PARDONNER` — vitrail gothique — « Pardonne pour te libérer, mais souviens-toi pour ne pas servir deux fois. »
+
+**73.** `TEMPS & ARGENT` — Bauhaus / style suisse — « L'argent perdu peut revenir ; le temps perdu ne t'attend pas. »
+
+**74.** `JALOUSIE` — timbre gravé / billet de banque — « Derrière chaque réussite que tu jalouses, il y a des nuits que tu n'aurais pas supportées. »
+
+**75.** `L'AMOUR VRAI` — Ghibli aquarelle — « L'amour n'est pas celui qui fait battre le cœur ; c'est celui qui le fait reposer. »
+
+**76.** `L'ÉCHEC` — affiche de film — « L'échec est un professeur qu'on paie cher. Prends tes notes et remonte. »
+
+**77.** `DISCIPLINE` — comics américain — « La motivation te fait commencer ; la discipline te fait finir. »
+
+**78.** `LA VÉRITÉ` — papercut art (renard & loup) — « La vérité ne se fatigue jamais ; c'est le mensonge qui finit par s'arrêter. »
+
+**79.** `LA MÈRE` — mosaïque tissée kente — « Ta mère a porté ta vie neuf mois ; porte son sourire toute ta vie. »
+
+**80.** `LE RÊVE` — fresque urbaine — « Un rêve qui dort ne meurt pas : il attend que tu te réveilles. »

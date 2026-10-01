@@ -10,6 +10,8 @@ from compose_s2 import icon_heart, icon_comment, icon_share, icon_plus
 
 ART = {  # num -> style d'accent
     65: "LUXE", 66: "LUXE", 67: "AFRO", 68: "MINIMAL", 69: "MINIMAL", 70: "LUXE",
+    71: "LUXE", 72: "LUXE", 73: "MINIMAL", 74: "LUXE", 75: "MINIMAL",
+    76: "LUXE", 77: "AFRO", 78: "LUXE", 79: "AFRO", 80: "AFRO",
 }
 
 def brand(num):
@@ -81,5 +83,5 @@ def brand(num):
     print("✔", f"quote-{num}-story.jpg  [ART · {ART[num]}]")
 
 if __name__ == "__main__":
-    for n in (65, 66, 67, 68, 69, 70):
+    for n in (65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80):
         brand(n)
