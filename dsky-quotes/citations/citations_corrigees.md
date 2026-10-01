@@ -250,3 +250,20 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **63.** `LE SEXE` — Le sexe sans affection est un contrat à court terme : le corps signe, mais l'âme refuse de parapher. Tu peux posséder toutes les nuits d'une personne et jamais ses matins. Choisis ce que tu veux vraiment.
 
 **64.** `PAUVRETÉ & RICHESSE` — On peut avoir les poches vides et l'esprit plein : ce n'est pas la pauvreté, c'est la plantation en cours. On peut avoir le compte plein et l'esprit vide : ce n'est pas la richesse, c'est la faim déguisée.
+
+---
+
+## SAISON 2 — Série ART (65 → 70)
+*Citations écrites ET typographiées directement par l'IA dans l'œuvre, un style visuel audacieux par citation. Branding DSKY ajouté par code.*
+
+**65.** `TRAVAIL` — style propagande soviétique — « Le travail ne trahit jamais. Il tarde parfois, mais il paie toujours. »
+
+**66.** `PASSION` — style anime shonen — « Ce que tu fais avec passion, aucune fatigue ne peut l'arrêter. »
+
+**67.** `MUSIQUE` — style BD africaine — « La musique est la seule voix qui console sans juger. »
+
+**68.** `FAMILLE` — style Disney/Pixar — « La famille, c'est ceux qui te cherchent même quand tu n'as plus rien. »
+
+**69.** `FAUX AMIS` — style BD franco-belge (ligne claire) — « Le vrai ami dit la vérité en face. Le faux la raconte derrière ton dos. »
+
+**70.** `LE TEMPS` — style Art Déco sensuel (Gatsby) — « Le temps guérit tout, sauf ce que tu refuses de laisser partir. »
