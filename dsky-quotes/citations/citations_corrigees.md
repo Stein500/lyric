@@ -190,3 +190,38 @@ Comment vois-tu le partage ? Je te réveille. Toi seul crois ou penses que parta
 **43.** `LUXE`
 Voici les deux choses qui prennent beaucoup plus de temps : réparer une erreur stupide et te faire respecter.
 > *(n°43 : sablier doré + fissures kintsugi — l'erreur réparée, le temps qu'il faut)*
+
+---
+
+# SAISON 2 — Le voyage du parolier (45 → 54)
+*Écrites par l'IA sur commande de l'auteur, en sa voix. Format : Story 1080×1920 uniquement, images 100 % IA (sans photo de l'auteur), barre CTA Like · Commente · Partage · Abonne-toi.*
+
+**45.** `LUXE` — *l'encre qui guérit*
+J'écris pour ne pas exploser. Chaque rime est une douleur qui a trouvé la sortie. Si mes mots te touchent, c'est qu'ils sont passés par le même feu que les tiens.
+
+**46.** `AFRO` — *l'école de la rue*
+La rue m'a appris à parler, la vie m'a appris à me taire, et le papier m'a appris à vivre entre les deux.
+
+**47.** `LUXE` — *cicatrices en refrains*
+On m'a blessé en musique, alors j'ai répondu en mélodie. C'est ça, être parolier : transformer ses cicatrices en refrains que les autres chantent.
+
+**48.** `LUXE` — *la chanson, c'est ma vie*
+Quand un inconnu me dit « cette chanson, c'est ma vie », je comprends que mes blessures servaient à quelque chose.
+
+**49.** `MINIMAL` — *les nuits blanches*
+Tout le monde entend le refrain, personne ne voit les nuits blanches. L'art, c'est rendre magique ce qui a coûté des larmes.
+
+**50.** `LUXE` — *mourir deux fois*
+Nous autres, paroliers, on meurt deux fois : quand le cœur s'arrête, et quand on cesse d'écrire. Moi, je compte repousser la deuxième le plus loin possible.
+
+**51.** `AFRO` — *la terre rouge*
+Mon encre a l'odeur de la terre rouge du Bénin. Si un jour mes vers traversent l'océan, ils raconteront d'où viennent les miens.
+
+**52.** `MINIMAL` — *dire vrai*
+Il y a des nuits où je doute de tout, sauf de la raison pour laquelle j'ai commencé : dire vrai.
+
+**53.** `MINIMAL` — *la porte ouverte*
+Un jour, mes enfants liront mes vers et me rencontreront. Écrire, c'est laisser la porte ouverte à ceux qui viennent après.
+
+**54.** `LUXE` — *appel aux lecteurs*
+Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : commente le vers qui t'a touché. Un parolier vit de ces retours-là.

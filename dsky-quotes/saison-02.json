@@ -1,0 +1,22 @@
+[
+  {"num": 45,  "style": "LUXE",    "base": "assets/bases/base-45.jpg",
+   "text": "J'écris pour ne pas exploser. Chaque rime est une douleur qui a trouvé la sortie. Si mes mots te touchent, c'est qu'ils sont passés par le même feu que les tiens."},
+  {"num": 46,  "style": "AFRO",    "base": "assets/bases/base-46.jpg",
+   "text": "La rue m'a appris à parler, la vie m'a appris à me taire, et le papier m'a appris à vivre entre les deux."},
+  {"num": 47,  "style": "LUXE",    "base": "assets/bases/base-47.jpg",
+   "text": "On m'a blessé en musique, alors j'ai répondu en mélodie. C'est ça, être parolier : transformer ses cicatrices en refrains que les autres chantent."},
+  {"num": 48,  "style": "LUXE",    "base": "assets/bases/base-48.jpg",
+   "text": "Quand un inconnu me dit « cette chanson, c'est ma vie », je comprends que mes blessures servaient à quelque chose."},
+  {"num": 49,  "style": "MINIMAL", "base": "assets/bases/base-49.jpg",
+   "text": "Tout le monde entend le refrain, personne ne voit les nuits blanches. L'art, c'est rendre magique ce qui a coûté des larmes."},
+  {"num": 50,  "style": "LUXE",    "base": "assets/bases/base-50.jpg",
+   "text": "Nous autres, paroliers, on meurt deux fois : quand le cœur s'arrête, et quand on cesse d'écrire. Moi, je compte repousser la deuxième le plus loin possible."},
+  {"num": 51,  "style": "AFRO",    "base": "assets/bases/base-51.jpg",
+   "text": "Mon encre a l'odeur de la terre rouge du Bénin. Si un jour mes vers traversent l'océan, ils raconteront d'où viennent les miens."},
+  {"num": 52,  "style": "MINIMAL", "base": "assets/bases/base-52.jpg",
+   "text": "Il y a des nuits où je doute de tout, sauf de la raison pour laquelle j'ai commencé : dire vrai."},
+  {"num": 53,  "style": "MINIMAL", "base": "assets/bases/base-53.jpg",
+   "text": "Un jour, mes enfants liront mes vers et me rencontreront. Écrire, c'est laisser la porte ouverte à ceux qui viennent après."},
+  {"num": 54,  "style": "LUXE",    "base": "assets/bases/base-54.jpg",
+   "text": "Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : commente le vers qui t'a touché. Un parolier vit de ces retours-là."}
+]

@@ -60,3 +60,14 @@ python3 compose.py 01     # → salve-01/post/*.jpg + salve-01/story/*.jpg
 
 © 2026 C. Jésutondji Samuel Stein — Visuels générés par IA d'après les photos de l'auteur.
 Polices : SIL Open Font License.
+
+
+---
+
+# 🎤 SAISON 2 — « Le voyage du parolier » (45 → 54)
+
+- **Format** : Story 1080×1920 uniquement
+- **Images** : 100 % IA (scènes anonymes — silhouettes, objets, foules) — aucune photo de l'auteur
+- **Citations** : écrites par l'IA pour l'auteur, dans sa voix de lyriciste
+- **Nouveauté** : barre CTA intégrée — *Like · Commente · Partage · Abonne-toi*
+- **Moteur** : `compose_s2.py` + `saison-02.json` → `saison-02/story/`
