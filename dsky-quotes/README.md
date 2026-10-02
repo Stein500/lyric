@@ -84,7 +84,7 @@ Polices : SIL Open Font License.
 
 # 🎨 Série ART (65 → 90)
 
-La citation est désormais **typographiée par l'IA à l'intérieur de l'œuvre elle-même**
+Série ART I→IV (65 → 100). La citation est **typographiée par l'IA à l'intérieur de l'œuvre elle-même**
 (effet chic, vocabulaire simple). Le code n'ajoute plus que le branding : badge `DSKY 🇧🇯`,
 N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art.py`.
 
@@ -118,6 +118,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 88 | Les rêves reportés | anime nostalgique |
 | 89 | Les masques | nature morte baroque |
 | 90 | Le vrai amour | cuisine à 1 h du matin |
+| 91 | Le capital confié | huile Caravaggio (ailes noires) |
+| 92 | Les secrets | surréalisme Magritte |
+| 93 | La réussite | escalier de marbre dans la brume |
+| 94 | Le serpent | miniature persane |
+| 95 | L'aube de la ville | marché de l'aube |
+| 96 | La pluie | aquarelle nocturne, tôle |
+| 97 | L'honnêteté | linogravure taximan |
+| 98 | Le je t'aime des nôtres | photo familiale |
+| 99 | Le message relu | photo nocturne |
+| 100 | Le masque de l'argent | portrait baroque doré |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

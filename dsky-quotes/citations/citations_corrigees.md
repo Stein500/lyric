@@ -317,3 +317,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **89.** `LES MASQUES` — nature morte baroque (masks vénitiens) — « Chacun garde une arme à la maison et un sourire dehors ; la paix coûte cher. »
 
 **90.** `LE VRAI AMOUR` — photo intime, cuisine à 1 h du matin — « Les grands amours ne font pas de bruit : ils rangent la cuisine pendant que tu dors. »
+
+---
+
+## SAISON 2 — Série ART IV (91 → 100)
+*La centaine ! Trahison (Caravaggio, Magritte, miniature persane), quotidien (marché de l'aube, pluie sur la tôle, taximan linocut), amour (« Tu as mangé ? ») et le masque de l'argent pour le N° 100. Orthographe vérifiée 10/10.*
+
+**91.** `LE CAPITAL CONFÉ` — huile Caravaggio (ailes noires, poignée de main) — « L'argent confié à un frère prend des ailes. Parfois, le frère s'envole avec. »
+
+**92.** `LES SECRETS` — surréalisme Magritte (homme-cadenau, oiseaux) — « Chaque secret que tu partages est un couteau qui dort dans la poche de l'autre. »
+
+**93.** `LA RÉUSSITE` — photo conceptuelle, escalier de marbre dans la brume — « Quand je tombais, mon téléphone se taisait. Aujourd'hui qu'il sonne, je comprends. »
+
+**94.** `LE SERPENT` — miniature persane, feu de camp — « Réchauffe un serpent contre ton cœur : il te mordra avec la chaleur que tu lui as prêtée. »
+
+**95.** `L'AUBE DE LA VILLE` — photo 5 h du matin, four à pain — « À 5 h, la ville recommence : pain chaud, prières, balais. La lutte a son aube. »
+
+**96.** `LA PLUIE` — aquarelle nocturne, tôle et bougie — « La pluie sur la tôle ne demande pas ton compte en banque ; elle arrose tous les rêves pareil. »
+
+**97.** `L'HONNÊTETÉ` — linogravure noir & jaune, taximan — « Il a rendu la monnaie en trop. Un geste petit dans sa main, géant dans le cœur. »
+
+**98.** `LE JE T'AIME DES NÔTRES` — photo familiale dorée — « Chez nous, « Tu as mangé ? » veut dire « Je t'aime » — c'est le je t'aime des nôtres. »
+
+**99.** `LE MESSAGE RELU` — photo nocturne intime, téléphone — « Tu relis le même message depuis une heure ? Ce n'est pas le message que tu aimes. C'est la personne. »
+
+**100.** `LE MASQUE DE L'ARGENT` — portrait baroque doré, visage miroir brisé — « L'argent ne change pas les gens : il enlève le masque qu'ils portaient. »
