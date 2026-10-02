@@ -342,3 +342,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **99.** `LE MESSAGE RELU` — photo nocturne intime, téléphone — « Tu relis le même message depuis une heure ? Ce n'est pas le message que tu aimes. C'est la personne. »
 
 **100.** `LE MASQUE DE L'ARGENT` — portrait baroque doré, visage miroir brisé — « L'argent ne change pas les gens : il enlève le masque qu'ils portaient. »
+
+---
+
+## SAISON 2 — Série ART V (101 → 110)
+*Salve 101-110 : pop art, théâtre d'ombres wayang, crépuscule entre deux vies, expressionnisme muet, foot rétro, appel de loin, mains au marché, jazz Harlem, sceau de cire, Catrina. Orthographe vérifiée 10/10.*
+
+**101.** `LES DEUX RIRES` — pop art (Warhol) — « Il rit à toutes tes blagues devant toi. C'est derrière ton dos qu'il choisit ses rires. »
+
+**102.** `LE CONSEILLER` — théâtre d'ombres wayang — « Méfie-toi de celui qui te conseille toujours le bas : c'est de là-haut qu'il parle. »
+
+**103.** `L'ARGENT & LA RUE` — photo crépuscule, deux mondes — « L'argent lui a payé une nouvelle vie, mais pas une nouvelle rue. »
+
+**104.** `L'ACTEUR` — expressionnisme muet, masque d'or — « Il a joué l'ami si longtemps qu'il y a cru — et c'est ce jour-là qu'il a trahi. »
+
+**105.** `LE BUT DU QUARTIER` — affiche foot rétro — « La 90e minute, le but du quartier : toute la rue crie comme un seul cœur. »
+
+**106.** `L'APPEL DE LOIN` — nocturne, téléphone ancien — « Parfois, à mille kilomètres, une question suffit : Tu es rentré ? Et la maison se rouvre. »
+
+**107.** `VINGT ANS` — photo marché, mains unies — « Dans la foule du marché, sa main a trouvé la mienne : vingt ans, et mon cœur court encore. »
+
+**108.** `LA PAIX SIGNÉE` — affiche jazz Harlem — « On s'est querellés pour un rien ; le fou rire a signé la paix. »
+
+**109.** `LE NOM` — sceau de cire or & indigo — « Garde ton nom propre : les comptes se vident, la réputation reste. »
+
+**110.** `L'HEURE JUSTE` — gravure mexicaine, Catrina au sablier — « La mort ne prévient pas : elle rappelle l'heure à ceux qui croyaient avoir tout le temps. »

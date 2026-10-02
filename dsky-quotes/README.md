@@ -128,6 +128,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 98 | Le je t'aime des nôtres | photo familiale |
 | 99 | Le message relu | photo nocturne |
 | 100 | Le masque de l'argent | portrait baroque doré |
+| 101 | Les deux rires | pop art (Warhol) |
+| 102 | Le conseiller | théâtre d'ombres wayang |
+| 103 | L'argent & la rue | crépuscule, deux mondes |
+| 104 | L'acteur | expressionnisme muet |
+| 105 | Le but du quartier | affiche foot rétro |
+| 106 | L'appel de loin | nocturne, téléphone ancien |
+| 107 | Vingt ans | mains au marché |
+| 108 | La paix signée | jazz Harlem |
+| 109 | Le nom | sceau de cire |
+| 110 | L'heure juste | Catrina au sablier |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 
