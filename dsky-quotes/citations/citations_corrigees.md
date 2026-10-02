@@ -292,3 +292,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **79.** `LA MÈRE` — mosaïque tissée kente — « Ta mère a porté ta vie neuf mois ; porte son sourire toute ta vie. »
 
 **80.** `LE RÊVE` — fresque urbaine — « Un rêve qui dort ne meurt pas : il attend que tu te réveilles. »
+
+---
+
+## SAISON 2 — Série ART III (81 → 90)
+*Trahison entre frères & beautés du quotidien — 10 œuvres, citations typographiées par l'IA, lisibilité prioritaire (grand, horizontal, contrasté). Orthographe vérifiée 10/10.*
+
+**81.** `LA TRAHISON` — néo-noir cinématographique (poignard dans l'ombre) — « Le coup de poing d'un ennemi se voit venir. La trahison d'un frère, elle, te serre la main. »
+
+**82.** `L'AMI & TA PLACE` — peinture à l'huile, bar feutré — « C'est rarement un ennemi qui prend ta place. C'est ce frère que tu avais mis à l'abri. »
+
+**83.** `LE BOULOT` — affiche suisse (style international) — « Épuisé à 22 h pour le rêve d'un autre ? Garde un peu de fatigue pour le tien. »
+
+**84.** `LE SOURIRE QUI SAUVE` — photo nocturne, supérette africaine — « Elle encaisse huit heures par jour, mais son sourire à la caisse rembourse ta journée entière. »
+
+**85.** `TOMBER AMOUREUX` — gouache poétique, taxi jaune au crépuscule — « L'amour ne prévient pas : il t'attend dans un taxi, une queue, un sourire banal. »
+
+**86.** `LES PETITS BONHEURS` — illustration conte chaleureux — « On court après une grande vie en ratant les petits bonheurs : le pain chaud, la pluie, un message inattendu. »
+
+**87.** `LA DÉCEPTION` — comic book noir & rouge — « La déception, c'est cet ami qui t'ignore quand tout va bien et hurle ton nom quand tout va mal. »
+
+**88.** `LES RÊVES REPORTÉS` — anime nostalgique, aube — « La routine n'a jamais tué personne ; ce sont les rêves reportés qui fatiguent le cœur. »
+
+**89.** `LES MASQUES` — nature morte baroque (masks vénitiens) — « Chacun garde une arme à la maison et un sourire dehors ; la paix coûte cher. »
+
+**90.** `LE VRAI AMOUR` — photo intime, cuisine à 1 h du matin — « Les grands amours ne font pas de bruit : ils rangent la cuisine pendant que tu dors. »

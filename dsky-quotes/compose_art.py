@@ -12,6 +12,8 @@ ART = {  # num -> style d'accent
     65: "LUXE", 66: "LUXE", 67: "AFRO", 68: "MINIMAL", 69: "MINIMAL", 70: "LUXE",
     71: "LUXE", 72: "LUXE", 73: "MINIMAL", 74: "LUXE", 75: "MINIMAL",
     76: "LUXE", 77: "AFRO", 78: "LUXE", 79: "AFRO", 80: "AFRO",
+    81: "LUXE", 82: "LUXE", 83: "MINIMAL", 84: "AFRO", 85: "AFRO",
+    86: "LUXE", 87: "MINIMAL", 88: "MINIMAL", 89: "LUXE", 90: "AFRO",
 }
 
 def brand(num):
@@ -83,5 +85,5 @@ def brand(num):
     print("✔", f"quote-{num}-story.jpg  [ART · {ART[num]}]")
 
 if __name__ == "__main__":
-    for n in (65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80):
+    for n in tuple(ART):
         brand(n)

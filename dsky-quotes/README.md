@@ -71,3 +71,56 @@ Polices : SIL Open Font License.
 - **Citations** : écrites par l'IA pour l'auteur, dans sa voix de lyriciste
 - **Nouveauté** : barre CTA intégrée — *Like · Commente · Partage · Abonne-toi*
 - **Moteur** : `compose_s2.py` + `saison-02.json` → `saison-02/story/`
+
+---
+
+# 🖤 Les Vraies (55 → 64)
+
+- **Format** : Story 1080×1920 uniquement — `saison-02/story/`
+- **Citations** : thèmes imposés par l'auteur, écrits dans sa voix (*l'argent, le cœur, la rue…*)
+- **Visuels** : 100 % IA anonymes, une ambiance par citation
+
+---
+
+# 🎨 Série ART (65 → 90)
+
+La citation est désormais **typographiée par l'IA à l'intérieur de l'œuvre elle-même**
+(effet chic, vocabulaire simple). Le code n'ajoute plus que le branding : badge `DSKY 🇧🇯`,
+N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art.py`.
+
+*Lisibilité d'abord : lettres grandes, horizontales, fort contraste.*
+
+| # | Thème | Style de l'œuvre |
+|---|---|---|
+| 65 | Le travail | constructivisme russe |
+| 66 | La passion | anime flamboyant |
+| 67 | La musique | BD africaine |
+| 68 | La famille | Disney/Pixar |
+| 69 | Les faux amis | ligne claire (ombre au poignard) |
+| 70 | Le temps | Art Déco |
+| 71 | Le silence | estampe ukiyo-e |
+| 72 | Pardonner | vitrail gothique |
+| 73 | Temps & argent | Bauhaus / style suisse |
+| 74 | La jalousie | timbre gravé |
+| 75 | L'amour vrai | Ghibli aquarelle |
+| 76 | L'échec | affiche de film |
+| 77 | La discipline | comics américain |
+| 78 | La vérité | papercut renard & loup |
+| 79 | La mère | mosaïque kente |
+| 80 | Le rêve | fresque urbaine |
+| 81 | La trahison | néo-noir cinématographique |
+| 82 | L'ami & ta place | huile, bar feutré |
+| 83 | Le boulot | affiche suisse |
+| 84 | Le sourire qui sauve | supérette africaine la nuit |
+| 85 | Tomber amoureux | gouache, taxi au crépuscule |
+| 86 | Les petits bonheurs | illustration conte |
+| 87 | La déception | comic book noir & rouge |
+| 88 | Les rêves reportés | anime nostalgique |
+| 89 | Les masques | nature morte baroque |
+| 90 | Le vrai amour | cuisine à 1 h du matin |
+
+Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
+
+---
+
+© 2026 C. Jésutondji Samuel Stein — Visuels 100 % IA. Polices : SIL Open Font License.
