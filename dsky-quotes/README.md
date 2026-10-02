@@ -124,3 +124,7 @@ Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART
 ---
 
 © 2026 C. Jésutondji Samuel Stein — Visuels 100 % IA. Polices : SIL Open Font License.
+
+### 📱 Version TIKTOK (`saison-02/tiktok/` — moteur `compose_art_tt.py`)
+Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CTA terminent à ~1630 px,
+**290 px libres en bas** pour le pseudo / la légende / le titre musical de TikTok — rien n'est masqué.
