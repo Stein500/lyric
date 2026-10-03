@@ -51,7 +51,7 @@ def brand(num):
     wnum = tracking_w(d, t, fnum, 3)
     draw_tracking(d, (W-m-wnum, m+14), t, fnum, acc+(255,), tr=3, shadow=(0,0,0,160))
 
-    fy = H - int(H*0.062)
+    fy = H - 235
     d.rectangle([W/2-28, fy-36, W/2+28, fy-33], fill=acc+(255,))
     fsig = montserrat(25, 700)
     draw_tracking(d, (0, fy-10), "C. JÉSUTONDJI SAMUEL STEIN", fsig,
