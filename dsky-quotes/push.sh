@@ -5,12 +5,12 @@
 # Utilisation :
 #   GITHUB_TOKEN=ghp_votre_token bash push.sh "message du commit"
 #
-# MODE SURCOUCHE (sûr avec un workspace purgé) :
-#   1. l'arbre COMPLET de main sert de base (musique + dsky-quotes/)
-#   2. les entrées dsky-quotes/ de la base sont remplacées par le
-#      contenu du workspace (ajouts + modifications ; --no-all :
-#      les suppressions locales ne sont JAMAIS poussées)
-# → GitHub conserve tout, le workspace peut être purgé librement.
+# MODE GREFFON (sûr avec un workspace purgé) :
+#   1. l'arbre COMPLET de main est chargé (musique + dsky-quotes/)
+#   2. les fichiers du workspace sont GREFFÉS par-dessus sous
+#      dsky-quotes/ (ajouts + mises à jour uniquement ;
+#      --no-all + update-index : aucune suppression possible)
+# → GitHub conserve TOUT, le workspace peut être purgé librement.
 # Le token n'est JAMAIS stocké (variable d'environnement only).
 # ============================================================
 set -e
@@ -35,24 +35,25 @@ git fetch --depth 1 --filter=blob:none "$REMOTE" main 2>/dev/null || true
 MAIN=$(git rev-parse FETCH_HEAD 2>/dev/null || true)
 echo "   main         : ${MAIN:-indisponible (premier push ?)}"
 
-echo "── 2. Arbre du workspace (surcouche) ──"
+echo "── 2. Arbre du workspace ──"
 rm -f "$IDX2"
 GIT_INDEX_FILE="$IDX2" git add --no-all .
 PROJECT_TREE=$(GIT_INDEX_FILE="$IDX2" git write-tree)
-rm -f "$IDX2"
-echo "   workspace    : $PROJECT_TREE"
+echo "   workspace    : $PROJECT_TREE ($(GIT_INDEX_FILE=$IDX2 git ls-files | wc -l) fichiers)"
 
-echo "── 3. Fusion : main complet + workspace dans dsky-quotes/ ──"
+echo "── 3. Greffe : main complet + workspace sous dsky-quotes/ ──"
 rm -f "$IDX"
 if [ -n "$MAIN" ]; then
   GIT_INDEX_FILE="$IDX" git read-tree "$MAIN"
-  GIT_INDEX_FILE="$IDX" git rm -r -q --cached dsky-quotes 2>/dev/null || true
-  echo "   base main conservée (hors dsky-quotes/)"
+  echo "   base main    : $(GIT_INDEX_FILE=$IDX git ls-files | wc -l) fichiers conservés"
 fi
-GIT_INDEX_FILE="$IDX" git read-tree --prefix=dsky-quotes/ "$PROJECT_TREE"
+# greffe : mêmes blobs que l'index local, chemins préfixés dsky-quotes/
+GIT_INDEX_FILE="$IDX2" git ls-files -s | awk -F'\t' '{print $1 "\tdsky-quotes/" $2}' \
+  | GIT_INDEX_FILE="$IDX" git update-index --index-info
+rm -f "$IDX2"
 TREE=$(GIT_INDEX_FILE="$IDX" git write-tree)
 rm -f "$IDX"
-echo "   arbre complet: $TREE"
+echo "   arbre complet: $TREE ($(GIT_INDEX_FILE=/dev/null git ls-tree -r "$TREE" dsky-quotes 2>/dev/null | wc -l) fichiers dans dsky-quotes/)"
 
 echo "── 4. Push de main ──"
 MERGE=$(git commit-tree "$TREE" ${MAIN:+-p "$MAIN"} -m "$MSG")
@@ -63,4 +64,4 @@ LIGHT=$(git commit-tree "$PROJECT_TREE" -m "$MSG — branche légère dsky-quote
 git push -f "$REMOTE" "$LIGHT:refs/heads/dsky-quotes" 2>&1 | grep -E "dsky-quotes|rejected|error" || true
 
 echo "✅ Terminé. main:dsky-quotes = $TREE"
-echo "   (surcouche : rien de GitHub n'a pu être supprimé par accident)"
+echo "   (greffe : rien de GitHub n'a pu être supprimé par accident)"
