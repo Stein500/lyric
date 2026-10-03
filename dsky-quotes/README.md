@@ -138,6 +138,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 108 | La paix signée | jazz Harlem |
 | 109 | Le nom | sceau de cire |
 | 110 | L'heure juste | Catrina au sablier |
+| 111 | Le copieur | double exposition |
+| 112 | Les secrets en vol | gravure victorienne |
+| 113 | Le tiers visage | nature morte flamande |
+| 114 | Les beignets de midi | street food wax |
+| 115 | Le vieux devant la porte | huile afro-contemporaine |
+| 116 | Le vrai père | photo main dans la main |
+| 117 | Dimanche | hamac & transistor 70s |
+| 118 | Le côté froid | lit à l'aube |
+| 119 | Honneur aux invisibles | zémidjan sous la pluie |
+| 120 | Le lac Nokoué | pirogue à l'aube |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

@@ -367,3 +367,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **109.** `LE NOM` — sceau de cire or & indigo — « Garde ton nom propre : les comptes se vident, la réputation reste. »
 
 **110.** `L'HEURE JUSTE` — gravure mexicaine, Catrina au sablier — « La mort ne prévient pas : elle rappelle l'heure à ceux qui croyaient avoir tout le temps. »
+
+---
+
+## SAISON 2 — Série ART VI (111 → 120)
+*Salve 111-120 : le copieur (double exposition), la cage aux secrets (gravure victorienne), le tiers visage dans le verre (nature morte flamande), les beignets de midi, le vieux devant la porte, le faux père/vrai père, le dimanche hamac, le côté froid du lit, le zémidjan sous la pluie, le pêcheur du lac Nokoué. Orthographe vérifiée 10/10.*
+
+**111.** `LE COPIEUR` — double exposition monochrome — « Il copie ta marche, tes phrases, ta mode. Le copieur finit toujours par vouloir ta place. »
+
+**112.** `LES SECRETS EN VOL` — gravure victorienne, cage ouverte — « Un secret confié à dix bouches devient une place publique. »
+
+**113.** `LE TIERS VISAGE` — nature morte flamande, reflet dans le verre — « Le poison le plus doux se sert à ta propre table, avec le sourire. »
+
+**114.** `LES BEIGNETS DE MIDI` — photo street food, vendeuse en wax — « Trois beignets à midi ne nourrissent pas que le corps : ça remet le cœur en marche. »
+
+**115.** `LE VIEUX DEVANT LA PORTE` — huile afro-contemporaine, crépuscule — « Le vieux devant la porte ne regarde pas la route ; il compte les retours. »
+
+**116.** `LE VRAI PÈRE` — photo tendre, main dans la main — « Ce n'est pas son sang, mais c'est lui qui paie l'école. Les vrais pères se reconnaissent là. »
+
+**117.** `DIMANCHE` — illustration 70s, hamac et transistor — « Dimanche : la radio commente le match, et la semaine entière pardonne. »
+
+**118.** `LE CÔTÉ FROID` — photo aube, lit défait — « Le pire du départ, ce n'est pas le silence ; c'est le côté du lit qui reste froid. »
+
+**119.** `HONNEUR AUX INVISIBLES` — photo nuit, zémidjan sous la pluie — « Il connaît toutes les rues ; la ville ne connaît pas son nom. Honneur aux invisibles. »
+
+**120.** `LE LAC NOKOUÉ` — photo aube, pirogue et filet — « Sur le lac Nokoué, le pêcheur attend sans bruit : l'eau donne à qui sait rester. »
