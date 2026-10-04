@@ -1,0 +1,189 @@
+{
+  "projet": "des_le_debut",
+  "titre_exact": "Dès le début",
+  "artiste": "Daïsky",
+  "contacts": {
+    "email": "daiskyproduction@gmail.com",
+    "whatsapp": [
+      "+229 01 61 16 24 08",
+      "+229 01 49 11 49 51"
+    ]
+  },
+  "branche": "arena/01a10746-lyric",
+  "prompt_referentiel": "PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md",
+  "statut": "S6 Aube Sacrée + ancres proposés — validation artiste requise",
+  "audio": {
+    "fichier": "Dès le début.mp3",
+    "duree_decodee_s": 199.99,
+    "frequence": 48000,
+    "canaux": 2,
+    "bitrate_kbps": 185,
+    "pochette_integree": "360x360 mjpeg",
+    "tags_source": {
+      "title": "Dès le début",
+      "artist": "codjosamuelstein"
+    },
+    "note": "aucun silence numérique > 3 s : le beat tourne en continu"
+  },
+  "paroles": {
+    "fichier_source": "Dès le début- Jésus-Christ sauveur.txt",
+    "vers_total": 51,
+    "textes_distincts": 32,
+    "premier_depart_s": 5.68,
+    "dernier_depart_s": 169.18,
+    "sections_uslt": [
+      "Couplet 1 - Voix masculine, flow posé",
+      "Pré-refrain - Voix féminine, montée"
+    ]
+  },
+  "fenetres_sans_parole_5s": [
+    {
+      "debut": 0.0,
+      "fin": 5.68,
+      "duree_s": 5.68,
+      "contexte": "intro"
+    },
+    {
+      "debut": 5.68,
+      "fin": 12.56,
+      "duree_s": 6.88,
+      "contexte": "après le tag du beat"
+    },
+    {
+      "debut": 19.43,
+      "fin": 29.03,
+      "duree_s": 9.6,
+      "contexte": "après « Roi des rois »"
+    },
+    {
+      "debut": 62.56,
+      "fin": 68.25,
+      "duree_s": 5.69,
+      "contexte": "après le tag du beat"
+    },
+    {
+      "debut": 103.65,
+      "fin": 116.54,
+      "duree_s": 12.89,
+      "contexte": "après « Jésus… Christ… Sauveur… »"
+    },
+    {
+      "debut": 126.61,
+      "fin": 151.82,
+      "duree_s": 25.21,
+      "contexte": "pont instrumental"
+    },
+    {
+      "debut": 169.18,
+      "fin": 199.99,
+      "duree_s": 30.81,
+      "contexte": "outro / queue instrumentale"
+    }
+  ],
+  "questionnaire_valide": {
+    "heros_mode": "inventes",
+    "heros_detail": "un homme et une femme fictifs, humbles devant Dieu, pas embellis ; tatouages religieux SYMBOLES seulement (le mot « Jésus » en lettres = post-production, jamais généré)",
+    "photos_autorisees": [],
+    "budget_images": {
+      "mode": "vingt_scenes_deux_formats",
+      "scenes": 20,
+      "fonds_total": 40,
+      "formats": [
+        "1080x1920",
+        "1920x1080"
+      ]
+    },
+    "clochettes_cta": "comme_apercu",
+    "paroles_position": "mixte",
+    "style": "innovation_ia_s6",
+    "formats_sortie": [
+      "9:16",
+      "16:9"
+    ],
+    "sub_questions_defaut": "cold-open 6 s, badge Dsky + drapeau Bénin + bandeau 54 px, cover 1080² 100 % IA avec texte en post, pack complet + prompt + Termux — à confirmer"
+  },
+  "cta_clochettes": {
+    "regle": "toute fenêtre sans parole > 5 s affiche l'animation clochettes → s'abonner + surtout PARTAGER",
+    "fenetres_retenues": 7,
+    "duree_cumulee_s": 96.76,
+    "animation": {
+      "fondu_entree_sortie_s": 0.35,
+      "balancement_amplitude_deg": 12,
+      "balancement_periode_s": 1.2,
+      "halo_pulse_s": 0.8,
+      "anneaux_onde_s": 0.9,
+      "repetition_fenetre_longue_s": 4.0,
+      "priorite_visuelle": "PARTAGE",
+      "dessin": "vectoriel Pillow — aucune emoji systeme"
+    },
+    "positions_safe_zones": {
+      "bande_haute_interdite": "y 0-144",
+      "rail_droit_interdit": "x >= 910 et y 960-1690",
+      "bande_basse_interdite": "y >= 1574"
+    }
+  },
+  "livrables_prevus": [
+    "clip 9:16",
+    "clip 16:9",
+    "MP3 master 320k",
+    "covers",
+    "prompt à jour",
+    "commandes Termux"
+  ],
+  "chantier_parallele": {
+    "dossier": "Samuel/",
+    "objet": "7 prompts de retouche photo (DSLR, lumière, grading, peau, fond, cinéma, finition)",
+    "regle": "10 images max par salve, ancre validée avant salve — non lancé dans cette étape"
+  },
+  "style": {
+    "code": "S6",
+    "nom": "Aube Sacrée",
+    "statut": "proposé par l'IA (choix Innovation IA)",
+    "suffixe": "warm volumetric god-rays through dusty air, terracotta and ochre earth tones, deep indigo shadows, wax-print woven textile textures catching the light, floating dust motes, soft bloom around skin, sacred reverent atmosphere, crushed indigo blacks with golden highlights, 35mm film grain, moody spiritual cinematic grading"
+  },
+  "ancres": {
+    "portrait": "ancres/ancre_s6_portrait_01.png",
+    "paysage": "ancres/ancre_s6_paysage_01.png",
+    "planche": "ancres/PLANCHE_ANCRES_S6.jpg",
+    "tentatives": 2,
+    "note_tentative_1": "tenue et tatouages dérivaient en paysage — régénérée avec bloc héros verrouillé"
+  },
+  "plan_scenes": {
+    "fichier": "PLAN_20_SCENES.md",
+    "scenes": 20,
+    "salves": [
+      {
+        "salve": "A",
+        "contenu": "s01-s05 portrait",
+        "images": 5
+      },
+      {
+        "salve": "B",
+        "contenu": "s01-s05 paysage",
+        "images": 5
+      },
+      {
+        "salve": "C",
+        "contenu": "s06-s10 deux formats",
+        "images": 10
+      },
+      {
+        "salve": "D",
+        "contenu": "s11-s15 deux formats",
+        "images": 10
+      },
+      {
+        "salve": "E",
+        "contenu": "s16-s20 deux formats",
+        "images": 10
+      }
+    ]
+  },
+  "tatouage_jesus": "symbole généré + mot Jésus incrusté en post-production (jamais demandé à l'IA)",
+  "ratio_fonds_ia": {
+    "portrait": "768x1376",
+    "paysage": "1376x768",
+    "ecart_9x16_pct": 0.8,
+    "traitement": "mise à l'échelle 1080 puis recadrage centré 11 px"
+  }
+}
