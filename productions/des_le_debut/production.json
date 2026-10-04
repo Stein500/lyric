@@ -11,7 +11,7 @@
   },
   "branche": "arena/01a10746-lyric",
   "prompt_referentiel": "PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md",
-  "statut": "40 fonds produits (20 scènes × 2 formats) — en attente de validation ; maquette 14,5 s en préparation",
+  "statut": "40 fonds complets + maquette 14,5 s rendue — validation artiste requise",
   "audio": {
     "fichier": "Dès le début.mp3",
     "duree_decodee_s": 199.99,
@@ -257,7 +257,8 @@
   "quota_tour": {
     "utilise": 10,
     "max": 10,
-    "epuise": true
+    "epuise": true,
+    "note": "10 générations d'images de la salve E"
   },
   "progression_fonds": {
     "scene_formats": 40,
@@ -276,5 +277,29 @@
     "valide": true,
     "duree_s": 6.0,
     "moment": "refrain-titre énergétique (« Jésus, Christ Sauveur, dès le début / Tu es mon Roi, Tu es mon appui »)"
+  },
+  "maquette": {
+    "fichier": "apercu/MAQUETTE_Des_le_debut.mp4",
+    "duree_s": 14.5,
+    "extrait_audio": "1:46,0 → 2:00,5 de la chanson",
+    "frames": 435,
+    "controles": [
+      "1080x1920 H.264 30 fps + AAC 48 kHz",
+      "aucune frame noire",
+      "aucun gel > 2 s"
+    ],
+    "contenu": [
+      "clochettes CTA (fenêtre 12,9 s sans parole)",
+      "vers centré mot à mot + badge + scrim",
+      "bandeau Bénin 54 px"
+    ],
+    "moteur": "scripts/moteur_maquette.py",
+    "planche": "apercu/MAQUETTE_planche_controle.jpg"
+  },
+  "police_paroles": {
+    "fichier": "assets/fonts/BarlowCondensed-Bold.ttf",
+    "obtenue": "npm @fontsource/barlow-condensed → woff2 → ttf (fontTools + brotli)",
+    "glyphes": 505,
+    "couverture": "tous les caractères des paroles (accents inclus)"
   }
 }
