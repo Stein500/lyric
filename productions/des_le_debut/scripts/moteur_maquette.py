@@ -44,12 +44,9 @@ SCENES = [("s10", 103.65, 116.00), ("s11", 116.00, 126.61)]
 # fenêtres CTA (début, fin) en temps chanson — extraites de l'analyse (>5 s sans parole)
 CTA_WINDOWS = [(106.90, 116.24)]
 
-ap = argparse.ArgumentParser()
-ap.add_argument("--debut", type=float, default=106.0, help="début dans la chanson (s)")
-ap.add_argument("--duree", type=float, default=14.5)
-ap.add_argument("--sortie", default=os.path.join(PROD, "apercu", "MAQUETTE_Des_le_debut.mp4"))
-args = ap.parse_args()
-T0, DUR = args.debut, args.duree
+# valeurs par défaut (la CLI est lue dans main() : l'import du module ne consomme pas argv)
+T0, DUR = 106.0, 14.5
+args = None
 N = int(round(DUR * FPS))
 
 # ------------------------------------------------------------------ outils
@@ -259,6 +256,8 @@ def make_cta_layer(t, elapsed):
     """Calque CTA clochettes (entrée 0,35 s / sortie 0,35 s)."""
     IN = 0.35
     seq = 3.0
+    s_ = H / 1920.0
+    Y = lambda v: int(v * s_)
     fade = min(1.0, elapsed / IN)
     if fade <= 0:
         return None
@@ -268,54 +267,92 @@ def make_cta_layer(t, elapsed):
     # ondes de sonnerie
     for k in range(2):
         u = ((t / 0.9) + k * 0.5) % 1.0
-        rr = 150 + 250 * u
-        d.ellipse([cx - rr, 840 - rr, cx + rr, 840 + rr],
+        rr = int((150 + 250 * u) * s_)
+        d.ellipse([cx - rr, Y(840) - rr, cx + rr, Y(840) + rr],
                   outline=(255, 196, 78, int(150 * (1 - u) ** 1.6 * fade)), width=5)
     # cloche animée
     swing = 13 * math.sin(2 * math.pi * t / 1.2) * math.exp(-0.22 * ((t % 1.2) / 1.2))
     pulse = 1.0 + 0.05 * math.sin(2 * math.pi * t / 0.8)
-    sz = int(340 * pulse)
+    sz = int(340 * pulse * s_)
     b = Image.fromarray(BELL[0].astype(np.uint8)).convert("RGBA")
     b.putalpha(Image.fromarray((np.clip(BELL[1] * fade, 0, 1) * 255).astype(np.uint8)))
     b = b.resize((sz, sz), Image.LANCZOS).rotate(swing, resample=Image.BICUBIC, center=(sz / 2, sz * 0.10))
-    lay.alpha_composite(b, (cx - sz // 2, 670))
+    lay.alpha_composite(b, (cx - sz // 2, Y(670)))
     # étincelles
-    for sx, sy, off in [(cx - 190, 740, 0.0), (cx + 180, 770, 0.35), (cx + 105, 690, 0.7)]:
+    for sx, sy, off in [(cx - int(190*s_), Y(740), 0.0), (cx + int(180*s_), Y(770), 0.35), (cx + int(105*s_), Y(690), 0.7)]:
         u = ((t / 0.7) + off) % 1.0
         al = int(235 * (1 - abs(0.5 - u) * 2) ** 0.8 * fade)
         if al > 0:
-            star(d, sx, sy, 8 + 7 * math.sin(math.pi * u), (255, 240, 190, al))
+            star(d, sx, sy, (8 + 7 * math.sin(math.pi * u)) * s_, (255, 240, 190, al))
     # flèche clignotante
     u = (t / 1.0) % 1.0
     if u < 0.72:
         al = int(255 * (1 - u / 0.72) * fade)
-        yy = 630 + u * 26
-        d.polygon([(cx, yy + 30), (cx - 22, yy), (cx + 22, yy)], fill=(255, 255, 255, al))
+        yy = Y(630) + u * 26
+        d.polygon([(cx, Y(30) + yy), (cx - int(22*s_), yy), (cx + int(22*s_), yy)], fill=(255, 255, 255, al))
     # textes
-    d.rounded_rectangle([cx - 235, 1052, cx + 235, 1120], radius=26,
+    d.rounded_rectangle([cx - 235, Y(1052), cx + 235, Y(1120)], radius=26,
                         fill=(8, 12, 24, int(130 * fade)))
-    d.text((cx, 1090), "ABONNE-TOI", font=font(52, ui=True), fill=(255, 255, 255, int(255 * fade)),
+    d.text((cx, Y(1090)), "ABONNE-TOI", font=font(int(52 * s_), ui=True), fill=(255, 255, 255, int(255 * fade)),
            anchor="mm", stroke_width=5, stroke_fill=(0, 0, 0, int(190 * fade)))
-    box = [cx - 300, 1140, cx + 300, 1210]
-    d.rounded_rectangle(box, radius=35, fill=(10, 20, 34, int(200 * fade)),
+    box = [cx - 300, Y(1140), cx + 300, Y(1210)]
+    d.rounded_rectangle(box, radius=int(35 * s_), fill=(10, 20, 34, int(200 * fade)),
                         outline=(86, 226, 255, int((110 + 90 * math.sin(2 * math.pi * t / 0.9)) * fade)), width=4)
     # icône partage
-    r = 15
-    p = [(cx - 190, 1175), (cx - 105, 1152), (cx - 105, 1198)]
+    r = int(15 * s_)
+    p = [(cx - 190, Y(1175)), (cx - 105, Y(1152)), (cx - 105, Y(1198))]
     for a_, b_ in [(p[0], p[1]), (p[0], p[2])]:
-        d.line([a_, b_], fill=(255, 255, 255, int(255 * fade)), width=8)
+        d.line([a_, b_], fill=(255, 255, 255, int(255 * fade)), width=max(2, int(8 * s_)))
     for x, y in p:
         d.ellipse([x - r, y - r, x + r, y + r], fill=(255, 255, 255, int(255 * fade)))
-    d.polygon([(cx - 105, 1136), (cx - 63, 1152), (cx - 105, 1168)], fill=(255, 255, 255, int(255 * fade)))
-    d.text((cx + 60, 1175), "PARTAGE", font=SHARE_FONT, fill=(255, 255, 255, int(255 * fade)),
+    d.polygon([(cx - 105, Y(1136)), (cx - 63, Y(1152)), (cx - 105, Y(1168))], fill=(255, 255, 255, int(255 * fade)))
+    d.text((cx + 60, Y(1175)), "PARTAGE", font=font(int(42 * s_), ui=True), fill=(255, 255, 255, int(255 * fade)),
            anchor="mm", stroke_width=5, stroke_fill=(0, 0, 0, int(190 * fade)))
-    d.rounded_rectangle([cx - 300, 1240, cx + 300, 1292], radius=22,
+    d.rounded_rectangle([cx - 300, Y(1240), cx + 300, Y(1292)], radius=22,
                         fill=(8, 12, 24, int(120 * fade)))
-    d.text((cx, 1265), "Clique sur la cloche — puis PARTAGE", font=font(30, ui=True),
+    d.text((cx, Y(1265)), "Clique sur la cloche — puis PARTAGE", font=font(int(30 * s_), ui=True),
            fill=(255, 232, 160, int(240 * fade)), anchor="mm", stroke_width=4,
            stroke_fill=(0, 0, 0, int(170 * fade)))
     a = np.asarray(lay, dtype=np.float32)
     return a[:, :, :3], a[:, :, 3] / 255.0
+
+def compose_endcard(fr, prog):
+    """Endcard : titre cursive + artiste + WhatsApp + e-mail + badge (fondu d'entrée)."""
+    a = min(1.0, prog / 0.8)
+    if a <= 0:
+        return fr
+    s_ = H / 1920.0
+    sc = H / 1920.0
+    rgb, cov = BADGE
+    if abs(sc - 1.0) > 1e-6:
+        hh, ww = int(cov.shape[0] * sc), int(cov.shape[1] * sc)
+        rgb = np.asarray(Image.fromarray(rgb.astype(np.uint8)).resize((ww, hh), Image.LANCZOS), dtype=np.float32)
+        cov = np.asarray(Image.fromarray((cov * 255).astype(np.uint8)).resize((ww, hh), Image.LANCZOS), dtype=np.float32) / 255.0
+    h, w = cov.shape
+    x0, y0 = (W - w) // 2, int(150 * s_)
+    reg = fr[y0:y0 + h, x0:x0 + w]
+    a3 = (cov * 0.8)[:, :, None]
+    fr[y0:y0 + h, x0:x0 + w] = reg * (1 - a3) + rgb * a3
+    im = Image.fromarray(np.clip(fr, 0, 255).astype(np.uint8))
+    d = ImageDraw.Draw(im, "RGBA")
+    af = int(255 * a)
+    cx = W // 2
+    cy = int(H * 0.42)
+    t1 = font(int(120 * s_))
+    t2 = f_ui = ImageFont.truetype(FONT_UI, int(46 * s_))
+    t3 = ImageFont.truetype(FONT_UI, int(34 * s_))
+    d.text((cx, cy), "Dès le début", font=t1, fill=(255, 240, 205, af), anchor="mm",
+           stroke_width=3, stroke_fill=(0, 0, 0, int(af * 0.8)))
+    d.text((cx, cy + int(96 * s_)), "Daïsky", font=t2, fill=(255, 196, 78, af), anchor="mm")
+    d.line([cx - int(150 * s_), cy + int(140 * s_), cx + int(150 * s_), cy + int(140 * s_)],
+           fill=(255, 196, 78, int(af * 0.8)), width=max(1, int(3 * s_)))
+    d.text((cx, cy + int(196 * s_)), "WhatsApp  +229 01 61 16 24 08", font=t3, fill=(240, 240, 240, af), anchor="mm")
+    d.text((cx, cy + int(246 * s_)), "WhatsApp  +229 01 49 11 49 51", font=t3, fill=(240, 240, 240, af), anchor="mm")
+    d.text((cx, cy + int(296 * s_)), "daiskyproduction@gmail.com", font=t3, fill=(240, 240, 240, af), anchor="mm")
+    d.text((cx, cy + int(372 * s_)), "Wolof TechStein beat wê !", font=t3,
+           fill=(255, 232, 160, int(af * 0.9)), anchor="mm")
+    return np.asarray(im, dtype=np.float32)
+
 
 # ------------------------------------------------------------------ fonds
 def load_canvas(slot):
@@ -336,6 +373,34 @@ def scene_for(song_t):
             return k, slot, (song_t - a) / max(1e-6, (b - a)), (b - a)
     k = len(SCENES) - 1
     return k, SCENES[-1][0], 1.0, 1.0
+
+def render_bg_from(arr, u, k, t):
+    """Ken Burns (zoom 1,02→1,08 alterné) + pan sinusoïdal + respiration (vague d'eau)."""
+    ch, cw = arr.shape[:2]
+    zoom = 1.02 + 0.06 * (u if k % 2 == 0 else (1 - u))
+    cwid = int(W * CANVAS / zoom)
+    chei = int(H * CANVAS / zoom)
+    amp_x = (cw - cwid) / 2 * 0.65
+    amp_y = (ch - chei) / 2 * 0.65
+    cx = cw / 2 + amp_x * math.sin(2 * math.pi * t / 11.0 + k * 0.9)
+    cy = ch / 2 + amp_y * math.sin(2 * math.pi * t / 13.0 + k * 0.6)
+    x0 = int(max(0, min(cw - cwid, cx - cwid / 2)))
+    y0 = int(max(0, min(ch - chei, cy - chei / 2)))
+    img = Image.fromarray(arr[y0:y0 + chei, x0:x0 + cwid]).resize((W, H), Image.LANCZOS)
+    fr = np.asarray(img, dtype=np.float32)
+    xs = np.arange(W, dtype=np.float32)
+    dy = 3.0 * np.sin(2 * math.pi * xs / 210.0 + 2 * math.pi * 0.9 * t)
+    rows = np.arange(H, dtype=np.float32)[:, None]
+    idx = np.clip((rows + dy[None, :]).round().astype(np.int32), 0, H - 1)
+    return np.take_along_axis(fr, idx[:, :, None], axis=0)
+
+
+def rebuild_verses():
+    """Recalcule les sprites de paroles pour la largeur/le centre courants."""
+    global VERSES_PREP
+    VERSES_PREP = verse_sprites()
+    return VERSES_PREP
+
 
 def render_bg(song_t, t):
     """Ken Burns + pan + respiration (vague d'eau) sur le fond."""
@@ -435,10 +500,15 @@ def compose_badge(fr, vp, song_t):
     else:
         a = max(0.0, 1.0 - (song_t - (start + dur)) / 0.4)
     a *= 0.75                                     # plafond d'opacité
+    sc = H / 1920.0
     rgb, cov = BADGE
+    if abs(sc - 1.0) > 1e-6:
+        hh, ww = max(1, int(cov.shape[0] * sc)), max(1, int(cov.shape[1] * sc))
+        rgb = np.asarray(Image.fromarray(rgb.astype(np.uint8)).resize((ww, hh), Image.LANCZOS), dtype=np.float32)
+        cov = np.asarray(Image.fromarray((cov * 255).astype(np.uint8)).resize((ww, hh), Image.LANCZOS), dtype=np.float32) / 255.0
     h, w = cov.shape
     x0 = (W - w) // 2
-    y0 = 150
+    y0 = int(150 * sc)
     reg = fr[y0:y0 + h, x0:x0 + w]
     a3 = (cov * a)[:, :, None]
     fr[y0:y0 + h, x0:x0 + w] = reg * (1 - a3) + rgb * a3
@@ -460,6 +530,14 @@ def compose_cta(fr, song_t, t):
 
 # ------------------------------------------------------------------ rendu
 def main():
+    global args, T0, DUR, N
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--debut", type=float, default=106.0, help="début dans la chanson (s)")
+    ap.add_argument("--duree", type=float, default=14.5)
+    ap.add_argument("--sortie", default=os.path.join(PROD, "apercu", "MAQUETTE_Des_le_debut.mp4"))
+    args = ap.parse_args()
+    T0, DUR = args.debut, args.duree
+    N = int(round(DUR * FPS))
     os.makedirs(os.path.dirname(args.sortie), exist_ok=True)
     wav = "/tmp/maquette_audio.wav"
     subprocess.run([FFMPEG, "-v", "error", "-y", "-ss", str(T0), "-t", str(DUR), "-i", AUDIO,
