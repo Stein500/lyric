@@ -1,0 +1,47 @@
+{
+  "song": "Entre Tes Mains",
+  "artiste": "TechStein",
+  "audio_source": "Entre tes mains.mp3",
+  "audio_duration_decoded_s": 107.08,
+  "audio_spec": "48000 Hz stereo (source), loudnorm passe 1: input_i=-16.25 LUFS, input_tp=+0.04 dBTP, lra=8.80, thresh=-26.66, target_offset=0.89",
+  "methode_audit": "pics de flux spectral (seuil 1,15 x mediane locale 4 s, fenetre 512/22050 Hz) compares aux horaires LRC source ; tolerance +/-0,35 s",
+  "statut": "audited - calage mot a mot PROVISOIRE (estime au nombre de caracteres ; a confirmer a l'ecoute)",
+  "hook": {
+    "type": "refrain-titre",
+    "source_ligne": "Entre Tes mains, je remets tout,",
+    "start_s": 85.02,
+    "end_s": 91.02,
+    "duree_s": 6.0,
+    "justification": "coupe naturelle proposee : onset vocal confirme a 85,02 (delta +0,02) ; enveloppe RMS montre la fin de phrase a ~91,0 (-21 dB des 91,00), aucun silence interne ; duree exactement 6,00 s"
+  },
+  "scenes": [
+    {"id": "s01", "fond": "work/bg_s01_portrait.png", "style": "S2+S4", "debut_s": 0.0, "fin_s": 15.81, "sujet": "aube, silhouette a genoux mains jointes"},
+    {"id": "s02", "fond": "work/bg_s02_portrait.png", "style": "S2", "debut_s": 15.81, "fin_s": 28.6, "sujet": "mains ouvertes en gratitude"},
+    {"id": "s03", "fond": "work/bg_s03_portrait.png", "style": "S2", "debut_s": 28.6, "fin_s": 41.78, "sujet": "dome de lumiere protecteur sur la famille"},
+    {"id": "s04", "fond": "work/bg_s04_portrait.png", "style": "S4 ink&fire", "debut_s": 41.78, "fin_s": 73.04, "sujet": "pont introspectif encre + braise"},
+    {"id": "s05", "fond": "work/bg_s05_portrait.png", "style": "S2", "debut_s": 73.04, "fin_s": 107.08, "sujet": "mains elevees, remise entre Ses mains"}
+  ],
+  "blocages_sources_corriges": [
+    "L13 (73.04) ne durait que 1,26 s et L15 (78.27) 0,79 s (< minimum 1,2 s) : regroupement d'affichage L13+L14 puis L15+L16 en blocs de 2 lignes ; onsets vocaux conserves tels qu'audites (73.07 / 74.37 / 78.44 / 78.99 confirmes), texte integral preserve",
+    "L17 onset source 81.53 vs pic 82.08 (delta +0,55 > 0,35) : conserve a 81.53 car le pic voisin est un accent instrumental (pas de silence ni d'attaque vocale nette) - signale provisoire"
+  ],
+  "blocks": [
+    {"n": 1, "onset_s": 1.65, "fin_s": 5.14, "scene": "s01", "texte": ["C'est Techstein"]},
+    {"n": 2, "onset_s": 5.14, "fin_s": 10.03, "scene": "s01", "texte": ["Seigneur, en ce début de semaine,"]},
+    {"n": 3, "onset_s": 10.03, "fin_s": 15.81, "scene": "s01", "texte": ["Je viens à Toi, le cœur humble et serein."]},
+    {"n": 4, "onset_s": 15.81, "fin_s": 20.4, "scene": "s02", "texte": ["Merci pour la grâce de ce jour,"]},
+    {"n": 5, "onset_s": 20.4, "fin_s": 28.6, "scene": "s02", "texte": ["Merci pour Ta force et Ton amour."]},
+    {"n": 6, "onset_s": 28.6, "fin_s": 33.31, "scene": "s03", "texte": ["Pour les jours qui viennent, je Te demande,"]},
+    {"n": 7, "onset_s": 33.31, "fin_s": 41.78, "scene": "s03", "texte": ["Ta protection sur ma vie et sur ma famille."]},
+    {"n": 8, "onset_s": 41.78, "fin_s": 44.69, "scene": "s04", "texte": ["Donne-moi la sagesse dans mes choix,"]},
+    {"n": 9, "onset_s": 44.69, "fin_s": 53.05, "scene": "s04", "texte": ["La paix dans l'esprit, le courage dans les combats."]},
+    {"n": 10, "onset_s": 53.05, "fin_s": 58.48, "scene": "s04", "texte": ["Que Ta volonté soit faite en moi,"]},
+    {"n": 11, "onset_s": 58.48, "fin_s": 65.97, "scene": "s04", "texte": ["Garde mes pas loin des pièges et des faux pas."]},
+    {"n": 12, "onset_s": 65.97, "fin_s": 73.04, "scene": "s04", "texte": ["Remplis mon cœur de foi et de patience,"]},
+    {"n": 13, "onset_s": 73.04, "fin_s": 78.27, "scene": "s05", "groupe": "L13+L14", "texte": ["D'amour sincère et de reconnaissance.", "Je Te confie mes projets et mes rêves,"]},
+    {"n": 14, "onset_s": 78.27, "fin_s": 81.53, "scene": "s05", "groupe": "L15+L16", "texte": ["Que cette semaine soit bénie,", "Mes combats secrets et mes trêves."]},
+    {"n": 15, "onset_s": 81.53, "fin_s": 85.02, "scene": "s05", "texte": ["Une semaine de victoires et de vie."]},
+    {"n": 16, "onset_s": 85.02, "fin_s": 93.21, "scene": "s05", "texte": ["Entre Tes mains, je remets tout,"]},
+    {"n": 17, "onset_s": 93.21, "fin_s": 105.81, "scene": "s05", "texte": ["Au nom de Jésus, Amen, debout."]}
+  ]
+}
