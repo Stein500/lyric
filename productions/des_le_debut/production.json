@@ -11,7 +11,7 @@
   },
   "branche": "arena/01a10746-lyric",
   "prompt_referentiel": "PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md",
-  "statut": "salve A (portraits s01-s05) rendue — validation artiste requise",
+  "statut": "salve A validee ; salve B (paysages s01-s05) + salve C1 (portraits s06-s09) proposees ; s10 portrait a refaire",
   "audio": {
     "fichier": "Dès le début.mp3",
     "duree_decodee_s": 199.99,
@@ -179,7 +179,7 @@
       }
     ]
   },
-  "tatouage_jesus": "symbole généré + mot Jésus incrusté en post-production (jamais demandé à l'IA)",
+  "tatouage_jesus": "incrusté en post sur l'avant-bras droit ET la poitrine (slots s02, s03, s04, s06, s08) — jamais généré",
   "ratio_fonds_ia": {
     "portrait": "768x1376",
     "paysage": "1376x768",
@@ -188,29 +188,46 @@
   },
   "salves": {
     "A": {
-      "statut": "proposée",
-      "images_generees": 6,
-      "slots": [
-        "s01",
-        "s02",
-        "s03",
-        "s04",
-        "s05"
-      ],
+      "statut": "VALIDÉE par l'artiste",
+      "format": "portrait 9:16",
+      "slots": "s01-s05",
       "planche": "fonds/portrait/_PLANCHE_SALVE_A.jpg",
-      "note": "s04 régénéré (bandes noires v1)"
+      "generations": 6
     },
     "B": {
-      "statut": "attente validation A"
+      "statut": "proposée",
+      "format": "paysage 16:9",
+      "slots": "s01-s05",
+      "planche": "fonds/paysage/_PLANCHE_SALVE_B.jpg",
+      "generations": 5,
+      "ecarts": [
+        "s02 pantalon gris au lieu de noir",
+        "s05 motif du pagne différent du portrait"
+      ]
     },
-    "C": {
-      "statut": "attente"
+    "C1": {
+      "statut": "proposée",
+      "format": "portrait 9:16",
+      "slots": "s06-s09",
+      "planche": "fonds/portrait/_PLANCHE_SALVE_C1.jpg",
+      "generations": 5
+    },
+    "C1_refus": {
+      "slot": "s10_reflet_dans_leau",
+      "motif": "les deux têtes réelles sont coupées par le haut du cadre — règle anti-hors-cadre",
+      "action": "régénérer au prochain tour"
+    },
+    "C2": {
+      "statut": "à venir",
+      "contenu": "s06-s10 paysage"
     },
     "D": {
-      "statut": "attente"
+      "statut": "à venir",
+      "contenu": "s11-s15 deux formats"
     },
     "E": {
-      "statut": "attente"
+      "statut": "à venir",
+      "contenu": "s16-s20 deux formats"
     }
   },
   "post_production_prevu": [
@@ -218,5 +235,10 @@
     "mot Jésus incrusté en script sur tatouage (s02,s03,s04)",
     "scrim central paroles",
     "Ken Burns 1.1x zoom 1.02-1.08"
-  ]
+  ],
+  "quota_tour": {
+    "utilise": 10,
+    "max": 10,
+    "epuise": true
+  }
 }
