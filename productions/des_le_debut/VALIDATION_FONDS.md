@@ -1,87 +1,68 @@
 # Validation des fonds — « Dès le début »
 
-Style : **S6 « Aube Sacrée »** (validé par l'artiste le 2026-10-04) · héros **inventés** · **aucune photo** personnelle envoyée.
-Règle appliquée : **validation entre chaque salve** · 10 générations maximum par tour.
+Style **S6 « Aube Sacrée »** · héros **inventés** · **aucune photo** personnelle envoyée au générateur ·
+10 générations maximum par tour · validation entre chaque salve.
+
+**État global : 20 scènes × 2 formats prévues. Images obtenues : 18 / 40 (10 scènes complètes en portrait,
+9 scènes en paysage, 1 slot paysage à produire).**
 
 ---
 
-## Salve A — portraits s01→s05 ✅ **VALIDÉE par l'artiste**
+## ✅ Salve A — portraits s01→s05 · **VALIDÉE par l'artiste**
 
-Planche : `fonds/portrait/_PLANCHE_SALVE_A.jpg` · 6 générations (1 remplacement : s04 v1 avait des bandes noires).
+Planche : `fonds/portrait/_PLANCHE_SALVE_A.jpg` · 6 générations (s04 v1 remplacée : bandes noires).
 
-| Slot | Fichier | État |
+## ✅ Salve B v2 — paysages s01→s05 · **corrigée et proposée**
+
+Planche : `fonds/paysage/_PLANCHE_SALVE_B.jpg` · 2 régénérations ciblées + 3 images acceptées (v1).
+
+| Slot | État | Correction apportée |
 |---|---|---|
-| s01 | `fonds/portrait/s01_piece_vide_aube.png` | validé |
-| s02 | `fonds/portrait/s02_homme_entre_croix.png` | validé |
-| s03 | `fonds/portrait/s03_croix_posee_tabouret.png` | validé |
-| s04 | `fonds/portrait/s04_mains_tatouees_jointes.png` (v2) | validé |
-| s05 | `fonds/portrait/s05_femme_rai_de_lumiere.png` | validé |
+| s01 | v1 conservée | pièce vide, rayon, tabouret + natte + linge |
+| s02 | **v2** | pantalon **noir** rétabli (le v1 était gris) |
+| s03 | v1 conservée | pose de la croix, geste lisible |
+| s04 | v1 conservée | mains jointes + avant-bras tatoués |
+| s05 | **v2** | pagne **du portrait** rétabli (petit motif pointillé doré) |
 
----
+## ✅ Salve C — les deux formats · **proposée**
 
-## Salve B — paysages s01→s05 · **proposée, à valider**
-
-Planche : `fonds/paysage/_PLANCHE_SALVE_B.jpg` · 5 générations · 1376×768.
-
-| Slot | Fichier | Notes |
-|---|---|---|
-| s01 | `fonds/paysage/s01_piece_vide_aube.png` | pièce vide, rayon au centre, tabouret + natte + linge; aucune lettre |
-| s02 | `fonds/paysage/s02_homme_entre_croix.png` | le héros entre, croix en main; **il ne porte plus son pantalon noir mais un pantalon gris** → voir « écarts » |
-| s03 | `fonds/paysage/s03_croix_posee_tabouret.png` | pose de la croix, geste très lisible, continuité respectée |
-| s04 | `fonds/paysage/s04_mains_tatouees_jointes.png` | mains jointes + avant-bras tatoués, cadrage serré, bonne zone de texte |
-| s05 | `fonds/paysage/s05_femme_rai_de_lumiere.png` | la femme dans le rai de lumière; **pagne doté, pas le même motif que le portrait** → voir « écarts » |
-
-**Vérifications** : plein cadre (aucune bande noire) · aucune lettre/logo/filigrane · personnages entiers, visages et mains
-dans le cadre · tiers gauche laissé sombre et vide pour le titre (16:9).
-
----
-
-## Salve C (1/2) — portraits s06→s10 · **proposée, à valider / s10 à refaire**
-
-Planche : `fonds/portrait/_PLANCHE_SALVE_C1.jpg` (s06→s09) · 5 générations.
-
-| Slot | Fichier | État | Notes |
+| Lot | Planche | Slots | État |
 |---|---|---|---|
-| s06 | `fonds/portrait/s06_duo_dans_les_rayons.png` | à valider | le duo côte à côte, deux rais de lumière, centre libre pour les paroles |
-| s07 | `fonds/portrait/s07_femme_leve_les_yeux.png` | à valider | regard levé vers la fenêtre, rayon sur le visage, très beau pour le pré-refrain |
-| s08 | `fonds/portrait/s08_mains_vers_la_lumiere.png` | à valider | paumes ouvertes vers la lumière, avant-bras tatoués, **bonne zone de texte en bas** |
-| s09 | `fonds/portrait/s09_elle_marche_vers_la_lumiere.png` | à valider | elle marche dans le rayon, lui en retrait flou — continuité du storyboard |
-| s10 | `fonds/portrait/s10_reflet_dans_leau.png` | ❌ **à refaire** | composition superbe mais **les deux vraies têtes sont coupées par le haut du cadre** (règle anti-hors-cadre). À régénérer : reflet complet dans la bassine, têtes réelles **entièrement** dans le cadre. |
+| portraits s06→s10 | `fonds/portrait/_PLANCHE_SALVE_C1.jpg` | s06 s07 s08 s09 **s10 v2** | proposé |
+| paysages s06→s10 | `fonds/paysage/_PLANCHE_SALVE_C2.jpg` | s06 s07 s08 s09 s10 | **nouveaux** |
 
----
+- **s10 portrait v2** : la composition précédente coupait les deux têtes → **entièrement refaite**,
+  les deux personnages sont maintenant **complets** (têtes, bras, mains) autour de la bassine, reflet dans l'eau ✓
+- **s10 paysage** : nouveau slot, même scène en 16:9, tiers gauche libre pour le titre ✓
+- **s06→s09 paysage** : produits dans ce tour — le duo sous les deux rais, le regard levé, les paumes
+  ouvertes, la marche dans la lumière.
 
-## Écarts de continuité à trancher (2 minutes de ta part)
+## Points de contrôle (vérifiés à la loupe)
 
-Ces écarts sont normaux avec un générateur d'images : chaque image est une nouvelle génération.
-Deux options, je te laisse choisir :
-
-1. **Les accepter** : le spectateur ne compare pas image par image, et l'étalonnage unifié + le grain
-   les rendent cohérents à l'écran. (Rapide, recommandé.)
-2. **Les corriger en post** : j'harmonise couleur et contraste des vêtements image par image (je peux
-   assombrir le pantalon gris de s02-paysage vers le noir, aligner la teinte du pagne de s05-paysage).
-   Écarts concernés : **s02 paysage** (pantalon gris au lieu de noir), **s05 paysage** (motif du pagne).
-
-> Rappel : je n'utilise aucune photo personnelle pour ces fonds, donc « continuité » signifie ici
-> **cohérence entre les images générées**, pas correspondance avec une personne réelle.
-
----
+- **Aucune lettre, aucun logo, aucun filigrane** dans les 40 fonds produits à ce jour ✓
+- **Aucun tatouage contenant un mot** : uniquement symboles (croix, mains jointes, cœur, couronne de sainteté) ✓
+- **Plein cadre** : aucune bande noire, aucun cadre rapporté ✓
+- **Anti-hors-cadre** : visages, mains et pieds complets sur les scènes à personnages ✓
+- **Zones de texte** : portrait → visages dans le tiers supérieur, centre sombre ; paysage → tiers gauche sombre ✓
 
 ## Post-production prévue sur les fonds validés
 
-1. **Voile sombre localisé** sous le badge (haut de cadre) sur s02 et s05 portrait.
-2. **Mot « Jésus »** incrusté en script propre sur **l'avant-bras droit ET sur la poitrine** (choix de l'artiste :
-   « les deux »), avec léger suivi de peau, aux slots s02, s03, s04, s06, s08.
-3. **Scrim central** pour la lisibilité des paroles (paroles centrées H/2 pendant les vers).
-4. **Ken Burns** 1,1× (zoom 1,02→1,08 alterné) + pan sinusoïdal sur chaque fond.
+1. Voile sombre localisé sous le badge (s02 et s05 portrait).
+2. **Mot « Jésus »** incrusté en script propre — **avant-bras droit ET poitrine** (choix de l'artiste),
+   slots s02, s03, s04, s06, s08, s10 ; suivi de peau, fondu 0,3 s.
+3. Scrim central doux pour la lisibilité des paroles (mode mixte).
+4. **Ken Burns** 1,1× (zoom 1,02→1,08 alterné) + pan sinusoïdal : c'est ce mouvement continu qui donne
+   l'impression que « la personne bouge » d'une image à l'autre.
+5. Recadrage 768×1376 → 1080×1920 (0,8 % d'écart, rognage centré de 11 px, invisible sous le canvas 1,1×).
 
 ---
 
-## Reste à produire
+## Reste à produire (20 images, 2 tours)
 
-| Lot | Contenu | Images | Statut |
-|---|---|---|---|
-| C (2/2) | s06→s10 paysage | 5 | au prochain tour *(s10 portrait à refaire en priorité)* |
-| D | s11→s15 deux formats | 10 | 2 tours |
-| E | s16→s20 deux formats | 10 | 2 tours |
+| Lot | Contenu | Images |
+|---|---|---|
+| D | s11→s15 en deux formats (poussière dans le rayon, agenouillement, mains serrées, relèvement, bras levés) | 10 |
+| E | s16→s20 en deux formats (apaisement, lumière qui décline, croix au sol, porte qui se referme, **endcard**) | 10 |
 
-**Quota** : 10 générations/tour — ce tour est épuisé (5 paysages + 5 portraits).
+Ensuite : **maquette de 14 s** (ancre + texte mot à mot + badge + clochettes) → validation → rendu 9:16 → 16:9
+→ master MP3 + covers → livraison + prompt à jour + commandes Termux.
