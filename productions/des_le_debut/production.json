@@ -11,7 +11,7 @@
   },
   "branche": "arena/01a10746-lyric",
   "prompt_referentiel": "PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md",
-  "statut": "S6 Aube Sacrée + ancres proposés — validation artiste requise",
+  "statut": "salve A (portraits s01-s05) rendue — validation artiste requise",
   "audio": {
     "fichier": "Dès le début.mp3",
     "duree_decodee_s": 199.99,
@@ -185,5 +185,38 @@
     "paysage": "1376x768",
     "ecart_9x16_pct": 0.8,
     "traitement": "mise à l'échelle 1080 puis recadrage centré 11 px"
-  }
+  },
+  "salves": {
+    "A": {
+      "statut": "proposée",
+      "images_generees": 6,
+      "slots": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05"
+      ],
+      "planche": "fonds/portrait/_PLANCHE_SALVE_A.jpg",
+      "note": "s04 régénéré (bandes noires v1)"
+    },
+    "B": {
+      "statut": "attente validation A"
+    },
+    "C": {
+      "statut": "attente"
+    },
+    "D": {
+      "statut": "attente"
+    },
+    "E": {
+      "statut": "attente"
+    }
+  },
+  "post_production_prevu": [
+    "voile sombre zone badge sur s02/s05",
+    "mot Jésus incrusté en script sur tatouage (s02,s03,s04)",
+    "scrim central paroles",
+    "Ken Burns 1.1x zoom 1.02-1.08"
+  ]
 }
