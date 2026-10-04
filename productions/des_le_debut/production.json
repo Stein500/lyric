@@ -11,7 +11,7 @@
   },
   "branche": "arena/01a10746-lyric",
   "prompt_referentiel": "PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md",
-  "statut": "salves A,B,C validées ; salve D (s11-s15 x2) proposée ; reste salve E (s16-s20 x2)",
+  "statut": "40 fonds produits (20 scènes × 2 formats) — en attente de validation ; maquette 14,5 s en préparation",
   "audio": {
     "fichier": "Dès le début.mp3",
     "duree_decodee_s": 199.99,
@@ -235,12 +235,17 @@
       "generations": 10
     },
     "E": {
-      "statut": "à venir",
+      "statut": "proposée",
       "slots": "s16-s20",
       "formats": [
         "portrait 9:16",
         "paysage 16:9"
-      ]
+      ],
+      "planches": [
+        "fonds/portrait/_PLANCHE_SALVE_E.jpg",
+        "fonds/paysage/_PLANCHE_SALVE_E.jpg"
+      ],
+      "generations": 10
     }
   },
   "post_production_prevu": [
@@ -256,12 +261,20 @@
   },
   "progression_fonds": {
     "scene_formats": 40,
-    "produits": 30,
-    "restants": "s16-s20 x2"
+    "produits": 40,
+    "planches_completes": [
+      "fonds/_PLANCHE_20_SCENES_PORTRAIT.jpg",
+      "fonds/_PLANCHE_20_SCENES_PAYSAGE.jpg"
+    ]
   },
   "mouvement_images": {
     "mode": "ken_burns_plus_respiration",
     "detail": "zoom 1,02-1,08 alterne + pan sinusoidal + legere ondulation type vague d'eau sur les fonds",
     "valide_par_artiste": true
+  },
+  "cold_open": {
+    "valide": true,
+    "duree_s": 6.0,
+    "moment": "refrain-titre énergétique (« Jésus, Christ Sauveur, dès le début / Tu es mon Roi, Tu es mon appui »)"
   }
 }
