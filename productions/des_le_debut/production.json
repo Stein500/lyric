@@ -11,7 +11,7 @@
   },
   "branche": "arena/01a10746-lyric",
   "prompt_referentiel": "PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md",
-  "statut": "10 scènes complètes en portrait, 9 en paysage — salves B v2 et C proposées à la validation",
+  "statut": "salves A,B,C validées ; salve D (s11-s15 x2) proposée ; reste salve E (s16-s20 x2)",
   "audio": {
     "fichier": "Dès le début.mp3",
     "duree_decodee_s": 199.99,
@@ -222,12 +222,25 @@
       "planche": "fonds/paysage/_PLANCHE_SALVE_C2.jpg"
     },
     "D": {
-      "statut": "à venir",
-      "contenu": "s11-s15 deux formats"
+      "statut": "proposée",
+      "slots": "s11-s15",
+      "formats": [
+        "portrait 9:16",
+        "paysage 16:9"
+      ],
+      "planches": [
+        "fonds/portrait/_PLANCHE_SALVE_D.jpg",
+        "fonds/paysage/_PLANCHE_SALVE_D.jpg"
+      ],
+      "generations": 10
     },
     "E": {
       "statut": "à venir",
-      "contenu": "s16-s20 deux formats"
+      "slots": "s16-s20",
+      "formats": [
+        "portrait 9:16",
+        "paysage 16:9"
+      ]
     }
   },
   "post_production_prevu": [
@@ -237,18 +250,18 @@
     "Ken Burns 1.1x zoom 1.02-1.08"
   ],
   "quota_tour": {
-    "utilise": 8,
-    "max": 10
+    "utilise": 10,
+    "max": 10,
+    "epuise": true
   },
   "progression_fonds": {
-    "scenes": 20,
-    "formats": 2,
-    "total_prevu": 40,
-    "produits": 39,
-    "slots_a_produire": [
-      "s11-s15 x2",
-      "s16-s20 x2"
-    ],
-    "note": "39 fichiers produits, en attente de validation artiste"
+    "scene_formats": 40,
+    "produits": 30,
+    "restants": "s16-s20 x2"
+  },
+  "mouvement_images": {
+    "mode": "ken_burns_plus_respiration",
+    "detail": "zoom 1,02-1,08 alterne + pan sinusoidal + legere ondulation type vague d'eau sur les fonds",
+    "valide_par_artiste": true
   }
 }
