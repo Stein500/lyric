@@ -27,3 +27,22 @@ Blocs communs à tous les prompts (recopiés à l'identique) :
 ---
 
 Contrôles après salve : ratios 768×1376 (≈9:16) vérifiés, aucun texte/lettre/logo halluciné sur les 5 fonds, cadrages complets (têtes/mains dans le cadre), planche de contrôle `PLANCHE_CONTACT.png`.
+
+---
+
+# v2 — SALVE DE 10 FONDS (demande artiste 2026-10-05 : « plus de foi, textes plus grands »)
+
+Publication prévue : **dimanche 2026-10-11**. Style commun : `warm divine golden light, heavenly sunbeams, soft glowing particles, ethereal haze, cinematic 35mm film grain, crushed blacks with warm amber highlights, reverent hopeful grading` + INTERDITS et anti-hors-cadre identiques à la v1. Paroles rendues en **Barlow Condensed Bold 88-128 px, contour sombre + halo or, largeur ≤900 px**.
+
+- **v2_s01** (vers 1-2) : homme à genoux de dos à l'aube, colonne de lumière divine descendant d'un ciel ouvert sur lui.
+- **v2_s02** (vers 3) : gros plan de deux mains jointes en prière baignées de lumière d'or, particules étincelantes.
+- **v2_s03** (vers 4-5) : homme de dos bras grands ouverts, ciel ouvert, cascade de lumière de grâce.
+- **v2_s04** (vers 6-7) : père, mère et enfant abrités sous deux immenses ailes de lumière dorée.
+- **v2_s05** (vers 8-9) : homme en méditation, livre ouvert aux pages vierges rayonnant de lumière chaude.
+- **v2_s06** (vers 10-11) : chemin dans un champ de brume vers un pilier de lumière guide au sunrise.
+- **v2_s07** (vers 12-13) : homme tête inclinée, mains sur le cœur, recevant une pluie douce de gouttes de lumière d'or.
+- **v2_s08** (vers 14-15) : mains en coupe tenant une flamme de foi intense dans le crépuscule bleu.
+- **v2_s09** (vers 16 + hook) : main humaine tendue vers le haut rencontrant une main radieuse de lumière descendant du ciel.
+- **v2_s10** (vers 17 + endcard) : homme debout vainqueur baigné de lumière, croix de lumière douce dans le ciel.
+
+Planche de contrôle : `PLANCHE_CONTACT.png` (v2). Aucun texte halluciné sur les 10 fonds.

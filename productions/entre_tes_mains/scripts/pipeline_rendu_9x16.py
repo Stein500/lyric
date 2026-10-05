@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Pipeline rendu 9:16 — « Entre Tes Mains » (TechStein). v5.5.
+"""Pipeline rendu 9:16 — « Entre Tes Mains » (TechStein). v5.5 / v2 artiste.
+v2 : 10 scenes foi, paroles Barlow Condensed Bold grandes, contour + halo.
 Un seul flux de ceil(TOTAL*FPS) frames, horloge unique musique+fonds.
 Usage: python3 pipeline_rendu_9x16.py [mock|full] [out.mp4]
 """
 import json, math, subprocess, sys, os
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = '/home/user/lyric'
 P = os.path.join(ROOT, 'productions', 'entre_tes_mains')
@@ -14,6 +15,7 @@ FF = '/tmp/lyric-venv/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpe
 W, H, FPS = 1080, 1920, 30
 CW, CH = 1188, 2112                      # canvas Ken Burns 1,1x
 FONT_C = os.path.join(P, 'assets', 'GreatVibes-Regular.ttf')
+FONT_L = os.path.join(P, 'assets', 'BarlowCondensed-Bold.ttf')
 FONT_UI = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 HOOK = 6.0
 DUR = 107.08
@@ -22,19 +24,23 @@ TOTAL = HOOK + DUR + TAIL                # 118.08
 NFRAMES = int(math.ceil(TOTAL * FPS))    # 3543
 LEAD = 0.03
 WAVE_A, WAVE_F = 4.5, 0.9
-MAXW = 720                               # largeur sure x 180->900
-CY = H // 2                              # paroles centrees H/2
+MAXW = 900                               # textes grands (demande artiste)
+CY = H // 2
 
 AUD = json.load(open(os.path.join(P, 'timings_audited.json'), encoding='utf-8'))
 BLOCKS = AUD['blocks']
 SCENES = AUD['scenes']
-SCENE_OF = {s['id']: s for s in SCENES}
 
-GOLD = (255, 205, 105)
-CREAM = (247, 238, 220)
-DIM = (243, 234, 216, 218)
+GOLD = (255, 208, 88)
+CREAM = (252, 244, 226)
+DIM = (250, 242, 224, 235)
+INK = (26, 14, 4)
 
-# ---------------------------------------------------------------- fonts
+fl_cache = {}
+def fl(size):
+    if size not in fl_cache:
+        fl_cache[size] = ImageFont.truetype(FONT_L, size)
+    return fl_cache[size]
 fc_cache = {}
 def fc(size):
     if size not in fc_cache:
@@ -46,7 +52,6 @@ def fui(size):
         fui_cache[size] = ImageFont.truetype(FONT_UI, size)
     return fui_cache[size]
 
-# ---------------------------------------------------------------- utils
 def np_rgba(img):
     return np.array(img.convert('RGBA'), dtype=np.uint8)
 
@@ -54,16 +59,22 @@ def text_size(draw, txt, font):
     l, t, r, b = draw.textbbox((0, 0), txt, font=font)
     return r - l, b - t
 
-def render_word(txt, font, fill):
-    """sprite RGBA avec ombre douce + halo sombre (marges >= 6 px)."""
-    pad = 10
+def render_word(txt, font, fill, glow=None):
+    """sprite RGBA : contour sombre + halo eventuel + texte net (marges >= 8 px)."""
+    pad = 14
     tmp = Image.new('RGBA', (4, 4))
     d = ImageDraw.Draw(tmp)
     w, h = text_size(d, txt, font)
-    img = Image.new('RGBA', (w + pad * 2, h + pad * 2 + 8), (0, 0, 0, 0))
+    img = Image.new('RGBA', (w + pad * 2, h + pad * 2 + 10), (0, 0, 0, 0))
+    if glow:
+        g = Image.new('RGBA', img.size, (0, 0, 0, 0))
+        dg = ImageDraw.Draw(g)
+        dg.text((pad, pad), txt, font=font, fill=glow)
+        g = g.filter(ImageFilter.GaussianBlur(9))
+        img = Image.alpha_composite(img, g)
     d = ImageDraw.Draw(img)
-    d.text((pad + 3, pad + 6), txt, font=font, fill=(0, 0, 0, 215))   # ombre
-    d.text((pad, pad), txt, font=font, fill=fill)
+    d.text((pad, pad), txt, font=font, fill=fill,
+           stroke_width=5, stroke_fill=INK + (235,))
     return np.array(img, dtype=np.uint8), w, h
 
 def blend(dst, spr, x, y, alpha=1.0):
@@ -93,14 +104,14 @@ for s in SCENES:
 # ---------------------------------------------------------------- scrim central
 scrim = np.zeros((H, W, 1), dtype=np.float32)
 ys = np.arange(H).reshape(-1, 1)
-band = np.exp(-((ys - CY) ** 2) / (2 * 240 ** 2))
-scrim[:, :, 0] = band * 0.48
+band = np.exp(-((ys - CY) ** 2) / (2 * 260 ** 2))
+scrim[:, :, 0] = band * 0.55
 
 # ---------------------------------------------------------------- banniere Benin 54 px
 banner = np.zeros((54, W, 3), dtype=np.uint8)
-banner[:, :W // 3] = (0, 135, 81)        # vert #008751
-banner[:27, W // 3:] = (252, 209, 22)    # jaune #FCD116
-banner[27:, W // 3:] = (232, 17, 45)     # rouge #E8112D
+banner[:, :W // 3] = (0, 135, 81)
+banner[:27, W // 3:] = (252, 209, 22)
+banner[27:, W // 3:] = (232, 17, 45)
 
 # ---------------------------------------------------------------- badge Dsky + picto Benin
 def make_badge():
@@ -121,7 +132,6 @@ def make_badge():
     return np.array(img, dtype=np.uint8)
 BADGE = make_badge()
 
-# ---------------------------------------------------------------- titre hook
 def make_title(txt, size, fill):
     f = fc(size)
     pad = 24
@@ -129,32 +139,23 @@ def make_title(txt, size, fill):
     w, h = text_size(d, txt, f)
     img = Image.new('RGBA', (w + pad * 2, h + pad * 2 + 10), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    d.text((pad + 3, pad + 6), txt, font=f, fill=(0, 0, 0, 180))
+    d.text((pad + 3, pad + 6), txt, font=f, fill=(0, 0, 0, 190))
     d.text((pad, pad), txt, font=f, fill=fill)
     return np.array(img, dtype=np.uint8)
-TITLE_HOOK = make_title('Entre Tes Mains', 108, (255, 226, 156, 255))
-TITLE_END = make_title('Entre Tes Mains', 128, (255, 232, 170, 255))
+TITLE_HOOK = make_title('Entre Tes Mains', 116, (255, 226, 156, 255))
+TITLE_END = make_title('Entre Tes Mains', 132, (255, 232, 170, 255))
 
 # ---------------------------------------------------------------- blocs paroles
 def layout_block(lines_txt):
-    """choisit la taille, decoupe en lignes equilibrees <= MAXW,
-    renvoie liste de lignes = liste de (txt, sprite_actif, sprite_passe, w, h)."""
-    for size in (96, 88, 80, 72, 64, 56):
-        font = fc(size)
+    for size in (128, 116, 104, 96, 88):
+        font = fl(size)
         d = ImageDraw.Draw(Image.new('RGBA', (4, 4)))
-        ok = True
-        for ln in lines_txt:
-            if text_size(d, ln, font)[0] <= MAXW:
-                continue
-            ok = False
-        if ok:
+        if all(text_size(d, ln, font)[0] <= MAXW for ln in lines_txt):
             break
     out_lines = []
     for ln in lines_txt:
         words = ln.split(' ')
-        # decoupe greedy puis reequilibrage
-        lines = []
-        cur = []
+        lines, cur = [], []
         for w_ in words:
             t = ' '.join(cur + [w_])
             if cur and text_size(d, t, font)[0] > MAXW:
@@ -163,7 +164,7 @@ def layout_block(lines_txt):
                 cur.append(w_)
         if cur:
             lines.append(' '.join(cur))
-        while len(lines) > 1 and len(lines[-1].split(' ')) == 1 and len(lines) > 1:
+        if len(lines) > 1 and len(lines[-1].split(' ')) == 1:
             last = lines.pop()
             prev = lines.pop().split(' ')
             t = ' '.join(prev[:-1] + [last])
@@ -171,46 +172,41 @@ def layout_block(lines_txt):
                 lines.append(t)
             else:
                 lines.append(' '.join(prev)); lines.append(last)
-            break
         for t in lines:
             ws = []
             for wtxt in t.split(' '):
-                act, _, _ = render_word(wtxt, font, GOLD + (255,))
+                act, _, _ = render_word(wtxt, font, GOLD + (255,), glow=(255, 190, 70, 210))
                 pas, _, _ = render_word(wtxt, font, DIM)
                 w_, h_ = text_size(d, wtxt, font)
-                ws.append((wtxt, act, pas, w_, h_, font))
+                ws.append((wtxt, act, pas, w_, h_))
             out_lines.append(ws)
     return out_lines, size
 
 for b in BLOCKS:
     b['lines'], b['fsize'] = layout_block(b['texte'])
-    # hauteur bloc + positions y fixes (layout calcule UNE fois, centre H/2)
     d = ImageDraw.Draw(Image.new('RGBA', (4, 4)))
-    line_h = []
-    widths = []
+    line_h, widths = [], []
     for ws in b['lines']:
-        tot = 0
-        hh = 0
-        for (t, a, p_, w_, h_, f) in ws:
-            tot += w_ + 16
+        tot = hh = 0
+        for (t, a, p_, w_, h_) in ws:
+            tot += w_ + 18
             hh = max(hh, h_)
-        widths.append(tot - 16)
+        widths.append(tot - 18)
         line_h.append(hh)
-    gap_l = 26
+    gap_l = 30
     bh = sum(line_h) + gap_l * (len(line_h) - 1)
     y = CY - bh // 2
     b['words'] = []
     for li, ws in enumerate(b['lines']):
         x = W // 2 - widths[li] // 2
-        for (t, a, p_, w_, h_, f) in ws:
+        for (t, a, p_, w_, h_) in ws:
             b['words'].append({'act': a, 'pas': p_, 'x': x, 'y': y + (line_h[li] - h_) // 2, 'w': w_, 'h': h_})
-            x += w_ + 16
+            x += w_ + 18
         y += line_h[li] + gap_l
     b['nw'] = len(b['words'])
 
 # ---------------------------------------------------------------- Ken Burns
 def scene_at(ts):
-    """ts = temps chanson (0..DUR). renvoie id scene."""
     for s in SCENES:
         if ts < s['fin_s']:
             return s
@@ -219,22 +215,14 @@ def scene_at(ts):
 def kb_crop(canvas, t, s, idx):
     dur = s['fin_s'] - s['debut_s']
     u = min(1.0, max(0.0, (t - s['debut_s']) / dur))
-    if idx % 2 == 0:
-        z = 1.02 + (1.08 - 1.02) * u
-    else:
-        z = 1.08 - (1.08 - 1.02) * u
+    z = 1.02 + (1.08 - 1.02) * u if idx % 2 == 0 else 1.08 - (1.08 - 1.02) * u
     cw, ch = W / z, H / z
     ph = 2 * math.pi * t / max(dur, 1)
     px = 16 * math.sin(ph)
     py = 10 * math.sin(ph * 0.5 + 1.3)
-    x0 = (CW - cw) / 2 + px
-    y0 = (CH - ch) / 2 + py
-    x0 = min(max(0, x0), CW - cw)
-    y0 = min(max(0, y0), CH - ch)
+    x0 = min(max(0, (CW - cw) / 2 + px), CW - cw)
+    y0 = min(max(0, (CH - ch) / 2 + py), CH - ch)
     xi, yi = int(round(x0)), int(round(y0))
-    xi = min(xi, CW - W - 0) if CW > W else 0
-    yi = min(yi, CH - H) if CH > H else 0
-    # zoom>=1.02 donc cw<=W/1.02<CW-? : crop dans canvas puis resize si besoin
     cw_i = min(int(math.floor(cw)), CW - xi)
     ch_i = min(int(math.floor(ch)), CH - yi)
     crop = canvas[yi:yi + ch_i, xi:xi + cw_i]
@@ -242,46 +230,35 @@ def kb_crop(canvas, t, s, idx):
         crop = np.array(Image.fromarray(crop).resize((W, H), Image.BILINEAR), dtype=np.uint8)
     return crop
 
-# ---------------------------------------------------------------- frame
 def block_active(tsong):
     for b in BLOCKS:
         bs = b['onset_s'] - LEAD
-        if bs <= tsong < b['fin_s'] - LEAD + 0.0:
+        if bs <= tsong < b['fin_s'] - LEAD:
             return b, bs
     return None, None
 
 def draw_frame(t):
     if t < HOOK:
-        tsong_hook = 85.02 + t
-        s = scene_at(tsong_hook)
-        idx = SCENES.index(s)
-        frame = kb_crop(canvases[s['id']], tsong_hook, s, idx)
+        tsong = 85.02 + t
+        s = scene_at(tsong)
+        frame = kb_crop(canvases[s['id']], tsong, s, SCENES.index(s))
+        blend(frame, TITLE_HOOK, (W - TITLE_HOOK.shape[1]) // 2, 330 - TITLE_HOOK.shape[0] // 2, min(1.0, t / 0.4))
+        b, bs = BLOCKS[15], 85.02 - LEAD
     else:
         ts = min(t - HOOK, DUR)
         s = scene_at(ts)
         idx = SCENES.index(s)
         frame = kb_crop(canvases[s['id']], ts, s, idx)
-        # crossfade 0.5 s aux frontieres
-        if idx > 0:
-            bnd = s['debut_s']
-            if ts < bnd + 0.5:
-                s2 = SCENES[idx - 1]
-                f2 = kb_crop(canvases[s2['id']], ts, s2, idx - 1)
-                a = (ts - bnd) / 0.5
-                frame = (f2.astype(np.float32) * (1 - a) + frame.astype(np.float32) * a).astype(np.uint8)
-    # scrim central
-    frame = (frame.astype(np.float32) * (1 - scrim) + 0 * scrim + frame.astype(np.float32) * 0 + (frame.astype(np.float32) * (1 - scrim))).astype(np.uint8) if False else (frame.astype(np.float32) * (1 - scrim)).astype(np.uint8)
-    if t < HOOK:
-        tsong = 85.02 + t
-        b, bs = BLOCKS[15], 85.02 - LEAD
-        # titre hook y=330
-        blend(frame, TITLE_HOOK, (W - TITLE_HOOK.shape[1]) // 2, 330 - TITLE_HOOK.shape[0] // 2, min(1.0, t / 0.4))
-    else:
+        if idx > 0 and ts < s['debut_s'] + 0.5:
+            s2 = SCENES[idx - 1]
+            f2 = kb_crop(canvases[s2['id']], ts, s2, idx - 1)
+            a = (ts - s['debut_s']) / 0.5
+            frame = (f2.astype(np.float32) * (1 - a) + frame.astype(np.float32) * a).astype(np.uint8)
         tsong = t - HOOK
         b, bs = block_active(tsong)
+    frame = (frame.astype(np.float32) * (1 - scrim)).astype(np.uint8)
     if b is not None:
         be = b['fin_s'] - LEAD
-        # mots
         nw = b['nw']
         stag = 0.9 / max(1, nw - 1) if nw > 1 else 0.0
         for k, wd in enumerate(b['words']):
@@ -289,44 +266,35 @@ def draw_frame(t):
             if tsong < ap:
                 continue
             al = min(1.0, (tsong - ap) / 0.18)
-            # actif = dernier apparu
             nxt = bs + (k + 1) * stag
             active = tsong < nxt if k + 1 < nw else True
             dy = WAVE_A * math.sin(2 * math.pi * WAVE_F * t + 0.6 * k)
             spr = wd['act'] if active else wd['pas']
-            a_ = al if active else al * 0.85
-            blend(frame, spr, wd['x'], wd['y'] + dy, a_)
-        # badge fondu par vers
-        bstart, bend = bs, be
-        a_in = min(1.0, (tsong - bstart) / 0.4)
-        a_out = min(1.0, (bend - tsong) / 0.4)
+            blend(frame, spr, wd['x'], wd['y'] + dy, al if active else al * 0.95)
+        a_in = min(1.0, (tsong - bs) / 0.4)
+        a_out = min(1.0, (be - tsong) / 0.4)
         alpha = 0.75 * max(0.0, min(a_in, a_out))
         if t < HOOK:
             alpha = 0.75 * min(1.0, t / 0.4) * min(1.0, (HOOK - t) / 0.4)
         blend(frame, BADGE, (W - BADGE.shape[1]) // 2, 150 - BADGE.shape[0] // 2, alpha)
-    # banniere Benin (post Ken Burns, toujours)
     frame[H - 54:H] = banner
-    # endcard 5 dernieres secondes
     if t > TOTAL - TAIL:
         u = min(1.0, (t - (TOTAL - TAIL)) / 1.0)
-        dark = np.zeros_like(frame, dtype=np.float32)
-        frame = (frame.astype(np.float32) * (1 - 0.82 * u) + dark * 0.82 * u).astype(np.uint8)
+        frame = (frame.astype(np.float32) * (1 - 0.82 * u)).astype(np.uint8)
         blend(frame, TITLE_END, (W - TITLE_END.shape[1]) // 2, 740, u)
         f1 = fui(42)
-        c1 = 'WhatsApp +229 01 61 16 24 08'
-        c2 = '+229 01 49 11 49 51'
-        c3 = 'daiskyproduction@gmail.com'
         d = ImageDraw.Draw(Image.new('RGBA', (4, 4)))
-        for txt, yy in ((c1, 990), (c2, 1058), (c3, 1126)):
+        for txt, yy in (('WhatsApp +229 01 61 16 24 08', 990),
+                        ('+229 01 49 11 49 51', 1058),
+                        ('daiskyproduction@gmail.com', 1126)):
             w_, h_ = text_size(d, txt, f1)
             pad = 12
             img = Image.new('RGBA', (w_ + pad * 2, h_ + pad * 2), (0, 0, 0, 0))
             dd = ImageDraw.Draw(img)
-            dd.text((pad + 2, pad + 3), txt, font=f1, fill=(0, 0, 0, 160))
+            dd.text((pad + 2, pad + 3), txt, font=f1, fill=(0, 0, 0, 170))
             dd.text((pad, pad), txt, font=f1, fill=(250, 246, 238, 255))
             blend(frame, np.array(img, dtype=np.uint8), (W - img.width) // 2, yy, u)
         blend(frame, BADGE, (W - BADGE.shape[1]) // 2, 150 - BADGE.shape[0] // 2, 0.75 * u)
-    # fade final 3 s
     if t > TOTAL - 3:
         f = max(0.0, 1 - (t - (TOTAL - 3)) / 3.0)
         frame = (frame.astype(np.float32) * f).astype(np.uint8)
@@ -347,13 +315,11 @@ def main():
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     for i in range(n):
         t = i / FPS
-        fr = draw_frame(t)
-        proc.stdin.write(fr.tobytes())
-        if i % 300 == 0:
+        proc.stdin.write(draw_frame(t).tobytes())
+        if i % 600 == 0:
             print(f'frame {i}/{n} t={t:.2f}', flush=True)
     proc.stdin.close()
-    rc = proc.wait()
-    print('ffmpeg rc=', rc)
+    print('ffmpeg rc=', proc.wait())
 
 if __name__ == '__main__':
     main()
