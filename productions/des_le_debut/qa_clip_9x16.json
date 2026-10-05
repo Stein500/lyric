@@ -1,0 +1,18 @@
+{
+  "clip": "Des_le_debut_9x16.mp4",
+  "duree": "00:03:31.82",
+  "taille_Mo": 63.0,
+  "video": "1080x1920 H.264 BT.709 30 fps",
+  "audio": "AAC 48 kHz stéréo ~160 kb/s",
+  "frames_noires": 0,
+  "gels": 0,
+  "cold_open": "clochettes + refrain-titre (52,11-58,96 s)",
+  "fenetres_clochettes": [
+    0.0,
+    22.56,
+    105.85,
+    130.73,
+    "queue finale"
+  ],
+  "note": "version Git (CRF 26) ; master local 135 Mo disponible sur demande via Termux"
+}
