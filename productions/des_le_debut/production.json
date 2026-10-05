@@ -11,7 +11,7 @@
   },
   "branche": "arena/01a10746-lyric",
   "prompt_referentiel": "PROMPT_UNIVERSEL_v5.5_HYBRIDE_COMMANDE.md",
-  "statut": "40 fonds complets + maquette 14,5 s rendue — validation artiste requise",
+  "statut": "rendu complet 9:16 en cours ; audit des timings validé ; master et covers exportés",
   "audio": {
     "fichier": "Dès le début.mp3",
     "duree_decodee_s": 199.99,
@@ -274,9 +274,9 @@
     "valide_par_artiste": true
   },
   "cold_open": {
-    "valide": true,
-    "duree_s": 6.0,
-    "moment": "refrain-titre énergétique (« Jésus, Christ Sauveur, dès le début / Tu es mon Roi, Tu es mon appui »)"
+    "coupe": "52,11 → 58,96 s du refrain-titre",
+    "duree_s": 6.85,
+    "raison": "coupe naturelle, sans trancher un vers"
   },
   "maquette": {
     "fichier": "apercu/MAQUETTE_Des_le_debut.mp4",
@@ -301,5 +301,39 @@
     "obtenue": "npm @fontsource/barlow-condensed → woff2 → ttf (fontTools + brotli)",
     "glyphes": 505,
     "couverture": "tous les caractères des paroles (accents inclus)"
-  }
+  },
+  "audit_timings": {
+    "fichier": "timings_audited.json",
+    "vers": 51,
+    "conserves": 44,
+    "candidats_decalage": 7,
+    "delta_moyen_ms": 171,
+    "intervalle_mini_s": 1.29,
+    "monotonie_stricte": true,
+    "fenetres_cta_5s": [
+      {
+        "debut": 0.0,
+        "fin": 5.68
+      },
+      {
+        "debut": 22.56,
+        "fin": 29.03
+      },
+      {
+        "debut": 105.85,
+        "fin": 116.54
+      },
+      {
+        "debut": 130.73,
+        "fin": 151.82
+      },
+      {
+        "debut": "queue finale 169.2",
+        "fin": 199.99
+      }
+    ],
+    "note": "aucun départ déplacé automatiquement (règle v5.5 §6)"
+  },
+  "prompt_a_jour": "PROMPT_UNIVERSEL_v5.6_AUBE_CLOCHETTES.md",
+  "lecon_git": "un média ne se commite jamais pendant son écriture — vérifier ffmpeg -i avant tout commit (le clip distant de la session précédente était corrompu : moov atom manquant)"
 }
