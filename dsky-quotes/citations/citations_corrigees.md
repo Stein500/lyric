@@ -371,24 +371,24 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 ---
 
 ## SAISON 2 — Série ART VI (111 → 120)
-*Salve 111-120 : le copieur (double exposition), la cage aux secrets (gravure victorienne), le tiers visage dans le verre (nature morte flamande), les beignets de midi, le vieux devant la porte, le faux père/vrai père, le dimanche hamac, le côté froid du lit, le zémidjan sous la pluie, le pêcheur du lac Nokoué. Orthographe vérifiée 10/10.*
+*Kintsugi, noces N&B sous la nappe, risographie, cyanotype, Mucha, quai de gare, sumi-e, studio Sidibé, mosaïque byzantine, marbre antique. Orthographe vérifiée 10/10.*
 
-**111.** `LE COPIEUR` — double exposition monochrome — « Il copie ta marche, tes phrases, ta mode. Le copieur finit toujours par vouloir ta place. »
+**111.** `LA CONFIANCE FÊLÉE` — macro kintsugi (vase à l'or) — « Répare la confiance à l'or si tu veux : le vase garde sa fissure. »
 
-**112.** `LES SECRETS EN VOL` — gravure victorienne, cage ouverte — « Un secret confié à dix bouches devient une place publique. »
+**112.** `LA MAIN SOUS LA NAPPE` — photo N&B noces — « Mon frère trinquait à ma santé ; sa main, elle, avait déjà trahi. »
 
-**113.** `LE TIERS VISAGE` — nature morte flamande, reflet dans le verre — « Le poison le plus doux se sert à ta propre table, avec le sourire. »
+**113.** `LE SMS DE PAIE` — risographie rose & bleu — « Le SMS de paie fait trois lignes ; il nourrit toute une maison. »
 
-**114.** `LES BEIGNETS DE MIDI` — photo street food, vendeuse en wax — « Trois beignets à midi ne nourrissent pas que le corps : ça remet le cœur en marche. »
+**114.** `LE VIEUX PÈRE` — cyanotype, route de latérite — « Le vieux ne dit pas "reviens" : il s'assoit devant la porte et attend. »
 
-**115.** `LE VIEUX DEVANT LA PORTE` — huile afro-contemporaine, crépuscule — « Le vieux devant la porte ne regarde pas la route ; il compte les retours. »
+**115.** `LE VISAGE DU MATIN` — panneau Art Nouveau (Mucha) — « Aimer, c'est choisir encore le visage du matin, sans filtre ni lumière. »
 
-**116.** `LE VRAI PÈRE` — photo tendre, main dans la main — « Ce n'est pas son sang, mais c'est lui qui paie l'école. Les vrais pères se reconnaissent là. »
+**116.** `LE BONJOUR BANAL` — affiche voyage années 50, quai de gare — « Tout a commencé par un bonjour banal ; ma vie a pris un autre train. »
 
-**117.** `DIMANCHE` — illustration 70s, hamac et transistor — « Dimanche : la radio commente le match, et la semaine entière pardonne. »
+**117.** `LE PROJET MURMURÉ` — sumi-e (poing protégant la pousse) — « Un projet murmuré est à moitié vendu : garde ta moisson pour toi. »
 
-**118.** `LE CÔTÉ FROID` — photo aube, lit défait — « Le pire du départ, ce n'est pas le silence ; c'est le côté du lit qui reste froid. »
+**118.** `LA DIGNITÉ` — studio africain 1960 (Sidibé) — « La faim a frappé à la porte ; la dignité lui a servi le thé. »
 
-**119.** `HONNEUR AUX INVISIBLES` — photo nuit, zémidjan sous la pluie — « Il connaît toutes les rues ; la ville ne connaît pas son nom. Honneur aux invisibles. »
+**119.** `LA CLÉ DE LA CONFIANCE` — mosaïque byzantine or & lapis — « Personne ne peut te trahir sans la clé que ta confiance lui a remise. »
 
-**120.** `LE LAC NOKOUÉ` — photo aube, pirogue et filet — « Sur le lac Nokoué, le pêcheur attend sans bruit : l'eau donne à qui sait rester. »
+**120.** `LE MIROIR DU MATIN` — statue de marbre & miroir de bronze — « Chaque matin, le miroir juge avant le monde : arrache-lui un sourire. »

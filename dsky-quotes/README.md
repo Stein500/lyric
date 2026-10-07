@@ -138,16 +138,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 108 | La paix signée | jazz Harlem |
 | 109 | Le nom | sceau de cire |
 | 110 | L'heure juste | Catrina au sablier |
-| 111 | Le copieur | double exposition |
-| 112 | Les secrets en vol | gravure victorienne |
-| 113 | Le tiers visage | nature morte flamande |
-| 114 | Les beignets de midi | street food wax |
-| 115 | Le vieux devant la porte | huile afro-contemporaine |
-| 116 | Le vrai père | photo main dans la main |
-| 117 | Dimanche | hamac & transistor 70s |
-| 118 | Le côté froid | lit à l'aube |
-| 119 | Honneur aux invisibles | zémidjan sous la pluie |
-| 120 | Le lac Nokoué | pirogue à l'aube |
+| 111 | La confiance fêlée | kintsugi à l'or |
+| 112 | La main sous la nappe | noces N&B |
+| 113 | Le SMS de paie | risographie |
+| 114 | Le vieux père | cyanotype |
+| 115 | Le visage du matin | Art Nouveau (Mucha) |
+| 116 | Le bonjour banal | quai de gare années 50 |
+| 117 | Le projet murmuré | sumi-e |
+| 118 | La dignité | studio Sidibé 1960 |
+| 119 | La clé de la confiance | mosaïque byzantine |
+| 120 | Le miroir du matin | marbre antique |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 
