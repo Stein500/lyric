@@ -150,6 +150,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 120 | Le miroir du matin | marbre antique |
 | 121 | Ton prime c'est maintenant | affiche boxe rétro |
 | 122 | Le défi grandit | chevalier & dragon |
+| 123 | Ton prime (intégrale) | athlétisme années 70 |
+| 124 | Devenir prêt | pub années 50 |
+| 125 | La collection de peurs | Tim Burton |
+| 126 | Le premier pas | Bauhaus |
+| 127 | Le signal | torche & montagne |
+| 128 | Le défi (intégrale) | roman graphique 2 cases |
+| 129 | L'obstacle pousse | gravure botanique |
+| 130 | Le monstre de demain | ombre de dragon |
+| 131 | L'habitant du recul | cirque, funambule |
+| 132 | Terrasse aujourd'hui | silhouettes Reiniger |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

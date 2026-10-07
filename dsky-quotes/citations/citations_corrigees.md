@@ -401,3 +401,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **121.** `TON PRIME C'EST MAINTENANT` — affiche boxe rétro (vestiaire) — « Tu t'apprêtes, tu rassembles tes forces, patati patata… Mec, meuf : tu rassembles quoi ? Tu es déjà à ton prime, là. Tu as peur du plus faible que toi ? Va démolir cet obstacle, vite fait — tu es largement suffisant. »
 
 **122.** `LE DÉFI GRANDIT` — huile fantastique (chevalier & dragon) — « Chaque combat que tu fuis, c'est un défi facile que tu laisses filer. Prendre du recul ne l'affaiblit pas : pendant que tu t'apprêtes dans ton coin, il s'adapte à la version de toi qui viendra. Tu ne perdras pas parce que tu es faible, mais parce que le défi est devenu de taille. Détruis-les dès la première occasion. »
+
+---
+
+## SAISON 2 — Série ART VIII (123 → 132) — déclinaison des textes de l'auteur
+*10 variantes des deux idées de Dsky : « Ton prime, c'est maintenant » (123-127) et « Le défi que tu fuis grandit » (128-132). Les N° 123 et 128 restent fidèles à l'idée exacte. Orthographe vérifiée 10/10.*
+
+**123.** `TON PRIME (VERSION INTÉGRALE)` — affiche athlétisme années 70 — « Je m'apprête, je rassemble mes forces, patati patata… Mec, meuf : tu rassembles quoi ? Ton prime, c'est maintenant. Tu as peur du plus faible que toi ? Va démolir ça vite fait — tu es largement suffisant. »
+
+**124.** `DEVENIR PRÊT` — pub années 50, le saut — « On ne devient pas prêt un jour : on le devient le jour où l'on y va. »
+
+**125.** `LA COLLECTION DE PEURS` — Tim Burton, bocaux — « Ta peur collectionne tes hésitations. Cesse de la financer. »
+
+**126.** `LE PREMIER PAS` — Bauhaus géométrique — « Le moment parfait n'existe pas : le premier pas le fabrique. »
+
+**127.** `LE SIGNAL` — torche sur la montagne — « N'attends pas le signal. Tu es le signal. »
+
+**128.** `LE DÉFI (VERSION INTÉGRALE)` — roman graphique noir, 2 cases — « Chaque combat que tu fuis, c'est un défi facile que tu laisses filer. Il ne s'efface pas : il s'entraîne. Tu ne perdras pas parce que tu es faible, mais parce qu'il aura eu le temps de grandir. Détruis-le dès la première occasion. »
+
+**129.** `L'OBSTACLE POUSSE` — gravure botanique victorienne — « L'obstacle reporté ne dort jamais : il pousse en silence. »
+
+**130.** `LE MONSTRE DE DEMAIN` — chambre d'enfant, ombre de dragon — « Le problème d'aujourd'hui est le monstre de demain si tu le nourris de ta peur. »
+
+**131.** `L'HABITANT DU RECUL` — affiche cirque, funambule à reculons — « Prendre du recul pour viser, c'est sage. Y habiter, c'est se rendre. »
+
+**132.** `TERRASSE AUJOURD'HUI` — silhouettes découpées (Reiniger) — « Demain n'aura aucun pouvoir sur ce que tu terrasses aujourd'hui. »
