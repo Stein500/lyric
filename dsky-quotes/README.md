@@ -148,6 +148,8 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 118 | La dignité | studio Sidibé 1960 |
 | 119 | La clé de la confiance | mosaïque byzantine |
 | 120 | Le miroir du matin | marbre antique |
+| 121 | Ton prime c'est maintenant | affiche boxe rétro |
+| 122 | Le défi grandit | chevalier & dragon |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

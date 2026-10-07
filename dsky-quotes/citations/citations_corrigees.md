@@ -392,3 +392,12 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **119.** `LA CLÉ DE LA CONFIANCE` — mosaïque byzantine or & lapis — « Personne ne peut te trahir sans la clé que ta confiance lui a remise. »
 
 **120.** `LE MIROIR DU MATIN` — statue de marbre & miroir de bronze — « Chaque matin, le miroir juge avant le monde : arrache-lui un sourire. »
+
+---
+
+## SAISON 2 — Série ART VII (121 → 122) — textes de l'auteur, améliorés
+*Deux punchlines motivation livrées par Dsky, mises au propre (voix conservée, orthographe corrigée). Orthographe vérifiée 2/2.*
+
+**121.** `TON PRIME C'EST MAINTENANT` — affiche boxe rétro (vestiaire) — « Tu t'apprêtes, tu rassembles tes forces, patati patata… Mec, meuf : tu rassembles quoi ? Tu es déjà à ton prime, là. Tu as peur du plus faible que toi ? Va démolir cet obstacle, vite fait — tu es largement suffisant. »
+
+**122.** `LE DÉFI GRANDIT` — huile fantastique (chevalier & dragon) — « Chaque combat que tu fuis, c'est un défi facile que tu laisses filer. Prendre du recul ne l'affaiblit pas : pendant que tu t'apprêtes dans ton coin, il s'adapte à la version de toi qui viendra. Tu ne perdras pas parce que tu es faible, mais parce que le défi est devenu de taille. Détruis-les dès la première occasion. »
