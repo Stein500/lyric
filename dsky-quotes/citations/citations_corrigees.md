@@ -404,25 +404,30 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 
 ---
 
-## SAISON 2 — Série ART VIII (123 → 132) — déclinaison des textes de l'auteur
-*10 variantes des deux idées de Dsky : « Ton prime, c'est maintenant » (123-127) et « Le défi que tu fuis grandit » (128-132). Les N° 123 et 128 restent fidèles à l'idée exacte. Orthographe vérifiée 10/10.*
+## SAISON 2 — Série ART VII-bis (123 → 130) — « LE DÉMARRAGE » (suite)
+*8 variantes du thème de l'auteur : agir tout de suite, l'obstacle est plus petit que toi. Orthographe vérifiée 8/8.*
 
-**123.** `TON PRIME (VERSION INTÉGRALE)` — affiche athlétisme années 70 — « Je m'apprête, je rassemble mes forces, patati patata… Mec, meuf : tu rassembles quoi ? Ton prime, c'est maintenant. Tu as peur du plus faible que toi ? Va démolir ça vite fait — tu es largement suffisant. »
+**123.** `LE BON MOMENT` — constructivisme (horloge qui court) — « Le bon moment ne t'attend pas : il passe, il te regarde, et il emporte ta place. »
 
-**124.** `DEVENIR PRÊT` — pub années 50, le saut — « On ne devient pas prêt un jour : on le devient le jour où l'on y va. »
+**124.** `LA PEUR GROSSIT` — pulp comic (le caillou-monstre) — « La peur grossit ton obstacle à chaque regard. Va voir sur place : il est plus petit que toi. »
 
-**125.** `LA COLLECTION DE PEURS` — Tim Burton, bocaux — « Ta peur collectionne tes hésitations. Cesse de la financer. »
+**125.** `CHAMPION DU REPORT` — affiche satirique (ceinture au canapé) — « Reporter, ça s'entraîne aussi — et toi tu t'entraînes tous les jours : champion du monde du report. »
 
-**126.** `LE PREMIER PAS` — Bauhaus géométrique — « Le moment parfait n'existe pas : le premier pas le fabrique. »
+**126.** `RÉTRÉCI` — théâtre, homme rétréci face au caillou — « L'obstacle n'a pas grandi depuis hier : c'est toi qui as rétréci à force de le fixer. »
 
-**127.** `LE SIGNAL` — torche sur la montagne — « N'attends pas le signal. Tu es le signal. »
+**127.** `VITE FAIT, FAIT` — forge en explosion d'étincelles — « Vite fait, fait. Le mal fait se corrige ; le jamais fait te ronge. »
 
-**128.** `LE DÉFI (VERSION INTÉGRALE)` — roman graphique noir, 2 cases — « Chaque combat que tu fuis, c'est un défi facile que tu laisses filer. Il ne s'efface pas : il s'entraîne. Tu ne perdras pas parce que tu es faible, mais parce qu'il aura eu le temps de grandir. Détruis-le dès la première occasion. »
+**128.** `UN TOI DEBOUT` — affiche WPA, lever de soleil — « Ton rêve n'a pas besoin d'un toi parfait : il a besoin d'un toi debout, là, maintenant. »
 
-**129.** `L'OBSTACLE POUSSE` — gravure botanique victorienne — « L'obstacle reporté ne dort jamais : il pousse en silence. »
+**129.** `L'ABONNEMENT AU DOUTE` — pop art (reçu DOUTE, ciseaux) — « L'échec se paie une fois ; le doute prend un abonnement. Résilie. »
 
-**130.** `LE MONSTRE DE DEMAIN` — chambre d'enfant, ombre de dragon — « Le problème d'aujourd'hui est le monstre de demain si tu le nourris de ta peur. »
+**130.** `CHANGER DE PROPRIÉTAIRE` — Art Déco (billet d'or qui tombe) — « Détruis à la première occasion : les occasions ne reviennent pas, elles changent de propriétaire. »
 
-**131.** `L'HABITANT DU RECUL` — affiche cirque, funambule à reculons — « Prendre du recul pour viser, c'est sage. Y habiter, c'est se rendre. »
+---
 
-**132.** `TERRASSE AUJOURD'HUI` — silhouettes découpées (Reiniger) — « Demain n'aura aucun pouvoir sur ce que tu terrasses aujourd'hui. »
+## SAISON 2 — Série ART VIII (131 → 140) — « LE DÉSIR » — en cours
+*Thème unique imposé par l'auteur : « Donne tout à une femme, elle ne te donnera rien… elle a besoin de souffrir pour aimer. » Traité avec classe — suggestion, jamais explicite. Citations 100 % originales. (133-140 à venir.)*
+
+**131.** `LE DISTRIBUTEUR VIDE` — film noir surréaliste — « Donne tout à une femme, elle ne te donnera rien : le désir veut courir aussi. Laisse-lui la piste. »
+
+**132.** `LA PORTE ENTROUVERTE` — photo N&B, fente de lumière — « Elle a besoin de souffrir pour aimer. Souffrir du manque, de l'attente, du doute — jamais de toi. »
