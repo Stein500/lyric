@@ -447,3 +447,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **139.** `LE NON PROPRE` — macro rose refusée, pluie — « Dis-lui non une fois, proprement : le respect pousse comme l'herbe après la pluie. »
 
 **140.** `LA PLANTE DU VOISIN` — gouache narrative (arrosage par-dessus le mur) — « Donner sans recevoir, c'est arroser la plante du voisin : elle poussera, mais pas pour toi. »
+
+---
+
+## SAISON 2 — Série ART IX (141 → 150) — « L'ARGENT »
+*Ce qu'il révèle, ce qu'il coûte, ce qu'il ne rachète pas. Orthographe vérifiée 10/10 (141 régénéré : espace parasite corrigé).*
+
+**141.** `LE BATEAU DE PAPIER` — macro billet en bateau sur l'eau — « L'argent est un bateau de papier : il traverse la vie, il ne l'amarre pas. »
+
+**142.** `LA MONTRE FONDUE` — montre Dalí au poignet — « Avec de l'argent tu achètes une montre, pas le temps qu'elle affiche. »
+
+**143.** `LES MASQUES À PRIX` — photo conceptuelle, masques étiquetés — « Les pauvres mentent moins : la pauvreté débarrasse le visage de ses masques. »
+
+**144.** `LE FORAGE DE JOIE` — photo dorée, mère et fils sans bagage — « Tu peux arriver sans un franc : pour ta mère, tu es le forage où elle boit sa joie. »
+
+**145.** `LA PORTE INTÉRIEURE` — clé-billet et miroir fêlé — « L'argent ouvre toutes les portes, sauf celle derrière laquelle tu t'es perdu. »
+
+**146.** `L'INVITÉ SANS ARGENT` — gravure ancienne, chaise déserte — « Quand ton argent dort, ton nom s'endort aussi à la table des autres. »
+
+**147.** `PARTIR POUR TOI` — escalade à l'aube — « Commencer sans rien, ce n'est pas partir de zéro : c'est partir pour toi. »
+
+**148.** `LES FICELLES` — constructivisme, palissade en décor peint — « La peur du vide au compte tient debout sur des ficelles : pousse-la, elle tombera. »
+
+**149.** `LE PORTEFEUILLE DU PÈRE` — tirelire-lion, tendresse — « Un père vide son portefeuille sans compter ; c'est la seule richesse qu'il signe sans trembler. »
+
+**150.** `LA COURONNE QUI COULE` — couronne s'enfonçant dans le sable — « Trône ou paillote, la tombe ne demande pas ton compte en banque. »

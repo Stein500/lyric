@@ -168,6 +168,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 138 | La larme | film noir |
 | 139 | Le non propre | rose refusée |
 | 140 | La plante du voisin | gouache narrative |
+| 141 | Le bateau de papier | macro billet-bateau |
+| 142 | La montre fondue | montre Dalí |
+| 143 | Les masques à prix | photo conceptuelle |
+| 144 | Le forage de joie | mère & fils, heure dorée |
+| 145 | La porte intérieure | clé-billet & miroir |
+| 146 | L'invité sans argent | gravure ancienne |
+| 147 | Partir pour toi | escalade à l'aube |
+| 148 | Les ficelles | constructivisme |
+| 149 | Le portefeuille du père | tirelire-lion |
+| 150 | La couronne qui coule | couronne dans le sable |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 
