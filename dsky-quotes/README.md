@@ -84,7 +84,7 @@ Polices : SIL Open Font License.
 
 # 🎨 Série ART (65 → 90)
 
-Série ART I→IV (65 → 100). La citation est **typographiée par l'IA à l'intérieur de l'œuvre elle-même**
+Série ART I→VIII (65 → 140). La citation est **typographiée par l'IA à l'intérieur de l'œuvre elle-même**
 (effet chic, vocabulaire simple). Le code n'ajoute plus que le branding : badge `DSKY 🇧🇯`,
 N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art.py`.
 
@@ -160,6 +160,14 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 130 | Changer de propriétaire | Art Déco |
 | 131 | Le distributeur vide | film noir surréaliste |
 | 132 | La porte entrouverte | photo N&B |
+| 133 | Le soleil gratuit | nocturne, lune rouge |
+| 134 | Le havre | marine tempête |
+| 135 | La petite faim | nature morte baroque |
+| 136 | Les 20 % | cahier de rêves |
+| 137 | Meuble ou pensée | fauteuil drapé / horizon |
+| 138 | La larme | film noir |
+| 139 | Le non propre | rose refusée |
+| 140 | Le jardin du voisin | gouache |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

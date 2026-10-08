@@ -426,8 +426,24 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 ---
 
 ## SAISON 2 — Série ART VIII (131 → 140) — « LE DÉSIR » — en cours
-*Thème unique imposé par l'auteur : « Donne tout à une femme, elle ne te donnera rien… elle a besoin de souffrir pour aimer. » Traité avec classe — suggestion, jamais explicite. Citations 100 % originales. (133-140 à venir.)*
+*Thème unique imposé par l'auteur : « Donne tout à une femme, elle ne te donnera rien… elle a besoin de souffrir pour aimer. » Traité avec classe — suggestion, jamais explicite. Citations 100 % originales. Orthographe vérifiée 10/10.*
 
 **131.** `LE DISTRIBUTEUR VIDE` — film noir surréaliste — « Donne tout à une femme, elle ne te donnera rien : le désir veut courir aussi. Laisse-lui la piste. »
 
 **132.** `LA PORTE ENTROUVERTE` — photo N&B, fente de lumière — « Elle a besoin de souffrir pour aimer. Souffrir du manque, de l'attente, du doute — jamais de toi. »
+
+**133.** `LE SOLEIL GRATUIT` — nocturne sensuel, lune rouge — « Toujours disponible, tu vaux zéro : le soleil est gratuit, et personne ne le remercie. »
+
+**134.** `LE HAVRE` — marine tempête, phare d'or — « Sois son havre, pas son domestique : un domestique se remplace, un havre se choisit. »
+
+**135.** `LA PETITE FAIM` — nature morte baroque, assiette vide — « Une femme qu'on comble cherche ce qui manque. Laisse-lui une petite faim. »
+
+**136.** `LES 20 %` — photo intime, cahier de rêves — « Aime-la à 80 %, garde 20 % pour tes rêves : c'est ce 20 % qu'elle aimera demain. »
+
+**137.** `MEUBLE OU PENSÉE` — conceptuel, fauteuil drapé / horizon — « Trop proche, tu deviens meuble ; un peu loin, tu deviens pensée. »
+
+**138.** `LA LARME` — film noir, bar nocturne — « Pleurer une femme une nuit, ça va. Trois nuits, c'est une habitude : elle n'épousera pas ta larme. »
+
+**139.** `LE NON PROPRE` — macro rose refusée après la pluie — « Dis-lui non une fois, proprement : le respect pousse comme l'herbe après la pluie. »
+
+**140.** `LE JARDIN DU VOISIN` — gouache, arrosoir par-dessus le mur — « Donner sans recevoir, c'est arroser la plante du voisin : elle poussera, mais pas pour toi. »
