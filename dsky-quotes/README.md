@@ -188,6 +188,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 158 | Le premier salaire | mains calleuses |
 | 159 | Les refus notés | couloir de portes |
 | 160 | Quand tu as faim | forge |
+| 161 | L'homme pressé | portail des nuages |
+| 162 | Celui qui crie | oni & moine |
+| 163 | Le feu de paille | braises |
+| 164 | L'eau calme | dragon du fleuve |
+| 165 | Le vent et le soleil | esprit & déité |
+| 166 | Celui qui écoute | taverne de guilde |
+| 167 | La maison au feu | esprit-flamme |
+| 168 | Le tambour | taiko géant |
+| 169 | Les trois saisons | sanctuaire |
+| 170 | Les jambes de la vérité | renard à neuf queues |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

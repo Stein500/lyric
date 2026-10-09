@@ -497,3 +497,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **159.** `LES REFUS NOTÉS` — couloir de portes closes, lumière au bout — « Les portes fermées m'ont formé mieux que les amphis : à chaque refus, j'ai noté. »
 
 **160.** `QUAND TU AS FAIM` — forge, artisan autodidacte — « Diplôme ou pas, le monde ne paie que ce que tu sais faire quand tu as faim. »
+
+---
+
+## SAISON 2 — Série ART XI (161 → 170) — « LA PATIENCE AVEC LES GENS ANIMÉS » (style Isekai)
+*Autre monde, esprits, portails : la patience face à ceux qui s'agitent. Orthographe vérifiée 10/10.*
+
+**161.** `L'HOMME PRESSÉ` — portail des nuages, esprit du vent filant — « Avec un homme pressé, marche doucement : c'est toi qu'il suivra. »
+
+**162.** `CELUI QUI CRIE` — oni hurlant devant le moine assis — « Celui qui crie te montre ses peurs ; écoute, mais ne les prends pas. »
+
+**163.** `LE FEU DE PAILLE` — voyageur assis au milieu des braises — « La colère est un feu de paille : assieds-toi, elle s'éteint toute seule. »
+
+**164.** `L'EAU CALME` — dragon du fleuve entre les torii — « L'eau calme reste dans le fleuve ; l'écume finit toujours sur les rochers. »
+
+**165.** `LE VENT ET LE SOLEIL` — esprit du vent vs déité dorée — « Le vent agité prend les feuilles ; le soleil patient prend les fruits. »
+
+**166.** `CELUI QUI ÉCOUTE` — taverne de guilde, paroles en rubans de lumière — « Quand tous parlent en même temps, celui qui écoute devient le seul qu'on croit. »
+
+**167.** `LA MAISON AU FEU` — esprit-flamme frappant à la porte — « Répondre à chaud, c'est prêter ta maison au feu des autres. »
+
+**168.** `LE TAMBOUR` — taiko géant du festival des esprits — « Le tambour battait fort ; c'est le silence qui a fait danser le village. »
+
+**169.** `LES TROIS SAISONS` — escalier du sanctuaire, pétales, pluie et neige — « La patience n'est pas d'attendre : c'est rester doux pendant l'attente. »
+
+**170.** `LES JAMBES DE LA VÉRITÉ` — renard à neuf queues, bête de fumée — « Ne poursuis pas celui qui t'insulte : la vérité a des jambes plus longues. »
