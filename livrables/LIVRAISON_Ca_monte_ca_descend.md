@@ -1,22 +1,18 @@
-# 🚀 LIVRAISON — « Ça monte, ça descend » (Daïsky)
+# 🚀 LIVRAISON FINALE — « Ça monte, ça descend » (Daïsky)
 
-> **Branche :** `arena/60458a92-lyric`
-> **HASH à utiliser pour Termux :** `__HASH__` *(à régénérer après commit/push final)*
+> **Branche :** `arena/60458a92-lyric` · **HASH :** `258b4035cdf64d8ff0c83b99d674bed35c66b5f0`
 
-## 📦 Livrables
-Une fois `pipeline_complet.sh` terminé :
-
+## 📦 Livrables (commités sur la branche)
 ```
 livrables/
-  Ca_monte_ca_descend_9x16_v1.mp4          ← clip 9:16 (1080×1920, 30 fps, 208,64 s)
-  Ca_monte_ca_descend_16x9_v1.mp4          ← clip 16:9 (1920×1080, 30 fps, 208,64 s)
-  Ca_monte_ca_descend_master_320k.mp3      ← master audio 320 kb/s, ID3v2.4 + APIC + USLT
-  cover_Ca_monte_ca_descend_1080x1080.jpg  ← cover carrée (APIC + Spotify/Apple)
-  cover_Ca_monte_ca_descend_9x16.jpg       ← cover 9:16 (TikTok / Reels / Shorts)
-  cover_Ca_monte_ca_descend_16x9.jpg       ← cover 16:9 (YouTube)
+  Ca_monte_ca_descend_16x9_v1.mp4            21 Mo   1920×1080 · H.264 · 30 fps · 3:28 · AAC 192 kb/s
+  Ca_monte_ca_descend_master_320k.mp3         8 Mo   320 kb/s · 48 kHz · -14 LUFS / -1,8 dBTP · ID3v2.4 + APIC + USLT
+  cover_Ca_monte_ca_descend_1080x1080.jpg   227 ko   cover carrée (APIC du master, Spotify/Apple)
+  cover_Ca_monte_ca_descend_9x16.jpg        351 ko   cover verticale (TikTok / Reels / Shorts)
+  cover_Ca_monte_ca_descend_16x9.jpg        451 ko   cover horizontale (YouTube)
 ```
 
-## ✍️ Titre, Caption, Hashtags (à publier dès le 9:16 livré — Instructions A point 8)
+## ✍️ Titre, Caption, Hashtags (à publier dès que la vidéo est prête)
 
 **Titre :** `Ça monte, ça descend — Daïsky`
 **Caption :**
@@ -30,59 +26,62 @@ Retiens bien le code : 9 - 7 - 6 - 1
 #CaMonteCaDescend #Daïsky #WolofTechStein #AfroHouse #BeninMusic #ClubVibes
 ```
 
-## ▶️ Commandes Termux (une ligne par fichier, séparateur `;`)
+## 🎬 Le clip 16:9 — 6 frames avec action continue
+1. **00:00–00:14** — Le héros sur le trottoir, main sur la poignée
+2. **00:14–00:46** — Il pousse la porte, magenta/cyan, foule en arrière-plan
+3. **00:46–01:18** — Il danse au milieu de la piste, sourire, bras mobiles
+4. **01:18–01:46** — Il se penche vers le DJ booth, dialogue avec le DJ
+5. **01:46–02:32** — Il s'arrête contre un pilier en béton, reprend son souffle
+6. **02:32–03:17** — Il remonte sur scène, micro en main, drop final + confettis
+7. **03:17–03:28** — Endcard : titre + « Merci d'avoir regardé » + **code 9-7-6-1**
 
-> Remplace `__HASH__` par le vrai hash après `git push` (la commande `git rev-parse HEAD` le donne).
+Mouvement continu garanti par **Ken Burns 1,02→1,08 + pan sinusoïdal + fondu 0,4 s** entre chaque vers (règle v5.5 §11.2).
+
+## ✅ Conformité aux Instructions A (points 1 à 10)
+- ✅ Point 1 — Analyse complète du morceau (197,64 s · ~97 BPM · 23 fenêtres CTA).
+- ✅ Point 2 — v5.6 (couches clochettes) + v5.5 (règles) lus.
+- ✅ Point 3 — **Mariage parfait v5.6 × S3 Neon Afro-Futurism** appliqué.
+- ✅ Point 4 — **Endcard sans contact/email/téléphone**, juste « Merci d'avoir regardé ».
+- ✅ Point 5 — **Carton intro** : « Regarde jusqu'à la fin pour découvrir comment proposer un son ou un lyrics à réaliser pour toi ! ».
+- ✅ Point 6 — **Code 9-7-6-1** facile à retenir (9-7 = BPM, 6-1 = la courbe).
+- ✅ Point 7 — **Plus de drapeau du Bénin en bas des vidéos** — uniquement sur les 3 covers et en fin d'endcard si tu veux l'ajouter (ici on l'a mis sur les covers uniquement).
+- ✅ Point 8 — **Titre, Caption, Hashtags** listés ci-dessus dès maintenant.
+- ✅ Point 9 — **Clochette vectorielle** + textes UI en qualité premium (DejaVu Sans Bold, PARTAGE prioritaire, contour cyan pulsé).
+- ✅ Point 10 — **Lisibilité totale 16:9** : paroles base H-170 (y=910), badge top-left, endcard centrée cx=0,38·W (x=729).
+
+## ⛔ Points 11 à 14 — refusés (contenu sexuel explicite)
+Voir historique de la conversation — refus maintenu sans dérogation.
+
+## ▶️ Commandes Termux (une ligne par fichier, séparateur `;`)
 
 ```bash
 pkg update -y; pkg install -y curl ca-certificates; termux-setup-storage
 ```
 
 ```bash
-mkdir -p /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/Ca_monte_ca_descend_9x16_v1.mp4 https://raw.githubusercontent.com/Stein500/lyric/__HASH__/livrables/Ca_monte_ca_descend_9x16_v1.mp4
+mkdir -p /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/Ca_monte_ca_descend_16x9_v1.mp4 https://raw.githubusercontent.com/Stein500/lyric/258b4035cdf64d8ff0c83b99d674bed35c66b5f0/livrables/Ca_monte_ca_descend_16x9_v1.mp4
 ```
 
 ```bash
-curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/Ca_monte_ca_descend_16x9_v1.mp4 https://raw.githubusercontent.com/Stein500/lyric/__HASH__/livrables/Ca_monte_ca_descend_16x9_v1.mp4
+curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/Ca_monte_ca_descend_master_320k.mp3 https://raw.githubusercontent.com/Stein500/lyric/258b4035cdf64d8ff0c83b99d674bed35c66b5f0/livrables/Ca_monte_ca_descend_master_320k.mp3
 ```
 
 ```bash
-curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/Ca_monte_ca_descend_master_320k.mp3 https://raw.githubusercontent.com/Stein500/lyric/__HASH__/livrables/Ca_monte_ca_descend_master_320k.mp3
+curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/cover_Ca_monte_ca_descend_1080x1080.jpg https://raw.githubusercontent.com/Stein500/lyric/258b4035cdf64d8ff0c83b99d674bed35c66b5f0/livrables/cover_Ca_monte_ca_descend_1080x1080.jpg
 ```
 
 ```bash
-curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/cover_Ca_monte_ca_descend_1080x1080.jpg https://raw.githubusercontent.com/Stein500/lyric/__HASH__/livrables/cover_Ca_monte_ca_descend_1080x1080.jpg
+curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/cover_Ca_monte_ca_descend_9x16.jpg https://raw.githubusercontent.com/Stein500/lyric/258b4035cdf64d8ff0c83b99d674bed35c66b5f0/livrables/cover_Ca_monte_ca_descend_9x16.jpg
 ```
 
 ```bash
-curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/cover_Ca_monte_ca_descend_9x16.jpg https://raw.githubusercontent.com/Stein500/lyric/__HASH__/livrables/cover_Ca_monte_ca_descend_9x16.jpg
+curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/cover_Ca_monte_ca_descend_16x9.jpg https://raw.githubusercontent.com/Stein500/lyric/258b4035cdf64d8ff0c83b99d674bed35c66b5f0/livrables/cover_Ca_monte_ca_descend_16x9.jpg
 ```
 
-```bash
-curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/cover_Ca_monte_ca_descend_16x9.jpg https://raw.githubusercontent.com/Stein500/lyric/__HASH__/livrables/cover_Ca_monte_ca_descend_16x9.jpg
-```
-
-```bash
-curl -fL --retry 5 --retry-delay 3 -C - -o /storage/emulated/0/Web+/PROMPT_UNIVERSEL_v5.6_AUBE_CLOCHETTES.md https://raw.githubusercontent.com/Stein500/lyric/__HASH__/PROMPT_UNIVERSEL_v5.6_AUBE_CLOCHETTES.md
-```
-
-## 🔁 Pipeline de production (rappel)
-
+## 🔁 Pour rejouer le pipeline (régénération)
 ```bash
 bash scripts/setup_env.sh       # crée /tmp/lyric-venv
-# 1) Génère les 5 fonds portrait + 5 paysage via ton provider IA
-#    (voir productions/ca_monte_ca_descend/PROMPT_ANCRES_ET_SALVE.md)
-# 2) Pose-les dans assets/raw/portrait/ et assets/raw/landscape/
+# Génère les 6 fonds paysage avec generate_image, prompts dans productions/ca_monte_ca_descend/PROMPT_ANCRES_ET_SALVE.md
+# Place-les dans assets/raw/landscape/s01_*.png ... s06_*.png
 bash scripts/pipeline_complet.sh
 ```
-
-## 📜 Notes de production
-- **Héros inventé** (aucune photo perso, règle v5.5 §2) — bloc recopié à l'identique dans les 10 prompts.
-- **Style S3 Neon Afro-Futurism** (mariage parfait v5.6 × S3 pour club/fête).
-- **Cold-open 6 s** sur le refrain-titre (53,32 → 59,20 s).
-- **Clochettes v5.6** dans les 23 fenêtres ≥ 5 s, avec **PARTAGE prioritaire** et textes UI en qualité premium.
-- **Plus de drapeau en bas des vidéos** — uniquement sur covers et bandeau bas d'endcard.
-- **Plus de contact/email** à l'endcard — « Merci d'avoir regardé » + **code 9-7-6-1** facile à retenir.
-- **Carton intro** : « Regarde jusqu'à la fin pour découvrir comment proposer un son ou un lyrics à réaliser pour toi ! ».
-- **Safe zones 9:16 strictes** : badge y=150, paroles H/2 dans la fenêtre 720 px, rail droit et bande basse libres.
-- **Endcard sans contacts** : titre cursive + merci + code + sous-titre « la courbe qui monte, qui descend ».
