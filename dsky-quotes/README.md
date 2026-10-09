@@ -178,6 +178,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 148 | Les ficelles | constructivisme |
 | 149 | Le portefeuille du père | tirelire-lion |
 | 150 | La couronne qui coule | couronne dans le sable |
+| 151 | Qui lit sur toi | manguier & marché |
+| 152 | Le diplôme au tiroir | nature morte |
+| 153 | La correction | tableau-fenêtre |
+| 154 | Les langues du marché | gamin & costards |
+| 155 | Le passeport | néo-noir néon |
+| 156 | Qui ne pas prêter | linogravure |
+| 157 | Mère / prof / rue | double exposition |
+| 158 | Le premier salaire | mains calleuses |
+| 159 | Les refus notés | couloir de portes |
+| 160 | Quand tu as faim | forge |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

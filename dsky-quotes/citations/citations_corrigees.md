@@ -472,3 +472,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **149.** `LE PORTEFEUILLE DU PÈRE` — tirelire-lion, tendresse — « Un père vide son portefeuille sans compter ; c'est la seule richesse qu'il signe sans trembler. »
 
 **150.** `LA COURONNE QUI COULE` — couronne s'enfonçant dans le sable — « Trône ou paillote, la tombe ne demande pas ton compte en banque. »
+
+---
+
+## SAISON 2 — Série ART X (151 → 160) — « LA RUE T'A FORMÉ »
+*L'école vs la débrouille, le diplôme au tiroir, les leçons d'aucun tableau noir. Orthographe vérifiée 10/10.*
+
+**151.** `QUI LIT SUR TOI` — photo documentaire, manguier & marché — « L'école t'apprend à lire ; c'est la rue qui t'apprend qui lit sur toi. »
+
+**152.** `LE DIPLÔME AU TIROIR` — nature morte à l'ancienne (diplôme vs boîte à outils) — « Mon diplôme dort dans un tiroir ; ma débrouille, elle, paie le loyer. »
+
+**153.** `LA CORRECTION` — gouache, tableau devenu fenêtre sur le marché — « À l'école, on corrige ta copie ; dans la rue, on corrige ta vie. »
+
+**154.** `LES LANGUES DU MARCHÉ` — photo dorée, gamin & costards — « Ne te moque pas du gamin du marché : il parle des langues que l'université ne délivre pas. »
+
+**155.** `LE PASSEPORT` — néo-noir néon rouge, ombres aux portes — « Le mensonge court vite, mais la rue mémorise : ici, ta réputation est ton passeport. »
+
+**156.** `QUI NE PAS PRÊTER` — linogravure rouge & noir (cahier de dettes) — « J'ai appris à compter à l'école ; j'ai appris à qui ne pas prêter dans la galère. »
+
+**157.** `MÈRE / PROF / RUE` — double exposition sépia — « La rue te pardonne moins vite que ta mère, mais elle t'apprend plus vite que ton prof. »
+
+**158.** `LE PREMIER SALAIRE` — macro mains calleuses, billet plié — « Le premier salaire apprend plus qu'un an de théorie : remercie la faim. »
+
+**159.** `LES REFUS NOTÉS` — couloir de portes closes, lumière au bout — « Les portes fermées m'ont formé mieux que les amphis : à chaque refus, j'ai noté. »
+
+**160.** `QUAND TU AS FAIM` — forge, artisan autodidacte — « Diplôme ou pas, le monde ne paie que ce que tu sais faire quand tu as faim. »
