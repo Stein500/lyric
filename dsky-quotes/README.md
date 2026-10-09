@@ -198,6 +198,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 168 | Le tambour | taiko géant |
 | 169 | Les trois saisons | sanctuaire |
 | 170 | Les jambes de la vérité | renard à neuf queues |
+| 171 | La poignée de main | corridor & corbeaux |
+| 172 | Réunion | salle en deux moitiés |
+| 173 | Le vrai et le faux | rose vs serpents |
+| 174 | Les deux masques | bal masqué |
+| 175 | La disparition | coffret & fumée |
+| 176 | Le coin de la taverne | brinde & murmure |
+| 177 | La lumière de la chance | bannière royale |
+| 178 | Le conseil de la nuit | lanterne & roue |
+| 179 | La marmite vide | bol fumant sous la pluie |
+| 180 | Dix ombres | feu de camp |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

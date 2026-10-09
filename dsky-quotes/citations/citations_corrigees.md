@@ -522,3 +522,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **169.** `LES TROIS SAISONS` — escalier du sanctuaire, pétales, pluie et neige — « La patience n'est pas d'attendre : c'est rester doux pendant l'attente. »
 
 **170.** `LES JAMBES DE LA VÉRITÉ` — renard à neuf queues, bête de fumée — « Ne poursuis pas celui qui t'insulte : la vérité a des jambes plus longues. »
+
+---
+
+## SAISON 2 — Série ART XII (171 → 180) — « LES FAUX AMIS »
+*Poignées de main pièges, sourires à deux masques, marmite vide. Orthographe vérifiée 10/10.*
+
+**171.** `LA POIGNÉE DE MAIN` — corridor aux torches, corbeaux — « Un faux ami te serre la main ; son autre main connaît le chemin de ta poche. »
+
+**172.** `RÉUNION` — salle en deux moitiés : festin vs galère seule — « Quand la viande est prête, ils arrivent en foule ; quand la galère vient, ils ont réunion. »
+
+**173.** `LE VRAI ET LE FAUX` — chevalier à la rose piquante vs courtisan aux serpents d'or — « Le vrai te dit la vérité qui pique ; le faux te chante le mensonge qui berce. »
+
+**174.** `LES DEUX MASQUES` — bal masqué, pétales de rose — « Sourire devant toi, murmurer derrière toi : méfie-toi des bouches trop douces. »
+
+**175.** `LA DISPARITION` — coffret ouvert, convives devenus fumée — « L'argent a un pouvoir magique : il fait disparaître les faux amis. »
+
+**176.** `LE COIN DE LA TAVERNE` — brinde en facade, murmure vert — « Celui qui te critique en ton absence et te sourit en ta présence n'est pas ton frère. »
+
+**177.** `LA LUMIÈRE DE LA CHANCE` — bannière royale révélant les masques — « La chance ne fabrique pas les traîtres : elle se contente de les montrer. »
+
+**178.** `LE CONSEIL DE LA NUIT` — lanterne, roue réparée, souvenir d'applaudissements — « Un ami qui te conseille la nuit vaut mieux que dix qui t'applaudissent le jour. »
+
+**179.** `LA MARMITE VIDE` — pluie de forêt, bol fumant partagé — « Mange avec celui qui te cherche quand sa propre marmite est vide. »
+
+**180.** `DIX OMBRES` — feu de camp solitaire, ombres pâles au loin — « Dix ombres ne réchauffent pas comme un seul feu : garde peu d'amis, mais garde-les vrais. »
