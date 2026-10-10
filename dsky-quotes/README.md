@@ -218,6 +218,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 188 | Sans savoir pourquoi | la jarre portée |
 | 189 | Laide, vraiment ? | garde vs noble glacé |
 | 190 | La jalousie | masque fendu |
+| 191 | Le chien | voleur acculé |
+| 192 | Le pain du travail | ouvrier vs voleur |
+| 193 | L'argent à jambes | pièces ailées |
+| 194 | Le nom vide | monument effrité |
+| 195 | Les mains de fumée | butin emporté |
+| 196 | À la porte | gardes masqués |
+| 197 | La nuit ou le matin | route en deux |
+| 198 | La main qui vole | balance & braises |
+| 199 | Les portes verrouillées | grille sous la pluie |
+| 200 | Le tambour muet | village en cercle |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

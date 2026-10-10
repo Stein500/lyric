@@ -572,3 +572,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **189.** `LAIDE, VRAIMENT ?` — garde balafré qui partage son pain vs noble glacé — « Être laid, ce n'est pas le visage : c'est mentir, trahir, rabaisser les gens. »
 
 **190.** `LA JALOUSIE` — masque de porcelaine fendu, serpent vert — « La jalousie défigure plus vite que n'importe quelle cicatrice. »
+
+---
+
+## SAISON 2 — Série ART XIV (191 → 200) — « LE VOL NE PAIE PAS »
+*Pour décourager ceux qui aiment le vol. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10.*
+
+**191.** `LE CHIEN` — voleur acculé, chien aux yeux luisants — « Le voleur craint tous les regards, même ceux d'un chien. »
+
+**192.** `LE PAIN DU TRAVAIL` — ouvrier doré vs voleur tremblant — « Mange ton travail avec fierté : ce que tu voles se mange avec peur. »
+
+**193.** `L'ARGENT À JAMBES` — pièces ailées qui s'enfuient — « L'argent volé a des jambes : il s'enfuit plus vite qu'il n'est venu. »
+
+**194.** `LE NOM VIDE` — monument de son nom qui s'effrite — « Le vol remplit ta poche, mais il vide ton nom. »
+
+**195.** `LES MAINS DE FUMÉE` — butin emporté pendant le sommeil — « Ce que tu prends en volant, tu le perds en dormant. »
+
+**196.** `À LA PORTE` — garde masqués, fête inaccessible — « Personne ne serre la main d'un voleur : sa richesse reste à la porte. »
+
+**197.** `LA NUIT OU LE MATIN` — lune de sang vs aube dorée — « Vole, et tu gagneras la nuit ; travaille, et tu gagneras le matin. »
+
+**198.** `LA MAIN QUI VOLE` — balance dorée vs amis en braises — « La main qui vole s'enrichit d'objets et s'appauvrit d'amis. »
+
+**199.** `LES PORTES VERROUILLÉES` — maison chaude derrière la grille sous la pluie — « Le travail bâtit une maison ; le vol n'ouvre que des portes verrouillées. »
+
+**200.** `LE TAMBOUR MUET` — village en cercle, doigts pointés — « Le vol est un tambour muet : un jour, tout le village le danse. »

@@ -11,8 +11,13 @@ Recette :
   · TOUT le branding (badge DSKY + N° + signature + CTA) est dans le bloc
     bas, qui se termine ~y=1570 → plus rien n'est masqué.
 Sortie : saison-02/tiktok/quote-NN-tiktok.jpg
+
+v3 (demande user) : TikTok ONLY pour les nouvelles salves ; bloc bas
+aéré (badge 1345, signature 1478, CTA 1560, gaps elargis) ; filtre argv
+pour ne composer que les numeros donnes : python3 compose_art_tt.py 191 192 ...
 """
 import os
+import sys
 from PIL import Image, ImageDraw
 from compose import (ROOT, montserrat, draw_tracking, tracking_w, draw_badge,
                      draw_flag, grain, STYLES)
@@ -49,14 +54,14 @@ def brand_tiktok(num):
     for i in range(0, 400):
         od.line([(0, i), (W, i)], fill=(8, 8, 10, max(0, 235 - int(235*i/400))))
     # léger voile bas derrière le branding
-    for i in range(1300, H):
-        t = (i-1300)/(H-1300)
+    for i in range(1280, H):
+        t = (i-1280)/(H-1280)
         od.line([(0, i), (W, i)], fill=(8, 8, 10, int(150*t*t)))
     img.alpha_composite(ov)
     d = ImageDraw.Draw(img)
 
     # ---- bloc bas ZONE SÛRE : badge + N° ----
-    yb = 1370
+    yb = 1345
     draw_badge(img, m, yb, acc)
     fnum = montserrat(26, 700)
     t = f"N° {num}"
@@ -82,13 +87,13 @@ def brand_tiktok(num):
         draw_flag(ImageDraw.Draw(fl), 0, 0, fw2, fh2)
         img.paste(fl, (int(fx), fy+23), mflag)
 
-    # ---- CTA (se termine ~y=1570, loin des overlays TikTok) ----
+    # ---- CTA (aéré : gap 46, se termine ~y=1582, loin des overlays TikTok) ----
     cta = [("LIKE", icon_heart), ("COMMENTE", icon_comment),
            ("PARTAGE", icon_share), ("ABONNE-TOI", icon_plus)]
-    fi = montserrat(19, 700); tr = 2; dotw, gaps = 22, 40
+    fi = montserrat(19, 700); tr = 2; dotw, gaps = 24, 46
     blocks = [(w_, ic, tracking_w(d, w_, fi, tr)) for w_, ic in cta]
     total = sum(22+9+ww for _, _, ww in blocks) + 3*(dotw+gaps)
-    x = W/2 - total/2; ycta = fy + 58
+    x = W/2 - total/2; ycta = fy + 82
     for i, (word, icon, ww) in enumerate(blocks):
         icon(d, x+11, ycta+11, 22, acc+(255,))
         draw_tracking(d, (x+22+9, ycta), word, fi, txt+(235,), tr=tr, shadow=(0, 0, 0, 160))
@@ -105,5 +110,6 @@ def brand_tiktok(num):
 
 if __name__ == "__main__":
     os.makedirs(os.path.join(ROOT, "saison-02/tiktok"), exist_ok=True)
-    for n in tuple(ART):
+    nums = [int(a) for a in sys.argv[1:]] or list(ART)
+    for n in nums:
         brand_tiktok(n)
