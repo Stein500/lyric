@@ -228,16 +228,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 198 | La main qui vole | balance & braises |
 | 199 | Les portes verrouillées | grille sous la pluie |
 | 200 | Le tambour muet | village en cercle |
-| 201 | Le couple qui chuchote | bal masqué |
-| 202 | Sans os | serpent de brume |
-| 203 | La rumeur | bête vs lanterne |
-| 204 | Dans ton dos | ciseaux d'ombre |
-| 205 | Les oreilles | esprits-oreilles |
-| 206 | Torches et ciseaux | statue & torches |
-| 207 | Le verdict écrit | tribunal masqué |
-| 208 | La maison vide | masques & pluie |
-| 209 | La morsure finale | serpent d'or |
-| 210 | Ta route | chemin doré |
+| 201 | Chaque pierre | route aux gargouilles |
+| 202 | En secret | jardinier & arbre-vision |
+| 203 | Les mouches | graine sous cloche |
+| 204 | Sans discours | forêt-cathédrale |
+| 205 | Le fleuve et la flaque | vallée miroir |
+| 206 | L'arme qui ne s'émousse pas | samouraï |
+| 207 | Ton travail parle | forgeron |
+| 208 | Avant de semer | crieur de moisson |
+| 209 | Ton calme | porte & curieux |
+| 210 | Sans microphone | moisson & anneaux |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

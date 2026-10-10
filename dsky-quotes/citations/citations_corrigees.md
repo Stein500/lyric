@@ -600,25 +600,25 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 
 ---
 
-## SAISON 2 — Série ART XV (201 → 210) — « LES LANGUES VENIMEUSES »
-*Commères, chuchoteurs et envieux : ce qui se dit dans ton dos. TikTok uniquement (v3). Orthographe vérifiée 10/10.*
+## SAISON 2 — Série ART XV (201 → 210) — « LE SILENCE DES FORTS »
+*Parler peu, préparer en secret, laisser le travail crier. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10.*
 
-**201.** `LE COUPLE QUI CHUCHOTE` — bal masqué, étincelle des secrets — « Ceux qui te répètent les secrets d'autrui répéteront aussi les tiens. »
+**201.** `CHAQUE PIERRE` — route aux gargouilles moqueuses — « Répondre à tout, c'est se baisser pour chaque pierre : marche. »
 
-**202.** `SANS OS` — serpent de brume brisant la statue — « La langue n'a pas d'os, mais elle casse des vies. »
+**202.** `EN SECRET` — jardinier à l'arbre vision de midi — « Ce que tu prépares en secret, la vie le montre en plein jour. »
 
-**203.** `LA RUMEUR` — bête aux mille bouches vs porteur de lanterne — « La rumeur court plus vite que la vérité, mais la vérité reste plus longtemps. »
+**203.** `LES MOUCHES` — graine de lumière sous cloche, papillons dehors — « Garde tes projets dans le silence : la lumière attire trop de mouches. »
 
-**204.** `DANS TON DOS` — statues taillées aux ciseaux d'ombre — « Ils ne t'affrontent pas en face : ils te taillent dans ton dos. »
+**204.** `SANS DISCOURS` — forêt-cathédrale silencieuse — « Les grands arbres poussent sans faire de discours. »
 
-**205.** `LES OREILLES` — esprits-oreilles repartant avec ton cœur — « Les commères arrivent avec leurs oreilles et repartent avec ta vie. »
+**205.** `LE FLEUVE ET LA FLAQUE` — vallée miroir, gouttes espiègles — « Le fleuve profond coule sans bruit ; la flaque s'annonce à chaque goutte. »
 
-**206.** `TORCHES ET CISEAUX` — amis qui éclairent, envieux qui grattent — « Tes amis crient tes qualités ; tes envieux étudient tes défauts. »
+**206.** `L'ARME QUI NE S'ÉMOUSSE PAS` — samouraï au cercle de lumière — « Le silence n'est pas une faiblesse : c'est une arme qui ne s'émousse pas. »
 
-**207.** `LE VERDICT ÉCRIT` — tribunal masqué, rouleaux déjà scellés — « N'explique pas ta vie à une bouche qui a déjà écrit son verdict. »
+**207.** `TON TRAVAIL PARLE` — forgeron, lame-faisceau sur la vallée — « Quand tu te tais, ton travail parle si fort qu'on l'entend de loin. »
 
-**208.** `LA MAISON VIDE` — masques bavards, maison déserte sous la pluie — « Celui qui vide les autres n'a rien dans sa propre maison. »
+**208.** `AVANT DE SEMER` — crieur de moisson, sacs vides — « Annonce ta moisson avant de semer, et tu récolteras des conseils, pas du grain. »
 
-**209.` `LA MORSURE FINALE` — serpent d'or se mordant — « La langue qui blesse finit toujours par se mordre. »
+**209.** `TON CALME` — porte ouverte, curieux au coin du mur — « Ceux qui t'ont quitté reviennent aux nouvelles : laisse-les lire ton calme. »
 
-**210.** `TA ROUTE` — chemin doré, ombres en papillons gris — « Occupe-toi de ta route : les langues meurent, ton chemin reste. »
+**210.** `SANS MICROPHONE` — moisson dorée, anneaux vers le village — « La réussite n'a pas besoin de microphone ; on l'entend jusqu'au village. »
