@@ -1,0 +1,402 @@
+{
+ "source_audio": "Ça monte_ ça descend.mp3",
+ "duree_audio_s": 197.6,
+ "duree_carte_finale_s": 5.0,
+ "duree_totale_s": 202.6,
+ "fps": 30,
+ "hypothese_affichage": "min(4 s, max(2 s, 0,07 s × nb_caracteres + 1,2 s)), borné par le vers suivant",
+ "fenetres_cta_5s": [
+  {
+   "debut": 114.63,
+   "fin": 120.05,
+   "duree": 5.42
+  },
+  {
+   "debut": 146.0,
+   "fin": 152.4,
+   "duree": 6.4
+  },
+  {
+   "debut": 157.08,
+   "fin": 173.13,
+   "duree": 16.05
+  },
+  {
+   "debut": 189.76,
+   "fin": 197.6,
+   "duree": 7.84
+  }
+ ],
+ "cycles_cta": [
+  {
+   "debut": 114.63,
+   "duree": 4.0
+  },
+  {
+   "debut": 118.63,
+   "duree": 1.42
+  },
+  {
+   "debut": 146.0,
+   "duree": 4.0
+  },
+  {
+   "debut": 150.0,
+   "duree": 2.4
+  },
+  {
+   "debut": 157.08,
+   "duree": 4.0
+  },
+  {
+   "debut": 161.08,
+   "duree": 4.0
+  },
+  {
+   "debut": 165.08,
+   "duree": 4.0
+  },
+  {
+   "debut": 169.08,
+   "duree": 4.0
+  },
+  {
+   "debut": 189.76,
+   "duree": 4.0
+  },
+  {
+   "debut": 193.76,
+   "duree": 3.84
+  }
+ ],
+ "carte_accueil_s": [
+  0.0,
+  4.92
+ ],
+ "vers": [
+  {
+   "t0": 4.4,
+   "t1": 7.28,
+   "fond": 0,
+   "texte": "Wolof TechStein beat wê!"
+  },
+  {
+   "t0": 7.79,
+   "t1": 10.04,
+   "fond": 0,
+   "texte": "Yeah! Let's go!"
+  },
+  {
+   "t0": 10.47,
+   "t1": 11.37,
+   "fond": 0,
+   "texte": "Ça monte!"
+  },
+  {
+   "t0": 11.37,
+   "t1": 12.68,
+   "fond": 0,
+   "texte": "Ça descend!"
+  },
+  {
+   "t0": 12.68,
+   "t1": 16.68,
+   "fond": 2,
+   "texte": "Ça monte, ça descend, ça monte, ça descend"
+  },
+  {
+   "t0": 18.1,
+   "t1": 20.19,
+   "fond": 1,
+   "texte": "Tout l'monde est debout, personne s'assoit, c'est l'temps"
+  },
+  {
+   "t0": 20.19,
+   "t1": 24.19,
+   "fond": 2,
+   "texte": "Ça monte, ça descend, ça monte, ça descend"
+  },
+  {
+   "t0": 24.84,
+   "t1": 27.0,
+   "fond": 0,
+   "texte": "Wolof TechStein beat wê!"
+  },
+  {
+   "t0": 27.0,
+   "t1": 30.24,
+   "fond": 1,
+   "texte": "Trois heures du mat', j'suis dans l'club, j'suis dans l'zone"
+  },
+  {
+   "t0": 30.24,
+   "t1": 33.5,
+   "fond": 1,
+   "texte": "Le beat tape fort, j'sens vibrer mes os, mon téléphone"
+  },
+  {
+   "t0": 33.5,
+   "t1": 36.12,
+   "fond": 1,
+   "texte": "J'regarde autour, tout l'monde est chaud, tout l'monde est prêt"
+  },
+  {
+   "t0": 36.12,
+   "t1": 39.51,
+   "fond": 1,
+   "texte": "On vient d'arriver, mais on r'part pas avant l'jour, jamais"
+  },
+  {
+   "t0": 39.51,
+   "t1": 41.42,
+   "fond": 1,
+   "texte": "Wadjaya, viens danser, la nuit est à nous"
+  },
+  {
+   "t0": 41.42,
+   "t1": 43.03,
+   "fond": 1,
+   "texte": "Wadjaya, viens bouger, on s'en fout de tout"
+  },
+  {
+   "t0": 43.03,
+   "t1": 44.76,
+   "fond": 1,
+   "texte": "Vivi oor dans mes veines, j'savoure chaque son"
+  },
+  {
+   "t0": 44.76,
+   "t1": 46.35,
+   "fond": 1,
+   "texte": "Djalé, lève ton verre, on célèbre, c'est bon"
+  },
+  {
+   "t0": 46.35,
+   "t1": 48.15,
+   "fond": 1,
+   "texte": "Ça monte, ça monte, ça monte, ça monte"
+  },
+  {
+   "t0": 48.15,
+   "t1": 49.86,
+   "fond": 1,
+   "texte": "J'sens la basse qui tape dans mon corps"
+  },
+  {
+   "t0": 49.86,
+   "t1": 51.53,
+   "fond": 1,
+   "texte": "Ça monte, ça monte, ça monte, ça monte"
+  },
+  {
+   "t0": 51.53,
+   "t1": 53.16,
+   "fond": 1,
+   "texte": "Prépare-toi, ça va drop fort"
+  },
+  {
+   "t0": 53.16,
+   "t1": 57.16,
+   "fond": 2,
+   "texte": "ÇA MONTE, ÇA DESCEND, ÇA MONTE, ÇA DESCEND"
+  },
+  {
+   "t0": 58.45,
+   "t1": 62.45,
+   "fond": 2,
+   "texte": "TOUT L'MONDE EST DEBOUT, PERSONNE S'ASSOIT, C'EST L'TEMPS"
+  },
+  {
+   "t0": 66.91,
+   "t1": 70.91,
+   "fond": 2,
+   "texte": "ÇA MONTE, ÇA DESCEND, ÇA MONTE, ÇA DESCEND"
+  },
+  {
+   "t0": 73.76,
+   "t1": 77.76,
+   "fond": 2,
+   "texte": "J'SUIS DANS L'BÂTIMENT, J'FAIS TREMBLER L'CIMENT"
+  },
+  {
+   "t0": 78.12,
+   "t1": 80.27,
+   "fond": 0,
+   "texte": "Wolof TechStein beat wê!"
+  },
+  {
+   "t0": 80.27,
+   "t1": 82.81,
+   "fond": 1,
+   "texte": "J'suis dans l'game, j'suis dans l'beat, j'suis dans l'mood"
+  },
+  {
+   "t0": 82.81,
+   "t1": 86.06,
+   "fond": 1,
+   "texte": "J'suis pas là pour faire joli, j'suis là pour faire du bruit"
+  },
+  {
+   "t0": 86.06,
+   "t1": 88.82,
+   "fond": 1,
+   "texte": "Kissi noumi, j'embrasse la vie, j'embrasse la nuit"
+  },
+  {
+   "t0": 88.82,
+   "t1": 92.82,
+   "fond": 1,
+   "texte": "Gbètché vivi, ma vie me plaît, j'fais c'que j'veux, j'suis libre"
+  },
+  {
+   "t0": 92.96,
+   "t1": 94.83,
+   "fond": 1,
+   "texte": "Yiwan noumi, aime-moi ou laisse-moi tranquille"
+  },
+  {
+   "t0": 94.83,
+   "t1": 96.57,
+   "fond": 1,
+   "texte": "J'avance dans l'son, j'avance dans l'ville"
+  },
+  {
+   "t0": 96.57,
+   "t1": 98.14,
+   "fond": 1,
+   "texte": "Nonvi konou, mon frère sourit, tout l'monde est content"
+  },
+  {
+   "t0": 98.14,
+   "t1": 99.8,
+   "fond": 1,
+   "texte": "Dokpè pour le peu, on remercie, on avance"
+  },
+  {
+   "t0": 99.8,
+   "t1": 101.63,
+   "fond": 1,
+   "texte": "Ça monte, ça monte, ça monte, ça monte"
+  },
+  {
+   "t0": 101.63,
+   "t1": 103.15,
+   "fond": 1,
+   "texte": "J'sens la basse qui tape dans mon corps"
+  },
+  {
+   "t0": 103.15,
+   "t1": 104.97,
+   "fond": 1,
+   "texte": "Ça monte, ça monte, ça monte, ça monte"
+  },
+  {
+   "t0": 104.97,
+   "t1": 106.5,
+   "fond": 1,
+   "texte": "Prépare-toi, ça va drop fort"
+  },
+  {
+   "t0": 106.5,
+   "t1": 110.5,
+   "fond": 2,
+   "texte": "ÇA MONTE, ÇA DESCEND, ÇA MONTE, ÇA DESCEND"
+  },
+  {
+   "t0": 110.63,
+   "t1": 114.63,
+   "fond": 2,
+   "texte": "TOUT L'MONDE EST DEBOUT, PERSONNE S'ASSOIT, C'EST L'TEMPS"
+  },
+  {
+   "t0": 120.05,
+   "t1": 124.05,
+   "fond": 2,
+   "texte": "ÇA MONTE, ÇA DESCEND, ÇA MONTE, ÇA DESCEND"
+  },
+  {
+   "t0": 127.12,
+   "t1": 131.12,
+   "fond": 2,
+   "texte": "J'SUIS DANS L'BÂTIMENT, J'FAIS TREMBLER L'CIMENT"
+  },
+  {
+   "t0": 131.33,
+   "t1": 133.74,
+   "fond": 0,
+   "texte": "Wolof TechStein beat wê!"
+  },
+  {
+   "t0": 133.74,
+   "t1": 135.38,
+   "fond": 3,
+   "texte": "Ça redescend... ça redescend..."
+  },
+  {
+   "t0": 135.38,
+   "t1": 137.09,
+   "fond": 1,
+   "texte": "J'reprends mon souffle, j'regarde le temps"
+  },
+  {
+   "t0": 137.09,
+   "t1": 138.64,
+   "fond": 3,
+   "texte": "Ça redescend... ça redescend..."
+  },
+  {
+   "t0": 138.64,
+   "t1": 140.29,
+   "fond": 3,
+   "texte": "Mais ça va remonter dans un instant"
+  },
+  {
+   "t0": 140.29,
+   "t1": 142.0,
+   "fond": 3,
+   "texte": "Ça redescend... ça redescend..."
+  },
+  {
+   "t0": 142.0,
+   "t1": 146.0,
+   "fond": 1,
+   "texte": "J'reprends mon souffle, j'regarde le temps"
+  },
+  {
+   "t0": 152.4,
+   "t1": 153.08,
+   "fond": 2,
+   "texte": "ÇA MONTE, ÇA DESCEND, ÇA MONTE, ÇA DESCEND"
+  },
+  {
+   "t0": 153.08,
+   "t1": 157.08,
+   "fond": 2,
+   "texte": "TOUT L'MONDE EST DEBOUT, PERSONNE S'ASSOIT, C'EST L'TEMPS"
+  },
+  {
+   "t0": 173.13,
+   "t1": 176.01,
+   "fond": 0,
+   "texte": "Wolof TechStein beat wê!"
+  },
+  {
+   "t0": 179.87,
+   "t1": 182.27,
+   "fond": 0,
+   "texte": "Wolof TechStein beat wê..."
+  },
+  {
+   "t0": 182.27,
+   "t1": 185.22,
+   "fond": 1,
+   "texte": "Ça monte... ça descend..."
+  },
+  {
+   "t0": 186.95,
+   "t1": 189.76,
+   "fond": 1,
+   "texte": "(On s'arrête jamais...)"
+  }
+ ]
+}
