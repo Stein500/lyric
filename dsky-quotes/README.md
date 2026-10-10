@@ -208,6 +208,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 178 | Le conseil de la nuit | lanterne & roue |
 | 179 | La marmite vide | bol fumant sous la pluie |
 | 180 | Dix ombres | feu de camp |
+| 181 | En phase ? | festival flou |
+| 182 | Le miroir retourné | terrasse à l'aube |
+| 183 | Tes gestes le crient ⭐ | miroir & lumières |
+| 184 | Droite | reine au fil d'or |
+| 185 | Le cœur embellit | marchande rapiécée |
+| 186 | Le parfum | roses fanées |
+| 187 | Le vrai maquillage | rire doré |
+| 188 | Sans savoir pourquoi | la jarre portée |
+| 189 | Laide, vraiment ? | garde vs noble glacé |
+| 190 | La jalousie | masque fendu |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

@@ -547,3 +547,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **179.** `LA MARMITE VIDE` — pluie de forêt, bol fumant partagé — « Mange avec celui qui te cherche quand sa propre marmite est vide. »
 
 **180.** `DIX OMBRES` — feu de camp solitaire, ombres pâles au loin — « Dix ombres ne réchauffent pas comme un seul feu : garde peu d'amis, mais garde-les vrais. »
+
+---
+
+## SAISON 2 — Série ART XIII (181 → 190) — « LA VRAIE BEAUTÉ »
+*Punchline de Dsky en 183, arrangée proprement, prolongée par neuf sœurs : le cœur fait le visage. Orthographe vérifiée 10/10.*
+
+**181.** `EN PHASE ?` — festival flou, calme au centre — « Tu n'es pas en phase avec toi-même ? Ton visage le montre avant ta bouche. »
+
+**182.** `LE MIROIR RETOURNÉ` — terrasse à l'aube, miroir posé face contre pierre — « N'attends pas l'accord du miroir pour t'aimer : commence sans lui. »
+
+**183.** `TES GESTES LE CRIENT` ⭐ *punchline Dsky* — miroir ancien, lumières qui s'en vont — « Si tu te crois laid, tes gestes le crient : ceux que ta beauté attirait repartent. »
+
+**184.** `DROITE` — reine au fil d'or parmi les courtisans — « La vraie beauté se tient droite : elle n'attend l'avis de personne. »
+
+**185.** `LE CŒUR EMBELLIT` — marchande aux habits rapiécés, foule souriante — « Un cœur qui s'aime bien embellit même les vêtements simples. »
+
+**186.** `LE PARFUM` — flacon de luxe, roses qui fanent, cœur vert — « Tu peux porter le parfum de luxe : si ton cœur sent la haine, on le remarque. »
+
+**187.** `LE VRAI MAQUILLAGE` — rire doré sous les lanternes — « Le sourire qui vient du dedans est le seul maquillage qui ne coule pas. »
+
+**188.** `SANS SAVOIR POURQUOI` — la jarre portée pour l'aînée, village doré — « Marche droit, parle doux, aide sans compter : on te trouvera beau sans savoir pourquoi. »
+
+**189.** `LAIDE, VRAIMENT ?` — garde balafré qui partage son pain vs noble glacé — « Être laid, ce n'est pas le visage : c'est mentir, trahir, rabaisser les gens. »
+
+**190.** `LA JALOUSIE` — masque de porcelaine fendu, serpent vert — « La jalousie défigure plus vite que n'importe quelle cicatrice. »
