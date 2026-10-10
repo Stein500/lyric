@@ -26,7 +26,7 @@ l'image ne doit donc être ni miséreuse ni festive à outrance — **digne, cha
 > Lui : jeune homme béninois, teint brun profond, visage ovale, barbe courte taillée, cheveux très courts, chemise en coton blanc cassé fermée jusqu'au col, manches longues retroussées aux poignets, pantalon en lin sable, collier de petites perles noires, montre bronze au poignet gauche.
 > Elle : jeune femme béninoise, teint brun cuivré, visage rond, cheveux tressés en vanilles basses ramenées sur l'épaule gauche, robe longue en wax indigo à manches trois-quarts descendant jusqu'aux mollets, boucles d'oreilles dorées rondes, foulard ocre noué à la taille.
 
-Fichier ancre de référence : `personnages/ancre-01.png` (720×1280, ratio 9:16 exact). **Toute génération repart de ce fichier via `images=`.**
+Fichier ancre de référence : `personnages/ancre-01.png` — **1080×1920 natif, bande noire de 109 px retirée** (voir §7). **Toute génération repart de ce fichier via `images=`.**
 
 ---
 
@@ -91,6 +91,19 @@ Découpe : 30 segments, moyenne **6,30 s**, aucune coupe d'image en milieu de ve
 ## 5 — À livrer (rappel v5.7)
 
 9:16 1080×1920 · Titre · Captions (légende courte + code) · 10 à 13 hashtags · déclaration IA (visuels générés par IA) · master 48 kHz MP3 320 kb/s loudnorm −14 LUFS / −1,5 dBTP avec ID3 (APIC + USLT propre) · commandes Termux une ligne par fichier, `;` en séparateur, hash du commit **après** push.
+
+## 7 — Contrôles de la salve 1 (mesurés, pas déclarés)
+
+Méthode : lecture PNG directe, bande noire = lignes dont la luminance max < 10 ; densité de contours dans les bandes hautes (8 %) et basses (18 %).
+
+| Fichier | Ratio | Taille | Bandes noires h/b | Remarque |
+|---|---|---|---|---|
+| `ancre-01.png` | 0,5625 | **1080×1920** | 0 / 0 | **109 px de noir en haut (8,5 %) détectés → réparés** : bande supprimée, puis 61 px rognés sur chaque côté (densité de contours des lisères 4,4 contre 6,9 au centre → du fond, aucun personnage touché). Original conservé : `ancre-01-brut.png`. |
+| `scene-01` → `scene-10` | 0,5581 | 768×1376 | 0 / 0 | Aucune bande noire, aucun recadrage nécessaire. Écart de 0,8 % avec le 9:16 absorbé par un étirement vertical (`scale` pur, jamais de `crop`). |
+
+- Passage vérifié dans ce sandbox : `scale=1080:1920:flags=lanczos` sur scene-01 / 05 / 10 → sortie 1080×1920 exacte, **rien de rogné en haut ni en bas** (le contrôle que l'artiste demandait).
+- Plans où les jambes sortent du cadre **par le cadrage interne** (S02, S07, S09, S10 : plan taille ou genoux) : conforme à v5.7 (plan moyen accepté), mais si l'artiste veut du corps entier partout, on régénère ces quatre slots en plan large.
+- Consistance des personnages sur les 10 scènes : même homme (chemise blanc cassé, lin sable, perles noires), même femme (wax indigo, foulard ocre, vanilles basses) — aucune dérive de visage ou de tenue relevée sur la planche.
 
 ## 6 — Prochain tour
 
