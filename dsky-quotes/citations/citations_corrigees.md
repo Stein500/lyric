@@ -622,3 +622,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **209.** `TON CALME` — porte ouverte, curieux au coin du mur — « Ceux qui t'ont quitté reviennent aux nouvelles : laisse-les lire ton calme. »
 
 **210.** `SANS MICROPHONE` — moisson dorée, anneaux vers le village — « La réussite n'a pas besoin de microphone ; on l'entend jusqu'au village. »
+
+---
+
+## SAISON 2 — Série ART XVI (211 → 220) — « LES ENVIEUX »
+*Compteur de récoltes, œil au trou de la serrure, premier fan. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10.*
+
+**211.** `LA FLÈCHE EN CENDRES` — archer maudit vs récoltant rayonnant — « La flèche de l'envieux tombe en cendres avant d'atteindre sa cible. »
+
+**212.** `LE CHAMP VIDE` — compteur de récoltes à la clôture — « Pendant qu'il compte tes récoltes, son champ reste vide. »
+
+**213.** `LE TROUSSEAU DE CLÉS` — l'œil doré au trou de la serrure — « L'œil jaloux grossit tes cadeaux et cache tes peines. »
+
+**214.** `LE PREMIER FAN` — l'ombre qui imite chaque pas — « Ton envieux te suit partout : c'est ton premier fan. »
+
+**215.** `LEUR MIROIR` — bal des reflets fanés — « Ce n'est pas ta réussite qui fait mal : c'est leur miroir. »
+
+**216.** `VRAIS VS MASQUES` — deux couloirs, table chaude ou porcelaine — « Annonce ta joie aux vrais ; aux envieux, montre seulement ton travail. »
+
+**217.** `SON PROPRE GRENIER` — soufflet de nuit, grange rivale intacte — « L'envie ne touche pas à ma moisson : elle brûle son propre grenier. »
+
+**218.** `L'ARME` — souffle qui devient lames — « Ton projet dans la bouche d'un envieux devient une arme. »
+
+**219.** `BON COURAGE` — allée des masques souriants — « Beaucoup te disent bon courage ; peu le pensent avec le cœur. »
+
+**220.** `LE BONHEUR SILENCIEUX` — l'envieux fondu en fumée sur la route de l'aube — « Rien n'épuise un envieux comme ton bonheur silencieux. »

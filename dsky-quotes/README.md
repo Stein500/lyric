@@ -238,6 +238,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 208 | Avant de semer | crieur de moisson |
 | 209 | Ton calme | porte & curieux |
 | 210 | Sans microphone | moisson & anneaux |
+| 211 | La flèche en cendres | archer maudit |
+| 212 | Le champ vide | compteur de récoltes |
+| 213 | Le trousseau de clés | œil à la serrure |
+| 214 | Le premier fan | l'ombre qui suit |
+| 215 | Leur miroir | bal des reflets |
+| 216 | Vrais vs masques | deux couloirs |
+| 217 | Son propre grenier | soufflet de nuit |
+| 218 | L'arme | souffle en lames |
+| 219 | Bon courage | allée des masques |
+| 220 | Le bonheur silencieux | fumée au petit matin |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 
