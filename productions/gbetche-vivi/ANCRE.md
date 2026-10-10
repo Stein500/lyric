@@ -54,7 +54,7 @@ Durée **décodée mesurée : 194,83 s** (start offset 0,023 s) — le `[length:
 | A14 | 81,82 → 88,26 | 6,44 | Parole tenue : poing serré tendu vers la caméra | généré |
 | A15 | 88,26 → 91,50 | 3,24 | Verre d'eau : geste simple, carafe sur le tabouret | généré |
 | A16 | 91,50 → 106,57 | 15,07 | La porte s'ouvre : bras levés dans le couloir, lumière blanche au fond (fenêtre clochettes) | généré |
-| A17 | 106,57 → 112,45 | 5,88 | Marche latérale devant le cyclorama, plan large | généré |
+| A17 | 106,57 → 112,45 | 5,88 | Marche latérale, plan large — **une seule ombre** après régénération (les deux ombres de la v1 se lisaient comme deux personnes) | généré |
 | A18 | 112,45 → 118,07 | 5,62 | Deux mains posées sur la vitre de la cabine, salle vide derrière | généré |
 | A19 | 118,07 → 124,51 | 6,44 | Adossé au mur acoustique, bras croisés, regard ferme | généré |
 | A20 | 124,51 → 128,58 | 4,07 | Contre-jour total, silhouette dorée, visage encore lisible | généré |
@@ -64,10 +64,10 @@ Durée **décodée mesurée : 194,83 s** (start offset 0,023 s) — le `[length:
 | A24 | 146,00 → 149,52 | 3,52 | Il s'avance dans le couloir, portes ouvertes qui inondent le sol de lumière | généré |
 | A25 | 149,52 → 156,01 | 6,49 | Libération : fumée épaisse, néons, bras ouverts vers le haut | généré |
 | A26 | 156,01 → 162,75 | 6,74 | Béni, en paix : assis au bord du cyclorama, lumière d'aube, micro entre les genoux | généré |
-| A27 | 162,75 → 170,09 | 7,34 | Vue de dessus : minuscule au centre du studio vide, cercle de lumière (fenêtre clochettes) | à planifier |
-| A28 | 170,09 → 181,17 | 11,08 | Mains sur ses propres épaules — apaisement, un seul visage au cadre | à planifier |
-| A29 | 181,17 → 183,74 | 2,57 | Front calme : lunettes qui renvoient le néon, léger sourire | à planifier |
-| A30 | 183,74 → 194,83 | 11,09 | Face caméra, main sur le cœur, lumière d'or → fond de la carte finale | à planifier |
+| A27 | 162,75 → 170,09 | 7,34 | Mains sur ses propres épaules — apaisement, un seul visage au cadre | généré |
+| A28 | 170,09 → 181,17 | 11,08 | Vue de dessus : minuscule au centre du studio vide, cercle de lumière (fenêtre clochettes) | généré |
+| A29 | 181,17 → 183,74 | 2,57 | Front calme : lunettes qui renvoient le néon, léger sourire | généré |
+| A30 | 183,74 → 194,83 | 11,09 | Face caméra, main sur le cœur, lumière d'or → fond de la carte finale | généré |
 
 **Fenêtres sans texte ≥ 5 s** (clochettes, durée d'affichage v5.7, à confirmer à l'écoute) : 30,24 → 41,60 · 94,38 → 106,57 · 173,11 → 181,17. La fenêtre 186,27 → 194,83 est tenue par **la carte finale**, pas par les clochettes.
 
@@ -122,9 +122,7 @@ Générée avant le pivot, **non montée**. Contrôle d'époque : `ancre-01.png`
 
 ## 10 — Prochain tour (ordre)
 
-1. **A17 → A26** (10 = plafond de générations par tour), chacune repartant de `ancre-anim-01.png`.
-2. **A27 → A30** + retouches éventuelles, planche des 30, validation de l'artiste.
-3. Montage 9:16 (`scale` pur, jamais de `crop`), cartes d'accueil et finale, clochettes premium sur les 3 fenêtres, contrôles `blackdetect` / `freezedetect` / `cropdetect`, master −14 LUFS / −1,5 dBTP, covers, livrables (titre, captions, hashtags, déclaration IA, code **0314** à valider).
+1. ~~A17 → A26~~ fait. 2. ~~A27 → A30~~ fait. 3. Clip 9:16 rendu (voir §13). 4. Montage 9:16 (`scale` pur, jamais de `crop`), cartes d'accueil et finale, clochettes premium sur les 3 fenêtres, contrôles `blackdetect` / `freezedetect` / `cropdetect`, master −14 LUFS / −1,5 dBTP, covers, livrables (titre, captions, hashtags, déclaration IA, code **0314** à valider).
 4. Commit + push après chaque étape, sur `arena/f0df3f2f-lyric` uniquement. `ffmpeg` utile est fourni par `imageio-ffmpeg` (pas d'installation système possible dans ce sandbox).
 
 ## 11 — Intro « libre + clochette » (demande du tour 5)
@@ -155,3 +153,35 @@ Moteur : `render_intro_cta.py` (PIL + ffmpeg `imageio-ffmpeg`, piloté en rawvid
 **Un point à trancher — A17** : le marcheur projette **deux ombres portées** sur le mur (deux sources lumineuses). Ce sont bien SES ombres, mais à vitesse de lecture elles peuvent se lire comme deux silhouettes, alors que tu veux un homme seul. Réponse possible : soit on garde (ça fait « studio, deux projecteurs »), soit je régénère A17 avec une seule lumière.
 
 **Reste à produire : A27 → A30** (4 images) + la régénration éventuelle de A17.
+
+## 13 — Clip 9:16 livré (moteur `render_lyric_video.py`)
+
+Fichier : `livrables/Gbetché vivi - 916.mp4` — 1080×1920, 30 fps, H.264 high CRF 24, yuv420p, bt709, `+faststart`, AAC 256 k / 48 kHz. **Durée 199,83 s = 5 995 images.**
+
+| Segment | Contenu |
+|---|---|
+| 0,000 → 5,867 | carte d'accueil **libre de toute parole** + clochette et CTA dès l'ouverture (moteur `render_intro_cta.py`) ; l'audio de cette zone est l'entrée du morceau, donc **aucun décalage des horodatages** fournis |
+| 5,867 → 194,83 | chanson + paroles, badge « Dsky » (y 160, fondu 0,4 s, 75 %), clochettes premium sur les 3 fenêtres sans texte (30,24→41,60 · 94,38→106,57 · 173,11→181,17), paroles effacées pendant ces fenêtres |
+| 194,83 → 199,83 | carte finale « Merci d'avoir regardé » · « Tu veux un son ou des lyrics à réaliser pour toi ? » · « Commente le code » · **0314** en or, fondu de sortie 0,6 s |
+
+**Paroles et visage (la demande du tour 6).** Bloc de texte descendu en **y 1160 → 1330** (60,4 → 69,3 % de la hauteur), largeurs ≤ 740 px, scrim doux flouté derrière ; le moteur assombrit le fond à 74 % seulement pour garder les images vivantes. La preuve est visuelle et mesurée : `QC-limite-paroles.jpg` superpose la ligne rouge (= haut de la bande de paroles) sur les deux plans les plus serrés (A12, A29) — **le menton reste au-dessus de la ligne sur les deux**, donc aucune frame ne pose d'encre sur un visage ; sur les 28 autres fonds la tête finit bien plus haut (12 à 28 % pour les plans larges). Le mot actif est en or, les mots passés en crème fané, vague de 4,5 px à 0,9 Hz, durée de vers `min(4, max(2, 0,07·car + 1,2))` bornée par le vers suivant.
+
+**Contrôles sur le fichier livré** (relus sur `livrables/Gbetché vivi - 916.mp4` après rendu final) :
+- durée déclarée = durée réelle : `Duration 00:03:19.83`, **5 995 images décodées** pour 199,833 s à 30 fps, soit `images/FPS = durée` ;
+- `blackdetect d=0.10` : **aucun** passage noir ≥ 0,1 s (les fondus d'ouverture et de sortie font 0,35 s et 0,6 s, donc jamais immobiles au noir) ;
+- audit d'encre maison (`render_lyric_video.py --audit`) : 30 frames testées, **0 encre au-dessus de y 1134**, encre de parole la plus haute = **y 1166**, donc 32 px sous la limite visage mesurée ; preuve visuelle des deux plans les plus serrés dans `livrables/QC-frames/preuve-ligne-1160.jpg` (ligne rouge = y 1160, mentons au‑dessus) ;
+- audio du clip : **−14,0 LUFS** intégrés, crête échantillon **−1,49 dBFS** (limiteur `alimiter limit=0,79` posé avant l'AAC parce que l'encodeur dépasse toujours d'environ 0,5 dB) ;
+- `freezedetect n=-60dB:d=4` : **6 segments ≥ 4 s** — c'est la conséquence assumée de l'interdiction du recadrage/zoom : les fonds sont des images fixes, rien ne bouge hors textes et clochette.
+- planche de contrôle 9 frames : `livrables/QC-frames/planche-controle.jpg`.
+
+**Ce qui reste à faire côté rendu** (déclaré, pas caché) : contrôle d'écoute du calage mot à mot (les horodatages restent ceux de l'artiste, le highlight est provisoire) ; la police d'affichage retenue est **unicase sans jambage** (un `p`, `g`, `y` se lisent comme des majuscules sur une ligne longue) — choix gardé parce que l'intro validée l'utilise déjà, remplaçable en 5 min de rendu si l'artiste préfère.
+
+**Tags du master** : ID3v2.3 écrit par `eyeD3 0.9.9` + ffmpeg — `TIT2 Gbètché vivi` · `TPE1 Dsky` · `TALB Bandit Positif` · `TCON Afro-fusion` · `COMM Wolof TechStein beat wê ! | visuels et clip generes par IA (parole : artiste)` · **APIC image/jpeg 1080×1080 (front cover, 184 023 o)** · **USLT description « Paroles », lang `fre`, 2 384 caractères, horodatages LRC de l'artiste conservés tels quels**. Le master fait **−14,0 LUFS / crête −1,9 dBFS**, 320 kb/s, 48 kHz, 194,83 s.
+
+## 14 — Rectifications de ce tour
+
+- **A17 régénéré** : une seule source lumineuse, **une seule ombre** (les deux ombres portées de la v1 pouvaient se lire comme deux personnes).
+- **A27 → A30 générés** : les 4 créneaux qui étaient rebouclés sur `anim-09/13/22/26` dans le moteur (`FILL`) sont désormais fournis ; la table de secours reste dans le code mais n'est plus utilisée. Le grand plan « vue de dessus » (A28) est tombé pile sur la fenêtre de clochettes 170,09 → 181,17 : c'est le bon placement (beaucoup de vide pour la séquence CTA).
+- **Master** : loudnorm **deux passes réelles** — passe 1 mesurée `input_i −14,83 LUFS`, `input_tp −0,00 dBTP`, `input_lra 7,2` → passe 2 linéaire, `target_tp −1,50` atteint ; export 48 kHz puis MP3 320 kb/s. `livrables/Gbetché vivi - master.mp3`.
+- **Pochette** : `covers/gbetché-vivi-1080.jpg` (composition carrée **sans rogner la tête** : buste + fond flouté) + 3 carrés de rechange (A12, A28, A05) ; **APIC ID3v2.4 intégré au master** (`embed APIC rc=0`).
+- Contrôles images : `qa_fonds.py 'anim-*'` sur les 30 fonds → ratio 0,5581 partout, **0 ligne noire en tête/queue**, aucun membre coupé ; alertes A05/A16/A18/A19/A20/A22/A23/A28 = **faux positifs** du crible (néons, lampe, porte lumineuse) vérifiés à la planche.

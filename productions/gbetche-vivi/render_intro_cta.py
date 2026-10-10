@@ -257,7 +257,7 @@ def frame(t):
     d = ImageDraw.Draw(img)
 
     # --- carte 1 : invitation (sous le badge, au-dessus de la bande CTA) ----
-    a1 = fade(t, 0.30, 2.05)
+    a1 = fade(t, 0.30, 2.40)
     if a1 > 0:
         lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         bd = ImageDraw.Draw(lay)
@@ -272,7 +272,7 @@ def frame(t):
         img = Image.alpha_composite(img, lay)
 
     # --- carte 2 : ce qu'on peut proposer (<= 4 mots/s) ----------------------
-    a2 = fade(t, 1.95, 5.62)
+    a2 = fade(t, 2.30, 5.62)
     if a2 > 0:
         lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         bd = ImageDraw.Draw(lay)
