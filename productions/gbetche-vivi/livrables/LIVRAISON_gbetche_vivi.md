@@ -41,7 +41,7 @@ Variante courte (TikTok/Reels, 100 car.) : `Gbètché vivi — Bandit Positif | 
 
 ## 6 · Commandes Termux
 
-Termux tout neuf d'abord : `pkg update -y; pkg install -y curl ca-certificates; termux-setup-storage` (accepter la popup), puis **une ligne par fichier** à coller séparément (jamais `&&`, jamais de continuation反):
+Termux tout neuf d'abord : `pkg update -y; pkg install -y curl ca-certificates; termux-setup-storage` (accepter la popup), puis **une ligne par fichier** à coller séparément (jamais `&&`, jamais de continuation multiligne):
 
 ```
 mkdir -p /storage/emulated/0/Web+; curl -fL --retry 5 --retry-delay 3 -C - -o "/storage/emulated/0/Web+/Gbetch%C3%A9 vivi - 916.mp4" https://raw.githubusercontent.com/Stein500/lyric/d6cfad68ea7cb93ee89c2ed619dc0dae7a56b9ea/productions/gbetche-vivi/livrables/Gbetch%C3%A9%20vivi%20-%20916.mp4; ls -lh "/storage/emulated/0/Web+/Gbetch%C3%A9 vivi - 916.mp4"
