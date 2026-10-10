@@ -185,3 +185,54 @@ Fichier : `livrables/Gbetché vivi - 916.mp4` — 1080×1920, 30 fps, H.264 high
 - **Master** : loudnorm **deux passes réelles** — passe 1 mesurée `input_i −14,83 LUFS`, `input_tp −0,00 dBTP`, `input_lra 7,2` → passe 2 linéaire, `target_tp −1,50` atteint ; export 48 kHz puis MP3 320 kb/s. `livrables/Gbetché vivi - master.mp3`.
 - **Pochette** : `covers/gbetché-vivi-1080.jpg` (composition carrée **sans rogner la tête** : buste + fond flouté) + 3 carrés de rechange (A12, A28, A05) ; **APIC ID3v2.4 intégré au master** (`embed APIC rc=0`).
 - Contrôles images : `qa_fonds.py 'anim-*'` sur les 30 fonds → ratio 0,5581 partout, **0 ligne noire en tête/queue**, aucun membre coupé ; alertes A05/A16/A18/A19/A20/A22/A23/A28 = **faux positifs** du crible (néons, lampe, porte lumineuse) vérifiés à la planche.
+
+## 15 — Version 2 : l'écriture est DANS l'image, les autocollants sont dessinés par le moteur
+
+Demande de l'artiste : « je veux que l'outil IA écrive les choses directement sur l'image, avec des icônes et stickers ».
+La règle v5.7 « aucun texte sur les images » est donc **levée par l'artiste** pour cette version (elle reste vraie pour les
+logos, drapeaux, filigranes et bandes noires).
+
+**Six plans rechargés en mode édition** (l'homme, la lumière et le cadrage sont conservés, seul le texte est ajouté à la
+matière) : `personnages/anim-v2-{01,03,05,12,29,30}.png`.
+
+| Plan | Écriture gravée | Contrôle |
+|---|---|---|
+| A01 (accueil) | « REGARDE JUSQU'A LA FIN » au marqueur sur le whiteboard + carte cloche dessinée + carte « 0314 » + coup de surligneur au sol | orthographe lue à la planche ✓ |
+| A03 | « MA VIE ME PLAIT » sur feuille scotchée + smiley kraft + étoile dorée | régénéré une fois : la version 1 écrivait « VIVI » à la craie **au sol**, sous la bande de paroles |
+| A05 | « LIBRE » à la craie près de la chaîne cassée, poster flèche rouge, néon « WOLOF » | ressorti en ratio 0,67 (pas 9:16) → **régénéré** avec le ratio imposé |
+| A12 | néon doré « Wanyiyi » en script, souligné | régénéré : le néon passait **derrière sa tête** sur la v1 |
+| A29 | « NONVI » peint au mur + flèche orange + deux étoiles dorées découpées | garde-fou : écriture à gauche de la tête, peau et lunettes propres ✓ |
+| A30 (fond de la carte finale) | « MERCI » sur carte scotchée + étiquette bagage « 0314 » + bandeau cloche dessinée | ✓ |
+
+**Ce que le moteur dessine en plus** (`stickers.py`, 100 % vectoriel Pillow, jamais d'emoji) : scotch de masquage aux bords
+déchirés, étoiles découpées à crans, cadre pointillé, coup de surligneur derrière **le mot chanté**, souligné au feutre sous
+la ligne, flèche courbe, icônes cloche/partage/signet/play/œil/check/étincelle, étiquettes de section et étincelles animées.
+Aucun de ces éléments ne monte au‑dessus de **y 1140** et aucun ne dépasse **x 910** entre y 960 et y 1690 : le contrôle
+« parois du visage » (§13) continue de s'appliquer intégralement à la v2.
+
+**Étiquettes de section déduites des paroles** (rien d'inventé) : une ligne qui revient **3 fois et plus** = `REFRAIN ×3`
+(« Gbètché vivi, ma vie me plaît », « …je suis béni je suis en paix », « Wanyiyi dans mon cœur, nonvi dans mes veines »,
+« Dagbé tous les jours je marche sans chaîne ») ; la réplique de signature « Wolof TechStein beat wê ! » (5 apparitions) =
+`ADLIB`. Les 2 lignes qui ne reviennent qu'une fois n'ont aucune étiquette.
+
+**Leçon de performance (coût réel mesuré)** : la première passe v2 dessinait chaque calque en pleine image 1080×1920 —
+donc un `GaussianBlur` et trois `rotate` pleine image **par frame** → ≈ 200 ms/frame, soit 20 min de rendu. En traçant
+chaque primitive dans sa propre boîte (flou et rotation locaux, recalés par `alpha_composite(dest=)`) et en **caching**
+la partie statique par plan, on retombe à **28 ms/frame**, soit 2,8 min pour 5 995 frames. À retenir : `Image.alpha_composite`
+statique n'accepte **pas** de `dest` (c'est la méthode d'instance qui l'accepte), et `ImageDraw.im` est un `ImagingCore` sans
+`alpha_composite` -> passer par `draw._image`.
+
+**Pochettes v2** (`make_cover_v2.py`) : 4 carrés 1080² — `gbetché-vivi-v2-1080.jpg` (principale, buste A30 + fond flouté,
+titre écrit au marqueur sur feuille scotchée, souligné feutre, cloche/partage/signet vectoriels, étiquette « 0314 », étoiles
+et étincelles), `cover-v2-neon.jpg` (A12), `cover-v2-libre.jpg` (A05), `cover-v2-regarde.jpg` (A01). Bande de composition
+y 5 % → 60 % de l'image source : la tête n'est jamais rognée et l'étiquette gravée en bas à droite n'est plus recadrée à
+moitié.
+
+**Master v2** (`livrables/Gbetché vivi - master v2.mp3`) : **audio strictement identique** au master v1 (même loudnorm
+2 passes −14 LUFS / crête −1,9 dBFS, 320 kb/s, 48 kHz), seuls les tags changent — APIC = pochette v2 (écrit par ffmpeg,
+ID3v2.3) **puis** USLT `Paroles`/`fre` 2 384 caractères (écrit par eyeD3). L'ordre compte : dans l'autre sens ffmpeg ne
+recopie pas les frames de paroles existantes.
+
+**Clip v2** : `livrables/Gbetché vivi - 916 v2.mp4`, même timeline que §13 (0 → 5,867 accueil ; 5,867 → 194,83 paroles
+aux horodatages de l'artiste ; 194,83 → 199,83 carte finale), mêmes réglages d'encodage, fond assombri à 0,80 (et non 0,74)
+pour laisser lire l'écriture gravée, scrim du bloc de paroles à alpha 178 (et non 200).

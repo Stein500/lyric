@@ -38,7 +38,7 @@ SAFE_TOP, SAFE_BOT, SAFE_RIGHT_X, SAFE_RIGHT_Y = 144, 1574, 910, (960, 1690)
 BELL_Y = (620, 1340)
 LINE_W = 740
 
-BG = os.path.join(PERS, "anim-01.png")
+BG = os.path.join(PERS, "anim-v2-01.png" if (os.environ.get("V2") == "1" and os.path.exists(os.path.join(PERS, "anim-v2-01.png"))) else "anim-01.png")
 if not os.path.exists(BG):
     sys.exit("fond d'intro manquant : " + BG)
 
