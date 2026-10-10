@@ -597,3 +597,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **199.** `LES PORTES VERROUILLÉES` — maison chaude derrière la grille sous la pluie — « Le travail bâtit une maison ; le vol n'ouvre que des portes verrouillées. »
 
 **200.** `LE TAMBOUR MUET` — village en cercle, doigts pointés — « Le vol est un tambour muet : un jour, tout le village le danse. »
+
+---
+
+## SAISON 2 — Série ART XV (201 → 210) — « LES LANGUES VENIMEUSES »
+*Commères, chuchoteurs et envieux : ce qui se dit dans ton dos. TikTok uniquement (v3). Orthographe vérifiée 10/10.*
+
+**201.** `LE COUPLE QUI CHUCHOTE` — bal masqué, étincelle des secrets — « Ceux qui te répètent les secrets d'autrui répéteront aussi les tiens. »
+
+**202.** `SANS OS` — serpent de brume brisant la statue — « La langue n'a pas d'os, mais elle casse des vies. »
+
+**203.** `LA RUMEUR` — bête aux mille bouches vs porteur de lanterne — « La rumeur court plus vite que la vérité, mais la vérité reste plus longtemps. »
+
+**204.** `DANS TON DOS` — statues taillées aux ciseaux d'ombre — « Ils ne t'affrontent pas en face : ils te taillent dans ton dos. »
+
+**205.** `LES OREILLES` — esprits-oreilles repartant avec ton cœur — « Les commères arrivent avec leurs oreilles et repartent avec ta vie. »
+
+**206.** `TORCHES ET CISEAUX` — amis qui éclairent, envieux qui grattent — « Tes amis crient tes qualités ; tes envieux étudient tes défauts. »
+
+**207.** `LE VERDICT ÉCRIT` — tribunal masqué, rouleaux déjà scellés — « N'explique pas ta vie à une bouche qui a déjà écrit son verdict. »
+
+**208.** `LA MAISON VIDE` — masques bavards, maison déserte sous la pluie — « Celui qui vide les autres n'a rien dans sa propre maison. »
+
+**209.` `LA MORSURE FINALE` — serpent d'or se mordant — « La langue qui blesse finit toujours par se mordre. »
+
+**210.** `TA ROUTE` — chemin doré, ombres en papillons gris — « Occupe-toi de ta route : les langues meurent, ton chemin reste. »

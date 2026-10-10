@@ -228,6 +228,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 198 | La main qui vole | balance & braises |
 | 199 | Les portes verrouillées | grille sous la pluie |
 | 200 | Le tambour muet | village en cercle |
+| 201 | Le couple qui chuchote | bal masqué |
+| 202 | Sans os | serpent de brume |
+| 203 | La rumeur | bête vs lanterne |
+| 204 | Dans ton dos | ciseaux d'ombre |
+| 205 | Les oreilles | esprits-oreilles |
+| 206 | Torches et ciseaux | statue & torches |
+| 207 | Le verdict écrit | tribunal masqué |
+| 208 | La maison vide | masques & pluie |
+| 209 | La morsure finale | serpent d'or |
+| 210 | Ta route | chemin doré |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 
