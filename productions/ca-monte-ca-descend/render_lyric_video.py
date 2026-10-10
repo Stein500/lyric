@@ -46,7 +46,19 @@ GOLD = (255, 214, 110)
 CREAM = (246, 236, 214)
 CYAN = (92, 242, 255)
 MAG = (255, 79, 216)
-BG_FILES = ['bg-01-club.jpg', 'bg-02-rue.jpg', 'bg-03-drop.jpg', 'bg-04-pont.jpg']
+# Scènes avec le couple (personnages/), indexées par bg_for()
+BG_FILES = [
+    'personnages/scene-01-entree-club.jpg',      # 0 intro
+    'personnages/scene-02-danse-couple.jpg',     # 1 couplet 1
+    'personnages/scene-04-toast-pre-refrain.jpg',  # 2 pré-refrain
+    'personnages/scene-05-drop-explosion.jpg',   # 3 drop
+    'personnages/scene-06-rue-nuit.jpg',         # 4 couplet 2
+    'personnages/scene-07-foule-refrain.jpg',    # 5 refrain répété
+    'personnages/scene-08-pont-toit.jpg',        # 6 pont
+    'personnages/scene-09-aube-fin.jpg',         # 7 outro + carte finale
+    'personnages/scene-03-gros-plan-visage.jpg',  # 8 gros plan
+]
+OUTRO_BG = 7
 CTA_LOOP = 4.0               # répétition de la séquence clochette (s)
 CTA_MIN = 5.0                # seuil fenêtre sans parole (s)
 CODE = '1010'
@@ -65,15 +77,24 @@ def load_lines():
     return out
 
 
-def bg_for(text):
+def bg_for(text, t0):
     l = text.lower()
+    if t0 >= 170:
+        return OUTRO_BG                # outro
     if 'redescend' in l or 'remonter' in l:
-        return 3                       # pont calme
-    if text.isupper() or 'ça monte, ça descend' in l:
-        return 2                       # drop / refrain
-    if 'wolof' in l or l in ("yeah! let's go!", 'ça monte!', 'ça descend!'):
+        return 6                       # pont calme
+    if t0 < 12 or l in ("yeah! let's go!", 'ça monte!', 'ça descend!'):
         return 0                       # intro club
-    return 1                           # couplets, pré-refrain
+    if 'regarde autour' in l:
+        return 8                       # gros plan visage
+    if 'ça monte, ça monte' in l:
+        return 2                       # pré-refrain (build-up)
+    if text.isupper() or 'ça monte, ça descend' in l:
+        return 3 if t0 < 60 else 5     # drop 1 / refrain répété
+    if 60 <= t0 < 120 and ('kissi' in l or "j'suis" in l or 'gbètché' in l or 'yiwan' in l
+                           or 'nonvi' in l or 'dokpè' in l or 'avance' in l):
+        return 4                       # couplet 2
+    return 1                           # couplet 1
 
 
 def build_timeline(lines):
@@ -81,7 +102,7 @@ def build_timeline(lines):
         nxt = lines[i + 1]['t0'] if i + 1 < len(lines) else AUDIO_DUR
         d = min(4.0, max(2.0, 0.07 * len(L['text']) + 1.2))   # hypothèse d'affichage (à valider à l'écoute)
         L['t1'] = round(min(L['t0'] + d, nxt), 2)
-        L['bg'] = bg_for(L['text'])
+        L['bg'] = bg_for(L['text'], L['t0'])
         L['nxt'] = round(nxt, 2)
 
 
@@ -109,8 +130,8 @@ def bg_segments(lines):
     for L in lines:
         if L['bg'] != segs[-1][1]:
             segs.append((L['t0'], L['bg']))
-    if segs[-1][1] != 3:
-        segs.append((AUDIO_DUR, 3))
+    if segs[-1][1] != OUTRO_BG:
+        segs.append((AUDIO_DUR, OUTRO_BG))
     return segs
 
 
@@ -454,7 +475,7 @@ ST = {}
 
 
 def setup(lines):
-    ST['bgs'] = [Image.open(os.path.join(ROOT, 'fonds', f)).convert('RGB').resize((CW, CH), Image.LANCZOS)
+    ST['bgs'] = [Image.open(os.path.join(ROOT, f)).convert('RGB').resize((CW, CH), Image.LANCZOS)
                  for f in BG_FILES]
     ST['scrim'] = make_scrim()
     for L in lines:
@@ -619,7 +640,7 @@ def main():
         return
     if preview:
         os.makedirs(PREVIEW_DIR, exist_ok=True)
-        for t in [1.2, 3.5, 6.0, 15.5, 74.0, 75.6, 199.0]:
+        for t in [3.5, 30.0, 61.0, 118.0, 140.0, 148.0, 180.0, 199.0]:
             render(t, segs, cyc).convert('RGB').save(os.path.join(PREVIEW_DIR, f'p_{t:06.2f}.png'))
             print('ok', t, flush=True)
         print('fenetres', windows, flush=True)
