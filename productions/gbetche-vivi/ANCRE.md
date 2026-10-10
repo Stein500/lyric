@@ -137,7 +137,7 @@ Moteur : `render_intro_cta.py` (PIL + ffmpeg `imageio-ffmpeg`, piloté en rawvid
 |---|---|
 | Fenêtre | 0,000 → 5,867 s (176 images / 30 fps = 5,867 s) — le 1ᵉ vers tombe à 5,87 s, aucune parole pendant l'intro |
 | Fond | `anim-01.png` en `scale=1080:1920` **sans crop** + scrim doux (132/126 alpha floutés derrière les blocs de texte pour ne pas manger le visage) |
-| Carte 1 | « REGARDE JUSQU'À LA FIN », y = 268, souli gné cyan, fondu 0,35 s, 0,30 → 2,05 s |
+| Carte 1 | « REGARDE JUSQU'À LA FIN », y = 268, souigné cyan, fondu 0,35 s, 0,30 → 2,05 s |
 | Carte 2 | « pour découvrir comment / proposer un son ou des lyrics / à réaliser pour toi ! », 3 lignes, y 404/464/524, 1,95 → 5,62 s ≈ 15 mots en 3,7 s = **4,0 mots/s** (plafond §3) |
 | Cloche | vecteur supersamplé **×3**, dégradé or → bronze, anse, battant, reflet ; balancement ±12° amorti (exp(−0,85·t), période 1,2 s), halo cyan pulsé 0,8 s, **2 ondes concentriques** (0,9 s), **3 étincelles**, **flèche clignotante** (2,5 Hz) vers la cloche ; bande y 612 → 1012 |
 | CTA | `ABONNE-TOI` blanc → bleu pâle, espacement 7 px, halo cyan (y 1002) · pillules `PARTAGE` `COMMENTE` `ENREGISTRE` : fond sombre translucide, contour dégradé cyan → magenta, texte dégradé, halo pulsé 0,8 s (y 1044 → 1122, bord droit mesuré ≤ x 905) · rappel « Clique sur la cloche, puis PARTAGE » (600, crème, y 1168) · « commente · partage · enregistre » (y 1236) |
