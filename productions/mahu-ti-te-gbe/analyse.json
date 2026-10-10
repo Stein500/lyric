@@ -1,0 +1,396 @@
+{
+ "duree_decodee_s": 206.4,
+ "nb_vers": 49,
+ "fenetres_libres_ge_5s": [
+  [
+   9.33,
+   17.24,
+   7.91
+  ],
+  [
+   17.24,
+   26.06,
+   8.82
+  ],
+  [
+   38.5,
+   44.25,
+   5.75
+  ],
+  [
+   97.52,
+   103.1,
+   5.58
+  ],
+  [
+   166.97,
+   172.39,
+   5.42
+  ],
+  [
+   172.39,
+   182.73,
+   10.34
+  ],
+  [
+   182.73,
+   189.46,
+   6.73
+  ],
+  [
+   189.46,
+   196.07,
+   6.61
+  ],
+  [
+   196.07,
+   206.4,
+   10.33
+  ]
+ ],
+ "vers": [
+  {
+   "t": 9.33,
+   "fin": 17.24,
+   "texte": "Wolof TechStein beat wê...",
+   "nb_car": 26,
+   "affichage_s": 3.02
+  },
+  {
+   "t": 17.24,
+   "fin": 26.06,
+   "texte": "Yeah... Mahu ti tè gbè...",
+   "nb_car": 25,
+   "affichage_s": 2.95
+  },
+  {
+   "t": 26.06,
+   "fin": 28.1,
+   "texte": "God is always there...",
+   "nb_car": 22,
+   "affichage_s": 2.04
+  },
+  {
+   "t": 28.1,
+   "fin": 31.67,
+   "texte": "Mahu ti tè gbè, God is always there",
+   "nb_car": 35,
+   "affichage_s": 3.57
+  },
+  {
+   "t": 31.67,
+   "fin": 35.04,
+   "texte": "Mahu ti tè gbè, He never leaves me bare",
+   "nb_car": 39,
+   "affichage_s": 3.37
+  },
+  {
+   "t": 35.04,
+   "fin": 38.5,
+   "texte": "Mahu ti tè gbè, in the shadows and the light",
+   "nb_car": 44,
+   "affichage_s": 3.46
+  },
+  {
+   "t": 38.5,
+   "fin": 44.25,
+   "texte": "Mahu ti tè gbè, He hears me every night",
+   "nb_car": 39,
+   "affichage_s": 3.93
+  },
+  {
+   "t": 44.25,
+   "fin": 45.88,
+   "texte": "Wolof TechStein beat wê!",
+   "nb_car": 24,
+   "affichage_s": 1.63
+  },
+  {
+   "t": 45.88,
+   "fin": 49.49,
+   "texte": "I been through nights where I couldn't see the light",
+   "nb_car": 52,
+   "affichage_s": 3.61
+  },
+  {
+   "t": 49.49,
+   "fin": 52.37,
+   "texte": "I screamed into the void, I cried through the night",
+   "nb_car": 51,
+   "affichage_s": 2.88
+  },
+  {
+   "t": 52.37,
+   "fin": 56.17,
+   "texte": "I doubted, I almost gave up the fight",
+   "nb_car": 37,
+   "affichage_s": 3.79
+  },
+  {
+   "t": 56.17,
+   "fin": 59.16,
+   "texte": "But a voice said \"son, I'm here, it's alright\"",
+   "nb_car": 46,
+   "affichage_s": 2.99
+  },
+  {
+   "t": 59.16,
+   "fin": 62.83,
+   "texte": "I seen doors close, I seen friends walk away",
+   "nb_car": 44,
+   "affichage_s": 3.67
+  },
+  {
+   "t": 62.83,
+   "fin": 66.2,
+   "texte": "I seen loneliness pull up and decide to stay",
+   "nb_car": 44,
+   "affichage_s": 3.37
+  },
+  {
+   "t": 66.2,
+   "fin": 69.34,
+   "texte": "But every time I was about to fall",
+   "nb_car": 34,
+   "affichage_s": 3.14
+  },
+  {
+   "t": 69.34,
+   "fin": 72.57,
+   "texte": "An invisible hand pulled me through it all",
+   "nb_car": 42,
+   "affichage_s": 3.23
+  },
+  {
+   "t": 72.57,
+   "fin": 76.12,
+   "texte": "When I'm weak, He carries me",
+   "nb_car": 28,
+   "affichage_s": 3.16
+  },
+  {
+   "t": 76.12,
+   "fin": 79.66,
+   "texte": "When I'm lost, He lights the way",
+   "nb_car": 32,
+   "affichage_s": 3.44
+  },
+  {
+   "t": 79.66,
+   "fin": 83.33,
+   "texte": "When I'm speechless, He hears my soul",
+   "nb_car": 37,
+   "affichage_s": 3.67
+  },
+  {
+   "t": 83.33,
+   "fin": 87.07,
+   "texte": "Mahu ti tè gbè, He's in control",
+   "nb_car": 31,
+   "affichage_s": 3.37
+  },
+  {
+   "t": 87.07,
+   "fin": 90.69,
+   "texte": "Mahu ti tè gbè, God is always there",
+   "nb_car": 35,
+   "affichage_s": 3.62
+  },
+  {
+   "t": 90.69,
+   "fin": 94.03999999999999,
+   "texte": "Mahu ti tè gbè, He never leaves me bare",
+   "nb_car": 39,
+   "affichage_s": 3.35
+  },
+  {
+   "t": 94.03999999999999,
+   "fin": 97.52000000000001,
+   "texte": "Mahu ti tè gbè, in the shadows and the light",
+   "nb_car": 44,
+   "affichage_s": 3.48
+  },
+  {
+   "t": 97.52000000000001,
+   "fin": 103.1,
+   "texte": "Mahu ti tè gbè, He hears me every night",
+   "nb_car": 39,
+   "affichage_s": 3.93
+  },
+  {
+   "t": 103.1,
+   "fin": 105.03,
+   "texte": "Wolof TechStein beat wê!",
+   "nb_car": 24,
+   "affichage_s": 1.93
+  },
+  {
+   "t": 105.03,
+   "fin": 108.32,
+   "texte": "I seen miracles where hope was dead",
+   "nb_car": 35,
+   "affichage_s": 3.29
+  },
+  {
+   "t": 108.32,
+   "fin": 111.58,
+   "texte": "I seen healing where the pain had spread",
+   "nb_car": 40,
+   "affichage_s": 3.26
+  },
+  {
+   "t": 111.58,
+   "fin": 115.59,
+   "texte": "I seen tears turn to smiles overnight",
+   "nb_car": 37,
+   "affichage_s": 3.79
+  },
+  {
+   "t": 115.59,
+   "fin": 118.65,
+   "texte": "I seen broken hearts learn to shine so bright",
+   "nb_car": 45,
+   "affichage_s": 3.06
+  },
+  {
+   "t": 118.65,
+   "fin": 120.11,
+   "texte": "It ain't my strength, it's His grace",
+   "nb_car": 36,
+   "affichage_s": 1.46
+  },
+  {
+   "t": 120.11,
+   "fin": 121.7,
+   "texte": "It ain't my name, it's His face",
+   "nb_car": 31,
+   "affichage_s": 1.59
+  },
+  {
+   "t": 121.7,
+   "fin": 123.62,
+   "texte": "Every step I take, He's the one who guides",
+   "nb_car": 42,
+   "affichage_s": 1.92
+  },
+  {
+   "t": 123.62,
+   "fin": 128.28,
+   "texte": "Mahu ti tè gbè, right by my side",
+   "nb_car": 32,
+   "affichage_s": 3.44
+  },
+  {
+   "t": 128.28,
+   "fin": 131.7,
+   "texte": "When I'm weak, He carries me",
+   "nb_car": 28,
+   "affichage_s": 3.16
+  },
+  {
+   "t": 131.7,
+   "fin": 135.16,
+   "texte": "When I'm lost, He lights the way",
+   "nb_car": 32,
+   "affichage_s": 3.44
+  },
+  {
+   "t": 135.16,
+   "fin": 139.0,
+   "texte": "When I'm speechless, He hears my soul",
+   "nb_car": 37,
+   "affichage_s": 3.79
+  },
+  {
+   "t": 139.0,
+   "fin": 142.28,
+   "texte": "Mahu ti tè gbè, He's in control",
+   "nb_car": 31,
+   "affichage_s": 3.28
+  },
+  {
+   "t": 142.28,
+   "fin": 145.11,
+   "texte": "Even when I don't feel Him, He's there",
+   "nb_car": 38,
+   "affichage_s": 2.83
+  },
+  {
+   "t": 145.11,
+   "fin": 148.92000000000002,
+   "texte": "Even when I don't hear Him, He cares",
+   "nb_car": 36,
+   "affichage_s": 3.72
+  },
+  {
+   "t": 148.92000000000002,
+   "fin": 152.1,
+   "texte": "Even when my whole world falls apart",
+   "nb_car": 36,
+   "affichage_s": 3.18
+  },
+  {
+   "t": 152.1,
+   "fin": 156.66,
+   "texte": "Mahu ti tè gbè, He holds my heart",
+   "nb_car": 33,
+   "affichage_s": 3.51
+  },
+  {
+   "t": 156.66,
+   "fin": 160.26,
+   "texte": "Mahu ti tè gbè, God is always there",
+   "nb_car": 35,
+   "affichage_s": 3.6
+  },
+  {
+   "t": 160.26,
+   "fin": 163.62,
+   "texte": "Mahu ti tè gbè, He never leaves me bare",
+   "nb_car": 39,
+   "affichage_s": 3.36
+  },
+  {
+   "t": 163.62,
+   "fin": 166.97,
+   "texte": "Mahu ti tè gbè, in the shadows and the light",
+   "nb_car": 44,
+   "affichage_s": 3.35
+  },
+  {
+   "t": 166.97,
+   "fin": 172.39,
+   "texte": "Mahu ti tè gbè, He hears me every night",
+   "nb_car": 39,
+   "affichage_s": 3.93
+  },
+  {
+   "t": 172.39,
+   "fin": 182.73,
+   "texte": "Wolof TechStein beat wê!",
+   "nb_car": 24,
+   "affichage_s": 2.88
+  },
+  {
+   "t": 182.73,
+   "fin": 189.46,
+   "texte": "Wolof TechStein beat wê...",
+   "nb_car": 26,
+   "affichage_s": 3.02
+  },
+  {
+   "t": 189.46,
+   "fin": 196.07,
+   "texte": "Mahu ti tè gbè...",
+   "nb_car": 17,
+   "affichage_s": 2.39
+  },
+  {
+   "t": 196.07,
+   "fin": 206.4,
+   "texte": "(God is always there...)",
+   "nb_car": 24,
+   "affichage_s": 2.88
+  }
+ ]
+}
