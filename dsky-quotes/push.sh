@@ -42,11 +42,7 @@ echo "   main         : $MAIN"
 echo "── 3. Fusion : main + projet dans dsky-quotes/ ──"
 rm -f "$IDX"
 GIT_INDEX_FILE="$IDX" git read-tree "$MAIN"
-# retirer UNIQUEMENT les entrées qui vont être ré-ajoutées (évite "overlaps"),
-# en gardant tout ce qui n'existe plus en local (images purgées = restent en ligne)
-GIT_INDEX_FILE="$IDX" git ls-tree -r --name-only "$PROJECT_TREE" | while read -r f; do
-  GIT_INDEX_FILE="$IDX" git update-index --force-remove "dsky-quotes/$f"
-done
+GIT_INDEX_FILE="$IDX" git rm -r -q --cached dsky-quotes 2>/dev/null || true
 GIT_INDEX_FILE="$IDX" git read-tree --prefix=dsky-quotes/ "$PROJECT_TREE"
 TREE=$(GIT_INDEX_FILE="$IDX" git write-tree)
 rm -f "$IDX"
