@@ -6,18 +6,8 @@
   "duree_decodee_s": 180.0,
   "nb_vers": 45,
   "plans_distinctes": 36,
-  "plans_disponibles": 8,
+  "plans_disponibles": 18,
   "plans_manquantes": [
-    "fonds/scene-09.png",
-    "fonds/scene-10.png",
-    "fonds/scene-11.png",
-    "fonds/scene-12.png",
-    "fonds/scene-13.png",
-    "fonds/scene-14.png",
-    "fonds/scene-15.png",
-    "fonds/scene-16.png",
-    "fonds/scene-17.png",
-    "fonds/scene-18.png",
     "fonds/scene-19.png",
     "fonds/v-66-12.png",
     "fonds/v-69-28.png",
@@ -164,7 +154,7 @@
       "affichage_s": 1.79,
       "texte": "Des sourires qui cachent des poignards dans le dos",
       "image": "fonds/scene-09.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -175,7 +165,7 @@
       "affichage_s": 1.76,
       "texte": "Maintenant j'garde mes sentiments au congélo",
       "image": "fonds/scene-10.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -186,7 +176,7 @@
       "affichage_s": 2.2,
       "texte": "La confiance, j'ai mis un verrou",
       "image": "fonds/scene-11.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -219,7 +209,7 @@
       "affichage_s": 2.7,
       "texte": "Je suis la glace, glace, glace (big boss !)",
       "image": "fonds/scene-12.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -241,7 +231,7 @@
       "affichage_s": 1.71,
       "texte": "Je suis la glace, glace, glace (tech !)",
       "image": "fonds/scene-13.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -252,7 +242,7 @@
       "affichage_s": 3.3,
       "texte": "Ils ont dit qu'à la tess, y'a ma photo sur l'affiche",
       "image": "fonds/scene-14.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -263,7 +253,7 @@
       "affichage_s": 2.3,
       "texte": "Parce qu'un gars a disparu, mais c'est mon passif",
       "image": "fonds/scene-15.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -274,7 +264,7 @@
       "affichage_s": 1.97,
       "texte": "J'ai rangé cette vie, elle est morte, elle est crade",
       "image": "fonds/scene-16.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -285,7 +275,7 @@
       "affichage_s": 1.86,
       "texte": "Maintenant j'fais danser les dames sur le beat",
       "image": "fonds/scene-17.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -296,7 +286,7 @@
       "affichage_s": 1.75,
       "texte": "Ma caisse ressemble à un vaisseau spatial",
       "image": "fonds/scene-18.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -406,7 +396,7 @@
       "affichage_s": 2.7,
       "texte": "Je suis la glace, glace, glace (big boss !)",
       "image": "fonds/scene-12.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "↻ reprise"
     },
