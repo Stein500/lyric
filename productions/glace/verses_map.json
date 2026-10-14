@@ -1,0 +1,570 @@
+{
+  "chanson": "Glace",
+  "artiste": "Dsky",
+  "mode": "PEINT",
+  "fps": 30,
+  "duree_decodee_s": 180.0,
+  "nb_vers": 45,
+  "plans_distinctes": 36,
+  "plans_disponibles": 8,
+  "plans_manquantes": [
+    "fonds/scene-09.png",
+    "fonds/scene-10.png",
+    "fonds/scene-11.png",
+    "fonds/scene-12.png",
+    "fonds/scene-13.png",
+    "fonds/scene-14.png",
+    "fonds/scene-15.png",
+    "fonds/scene-16.png",
+    "fonds/scene-17.png",
+    "fonds/scene-18.png",
+    "fonds/scene-19.png",
+    "fonds/v-66-12.png",
+    "fonds/v-69-28.png",
+    "fonds/v-74-29.png",
+    "fonds/v-76-81.png",
+    "fonds/v-84-21.png",
+    "fonds/v-105-99.png",
+    "fonds/v-111-10.png",
+    "fonds/v-113-80.png",
+    "fonds/v-118-54.png",
+    "fonds/v-121-25.png",
+    "fonds/v-124-63.png",
+    "fonds/v-127-95.png",
+    "fonds/v-131-54.png",
+    "fonds/v-143-01.png",
+    "fonds/v-150-14.png",
+    "fonds/v-157-79.png",
+    "fonds/v-165-25.png"
+  ],
+  "fenetres_clochettes": [
+    [
+      42.5,
+      47.16
+    ],
+    [
+      145.56,
+      150.14
+    ],
+    [
+      152.49,
+      157.79
+    ],
+    [
+      160.14,
+      165.25
+    ],
+    [
+      167.6,
+      180.0
+    ]
+  ],
+  "carte_accueil": [
+    0.0,
+    6.03
+  ],
+  "carte_finale": [
+    180.0,
+    185.0
+  ],
+  "code": "0300",
+  "verses": [
+    {
+      "i": 1,
+      "t": 6.03,
+      "fin": 10.09,
+      "affichage_s": 2.2,
+      "texte": "Wolof TechStein ça brûle !",
+      "image": "fonds/scene-02.png",
+      "disponible": true,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 2,
+      "t": 10.09,
+      "fin": 14.17,
+      "affichage_s": 2.2,
+      "texte": "Wolof TechStein Ça brûle",
+      "image": "fonds/scene-02.png",
+      "disponible": true,
+      "reprise": true,
+      "note": "↻ reprise"
+    },
+    {
+      "i": 3,
+      "t": 14.17,
+      "fin": 15.12,
+      "affichage_s": 0.95,
+      "texte": "Écoute...",
+      "image": "fonds/scene-03.png",
+      "disponible": true,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 4,
+      "t": 15.12,
+      "fin": 16.79,
+      "affichage_s": 1.67,
+      "texte": "On t'a raconté ma vie, ils ont pas menti",
+      "image": "fonds/scene-04.png",
+      "disponible": true,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 5,
+      "t": 16.79,
+      "fin": 18.61,
+      "affichage_s": 1.82,
+      "texte": "J'suis pas un ange, j'suis pas un saint non plus",
+      "image": "fonds/scene-05.png",
+      "disponible": true,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 6,
+      "t": 18.61,
+      "fin": 20.78,
+      "affichage_s": 2.17,
+      "texte": "Si tu veux toucher mon cœur, ma fille",
+      "image": "fonds/scene-06.png",
+      "disponible": true,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 7,
+      "t": 20.78,
+      "fin": 22.47,
+      "affichage_s": 1.69,
+      "texte": "Y'a un souci, j'vais être cru",
+      "image": "fonds/scene-07.png",
+      "disponible": true,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 8,
+      "t": 22.47,
+      "fin": 24.21,
+      "affichage_s": 1.74,
+      "texte": "J'ai vu des frères se transformer en ombres",
+      "image": "fonds/scene-08.png",
+      "disponible": true,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 9,
+      "t": 24.21,
+      "fin": 26.0,
+      "affichage_s": 1.79,
+      "texte": "Des sourires qui cachent des poignards dans le dos",
+      "image": "fonds/scene-09.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 10,
+      "t": 26.0,
+      "fin": 27.76,
+      "affichage_s": 1.76,
+      "texte": "Maintenant j'garde mes sentiments au congélo",
+      "image": "fonds/scene-10.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 11,
+      "t": 27.76,
+      "fin": 32.37,
+      "affichage_s": 2.2,
+      "texte": "La confiance, j'ai mis un verrou",
+      "image": "fonds/scene-11.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 12,
+      "t": 32.37,
+      "fin": 35.87,
+      "affichage_s": 2.2,
+      "texte": "Wolof TechStein ça brûle !",
+      "image": "fonds/scene-02.png",
+      "disponible": true,
+      "reprise": true,
+      "note": "↻ reprise"
+    },
+    {
+      "i": 13,
+      "t": 35.87,
+      "fin": 39.65,
+      "affichage_s": 2.2,
+      "texte": "Je suis la glace, glace, glace",
+      "image": "fonds/scene-01-ancre.png",
+      "disponible": true,
+      "reprise": false,
+      "note": "★ ancre"
+    },
+    {
+      "i": 14,
+      "t": 39.65,
+      "fin": 47.16,
+      "affichage_s": 2.7,
+      "texte": "Je suis la glace, glace, glace (big boss !)",
+      "image": "fonds/scene-12.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 15,
+      "t": 47.16,
+      "fin": 50.78,
+      "affichage_s": 2.2,
+      "texte": "Je suis la glace, glace, glace",
+      "image": "fonds/scene-01-ancre.png",
+      "disponible": true,
+      "reprise": true,
+      "note": "↻ reprise"
+    },
+    {
+      "i": 16,
+      "t": 50.78,
+      "fin": 52.49,
+      "affichage_s": 1.71,
+      "texte": "Je suis la glace, glace, glace (tech !)",
+      "image": "fonds/scene-13.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 17,
+      "t": 52.49,
+      "fin": 56.38,
+      "affichage_s": 3.3,
+      "texte": "Ils ont dit qu'à la tess, y'a ma photo sur l'affiche",
+      "image": "fonds/scene-14.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 18,
+      "t": 56.38,
+      "fin": 58.68,
+      "affichage_s": 2.3,
+      "texte": "Parce qu'un gars a disparu, mais c'est mon passif",
+      "image": "fonds/scene-15.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 19,
+      "t": 58.68,
+      "fin": 60.65,
+      "affichage_s": 1.97,
+      "texte": "J'ai rangé cette vie, elle est morte, elle est crade",
+      "image": "fonds/scene-16.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 20,
+      "t": 60.65,
+      "fin": 62.51,
+      "affichage_s": 1.86,
+      "texte": "Maintenant j'fais danser les dames sur le beat",
+      "image": "fonds/scene-17.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 21,
+      "t": 62.51,
+      "fin": 64.26,
+      "affichage_s": 1.75,
+      "texte": "Ma caisse ressemble à un vaisseau spatial",
+      "image": "fonds/scene-18.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 22,
+      "t": 64.26,
+      "fin": 66.12,
+      "affichage_s": 1.86,
+      "texte": "Les négros veulent ma place, ils sont trop sur le pal'",
+      "image": "fonds/scene-19.png",
+      "disponible": false,
+      "reprise": false,
+      "note": ""
+    },
+    {
+      "i": 23,
+      "t": 66.12,
+      "fin": 69.28,
+      "affichage_s": 2.7,
+      "texte": "J'prête mon cœur à personne, j'le garde sous clé",
+      "image": "fonds/v-66-12.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 24,
+      "t": 69.28,
+      "fin": 74.29,
+      "affichage_s": 4.2,
+      "texte": "J'suis pas pour toi, t'es pas pour moi, tu rentres pas dans mon game",
+      "image": "fonds/v-69-28.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 25,
+      "t": 74.29,
+      "fin": 76.81,
+      "affichage_s": 2.4,
+      "texte": "Ils veulent le méchant, ils détestent le gentil",
+      "image": "fonds/v-74-29.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 26,
+      "t": 76.81,
+      "fin": 81.58,
+      "affichage_s": 2.7,
+      "texte": "J'ai arrêté d'être un remède, maintenant j'suis du poison",
+      "image": "fonds/v-76-81.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 27,
+      "t": 81.58,
+      "fin": 84.21,
+      "affichage_s": 2.4,
+      "texte": "Ils veulent le méchant, ils détestent le gentil",
+      "image": "fonds/v-74-29.png",
+      "disponible": false,
+      "reprise": true,
+      "note": "↻ reprise"
+    },
+    {
+      "i": 28,
+      "t": 84.21,
+      "fin": 87.6,
+      "affichage_s": 2.2,
+      "texte": "Mes sentiments sont en dessous de zéro",
+      "image": "fonds/v-84-21.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 29,
+      "t": 87.6,
+      "fin": 91.41,
+      "affichage_s": 2.2,
+      "texte": "Wolof TechStein ça brûle !",
+      "image": "fonds/scene-02.png",
+      "disponible": true,
+      "reprise": true,
+      "note": "↻ reprise"
+    },
+    {
+      "i": 30,
+      "t": 91.41,
+      "fin": 94.99,
+      "affichage_s": 2.2,
+      "texte": "Je suis la glace, glace, glace",
+      "image": "fonds/scene-01-ancre.png",
+      "disponible": true,
+      "reprise": true,
+      "note": "↻ reprise"
+    },
+    {
+      "i": 31,
+      "t": 94.99,
+      "fin": 101.74,
+      "affichage_s": 2.7,
+      "texte": "Je suis la glace, glace, glace (big boss !)",
+      "image": "fonds/scene-12.png",
+      "disponible": false,
+      "reprise": true,
+      "note": "↻ reprise"
+    },
+    {
+      "i": 32,
+      "t": 101.74,
+      "fin": 105.99,
+      "affichage_s": 2.2,
+      "texte": "Je suis la glace, glace, glace",
+      "image": "fonds/scene-01-ancre.png",
+      "disponible": true,
+      "reprise": true,
+      "note": "↻ reprise"
+    },
+    {
+      "i": 33,
+      "t": 105.99,
+      "fin": 111.1,
+      "affichage_s": 2.4,
+      "texte": "Je suis la glace, glace, glace (wê !)",
+      "image": "fonds/v-105-99.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 34,
+      "t": 111.1,
+      "fin": 113.8,
+      "affichage_s": 2.7,
+      "texte": "J'crois pas aux pleurs, j'suis dur comme le béton",
+      "image": "fonds/v-111-10.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 35,
+      "t": 113.8,
+      "fin": 118.54,
+      "affichage_s": 3.0,
+      "texte": "Ce qui tue pas rend plus fort et plus méchant",
+      "image": "fonds/v-113-80.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 36,
+      "t": 118.54,
+      "fin": 121.25,
+      "affichage_s": 2.4,
+      "texte": "Prête-moi ton cœur, j'le congèle en un instant",
+      "image": "fonds/v-118-54.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 37,
+      "t": 121.25,
+      "fin": 124.63,
+      "affichage_s": 3.3,
+      "texte": "J'en ai marre d'être trahi, à force de poignards j'suis aigri",
+      "image": "fonds/v-121-25.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "◆ vers dédié"
+    },
+    {
+      "i": 38,
+      "t": 124.63,
+      "fin": 127.95,
+      "affichage_s": 2.2,
+      "texte": "Wolof TechStein ça brûle !",
+      "image": "fonds/v-124-63.png",
+      "disponible": false,
+      "reprise": true,
+      "note": "☀ variante aube dédiée"
+    },
+    {
+      "i": 39,
+      "t": 127.95,
+      "fin": 131.54,
+      "affichage_s": 2.2,
+      "texte": "Je suis la glace, glace, glace",
+      "image": "fonds/v-127-95.png",
+      "disponible": false,
+      "reprise": true,
+      "note": "☀ variante aube dédiée"
+    },
+    {
+      "i": 40,
+      "t": 131.54,
+      "fin": 139.19,
+      "affichage_s": 3.6,
+      "texte": "Je suis la glace, glace, glace (big boss dans la place !)",
+      "image": "fonds/v-131-54.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "☀ aube"
+    },
+    {
+      "i": 41,
+      "t": 139.19,
+      "fin": 143.01,
+      "affichage_s": 2.2,
+      "texte": "Je suis la glace, glace, glace",
+      "image": "fonds/v-127-95.png",
+      "disponible": false,
+      "reprise": true,
+      "note": "↻ reprise aube"
+    },
+    {
+      "i": 42,
+      "t": 143.01,
+      "fin": 150.14,
+      "affichage_s": 2.4,
+      "texte": "Je suis la glace, glace, glace (tech !)",
+      "image": "fonds/v-143-01.png",
+      "disponible": false,
+      "reprise": true,
+      "note": "☀ variante aube dédiée"
+    },
+    {
+      "i": 43,
+      "t": 150.14,
+      "fin": 157.79,
+      "affichage_s": 2.2,
+      "texte": "Wolof TechStein ça brûle !... (glace)",
+      "image": "fonds/v-150-14.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "☀ aube"
+    },
+    {
+      "i": 44,
+      "t": 157.79,
+      "fin": 165.25,
+      "affichage_s": 2.2,
+      "texte": "Wolof TechStein ça brûle... (big boss)",
+      "image": "fonds/v-157-79.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "☀ aube"
+    },
+    {
+      "i": 45,
+      "t": 165.25,
+      "fin": 180.0,
+      "affichage_s": 2.2,
+      "texte": "Wolof... TechStein... ça brûle... (Tech...)",
+      "image": "fonds/v-165-25.png",
+      "disponible": false,
+      "reprise": false,
+      "note": "☀ aube finale"
+    }
+  ],
+  "continuite_aube": "reprises finales 124,63 / 127,95 / 143,01 = variantes aube dédiées (pas de retour en pleine nuit après le pont)",
+  "regle_clochettes": "fin d'affichage du vers + 0,15 s -> début du vers suivant ; seuil 4,00 s (MODE PEINT) ; jamais sur une carte d'accueil ni pendant un vers en cours de lecture"
+}
