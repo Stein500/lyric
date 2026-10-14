@@ -1,0 +1,487 @@
+{
+  "chanson": "Glace",
+  "artiste_tag": "Daïsky",
+  "artiste_ecran": "Dsky",
+  "audio_source": "Glace - Daïsky.mp3",
+  "paroles_source": "Glace.txt",
+  "duree_entete_s": 180.02,
+  "duree_decodee_s": 180.0,
+  "echantillonnage_hz": 48000,
+  "canaux": 2,
+  "debit_source_kbps": 188,
+  "pochette_embarquee_source": "360x360 mjpeg",
+  "loudnorm_pass1": {
+    "input_i_lufs": -13.46,
+    "input_tp_dbtp": -1.9,
+    "input_lra_lu": 7.0,
+    "input_thresh": -23.58,
+    "target_offset": -0.85
+  },
+  "ebur128_source": {
+    "I_lufs": -13.4,
+    "LRA_lu": 6.8,
+    "true_peak_dbfs": -1.9,
+    "sample_peak_db": -1.94
+  },
+  "code_fin": "0300",
+  "carte_accueil_s": [
+    0.0,
+    6.03
+  ],
+  "carte_finale_s": [
+    180.0,
+    185.0
+  ],
+  "nb_vers": 45,
+  "fenetres_clochettes_mode_peint_ge_4s": [
+    [
+      42.5,
+      47.16,
+      4.66
+    ],
+    [
+      145.56,
+      150.14,
+      4.58
+    ],
+    [
+      152.49,
+      157.79,
+      5.3
+    ],
+    [
+      160.14,
+      165.25,
+      5.11
+    ],
+    [
+      167.6,
+      180.0,
+      12.4
+    ]
+  ],
+  "fenetres_clochettes_mode_defilement_ge_5s": [
+    [
+      152.49,
+      157.79,
+      5.3
+    ],
+    [
+      160.14,
+      165.25,
+      5.11
+    ],
+    [
+      167.6,
+      180.0,
+      12.4
+    ]
+  ],
+  "verses": [
+    {
+      "i": 1,
+      "t": 6.03,
+      "fin": 10.09,
+      "duree_plan_s": 4.06,
+      "affichage_s": 2.2,
+      "libre_s": 1.71,
+      "texte": "Wolof TechStein ça brûle !"
+    },
+    {
+      "i": 2,
+      "t": 10.09,
+      "fin": 14.17,
+      "duree_plan_s": 4.08,
+      "affichage_s": 2.2,
+      "libre_s": 1.73,
+      "texte": "Wolof TechStein Ça brûle"
+    },
+    {
+      "i": 3,
+      "t": 14.17,
+      "fin": 15.12,
+      "duree_plan_s": 0.95,
+      "affichage_s": 0.95,
+      "libre_s": -0.15,
+      "texte": "Écoute..."
+    },
+    {
+      "i": 4,
+      "t": 15.12,
+      "fin": 16.79,
+      "duree_plan_s": 1.67,
+      "affichage_s": 1.67,
+      "libre_s": -0.15,
+      "texte": "On t'a raconté ma vie, ils ont pas menti"
+    },
+    {
+      "i": 5,
+      "t": 16.79,
+      "fin": 18.61,
+      "duree_plan_s": 1.82,
+      "affichage_s": 1.82,
+      "libre_s": -0.15,
+      "texte": "J'suis pas un ange, j'suis pas un saint non plus"
+    },
+    {
+      "i": 6,
+      "t": 18.61,
+      "fin": 20.78,
+      "duree_plan_s": 2.17,
+      "affichage_s": 2.17,
+      "libre_s": -0.15,
+      "texte": "Si tu veux toucher mon cœur, ma fille"
+    },
+    {
+      "i": 7,
+      "t": 20.78,
+      "fin": 22.47,
+      "duree_plan_s": 1.69,
+      "affichage_s": 1.69,
+      "libre_s": -0.15,
+      "texte": "Y'a un souci, j'vais être cru"
+    },
+    {
+      "i": 8,
+      "t": 22.47,
+      "fin": 24.21,
+      "duree_plan_s": 1.74,
+      "affichage_s": 1.74,
+      "libre_s": -0.15,
+      "texte": "J'ai vu des frères se transformer en ombres"
+    },
+    {
+      "i": 9,
+      "t": 24.21,
+      "fin": 26.0,
+      "duree_plan_s": 1.79,
+      "affichage_s": 1.79,
+      "libre_s": -0.15,
+      "texte": "Des sourires qui cachent des poignards dans le dos"
+    },
+    {
+      "i": 10,
+      "t": 26.0,
+      "fin": 27.76,
+      "duree_plan_s": 1.76,
+      "affichage_s": 1.76,
+      "libre_s": -0.15,
+      "texte": "Maintenant j'garde mes sentiments au congélo"
+    },
+    {
+      "i": 11,
+      "t": 27.76,
+      "fin": 32.37,
+      "duree_plan_s": 4.61,
+      "affichage_s": 2.2,
+      "libre_s": 2.26,
+      "texte": "La confiance, j'ai mis un verrou"
+    },
+    {
+      "i": 12,
+      "t": 32.37,
+      "fin": 35.87,
+      "duree_plan_s": 3.5,
+      "affichage_s": 2.2,
+      "libre_s": 1.15,
+      "texte": "Wolof TechStein ça brûle !"
+    },
+    {
+      "i": 13,
+      "t": 35.87,
+      "fin": 39.65,
+      "duree_plan_s": 3.78,
+      "affichage_s": 2.2,
+      "libre_s": 1.43,
+      "texte": "Je suis la glace, glace, glace"
+    },
+    {
+      "i": 14,
+      "t": 39.65,
+      "fin": 47.16,
+      "duree_plan_s": 7.51,
+      "affichage_s": 2.7,
+      "libre_s": 4.66,
+      "texte": "Je suis la glace, glace, glace (big boss !)"
+    },
+    {
+      "i": 15,
+      "t": 47.16,
+      "fin": 50.78,
+      "duree_plan_s": 3.62,
+      "affichage_s": 2.2,
+      "libre_s": 1.27,
+      "texte": "Je suis la glace, glace, glace"
+    },
+    {
+      "i": 16,
+      "t": 50.78,
+      "fin": 52.49,
+      "duree_plan_s": 1.71,
+      "affichage_s": 1.71,
+      "libre_s": -0.15,
+      "texte": "Je suis la glace, glace, glace (tech !)"
+    },
+    {
+      "i": 17,
+      "t": 52.49,
+      "fin": 56.38,
+      "duree_plan_s": 3.89,
+      "affichage_s": 3.3,
+      "libre_s": 0.44,
+      "texte": "Ils ont dit qu'à la tess, y'a ma photo sur l'affiche"
+    },
+    {
+      "i": 18,
+      "t": 56.38,
+      "fin": 58.68,
+      "duree_plan_s": 2.3,
+      "affichage_s": 2.3,
+      "libre_s": -0.15,
+      "texte": "Parce qu'un gars a disparu, mais c'est mon passif"
+    },
+    {
+      "i": 19,
+      "t": 58.68,
+      "fin": 60.65,
+      "duree_plan_s": 1.97,
+      "affichage_s": 1.97,
+      "libre_s": -0.15,
+      "texte": "J'ai rangé cette vie, elle est morte, elle est crade"
+    },
+    {
+      "i": 20,
+      "t": 60.65,
+      "fin": 62.51,
+      "duree_plan_s": 1.86,
+      "affichage_s": 1.86,
+      "libre_s": -0.15,
+      "texte": "Maintenant j'fais danser les dames sur le beat"
+    },
+    {
+      "i": 21,
+      "t": 62.51,
+      "fin": 64.26,
+      "duree_plan_s": 1.75,
+      "affichage_s": 1.75,
+      "libre_s": -0.15,
+      "texte": "Ma caisse ressemble à un vaisseau spatial"
+    },
+    {
+      "i": 22,
+      "t": 64.26,
+      "fin": 66.12,
+      "duree_plan_s": 1.86,
+      "affichage_s": 1.86,
+      "libre_s": -0.15,
+      "texte": "Les négros veulent ma place, ils sont trop sur le pal'"
+    },
+    {
+      "i": 23,
+      "t": 66.12,
+      "fin": 69.28,
+      "duree_plan_s": 3.16,
+      "affichage_s": 2.7,
+      "libre_s": 0.31,
+      "texte": "J'prête mon cœur à personne, j'le garde sous clé"
+    },
+    {
+      "i": 24,
+      "t": 69.28,
+      "fin": 74.29,
+      "duree_plan_s": 5.01,
+      "affichage_s": 4.2,
+      "libre_s": 0.66,
+      "texte": "J'suis pas pour toi, t'es pas pour moi, tu rentres pas dans mon game"
+    },
+    {
+      "i": 25,
+      "t": 74.29,
+      "fin": 76.81,
+      "duree_plan_s": 2.52,
+      "affichage_s": 2.4,
+      "libre_s": -0.03,
+      "texte": "Ils veulent le méchant, ils détestent le gentil"
+    },
+    {
+      "i": 26,
+      "t": 76.81,
+      "fin": 81.58,
+      "duree_plan_s": 4.77,
+      "affichage_s": 2.7,
+      "libre_s": 1.92,
+      "texte": "J'ai arrêté d'être un remède, maintenant j'suis du poison"
+    },
+    {
+      "i": 27,
+      "t": 81.58,
+      "fin": 84.21,
+      "duree_plan_s": 2.63,
+      "affichage_s": 2.4,
+      "libre_s": 0.08,
+      "texte": "Ils veulent le méchant, ils détestent le gentil"
+    },
+    {
+      "i": 28,
+      "t": 84.21,
+      "fin": 87.6,
+      "duree_plan_s": 3.39,
+      "affichage_s": 2.2,
+      "libre_s": 1.04,
+      "texte": "Mes sentiments sont en dessous de zéro"
+    },
+    {
+      "i": 29,
+      "t": 87.6,
+      "fin": 91.41,
+      "duree_plan_s": 3.81,
+      "affichage_s": 2.2,
+      "libre_s": 1.46,
+      "texte": "Wolof TechStein ça brûle !"
+    },
+    {
+      "i": 30,
+      "t": 91.41,
+      "fin": 94.99,
+      "duree_plan_s": 3.58,
+      "affichage_s": 2.2,
+      "libre_s": 1.23,
+      "texte": "Je suis la glace, glace, glace"
+    },
+    {
+      "i": 31,
+      "t": 94.99,
+      "fin": 101.74,
+      "duree_plan_s": 6.75,
+      "affichage_s": 2.7,
+      "libre_s": 3.9,
+      "texte": "Je suis la glace, glace, glace (big boss !)"
+    },
+    {
+      "i": 32,
+      "t": 101.74,
+      "fin": 105.99,
+      "duree_plan_s": 4.25,
+      "affichage_s": 2.2,
+      "libre_s": 1.9,
+      "texte": "Je suis la glace, glace, glace"
+    },
+    {
+      "i": 33,
+      "t": 105.99,
+      "fin": 111.1,
+      "duree_plan_s": 5.11,
+      "affichage_s": 2.4,
+      "libre_s": 2.56,
+      "texte": "Je suis la glace, glace, glace (wê !)"
+    },
+    {
+      "i": 34,
+      "t": 111.1,
+      "fin": 113.8,
+      "duree_plan_s": 2.7,
+      "affichage_s": 2.7,
+      "libre_s": -0.15,
+      "texte": "J'crois pas aux pleurs, j'suis dur comme le béton"
+    },
+    {
+      "i": 35,
+      "t": 113.8,
+      "fin": 118.54,
+      "duree_plan_s": 4.74,
+      "affichage_s": 3.0,
+      "libre_s": 1.59,
+      "texte": "Ce qui tue pas rend plus fort et plus méchant"
+    },
+    {
+      "i": 36,
+      "t": 118.54,
+      "fin": 121.25,
+      "duree_plan_s": 2.71,
+      "affichage_s": 2.4,
+      "libre_s": 0.16,
+      "texte": "Prête-moi ton cœur, j'le congèle en un instant"
+    },
+    {
+      "i": 37,
+      "t": 121.25,
+      "fin": 124.63,
+      "duree_plan_s": 3.38,
+      "affichage_s": 3.3,
+      "libre_s": -0.07,
+      "texte": "J'en ai marre d'être trahi, à force de poignards j'suis aigri"
+    },
+    {
+      "i": 38,
+      "t": 124.63,
+      "fin": 127.95,
+      "duree_plan_s": 3.32,
+      "affichage_s": 2.2,
+      "libre_s": 0.97,
+      "texte": "Wolof TechStein ça brûle !"
+    },
+    {
+      "i": 39,
+      "t": 127.95,
+      "fin": 131.54,
+      "duree_plan_s": 3.59,
+      "affichage_s": 2.2,
+      "libre_s": 1.24,
+      "texte": "Je suis la glace, glace, glace"
+    },
+    {
+      "i": 40,
+      "t": 131.54,
+      "fin": 139.19,
+      "duree_plan_s": 7.65,
+      "affichage_s": 3.6,
+      "libre_s": 3.9,
+      "texte": "Je suis la glace, glace, glace (big boss dans la place !)"
+    },
+    {
+      "i": 41,
+      "t": 139.19,
+      "fin": 143.01,
+      "duree_plan_s": 3.82,
+      "affichage_s": 2.2,
+      "libre_s": 1.47,
+      "texte": "Je suis la glace, glace, glace"
+    },
+    {
+      "i": 42,
+      "t": 143.01,
+      "fin": 150.14,
+      "duree_plan_s": 7.13,
+      "affichage_s": 2.4,
+      "libre_s": 4.58,
+      "texte": "Je suis la glace, glace, glace (tech !)"
+    },
+    {
+      "i": 43,
+      "t": 150.14,
+      "fin": 157.79,
+      "duree_plan_s": 7.65,
+      "affichage_s": 2.2,
+      "libre_s": 5.3,
+      "texte": "Wolof TechStein ça brûle !... (glace)"
+    },
+    {
+      "i": 44,
+      "t": 157.79,
+      "fin": 165.25,
+      "duree_plan_s": 7.46,
+      "affichage_s": 2.2,
+      "libre_s": 5.11,
+      "texte": "Wolof TechStein ça brûle... (big boss)"
+    },
+    {
+      "i": 45,
+      "t": 165.25,
+      "fin": 180.0,
+      "duree_plan_s": 14.75,
+      "affichage_s": 2.2,
+      "libre_s": 12.4,
+      "texte": "Wolof... TechStein... ça brûle... (Tech...)"
+    }
+  ]
+}
