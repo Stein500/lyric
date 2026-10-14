@@ -67,7 +67,8 @@ Resynchronisée le 2026-10-14 depuis `verses_map.json` — 49 vers de `Mahu ti t
 ## Contrôles
 
 - 34 PNG en 768×1376, ancrage haut sur 1080×1920 (jamais de rognage du crâne) ; 49/49 vers pointent sur un fichier existant ; liste des manquants : `[]`.
-- Textes peints relus image par image (`CONTROLE-salve4.jpg`) sur les six derniers plans : aucun faux caractère ; « È » de `MAHU TI TÈ GBÈ` vérifié au grossissement pleine résolution.
+- Textes peints relus image par image (`CONTROLE-salve4.jpg`) : **tous les vers correspondent au texte peint du plan** (titre de chaque vers revérifié au zoom, `QC-accent-zoom.jpg`).
+- Une seule retouche manuelle sur les 34 visuels : le grave de « GBÈ » absent sur `v-152-10` (2 échecs du modèle) a été comblé en **copiant le « È » peint par le modèle sur « TÈ »** du même plan (aucun caractère recomposé à la police). Détail dans `LIVRAISON_mahu_ti_te_gbe.md` §5ter.
 - Aucun drapeau, aucune bannière, aucun contact, lien ou logo dans les images.
 - Fenêtres de clochette réellement déclenchées par le moteur (5) : 12.50→17.24 · 20.34→26.06 · 175.42→182.73 · 192.00→196.07 · 199.10→206.40
   (règle : fin d'affichage du vers + 0,15 s → début du vers suivant, seuil 4,00 s ; les 9 fenêtres « brutes » de l'ancienne liste empiétaient sur la lecture d'un vers, donc écartées)

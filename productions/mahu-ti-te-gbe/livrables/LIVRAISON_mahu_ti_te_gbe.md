@@ -36,7 +36,7 @@ Titre TikTok : `Mahu ti tè gbè — Dsky`
 
 | Fichier | Détails |
 |---|---|
-| `livrables/mahu-ti-te-gbe-916.mp4` | **clip 9:16** · 1080×1920 · H.264 High yuv420p bt709 · 30 fps · 6 342 frames = 211,40 s · 2 034 kb/s · AAC-LC 48 kHz 253 kb/s · 60 693 417 o (57,9 Mo) · `+faststart` |
+| `livrables/mahu-ti-te-gbe-916.mp4` | **clip 9:16** · 1080×1920 · H.264 High yuv420p bt709 · 30 fps · 6 342 frames = 211,40 s · 2 035 kb/s · AAC-LC 48 kHz 253 kb/s · 60 715 989 o (57,9 Mo) · `+faststart` |
 | `livrables/Mahu ti tè gbè - master 320k.mp3` | 8 570 754 o · 206,40 s · 48 kHz · 320 kb/s CBR · −14,0 LUFS · crête −1,24 dB · pochette 1080 + USLT fre 49 lignes |
 | `livrables/cover-1080.jpg` (+ `.png`) | pochette carrée 1080×1080, tête non rognée |
 | `livrables/cover-916.jpg` | cover verticale 1080×1920 (plan aube `scene-19`) |
@@ -53,13 +53,24 @@ Titre TikTok : `Mahu ti tè gbè — Dsky`
 | Contrôle | Commande | Résultat |
 |---|---|---|
 | Durée | `ffmpeg -i` | `Duration: 00:03:31.40` = 211,40 s = 6 342 frames / 30 — **exactement** `frames/fps` |
-| Flux | `ffmpeg -i` | vidéo 1080×1920 h264 High yuv420p (bt709) 30 fps 2 034 kb/s · audio aac LC 48 kHz stéréo 253 kb/s |
+| Flux | `ffmpeg -i` | vidéo 1080×1920 h264 High yuv420p (bt709) 30 fps 2 035 kb/s · audio aac LC 48 kHz stéréo 253 kb/s |
 | Frames noires | `blackdetect=d=0.05:pix_th=0.10` | **0** détection |
 | Gels | `freezedetect=n=-33dB:d=2.5` | 4 segments signalés, tous voulus : 0→9,37 (carte d'accueil), 20,47→26,13 (clochette posée sur image fixe), 207,43→fin (carte finale). **Aucun gel sur les 49 segments de vers.** À `d=4.0` : 1 seul |
 | Loudness clip | `ebur128` | I = **−14,0 LUFS** (cible −14) · RMS −14,76 dB |
 | Crête clip | `astats` | **−1,011 dB** (MP3 source à −1,24 dB, +0,23 dB introduits par le décodage AAC) |
 | Streaming | octets d'en-tête | `moov` à l'octet 36, `mdat` à 221 860 → **faststart OK** |
-| Typo peinte | zoom 1:1 (`CONTROLE-typo-zoom.jpg`) | nette, **aucun ghosting** (le 1er rendu faisait un blend de deux échelles : corrigé en travelling par fenêtre glissante, zéro ré-échantillonnage par frame) |
+| Typo peinte | zoom 1:1 (`CONTROLE-typo-zoom.jpg`, `CONTROLE-mp4-v3-titre.jpg`) | nette, **aucun ghosting** (le 1er rendu faisait un blend de deux échelles : corrigé en travelling par fenêtre glissante, zéro ré-échantillonnage par frame) |
+
+## 5ter · Retouche de typographie peinte (seule intervention manuelle sur les visuels)
+
+- **`fonds/v-152-10.png` — « MAHU TI TÈ GBE »** : le modèle n'a pas écrit le accent grave du second « GBÈ »
+  (2 tentatives de régénération, dont un édit ciblé : le caractère restait absent). Faute corrigée par **copie du « È »
+  déjà peint par le modèle sur « TÈ »** (patch 25×26 px, masque = pixels or de l'ilot, MxFilter 3 + flou 0,9,
+  collé en x 668..693, y 636..661) — même matière, même inclinaison, aucune lettre recomposée à la police.
+  Vérification : `QC-accent-zoom.jpg` (grille 16 px) et `QC-accent-final.jpg`. Aucun autre plan n'a été retouché :
+  les 33 autres textes peints sont sortis tels quels du générateur et relus (`CONTROLE-salve4.jpg`, cartes aube).
+- Les reprises 160,26 / 166,97 portent bien « TÈ GBÈ » accentué dès la génération ; le texte peint de chaque variante
+  correspond au vers chanté (contrôle vers→image ligne à ligne dans `CARTE-VERS.md`).
 
 ## 6 · Commandes Termux (une ligne par fichier, séparateur `;`)
 
