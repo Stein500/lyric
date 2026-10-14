@@ -1,0 +1,37 @@
+{
+  "fichier": "glace-916.mp4",
+  "frames": 5550,
+  "fps": 30,
+  "duree_s": 185.0,
+  "segments": 48,
+  "plans": 36,
+  "clochettes": 5,
+  "fenetres_clochettes": [
+    [
+      42.5,
+      47.16
+    ],
+    [
+      145.56,
+      150.14
+    ],
+    [
+      152.49,
+      157.79
+    ],
+    [
+      160.14,
+      165.25
+    ],
+    [
+      167.6,
+      180.0
+    ]
+  ],
+  "code": "0300",
+  "drapeau": false,
+  "crf": 24,
+  "presets": "veryfast",
+  "fondu_s": 0.35,
+  "badge_alpha_max": 0.72
+}

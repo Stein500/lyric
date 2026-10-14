@@ -6,18 +6,8 @@
   "duree_decodee_s": 180.0,
   "nb_vers": 45,
   "plans_distinctes": 36,
-  "plans_disponibles": 27,
-  "plans_manquantes": [
-    "fonds/scene-19.png",
-    "fonds/v-121-25.png",
-    "fonds/v-124-63.png",
-    "fonds/v-127-95.png",
-    "fonds/v-131-54.png",
-    "fonds/v-143-01.png",
-    "fonds/v-150-14.png",
-    "fonds/v-157-79.png",
-    "fonds/v-165-25.png"
-  ],
+  "plans_disponibles": 36,
+  "plans_manquantes": [],
   "fenetres_clochettes": [
     [
       42.5,
@@ -288,7 +278,7 @@
       "affichage_s": 1.86,
       "texte": "Les négros veulent ma place, ils sont trop sur le pal'",
       "image": "fonds/scene-19.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": ""
     },
@@ -453,7 +443,7 @@
       "affichage_s": 3.3,
       "texte": "J'en ai marre d'être trahi, à force de poignards j'suis aigri",
       "image": "fonds/v-121-25.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "◆ vers dédié"
     },
@@ -464,7 +454,7 @@
       "affichage_s": 2.2,
       "texte": "Wolof TechStein ça brûle !",
       "image": "fonds/v-124-63.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "☀ variante aube dédiée"
     },
@@ -475,7 +465,7 @@
       "affichage_s": 2.2,
       "texte": "Je suis la glace, glace, glace",
       "image": "fonds/v-127-95.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "☀ variante aube dédiée"
     },
@@ -486,7 +476,7 @@
       "affichage_s": 3.6,
       "texte": "Je suis la glace, glace, glace (big boss dans la place !)",
       "image": "fonds/v-131-54.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "☀ aube"
     },
@@ -497,7 +487,7 @@
       "affichage_s": 2.2,
       "texte": "Je suis la glace, glace, glace",
       "image": "fonds/v-127-95.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "↻ reprise aube"
     },
@@ -508,7 +498,7 @@
       "affichage_s": 2.4,
       "texte": "Je suis la glace, glace, glace (tech !)",
       "image": "fonds/v-143-01.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "☀ variante aube dédiée"
     },
@@ -519,7 +509,7 @@
       "affichage_s": 2.2,
       "texte": "Wolof TechStein ça brûle !... (glace)",
       "image": "fonds/v-150-14.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "☀ aube"
     },
@@ -530,7 +520,7 @@
       "affichage_s": 2.2,
       "texte": "Wolof TechStein ça brûle... (big boss)",
       "image": "fonds/v-157-79.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "☀ aube"
     },
@@ -541,7 +531,7 @@
       "affichage_s": 2.2,
       "texte": "Wolof... TechStein... ça brûle... (Tech...)",
       "image": "fonds/v-165-25.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "☀ aube finale"
     }
