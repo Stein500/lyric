@@ -1,0 +1,15 @@
+{
+ "fichier": "mahu-ti-te-gbe-916.mp4",
+ "frames": 6342,
+ "fps": 30,
+ "duree_s": 211.4,
+ "segments": 52,
+ "plans": 34,
+ "clochettes": 5,
+ "code": "0326",
+ "drapeau": false,
+ "crf": 24,
+ "presets": "veryfast",
+ "fondu_s": 0.35,
+ "badge_alpha_max": 0.72
+}

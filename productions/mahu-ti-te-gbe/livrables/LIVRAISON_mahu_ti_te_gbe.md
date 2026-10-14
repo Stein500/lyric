@@ -34,14 +34,30 @@ Titre TikTok : `Mahu ti tè gbè — Dsky`
 
 | Fichier | Détails |
 |---|---|
+| `livrables/mahu-ti-te-gbe-916.mp4` | **clip 9:16** · 1080×1920 · H.264 High yuv420p bt709 · 30 fps · 6 342 frames = 211,40 s · 2 034 kb/s · AAC-LC 48 kHz 253 kb/s · 60 693 417 o (57,9 Mo) · `+faststart` |
 | `livrables/Mahu ti tè gbè - master 320k.mp3` | 8 570 754 o · 206,40 s · 48 kHz · 320 kb/s CBR · −14,0 LUFS · crête −1,24 dB · pochette 1080 + USLT fre 49 lignes |
 | `livrables/cover-1080.jpg` (+ `.png`) | pochette carrée 1080×1080, tête non rognée |
 | `livrables/cover-916.jpg` | cover verticale 1080×1920 (plan aube `scene-19`) |
-| `livrables/carte-accueil.jpg` · `livrables/carte-finale.jpg` | Montserrat ExtraBold/SemiBold, code `0326`, aucun contact |
-| `fonds/scene-01-ancre.png` → `scene-19.png` · `fonds/v-*.png` | 28 plans peints et contrôlés (orthographe vérifiée) |
-| `verses_map.json` · `CARTE-VERS.md` | 49 vers → 31 plans, durées §6, 3 plans restants listés |
+| `livrables/carte-accueil.jpg` · `livrables/carte-finale.jpg` | cartes fixes (aperçu) ; les cartes animées sont dans le MP4 (0→9,33 s et 206,40→211,40 s) |
+| `fonds/scene-01-ancre.png` → `scene-19.png` · `fonds/v-*.png` | **34 plans peints** (19 scènes + 12 variantes de vers + 3 variantes aube), orthographe relue image par image |
+| `render_lyric_video.py` | moteur du clip (timeline v5.8, travelling par fenêtre glissante, clochettes, badge, filet de progression) |
+| `verses_map.json` · `CARTE-VERS.md` | 49 vers → 34 plans, durées §6, 5 fenêtres de clochette, 0 manquant |
+| `CONTROLE-mp4-final.jpg` · `CONTROLE-salve4.jpg` · `CONTROLE-typo-zoom.jpg` | planches de contrôle (cadres du MP4, textes peints, typo au zoom 1:1) |
 | `ANCRE.md` · `CONTROLES.md` · `CONTROLES-salve2.md` · `PLAN_SALVE2.md` | mesures réelles, journaux de contrôle, plan |
 | `livrables/paroles_clean.txt` · `timings_source.lrc` | paroles sans horodatages (USLT) · chronomètres de l'artiste conservés |
+
+## 5bis · Contrôles du clip (mesures réelles sur le fichier livré)
+
+| Contrôle | Commande | Résultat |
+|---|---|---|
+| Durée | `ffmpeg -i` | `Duration: 00:03:31.40` = 211,40 s = 6 342 frames / 30 — **exactement** `frames/fps` |
+| Flux | `ffmpeg -i` | vidéo 1080×1920 h264 High yuv420p (bt709) 30 fps 2 034 kb/s · audio aac LC 48 kHz stéréo 253 kb/s |
+| Frames noires | `blackdetect=d=0.05:pix_th=0.10` | **0** détection |
+| Gels | `freezedetect=n=-33dB:d=2.5` | 4 segments signalés, tous voulus : 0→9,37 (carte d'accueil), 20,47→26,13 (clochette posée sur image fixe), 207,43→fin (carte finale). **Aucun gel sur les 49 segments de vers.** À `d=4.0` : 1 seul |
+| Loudness clip | `ebur128` | I = **−14,0 LUFS** (cible −14) · RMS −14,76 dB |
+| Crête clip | `astats` | **−1,011 dB** (MP3 source à −1,24 dB, +0,23 dB introduits par le décodage AAC) |
+| Streaming | octets d'en-tête | `moov` à l'octet 36, `mdat` à 221 860 → **faststart OK** |
+| Typo peinte | zoom 1:1 (`CONTROLE-typo-zoom.jpg`) | nette, **aucun ghosting** (le 1er rendu faisait un blend de deux échelles : corrigé en travelling par fenêtre glissante, zéro ré-échantillonnage par frame) |
 
 ## 6 · Commandes Termux (une ligne par fichier, séparateur `;`)
 
@@ -60,14 +76,16 @@ curl -L -o "PROMPT_UNIVERSEL_v5.8.md" "https://github.com/Stein500/lyric/raw/6b1
 
 ## 7 · Points ouverts (livrés comme non finis)
 
-1. **3 vers sans plan peint** : `v-120-11` (échec du modèle), `v-148-92`, `v-152-10` → à générer au prochain tour
-   (limite de 10 générations par tour atteinte). En attendant, le montage utilisera le plan du vers précédent.
-2. **Clip 9:16 non encore rendu** : `render_lyric_video.py` à écrire sur `verses_map.json` (1 plan/vers, fondu 0,35 s,
-   badge « Dsky » en y=160, un seul fondu par vers, clochettes dans les 9 fenêtres ≥ 5 s, cartes 0→9,33 s et
-   206,40→211,40 s), H.264 CRF 24 + AAC 256 + `+faststart` + bt709, puis contrôles `blackdetect`/`freezedetect`.
-3. **Calage des mots provisoire** (formule §6) : à valider à l'écoute, notamment vers 118-124 s où les lignes se
-   suivent très vite (1,4 s d'écart).
-4. Deux plans à la limite des zones sûres : `scene-16` (bloc bas ≈ y 1560) et `scene-18` (bloc haut ≈ y 150).
-   Gardés, régénérables si tu veux la marge.
-5. Reprises de refrains qui réutilisent un plan « nuit » en pleine séquence aube → 3 variantes aube possibles
-   (`v-160-26`, `v-163-62`, `v-166-97`) si tu veux 100 % de continuité.
+1. **Calage des mots provisoire** (formule §6 du prompt) : les durées d'affichage par vers ne sont pas calées mot à mot
+   sur la voix. À valider à l'écoute, surtout vers 118-124 s où les lignes s'enchaînent à 1,4 s d'écart.
+2. **Clochettes : 5 fenêtres, pas 9.** La liste « brute » des 9 trouées ≥ 5 s empiétait sur la lecture de vers en cours
+   (interdit par §3). Recalculées en [fin d'affichage + 0,15 s → vers suivant] avec seuil 4,00 s, il reste
+   12,50→17,24 · 20,34→26,06 · 175,42→182,73 · 192,00→196,07 · 199,10→206,40. Les 4 trouées écartées font moins de
+   4 s une fois le vers lu. Si tu veux les 9, il faut abaisser le seuil à 3,0 s : une ligne à changer dans le moteur.
+3. **Deux plans à la limite des zones sûres** : `scene-16` (bloc bas ≈ y 1560) et `scene-18` (bloc haut ≈ y 150).
+   Gardés tels quels, régénérables si tu veux de la marge.
+4. **Rendu en CRF 24 / veryfast** (réglage du prompt). Pour un upload qui repacke, c'est large ; pour archiver au
+   maximum, relancer avec `--crf 18 --preset slow` (~2,5× plus long, ~2,5× plus lourd).
+
+Déjà fermé depuis la 1re livraison : les 3 vers sans plan (`v-120-11`, `v-148-92`, `v-152-10`), les 3 variantes aube
+des reprises (160,26 / 163,62 / 166,97) et le clip 9:16 lui-même.
