@@ -258,6 +258,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 228 | Avant que tu parles | sortie de barbier |
 | 229 | La signature | raie à l'encre d'or |
 | 230 | Ton drapeau personnel | tresses au vent |
+| 231 | Le banc gris | ta photo dorée |
+| 232 | La langue est gratis | marchand de murmures |
+| 233 | Le cercle de fumée | oiseaux-murmures |
+| 234 | La galerie | cadres vides |
+| 235 | La bête affamée | rumeur à la porte |
+| 236 | L'engrais d'or | l'arbre qui pousse |
+| 237 | Sa propre cour | le doigt & le balai |
+| 238 | Le sablier | longues-vues |
+| 239 | Après, ils sourient | lampadaire |
+| 240 | La publicité gratuite | panneau de fumée |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 

@@ -672,3 +672,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **229.** `LA SIGNATURE` — ligne de raie tracée à l'encre d'or — « La ligne de ta coupe est ta signature : personne ne la trace comme toi. »
 
 **230.** `TON DRAPEAU PERSONNEL` — tresses-banderoles au soleil levant — « Marche tête haute : ta coiffure est ton drapeau personnel. »
+
+---
+
+## SAISON 2 — Série ART XVIII (231 → 240) — « CEUX QUI PARLENT DE TA VIE »
+*Banc gris, marchand de murmures, sablier des curieux. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10.*
+
+**231.** `LE BANC GRIS` — deux ombres penchées sur ta photo dorée — « Ils parlent de ta vie parce que la leur les ennuie. »
+
+**232.** `LA LANGUE EST GRATIS` — marchand de murmures en bocaux — « La langue est gratis : certains en font pourtant leur seul métier. »
+
+**233.** `LE CERCLE DE FUMÉE` — oiseaux-murmures autour du feu — « Celui qui t'apporte les potins emporte les tiens ailleurs. »
+
+**234.** `LA GALERIE` — cadres vides, ta vie exposée en or — « Ton progrès les passionne plus que leur avenir : prends ça pour un hommage. »
+
+**235.** `LA BÊTE AFFAMÉE` — rumeur-monstre morte à la porte — « La rumeur court vite, mais elle meurt affamée devant une vie occupée. »
+
+**236.** `L'ENGRAIS D'OR` — la parole des bavards qui fait pousser l'arbre — « La meilleure réponse aux bavards : réussir encore une fois. »
+
+**237.** `SA PROPRE COUR` — le doigt pointé, le balai qui attend — « On juge ta maison sans avoir balayé sa propre cour. »
+
+**238.** `LE SABLIER` — longues-vues sur ton passé, sable qui s'épuise — « Ton passé n'intéresse que ceux qui n'ont pas d'avenir. »
+
+**239.** `APRÈS, ILS SOURIENT` — murmurateurs au lampadaire, sourires plaqués — « Ils parlent de toi jusqu'à ce que tu arrives ; après, ils sourient. »
+
+**240.** `LA PUBLICITÉ GRATUITE` — la fumée des bavards devenue panneau d'or — « Vis bien : les bavards font ta publicité gratuitement. »
