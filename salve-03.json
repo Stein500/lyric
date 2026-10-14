@@ -1,0 +1,22 @@
+[
+  {"num": 21,  "style": "LUXE",    "base": "assets/bases/base-21.jpg",
+   "text": "Si tu n'as pas l'argent, tu n'es rien du tout."},
+  {"num": 22,  "style": "AFRO",    "base": "assets/bases/base-22.jpg",
+   "text": "Je m'en fous que tu m'aimes, moi ou mon argent. Seigneur, donne-moi l'argent ! J'en ai marre de me contenter des gens qui sont là pour ce que je suis. Bref… Dieu, rends-moi riche."},
+  {"num": 23,  "style": "MINIMAL", "base": "assets/bases/base-23.jpg",
+   "text": "Il faut avancer, mais n'oublie jamais le passé, sinon le futur se chargera de te le rappeler."},
+  {"num": 24,  "style": "LUXE",    "base": "assets/bases/base-24.jpg",
+   "text": "Ce qui t'aime te fera du bien. Ce que tu aimes peut te détruire."},
+  {"num": 25,  "style": "AFRO",    "base": "assets/bases/base-25.jpg",
+   "text": "Grandis ! Sinon, tu seras toujours seul(e). Dude, toi seul sais ce qui te dérange dans mes manières enfantines. Laisse-moi rester seul(e)."},
+  {"num": 26,  "style": "AFRO",    "base": "assets/bases/base-26.jpg",
+   "text": "Traque tes intérêts, bro. Le reste — tu sais, tu devrais… patati et patata — zap. Traque tes intérêts. Je te donne ceci, tu me donnes cela. Point !"},
+  {"num": 27,  "style": "MINIMAL", "base": "assets/bases/base-27.jpg",
+   "text": "Vraiment, hein… La relation à distance, là… c'est celui/celle qui y croit le plus qui finit le cœur brisé. Snif snif."},
+  {"num": 28,  "style": "MINIMAL", "base": "assets/bases/base-28.jpg",
+   "text": "Il y a autant d'hommes infidèles que de femmes infidèles. L'illusion que les femmes sont moins investies dans cette discipline vient de tes idées reçues."},
+  {"num": 29,  "style": "LUXE",    "base": "assets/bases/base-29.jpg",
+   "text": "La confiance ne s'accorde pas, elle ne se gagne pas non plus : elle se cultive. Et sache que le mouton qui finit égorgé ne s'y attendait pas, venant de celui qui le nourrissait, le soignait et veillait sur lui. Apprends à faire la part des choses : cultive-t-il la confiance entre vous, ou te cultive-t-il, toi, pour mieux se servir de toi après ?"},
+  {"num": 30,  "style": "LUXE",    "base": "assets/bases/base-30.jpg",
+   "text": "Il y a du bon dans la misère. Il y a du bon dans la pauvreté. Il y a du bon dans la souffrance. Apprends, ou péris !"}
+]

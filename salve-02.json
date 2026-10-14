@@ -1,0 +1,22 @@
+[
+  {"num": 11,  "style": "LUXE",    "base": "assets/bases/base-11.jpg",
+   "text": "Trouve-toi une femme qui te rende fier(ère) et non inquiet(ète). Et une fois que tu l'as trouvée, ne te comporte pas comme un salaud !"},
+  {"num": 12,  "style": "MINIMAL", "base": "assets/bases/base-12.jpg",
+   "text": "Ne confonds pas amour et plaisir. Le plaisir passera vite, mais l'amour perdure. Il n'y a rien de plus déchirant que d'aimer quelqu'un qui ne veut que du plaisir avec toi."},
+  {"num": 13,  "style": "LUXE",    "base": "assets/bases/base-13.jpg",
+   "text": "Je ne suis pas un passe-temps. Point !"},
+  {"num": 14,  "style": "MINIMAL", "base": "assets/bases/base-14.jpg",
+   "text": "Tu lui écris, elle te répond. Tu ne te connectes plus pendant 2 jours. Tu reviens te connecter avec tes maigres sous, pensant qu'elle t'a laissé des messages. T'inquiète : elle l'a fait tous les jours, toutes les heures, car elle t'aime comme ça, même dans ta précarité. Ne te comporte pas comme un salaud !"},
+  {"num": 15,  "style": "MINIMAL", "base": "assets/bases/base-15.jpg",
+   "text": "4 jours après, elle ne t'a toujours pas écrit. « Ooh, elle ne m'aime pas… » Ah bon ? Et toi, tu l'aimes, et tu as quand même supporté 4 jours sans lui écrire… Bien sûr qu'elle t'aime. Ne décide pas tout seul dans ton coin !"},
+  {"num": 16,  "style": "AFRO",    "base": "assets/bases/base-16.jpg",
+   "text": "Moi, de retour à la maison avec mes deux sœurs. Non. On grandit, mais elles n'arrêteront jamais de me tourner en ridicule."},
+  {"num": 17,  "style": "AFRO",    "base": "assets/bases/base-17.jpg",
+   "text": "« Arrête les animes, arrête les mangas, arrête les jeux vidéo et je sortirai avec toi. » Ok, excuse-moi de t'avoir dérangé. J'irai draguer ailleurs."},
+  {"num": 18,  "style": "LUXE",    "base": "assets/bases/base-18.jpg",
+   "text": "Ne pardonne pas tout, même venant de ta propre famille ou de tes amis intimes. Rends coup pour coup. Sinon, tu seras toujours dans leurs merdes."},
+  {"num": 19,  "style": "AFRO",    "base": "assets/bases/base-19.jpg",
+   "text": "Mange ! Oui, mange ! Économiser ne te rendra jamais riche ! Asseyons-nous dans un coin privé après le salaire et mangeons ce qu'on veut avant de rentrer !"},
+  {"num": 20,  "style": "MINIMAL", "base": "assets/bases/base-20.jpg",
+   "text": "Parle-toi, oui, discute avec toi-même. Ils te prendront pour un fou. Ton toi te conseillera mieux que mon moi ou leurs eux."}
+]
