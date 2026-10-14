@@ -647,3 +647,28 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **219.** `BON COURAGE` — allée des masques souriants — « Beaucoup te disent bon courage ; peu le pensent avec le cœur. »
 
 **220.** `LE BONHEUR SILENCIEUX` — l'envieux fondu en fumée sur la route de l'aube — « Rien n'épuise un envieux comme ton bonheur silencieux. »
+
+---
+
+## SAISON 2 — Série ART XVII (221 → 230) — « COIFFE-TOI COMME TU VEUX »
+*Idée de Dsky : ta tête, ta couronne, ta signature. Tresses, coupes, lion du miroir. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10.*
+
+**221.** `TA TÊTE, PAS LEUR TABLEAU` ⭐ *idée Dsky* — miroir-barbier magique, silhouettes de coiffures — « Coiffe-toi comme tu le veux : c'est ta tête, pas leur tableau. »
+
+**222.** `DES PHRASES` ⭐ *idée Dsky* — tresses au fil d'or — « Tresse-toi comme tu le veux : tes tresses, c'est ta poésie. »
+
+**223.** `RIEN D'AUTRE À LIRE` — critiques à la loupe, bulles vides — « On critique ta coupe quand on n'a rien d'autre à lire sur toi. »
+
+**224.** `LE LION DU MIROIR` — barbier, lion d'or dans le reflet — « Le barbier fait la coupe ; c'est ton caractère qui la porte. »
+
+**225.** `TOUJOURS TA COURONNE` — trois amis aux cercles d'or — « Tressé, rasé ou locké : c'est toujours ta couronne. »
+
+**226.** `LA MÊME COUPE` — clones gris vs tresses arc-en-ciel — « Ceux qui rient de tes tresses portent tous la même coupe. »
+
+**227.** `L'ARROSOIR` — serre-barbier, afro-jardin arrosé — « Ta coupe repousse chaque semaine : ta confiance aussi, si tu l'arroses. »
+
+**228.** `AVANT QUE TU PARLES` — sortie de barbier, rue dorée — « Une coupe nette ouvre la journée avant même que tu parles. »
+
+**229.** `LA SIGNATURE` — ligne de raie tracée à l'encre d'or — « La ligne de ta coupe est ta signature : personne ne la trace comme toi. »
+
+**230.** `TON DRAPEAU PERSONNEL` — tresses-banderoles au soleil levant — « Marche tête haute : ta coiffure est ton drapeau personnel. »

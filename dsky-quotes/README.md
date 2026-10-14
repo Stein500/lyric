@@ -248,6 +248,16 @@ N°, signature, drapeau et barre CTA dans la bande basse — moteur `compose_art
 | 218 | L'arme | souffle en lames |
 | 219 | Bon courage | allée des masques |
 | 220 | Le bonheur silencieux | fumée au petit matin |
+| 221 | Ta tête, pas leur tableau ⭐ | miroir-barbier magique |
+| 222 | Des phrases ⭐ | tresses au fil d'or |
+| 223 | Rien d'autre à lire | critiques à la loupe |
+| 224 | Le lion du miroir | barbier & lion d'or |
+| 225 | Toujours ta couronne | trois amis aux cercles d'or |
+| 226 | La même coupe | clones vs tresses |
+| 227 | L'arrosoir | afro-jardin |
+| 228 | Avant que tu parles | sortie de barbier |
+| 229 | La signature | raie à l'encre d'or |
+| 230 | Ton drapeau personnel | tresses au vent |
 
 Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART II, ART III).
 
