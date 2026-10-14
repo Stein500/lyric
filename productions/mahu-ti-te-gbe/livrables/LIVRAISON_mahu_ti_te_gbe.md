@@ -1,7 +1,7 @@
 # LIVRAISON — « Mahu ti tè gbè » (Dsky)
 
 Production ouverte le 2026-10-10 · clip livré le 2026-10-14 · branche `arena/21016a0d-lyric` · moteur : PROMPT UNIVERSEL v5.7 + **v5.8 (typo peinte)**.
-Hash des livrables : `e34df944577af852f2ca99f91a0bd4c892b851d8` (clip 9:16, 34 plans, master, cartes)
+Hash des livrables : `7bef0694e37db24ff609b67d5d5ab76df8e3d55c` (clip 9:16, 34 plans, master, cartes)
 — cette page de livraison est committée juste après, le hash ci-dessus contient déjà tous les fichiers à télécharger.
 
 ---
@@ -77,21 +77,21 @@ Titre TikTok : `Mahu ti tè gbè — Dsky`
 Récupération du commit livré (hash vérifié sur la branche distante) :
 
 ```
-cd ~/lyric ; git fetch origin arena/21016a0d-lyric ; git checkout e34df944577af852f2ca99f91a0bd4c892b851d8 ;
+cd ~/lyric ; git fetch origin arena/21016a0d-lyric ; git checkout 7bef0694e37db24ff609b67d5d5ab76df8e3d55c ;
 ```
 
 Fichiers (le `;` final laisse la chaîne s'exécuter jusqu'au bout) :
 
 ```
-curl -L -o "mahu-ti-te-gbe-916.mp4" "https://github.com/Stein500/lyric/raw/e34df944577af852f2ca99f91a0bd4c892b851d8/productions/mahu-ti-te-gbe/livrables/mahu-ti-te-gbe-916.mp4";  # clip 9:16 57,9 Mo;
-curl -L -o "Mahu ti tè gbè - master 320k.mp3" "https://github.com/Stein500/lyric/raw/e34df944577af852f2ca99f91a0bd4c892b851d8/productions/mahu-ti-te-gbe/livrables/Mahu%20ti%20t%C3%A8%20gb%C3%A8%20-%20master%20320k.mp3";  # master 320k;
-curl -L -o "cover-1080.jpg" "https://github.com/Stein500/lyric/raw/e34df944577af852f2ca99f91a0bd4c892b851d8/productions/mahu-ti-te-gbe/livrables/cover-1080.jpg";  # pochette 1080;
-curl -L -o "cover-916.jpg" "https://github.com/Stein500/lyric/raw/e34df944577af852f2ca99f91a0bd4c892b851d8/productions/mahu-ti-te-gbe/livrables/cover-916.jpg";  # cover verticale;
-curl -L -o "carte-accueil.jpg" "https://github.com/Stein500/lyric/raw/e34df944577af852f2ca99f91a0bd4c892b851d8/productions/mahu-ti-te-gbe/livrables/carte-accueil.jpg";  # carte accueil;
-curl -L -o "carte-finale.jpg" "https://github.com/Stein500/lyric/raw/e34df944577af852f2ca99f91a0bd4c892b851d8/productions/mahu-ti-te-gbe/livrables/carte-finale.jpg";  # carte finale;
-curl -L -o "rendu_stats.json" "https://github.com/Stein500/lyric/raw/e34df944577af852f2ca99f91a0bd4c892b851d8/productions/mahu-ti-te-gbe/livrables/rendu_stats.json";  # stats du rendu;
-curl -L -o "CARTE-VERS.md" "https://github.com/Stein500/lyric/raw/e34df944577af852f2ca99f91a0bd4c892b851d8/productions/mahu-ti-te-gbe/CARTE-VERS.md";  # carte des 49 vers;
-curl -L -o "PROMPT_UNIVERSEL_v5.8.md" "https://github.com/Stein500/lyric/raw/e34df944577af852f2ca99f91a0bd4c892b851d8/PROMPT_UNIVERSEL_v5.8_MAHU_TYPO_PEINTE.md";  # prompt a jour (racine);
+curl -L -o "mahu-ti-te-gbe-916.mp4" "https://github.com/Stein500/lyric/raw/7bef0694e37db24ff609b67d5d5ab76df8e3d55c/productions/mahu-ti-te-gbe/livrables/mahu-ti-te-gbe-916.mp4";  # clip 9:16 57,9 Mo;
+curl -L -o "Mahu ti tè gbè - master 320k.mp3" "https://github.com/Stein500/lyric/raw/7bef0694e37db24ff609b67d5d5ab76df8e3d55c/productions/mahu-ti-te-gbe/livrables/Mahu%20ti%20t%C3%A8%20gb%C3%A8%20-%20master%20320k.mp3";  # master 320k;
+curl -L -o "cover-1080.jpg" "https://github.com/Stein500/lyric/raw/7bef0694e37db24ff609b67d5d5ab76df8e3d55c/productions/mahu-ti-te-gbe/livrables/cover-1080.jpg";  # pochette 1080;
+curl -L -o "cover-916.jpg" "https://github.com/Stein500/lyric/raw/7bef0694e37db24ff609b67d5d5ab76df8e3d55c/productions/mahu-ti-te-gbe/livrables/cover-916.jpg";  # cover verticale;
+curl -L -o "carte-accueil.jpg" "https://github.com/Stein500/lyric/raw/7bef0694e37db24ff609b67d5d5ab76df8e3d55c/productions/mahu-ti-te-gbe/livrables/carte-accueil.jpg";  # carte accueil;
+curl -L -o "carte-finale.jpg" "https://github.com/Stein500/lyric/raw/7bef0694e37db24ff609b67d5d5ab76df8e3d55c/productions/mahu-ti-te-gbe/livrables/carte-finale.jpg";  # carte finale;
+curl -L -o "rendu_stats.json" "https://github.com/Stein500/lyric/raw/7bef0694e37db24ff609b67d5d5ab76df8e3d55c/productions/mahu-ti-te-gbe/livrables/rendu_stats.json";  # stats du rendu;
+curl -L -o "CARTE-VERS.md" "https://github.com/Stein500/lyric/raw/7bef0694e37db24ff609b67d5d5ab76df8e3d55c/productions/mahu-ti-te-gbe/CARTE-VERS.md";  # carte des 49 vers;
+curl -L -o "PROMPT_UNIVERSEL_v5.8.md" "https://github.com/Stein500/lyric/raw/7bef0694e37db24ff609b67d5d5ab76df8e3d55c/PROMPT_UNIVERSEL_v5.8_MAHU_TYPO_PEINTE.md";  # prompt a jour (racine);
 ```
 
 ## 7 · Points ouverts (livrés comme non finis)
