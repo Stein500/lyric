@@ -655,7 +655,7 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 
 **221.** `TA TÊTE, PAS LEUR TABLEAU` ⭐ *idée Dsky* — miroir-barbier magique, silhouettes de coiffures — « Coiffe-toi comme tu le veux : c'est ta tête, pas leur tableau. »
 
-**222.** `DES PHRASES` ⭐ *idée Dsky* — tresses au fil d'or — « Tresse-toi comme tu le veux : tes tresses, c'est ta poésie. »
+**222.** `DES PHRASES` — tresses au fil d'or — « Tes tresses sont des phrases : celles qui t'aiment savent les lire. »
 
 **223.** `RIEN D'AUTRE À LIRE` — critiques à la loupe, bulles vides — « On critique ta coupe quand on n'a rien d'autre à lire sur toi. »
 
