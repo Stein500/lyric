@@ -697,3 +697,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **239.** `APRÈS, ILS SOURIENT` — murmurateurs au lampadaire, sourires plaqués — « Ils parlent de toi jusqu'à ce que tu arrives ; après, ils sourient. »
 
 **240.** `LA PUBLICITÉ GRATUITE` — la fumée des bavards devenue panneau d'or — « Vis bien : les bavards font ta publicité gratuitement. »
+
+## SAISON 2 — Série ART XIX (241 → 250) — « LA MÉCHANTE DE L'HISTOIRE »
+*Adressées aux femmes. Répondre à ceux qui cherchent à te retenir vaut procès de méchanceté : alors on l'assume. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10.*
+
+**241.** `LA MÉCHANTE DE L'HISTOIRE` — robe rouge, palais doré, dos droit — « Si répondre te rend méchante, alors sois la méchante de l'histoire. »
+
+**242.** `DONNE-LA QUAND MÊME` — robe d'or sur la route de l'aube — « Quand on cherche à te retenir, ta réponse dérange : donne-la quand même. »
+
+**243.** `LE POIDS DU NON` — balance ancienne : plume contre cœur d'or — « On t'a appelée méchante le jour où ton non pesait plus que leur confort. »
+
+**244.** `ELLE SE LÈVE` — la douceur-voile d'ivoire qui se lève du canapé — « Ta douceur servait tout le monde sauf toi : elle a fini par se lever. »
+
+**245.** `NE BAISSE PAS LES YEUX` — menton levé au crépuscule du palais — « Être polie ne veut pas dire baisser les yeux quand tu as raison. »
+
+**246.** `LEUR ARRANGEMENT` — fils de marionnette coupés aux pieds de la robe bleu nuit — « Ils aimaient ta patience parce qu'elle les arrangeait. »
+
+**247.** `LA FIN DE LEURS AVANTAGES` — porte dorée qu'on referme doucement — « Ce n'est pas ta réponse le problème : c'est la fin de leurs avantages. »
+
+**248.** `CELLE QUI REFUSE` — théâtre rouge, couronne tenue dans la main — « On appelle méchante celle qui refuse de payer pour le confort des autres. »
+
+**249.** `LA DISTANCE RESTE` — boubou d'or gravissant les marches au soleil levant — « Va jusqu'au bout : le mot méchante s'oublie, la distance parcourue reste. »
+
+**250.** `DANS LA TIENNE, LIBRE` — miroir doré : le reflet couronné — « Dans leur histoire tu es la méchante. Dans la tienne, tu es enfin libre. »
