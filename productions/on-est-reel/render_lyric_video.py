@@ -255,6 +255,10 @@ def main():
             bgk = m["verses"][0]["image"] if s["a"] < SONG_END else m["verses"][-1]["image"]
             cards[i] = card(slide(base(bgk)[0], 0.5, 0.06),
                             [(t, z, c[:3]) for t, z, c in s["lines"]], head=s.get("head"))
+    if 0 in cards and not a.preview:
+        cards[0].save(os.path.join(OUT, "carte-accueil.jpg"), quality=94)
+    if (len(seg) - 1) in cards and not a.preview:
+        cards[len(seg) - 1].save(os.path.join(OUT, "carte-finale.jpg"), quality=94)
 
     # Vignette : masque L = 0 au centre, ~86 aux coins, flou 34 (§5.5)
     vmask = Image.new("L", (W, H), 0)
@@ -285,6 +289,8 @@ def main():
         if s["kind"] == "verse" and s["dim"] and s["b"] - s["disp"] >= SEUIL and s["b"] <= SONG_END + 0.01:
             windows.append([round(s["disp"] + 0.15, 2), round(min(s["b"], SONG_END), 2)])
 
+    n = int(round(t_end * FPS))
+    exact_dur = n / FPS
     ff = ffmpeg()
     aud = None
     if not a.no_audio:
@@ -293,8 +299,8 @@ def main():
             src = os.path.join(OUT, "_master_noart.mp3")
         aud = os.path.join(OUT, "_audio_pad.m4a")
         subprocess.run([ff, "-y", "-hide_banner", "-loglevel", "error", "-i", src, "-vn",
-                        "-map", "0:a:0", "-af", "apad=pad_dur=%.2f" % (CARD_END - SONG_END),
-                        "-t", "%.3f" % t_end, "-c:a", "aac", "-b:a", "256k", "-ar", "48000", aud], check=True)
+                        "-map", "0:a:0", "-af", "apad=pad_dur=6.00",
+                        "-t", "%.3f" % exact_dur, "-c:a", "aac", "-b:a", "256k", "-ar", "48000", aud], check=True)
     out = os.path.join(OUT, "on-est-reel-916%s.mp4" % ("-preview" if a.preview else ""))
     cmd = [ff, "-y", "-hide_banner", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
            "-s", "%dx%d" % (W, H), "-r", str(FPS), "-i", "-"]
@@ -305,7 +311,6 @@ def main():
             "-movflags", "+faststart"] + (["-c:a", "copy"] if aud else []) + [out]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
 
-    n = int(round(t_end * FPS))
     si = 0
     prev = None
     badge_cache = {}

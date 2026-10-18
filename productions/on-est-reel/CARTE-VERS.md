@@ -4,7 +4,7 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **57 vers** de 
 
 - **Mode verrouillé** : **PEINT** (le modèle peint la parole et 1 à 3 icônes/stickers dorés dans l'image ; aucune sur-typo au montage hors cartes d'accueil/finale).
 - **Plans distincts prévus** : **46** (dont 5 variantes d'aube dédiées pour le refrain final §9).
-- **Plans présents sur disque (`os.path.exists`)** : **41 / 46** (51/57 vers couverts dès la salve 1).
+- **Plans présents sur disque (`os.path.exists`)** : **46 / 46** (57/57 vers couverts dès la salve 1).
 - **Contrôle QC salves 1 à 5** : **41 / 41 plans présents validés au zoom 1:1 sans aucune faute d'orthographe** ; portraits des 3 présidents de l'AES (Assimi Goïta, Ibrahim Traoré, Abdourahamane Tiani) régénérés d'après leurs photos officielles.
 
 | # | t (s) | fin (s) | aff. (s) | vers | plan | dispo | reprise | note |
@@ -59,12 +59,12 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **57 vers** de 
 | 48 | 178.86 | 181.81 | 2.95 | On est les rois de l'épreuve, on est la chance | `fonds/scene-38.png` | oui | — | Rois de l'épreuve : Béhanzin, Bio Guéra, Sankara & famille |
 | 49 | 181.81 | 184.50 | 2.40 | Le passé est passé, les chaînes sont brisées | `fonds/scene-39.png` | oui | — | Chaînes brisées dans la brume d'aube |
 | 50 | 184.50 | 193.01 | 2.70 | Aujourd'hui je suis debout, je suis né pour chanter | `fonds/scene-40.png` | oui | — | Debout à l'aube, né pour chanter |
-| 51 | 193.01 | 198.28 | 3.60 | On est nés dans la poussière, on a grandi dans la pluie | `fonds/v-193-01-aube.png` | non | ↻ | Refrain final 1/4 — variante AUBE dédiée (§9) |
-| 52 | 198.28 | 205.01 | 3.00 | On a couru trop vite, on a pleuré la nuit | `fonds/v-198-28-aube.png` | non | ↻ | Refrain final 2/4 — variante AUBE dédiée (§9) |
-| 53 | 205.01 | 210.37 | 3.30 | On a serré les poings, on a crié sous le ciel | `fonds/v-205-01-aube.png` | non | ↻ | Refrain final 3/4 — variante AUBE dédiée (§9) |
-| 54 | 210.37 | 216.73 | 3.30 | Maintenant on se relève, on est plus forts, on est réels | `fonds/v-210-37-aube.png` | non | ↻ | Refrain final 4/4 — variante AUBE dédiée (§9) |
-| 55 | 216.73 | 222.76 | 2.20 | Wolof TechStein beat wê! | `fonds/v-216-73-aube.png` | non | ↻ | Signature finale — variante AUBE dédiée (§9) |
-| 56 | 222.76 | 232.32 | 2.20 | Wolof TechStein beat wê... | `fonds/v-216-73-aube.png` | non | ↻ | Écho signature finale — variante AUBE dédiée (§9) |
+| 51 | 193.01 | 198.28 | 3.60 | On est nés dans la poussière, on a grandi dans la pluie | `fonds/v-193-01-aube.png` | oui | ↻ | Refrain final 1/4 — variante AUBE dédiée (§9) |
+| 52 | 198.28 | 205.01 | 3.00 | On a couru trop vite, on a pleuré la nuit | `fonds/v-198-28-aube.png` | oui | ↻ | Refrain final 2/4 — variante AUBE dédiée (§9) |
+| 53 | 205.01 | 210.37 | 3.30 | On a serré les poings, on a crié sous le ciel | `fonds/v-205-01-aube.png` | oui | ↻ | Refrain final 3/4 — variante AUBE dédiée (§9) |
+| 54 | 210.37 | 216.73 | 3.30 | Maintenant on se relève, on est plus forts, on est réels | `fonds/v-210-37-aube.png` | oui | ↻ | Refrain final 4/4 — variante AUBE dédiée (§9) |
+| 55 | 216.73 | 222.76 | 2.20 | Wolof TechStein beat wê! | `fonds/v-216-73-aube.png` | oui | ↻ | Signature finale — variante AUBE dédiée (§9) |
+| 56 | 222.76 | 232.32 | 2.20 | Wolof TechStein beat wê... | `fonds/v-216-73-aube.png` | oui | ↻ | Écho signature finale — variante AUBE dédiée (§9) |
 | 57 | 232.32 | 244.99 | 2.20 | (On est réels... On est debout...) | `fonds/scene-41-final.png` | oui | — | Plan final plein soleil levant : famille relevée & héros |
 
 ## Fenêtres de clochette éligibles (MODE PEINT, seuil ≥ 4,00 s de temps libre après affichage + 0,15 s) : 4

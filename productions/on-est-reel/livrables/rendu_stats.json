@@ -1,0 +1,15 @@
+{
+  "fichier": "on-est-reel-916.mp4",
+  "frames": 7500,
+  "fps": 30,
+  "duree_s": 250.0,
+  "segments": 60,
+  "plans": 46,
+  "clochettes": 4,
+  "code": "0405",
+  "drapeau": false,
+  "crf": 24,
+  "presets": "veryfast",
+  "fondu_s": 0.35,
+  "badge_alpha_max": 0.72
+}
