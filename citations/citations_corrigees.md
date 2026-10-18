@@ -720,3 +720,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **249.** `LA DISTANCE RESTE` — boubou d'or gravissant les marches au soleil levant — « Va jusqu'au bout : le mot méchante s'oublie, la distance parcourue reste. »
 
 **250.** `DANS LA TIENNE, LIBRE` — miroir doré : le reflet couronné — « Dans leur histoire tu es la méchante. Dans la tienne, tu es enfin libre. »
+
+## SAISON 2 — Série ART XX (251 → 260) — « LA BELLE ET LA VILAINE »
+*Personnes en scène : la beauté du visage contre celle de l'âme — foi et foyer valorisés. Adressé aux femmes. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10.*
+
+**251.** `LE REGARD` — deux femmes : diamants froids contre simplicité lumineuse — « Le visage attire le regard ; c'est le cœur qui le retient. »
+
+**252.** `LAMPE SANS HUILE` — lampe dorée vide, petite chandelle allumée — « La beauté sans douceur est une lampe sans huile. »
+
+**253.** `JUSQU'À CE QU'ELLE PARLE` — salon aux chandelles, les invités se détournent — « Elle était la plus belle, jusqu'à ce qu'elle parle. »
+
+**254.** `LE FOYER` — table dressée, bougies et feu de cheminée — « Prie, garde ton foyer : cette lumière-là ne se démode jamais. »
+
+**255.** `ÂME EN PAIX` — calme au centre d'une réception tourbillonnante — « La vraie élégance, c'est une âme en paix. »
+
+**256.** `LA PRIÈRE DU MATIN` — femme en prière, aube dorée sur la maison aimée — « Sa force : la prière du matin et une maison aimée. »
+
+**257.** `LA VRAIE VILAINE` — le miroir doré au reflet dur — « La méchanceté vieillit mal : c'est elle, la vraie vilaine. »
+
+**258.** `LA TEMPÊTE` — prière tranquille, orage derrière la fenêtre — « Une femme qui prie ferme la porte aux tempêtes. »
+
+**259.** `LA MAIN QUI AIDE` — le pain offert à l'enfant à la porte dorée — « On oublie un joli visage ; on se souvient d'une main qui aide. »
+
+**260.** `TOUJOURS` — le bal : son sourire éclipse les diamants — « Belle pour les yeux, un soir. Belle pour le cœur, toujours. »
