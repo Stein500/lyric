@@ -298,3 +298,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 258 | La tempête | prière, orage dehors |
 | 259 | La main qui aide | pain partagé à la porte |
 | 260 | Toujours belle | le bal, sourire lumineux |
+| 261 | Bâtis en silence | brique d'or à l'aube |
+| 262 | La graine cachée | semis et arbre géant |
+| 263 | Le foyer paisible | maison vs palais glacé |
+| 264 | Ne brûle pas demain | métier à tisser |
+| 265 | Bâti avec foi | prière et plan doré |
+| 266 | Les fondations parlent | pierre d'assise, racines |
+| 267 | En dedans, en dehors | lampe astiquée |
+| 268 | Silence et prières | gratitude, maison achevée |
+| 269 | Sans m'excuser | l'ouvrière fière |
+| 270 | Racines discrètes | arbre en coupe |
