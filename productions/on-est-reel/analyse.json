@@ -1,0 +1,40 @@
+{
+  "source_file": "On est réels_1.mp3",
+  "duree_decodee_s": 244.99,
+  "duree_mm_ss": "04:04.99",
+  "code_fin": "0405",
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "source_codec_info": "pcm_s16le (WAV container named .mp3), 48000 Hz, stereo, 1536 kb/s",
+  "silences_ge_3_5s_at_minus42dB": [],
+  "loudnorm_pass1": {
+    "input_i": "-13.39",
+    "input_tp": "-1.11",
+    "input_lra": "7.30",
+    "input_thresh": "-23.76",
+    "output_i": "-13.76",
+    "output_tp": "-1.50",
+    "output_lra": "6.50",
+    "output_thresh": "-23.87",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.24"
+  },
+  "loudnorm_pass2": {
+    "input_i": "-13.35",
+    "input_tp": "-1.14",
+    "input_lra": "7.20",
+    "input_thresh": "-23.68",
+    "output_i": "-13.96",
+    "output_tp": "-1.75",
+    "output_lra": "7.20",
+    "output_thresh": "-24.29",
+    "normalization_type": "linear",
+    "target_offset": "-0.04"
+  },
+  "master_check_ebur128": {
+    "integrated_lufs": -14.0,
+    "lra_lu": 7.5,
+    "true_peak_dbfs": -1.7,
+    "astats_peak_db": -1.75
+  }
+}
