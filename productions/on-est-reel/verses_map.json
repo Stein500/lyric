@@ -10,17 +10,8 @@
   "duree_decodee_s": 244.99,
   "nb_vers": 57,
   "plans_distinctes": 46,
-  "plans_disponibles": 29,
+  "plans_disponibles": 38,
   "plans_manquantes": [
-    "fonds/scene-30.png",
-    "fonds/scene-31.png",
-    "fonds/scene-32.png",
-    "fonds/scene-33.png",
-    "fonds/scene-34.png",
-    "fonds/scene-35.png",
-    "fonds/scene-36.png",
-    "fonds/scene-37.png",
-    "fonds/scene-38.png",
     "fonds/scene-39.png",
     "fonds/scene-40.png",
     "fonds/v-193-01-aube.png",
@@ -31,7 +22,7 @@
     "fonds/scene-41-final.png"
   ],
   "qc_a_regenerer": [
-    "fonds/scene-22.png (ON SURVIVANT -> UN SURVIVANT, priorité n°1 salve 4)"
+    "fonds/scene-32.png (JE VIENS DE LA STREET / J'SUIS NÉ POUR BRILLER, priorité n°1 salve 5)"
   ],
   "fenetres_clochettes": [
     [
@@ -315,7 +306,7 @@
       "image": "fonds/scene-22.png",
       "disponible": true,
       "reprise": false,
-      "note": "Un combattant, un survivant (Thomas Sankara & résilience) — à régénérer en salve 4 (ON -> UN)"
+      "note": "Un combattant, un survivant (Thomas Sankara & Camara, contrôlé OK)"
     },
     {
       "i": 24,
@@ -456,7 +447,7 @@
       "affichage_s": 3.0,
       "texte": "J'ai besoin de la justice, j'ai besoin de mon destin",
       "image": "fonds/scene-30.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Justice et destin : héritage Sankara & AES"
     },
@@ -467,7 +458,7 @@
       "affichage_s": 3.0,
       "texte": "Mes mots sont des missiles, mes rimes sont des boucliers",
       "image": "fonds/scene-31.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Mots missiles, rimes boucliers"
     },
@@ -478,9 +469,9 @@
       "affichage_s": 2.7,
       "texte": "Je viens de la street, j'suis né pour briller",
       "image": "fonds/scene-32.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Né pour briller"
+      "note": "Né pour briller — à régénérer en salve 5 (texte de l'ancre repris)"
     },
     {
       "i": 39,
@@ -489,7 +480,7 @@
       "affichage_s": 2.2,
       "texte": "Alors frappe-moi, j'ai tenu, j'ai survécu",
       "image": "fonds/scene-33.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Tenir et survivre quand on veut abandonner"
     },
@@ -500,7 +491,7 @@
       "affichage_s": 3.16,
       "texte": "Je suis le fils du soleil, je suis la lumière qui a vaincu",
       "image": "fonds/scene-34.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Fils du soleil, première lueur de l'aube"
     },
@@ -555,7 +546,7 @@
       "affichage_s": 2.4,
       "texte": "La nuit est longue, les étoiles sont loin",
       "image": "fonds/scene-35.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Pont — la nuit est longue (tentation d'abandonner)"
     },
@@ -566,7 +557,7 @@
       "affichage_s": 2.49,
       "texte": "Mais j'ai la foi, j'ai le son, j'ai les miens",
       "image": "fonds/scene-36.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "La foi, le son, les miens : famille unie"
     },
@@ -577,7 +568,7 @@
       "affichage_s": 2.2,
       "texte": "On tombe, on se relève, on recommence",
       "image": "fonds/scene-37.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "On tombe, on se relève, on recommence (abandonner n'est pas une option)"
     },
@@ -588,7 +579,7 @@
       "affichage_s": 2.95,
       "texte": "On est les rois de l'épreuve, on est la chance",
       "image": "fonds/scene-38.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Rois de l'épreuve : Béhanzin, Bio Guéra, Sankara & famille"
     },
