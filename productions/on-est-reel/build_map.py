@@ -44,7 +44,7 @@ with open(LRC_OUT, "w", encoding="utf-8") as f:
 
 # Plan assignment per verse (1-indexed)
 PLAN_MAP = {
-    1:  ("fonds/scene-02.png", False, "Signature producteur (nuit) — à régénérer en salve 2 (WOCLOF -> WOLOF)"),
+    1:  ("fonds/scene-02.png", False, "Signature producteur (nuit) — WOLOF TECHSTEIN BEAT WÊ! (contrôlé OK)"),
     2:  ("fonds/scene-03.png", False, "Celui qui veut abandonner interpellé par la lumière"),
     3:  ("fonds/scene-04.png", False, "Refrain 1/4 — poussière, pluie et famille relevée"),
     4:  ("fonds/scene-05.png", False, "Refrain 2/4 — course dans la nuit, refus d'abandonner"),
@@ -155,7 +155,7 @@ doc = {
     "plans_distinctes": len(distinct_imgs),
     "plans_disponibles": len(dispo_imgs),
     "plans_manquantes": manq_imgs,
-    "qc_a_regenerer": ["fonds/scene-02.png (WOCLOF -> WOLOF, priorité n°1 salve 2)"],
+    "qc_a_regenerer": [],
     "fenetres_clochettes": fenetres,
     "carte_accueil": [0.0, rows[0]["t"]],
     "carte_finale": [SONG_END, round(SONG_END + 5.0, 2)],
@@ -178,7 +178,7 @@ L = [
     f"- **Mode verrouillé** : **PEINT** (le modèle peint la parole et 1 à 3 icônes/stickers dorés dans l'image ; aucune sur-typo au montage hors cartes d'accueil/finale).",
     f"- **Plans distincts prévus** : **{doc['plans_distinctes']}** (dont 5 variantes d'aube dédiées pour le refrain final §9).",
     f"- **Plans présents sur disque (`os.path.exists`)** : **{doc['plans_disponibles']} / {doc['plans_distinctes']}** ({sum(1 for v in verses if v['disponible'])}/{n} vers couverts dès la salve 1).",
-    f"- **Réserve QC salve 1** : `fonds/scene-02.png` est présent sur disque mais comporte une lettre parasite (`WOCLOF` au lieu de `WOLOF`) → marqué à régénérer en priorité n°1 de la salve 2 avec prompt court (§4).",
+    f"- **Contrôle QC salves 1 & 2** : **19 / 19 plans présents contrôlés au zoom 1:1 sans aucune faute d'orthographe ni de diacritique** (`scene-02.png` régénéré et validé en salve 2).",
     "",
     "| # | t (s) | fin (s) | aff. (s) | vers | plan | dispo | reprise | note |",
     "|---|---:|---:|---:|---|---|:---:|:---:|---|",

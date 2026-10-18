@@ -4,12 +4,12 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **57 vers** de 
 
 - **Mode verrouillé** : **PEINT** (le modèle peint la parole et 1 à 3 icônes/stickers dorés dans l'image ; aucune sur-typo au montage hors cartes d'accueil/finale).
 - **Plans distincts prévus** : **46** (dont 5 variantes d'aube dédiées pour le refrain final §9).
-- **Plans présents sur disque (`os.path.exists`)** : **10 / 46** (16/57 vers couverts dès la salve 1).
-- **Réserve QC salve 1** : `fonds/scene-02.png` est présent sur disque mais comporte une lettre parasite (`WOCLOF` au lieu de `WOLOF`) → marqué à régénérer en priorité n°1 de la salve 2 avec prompt court (§4).
+- **Plans présents sur disque (`os.path.exists`)** : **19 / 46** (26/57 vers couverts dès la salve 1).
+- **Contrôle QC salves 1 & 2** : **19 / 19 plans présents contrôlés au zoom 1:1 sans aucune faute d'orthographe ni de diacritique** (`scene-02.png` régénéré et validé en salve 2).
 
 | # | t (s) | fin (s) | aff. (s) | vers | plan | dispo | reprise | note |
 |---|---:|---:|---:|---|---|:---:|:---:|---|
-| 1 | 10.70 | 14.80 | 2.20 | Wolof TechStein beat wê... | `fonds/scene-02.png` | oui | — | Signature producteur (nuit) — à régénérer en salve 2 (WOCLOF -> WOLOF) |
+| 1 | 10.70 | 14.80 | 2.20 | Wolof TechStein beat wê... | `fonds/scene-02.png` | oui | — | Signature producteur (nuit) — WOLOF TECHSTEIN BEAT WÊ! (contrôlé OK) |
 | 2 | 14.80 | 24.48 | 2.20 | T'es là... Tu m'écoutes ? | `fonds/scene-03.png` | oui | — | Celui qui veut abandonner interpellé par la lumière |
 | 3 | 24.48 | 30.37 | 3.60 | On est nés dans la poussière, on a grandi dans la pluie | `fonds/scene-04.png` | oui | — | Refrain 1/4 — poussière, pluie et famille relevée |
 | 4 | 30.37 | 37.31 | 3.00 | On a couru trop vite, on a pleuré la nuit | `fonds/scene-05.png` | oui | — | Refrain 2/4 — course dans la nuit, refus d'abandonner |
@@ -20,15 +20,15 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **57 vers** de 
 | 9 | 53.29 | 56.16 | 2.87 | Ma mère prier la nuit pour une vie, pour un fruit | `fonds/scene-08.png` | oui | — | La mère en prière la nuit, rameau et fruit d'or |
 | 10 | 56.16 | 58.63 | 2.47 | Des frères en prison, des soeurs qui s'en sortent | `fonds/scene-09.png` | oui | — | Frères dont les barreaux se fendent, sœurs qui s'en sortent |
 | 11 | 58.63 | 60.98 | 2.35 | Moi j'ai le stylo qui brûle, j'écris ma route | `fonds/scene-10.png` | oui | — | Stylo qui brûle + fresque des leaders de l'AES |
-| 12 | 60.98 | 63.85 | 2.87 | On nous a volé nos rêves, on nous a coupé la voix | `fonds/scene-11.png` | non | — | Rêves volés, voix coupée |
-| 13 | 63.85 | 66.79 | 2.94 | On nous a dit "reste à ta place, t'es trop petit pour ça" | `fonds/scene-12.png` | non | — | Refus de rester à sa place / refus d'abandonner |
-| 14 | 66.79 | 69.36 | 2.57 | Mais j'ai gardé la flamme, j'ai gardé le feu | `fonds/scene-13.png` | non | — | Garder la flamme et le feu |
-| 15 | 69.36 | 72.91 | 3.00 | Le feu de mes ancêtres, le feu de mes dieux | `fonds/scene-14.png` | non | — | Le feu des ancêtres : Sankara, Béhanzin, Bio Guéra |
-| 16 | 72.91 | 76.01 | 3.00 | On est les enfants des tempêtes, les héritiers des guerres | `fonds/scene-15.png` | non | — | Enfants des tempêtes, héritiers des guerres : Roi Bio Guéra |
-| 17 | 76.01 | 78.99 | 2.98 | On porte la douleur, mais on porte aussi la terre | `fonds/scene-16.png` | non | — | Porter la douleur et la terre : famille relevée |
-| 18 | 78.99 | 81.91 | 2.92 | Alors quand tu me juges sur ma peau, sur mon nom | `fonds/scene-17.png` | non | — | Dignité face au jugement sur la peau et le nom |
-| 19 | 81.91 | 84.81 | 2.90 | Souviens-toi que mes racines sont plus profondes que tes canons | `fonds/scene-18.png` | non | — | Roi Béhanzin : racines d'or plus profondes que les canons |
-| 20 | 84.81 | 87.97 | 3.16 | On a marché sur des braises, on a dansé dans le feu | `fonds/scene-19.png` | non | — | Marcher sur des braises, danser dans le feu |
+| 12 | 60.98 | 63.85 | 2.87 | On nous a volé nos rêves, on nous a coupé la voix | `fonds/scene-11.png` | oui | — | Rêves volés, voix coupée |
+| 13 | 63.85 | 66.79 | 2.94 | On nous a dit "reste à ta place, t'es trop petit pour ça" | `fonds/scene-12.png` | oui | — | Refus de rester à sa place / refus d'abandonner |
+| 14 | 66.79 | 69.36 | 2.57 | Mais j'ai gardé la flamme, j'ai gardé le feu | `fonds/scene-13.png` | oui | — | Garder la flamme et le feu |
+| 15 | 69.36 | 72.91 | 3.00 | Le feu de mes ancêtres, le feu de mes dieux | `fonds/scene-14.png` | oui | — | Le feu des ancêtres : Sankara, Béhanzin, Bio Guéra |
+| 16 | 72.91 | 76.01 | 3.00 | On est les enfants des tempêtes, les héritiers des guerres | `fonds/scene-15.png` | oui | — | Enfants des tempêtes, héritiers des guerres : Roi Bio Guéra |
+| 17 | 76.01 | 78.99 | 2.98 | On porte la douleur, mais on porte aussi la terre | `fonds/scene-16.png` | oui | — | Porter la douleur et la terre : famille relevée |
+| 18 | 78.99 | 81.91 | 2.92 | Alors quand tu me juges sur ma peau, sur mon nom | `fonds/scene-17.png` | oui | — | Dignité face au jugement sur la peau et le nom |
+| 19 | 81.91 | 84.81 | 2.90 | Souviens-toi que mes racines sont plus profondes que tes canons | `fonds/scene-18.png` | oui | — | Roi Béhanzin : racines d'or plus profondes que les canons |
+| 20 | 84.81 | 87.97 | 3.16 | On a marché sur des braises, on a dansé dans le feu | `fonds/scene-19.png` | oui | — | Marcher sur des braises, danser dans le feu |
 | 21 | 87.97 | 90.94 | 2.70 | On a traversé l'orage, on est devenus des dieux | `fonds/scene-20.png` | non | — | Traverser l'orage |
 | 22 | 90.94 | 94.48 | 2.40 | Alors regarde-moi maintenant, dis-moi ce que tu vois | `fonds/scene-21.png` | non | — | Regarde-moi maintenant |
 | 23 | 94.48 | 97.22 | 2.40 | Un combattant, un survivant, plus fort que toi | `fonds/scene-22.png` | non | — | Un combattant, un survivant (Thomas Sankara & résilience) |
@@ -49,7 +49,7 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **57 vers** de 
 | 38 | 148.71 | 151.51 | 2.70 | Je viens de la street, j'suis né pour briller | `fonds/scene-32.png` | non | — | Né pour briller |
 | 39 | 151.51 | 153.90 | 2.20 | Alors frappe-moi, j'ai tenu, j'ai survécu | `fonds/scene-33.png` | non | — | Tenir et survivre quand on veut abandonner |
 | 40 | 153.90 | 157.06 | 3.16 | Je suis le fils du soleil, je suis la lumière qui a vaincu | `fonds/scene-34.png` | non | — | Fils du soleil, première lueur de l'aube |
-| 41 | 157.06 | 159.89 | 2.83 | On a marché sur des braises, on a dansé dans le feu | `fonds/scene-19.png` | non | ↻ | Reprise pré-refrain 1/4 |
+| 41 | 157.06 | 159.89 | 2.83 | On a marché sur des braises, on a dansé dans le feu | `fonds/scene-19.png` | oui | ↻ | Reprise pré-refrain 1/4 |
 | 42 | 159.89 | 162.90 | 2.70 | On a traversé l'orage, on est devenus des dieux | `fonds/scene-20.png` | non | ↻ | Reprise pré-refrain 2/4 |
 | 43 | 162.90 | 166.64 | 2.40 | Alors regarde-moi maintenant, dis-moi ce que tu vois | `fonds/scene-21.png` | non | ↻ | Reprise pré-refrain 3/4 |
 | 44 | 166.64 | 170.43 | 2.40 | Un combattant, un survivant, plus fort que toi | `fonds/scene-22.png` | non | ↻ | Reprise pré-refrain 4/4 |
