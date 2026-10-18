@@ -31,11 +31,11 @@ for k, r in enumerate(rows):
     disp = min(fin - r["t"], max(2.2, 0.30 * mots))          # §5.6, PROVISOIRE
     key = re.sub(r"\s+", " ", r["texte"].lower())
     reprise = seen.setdefault(key, k + 1)
-    img = None
+    img = "productions/on-est-reel/fonds/scene-01-ancre.png" if k == 0 else f"productions/on-est-reel/fonds/v-{k+1:02d}.png"
     plans.append({
         "i": k + 1, "t": round(r["t"], 2), "fin": round(fin, 2),
         "affichage_s": round(disp, 2), "texte": r["texte"],
-        "image": img, "disponible": False, "reprise": None if reprise == k + 1 else reprise,
+        "image": img, "disponible": os.path.exists(img), "reprise": None if reprise == k + 1 else reprise,
     })
 
 # Fenêtres clochettes candidates (§6) : [fin d'affichage + 0,15 s → début du vers suivant], seuil 4,0 s (MODE PEINT)

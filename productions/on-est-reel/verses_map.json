@@ -19,8 +19,8 @@
       "fin": 14.8,
       "affichage_s": 2.2,
       "texte": "Wolof TechStein beat wê...",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/scene-01-ancre.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -29,8 +29,8 @@
       "fin": 24.48,
       "affichage_s": 2.2,
       "texte": "T'es là... Tu m'écoutes ?",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/v-02.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -39,8 +39,8 @@
       "fin": 30.37,
       "affichage_s": 3.6,
       "texte": "On est nés dans la poussière, on a grandi dans la pluie",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/v-03.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -49,8 +49,8 @@
       "fin": 37.31,
       "affichage_s": 3.0,
       "texte": "On a couru trop vite, on a pleuré la nuit",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/v-04.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -59,8 +59,8 @@
       "fin": 42.37,
       "affichage_s": 3.3,
       "texte": "On a serré les poings, on a crié sous le ciel",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/v-05.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -69,8 +69,8 @@
       "fin": 48.96,
       "affichage_s": 3.3,
       "texte": "Maintenant on se relève, on est plus forts, on est réels",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/v-06.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -79,8 +79,8 @@
       "fin": 51.07,
       "affichage_s": 2.11,
       "texte": "Wolof TechStein beat wê!",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/v-07.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -89,8 +89,8 @@
       "fin": 53.29,
       "affichage_s": 2.22,
       "texte": "J'ai vu mon père se briser sans faire de bruit",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/v-08.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -99,8 +99,8 @@
       "fin": 56.16,
       "affichage_s": 2.87,
       "texte": "Ma mère prier la nuit pour une vie, pour un fruit",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/v-09.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -109,8 +109,8 @@
       "fin": 58.63,
       "affichage_s": 2.47,
       "texte": "Des frères en prison, des soeurs qui s'en sortent",
-      "image": null,
-      "disponible": false,
+      "image": "productions/on-est-reel/fonds/v-10.png",
+      "disponible": true,
       "reprise": null
     },
     {
@@ -119,7 +119,7 @@
       "fin": 60.98,
       "affichage_s": 2.35,
       "texte": "Moi j'ai le stylo qui brûle, j'écris ma route",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-11.png",
       "disponible": false,
       "reprise": null
     },
@@ -129,7 +129,7 @@
       "fin": 63.85,
       "affichage_s": 2.87,
       "texte": "On nous a volé nos rêves, on nous a coupé la voix",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-12.png",
       "disponible": false,
       "reprise": null
     },
@@ -139,7 +139,7 @@
       "fin": 66.79,
       "affichage_s": 2.94,
       "texte": "On nous a dit \"reste à ta place, t'es trop petit pour ça\"",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-13.png",
       "disponible": false,
       "reprise": null
     },
@@ -149,7 +149,7 @@
       "fin": 69.36,
       "affichage_s": 2.57,
       "texte": "Mais j'ai gardé la flamme, j'ai gardé le feu",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-14.png",
       "disponible": false,
       "reprise": null
     },
@@ -159,7 +159,7 @@
       "fin": 72.91,
       "affichage_s": 3.0,
       "texte": "Le feu de mes ancêtres, le feu de mes dieux",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-15.png",
       "disponible": false,
       "reprise": null
     },
@@ -169,7 +169,7 @@
       "fin": 76.01,
       "affichage_s": 3.0,
       "texte": "On est les enfants des tempêtes, les héritiers des guerres",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-16.png",
       "disponible": false,
       "reprise": null
     },
@@ -179,7 +179,7 @@
       "fin": 78.99,
       "affichage_s": 2.98,
       "texte": "On porte la douleur, mais on porte aussi la terre",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-17.png",
       "disponible": false,
       "reprise": null
     },
@@ -189,7 +189,7 @@
       "fin": 81.91,
       "affichage_s": 2.92,
       "texte": "Alors quand tu me juges sur ma peau, sur mon nom",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-18.png",
       "disponible": false,
       "reprise": null
     },
@@ -199,7 +199,7 @@
       "fin": 84.81,
       "affichage_s": 2.9,
       "texte": "Souviens-toi que mes racines sont plus profondes que tes canons",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-19.png",
       "disponible": false,
       "reprise": null
     },
@@ -209,7 +209,7 @@
       "fin": 87.97,
       "affichage_s": 3.16,
       "texte": "On a marché sur des braises, on a dansé dans le feu",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-20.png",
       "disponible": false,
       "reprise": null
     },
@@ -219,7 +219,7 @@
       "fin": 90.94,
       "affichage_s": 2.7,
       "texte": "On a traversé l'orage, on est devenus des dieux",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-21.png",
       "disponible": false,
       "reprise": null
     },
@@ -229,7 +229,7 @@
       "fin": 94.48,
       "affichage_s": 2.4,
       "texte": "Alors regarde-moi maintenant, dis-moi ce que tu vois",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-22.png",
       "disponible": false,
       "reprise": null
     },
@@ -239,7 +239,7 @@
       "fin": 97.22,
       "affichage_s": 2.4,
       "texte": "Un combattant, un survivant, plus fort que toi",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-23.png",
       "disponible": false,
       "reprise": null
     },
@@ -249,7 +249,7 @@
       "fin": 102.21,
       "affichage_s": 3.6,
       "texte": "On est nés dans la poussière, on a grandi dans la pluie",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-24.png",
       "disponible": false,
       "reprise": 3
     },
@@ -259,7 +259,7 @@
       "fin": 109.14,
       "affichage_s": 3.0,
       "texte": "On a couru trop vite, on a pleuré la nuit",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-25.png",
       "disponible": false,
       "reprise": 4
     },
@@ -269,7 +269,7 @@
       "fin": 114.27,
       "affichage_s": 3.3,
       "texte": "On a serré les poings, on a crié sous le ciel",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-26.png",
       "disponible": false,
       "reprise": 5
     },
@@ -279,7 +279,7 @@
       "fin": 120.73,
       "affichage_s": 3.3,
       "texte": "Maintenant on se relève, on est plus forts, on est réels",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-27.png",
       "disponible": false,
       "reprise": 6
     },
@@ -289,7 +289,7 @@
       "fin": 122.96,
       "affichage_s": 2.2,
       "texte": "Wolof TechStein beat wê!",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-28.png",
       "disponible": false,
       "reprise": 7
     },
@@ -299,7 +299,7 @@
       "fin": 125.18,
       "affichage_s": 2.22,
       "texte": "Ils veulent nous effacer, ils veulent nous faire plier",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-29.png",
       "disponible": false,
       "reprise": null
     },
@@ -309,7 +309,7 @@
       "fin": 128.11,
       "affichage_s": 2.93,
       "texte": "Mais nos cœurs sont des volcans, nos âmes sont des épées",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-30.png",
       "disponible": false,
       "reprise": null
     },
@@ -319,7 +319,7 @@
       "fin": 130.48,
       "affichage_s": 2.37,
       "texte": "J'ai vu des traîtres vendre leur sang pour du blé",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-31.png",
       "disponible": false,
       "reprise": null
     },
@@ -329,7 +329,7 @@
       "fin": 133.57,
       "affichage_s": 3.09,
       "texte": "Mais j'ai vu des frères se lever pour se battre, pour danser",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-32.png",
       "disponible": false,
       "reprise": null
     },
@@ -339,7 +339,7 @@
       "fin": 136.86,
       "affichage_s": 3.29,
       "texte": "On est la nouvelle génération, on a la rage en héritage",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-33.png",
       "disponible": false,
       "reprise": null
     },
@@ -349,7 +349,7 @@
       "fin": 139.54,
       "affichage_s": 2.4,
       "texte": "Le blues des banlieues, la force des villages",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-34.png",
       "disponible": false,
       "reprise": null
     },
@@ -359,7 +359,7 @@
       "fin": 142.48,
       "affichage_s": 2.94,
       "texte": "J'ai pas besoin de ton amour, j'ai pas besoin de ta main",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-35.png",
       "disponible": false,
       "reprise": null
     },
@@ -369,7 +369,7 @@
       "fin": 145.68,
       "affichage_s": 3.0,
       "texte": "J'ai besoin de la justice, j'ai besoin de mon destin",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-36.png",
       "disponible": false,
       "reprise": null
     },
@@ -379,7 +379,7 @@
       "fin": 148.71,
       "affichage_s": 3.0,
       "texte": "Mes mots sont des missiles, mes rimes sont des boucliers",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-37.png",
       "disponible": false,
       "reprise": null
     },
@@ -389,7 +389,7 @@
       "fin": 151.51,
       "affichage_s": 2.7,
       "texte": "Je viens de la street, j'suis né pour briller",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-38.png",
       "disponible": false,
       "reprise": null
     },
@@ -399,7 +399,7 @@
       "fin": 153.9,
       "affichage_s": 2.2,
       "texte": "Alors frappe-moi, j'ai tenu, j'ai survécu",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-39.png",
       "disponible": false,
       "reprise": null
     },
@@ -409,7 +409,7 @@
       "fin": 157.06,
       "affichage_s": 3.16,
       "texte": "Je suis le fils du soleil, je suis la lumière qui a vaincu",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-40.png",
       "disponible": false,
       "reprise": null
     },
@@ -419,7 +419,7 @@
       "fin": 159.89,
       "affichage_s": 2.83,
       "texte": "On a marché sur des braises, on a dansé dans le feu",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-41.png",
       "disponible": false,
       "reprise": 20
     },
@@ -429,7 +429,7 @@
       "fin": 162.9,
       "affichage_s": 2.7,
       "texte": "On a traversé l'orage, on est devenus des dieux",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-42.png",
       "disponible": false,
       "reprise": 21
     },
@@ -439,7 +439,7 @@
       "fin": 166.64,
       "affichage_s": 2.4,
       "texte": "Alors regarde-moi maintenant, dis-moi ce que tu vois",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-43.png",
       "disponible": false,
       "reprise": 22
     },
@@ -449,7 +449,7 @@
       "fin": 170.43,
       "affichage_s": 2.4,
       "texte": "Un combattant, un survivant, plus fort que toi",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-44.png",
       "disponible": false,
       "reprise": 23
     },
@@ -459,7 +459,7 @@
       "fin": 173.36,
       "affichage_s": 2.4,
       "texte": "La nuit est longue, les étoiles sont loin",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-45.png",
       "disponible": false,
       "reprise": null
     },
@@ -469,7 +469,7 @@
       "fin": 175.85,
       "affichage_s": 2.49,
       "texte": "Mais j'ai la foi, j'ai le son, j'ai les miens",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-46.png",
       "disponible": false,
       "reprise": null
     },
@@ -479,7 +479,7 @@
       "fin": 178.86,
       "affichage_s": 2.2,
       "texte": "On tombe, on se relève, on recommence",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-47.png",
       "disponible": false,
       "reprise": null
     },
@@ -489,7 +489,7 @@
       "fin": 181.81,
       "affichage_s": 2.95,
       "texte": "On est les rois de l'épreuve, on est la chance",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-48.png",
       "disponible": false,
       "reprise": null
     },
@@ -499,7 +499,7 @@
       "fin": 184.5,
       "affichage_s": 2.4,
       "texte": "Le passé est passé, les chaînes sont brisées",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-49.png",
       "disponible": false,
       "reprise": null
     },
@@ -509,7 +509,7 @@
       "fin": 193.01,
       "affichage_s": 2.7,
       "texte": "Aujourd'hui je suis debout, je suis né pour chanter",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-50.png",
       "disponible": false,
       "reprise": null
     },
@@ -519,7 +519,7 @@
       "fin": 198.28,
       "affichage_s": 3.6,
       "texte": "On est nés dans la poussière, on a grandi dans la pluie",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-51.png",
       "disponible": false,
       "reprise": 3
     },
@@ -529,7 +529,7 @@
       "fin": 205.01,
       "affichage_s": 3.0,
       "texte": "On a couru trop vite, on a pleuré la nuit",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-52.png",
       "disponible": false,
       "reprise": 4
     },
@@ -539,7 +539,7 @@
       "fin": 210.37,
       "affichage_s": 3.3,
       "texte": "On a serré les poings, on a crié sous le ciel",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-53.png",
       "disponible": false,
       "reprise": 5
     },
@@ -549,7 +549,7 @@
       "fin": 216.73,
       "affichage_s": 3.3,
       "texte": "Maintenant on se relève, on est plus forts, on est réels",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-54.png",
       "disponible": false,
       "reprise": 6
     },
@@ -559,7 +559,7 @@
       "fin": 222.76,
       "affichage_s": 2.2,
       "texte": "Wolof TechStein beat wê!",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-55.png",
       "disponible": false,
       "reprise": 7
     },
@@ -569,7 +569,7 @@
       "fin": 232.32,
       "affichage_s": 2.2,
       "texte": "Wolof TechStein beat wê...",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-56.png",
       "disponible": false,
       "reprise": 1
     },
@@ -579,14 +579,14 @@
       "fin": 245.0,
       "affichage_s": 2.2,
       "texte": "(On est réels... On est debout...)",
-      "image": null,
+      "image": "productions/on-est-reel/fonds/v-57.png",
       "disponible": false,
       "reprise": null
     }
   ],
   "plans_distinctes": 42,
-  "plans_disponibles": 0,
-  "plans_manquantes": 57,
+  "plans_disponibles": 10,
+  "plans_manquantes": 47,
   "fenetres_clochettes": [
     {
       "apres_vers": 2,
