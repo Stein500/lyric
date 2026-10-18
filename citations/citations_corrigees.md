@@ -743,3 +743,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **259.** `LA MAIN QUI AIDE` — le pain offert à l'enfant à la porte dorée — « On oublie un joli visage ; on se souvient d'une main qui aide. »
 
 **260.** `TOUJOURS` — le bal : son sourire éclipse les diamants — « Belle pour les yeux, un soir. Belle pour le cœur, toujours. »
+
+## SAISON 2 — Série ART XXI (261 → 270) — « ELLE BÂTIT EN SILENCE »
+*La femme qui construit — foyer, foi, projets — sans bruit ni validation ; le résultat parle à sa place. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10 (mapping réel des images).*
+
+**261.** `BÂTIS EN SILENCE` — brique d'or posée à l'aube, la maison en chantier — « Bâtis en silence : le résultat fera le bruit. »
+
+**262.** `LA GRAINE CACHÉE` — semis dans la terre, arbre géant derrière — « La graine pousse cachée, puis l'arbre se voit de loin. »
+
+**263.** `LE FOYER PAISIBLE` — maison lumineuse, palais glacé au loin — « Un foyer paisible vaut plus qu'un palais agité. »
+
+**264.** `NE BRÛLE PAS DEMAIN` — métier à tisser, fil d'or patient — « Ne brûle pas demain par impatience : les belles choses prennent du temps. »
+
+**265.** `BÂTI AVEC FOI` — prière devant le plan doré de la maison — « Ce que tu bâtis avec foi, personne ne peut le démolir. »
+
+**266.** `LES FONDATIONS PARLENT` — pierre d'assise d'or, racines lumineuses — « Creuse sans bruit : les fondations parlent à ta place. »
+
+**267.** `EN DEDANS, EN DEHORS` — lampe de cuivre astiquée jusqu'à la lumière — « Ce que tu arranges en dedans se voit en dehors. »
+
+**268.** `SILENCE ET PRIÈRES` — gratitude devant la maison achevée au soleil levant — « Un jour on te demandera comment : souris, c'était du silence et des prières. »
+
+**269.** `SANS M'EXCUSER` — l'ouvrière fière devant l'œuvre terminée — « Construis une vie dont tu n'auras pas besoin de t'excuser. »
+
+**270.** `RACINES DISCRÈTES` — arbre doré, racines vues en coupe — « La terre ne montre pas ses racines : tes progrès peuvent rester discrets. »
