@@ -46,16 +46,15 @@ GIT_INDEX_FILE="$IDX" git ls-tree -r "$PROJECT_TREE" > /tmp/dsky-entries.tsv
 N_LOC=$(wc -l < /tmp/dsky-entries.tsv)
 echo "   $N_LOC fichiers dans le projet."
 
-api() { # api <méthode> <url> [json] → corps 2xx, sinon 3 essais puis abort
+api() { # api <méthode> <url> [json | @fichier.json] → corps 2xx, sinon 3 essais puis abort
   local m="$1" u="$2" d="$3" try out code body
+  local dargs=()
+  if [ -n "$d" ]; then
+    if [ "${d#@}" != "$d" ]; then dargs=(--data-binary "@${d#@}"); else dargs=(--data "$d"); fi
+  fi
   for try in 1 2 3; do
-    if [ -n "$d" ]; then
-      out=$(curl -s --retry 2 -X "$m" -H "$AUTH" -H "Accept: application/vnd.github+json" \
-        -H "Content-Type: application/json" --data "$d" -w "\n%{http_code}" "$u")
-    else
-      out=$(curl -s --retry 2 -X "$m" -H "$AUTH" -H "Accept: application/vnd.github+json" \
-        -w "\n%{http_code}" "$u")
-    fi
+    out=$(curl -s --retry 2 -X "$m" -H "$AUTH" -H "Accept: application/vnd.github+json" \
+      -H "Content-Type: application/json" "${dargs[@]}" -w "\n%{http_code}" "$u")
     code=$(printf '%s' "$out" | tail -n1)
     body=$(printf '%s' "$out" | sed '$d')
     case "$code" in 2*) printf '%s' "$body"; return 0 ;; esac
@@ -85,8 +84,12 @@ while read -r mode type sha path; do
   [ "$type" = "blob" ] || continue
   if grep -q "^$sha $path\$" /tmp/dsky-remote.tsv; then continue; fi
   if cut -d' ' -f1 /tmp/dsky-remote.tsv | grep -q "^$sha\$"; then continue; fi
-  b64=$(base64 -w0 "$path")
-  RSHA=$(api POST "$API/git/blobs" "{\"content\":\"$b64\",\"encoding\":\"base64\"}" \
+  python3 -c "
+import base64, json
+data = open('$path','rb').read()
+open('/tmp/dsky-blob.json','w').write(json.dumps({'content': base64.b64encode(data).decode(), 'encoding': 'base64'}))
+"
+  RSHA=$(api POST "$API/git/blobs" "@/tmp/dsky-blob.json" \
     | python3 -c "import json,sys; print(json.load(sys.stdin)['sha'])")
   if [ "$RSHA" != "$sha" ]; then echo "   !! sha différent pour $path ($RSHA ≠ $sha)"; exit 1; fi
   new_blobs=$((new_blobs+1))

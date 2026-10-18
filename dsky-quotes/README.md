@@ -278,3 +278,13 @@ Textes intégraux : `citations/citations_corrigees.md` (sections Série ART, ART
 ### 📱 Version TIKTOK (`saison-02/tiktok/` — moteur `compose_art_tt.py`)
 Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CTA terminent à ~1630 px,
 **290 px libres en bas** pour le pseudo / la légende / le titre musical de TikTok — rien n'est masqué.
+| 241 | La méchante de l'histoire | robe rouge au palais |
+| 242 | Donne-la quand même | route de l'aube |
+| 243 | Le poids du non | balance plume / cœur d'or |
+| 244 | Elle se lève | voile d'ivoire |
+| 245 | Ne baisse pas les yeux | crépuscule du palais |
+| 246 | Leur arrangement | fils coupés |
+| 247 | La fin de leurs avantages | porte dorée |
+| 248 | Celle qui refuse | théâtre, couronne |
+| 249 | La distance reste | marches au soleil levant |
+| 250 | Dans la tienne, libre | miroir couronné |
