@@ -10,18 +10,8 @@
   "duree_decodee_s": 244.99,
   "nb_vers": 57,
   "plans_distinctes": 46,
-  "plans_disponibles": 19,
+  "plans_disponibles": 29,
   "plans_manquantes": [
-    "fonds/scene-20.png",
-    "fonds/scene-21.png",
-    "fonds/scene-22.png",
-    "fonds/scene-23.png",
-    "fonds/scene-24.png",
-    "fonds/scene-25.png",
-    "fonds/scene-26.png",
-    "fonds/scene-27.png",
-    "fonds/scene-28.png",
-    "fonds/scene-29.png",
     "fonds/scene-30.png",
     "fonds/scene-31.png",
     "fonds/scene-32.png",
@@ -40,7 +30,9 @@
     "fonds/v-216-73-aube.png",
     "fonds/scene-41-final.png"
   ],
-  "qc_a_regenerer": [],
+  "qc_a_regenerer": [
+    "fonds/scene-22.png (ON SURVIVANT -> UN SURVIVANT, priorité n°1 salve 4)"
+  ],
   "fenetres_clochettes": [
     [
       17.15,
@@ -299,7 +291,7 @@
       "affichage_s": 2.7,
       "texte": "On a traversé l'orage, on est devenus des dieux",
       "image": "fonds/scene-20.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Traverser l'orage"
     },
@@ -310,7 +302,7 @@
       "affichage_s": 2.4,
       "texte": "Alors regarde-moi maintenant, dis-moi ce que tu vois",
       "image": "fonds/scene-21.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Regarde-moi maintenant"
     },
@@ -321,9 +313,9 @@
       "affichage_s": 2.4,
       "texte": "Un combattant, un survivant, plus fort que toi",
       "image": "fonds/scene-22.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Un combattant, un survivant (Thomas Sankara & résilience)"
+      "note": "Un combattant, un survivant (Thomas Sankara & résilience) — à régénérer en salve 4 (ON -> UN)"
     },
     {
       "i": 24,
@@ -387,7 +379,7 @@
       "affichage_s": 2.22,
       "texte": "Ils veulent nous effacer, ils veulent nous faire plier",
       "image": "fonds/scene-23.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Refus d'être effacés ou de plier"
     },
@@ -398,7 +390,7 @@
       "affichage_s": 2.93,
       "texte": "Mais nos cœurs sont des volcans, nos âmes sont des épées",
       "image": "fonds/scene-24.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Cœurs volcans, âmes épées"
     },
@@ -409,7 +401,7 @@
       "affichage_s": 2.37,
       "texte": "J'ai vu des traîtres vendre leur sang pour du blé",
       "image": "fonds/scene-25.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Rupture avec la trahison"
     },
@@ -420,7 +412,7 @@
       "affichage_s": 3.09,
       "texte": "Mais j'ai vu des frères se lever pour se battre, pour danser",
       "image": "fonds/scene-26.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Frères levés pour se battre et danser"
     },
@@ -431,7 +423,7 @@
       "affichage_s": 3.29,
       "texte": "On est la nouvelle génération, on a la rage en héritage",
       "image": "fonds/scene-27.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Nouvelle génération & présidents de l'AES (sans drapeau)"
     },
@@ -442,7 +434,7 @@
       "affichage_s": 2.4,
       "texte": "Le blues des banlieues, la force des villages",
       "image": "fonds/scene-28.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Blues des banlieues, force des villages : familles relevées"
     },
@@ -453,7 +445,7 @@
       "affichage_s": 2.94,
       "texte": "J'ai pas besoin de ton amour, j'ai pas besoin de ta main",
       "image": "fonds/scene-29.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Souveraineté : ni aumône ni tutelle"
     },
@@ -530,7 +522,7 @@
       "affichage_s": 2.7,
       "texte": "On a traversé l'orage, on est devenus des dieux",
       "image": "fonds/scene-20.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Reprise pré-refrain 2/4"
     },
@@ -541,7 +533,7 @@
       "affichage_s": 2.4,
       "texte": "Alors regarde-moi maintenant, dis-moi ce que tu vois",
       "image": "fonds/scene-21.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Reprise pré-refrain 3/4"
     },
@@ -552,7 +544,7 @@
       "affichage_s": 2.4,
       "texte": "Un combattant, un survivant, plus fort que toi",
       "image": "fonds/scene-22.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Reprise pré-refrain 4/4"
     },
