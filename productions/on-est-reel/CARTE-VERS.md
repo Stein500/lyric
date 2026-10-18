@@ -4,8 +4,8 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **57 vers** de 
 
 - **Mode verrouillé** : **PEINT** (le modèle peint la parole et 1 à 3 icônes/stickers dorés dans l'image ; aucune sur-typo au montage hors cartes d'accueil/finale).
 - **Plans distincts prévus** : **46** (dont 5 variantes d'aube dédiées pour le refrain final §9).
-- **Plans présents sur disque (`os.path.exists`)** : **38 / 46** (48/57 vers couverts dès la salve 1).
-- **Contrôle QC salves 1 à 4** : **37 / 38 plans présents validés au zoom 1:1 sans faute** (`scene-22.png` corrigé et validé) ; `fonds/scene-32.png` est programmé en priorité n°1 de la salve 5 finale avec prompt court (§4).
+- **Plans présents sur disque (`os.path.exists`)** : **41 / 46** (51/57 vers couverts dès la salve 1).
+- **Contrôle QC salves 1 à 5** : **41 / 41 plans présents validés au zoom 1:1 sans aucune faute d'orthographe** ; portraits des 3 présidents de l'AES (Assimi Goïta, Ibrahim Traoré, Abdourahamane Tiani) régénérés d'après leurs photos officielles.
 
 | # | t (s) | fin (s) | aff. (s) | vers | plan | dispo | reprise | note |
 |---|---:|---:|---:|---|---|:---:|:---:|---|
@@ -46,7 +46,7 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **57 vers** de 
 | 35 | 139.54 | 142.48 | 2.94 | J'ai pas besoin de ton amour, j'ai pas besoin de ta main | `fonds/scene-29.png` | oui | — | Souveraineté : ni aumône ni tutelle |
 | 36 | 142.48 | 145.68 | 3.00 | J'ai besoin de la justice, j'ai besoin de mon destin | `fonds/scene-30.png` | oui | — | Justice et destin : héritage Sankara & AES |
 | 37 | 145.68 | 148.71 | 3.00 | Mes mots sont des missiles, mes rimes sont des boucliers | `fonds/scene-31.png` | oui | — | Mots missiles, rimes boucliers |
-| 38 | 148.71 | 151.51 | 2.70 | Je viens de la street, j'suis né pour briller | `fonds/scene-32.png` | oui | — | Né pour briller — à régénérer en salve 5 (texte de l'ancre repris) |
+| 38 | 148.71 | 151.51 | 2.70 | Je viens de la street, j'suis né pour briller | `fonds/scene-32.png` | oui | — | Né pour briller (contrôlé OK) |
 | 39 | 151.51 | 153.90 | 2.20 | Alors frappe-moi, j'ai tenu, j'ai survécu | `fonds/scene-33.png` | oui | — | Tenir et survivre quand on veut abandonner |
 | 40 | 153.90 | 157.06 | 3.16 | Je suis le fils du soleil, je suis la lumière qui a vaincu | `fonds/scene-34.png` | oui | — | Fils du soleil, première lueur de l'aube |
 | 41 | 157.06 | 159.89 | 2.83 | On a marché sur des braises, on a dansé dans le feu | `fonds/scene-19.png` | oui | ↻ | Reprise pré-refrain 1/4 |
@@ -57,15 +57,15 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **57 vers** de 
 | 46 | 173.36 | 175.85 | 2.49 | Mais j'ai la foi, j'ai le son, j'ai les miens | `fonds/scene-36.png` | oui | — | La foi, le son, les miens : famille unie |
 | 47 | 175.85 | 178.86 | 2.20 | On tombe, on se relève, on recommence | `fonds/scene-37.png` | oui | — | On tombe, on se relève, on recommence (abandonner n'est pas une option) |
 | 48 | 178.86 | 181.81 | 2.95 | On est les rois de l'épreuve, on est la chance | `fonds/scene-38.png` | oui | — | Rois de l'épreuve : Béhanzin, Bio Guéra, Sankara & famille |
-| 49 | 181.81 | 184.50 | 2.40 | Le passé est passé, les chaînes sont brisées | `fonds/scene-39.png` | non | — | Chaînes brisées dans la brume d'aube |
-| 50 | 184.50 | 193.01 | 2.70 | Aujourd'hui je suis debout, je suis né pour chanter | `fonds/scene-40.png` | non | — | Debout à l'aube, né pour chanter |
+| 49 | 181.81 | 184.50 | 2.40 | Le passé est passé, les chaînes sont brisées | `fonds/scene-39.png` | oui | — | Chaînes brisées dans la brume d'aube |
+| 50 | 184.50 | 193.01 | 2.70 | Aujourd'hui je suis debout, je suis né pour chanter | `fonds/scene-40.png` | oui | — | Debout à l'aube, né pour chanter |
 | 51 | 193.01 | 198.28 | 3.60 | On est nés dans la poussière, on a grandi dans la pluie | `fonds/v-193-01-aube.png` | non | ↻ | Refrain final 1/4 — variante AUBE dédiée (§9) |
 | 52 | 198.28 | 205.01 | 3.00 | On a couru trop vite, on a pleuré la nuit | `fonds/v-198-28-aube.png` | non | ↻ | Refrain final 2/4 — variante AUBE dédiée (§9) |
 | 53 | 205.01 | 210.37 | 3.30 | On a serré les poings, on a crié sous le ciel | `fonds/v-205-01-aube.png` | non | ↻ | Refrain final 3/4 — variante AUBE dédiée (§9) |
 | 54 | 210.37 | 216.73 | 3.30 | Maintenant on se relève, on est plus forts, on est réels | `fonds/v-210-37-aube.png` | non | ↻ | Refrain final 4/4 — variante AUBE dédiée (§9) |
 | 55 | 216.73 | 222.76 | 2.20 | Wolof TechStein beat wê! | `fonds/v-216-73-aube.png` | non | ↻ | Signature finale — variante AUBE dédiée (§9) |
 | 56 | 222.76 | 232.32 | 2.20 | Wolof TechStein beat wê... | `fonds/v-216-73-aube.png` | non | ↻ | Écho signature finale — variante AUBE dédiée (§9) |
-| 57 | 232.32 | 244.99 | 2.20 | (On est réels... On est debout...) | `fonds/scene-41-final.png` | non | — | Plan final plein soleil levant : famille relevée & héros |
+| 57 | 232.32 | 244.99 | 2.20 | (On est réels... On est debout...) | `fonds/scene-41-final.png` | oui | — | Plan final plein soleil levant : famille relevée & héros |
 
 ## Fenêtres de clochette éligibles (MODE PEINT, seuil ≥ 4,00 s de temps libre après affichage + 0,15 s) : 4
 

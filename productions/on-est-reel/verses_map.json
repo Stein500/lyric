@@ -10,20 +10,15 @@
   "duree_decodee_s": 244.99,
   "nb_vers": 57,
   "plans_distinctes": 46,
-  "plans_disponibles": 38,
+  "plans_disponibles": 41,
   "plans_manquantes": [
-    "fonds/scene-39.png",
-    "fonds/scene-40.png",
     "fonds/v-193-01-aube.png",
     "fonds/v-198-28-aube.png",
     "fonds/v-205-01-aube.png",
     "fonds/v-210-37-aube.png",
-    "fonds/v-216-73-aube.png",
-    "fonds/scene-41-final.png"
+    "fonds/v-216-73-aube.png"
   ],
-  "qc_a_regenerer": [
-    "fonds/scene-32.png (JE VIENS DE LA STREET / J'SUIS NÉ POUR BRILLER, priorité n°1 salve 5)"
-  ],
+  "qc_a_regenerer": [],
   "fenetres_clochettes": [
     [
       17.15,
@@ -471,7 +466,7 @@
       "image": "fonds/scene-32.png",
       "disponible": true,
       "reprise": false,
-      "note": "Né pour briller — à régénérer en salve 5 (texte de l'ancre repris)"
+      "note": "Né pour briller (contrôlé OK)"
     },
     {
       "i": 39,
@@ -590,7 +585,7 @@
       "affichage_s": 2.4,
       "texte": "Le passé est passé, les chaînes sont brisées",
       "image": "fonds/scene-39.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Chaînes brisées dans la brume d'aube"
     },
@@ -601,7 +596,7 @@
       "affichage_s": 2.7,
       "texte": "Aujourd'hui je suis debout, je suis né pour chanter",
       "image": "fonds/scene-40.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Debout à l'aube, né pour chanter"
     },
@@ -678,7 +673,7 @@
       "affichage_s": 2.2,
       "texte": "(On est réels... On est debout...)",
       "image": "fonds/scene-41-final.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Plan final plein soleil levant : famille relevée & héros"
     }
