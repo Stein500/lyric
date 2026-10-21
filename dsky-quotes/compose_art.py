@@ -52,6 +52,8 @@ ART = {  # num -> style d'accent
     266: "MINIMAL", 267: "AFRO", 268: "LUXE", 269: "MINIMAL", 270: "AFRO",
     271: "LUXE", 272: "MINIMAL", 273: "AFRO", 274: "LUXE", 275: "MINIMAL",
     276: "AFRO", 277: "LUXE", 278: "MINIMAL", 279: "AFRO", 280: "LUXE",
+    281: "LUXE", 282: "MINIMAL", 283: "AFRO", 284: "LUXE", 285: "MINIMAL",
+    286: "AFRO", 287: "LUXE", 288: "MINIMAL", 289: "LUXE", 290: "AFRO",
 }
 
 def brand(num):
