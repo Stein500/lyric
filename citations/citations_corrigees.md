@@ -789,3 +789,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **279.** `LES VRAIS AMIS` — fleurs et fruits au chevet — « On découvre ses vrais amis au fond du lit de la maladie. »
 
 **280.** `LE DERNIER MOT` — couverture en manteau, porte ouverte sur l'or — « Tu sortiras de cela plus forte : la douleur ne garde pas le dernier mot. »
+
+## SAISON 2 — Série ART XXIII (281 → 290) — « TA VALEUR NE SE NÉGOCIE PAS »
+*Dignité et estime de soi au féminin : ne jamais se brader. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10 (mapping réel des images).*
+
+**281.** `CŒUR DE REINE` — halo doré sur une vie simple — « Un cœur de reine dans une vie simple : le monde finit par s'incliner. »
+
+**282.** `NÉE AVEC TOI` — couronne d'or sous vitrine de musée — « Ta valeur n'attend pas l'avis des autres : elle est née avec toi. »
+
+**283.** `UN NON COMPLET` — paume levée, galerie dorée — « Dis non sans t'excuser : ton non a le droit d'être complet. »
+
+**284.** `LE VRAI PRIX` — étiquette arrachée du poignet — « Ceux qui baissent ton prix sont rarement capables de le payer. »
+
+**285.** `NE BRADE JAMAIS` — la bijouterie qu'on referme à l'aube — « Ne brade jamais ton or pour plaire aux foules. »
+
+**286.** `SILENCE D'OR` — doigt sur les lèvres, feuilles d'or flottantes — « Ton silence vaut de l'or : ne le vends pas à ceux qui n'écoutent pas. »
+
+**287.** `MAISON ENTIÈRE` — plaid, thé, douce solitude choisie — « Seule, tu es déjà une maison entière. »
+
+**288.** `PAS TROP CHÈRE` — diadème derrière la barrière de velours — « Tu n'es pas trop chère : c'est eux qui n'ont pas les moyens. »
+
+**289.** `CHOISIS-TOI` — la clé dorée choisie au levant — « Choisis-toi chaque matin : le reste te choisira en retour. »
+
+**290.** `COMMENCE HAUT` — couronne posée devant le miroir — « On te traitera comme tu te traites : commence haut. »
