@@ -328,3 +328,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 288 | Pas trop chère | diadème, barrière |
 | 289 | Choisis-toi | clé dorée au levant |
 | 290 | Commence haut | couronne au miroir |
+| 291 | La magie dort en toi | cœur d'étoiles, château |
+| 292 | L'étoile filante | balcon du royaume |
+| 293 | Le grand feu | poing d'entraînement |
+| 294 | Le sort le plus fort | sceptre levé |
+| 295 | Les héros ont peur | escaliers sous l'orage |
+| 296 | La plume | bibliothèque enchantée |
+| 297 | L'ombre en respect | lanterne contre l'ombre |
+| 298 | Elles forgent | relevée, braises |
+| 299 | Cœurs qui rêvent grand | trio d'héroïnes |
+| 300 | Toi l'étoile | tour sous les étoiles |

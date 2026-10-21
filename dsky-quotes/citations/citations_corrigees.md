@@ -812,3 +812,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **289.** `CHOISIS-TOI` — la clé dorée choisie au levant — « Choisis-toi chaque matin : le reste te choisira en retour. »
 
 **290.** `COMMENCE HAUT` — couronne posée devant le miroir — « On te traitera comme tu te traites : commence haut. »
+
+## SAISON 2 — Série ART XXIV (291 → 300) — « LA MAGIE INTÉRIEURE » (style Disney × anime shonen)
+*Héroïnes courageuses, châteaux enchantés, éclats magiques et énergie shonen. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10 (mapping réel des images).*
+
+**291.** `LA MAGIE DORT EN TOI` — héroïne au cœur d'étoiles, château au crépuscule — « La magie que tu cherches dort déjà en toi. »
+
+**292.** `L'ÉTOILE FILANTE` — balcon, royaume aux lanternes — « Ton rêve vaut plus que tous les trésors du royaume. »
+
+**293.** `LE GRAND FEU` — poing d'énergie dorée, cour d'entraînement à l'aube — « Chaque petit pas d'entraînement prépare le grand feu. »
+
+**294.** `LE SORT LE PLUS FORT` — sceptre levé, aura d'or dans la nuit — « Il n'existe pas de sort plus fort qu'une femme qui croit en elle. »
+
+**295.** `LES HÉROS ONT PEUR` — escaliers sous l'orage, poing serré — « Les héros ont peur aussi : ils continuent quand même. »
+
+**296.** `LA PLUME` — bibliothèque enchantée, lettres d'or — « Dans ce conte, c'est toi qui tiens la plume. »
+
+**297.** `L'OMBRE EN RESPECT` — lanterne tenue haut contre l'ombre — « Une seule lumière bien tenue tient toute l'ombre en respect. »
+
+**298.** `ELLES FORGENT` — relevée après la tempête, braises d'or — « Les épreuves ne sont pas des ennemies : elles forgent ton cœur. »
+
+**299.** `CŒURS QUI RÊVENT GRAND` — trio d'héroïnes au couchant — « Entoure-toi de cœurs qui rêvent grand comme toi. »
+
+**300.** `TOI L'ÉTOILE` — sombre de la tour sous les étoiles, bras ouverts — « Brille jusqu'au bout : dans ce ciel, c'est toi l'étoile. »
