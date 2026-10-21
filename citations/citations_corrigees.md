@@ -766,3 +766,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **269.** `SANS M'EXCUSER` — l'ouvrière fière devant l'œuvre terminée — « Construis une vie dont tu n'auras pas besoin de t'excuser. »
 
 **270.** `RACINES DISCRÈTES` — arbre doré, racines vues en coupe — « La terre ne montre pas ses racines : tes progrès peuvent rester discrets. »
+
+## SAISON 2 — Série ART XXII (271 → 280) — « LE TEMPS DE GUÉRIR »
+*Réconfort dans la maladie : repos sans culpabilité, foi, patience, guérison promise. Adressé aux femmes. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10 (mapping réel des images).*
+
+**271.** `UNE PAUSE` — chambre douce, thé à la main, lumière du matin — « La maladie n'est pas une punition : c'est une pause que ton corps t'impose. »
+
+**272.** `GUÉRIS D'ABORD` — sommeil protecteur, braise de lampe — « Guéris d'abord, brille ensuite : la santé passe avant tout. »
+
+**273.** `SANS CULPABILITÉ` — chaise longue, châle d'or, téléphone écarté — « Soigne-toi sans culpabilité : le monde saura attendre. »
+
+**274.** `LA NUIT LA PLUS LONGUE` — la nuit bleue qui devient aube à la fenêtre — « Même la nuit la plus longue finit par appeler le matin. »
+
+**275.** `L'ATELIER SECRET` — rayons d'or sur la couette comme un atelier — « Ton lit n'est pas une prison : c'est l'atelier secret de ta guérison. »
+
+**276.** `ÂMES PATIENTES` — prière et bol fumant à l'aube — « Prie, bois, repose-toi : la guérison aime les âmes patientes. »
+
+**277.** `TON CORPS COMBAT` — main sur le cœur, armée de lumière en garde — « Ton corps combat pour toi : remercie-le en te reposant. »
+
+**278.** `COMME L'AUBE` — fenêtre ouverte sur le soleil levant — « La santé revient comme l'aube : doucement, mais sûrement. »
+
+**279.** `LES VRAIS AMIS` — fleurs et fruits au chevet — « On découvre ses vrais amis au fond du lit de la maladie. »
+
+**280.** `LE DERNIER MOT` — couverture en manteau, porte ouverte sur l'or — « Tu sortiras de cela plus forte : la douleur ne garde pas le dernier mot. »
