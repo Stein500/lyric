@@ -10,17 +10,8 @@
   "duree_decodee_s": 222.92,
   "nb_vers": 47,
   "plans_distinctes": 36,
-  "plans_disponibles": 10,
+  "plans_disponibles": 19,
   "plans_manquantes": [
-    "fonds/scene-11.png",
-    "fonds/scene-12.png",
-    "fonds/scene-13.png",
-    "fonds/scene-14.png",
-    "fonds/scene-15.png",
-    "fonds/scene-16.png",
-    "fonds/scene-17.png",
-    "fonds/scene-18.png",
-    "fonds/scene-19.png",
     "fonds/scene-20.png",
     "fonds/scene-21.png",
     "fonds/scene-22.png",
@@ -40,7 +31,7 @@
     "fonds/scene-31-final.png"
   ],
   "qc_a_regenerer": [
-    "fonds/scene-06.png (remonter VOUS ÊTES DES REQUINS au-dessus de y=1574)"
+    "fonds/scene-15.png (retirer mot parasite ONLY: en Salve 3)"
   ],
   "fenetres_clochettes": [
     [
@@ -149,7 +140,7 @@
       "image": "fonds/scene-06.png",
       "disponible": true,
       "reprise": false,
-      "note": "Refrain 4/4 — océan orageux & requins atténués N&B, cri d'alerte — orthographe OK (ligne basse à remonter en Salve 2)"
+      "note": "Refrain 4/4 — océan orageux & requins atténués N&B, cri d'alerte — contrôlé OK (v2)"
     },
     {
       "i": 7,
@@ -213,9 +204,9 @@
       "affichage_s": 2.2,
       "texte": "Vous mangez le pain des enfants",
       "image": "fonds/scene-11.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 1 — pain des enfants arraché, regard de révolte protectrice (Salve 2)"
+      "note": "Couplet 1 — pain des enfants arraché, regard de révolte protectrice — contrôlé OK"
     },
     {
       "i": 13,
@@ -224,9 +215,9 @@
       "affichage_s": 2.2,
       "texte": "Vous buvez le sang des vivants",
       "image": "fonds/scene-12.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 1 — coupes des vivants dans l'ombre, expression d'accusation (Salve 2)"
+      "note": "Couplet 1 — coupes des vivants dans l'ombre, expression d'accusation — contrôlé OK"
     },
     {
       "i": 14,
@@ -235,9 +226,9 @@
       "affichage_s": 2.2,
       "texte": "Mais un jour, la table se brisera",
       "image": "fonds/scene-13.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 1 — la grande table qui se fissure d'éclairs blancs (Salve 2)"
+      "note": "Couplet 1 — la grande table qui se fissure d'éclairs blancs — contrôlé OK"
     },
     {
       "i": 15,
@@ -246,9 +237,9 @@
       "affichage_s": 2.13,
       "texte": "Et les goinfres paieront pour tout ça",
       "image": "fonds/scene-14.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 1 — balance de justice en lumière blanche, regard prophétique (Salve 2)"
+      "note": "Couplet 1 — balance de justice en lumière blanche, regard prophétique — contrôlé OK"
     },
     {
       "i": 16,
@@ -257,9 +248,9 @@
       "affichage_s": 2.2,
       "texte": "Vous avez les poches pleines",
       "image": "fonds/scene-15.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Pré-refrain 1/4 — poches débordant de billets et pièces, regard perçant (Salve 2)"
+      "note": "Pré-refrain 1/4 — poches débordant de billets et pièces (à régénérer Salve 3 : mot parasite ONLY:)"
     },
     {
       "i": 17,
@@ -268,9 +259,9 @@
       "affichage_s": 2.2,
       "texte": "Mais les cœurs vides, c'est la peine",
       "image": "fonds/scene-16.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Pré-refrain 2/4 — statues aux poitrines creuses dans la brume, tristesse grave (Salve 2)"
+      "note": "Pré-refrain 2/4 — statues aux poitrines creuses dans la brume, tristesse grave — contrôlé OK"
     },
     {
       "i": 18,
@@ -279,9 +270,9 @@
       "affichage_s": 2.4,
       "texte": "Pendant que nous, on se serre les coudes",
       "image": "fonds/scene-17.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Pré-refrain 3/4 — chaîne fraternelle de bras unis dans l'ombre claire (Salve 2)"
+      "note": "Pré-refrain 3/4 — chaîne fraternelle de bras unis dans l'ombre claire — contrôlé OK"
     },
     {
       "i": 19,
@@ -290,9 +281,9 @@
       "affichage_s": 2.4,
       "texte": "Vous, vous vous goinfrez, vous êtes des fous",
       "image": "fonds/scene-18.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Pré-refrain 4/4 — tourbillon de la folie des goinfres en arrière-plan atténué (Salve 2)"
+      "note": "Pré-refrain 4/4 — tourbillon de la folie des goinfres en arrière-plan atténué — contrôlé OK"
     },
     {
       "i": 20,
@@ -356,9 +347,9 @@
       "affichage_s": 2.4,
       "texte": "Vous avez le pouvoir, vous avez le fric",
       "image": "fonds/scene-19.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 2 — trône de pouvoir et liasses en clair-obscur N&B (Salve 2)"
+      "note": "Couplet 2 — trône de pouvoir et liasses en clair-obscur N&B — contrôlé OK"
     },
     {
       "i": 26,
@@ -444,7 +435,7 @@
       "affichage_s": 2.2,
       "texte": "Vous avez les poches pleines",
       "image": "fonds/scene-15.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Reprise pré-refrain 1/4"
     },
@@ -455,7 +446,7 @@
       "affichage_s": 2.2,
       "texte": "Mais les cœurs vides, c'est la peine",
       "image": "fonds/scene-16.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Reprise pré-refrain 2/4"
     },
@@ -466,7 +457,7 @@
       "affichage_s": 2.4,
       "texte": "Pendant que nous, on se serre les coudes",
       "image": "fonds/scene-17.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Reprise pré-refrain 3/4"
     },
@@ -477,7 +468,7 @@
       "affichage_s": 2.4,
       "texte": "Vous, vous vous goinfrez, vous êtes des fous",
       "image": "fonds/scene-18.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Reprise pré-refrain 4/4"
     },
