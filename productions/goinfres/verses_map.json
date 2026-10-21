@@ -10,20 +10,9 @@
   "duree_decodee_s": 222.92,
   "nb_vers": 47,
   "plans_distinctes": 36,
-  "plans_disponibles": 28,
-  "plans_manquantes": [
-    "fonds/scene-29.png",
-    "fonds/scene-30.png",
-    "fonds/v-167-69-aube.png",
-    "fonds/v-170-71-aube.png",
-    "fonds/v-174-05-aube.png",
-    "fonds/v-176-45-aube.png",
-    "fonds/v-181-90-aube.png",
-    "fonds/scene-31-final.png"
-  ],
-  "qc_a_regenerer": [
-    "fonds/scene-26.png (retirer doublon ON VA en Salve 4)"
-  ],
+  "plans_disponibles": 36,
+  "plans_manquantes": [],
+  "qc_a_regenerer": [],
   "fenetres_clochettes": [
     [
       16.89,
@@ -62,7 +51,8 @@
     222.92,
     227.92
   ],
-  "code": "0342",
+  "accueil_mode": "WTBW_SALUT_STICKERS_DOUX (sans système de code)",
+  "finale_mode": "WTBW_MERCI_STICKERS_DOUX (sans système de code)",
   "affichage_formule": "affichage = min(fin_vers, debut_vers + max(2.2 s, 0.30 s * nombre_de_mots)) — PROVISOIRE (§5.6)",
   "continuite_aube": "reprises finales 167.69 / 170.71 / 174.05 / 176.45 / 181.90 / 193.71 = 5 variantes aube N&B dédiées (plus de retour en pleine nuit après l'aube, §9)",
   "regle_clochettes": "fin d'affichage du vers + 0,15 s -> début du vers suivant ; seuil 4,00 s (MODE PEINT) ; jamais sur une carte d'accueil ni pendant un vers en cours de lecture",
@@ -417,7 +407,7 @@
       "image": "fonds/scene-26.png",
       "disponible": true,
       "reprise": false,
-      "note": "Couplet 2 — bâtisseurs d'un monde nouveau en traits d'encre blanche (à régénérer Salve 4 : doublon ON VA)"
+      "note": "Couplet 2 — bâtisseurs d'un monde nouveau en traits d'encre blanche — contrôlé OK (v2)"
     },
     {
       "i": 33,
@@ -492,9 +482,9 @@
       "affichage_s": 2.2,
       "texte": "Mais un jour, le repas sera fini",
       "image": "fonds/scene-29.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Pont 3/4 — sablier écoulé sur la table désertée à l'aube (Salve 4)"
+      "note": "Pont 3/4 — sablier écoulé sur la table désertée à l'aube — contrôlé OK (v2)"
     },
     {
       "i": 40,
@@ -503,9 +493,9 @@
       "affichage_s": 2.2,
       "texte": "Et vous serez seuls avec vos vies",
       "image": "fonds/scene-30.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Pont 4/4 — solitude des rois déchus dans le palais silencieux au matin (Salve 4)"
+      "note": "Pont 4/4 — solitude des rois déchus dans le palais silencieux au matin — contrôlé OK"
     },
     {
       "i": 41,
@@ -514,9 +504,9 @@
       "affichage_s": 2.2,
       "texte": "Goinfres, goinfres, vous mangez trop",
       "image": "fonds/v-167-69-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
-      "note": "Refrain final 1/4 — variante AUBE N&B dédiée (§9, contre-jour blanc lumineux)"
+      "note": "Refrain final 1/4 — variante AUBE N&B dédiée (§9, contre-jour blanc lumineux) — contrôlé OK"
     },
     {
       "i": 42,
@@ -525,9 +515,9 @@
       "affichage_s": 2.2,
       "texte": "Goinfres, goinfres, vous avez trop d'or",
       "image": "fonds/v-170-71-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
-      "note": "Refrain final 2/4 — variante AUBE N&B dédiée (§9, contre-jour blanc lumineux)"
+      "note": "Refrain final 2/4 — variante AUBE N&B dédiée (§9, contre-jour blanc lumineux) — contrôlé OK"
     },
     {
       "i": 43,
@@ -536,9 +526,9 @@
       "affichage_s": 2.2,
       "texte": "Pendant que les autres crèvent de faim",
       "image": "fonds/v-174-05-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
-      "note": "Refrain final 3/4 — variante AUBE N&B dédiée (§9, contre-jour blanc lumineux)"
+      "note": "Refrain final 3/4 — variante AUBE N&B dédiée (§9, contre-jour blanc lumineux) — contrôlé OK"
     },
     {
       "i": 44,
@@ -547,9 +537,9 @@
       "affichage_s": 2.4,
       "texte": "Vous engloutissez le monde, vous êtes des requins",
       "image": "fonds/v-176-45-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
-      "note": "Refrain final 4/4 — variante AUBE N&B dédiée (§9, contre-jour blanc lumineux)"
+      "note": "Refrain final 4/4 — variante AUBE N&B dédiée (§9, contre-jour blanc lumineux) — contrôlé OK"
     },
     {
       "i": 45,
@@ -558,9 +548,9 @@
       "affichage_s": 2.2,
       "texte": "Wolof TechStein beat wê!",
       "image": "fonds/v-181-90-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
-      "note": "Signature finale — variante AUBE N&B dédiée (§9)"
+      "note": "Signature finale — variante AUBE N&B dédiée (§9) — contrôlé OK"
     },
     {
       "i": 46,
@@ -569,9 +559,9 @@
       "affichage_s": 2.2,
       "texte": "Wolof TechStein beat wê!",
       "image": "fonds/v-181-90-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
-      "note": "Écho signature finale — variante AUBE N&B dédiée (§9)"
+      "note": "Écho signature finale — variante AUBE N&B dédiée (§9) — contrôlé OK"
     },
     {
       "i": 47,
@@ -580,9 +570,9 @@
       "affichage_s": 2.2,
       "texte": "Goinfres, goinfres, Goinfres",
       "image": "fonds/scene-31-final.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Plan final plein soleil levant blanc éclatant en N&B : peuple et artistes debout"
+      "note": "Plan final plein soleil levant blanc éclatant en N&B : peuple et artistes debout — contrôlé OK"
     }
   ]
 }
