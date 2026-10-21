@@ -10,17 +10,8 @@
   "duree_decodee_s": 222.92,
   "nb_vers": 47,
   "plans_distinctes": 36,
-  "plans_disponibles": 19,
+  "plans_disponibles": 28,
   "plans_manquantes": [
-    "fonds/scene-20.png",
-    "fonds/scene-21.png",
-    "fonds/scene-22.png",
-    "fonds/scene-23.png",
-    "fonds/scene-24.png",
-    "fonds/scene-25.png",
-    "fonds/scene-26.png",
-    "fonds/scene-27.png",
-    "fonds/scene-28.png",
     "fonds/scene-29.png",
     "fonds/scene-30.png",
     "fonds/v-167-69-aube.png",
@@ -31,7 +22,7 @@
     "fonds/scene-31-final.png"
   ],
   "qc_a_regenerer": [
-    "fonds/scene-15.png (retirer mot parasite ONLY: en Salve 3)"
+    "fonds/scene-26.png (retirer doublon ON VA en Salve 4)"
   ],
   "fenetres_clochettes": [
     [
@@ -250,7 +241,7 @@
       "image": "fonds/scene-15.png",
       "disponible": true,
       "reprise": false,
-      "note": "Pré-refrain 1/4 — poches débordant de billets et pièces (à régénérer Salve 3 : mot parasite ONLY:)"
+      "note": "Pré-refrain 1/4 — poches débordant de billets et pièces — contrôlé OK (v2)"
     },
     {
       "i": 17,
@@ -358,9 +349,9 @@
       "affichage_s": 2.2,
       "texte": "Mais vous avez perdu l'âme, c'est critique",
       "image": "fonds/scene-20.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 2 — miroir brisé révélant l'âme perdue en encre noire et blanche (Salve 3)"
+      "note": "Couplet 2 — miroir brisé révélant l'âme perdue en encre noire et blanche — contrôlé OK"
     },
     {
       "i": 27,
@@ -369,9 +360,9 @@
       "affichage_s": 3.0,
       "texte": "Les goinfres ne voient pas plus loin que leur assiette",
       "image": "fonds/scene-21.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 2 — assiette géante voilant l'horizon atténué (Salve 3)"
+      "note": "Couplet 2 — assiette géante voilant l'horizon atténué — contrôlé OK"
     },
     {
       "i": 28,
@@ -380,9 +371,9 @@
       "affichage_s": 2.85,
       "texte": "Pendant que les pauvres grattent la terre pour une miette",
       "image": "fonds/scene-22.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 2 — mains dignes grattant la terre sombre pour une miette (Salve 3)"
+      "note": "Couplet 2 — mains dignes grattant la terre sombre pour une miette — contrôlé OK"
     },
     {
       "i": 29,
@@ -391,9 +382,9 @@
       "affichage_s": 2.86,
       "texte": "Mais nous, on se lève, on se bat, on résiste",
       "image": "fonds/scene-23.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 2 — peuple debout qui se lève et résiste dans la brume claire (Salve 3)"
+      "note": "Couplet 2 — peuple debout qui se lève et résiste dans la brume claire — contrôlé OK"
     },
     {
       "i": 30,
@@ -402,9 +393,9 @@
       "affichage_s": 2.7,
       "texte": "On est pas des moutons, on est des artistes",
       "image": "fonds/scene-24.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 2 — atelier d'artistes (pinceaux, micro, violon) en N&B contrasté (Salve 3)"
+      "note": "Couplet 2 — atelier d'artistes (pinceaux, micro, violon) en N&B contrasté — contrôlé OK"
     },
     {
       "i": 31,
@@ -413,9 +404,9 @@
       "affichage_s": 2.4,
       "texte": "On va prendre notre part, pas vos restes",
       "image": "fonds/scene-25.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 2 — partage équitable de la moisson, détermination fière (Salve 3)"
+      "note": "Couplet 2 — partage équitable de la moisson, détermination fière — contrôlé OK"
     },
     {
       "i": 32,
@@ -424,9 +415,9 @@
       "affichage_s": 2.4,
       "texte": "On va construire notre monde, pas vos thèses",
       "image": "fonds/scene-26.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Couplet 2 — bâtisseurs d'un monde nouveau en traits d'encre blanche (Salve 3)"
+      "note": "Couplet 2 — bâtisseurs d'un monde nouveau en traits d'encre blanche (à régénérer Salve 4 : doublon ON VA)"
     },
     {
       "i": 33,
@@ -479,9 +470,9 @@
       "affichage_s": 2.7,
       "texte": "La terre est assez grande pour tout le monde",
       "image": "fonds/scene-27.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Pont 1/4 — vaste terre sous les premières lueurs blanches d'aube (Salve 3)"
+      "note": "Pont 1/4 — vaste terre sous les premières lueurs blanches d'aube — contrôlé OK"
     },
     {
       "i": 38,
@@ -490,9 +481,9 @@
       "affichage_s": 2.7,
       "texte": "Mais vous voulez tout, comme des goinfres, des immondes",
       "image": "fonds/scene-28.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
-      "note": "Pont 2/4 — mains avides accaparant le monde face à l'aube blanche (Salve 3)"
+      "note": "Pont 2/4 — mains avides accaparant le monde face à l'aube blanche — contrôlé OK"
     },
     {
       "i": 39,
