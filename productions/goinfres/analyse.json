@@ -1,0 +1,23 @@
+{
+  "fichier_source": "Goinfres.mp3",
+  "codec_source": "mp3 (mp3float), 48000 Hz, stereo, 186 kb/s",
+  "echantillons_decodes": 10700159,
+  "duree_decodee_s": 222.92,
+  "duree_header_s": 222.96,
+  "code_fin": "0342",
+  "source_loudnorm_pass1": {
+    "input_i_lufs": -13.06,
+    "input_tp_dbtp": -0.83,
+    "input_lra_lu": 8.4,
+    "input_thresh_lufs": -23.36,
+    "target_offset_db": -0.88
+  },
+  "silences_ge_3_5s_at_m42db": [],
+  "master_noart_mesures": {
+    "fichier": "livrables/_master_noart.mp3",
+    "i_lufs": -14.0,
+    "lra_lu": 8.3,
+    "tp_dbfs": -1.9,
+    "max_level_db": -2.21
+  }
+}

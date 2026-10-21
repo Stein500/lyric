@@ -1,0 +1,8 @@
+.venv/
+venv/
+work/
+__pycache__/
+*.pyc
+*_audio_pad.m4a
+*-preview.mp4
+Unselected files/
