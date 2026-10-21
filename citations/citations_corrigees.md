@@ -835,3 +835,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **299.** `CŒURS QUI RÊVENT GRAND` — trio d'héroïnes au couchant — « Entoure-toi de cœurs qui rêvent grand comme toi. »
 
 **300.** `TOI L'ÉTOILE` — sombre de la tour sous les étoiles, bras ouverts — « Brille jusqu'au bout : dans ce ciel, c'est toi l'étoile. »
+
+## SAISON 2 — Série ART XXV (301 → 310) — « LES PLANTES QUI SAUVENT »
+*Une plante accessible au Bénin + sa vertu — sources vérifiées (BBC Afrique, OMS/EMA, méta-analyses, pharmacopée OUE, études ethnobotaniques Bénin). Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10 (mapping réel des images).*
+
+**301.** `LE GRENIER VERT` — récolte de feuilles de moringa, panier tressé — « Le moringa tient le grenier : du fer et des vitamines dans une seule feuille. » *(source : BBC Afrique 2022 — fer, protéines, calcium, vitamine C)*
+
+**302.** `LE RÉCHAUFFEUR` — rhizomes de gingembre et tasse fumante — « Le gingembre chasse la nausée et réchauffe le ventre. » *(source : usage nausées validé EMA/OMS, méta-analyses)*
+
+**303.** `LA FRAÎCHEUR` — citrons ruisselants, un coupé en deux — « Le citron verse sa vitamine C et rend la fraîcheur au corps. »
+
+**304.** `LE BAUME EN POT` — aloé en pot de terre, gel visible — « La feuille d'aloé apaise la peau : un baume qui pousse en pot. » *(source : brûlures superficielles, usage cutané documenté)*
+
+**305.** `LE REPAS EN PAIX` — papaye ouverte, chair orange, graines noires — « La papaye aide ton ventre à finir le repas en paix. » *(source : papaïne, digestion — pharmacopée OUE)*
+
+**306.** `LA VEILLEUSE` — têtes d'ail, gousses, petit mortier de laiton — « Une gousse d'ail par jour veille sur ton cœur. » *(source : pharmacopée OUE/OMS — tension, cholestérol)*
+
+**307.** `LE FEU DORÉ` — racines de curcuma et poudre d'or en suspension — « Le curcuma d'or apaise les feux que l'on ne voit pas. » *(source : curcumine, anti-inflammatoire documenté)*
+
+**308.** `LE ROUGE QUI CALME` — carafe de bissap, calices séchés — « Le bissap rouge calme la tension et désaltère le soir. » *(source : méta-analyse Serban 2015 — systolique −7,6 mmHg)*
+
+**309.** `LE PANIER SUSPENDU` — baobab à l'aube, pulpe dans la calebasse — « La pulpe du baobab, c'est un panier de vitamine C accroché à l'arbre. » *(source : Nutrients 2017/2023 — vitamine C ~×6 l'orange)*
+
+**310.** `LE SOIR DOUX` — botte de citronnelle et infusion au matin — « L'infusion de citronnelle endort le corps et libère le ventre. » *(source : liste OMS plantes médicinales, tisane digestive)*
