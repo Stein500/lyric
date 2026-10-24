@@ -858,3 +858,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **309.** `LE PANIER SUSPENDU` — baobab à l'aube, pulpe dans la calebasse — « La pulpe du baobab, c'est un panier de vitamine C accroché à l'arbre. » *(source : Nutrients 2017/2023 — vitamine C ~×6 l'orange)*
 
 **310.** `LE SOIR DOUX` — botte de citronnelle et infusion au matin — « L'infusion de citronnelle endort le corps et libère le ventre. » *(source : liste OMS plantes médicinales, tisane digestive)*
+
+## SAISON 2 — Série ART XXVI (311 → 320) — « LES GESTES JUSTES » (astuces de préparation)
+*10 astuces de préparation des plantes du quotidien (Bénin) — pratiques documentées. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10 (mapping réel des images).*
+
+**311.** `À L'OMBRE` — bottes de moringa suspendues hors soleil — « Sèche le moringa à l'ombre : le soleil emporte les vitamines. »
+
+**312.** `LES DIX MINUTES` — ail écrasé au plat du couteau — « Écrase l'ail et attends dix minutes : c'est lui qui se prépare. »
+
+**313.** `SOUS COUVERCLE` — trois rondelles de gingembre, casserole au feu doux — « Trois tranches de gingembre, eau frémissante, cinq minutes sous couvercle. »
+
+**314.** `LE RÉVÉLATEUR` — cuillère de curcuma, grains de poivre noir — « Une pincée de poivre noir : le curcuma entre mieux dans le corps. » *(source : pipérine, biodisponibilité ×20 — Shoba et al. 1998)*
+
+**315.** `À FROID` — pulpe de baobab dans l'eau froide, calebasse — « La pulpe de baobab se mêle à l'eau froide, jamais à l'eau bouillante. »
+
+**316.** `TRÉSORS VOLATILES` — tasse couverte pendant l'infusion, citronnelle — « Couvre ta tisane pendant l'infusion : les parfums sont des trésors volatiles. »
+
+**317.** `L'EAU TIÉDIE` — miel versé dans une tasse tiède — « Le miel aime l'eau tiédie : le feu bouillant détruit ses dons. »
+
+**318.** `LE ROUGE SANS FEU` — bissap infusant la nuit sous couvercle — « Les fleurs de bissap infusent la nuit au frais : le rouge se donne sans feu. »
+
+**319.** `LA SÈVE JAUNE` — gel d'aloé rincé, sève jaune écartée — « Garde le gel d'aloé clair et pur : la sève jaune n'est pas pour toi. »
+
+**320.** `FIN DE SAUCE` — feuilles de moringa jetées en fin de cuisson — « Les feuilles de moringa finissent la sauce : trop de feu leur vole leur force. »
