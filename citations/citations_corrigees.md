@@ -881,3 +881,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **319.** `LA SÈVE JAUNE` — gel d'aloé rincé, sève jaune écartée — « Garde le gel d'aloé clair et pur : la sève jaune n'est pas pour toi. »
 
 **320.** `FIN DE SAUCE` — feuilles de moringa jetées en fin de cuisson — « Les feuilles de moringa finissent la sauce : trop de feu leur vole leur force. »
+
+## SAISON 2 — Série ART XXVII (321 → 330) — « LES NUITS QUI RÉPARENT » (bien dormir)
+*10 gestes pour mieux dormir, validés par l'INSV, l'Inserm et l'INPES. Livraison TikTok uniquement (gabarit v3 aéré). Orthographe vérifiée 10/10, mapping conforme au prévu.*
+
+**321.** `L'ANCRE` — réveil dans la chambre bleue — « Couche-toi et lève-toi à la même heure : le corps aime la régularité. » *(source : INSV — l'heure de lever est le synchroniseur principal, week-end compris)*
+
+**322.** `LE DERNIER CAFÉ` — tasse fumante au soleil du matin — « Prends ton café le matin : après midi, il veille encore en toi. » *(source : INSV/INPES — excitants après 14h-16h ; demi-vie 5-7 h)*
+
+**323.** `HORS CHAMP` — téléphone retourné sur la table de nuit — « Pose ton téléphone une heure avant le lit : la nuit n'aime pas les écrans. » *(source : INSV — lumière bleue supprime la mélatonine ; Chang et al. 2015)*
+
+**324.** `LE FRAIS` — chambre sombre, rideau qui respire — « Laisse la chambre fraîche et sombre : le sommeil adore le frais. » *(source : INSV/INPES — 16-20 °C, obscurité totale)*
+
+**325.** `L'ÉTALONNAGE` — silhouette face au lever du soleil — « Va chercher le soleil dès le matin : c'est lui qui règle ta nuit. » *(source : INSV — lumière du jour le matin régule l'horloge biologique)*
+
+**326.** `LA SOUPE DU SOIR` — dîner léger à la bougie — « Dîne léger et tôt : la nuit a mieux à faire que digérer. » *(source : INSV — dîner léger au moins 2 h avant le coucher)*
+
+**327.** `LA PAUSE JUSTE` — hamac sous le porche — « Garde la sieste courte : vingt minutes suffisent pour te refaire. » *(source : Inserm — sieste type 15-20 min, gain de vigilance sans inertie)*
+
+**328.** `LE TERRITOIRE` — lit parfait, une seule lampe — « Réserve ton lit au sommeil : il apprend ce qu'on lui demande. » *(source : INPES — la chambre ne sert qu'à dormir)*
+
+**329.** `LE SOUFFLE` — respiration lente devant la lune — « Respire doucement le soir, expire plus longtemps : la nuit suit ton souffle. » *(source : INSV — activités calmes, relaxation, respiration)*
+
+**330.** `LA GRÂCE DU RETOUR` — livre ouvert sous la lampe — « Si le sommeil te fuit, lève-toi, lis, reviens : ne force jamais la nuit. » *(source : INSV — en cas d'insomnie : se lever, activité calme, revenir quand le sommeil revient)*
