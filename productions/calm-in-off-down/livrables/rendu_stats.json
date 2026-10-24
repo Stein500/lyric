@@ -1,0 +1,17 @@
+{
+  "fichier": "calm-in-off-down-916.mp4",
+  "frames": 5658,
+  "fps": 30,
+  "duree_s": 188.6,
+  "segments": 45,
+  "plans": 39,
+  "clochettes": 3,
+  "accueil_mode": "WTBW_SALUT_STICKERS_DOUX",
+  "mode_bilingue": "PEINT_VO_GRAFFITI + DEFILEMENT_TRADUCTION_FR",
+  "systeme_code": false,
+  "drapeau": false,
+  "crf": 24,
+  "presets": "veryfast",
+  "fondu_s": 0.35,
+  "badge_alpha_max": 0.72
+}

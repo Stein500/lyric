@@ -7,7 +7,7 @@ Mise à jour : **2026-10-24**. Document **100 % auto-suffisant** : il intègre l
    - **S'abonner sur `+`** (`CLIQUE SUR + POUR T'ABONNER` — bouton `+` vectoriel),
    - **Commenter** (`COMMENTE SI TU AIMES !` — bulle de commentaire vectorielle).
 3. **Recette « STUDIO ANIME SEINEN — NOIR & BLANC, DÉCORS ATTÉNUÉS & EXPRESSIONS MULTIPLES »** validée à 36 plans / 47 vers (0 faute d'orthographe).
-4. **Règle bilingue / passages non français (nouvelle directive permanente de l'artiste sur « Calm in off down »)** : dès qu'une chanson comporte des passages **non français** (anglais, espagnol…), **les paroles originales sont peintes dans l'image** (ex. en style graffiti bien ordonné et stylé dans `y 620 → 1080`) et **uniquement la traduction en français est affichée en mode défilant mot à mot** dans une bande dédiée (`y 1350 → 1510`, au-dessus du filet de progression `y = 1560`), sans jamais voiler la parole peinte ni le visage.
+4. **Règle bilingue / passages non français (nouvelle directive permanente de l'artiste validée sur « Calm in off down », 39 plans / 42 vers)** : dès qu'une chanson comporte des passages **non français** (anglais, espagnol…), **les paroles originales sont peintes dans l'image** (ex. en style graffiti bien ordonné et stylé dans `y 650 → 1040` avec stickers « love » dans `y 1100 → 1280`) et **uniquement la traduction en français est affichée en mode défilant mot à mot** dans une pilule dédiée (`y = 1452 → 1545`, centrée `708 px ≤ 740 px`, au-dessus du filet de progression `y = 1560`), avec curseur karaoké, glissement horizontal fluide (`±9 px`) et mot actif mis en avant en or chaud (`#FFE07A` + halo 3 px), sans jamais voiler la parole peinte ni le visage.
 
 Tous les chiffres ci-dessous sont **mesurés sur des fichiers livrés**, jamais des intentions.
 
@@ -123,6 +123,18 @@ DOSSIER      : productions/<slug>/               (fonds/ livrables/ fonts/ + ver
 - horodatages fournis par l'artiste gardés **tels quels** ; durée du clip = durée **décodée** de l'audio (`ffmpeg -map 0:a:0 -f null -`) + `5,00 s` de carte finale.
 - formule d'affichage par vers en l'absence de calage mot à mot :
   `affichage = min(fin_vers - debut_vers, max(2.2 s, 0.30 s × nombre_de_mots))`, signalée comme **provisoire** dans la livraison.
+- sur tout segment long (`durée > 3,5 s`, ponts instrumentaux, cartes d'accueil et de fin), le travelling `110 %` cycle en cosinus fluide toutes les `2,1–2,2 s` avec une légère respiration lumineuse (`±12 %`, période `1,7 s`) afin de garantir **`0` segment gelé** à `freezedetect=n=-33dB:d=2.5` sur l'intégralité du clip.
+
+### 5.7 Traduction française défilante mot à mot (passages non français — Mode Hybride Bilingue)
+Dès qu'un vers est chanté dans une langue étrangère (anglais, espagnol, wolof hors signature WTBW…), le moteur active automatiquement le calque de **traduction française défilante** (`render_fr_translation`) pendant `[a → disp + 0,35 s]` (jamais pendant un CTA ni sur les cartes) :
+- **Détection & contrat (`verses_map.json`)** : chaque vers possède les champs `"langue"` (`"EN"`, `"ES"`, `"EN+ES"`, `"FR"`, `"WTBW"`) et `"traduction_fr"`. Si le vers est déjà en français ou s'il s'agit de la signature producteur `WTBW`, `"traduction_fr": ""` (aucune pilule affichée).
+- **Position sécurisée** : pilule arrondie `708 × (20 + N_lignes × 34..38) px` (`radius = 24 px`), centrée horizontalement (`x = 186 → 894`, largeur `708 px ≤ 740 px`) et verticalement autour de `y = 1500` (`y = 1452 → 1545`), juste sous les stickers `love` et juste au-dessus du filet de progression `y = 1560` (`< 1574`).
+- **Fond & curseur karaoké** : plaque sombre translucide `(8, 12, 18, 222)` avec liseré or `(244, 197, 98, 185)` de `2 px`, et barre de progression karaoké de `3 px` en bas de la pilule (`#FFDE76`) avançant de `0 %` à `100 %` sur la durée du vers (`u_word = (t - a) / (disp - a)`).
+- **Défilement mot à mot (`active_idx = int(u_word * len(words))`) + glissement horizontal (`dx_glide = round((0.5 - u_word) * 18.0)`)** :
+  - **Mot actif (`g_idx == active_idx`)** : `Montserrat ExtraBold 29 pt` (ou `25 pt` sur 2 lignes longues), couleur **or chaud `#FFE07A` `(255, 224, 122)`**, entouré d'un **halo sombre de `3 px`** et posé sur une pastille lumineuse dorée `(244, 197, 98, 52)` ;
+  - **Mots déjà prononcés (`g_idx < active_idx`)** : `Montserrat SemiBold`, **blanc crème net `#F4F7FC` `(244, 247, 252)`** avec contour sombre `2 px` ;
+  - **Mots à venir (`g_idx > active_idx`)** : `Montserrat SemiBold`, **gris-bleu adouci `#AFBED2` `(175, 190, 210, α 158)`**.
+- **Fondus d'entrée/sortie** : fondu d'entrée de `0,22 s` à `t = a` et fondu de sortie de `0,35 s` après `t = disp`.
 
 ---
 
@@ -171,7 +183,7 @@ Fond = plan du dernier vers flouté (`GaussianBlur 9`, `Brightness 0.62`, scrim 
 - Les **3 mêmes stickers vectoriels animés en douceur** (`LIKE LA VIDÉO`, `CLIQUE SUR + POUR T'ABONNER`, `COMMENTE SI TU AIMES !`). **Aucun code, aucun contact, aucun lien, aucun logo.**
 
 ### 7.4 Badge artiste & Filet de progression
-- **Badge artiste** : « Dsky » / « Daïsky » **en y = 160**, Montserrat ExtraBold 44, **un seul fondu de 0,4 s par vers**, α max **0,72** (≤ 75 %), soulignement 3 px, liseré sombre pour rester lisible sur un ciel clair/aube. **Jamais permanent**, jamais pendant les cartes, jamais pendant un CTA.
+- **Badge artiste** : « Dsky » / « Daïsky » **en y = 146..184** (sous les `144 px` réservés du haut et **au-dessus du front** `y ≥ 210` pour ne jamais voiler le visage), Montserrat ExtraBold 32, **un seul fondu de 0,4 s par vers**, α max **0,72** (≤ 75 %), soulignement 2 px, liseré sombre pour rester lisible sur un ciel clair/aube. **Jamais permanent**, jamais pendant les cartes, jamais pendant un CTA.
 - **Filet de progression** : y = **1560**, x **170→910**, fond α 48 de 4 px, partie active α 210 de 8 px, `fr = (t − début_du_1er_vers) / (fin_chanson − début_1er_vers)`.
 
 ---

@@ -5,7 +5,7 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **42 vers** de 
 - **Mode verrouillé** : **PEINT (paroles originales EN/ES en style graffiti ordonné dans l'image)** + **DÉFILEMENT (traduction française mot à mot dans `y 1350 → 1510`)**.
 - **Recette** : **WANDANCE BATTLE & GRAFFITI LOVES — ORDONNÉ & VISAGE DÉGAGÉ**.
 - **Plans distincts prévus** : **39** (dont 5 variantes d'aube dédiées pour le refrain final et la signature finale §9).
-- **Plans présents sur disque (`os.path.exists`)** : **29 / 39** (32/42 vers couverts après Salve 1).
+- **Plans présents sur disque (`os.path.exists`)** : **39 / 39** (42/42 vers couverts après Salve 1).
 - **Contrôle QC Salve 1** : **10 / 10 plans validés au zoom 1:1 sans aucune faute d'orthographe**.
 
 | # | t (s) | fin (s) | aff. (s) | langue | vers peint (VO graffiti) | traduction FR défilante | plan | dispo | reprise |
@@ -41,17 +41,17 @@ Générée automatiquement depuis `verses_map.json` (§10.4) — **42 vers** de 
 | 29 | 121.25 | 124.12 | 2.87 | `EN` | They wanted the drama — I gave them the distance, | Ils voulaient le drame — je leur ai donné la distance, | `fonds/scene-29.png` | oui | — |
 | 30 | 124.12 | 127.41 | 2.70 | `EN` | Turned down every offer that was lacking in substance. | J'ai refusé chaque offre qui manquait de substance. | `fonds/scene-30.png` | oui | — |
 | 31 | 127.41 | 130.88 | 3.00 | `EN` | Calm in off down is a weapon, not a weakness, | Le calme dans l'ombre est une arme, pas une faiblesse, | `fonds/scene-31.png` | oui | — |
-| 32 | 130.88 | 133.70 | 2.82 | `EN` | The ones who speak the least tend to carry the deepest. | Ceux qui parlent le moins portent les choses les plus profondes. | `fonds/scene-32.png` | non | — |
-| 33 | 133.70 | 136.75 | 3.05 | `EN` | I am the eye of the storm — I am what you can't reach, | Je suis l'œil du cyclone — je suis ce que tu ne peux atteindre, | `fonds/scene-33.png` | non | — |
-| 34 | 136.75 | 140.13 | 3.00 | `EN` | When the world goes loud — silence becomes my speech. | Quand le monde hurle — le silence devient ma parole. | `fonds/scene-34.png` | non | — |
-| 35 | 140.13 | 143.66 | 2.40 | `EN+ES` | Calm in off down — apago el ruido, | Calme dans l'ombre — j'éteins le bruit, | `fonds/v-140-13-aube.png` | non | ↻ |
+| 32 | 130.88 | 133.70 | 2.82 | `EN` | The ones who speak the least tend to carry the deepest. | Ceux qui parlent le moins portent les choses les plus profondes. | `fonds/scene-32.png` | oui | — |
+| 33 | 133.70 | 136.75 | 3.05 | `EN` | I am the eye of the storm — I am what you can't reach, | Je suis l'œil du cyclone — je suis ce que tu ne peux atteindre, | `fonds/scene-33.png` | oui | — |
+| 34 | 136.75 | 140.13 | 3.00 | `EN` | When the world goes loud — silence becomes my speech. | Quand le monde hurle — le silence devient ma parole. | `fonds/scene-34.png` | oui | — |
+| 35 | 140.13 | 143.66 | 2.40 | `EN+ES` | Calm in off down — apago el ruido, | Calme dans l'ombre — j'éteins le bruit, | `fonds/v-140-13-aube.png` | oui | ↻ |
 | 36 | 143.66 | 146.60 | 2.40 | `EN+ES` | Everything is still but my soul stays encendido. | Tout est immobile mais mon âme reste embrasée. | `fonds/scene-11.png` | oui | ↻ |
-| 37 | 146.60 | 149.86 | 2.70 | `EN` | Calm in off down — no lights, no stage, | Calme dans l'ombre — sans lumières, sans scène, | `fonds/v-146-60-aube.png` | non | ↻ |
-| 38 | 149.86 | 152.91 | 3.05 | `ES+EN` | Solo yo y la oscuridad — we're both the same age. | Seul avec l'obscurité — nous avons tous deux le même âge. | `fonds/v-149-86-aube.png` | non | ↻ |
-| 39 | 152.91 | 156.28 | 3.00 | `EN` | Calm in off down — but the fire never died, | Calme dans l'ombre — mais le feu ne s'est jamais éteint, | `fonds/scene-35.png` | non | — |
-| 40 | 156.28 | 159.45 | 3.00 | `EN` | TechStein in the dark — watch us rise from inside. | TechStein dans le noir — regarde-nous surgir de l'intérieur. | `fonds/scene-36.png` | non | — |
-| 41 | 159.45 | 164.33 | 2.20 | `EN` | Calm in off down | Calme dans l'ombre | `fonds/scene-37-final.png` | non | — |
-| 42 | 164.33 | 183.61 | 2.20 | `WTBW` | Wolof TechSteinBeat wè... | *(signature WTBW)* | `fonds/v-164-33-aube.png` | non | ↻ |
+| 37 | 146.60 | 149.86 | 2.70 | `EN` | Calm in off down — no lights, no stage, | Calme dans l'ombre — sans lumières, sans scène, | `fonds/v-146-60-aube.png` | oui | ↻ |
+| 38 | 149.86 | 152.91 | 3.05 | `ES+EN` | Solo yo y la oscuridad — we're both the same age. | Seul avec l'obscurité — nous avons tous deux le même âge. | `fonds/v-149-86-aube.png` | oui | ↻ |
+| 39 | 152.91 | 156.28 | 3.00 | `EN` | Calm in off down — but the fire never died, | Calme dans l'ombre — mais le feu ne s'est jamais éteint, | `fonds/scene-35.png` | oui | — |
+| 40 | 156.28 | 159.45 | 3.00 | `EN` | TechStein in the dark — watch us rise from inside. | TechStein dans le noir — regarde-nous surgir de l'intérieur. | `fonds/scene-36.png` | oui | — |
+| 41 | 159.45 | 164.33 | 2.20 | `EN` | Calm in off down | Calme dans l'ombre | `fonds/scene-37-final.png` | oui | — |
+| 42 | 164.33 | 183.61 | 2.20 | `WTBW` | Wolof TechSteinBeat wè... | *(signature WTBW)* | `fonds/v-164-33-aube.png` | oui | ↻ |
 
 ## Fenêtres de clochette éligibles (MODE PEINT, seuil ≥ 4,00 s de temps libre après affichage + 0,15 s) : 3
 

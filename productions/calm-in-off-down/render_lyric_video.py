@@ -49,8 +49,16 @@ def slide(big, ax, ay):
     return big.crop((int(dx * ax), int(dy * ay), int(dx * ax) + W, int(dy * ay) + H))
 
 def dim(im):
-    """État éteint d'un vers déjà lu (§5.4) : Brightness 0.40 + GaussianBlur 2."""
-    return ImageEnhance.Brightness(im).enhance(0.40).filter(ImageFilter.GaussianBlur(2))
+    """État éteint d'un vers déjà lu (§5.4) : assombrit la zone centrale des paroles peintes tout en gardant le décor vivant."""
+    dark_center = ImageEnhance.Brightness(im).enhance(0.38).filter(ImageFilter.GaussianBlur(3))
+    outer_alive = ImageEnhance.Brightness(im).enhance(0.78).filter(ImageFilter.GaussianBlur(1))
+    mask = Image.new("L", im.size, 0)
+    dm = ImageDraw.Draw(mask)
+    y0 = int(im.height * (600.0 / 1920.0))
+    y1 = int(im.height * (1350.0 / 1920.0))
+    dm.rectangle([0, y0, im.width, y1], fill=255)
+    mask = mask.filter(ImageFilter.GaussianBlur(36))
+    return Image.composite(dark_center, outer_alive, mask)
 
 def fit_font(d, txt, size, max_w=720, bold=True):
     style = "ExtraBold" if bold else "SemiBold"
@@ -218,12 +226,13 @@ def make_sticker_icons():
 
     return icons
 
-def prepare_card_bg(bg, scrim=142):
-    """Fond de carte flouté et assombri (§7.2-7.3)."""
-    im = bg.filter(ImageFilter.GaussianBlur(9))
-    im = ImageEnhance.Brightness(im).enhance(0.62)
+def prepare_card_bg(big_bg, scrim=88):
+    """Fond de carte surdimensionné (1.10x) légèrement flouté et contrasté (§7.2-7.3) pour glissement continu."""
+    im = big_bg.filter(ImageFilter.GaussianBlur(4))
+    im = ImageEnhance.Brightness(im).enhance(0.80)
+    im = ImageEnhance.Contrast(im).enhance(1.12)
     ov = Image.new("RGBA", im.size, (8, 10, 14, scrim))
-    return Image.alpha_composite(im.convert("RGBA"), ov)
+    return Image.alpha_composite(im.convert("RGBA"), ov).convert("RGB")
 
 def render_wtbw_card(base_rgba, mode, t_local, dur, icons):
     """
@@ -231,7 +240,7 @@ def render_wtbw_card(base_rgba, mode, t_local, dur, icons):
     avec animations fluides et douces des 3 stickers (Like, Clique sur + pour t'abonner, Commente si tu aimes).
     Strictement dans les zones sûres : x in [170, 910], y in [260, 1520]. Aucun code (§7.1).
     """
-    im = base_rgba.copy()
+    im = base_rgba.convert("RGBA")
     d = ImageDraw.Draw(im)
 
     fade_in = min(1.0, t_local / 0.45)
@@ -253,7 +262,7 @@ def render_wtbw_card(base_rgba, mode, t_local, dur, icons):
         f_wtbw, _ = fit_font(d, "SALUT · WTBW", 84, max_w=720, bold=True)
         txt1 = "SALUT · WTBW"
         w1 = d.textlength(txt1, font=f_wtbw)
-        y1 = 420 + int(6 * math.sin(2 * math.pi * t_local / 2.6))
+        y1 = 420 + int(10 * math.sin(2 * math.pi * t_local / 2.0))
         for ox, oy in ((3, 0), (-3, 0), (0, 3), (0, -3)):
             d.text(((W - w1) / 2 + ox, y1 + oy), txt1, fill=(244, 197, 98, 75), font=f_wtbw)
         d.text(((W - w1) / 2, y1), txt1, fill=(255, 255, 255, 255), font=f_wtbw)
@@ -264,7 +273,7 @@ def render_wtbw_card(base_rgba, mode, t_local, dur, icons):
         d.text(((W - w2) / 2, 540), txt2, fill=(215, 232, 242, 245), font=f2)
 
         # Plaque centrale du titre de la chanson
-        d.rounded_rectangle([200, 625, 880, 795], radius=32, fill=(12, 16, 24, 215),
+        d.rounded_rectangle([200, 625, 880, 795], radius=32, fill=(12, 16, 24, 200),
                             outline=(244, 197, 98, 195), width=2)
         txt3 = "CALM IN OFF DOWN — DAÏSKY"
         f3, _ = fit_font(d, txt3, 50, max_w=640, bold=True)
@@ -276,7 +285,7 @@ def render_wtbw_card(base_rgba, mode, t_local, dur, icons):
         txt1 = "BIENVENUE SUR WTBW"
         f1, _ = fit_font(d, txt1, 66, max_w=720, bold=True)
         w1 = d.textlength(txt1, font=f1)
-        y1 = 430 + int(5 * math.sin(2 * math.pi * t_local / 2.4))
+        y1 = 430 + int(10 * math.sin(2 * math.pi * t_local / 2.0))
         d.text(((W - w1) / 2, y1), txt1, fill=(255, 255, 255, 255), font=f1)
 
         txt2 = "Soutiens le son en douceur :"
@@ -294,7 +303,7 @@ def render_wtbw_card(base_rgba, mode, t_local, dur, icons):
         txt1 = "MERCI D'AVOIR ÉCOUTÉ !"
         f1, _ = fit_font(d, txt1, 68, max_w=720, bold=True)
         w1 = d.textlength(txt1, font=f1)
-        y1 = 430 + int(5 * math.sin(2 * math.pi * t_local / 2.4))
+        y1 = 430 + int(10 * math.sin(2 * math.pi * t_local / 2.0))
         d.text(((W - w1) / 2, y1), txt1, fill=(255, 255, 255, 255), font=f1)
 
         txt2 = "Wolof TechStein beat wê (WTBW)"
@@ -317,22 +326,24 @@ def render_wtbw_card(base_rgba, mode, t_local, dur, icons):
     pw, ph = 700, 152
 
     for idx, (k_ico, title_s, sub_s, phase) in enumerate(sticker_specs):
-        dy = int(round(8.0 * math.sin(2 * math.pi * (t_local / 2.2) + phase)))
-        dx = int(round(5.0 * math.cos(2 * math.pi * (t_local / 2.8) + phase)))
-        pulse = 1.0 + 0.045 * math.sin(2 * math.pi * (t_local / 1.6) + phase)
+        dy = int(round(12.0 * math.sin(2 * math.pi * (t_local / 1.8) + phase)))
+        dx = int(round(14.0 * math.cos(2 * math.pi * (t_local / 2.1) + phase)))
+        pulse = 1.0 + 0.05 * math.sin(2 * math.pi * (t_local / 1.4) + phase)
 
         px = (W - pw) // 2 + dx
         py = base_ys[idx] + dy
 
         pill = Image.new("RGBA", (pw + 24, ph + 24), (0, 0, 0, 0))
         dp = ImageDraw.Draw(pill)
-        glow_a = int(165 + 65 * math.sin(2 * math.pi * (t_local / 1.6) + phase))
+        glow_a = int(170 + 75 * math.sin(2 * math.pi * (t_local / 1.4) + phase))
+        fill_luma = int(14 + 10 * math.sin(2 * math.pi * (t_local / 1.8) + phase))
         dp.rounded_rectangle([12, 12, 12 + pw, 12 + ph], radius=42,
-                             fill=(12, 16, 24, 226), outline=(244, 197, 98, glow_a), width=3)
+                             fill=(fill_luma, fill_luma + 4, fill_luma + 12, 212),
+                             outline=(244, 197, 98, glow_a), width=3)
 
         ico_base = icons[k_ico]
         isz = int(round(104 * pulse))
-        ico = ico_base.resize((isz, isz), Image.LANCZOS)
+        ico = ico_base.resize((isz, isz), Image.BILINEAR)
         pill.alpha_composite(ico, (30 - (isz - 104) // 2, 12 + (ph - isz) // 2))
 
         ft, _ = fit_font(dp, title_s, 34, max_w=510, bold=True)
@@ -379,12 +390,7 @@ def bell_frames(n=36):
 
 def clochette_tile(ph, bells, layers):
     T = 720
-    tile = Image.new("RGBA", (T, T), (0, 0, 0, 0))
-    plate = Image.new("RGBA", (T, T), (0, 0, 0, 0))
-    dp = ImageDraw.Draw(plate)
-    dp.rounded_rectangle([34, 8, T - 34, T - 8], radius=54, fill=(8, 12, 18, 182),
-                         outline=(244, 197, 98, 110), width=3)
-    tile = Image.alpha_composite(tile, plate.filter(ImageFilter.GaussianBlur(5)))
+    tile = layers["plate"].copy()
     d = ImageDraw.Draw(tile)
     cx = T // 2
     swing = math.sin(2 * math.pi * ph * (BELL / 1.2))
@@ -395,15 +401,12 @@ def clochette_tile(ph, bells, layers):
     for k in range(2):
         t = (ph * (BELL / 0.9) + k * 0.5) % 1.0
         r = 120 + 150 * t
-        a = int(150 * (1 - t))
+        a = int(165 * (1 - t))
         d.ellipse([cx - r, 150 - r * 0.55, cx + r, 150 + r * 0.55], outline=(244, 197, 98, a), width=4)
     bell = bells[bi]
     bs = int(300 * pulse)
-    bell = bell.resize((bs, bs), Image.LANCZOS)
-    halo = Image.new("RGBA", (bs + 60, bs + 60), (0, 0, 0, 0))
-    ImageDraw.Draw(halo).ellipse([10, 10, bs + 50, bs + 50], fill=(244, 197, 98, 46))
-    halo = halo.filter(ImageFilter.GaussianBlur(18))
-    tile.alpha_composite(halo, (cx - bs // 2 - 30, 40 - 30))
+    bell = bell.resize((bs, bs), Image.BILINEAR)
+    tile.alpha_composite(layers["halo"], (cx - 180, 10))
     tile.alpha_composite(bell, (cx - bs // 2, 40 - 20))
     for j, (sx, sy) in enumerate([(120, 90), (600, 130), (540, 300)]):
         a = int(200 * max(0.0, math.sin(2 * math.pi * (ph * 2 + j / 3.0))))
@@ -419,6 +422,16 @@ def clochette_tile(ph, bells, layers):
 
 def clochette_text_layers():
     T = 720
+    plate = Image.new("RGBA", (T, T), (0, 0, 0, 0))
+    dp = ImageDraw.Draw(plate)
+    dp.rounded_rectangle([34, 8, T - 34, T - 8], radius=54, fill=(6, 10, 16, 199),
+                         outline=(244, 162, 97, 110), width=3)
+    plate = plate.filter(ImageFilter.GaussianBlur(4))
+
+    halo = Image.new("RGBA", (360, 360), (0, 0, 0, 0))
+    ImageDraw.Draw(halo).ellipse([10, 10, 350, 350], fill=(244, 197, 98, 48))
+    halo = halo.filter(ImageFilter.GaussianBlur(18))
+
     lay = Image.new("RGBA", (T, T), (0, 0, 0, 0))
     d = ImageDraw.Draw(lay)
     fA = fnt("ExtraBold", 56)
@@ -451,7 +464,7 @@ def clochette_text_layers():
     rem = "Commente si tu aimes · WTBW"
     w = d.textlength(rem, font=fR)
     d.text(((T - w) / 2, 632), rem, font=fR, fill=(244, 215, 145, 240))
-    return lay
+    return {"txt": lay, "plate": plate, "halo": halo}
 
 def build_timeline(m):
     seg = []
@@ -499,19 +512,19 @@ def main():
         if s["kind"] == "verse" and s["a"] < t_end:
             base(s["img"])
     bells = bell_frames(36)
-    layers = {"txt": clochette_text_layers()}
+    layers = clochette_text_layers()
     icons = make_sticker_icons()
 
     card_bgs = {}
     for i, s in enumerate(seg):
         if s["kind"] == "card" and s["a"] < t_end:
             bgk = m["verses"][0]["image"] if s["a"] < SONG_END else m["verses"][-1]["image"]
-            card_bgs[i] = prepare_card_bg(slide(base(bgk)[0], 0.5, 0.06))
+            card_bgs[i] = prepare_card_bg(base(bgk)[0])
 
     if 0 in card_bgs and not a.preview:
-        render_wtbw_card(card_bgs[0], "intro_1", 1.5, 4.97, icons).save(os.path.join(OUT, "carte-accueil.jpg"), quality=94)
+        render_wtbw_card(slide(card_bgs[0], 0.5, 0.06), "intro_1", 1.5, 4.97, icons).save(os.path.join(OUT, "carte-accueil.jpg"), quality=94)
     if (len(seg) - 1) in card_bgs and not a.preview:
-        render_wtbw_card(card_bgs[len(seg) - 1], "outro", 2.0, 5.00, icons).save(os.path.join(OUT, "carte-finale.jpg"), quality=94)
+        render_wtbw_card(slide(card_bgs[len(seg) - 1], 0.5, 0.06), "outro", 2.0, 5.00, icons).save(os.path.join(OUT, "carte-finale.jpg"), quality=94)
 
     # Vignette : masque L = 0 au centre, ~86 aux coins, flou 34 (§5.5)
     vmask = Image.new("L", (W, H), 0)
@@ -567,7 +580,7 @@ def main():
     si = 0
     prev = None
     badge_cache = {}
-    fB = fnt("ExtraBold", 44)
+    fB = fnt("ExtraBold", 32)
     t_first = m["verses"][0]["t"]
 
     for k in range(n):
@@ -576,10 +589,22 @@ def main():
             si += 1
         s = seg[si]
         if s["kind"] == "card":
-            cur = render_wtbw_card(card_bgs[si], s["card_mode"], t - s["a"], s["b"] - s["a"], icons)
+            u_c = 0.5 - 0.5 * math.cos(math.pi * (t - s["a"]) / 2.1)
+            ax0, ax1, ay0, ay1 = ((0.0, 1.0, 0.02, 0.98), (1.0, 0.0, 0.02, 0.98),
+                                  (0.18, 0.82, 0.98, 0.02), (0.82, 0.18, 0.02, 0.98))[si % 4]
+            ax = ax0 + (ax1 - ax0) * u_c
+            ay = ay0 + (ay1 - ay0) * u_c
+            bg_slide = slide(card_bgs[si], ax, ay)
+            breath = 1.0 + 0.12 * math.sin(2 * math.pi * (t - s["a"]) / 1.7)
+            bg_slide = ImageEnhance.Brightness(bg_slide).enhance(breath)
+            cur = render_wtbw_card(bg_slide, s["card_mode"], t - s["a"], s["b"] - s["a"], icons)
         else:
             big, dmbig = base(s["img"])
-            u = min(1.0, (t - s["a"]) / max(1e-6, s["b"] - s["a"]))
+            seg_dur = max(1e-6, s["b"] - s["a"])
+            if seg_dur > 3.5:
+                u = 0.5 - 0.5 * math.cos(math.pi * (t - s["a"]) / 2.2)
+            else:
+                u = min(1.0, (t - s["a"]) / seg_dur)
             ax0, ax1, ay0, ay1 = ((0.0, 1.0, 0.02, 0.98), (1.0, 0.0, 0.02, 0.98),
                                   (0.18, 0.82, 0.98, 0.02), (0.82, 0.18, 0.02, 0.98))[si % 4]
             ax = ax0 + (ax1 - ax0) * u
@@ -587,7 +612,10 @@ def main():
             cur = slide(big, ax, ay)
             if s["dim"] and t > s["disp"]:
                 g = min(1.0, (t - s["disp"]) / FADE)
-                cur = Image.blend(cur, slide(dmbig, ax, ay), g)
+                dm_frame = slide(dmbig, ax, ay)
+                breath = 1.0 + 0.12 * math.sin(2 * math.pi * (t - s["disp"]) / 1.7)
+                dm_frame = ImageEnhance.Brightness(dm_frame).enhance(breath)
+                cur = Image.blend(cur, dm_frame, g)
         if prev is not None and (t - s["a"]) < FADE and si > 0:
             cur = Image.blend(prev, cur, min(1.0, (t - s["a"]) / FADE))
         cur = cur.convert("RGBA")
@@ -597,22 +625,22 @@ def main():
             # Traduction française défilante mot à mot dans y=1352..1504
             render_fr_translation(cur, s.get("trad_fr", ""), t, s["a"], s["disp"])
 
-            # Badge « Daïsky » (§7.4 : jamais pendant les cartes ni pendant un CTA)
+            # Badge « Daïsky » (§7.4 : jamais pendant les cartes ni pendant un CTA, haut y=146..184 hors visage)
             ai = min(1.0, (t - s["a"]) / 0.4, (s["b"] - t) / 0.4)
             if ai > 0.01:
                 key = int(round(ai * 8))
                 if key not in badge_cache:
-                    bd = Image.new("RGBA", (W, 120), (0, 0, 0, 0))
+                    bd = Image.new("RGBA", (W, 50), (0, 0, 0, 0))
                     dd = ImageDraw.Draw(bd)
                     w0 = dd.textlength("Daïsky", font=fB)
                     x0 = (W - w0) / 2
                     a_val = int(255 * BADGE_ALPHA * key / 8)
                     for ox, oy in ((-2, -2), (2, -2), (-2, 2), (2, 2), (0, 3)):
-                        dd.text((x0 + ox, 40 + oy), "Daïsky", font=fB, fill=(6, 10, 16, int(a_val * 0.78)))
-                    dd.text((x0, 40), "Daïsky", font=fB, fill=(255, 255, 255, a_val))
-                    dd.line([((W - w0) / 2, 100), ((W + w0) / 2, 100)], fill=(244, 197, 98, int(185 * key / 8)), width=3)
+                        dd.text((x0 + ox, 2 + oy), "Daïsky", font=fB, fill=(6, 10, 16, int(a_val * 0.82)))
+                    dd.text((x0, 2), "Daïsky", font=fB, fill=(255, 255, 255, a_val))
+                    dd.line([((W - w0) / 2, 41), ((W + w0) / 2, 41)], fill=(244, 197, 98, int(185 * key / 8)), width=2)
                     badge_cache[key] = bd
-                cur.alpha_composite(badge_cache[key], (0, 160))
+                cur.alpha_composite(badge_cache[key], (0, 144))
 
         if s["kind"] == "verse":
             fr = max(0.0, min(1.0, (t - t_first) / (SONG_END - t_first)))  # filet de progression y=1560 (§7.4)

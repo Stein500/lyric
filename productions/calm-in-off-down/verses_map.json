@@ -10,19 +10,8 @@
   "duree_decodee_s": 183.61,
   "nb_vers": 42,
   "plans_distinctes": 39,
-  "plans_disponibles": 29,
-  "plans_manquantes": [
-    "fonds/scene-32.png",
-    "fonds/scene-33.png",
-    "fonds/scene-34.png",
-    "fonds/v-140-13-aube.png",
-    "fonds/v-146-60-aube.png",
-    "fonds/v-149-86-aube.png",
-    "fonds/scene-35.png",
-    "fonds/scene-36.png",
-    "fonds/scene-37-final.png",
-    "fonds/v-164-33-aube.png"
-  ],
+  "plans_disponibles": 39,
+  "plans_manquantes": [],
   "qc_a_regenerer": [],
   "fenetres_clochettes": [
     [
@@ -464,7 +453,7 @@
       "langue": "EN",
       "traduction_fr": "Ceux qui parlent le moins portent les choses les plus profondes.",
       "image": "fonds/scene-32.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 3 — regard profond et serein sous l'aube claire, cœur love & ancre marine"
     },
@@ -477,7 +466,7 @@
       "langue": "EN",
       "traduction_fr": "Je suis l'œil du cyclone — je suis ce que tu ne peux atteindre,",
       "image": "fonds/scene-33.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 3 — spin central immobile au milieu du vent lumineux, cœur love & spirale"
     },
@@ -490,7 +479,7 @@
       "langue": "EN",
       "traduction_fr": "Quand le monde hurle — le silence devient ma parole.",
       "image": "fonds/scene-34.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 3 — pose magistrale face à la ville qui s'éveille, cœur love & couronne d'ondes"
     },
@@ -503,7 +492,7 @@
       "langue": "EN+ES",
       "traduction_fr": "Calme dans l'ombre — j'éteins le bruit,",
       "image": "fonds/v-140-13-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Refrain final 1/4 — variante AUBE dédiée (§9, rayons dorés du matin sur le cypher)"
     },
@@ -529,7 +518,7 @@
       "langue": "EN",
       "traduction_fr": "Calme dans l'ombre — sans lumières, sans scène,",
       "image": "fonds/v-146-60-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Refrain final 3/4 — variante AUBE dédiée (§9, toit ouvert sous le ciel d'or)"
     },
@@ -542,7 +531,7 @@
       "langue": "ES+EN",
       "traduction_fr": "Seul avec l'obscurité — nous avons tous deux le même âge.",
       "image": "fonds/v-149-86-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Refrain final 4/4 — variante AUBE dédiée (§9, l'ombre vaincue par le matin doré)"
     },
@@ -555,7 +544,7 @@
       "langue": "EN",
       "traduction_fr": "Calme dans l'ombre — mais le feu ne s'est jamais éteint,",
       "image": "fonds/scene-35.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Outro 1/4 — danse solaire ardente face au soleil levant, cœur love & flamme éternelle"
     },
@@ -568,7 +557,7 @@
       "langue": "EN",
       "traduction_fr": "TechStein dans le noir — regarde-nous surgir de l'intérieur.",
       "image": "fonds/scene-36.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Outro 2/4 — élévation victorieuse en pleine clarté d'aube, cœur love & flèche montante"
     },
@@ -581,7 +570,7 @@
       "langue": "EN",
       "traduction_fr": "Calme dans l'ombre",
       "image": "fonds/scene-37-final.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Outro 3/4 (Plan final) — freeze final iconique devant le grand soleil levant doré, cœur love & couronne"
     },
@@ -594,7 +583,7 @@
       "langue": "WTBW",
       "traduction_fr": "",
       "image": "fonds/v-164-33-aube.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Outro 4/4 (Signature finale) — variante AUBE dédiée (§9, salut WTBW en plein soleil levant)"
     }
