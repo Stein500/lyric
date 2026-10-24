@@ -10,18 +10,8 @@
   "duree_decodee_s": 183.61,
   "nb_vers": 42,
   "plans_distinctes": 39,
-  "plans_disponibles": 19,
+  "plans_disponibles": 29,
   "plans_manquantes": [
-    "fonds/scene-14.png",
-    "fonds/scene-21.png",
-    "fonds/scene-22.png",
-    "fonds/scene-24.png",
-    "fonds/scene-25.png",
-    "fonds/scene-27.png",
-    "fonds/scene-28.png",
-    "fonds/scene-29.png",
-    "fonds/scene-30.png",
-    "fonds/scene-31.png",
     "fonds/scene-32.png",
     "fonds/scene-33.png",
     "fonds/scene-34.png",
@@ -240,7 +230,7 @@
       "langue": "ES",
       "traduction_fr": "J'ai éteint les voix qui me disaient non,",
       "image": "fonds/scene-14.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 2 (ES) — geste de balayage puissant dispersant les ombres, cœur love & croix sonore"
     },
@@ -331,7 +321,7 @@
       "langue": "ES",
       "traduction_fr": "Chaque mot que je lâche est un impact qui frappe juste.",
       "image": "fonds/scene-21.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 2 (ES) — punch chorégraphique précis en rythme, cœur love & impact électrique"
     },
@@ -344,7 +334,7 @@
       "langue": "EN",
       "traduction_fr": "Parfois la chose la plus forte que tu entendras",
       "image": "fonds/scene-22.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Pont 1/4 — silence suspendu sous les premières lueurs d'aube, cœur love & onde pure"
     },
@@ -357,7 +347,7 @@
       "langue": "EN",
       "traduction_fr": "c'est un homme qui a choisi de disparaître.",
       "image": "fonds/scene-22.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": true,
       "note": "Pont 2/4 — suite de la phrase sur le même plan d'aube naissante, traduction FR défilante 2/2"
     },
@@ -370,7 +360,7 @@
       "langue": "EN",
       "traduction_fr": "Je me suis retiré des radars pour trouver ma force intérieure,",
       "image": "fonds/scene-24.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Pont 3/4 — toit urbain hors-réseau face à l'horizon naissant, cœur love & boussole interne"
     },
@@ -383,7 +373,7 @@
       "langue": "EN",
       "traduction_fr": "Je suis revenu transformé — que le vrai moi commence.",
       "image": "fonds/scene-25.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Pont 4/4 — ouverture des bras face aux premières lueurs dorées, cœur love & phénix"
     },
@@ -409,7 +399,7 @@
       "langue": "EN",
       "traduction_fr": "Regarde comment je bouge — calme mais calculé,",
       "image": "fonds/scene-27.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 3 — footwork millimétré dans la lumière matinale, cœur love & compas"
     },
@@ -422,7 +412,7 @@
       "langue": "EN",
       "traduction_fr": "Chaque pas délibéré, rien n'a été gâché.",
       "image": "fonds/scene-28.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 3 — glissé précis sur le sol baigné d'aube, cœur love & empreinte dorée"
     },
@@ -435,7 +425,7 @@
       "langue": "EN",
       "traduction_fr": "Ils voulaient le drame — je leur ai donné la distance,",
       "image": "fonds/scene-29.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 3 — pas de retrait élégant et souverain, cœur love & horizon"
     },
@@ -448,7 +438,7 @@
       "langue": "EN",
       "traduction_fr": "J'ai refusé chaque offre qui manquait de substance.",
       "image": "fonds/scene-30.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 3 — main levée en refus calme et digne, cœur love & diamant pur"
     },
@@ -461,7 +451,7 @@
       "langue": "EN",
       "traduction_fr": "Le calme dans l'ombre est une arme, pas une faiblesse,",
       "image": "fonds/scene-31.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 3 — posture d'arts martiaux / street-dance maîtrisée, cœur love & lame de lumière"
     },
