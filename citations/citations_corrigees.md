@@ -891,16 +891,39 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 
 **323.** `HORS CHAMP` — téléphone retourné sur la table de nuit — « Pose ton téléphone une heure avant le lit : la nuit n'aime pas les écrans. » *(source : INSV — lumière bleue supprime la mélatonine ; Chang et al. 2015)*
 
-**324.** `LE FRAIS` — chambre sombre, rideau qui respire — « Laisse la chambre fraîche et sombre : le sommeil adore le frais. » *(source : INSV/INPES — 16-20 °C, obscurité totale)*
+**324.** `LE TERRITOIRE` — lit parfait, une seule lampe — « Réserve ton lit au sommeil : il apprend ce qu'on lui demande. » *(source : INPES — la chambre ne sert qu'à dormir ; format corrigé portrait)*
 
 **325.** `L'ÉTALONNAGE` — silhouette face au lever du soleil — « Va chercher le soleil dès le matin : c'est lui qui règle ta nuit. » *(source : INSV — lumière du jour le matin régule l'horloge biologique)*
 
-**326.** `LA SOUPE DU SOIR` — dîner léger à la bougie — « Dîne léger et tôt : la nuit a mieux à faire que digérer. » *(source : INSV — dîner léger au moins 2 h avant le coucher)*
+**326.** `LE FRAIS` — chambre sombre, rideau qui respire — « Laisse la chambre fraîche et sombre : le sommeil adore le frais. » *(source : INSV/INPES — 16-20 °C, obscurité totale ; format corrigé portrait)*
 
 **327.** `LA PAUSE JUSTE` — hamac sous le porche — « Garde la sieste courte : vingt minutes suffisent pour te refaire. » *(source : Inserm — sieste type 15-20 min, gain de vigilance sans inertie)*
 
-**328.** `LE TERRITOIRE` — lit parfait, une seule lampe — « Réserve ton lit au sommeil : il apprend ce qu'on lui demande. » *(source : INPES — la chambre ne sert qu'à dormir)*
+**328.** `LA SOUPE DU SOIR` — dîner léger à la bougie — « Dîne léger et tôt : la nuit a mieux à faire que digérer. » *(source : INSV — dîner léger au moins 2 h avant le coucher ; format corrigé portrait)*
 
 **329.** `LE SOUFFLE` — respiration lente devant la lune — « Respire doucement le soir, expire plus longtemps : la nuit suit ton souffle. » *(source : INSV — activités calmes, relaxation, respiration)*
 
 **330.** `LA GRÂCE DU RETOUR` — livre ouvert sous la lampe — « Si le sommeil te fuit, lève-toi, lis, reviens : ne force jamais la nuit. » *(source : INSV — en cas d'insomnie : se lever, activité calme, revenir quand le sommeil revient)*
+
+## SAISON 2 — Série ART XXVIII (331 → 340) — « LE GOÛT DE LA VILLE » (fast-foods, plaisir de tester)
+*10 gestes de plaisir urbain — pizza, burger, frites, poulet frit, sauces, spots nocturnes, shawarma, plat du jour, partage, glace. Images noir uniquement (food photography fond noir, lumière dramatique). Orthographe vérifiée 10/10, formats portrait vérifiés 10/10, mapping conforme au prévu.*
+
+**331.** `À LA SORTIE DU FOUR` — pizza fumante sur bois sombre — « Goûte la pizza à la sortie du four : elle n'attend personne. »
+
+**332.** `À DEUX MAINS` — double burger sur ardoise — « Le burger se tient à deux mains : c'est un engagement. »
+
+**333.** `LE TEST DES FRITES` — cône de frites, sel qui tombe — « Teste d'abord les frites : elles disent si la cuisine est sérieuse. »
+
+**334.** `LE CROUSTILLE` — poulet frit fumant — « Mange le poulet frit pendant qu'il croustille : le plaisir n'attend pas. »
+
+**335.** `LA VRAIE MAISON` — trois coupelles de sauces — « Prends la sauce à part : elle révèle la vraie maison. »
+
+**336.** `LE NOUVEAU SPOT` — rue noire, feu lointain — « Teste chaque semaine un nouveau spot : la ville cache des trésors. »
+
+**337.** `SUIS LE FEU` — shawarma coupé, braise au fond — « Un bon shawarma se reconnaît à sa fumée : suis le feu. »
+
+**338.** `LE PLAT DU JOUR` — cloche soulevée, vapeur — « Demande le plat du jour : c'est là que le chef met son cœur. »
+
+**339.** `À DEUX` — plateau partagé, mains qui tendent — « Partage ton plateau : le plaisir double en bonne compagnie. »
+
+**340.** `LA DERNIÈRE GORGÉE` — cône de glace qui coule — « Termine par une glace : le sourire vient tout seul. »
