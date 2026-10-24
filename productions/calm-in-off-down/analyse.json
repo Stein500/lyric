@@ -1,0 +1,28 @@
+{
+  "fichier_source": "Calm_in _off_down Daïsky.m4a",
+  "codec_source": "opus (48000 Hz, stereo, 133 kb/s)",
+  "taille_source_octets": 3054575,
+  "duree_decodee_s": 183.61,
+  "duree_decodee_exacte_s": 183.6135,
+  "duree_format": "00:03:03.61",
+  "pass1_input_i_lufs": -13.50,
+  "pass1_input_tp_dbtp": -0.72,
+  "pass1_input_lra_lu": 5.60,
+  "pass1_input_thresh_lufs": -23.70,
+  "pass1_target_offset_lu": -0.60,
+  "silences_3_5s_42db": [
+    {
+      "start": 179.824,
+      "end": 183.614,
+      "duration": 3.789
+    }
+  ],
+  "master_noart": "livrables/_master_noart.mp3",
+  "master_bitrate": "320k CBR, 48000 Hz, stereo (-vn)",
+  "master_integrated_lufs": -14.0,
+  "master_lra_lu": 4.4,
+  "master_true_peak_dbfs": -1.4,
+  "master_astats_peak_db": -1.42,
+  "master_samples": 8813448,
+  "systeme_code": false
+}
