@@ -9,25 +9,14 @@
   "fps": 30,
   "duree_decodee_s": 183.61,
   "nb_vers": 42,
-  "plans_distinctes": 42,
-  "plans_disponibles": 10,
+  "plans_distinctes": 39,
+  "plans_disponibles": 19,
   "plans_manquantes": [
-    "fonds/scene-11.png",
-    "fonds/scene-12.png",
-    "fonds/scene-13.png",
     "fonds/scene-14.png",
-    "fonds/scene-15.png",
-    "fonds/scene-16.png",
-    "fonds/scene-17.png",
-    "fonds/scene-18.png",
-    "fonds/scene-19.png",
-    "fonds/scene-20.png",
     "fonds/scene-21.png",
     "fonds/scene-22.png",
-    "fonds/scene-23.png",
     "fonds/scene-24.png",
     "fonds/scene-25.png",
-    "fonds/scene-26.png",
     "fonds/scene-27.png",
     "fonds/scene-28.png",
     "fonds/scene-29.png",
@@ -37,7 +26,6 @@
     "fonds/scene-33.png",
     "fonds/scene-34.png",
     "fonds/v-140-13-aube.png",
-    "fonds/v-143-66-aube.png",
     "fonds/v-146-60-aube.png",
     "fonds/v-149-86-aube.png",
     "fonds/scene-35.png",
@@ -213,7 +201,7 @@
       "langue": "EN+ES",
       "traduction_fr": "Tout est immobile mais mon âme reste embrasée.",
       "image": "fonds/scene-11.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Refrain 2/4 — freeze immobile entouré de braises dorées intérieures, cœur love & flamme"
     },
@@ -226,7 +214,7 @@
       "langue": "EN",
       "traduction_fr": "Calme dans l'ombre — sans lumières, sans scène,",
       "image": "fonds/scene-12.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Refrain 3/4 — pas de battle dans l'entrepôt brut sans estrade, cœur love & projecteur éteint"
     },
@@ -239,7 +227,7 @@
       "langue": "ES+EN",
       "traduction_fr": "Seul avec l'obscurité — nous avons tous deux le même âge.",
       "image": "fonds/scene-13.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Refrain 4/4 — duo d'ombres chorégraphique avec sa propre silhouette, cœur love & croissant nocturne"
     },
@@ -265,7 +253,7 @@
       "langue": "ES",
       "traduction_fr": "J'ai fait taire les peurs — je les ai brûlées une à une.",
       "image": "fonds/scene-15.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 2 (ES) — pas de danse ardent faisant voler des étincelles d'or, cœur love & torche"
     },
@@ -278,7 +266,7 @@
       "langue": "ES",
       "traduction_fr": "Au fond du silence j'ai trouvé ma vraie version,",
       "image": "fonds/scene-16.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 2 (ES) — reflet pur au sol révélant son vrai visage dégagé, cœur love & miroir"
     },
@@ -291,7 +279,7 @@
       "langue": "ES",
       "traduction_fr": "Pas celle que le monde voulait — celle qui fut toujours loyale.",
       "image": "fonds/scene-17.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 2 (ES) — posture droite et loyale, main sur le torse, cœur love & couronne fidèle"
     },
@@ -304,7 +292,7 @@
       "langue": "EN+ES",
       "traduction_fr": "Calme dans l'ombre, mais le feu brûle encore,",
       "image": "fonds/scene-18.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 2 (ES) — groove calme traversé d'une aura de feu doré, cœur love & brasier"
     },
@@ -317,7 +305,7 @@
       "langue": "ES",
       "traduction_fr": "Le calme est mon armure quand le monde s'écroule.",
       "image": "fonds/scene-19.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 2 (ES) — posture de titan imperturbable sous les éclats, cœur love & armure"
     },
@@ -330,7 +318,7 @@
       "langue": "ES",
       "traduction_fr": "Je ne parle pas pour qu'on m'écoute — je parle pour que ça résonne,",
       "image": "fonds/scene-20.png",
-      "disponible": false,
+      "disponible": true,
       "reprise": false,
       "note": "Couplet 2 (ES) — stomp de battle faisant vibrer le sol en ondes d'or, cœur love & onde de choc"
     },
@@ -358,7 +346,7 @@
       "image": "fonds/scene-22.png",
       "disponible": false,
       "reprise": false,
-      "note": "Pont 1/5 — silence suspendu sous les premières lueurs d'aube, cœur love & onde pure"
+      "note": "Pont 1/4 — silence suspendu sous les premières lueurs d'aube, cœur love & onde pure"
     },
     {
       "i": 23,
@@ -368,10 +356,10 @@
       "texte": "is a man who chose to disappear.",
       "langue": "EN",
       "traduction_fr": "c'est un homme qui a choisi de disparaître.",
-      "image": "fonds/scene-23.png",
+      "image": "fonds/scene-22.png",
       "disponible": false,
-      "reprise": false,
-      "note": "Pont 2/5 — silhouette en recul gracieux dans la brume d'aube, cœur love & éclipse"
+      "reprise": true,
+      "note": "Pont 2/4 — suite de la phrase sur le même plan d'aube naissante, traduction FR défilante 2/2"
     },
     {
       "i": 24,
@@ -384,7 +372,7 @@
       "image": "fonds/scene-24.png",
       "disponible": false,
       "reprise": false,
-      "note": "Pont 3/5 — toit urbain hors-réseau face à l'horizon naissant, cœur love & boussole interne"
+      "note": "Pont 3/4 — toit urbain hors-réseau face à l'horizon naissant, cœur love & boussole interne"
     },
     {
       "i": 25,
@@ -397,7 +385,7 @@
       "image": "fonds/scene-25.png",
       "disponible": false,
       "reprise": false,
-      "note": "Pont 4/5 — ouverture des bras face aux premières lueurs dorées, cœur love & phénix"
+      "note": "Pont 4/4 — ouverture des bras face aux premières lueurs dorées, cœur love & phénix"
     },
     {
       "i": 26,
@@ -407,10 +395,10 @@
       "texte": "Wè — wè — TechSteinBeat wè...",
       "langue": "WTBW",
       "traduction_fr": "",
-      "image": "fonds/scene-26.png",
-      "disponible": false,
-      "reprise": false,
-      "note": "Pont 5/5 (Signature) — groove WTBW sous l'aube naissante, cœur love & vinyle d'or"
+      "image": "fonds/scene-02.png",
+      "disponible": true,
+      "reprise": true,
+      "note": "Reprise signature producteur WTBW"
     },
     {
       "i": 27,
@@ -537,10 +525,10 @@
       "texte": "Everything is still but my soul stays encendido.",
       "langue": "EN+ES",
       "traduction_fr": "Tout est immobile mais mon âme reste embrasée.",
-      "image": "fonds/v-143-66-aube.png",
-      "disponible": false,
+      "image": "fonds/scene-11.png",
+      "disponible": true,
       "reprise": true,
-      "note": "Refrain final 2/4 — variante AUBE dédiée (§9, âme embrasée dans la lumière du soleil levant)"
+      "note": "Refrain final 2/4 — reprise du freeze embrasé d'or (déjà lumineux) — contrôlé OK"
     },
     {
       "i": 37,

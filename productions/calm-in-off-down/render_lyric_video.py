@@ -115,13 +115,26 @@ def render_fr_translation(cur_rgba, trad_fr, t, a, disp):
     by = 1500 - box_h // 2
 
     # Plaque sombre translucide + liseré or/cyan discret
+    py0 = by - 1400
+    py1 = py0 + box_h
     d.rounded_rectangle(
-        [bx, by - 1400, bx + box_w, by - 1400 + box_h],
+        [bx, py0, bx + box_w, py1],
         radius=24,
-        fill=(8, 12, 18, int(218 * alpha_mult)),
-        outline=(244, 197, 98, int(175 * alpha_mult)),
+        fill=(8, 12, 18, int(222 * alpha_mult)),
+        outline=(244, 197, 98, int(185 * alpha_mult)),
         width=2,
     )
+    # Curseur de défilement karaoké au bas de la pilule française
+    bar_x0 = bx + 24
+    bar_w_max = box_w - 48
+    d.rectangle([bar_x0, py1 - 6, bar_x0 + bar_w_max, py1 - 3], fill=(235, 240, 248, int(55 * alpha_mult)))
+    d.rectangle(
+        [bar_x0, py1 - 6, bar_x0 + int(bar_w_max * u_word), py1 - 3],
+        fill=(255, 222, 118, int(235 * alpha_mult)),
+    )
+
+    # Léger glissement horizontal fluideaccompagnant le défilement mot à mot
+    dx_glide = int(round((0.5 - u_word) * 18.0))
 
     w_idx = 0
     for li, lwords in enumerate(lines):
@@ -131,22 +144,27 @@ def render_fr_translation(cur_rgba, trad_fr, t, a, disp):
             for j, w in enumerate(lwords)
         ]
         total_w = sum(widths) + space_w * max(0, len(lwords) - 1)
-        x = (W - total_w) / 2.0
-        y = (by - 1400) + 10 + li * line_h
+        x = (W - total_w) / 2.0 + dx_glide
+        y = py0 + 8 + li * line_h
 
         for j, w in enumerate(lwords):
             g_idx = w_idx + j
             fn = f_act if g_idx == active_idx else f_reg
             if g_idx == active_idx:
-                # Halo 3 px (§0) + couleur or chaud actif
+                # Pastille lumineuse douce sous le mot actif + Halo 3 px (§0) + couleur or chaud actif
+                d.rounded_rectangle(
+                    [x - 6, y - 2, x + widths[j] + 6, y + line_h - 2],
+                    radius=10,
+                    fill=(244, 197, 98, int(52 * alpha_mult)),
+                )
                 for ox, oy in ((-3, 0), (3, 0), (0, -3), (0, 3), (-2, -2), (2, 2), (-2, 2), (2, -2)):
-                    d.text((x + ox, y + oy), w, font=fn, fill=(6, 10, 16, int(235 * alpha_mult)))
-                d.text((x, y), w, font=fn, fill=(255, 222, 118, int(255 * alpha_mult)))
+                    d.text((x + ox, y + oy), w, font=fn, fill=(6, 10, 16, int(240 * alpha_mult)))
+                d.text((x, y), w, font=fn, fill=(255, 224, 122, int(255 * alpha_mult)))
             elif g_idx < active_idx:
                 # Mot déjà prononcé : blanc crème net
                 for ox, oy in ((-2, 0), (2, 0), (0, -2), (0, 2)):
-                    d.text((x + ox, y + oy), w, font=fn, fill=(6, 10, 16, int(200 * alpha_mult)))
-                d.text((x, y), w, font=fn, fill=(244, 247, 252, int(238 * alpha_mult)))
+                    d.text((x + ox, y + oy), w, font=fn, fill=(6, 10, 16, int(205 * alpha_mult)))
+                d.text((x, y), w, font=fn, fill=(244, 247, 252, int(240 * alpha_mult)))
             else:
                 # Mot à venir : adouci (§0)
                 for ox, oy in ((-2, 0), (2, 0), (0, -2), (0, 2)):
