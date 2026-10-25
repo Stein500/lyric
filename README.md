@@ -378,3 +378,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 338 | Le plat du jour | cloche vapeur noir |
 | 339 | À deux | plateau partagé noir |
 | 340 | La dernière gorgée | glace noir |
+| 341 | Le miel éternel | pot de miel v4 |
+| 342 | Le test de l'œuf | œuf dans l'eau v4 |
+| 343 | La voisine gênante | banane + fruits v4 |
+| 344 | Le sel invisible | sel dans café v4 |
+| 345 | Le pompier blanc | lait anti-piquant v4 |
+| 346 | Le nettoyant jaune | citron anti-ail v4 |
+| 347 | Le gardien moelleux | pain sur gâteau v4 |
+| 348 | Le faux coupable | pomme + patates v4 |
+| 349 | Le bouclier vert | citron avocat v4 |
+| 350 | L'oignon tranquille | oignon frais v4 |
