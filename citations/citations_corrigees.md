@@ -950,3 +950,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **349.** `LE BOUCLIER VERT` — citron pressé sur l'avocat — « Un filet de citron sur l'avocat : le vert reste vert. » / "Lemon keeps green green."
 
 **350.** `L'OIGNON TRANQUILLE` — oignon entier au bord de la fenêtre — « Refroidis l'oignon avant de le couper : il ne te fera pas pleurer. » / "Cold onions don't cry."
+
+## SAISON 2 — Série ART XXX (351 → 360) — « LES SECRETS DES ALIMENTS — VOL. 2 »
+*10 nouvelles astuces de cuisine. Branding v4 (DSKY WTBW universel + citation anglaise, typo renforcée 20 pt semi-gras). Formats portrait 10/10, orthographe 10/10, mapping conforme 10/10.*
+
+**351.** `L'EAU CLAIRE` — riz rinçant sous le robinet — « Lave le riz jusqu'à l'eau claire : chaque grain se détache. » / "Rice loves clean water."
+
+**352.** `HORS DU FROID` — tomates au rebord de la fenêtre — « Ne mets pas la tomate au frigo : le froid lui vole son goût. » / "Tomatoes hate the fridge."
+
+**353.** `LE BOUQUET VIVANT` — basilic en verre d'eau — « Garde le basilic dans l'eau, comme un bouquet : il vit des jours. » / "Basil lives in water."
+
+**354.** `LE BAIN DE SOIE` — chocolat fondu au bain-marie — « Le chocolat fond au bain-marie, jamais à feu direct : il devient soie. » / "Chocolate loves a bath."
+
+**355.** `LA PAUSE DU JUS` — steak sous une tente de papier alu — « Laisse la viande se reposer après le feu : le jus reste en elle. » / "Let the meat rest."
+
+**356.** `LE SEL DU DÉBUT` — sel versé dans l'eau bouillante des pâtes — « Sale l'eau des pâtes avant : c'est là qu'elles prennent le goût. » / "Salt the water first."
+
+**357.** `LE VELVET` — noix de beurre froid dans la sauce rouge — « Une noix de beurre froid à la fin : la sauce devient velours. » / "Cold butter, silky sauce."
+
+**358.** `LE YAOURT DOUX` — marinade blanche aux herbes — « Une marinade au yaourt attendrit la viande, sans effort. » / "Yogurt makes it tender."
+
+**359.** `LE RATTRAPAGE` — demi-citron à côté de la casserole — « Trop salé ? Une pointe de citron rattrape la sauce. » / "Acid fixes salt."
+
+**360.** `LE FIL TRANCHANT` — couteau sur pierre à aiguiser — « Un couteau bien aiguisé coupe mieux et blesse moins. » / "A sharp knife is safer."

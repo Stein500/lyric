@@ -388,3 +388,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 348 | Le faux coupable | pomme + patates v4 |
 | 349 | Le bouclier vert | citron avocat v4 |
 | 350 | L'oignon tranquille | oignon frais v4 |
+| 351 | L'eau claire | riz rinçant v4 |
+| 352 | Hors du froid | tomates fenêtre v4 |
+| 353 | Le bouquet vivant | basilic en eau v4 |
+| 354 | Le bain de soie | chocolat bain-marie v4 |
+| 355 | La pause du jus | steak au repos v4 |
+| 356 | Le sel du début | sel pâtes v4 |
+| 357 | Le velvet | beurre dans sauce v4 |
+| 358 | Le yaourt doux | marinade blanche v4 |
+| 359 | Le rattrapage | citron anti-sel v4 |
+| 360 | Le fil tranchant | couteau aiguisé v4 |
