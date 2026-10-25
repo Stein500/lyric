@@ -39,6 +39,16 @@ EN = {
     348: "An apple stops the sprouts.",
     349: "Lemon keeps green green.",
     350: "Cold onions don't cry.",
+    351: "Rice loves clean water.",
+    352: "Tomatoes hate the fridge.",
+    353: "Basil lives in water.",
+    354: "Chocolate loves a bath.",
+    355: "Let the meat rest.",
+    356: "Salt the water first.",
+    357: "Cold butter, silky sauce.",
+    358: "Yogurt makes it tender.",
+    359: "Acid fixes salt.",
+    360: "A sharp knife is safer.",
 }
 
 
@@ -90,9 +100,9 @@ def brand_tiktok(num):
                   txt+(240,), tr=4.2, anchor_center_x=W/2, shadow=(0, 0, 0, 170))
     fen = EN.get(num)
     if fen:
-        fen_f = montserrat(15, 500)
-        draw_tracking(d, (0, fy+34), fen, fen_f, txt+(185,), tr=1.6,
-                      anchor_center_x=W/2, shadow=(0, 0, 0, 150))
+        fen_f = montserrat(20, 700)
+        draw_tracking(d, (0, fy+34), fen, fen_f, txt+(255,), tr=2.4,
+                      anchor_center_x=W/2, shadow=(0, 0, 0, 220))
 
     # ---- CTA (aéré : gap 46, se termine ~y=1582, loin des overlays TikTok) ----
     cta = [("LIKE", icon_heart), ("COMMENTE", icon_comment),
