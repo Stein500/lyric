@@ -927,3 +927,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **339.** `À DEUX` — plateau partagé, mains qui tendent — « Partage ton plateau : le plaisir double en bonne compagnie. »
 
 **340.** `LA DERNIÈRE GORGÉE` — cône de glace qui coule — « Termine par une glace : le sourire vient tout seul. »
+
+## SAISON 2 — Série ART XXIX (341 → 350) — « LES SECRETS DES ALIMENTS »
+*10 astuces de cuisine universelles. NOUVEAU BRANDING v4 : signature « DSKY WTBW », badge sans drapeau (universel), + citation anglaise discrète sous la signature. Formats portrait vérifiés 10/10, orthographe 10/10, mapping conforme (base-347 sans guillemets, accepté).*
+
+**341.** `LE MIEL ÉTERNEL` — pot de miel rétroéclairé — « Le miel ne périme jamais : ferme-le bien, il t'attendra. » / "Honey never spoils."
+
+**342.** `LE TEST DE L'ŒUF` — œuf dans un bol d'eau — « Plonge l'œuf dans l'eau : s'il coule, il est bon ; s'il flotte, laisse-le. » / "Fresh eggs sink."
+
+**343.** `LA VOISINE GÊNANTE` — banane mûre au milieu des fruits — « La banane mûrit tout ce qui l'entoure : pose-la à part, ou utilise-la. » / "A banana ripens the rest."
+
+**344.** `LE SEL INVISIBLE` — pincée de sel au-dessus du café — « Une pincée de sel dans le café chasse l'amertume, sans se faire voir. » / "A pinch of salt kills bitterness."
+
+**345.** `LE POMPIER BLANC` — plat pimenté et verre de lait — « Quand ça pique, bois du lait : l'eau n'y peut rien. » / "Milk tames the fire."
+
+**346.** `LE NETTOYANT JAUNE` — mains rincées, citron et ail — « Frotte tes mains avec du citron : l'odeur d'ail s'en va. » / "Lemon erases garlic."
+
+**347.** `LE GARDIEN MOELLEUX` — tranche de pain sur le gâteau — « Une tranche de pain dans la boîte : ton gâteau reste moelleux. » / "Bread keeps the cake soft."
+
+**348.** `LE FAUX COUPABLE` — pomme rouge sur le sac de pommes de terre — « Une pomme dans le sac, et les pommes de terre oublient de germer. » / "An apple stops the sprouts."
+
+**349.** `LE BOUCLIER VERT` — citron pressé sur l'avocat — « Un filet de citron sur l'avocat : le vert reste vert. » / "Lemon keeps green green."
+
+**350.** `L'OIGNON TRANQUILLE` — oignon entier au bord de la fenêtre — « Refroidis l'oignon avant de le couper : il ne te fera pas pleurer. » / "Cold onions don't cry."

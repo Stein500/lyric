@@ -20,12 +20,26 @@ import os
 import sys
 from PIL import Image, ImageDraw
 from compose import (ROOT, montserrat, draw_tracking, tracking_w, draw_badge,
-                     draw_flag, grain, STYLES)
+                     grain, STYLES)
 from compose_s2 import icon_heart, icon_comment, icon_share, icon_plus
 from compose_art import ART
 
 W, H = 1080, 1920
 SHIFT = 250          # décalage vertical de l'œuvre (sous la barre TikTok)
+
+# v4 universel — citation anglaise discrète sous la signature (salves 341+)
+EN = {
+    341: "Honey never spoils.",
+    342: "Fresh eggs sink.",
+    343: "A banana ripens the rest.",
+    344: "A pinch of salt kills bitterness.",
+    345: "Milk tames the fire.",
+    346: "Lemon erases garlic.",
+    347: "Bread keeps the cake soft.",
+    348: "An apple stops the sprouts.",
+    349: "Lemon keeps green green.",
+    350: "Cold onions don't cry.",
+}
 
 
 def brand_tiktok(num):
@@ -68,24 +82,17 @@ def brand_tiktok(num):
     wnum = tracking_w(d, t, fnum, 3)
     draw_tracking(d, (W-m-wnum, yb+14), t, fnum, acc+(255,), tr=3, shadow=(0, 0, 0, 170))
 
-    # ---- signature + drapeaux ----
+    # ---- signature + citation anglaise (v4 universel : sans drapeau) ----
     fy = 1478
     d.rectangle([W/2-28, fy-36, W/2+28, fy-33], fill=acc+(255,))
     fsig = montserrat(25, 700)
-    draw_tracking(d, (0, fy-10), "C. JÉSUTONDJI SAMUEL STEIN", fsig,
-                  txt+(240,), tr=3.2, anchor_center_x=W/2, shadow=(0, 0, 0, 170))
-    fsub = montserrat(14, 500)
-    sub = "LYRICISTE  ·  BÉNIN"
-    subw = tracking_w(d, sub, fsub, 3.6)
-    draw_tracking(d, (0, fy+22), sub, fsub, acc+(220,), tr=3.6,
-                  anchor_center_x=W/2, shadow=(0, 0, 0, 170))
-    fw2, fh2, gap = 25, 17, 15
-    for fx in (W/2-subw/2-gap-fw2, W/2+subw/2+gap):
-        mflag = Image.new("L", (fw2, fh2), 0)
-        ImageDraw.Draw(mflag).rounded_rectangle([0, 0, fw2, fh2], radius=3, fill=255)
-        fl = Image.new("RGBA", (fw2, fh2))
-        draw_flag(ImageDraw.Draw(fl), 0, 0, fw2, fh2)
-        img.paste(fl, (int(fx), fy+23), mflag)
+    draw_tracking(d, (0, fy-10), "DSKY WTBW", fsig,
+                  txt+(240,), tr=4.2, anchor_center_x=W/2, shadow=(0, 0, 0, 170))
+    fen = EN.get(num)
+    if fen:
+        fen_f = montserrat(15, 500)
+        draw_tracking(d, (0, fy+34), fen, fen_f, txt+(185,), tr=1.6,
+                      anchor_center_x=W/2, shadow=(0, 0, 0, 150))
 
     # ---- CTA (aéré : gap 46, se termine ~y=1582, loin des overlays TikTok) ----
     cta = [("LIKE", icon_heart), ("COMMENTE", icon_comment),

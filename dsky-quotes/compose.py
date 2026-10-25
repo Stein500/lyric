@@ -87,23 +87,17 @@ def draw_flag(draw, x, y, w, h):
     draw.rectangle([x + third, y + h // 2, x + w, y + h], fill=BENIN_RED)
 
 def draw_badge(img, x, y, accent, scale=1.0):
-    """Pilule semi-transparente : drapeau + DSKY."""
-    W, H = int(238 * scale), int(64 * scale)
+    """Pilule semi-transparente : DSKY (v4 universel, sans drapeau)."""
+    W, H = int(150 * scale), int(64 * scale)
     overlay = Image.new("RGBA", (W + 40, H + 40), (0, 0, 0, 0))
     d = ImageDraw.Draw(overlay)
     d.rounded_rectangle([20, 20, 20 + W, 20 + H], radius=H // 2, fill=(8, 8, 12, 170),
                         outline=accent + (230,), width=max(2, int(2 * scale)))
-    fx, fy, fw, fh = 20 + int(15 * scale), 20 + int(17 * scale), int(38 * scale), int(28 * scale)
-    mask = Image.new("L", (fw, fh), 0)
-    ImageDraw.Draw(mask).rounded_rectangle([0, 0, fw, fh], radius=4, fill=255)
-    flag = Image.new("RGBA", (fw, fh))
-    draw_flag(ImageDraw.Draw(flag), 0, 0, fw, fh)
-    overlay.paste(flag, (fx, fy), mask)
     f = montserrat(int(23 * scale), 800)
-    db = ImageDraw.Draw(overlay)
-    draw_tracking(db, (fx + fw + int(12 * scale), 20 + (H - f.size) // 2 + int(2 * scale)),
+    tw = tracking_w(d, "DSKY", f, 1.5 * scale)
+    draw_tracking(d, (20 + (W - tw) // 2, 20 + (H - f.size) // 2 + int(2 * scale)),
                   "DSKY", f, (247, 242, 231, 255), tr=1.5 * scale)
-    img.alpha_composite(overlay.resize((W + 40, H + 40)) if False else overlay, (int(x) - 20, int(y) - 20))
+    img.alpha_composite(overlay, (int(x) - 20, int(y) - 20))
 
 def scrim(img, style, W, H):
     """Voiles : assombrissement global léger + dégradé fort en haut (titre)
