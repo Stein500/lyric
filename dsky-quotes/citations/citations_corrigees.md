@@ -996,3 +996,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **369.** `L'ÉPARGNE PLaisir` — tirelire et petit cadeau — « Mets un peu de côté pour toi : le plaisir n'attend pas la richesse. » / "Joy doesn't wait."
 
 **370.** `L'ENTRÉE` — homme de dos entrant dans la salle — « Soigné et sûr de toi, tu entres partout comme si on t'attendait. » / "Walk in like you belong."
+
+## SAISON 2 — Série ART XXXII (371 → 380) — « DÉBUTER LA MUSCULATION » (sans équipement)
+*10 exercices au poids du corps, pose visible + durée dans chaque image. NOUVEAU : la ligne anglaise est désormais DANS l'image, juste sous la citation française (plus dans le bloc branding). Formats portrait 10/10, orthographe 10/10, mapping vérifié sur fichiers composés (371/375 sans guillemets, acceptés).*
+
+**371.** `LA PLANCHE` — gainage latéral, tapis salon — « La planche : trente secondes chaque matin, et tout se tient droit. » / "Plank: 30 seconds daily."
+
+**372.** `LES POMPES` — pompes en pénombre — « Les pompes : dix le matin, dix le soir — la force vient en une semaine. » / "Push-ups: 10 + 10."
+
+**373.** `LES SQUATS` — squat profond, bras tendus — « Vingt squats par jour : tes jambes deviennent des piliers. » / "Squats: 20 daily."
+
+**374.** `L'ÉCHAUFFEMENT` — cercles de bras à la fenêtre — « Cinq minutes d'échauffement avant tout : le corps obéit quand il est chaud. » / "Warm up 5 minutes."
+
+**375.** `LE CHRONO` — minuteur 10:00, gourde, serviette — « Dix minutes chaque jour valent mieux qu'une heure par mois. » / "Ten minutes a day."
+
+**376.** `LE REPOS` — allongé sous couverture au crépuscule — « Garde un jour de repos : le muscle pousse pendant la pause. » / "Rest builds muscle."
+
+**377.** `LES CRUNCHS LENTS` — crunch contrôlé, drame lumineux — « Des crunchs lents valent mieux que cent crunchs rapides. » / "Slow crunches win."
+
+**378.** `LES FENTES` — fente avant, torse droit — « Les fentes : dix par jambe, et l'équilibre vient tout seul. » / "Lunges: 10 per leg."
+
+**379.** `LE SUPERMAN` — dos en vol sur tapis — « Le superman : trente secondes en vol, et ton dos te remercie. » / "Superman: 30 seconds."
+
+**380.** `TON CORPS EST LA SALLE` — tapis déroulé, pièce claire — « Pas besoin de salle : ton corps est déjà tout l'équipement. » / "Your body is the gym."

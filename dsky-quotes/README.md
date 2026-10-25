@@ -408,3 +408,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 368 | Elle | femme de dos v4 |
 | 369 | L'épargne plaisir | tirelire cadeau v4 |
 | 370 | L'entrée | entrée salle v4 |
+| 371 | La planche | gainage 30 s v4 |
+| 372 | Les pompes | 10+10 v4 |
+| 373 | Les squats | 20/jour v4 |
+| 374 | L'échauffement | 5 min v4 |
+| 375 | Le chrono | 10 min/jour v4 |
+| 376 | Le repos | 1 jour off v4 |
+| 377 | Les crunchs lents | lents v4 |
+| 378 | Les fentes | 10/jambe v4 |
+| 379 | Le superman | 30 s v4 |
+| 380 | Ton corps est la salle | sans matériel v4 |
