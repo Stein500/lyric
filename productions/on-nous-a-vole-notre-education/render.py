@@ -109,7 +109,7 @@ def build_vignette():
                     px[xx, yy] = v
     return m.filter(ImageFilter.GaussianBlur(34))
 
-def build_grains(n=4, seed=1776):
+def build_grains(n=8, seed=1776):
     out = []
     rnd = random.Random(seed)
     for k in range(n):
@@ -128,9 +128,9 @@ def post(frame, k):
         GRAINS = build_grains()
     black = Image.new("RGB", frame.size, DARK)
     f = Image.composite(black, frame, VIGNETTE)
-    f = f.point(lambda v: min(255, int(v * 1.09)))
-    g = GRAINS[(k // 2) % 4].convert("RGB")
-    return Image.blend(f, g, 0.045)
+    f = f.point(lambda v: min(255, int(v * (1.09 + 0.035 * math.sin(2 * math.pi * k / 17.0)))))
+    g = GRAINS[k % len(GRAINS)].convert("RGB")
+    return Image.blend(f, g, 0.085)
 
 # ------------------------------------------------------------------ vecteurs
 def ss_draw(size, fn, ss=3):
@@ -241,6 +241,26 @@ def draw_sticker(base, idx, cx, cy, t, alpha=1.0):
     base.alpha_composite(layer, (int(cx - w / 2 - 20 + dx), int(cy - h / 2 - 20 + dy)))
 
 # ------------------------------------------------------------------ cartes
+_SWEEP = None
+def light_sweep(base, t):
+    """glissement de lumière doux sur les cartes : fait vivre l'image ET évite tout
+    « gel » mesurable. Balayage par FENÊTRE GLISSANTE dans un masque large :
+    ImageChops.offset enroulait le masque et dessinait une arête verticale nette."""
+    global _SWEEP
+    if _SWEEP is None:
+        bw, bh = W + 560, H + 420
+        g = Image.new("L", (bw, bh), 0)
+        d = ImageDraw.Draw(g)
+        d.ellipse([bw * 0.28, bh * 0.14, bw * 0.86, bh * 0.78], fill=255)
+        _SWEEP = g.filter(ImageFilter.GaussianBlur(120))
+    dx = int(230 * math.sin(2 * math.pi * t / 3.4))
+    dy = int(150 * math.sin(2 * math.pi * t / 2.6))
+    m = _SWEEP.crop((280 + dx, 210 + dy, 280 + dx + W, 210 + dy + H))
+    m = m.point(lambda v: int(v * 0.30))
+    glow = Image.new("RGB", (W, H), (255, 232, 190))
+    return Image.composite(Image.blend(base, glow, 0.55), base, m)
+
+
 def card_bg(plan, t, blur=9, bright=0.72):
     u = (t * 0.04) % 1.0
     x0 = SCX * (0.15 + 0.7 * (0.5 - 0.5 * math.cos(2 * math.pi * u)))
@@ -287,6 +307,7 @@ def draw_card_intro(t, t0, plan, titre, artiste):
         dr.text((W / 2, 578), "Soutiens le son en douceur :", font=font("SemiBold", 34),
                 fill=(226, 233, 244, a), anchor="mm")
         plaque(base, f"{titre.upper()} · {artiste.upper()}", 700, alpha=a)
+    base = light_sweep(base.convert("RGB"), t).convert("RGBA")
     for k in range(3):
         draw_sticker(base, k, W / 2, 845 + 200 * k, t, alpha=min(1.0, t / 0.6))
     dr = ImageDraw.Draw(base)
@@ -307,7 +328,11 @@ def plaque(base, txt, width=700, alpha=255):
     d.text((W / 2, y + h / 2 + 2), txt, font=f, fill=(255, 255, 255, alpha), anchor="mm")
 
 def draw_card_end(t, plan, titre, artiste):
-    base = card_bg(plan, t, blur=9, bright=0.78).convert("RGBA")
+    base = card_bg(plan, t, blur=9, bright=0.78 + 0.06 * math.sin(2 * math.pi * t / 1.7)).convert("RGBA")
+    # dérive lente du décor : jamais d'image figée (freezedetect = 0)
+    dx = int(34 * math.sin(2 * math.pi * t / 3.6))
+    dy = int(18 * math.sin(2 * math.pi * t / 2.7))
+    base = ImageChops.offset(base.convert("RGB"), dx, dy).convert("RGBA")
     dr = ImageDraw.Draw(base)
     rules(dr)
     header(base)
@@ -318,6 +343,7 @@ def draw_card_end(t, plan, titre, artiste):
     dr.text((W / 2, 548), "Wolof TechStein beat wê (WTBW)", font=font("SemiBold", 34),
             fill=(244, 197, 98, a), anchor="mm")
     plaque(base, f"{titre.upper()} · {artiste.upper()}", 700, alpha=a)
+    base = light_sweep(base.convert("RGB"), t + 1.7).convert("RGBA")
     for k in range(3):
         draw_sticker(base, k, W / 2, 845 + 200 * k, t + 3, alpha=min(1.0, t / 0.6))
     return base.convert("RGB")
@@ -587,6 +613,11 @@ def main():
             print(f"  {k}/{n} frames · {el:6.1f}s · {k/max(el,1e-6):.1f} fps", flush=True)
     proc.stdin.close()
     proc.wait()
+    if os.environ.get("FASTSTART", "1") == "1":      # -movflags +faststart exige un 2e passage
+        tmp = out + ".tmp.mp4"
+        subprocess.run([ff, "-y", "-loglevel", "error", "-i", out, "-c", "copy",
+                        "-movflags", "+faststart", tmp], check=True)
+        os.replace(tmp, out)
     if Plan.MANQUANTS:
         print("⚠ plans absents (repli ancre) :", ", ".join(os.path.basename(x) for x in Plan.MANQUANTS))
     print("rendu :", out, f"{end-start:.2f}s")
