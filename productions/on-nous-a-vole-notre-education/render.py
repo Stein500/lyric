@@ -16,6 +16,13 @@ import argparse, json, math, os, random, subprocess, sys, time
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageChops
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+# ffmpeg : variable FF, sinon binaire imageio-ffmpeg (portable, même sous la console)
+if not os.environ.get("FF"):
+    try:
+        import imageio_ffmpeg
+        os.environ["FF"] = imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:                                # noqa: BLE001
+        os.environ["FF"] = "ffmpeg"
 FONTS = os.path.join(HERE, "fonts")
 W, H, FPS = 1080, 1920, 30
 BW, BH = 1188, 2128           # source agrandie (SC 1.10) : marge 108 px en x, 208 px en y
@@ -446,6 +453,7 @@ def overlay_verse(frame, slot, t, doc, prog):
         w = 62 * a
         d.line([(W / 2 - w, 189), (W / 2 + w, 189)], fill=(244, 197, 98, int(200 * a)), width=2)
     # filet de progression
+    d = ImageDraw.Draw(base)
     d.rounded_rectangle([170, 1556, 910, 1564], radius=4, fill=(255, 255, 255, 48))
     d.rounded_rectangle([170, 1556, 170 + int(740 * prog), 1564], radius=4, fill=(244, 197, 98, 210))
     return base

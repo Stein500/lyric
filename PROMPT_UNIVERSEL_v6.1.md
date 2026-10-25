@@ -96,7 +96,14 @@ buste quittant le bord haut du crop à `1080` (haut du buste visible `y ≈ 165�
 
 - recopier le vers **exact** dans le prompt, entre guillemets, sur **2 lignes équilibrées** ;
 - **nommer les diacritiques** (`É È Ê À Â Ô Û Ï Ç Œ`) et exiger leur présence ;
-- **calibrer la taille** : à 768×1376, chaque capitale peinte ≈ **52–62 px** de haut, deux lignes maximum, bloc entier dans `x 190 → 880` — **c'est la première cause d'échec** (texte qui déborde ou se coupe) ;
+- **calibrer par la BOÎTE, pas par la hauteur (correctif décisif 2026-10-25)** : une consigne en pixels de capitale
+  est **ignorée** (mesuré : 110 px peints pour 34 demandés, sur 10 plans d'affilée). Il faut donner
+  **le rectangle du bloc** — `y 470 → 750`, `x 150 → 590` en natif, soit `440 × 280 px` — et exiger
+  « small, tidy tag block, not a poster, at least 150 px of empty background on each side » ;
+- **deux lignes de ≤ 27 caractères, jamais d'ellipses ni de guillemets peints** : `…` sort en `//` et les
+  guillemets débordent. Ils servent **uniquement de points de coupure** (`Yeah... on se relève...` →
+  `YEAH` / `ON SE RELÈVE`) ;
+- vers d'un seul souffle (≤ 14 caractères) → **une seule ligne** dans la même boîte ;
 - éviter `ONLY:` / `EXACTLY:` juste devant les guillemets (le modèle les peint) ;
 - relire chaque plan sur **contact sheet ≥ 480 px de large** (`500×896 px`/tuile) **ET** sur **planche de crops 1:1 avec grille de 16 px** (`CONTROLE-salveN-typo.jpg`) ;
 - texte faux / mot omis / mot doublé / débordement → **régénérer avec un prompt court et explicite** ;
@@ -282,6 +289,8 @@ Drapeau / bannière · code à 4 chiffres & accroche « reste jusqu'à la fin »
   pilules `700×144` ; **fond de carte flou 9 / 0,72 / scrim 0,55** ; **cloche redessinée** + flèche au-dessus +
   plaque α 244 ; badge `Dsky` vérifié hors du visage.
 
+- **v6.1** compléments du 2026-10-25 : boîte typographique `440 × 280` en priorité sur la hauteur de capitale,
+  lignes ≤ 27 caractères coupées aux respirations, **aucune ellipse peinte**, vers court = une ligne.
 - **v6.0 FINAL** (2026-10-25) — correction d'auteur : **`Dsky` remplace définitivement `Daïsky`** (cartes, badge, prompts, tags, livraisons) ; **calage corrigé du `SC`** (source 768×1376 → 1188×2128, marges réelles 108 × 208 px, au lieu de « 1188×2132 / 212 px » hérité d'une source 1080) ; **calibration typographique** ajoutée (capitales ≈ 56 px, bloc `x 190→880`) après débordement constaté sur planche 1:1 ; **bornage de l'accueil** clarifié (la signature d'ouverture appartient à la carte) ; **réutilisation de plans** encadrée (§9) ; rappel que la pilule FR reste **dormante** sur une chanson française.
 - **v6.0** (2026-10-21 / 24) — « WTBW Salut & Stickers Doux » : suppression du système de code ; accueil 2 temps ; finale « MERCI · WTBW » ; 3 stickers vectoriels ; clochettes WTBW ; recettes SEINEN et WANDANCE validées.
 - **v5.9** (2026-10-14) — « Ça bouge, sans voiler la parole » : question §0, fenêtre glissante 110 %, état éteint, 4 grains, vignette masque L.

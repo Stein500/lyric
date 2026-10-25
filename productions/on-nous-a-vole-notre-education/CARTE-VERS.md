@@ -13,14 +13,14 @@ Durée audio décodée **205.92 s** · clip **210.92 s** · 50 vers · 40 plans
 | 07 | 35.00 | 42.60 | 2.20 | WTBW | Wolof TechStein beat wê! | `v-06-nuit.png` | ✅ |
 | 08 | 42.60 | 45.83 | 2.20 | FR | L'école nous a donné des livres poussiéreux | `v-07-nuit.png` | ✅ |
 | 09 | 45.83 | 48.82 | 2.20 | FR | Des promesses en l'air, des rêves dangereux | `v-08-nuit.png` | ✅ |
-| 10 | 48.82 | 51.00 | 2.18 | FR | On nous a dit "travaille, t'auras ta place" | `v-09-nuit.png` | — |
-| 11 | 51.00 | 54.72 | 3.00 | FR | Mais on a fini par courir, par faire des graces | `v-10-nuit.png` | — |
-| 12 | 54.72 | 57.65 | 2.40 | FR | Les profs nous regardaient de haut, de loin | `v-11-nuit.png` | — |
-| 13 | 57.65 | 60.29 | 2.40 | FR | Ils nous voyaient comme des moins que rien | `v-12-nuit.png` | — |
-| 14 | 60.29 | 63.48 | 2.70 | FR | Mais j'ai gardé la rage, j'ai gardé le feu | `v-13-nuit.png` | — |
-| 15 | 63.48 | 68.37 | 2.20 | FR | J'ai transformé leur mépris en un jeu | `v-14-nuit.png` | — |
-| 16 | 68.37 | 75.70 | 2.20 | FR | Yeah... on se relève... | `v-15-nuit.png` | — |
-| 17 | 75.70 | 83.19 | 2.20 | FR | Yeah... on est des battants... | `v-16-nuit.png` | — |
+| 10 | 48.82 | 51.00 | 2.18 | FR | On nous a dit "travaille, t'auras ta place" | `v-09-nuit.png` | ✅ |
+| 11 | 51.00 | 54.72 | 3.00 | FR | Mais on a fini par courir, par faire des graces | `v-10-nuit.png` | ✅ |
+| 12 | 54.72 | 57.65 | 2.40 | FR | Les profs nous regardaient de haut, de loin | `v-11-nuit.png` | ✅ |
+| 13 | 57.65 | 60.29 | 2.40 | FR | Ils nous voyaient comme des moins que rien | `v-12-nuit.png` | ✅ |
+| 14 | 60.29 | 63.48 | 2.70 | FR | Mais j'ai gardé la rage, j'ai gardé le feu | `v-13-nuit.png` | ✅ |
+| 15 | 63.48 | 68.37 | 2.20 | FR | J'ai transformé leur mépris en un jeu | `v-14-nuit.png` | ✅ |
+| 16 | 68.37 | 75.70 | 2.20 | FR | Yeah... on se relève... | `v-15-nuit.png` | ✅ |
+| 17 | 75.70 | 83.19 | 2.20 | FR | Yeah... on est des battants... | `v-16-nuit.png` | ✅ |
 | 18 | 83.19 | 87.08 | 2.20 | FR | On nous a volé notre éducation | `v-03-nuit.png` | ✅ |
 | 19 | 87.08 | 89.15 | 2.07 | FR | Ils ont brûlé nos illusions | `v-04-nuit.png` | ✅ |
 | 20 | 89.15 | 93.02 | 2.20 | FR | On nous a volé notre éducation | `v-03-nuit.png` | ✅ |
@@ -36,15 +36,15 @@ Durée audio décodée **205.92 s** · clip **210.92 s** · 50 vers · 40 plans
 | 30 | 118.45 | 120.62 | 2.17 | FR | Mais je la dompte, je la baigne | `v-24-nuit.png` | — |
 | 31 | 120.62 | 123.57 | 2.20 | FR | Je suis un guerrier, un survivant | `v-25-nuit.png` | — |
 | 32 | 123.57 | 126.34 | 2.20 | FR | Un homme debout, un battant | `v-26-nuit.png` | — |
-| 33 | 126.34 | 134.65 | 2.20 | FR | Yeah... on se relève... | `v-15-nuit.png` | — |
-| 34 | 134.65 | 138.78 | 2.20 | FR | Yeah... on est des battants... | `v-16-nuit.png` | — |
+| 33 | 126.34 | 134.65 | 2.20 | FR | Yeah... on se relève... | `v-15-nuit.png` | ✅ |
+| 34 | 134.65 | 138.78 | 2.20 | FR | Yeah... on est des battants... | `v-16-nuit.png` | ✅ |
 | 35 | 138.78 | 141.55 | 2.20 | FR | L'éducation est un champ de ruines | `v-27-aube-a.png` | — |
 | 36 | 141.55 | 144.53 | 2.20 | FR | Mais je cultive mes propres graines | `v-28-aube-a.png` | — |
 | 37 | 144.53 | 147.41 | 2.20 | FR | La jalousie est un poison lent | `v-29-aube-a.png` | — |
 | 38 | 147.41 | 151.38 | 2.40 | FR | Mais je m'en nourris, j'en deviens plus grand | `v-30-aube-a.png` | — |
-| 39 | 151.38 | 156.16 | 2.20 | FR | On nous a volé notre éducation | `v-03-aube-a.png` | — |
-| 40 | 156.16 | 158.11 | 1.95 | FR | Ils ont brûlé nos illusions | `v-04-aube-a.png` | — |
-| 41 | 158.11 | 161.86 | 2.20 | FR | On nous a volé notre éducation | `v-03-aube-a.png` | — |
+| 39 | 151.38 | 156.16 | 2.20 | FR | On nous a volé notre éducation | `v-03-aube-a.png` | ✅ |
+| 40 | 156.16 | 158.11 | 1.95 | FR | Ils ont brûlé nos illusions | `v-04-aube-a.png` | ✅ |
+| 41 | 158.11 | 161.86 | 2.20 | FR | On nous a volé notre éducation | `v-03-aube-a.png` | ✅ |
 | 42 | 161.86 | 169.84 | 2.20 | FR | On se relève, on est des battants | `v-05-aube-a.png` | — |
 | 43 | 169.84 | 176.56 | 2.20 | WTBW | Wolof TechStein beat wê! | `v-06-aube-a.png` | — |
 | 44 | 176.56 | 180.13 | 2.20 | FR | On nous a volé notre éducation | `v-03-aube-b.png` | — |

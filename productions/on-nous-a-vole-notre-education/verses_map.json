@@ -201,7 +201,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-09-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "nuit",
    "mots": 8
@@ -215,7 +215,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-10-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "nuit",
    "mots": 10
@@ -229,7 +229,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-11-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "nuit",
    "mots": 8
@@ -243,7 +243,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-12-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "nuit",
    "mots": 8
@@ -257,7 +257,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-13-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "nuit",
    "mots": 9
@@ -271,7 +271,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-14-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "nuit",
    "mots": 7
@@ -285,7 +285,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-15-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "nuit",
    "mots": 4
@@ -299,7 +299,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-16-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "nuit",
    "mots": 5
@@ -523,7 +523,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-15-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": true,
    "bucket": "nuit",
    "mots": 4
@@ -537,7 +537,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-16-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": true,
    "bucket": "nuit",
    "mots": 5
@@ -607,7 +607,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-03-aube-a.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "aube-a",
    "mots": 6
@@ -621,7 +621,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-04-aube-a.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "bucket": "aube-a",
    "mots": 5
@@ -635,7 +635,7 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-03-aube-a.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": true,
    "bucket": "aube-a",
    "mots": 6
