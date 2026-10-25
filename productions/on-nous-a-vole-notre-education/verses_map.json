@@ -77,6 +77,10 @@
    "image": "fonds/v-01-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "YEAH ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
+   ],
    "bucket": "nuit",
    "mots": 7
   },
@@ -91,6 +95,10 @@
    "image": "fonds/v-02-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "ATTENDS",
+    "ON SE RELÈVE"
+   ],
    "bucket": "nuit",
    "mots": 4
   },
@@ -105,6 +113,10 @@
    "image": "fonds/v-03-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
+   ],
    "bucket": "nuit",
    "mots": 6
   },
@@ -119,6 +131,10 @@
    "image": "fonds/v-04-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "ILS ONT BRÛLÉ",
+    "NOS ILLUSIONS"
+   ],
    "bucket": "nuit",
    "mots": 5
   },
@@ -133,6 +149,10 @@
    "image": "fonds/v-03-nuit.png",
    "disponible": true,
    "reprise": true,
+   "lignes": [
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
+   ],
    "bucket": "nuit",
    "mots": 6
   },
@@ -147,6 +167,10 @@
    "image": "fonds/v-05-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "ON SE RELÈVE,",
+    "ON EST DES BATTANTS"
+   ],
    "bucket": "nuit",
    "mots": 7
   },
@@ -161,6 +185,10 @@
    "image": "fonds/v-06-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
+   ],
    "bucket": "nuit",
    "mots": 4
   },
@@ -175,6 +203,10 @@
    "image": "fonds/v-07-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "L'ÉCOLE NOUS A DONNÉ",
+    "DES LIVRES POUSSIÉREUX"
+   ],
    "bucket": "nuit",
    "mots": 7
   },
@@ -189,6 +221,10 @@
    "image": "fonds/v-08-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "DES PROMESSES EN L'AIR,",
+    "DES RÊVES DANGEREUX"
+   ],
    "bucket": "nuit",
    "mots": 7
   },
@@ -203,6 +239,10 @@
    "image": "fonds/v-09-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "ON NOUS A DIT TRAVAILLE,",
+    "T'AURAS TA PLACE"
+   ],
    "bucket": "nuit",
    "mots": 8
   },
@@ -217,6 +257,10 @@
    "image": "fonds/v-10-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "MAIS ON A FINI PAR COURIR,",
+    "PAR FAIRE DES GRACES"
+   ],
    "bucket": "nuit",
    "mots": 10
   },
@@ -231,6 +275,10 @@
    "image": "fonds/v-11-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "LES PROFS NOUS REGARDAIENT",
+    "DE HAUT DE LOIN"
+   ],
    "bucket": "nuit",
    "mots": 8
   },
@@ -245,6 +293,10 @@
    "image": "fonds/v-12-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "ILS NOUS VOYAIENT COMME",
+    "DES MOINS QUE RIEN"
+   ],
    "bucket": "nuit",
    "mots": 8
   },
@@ -259,6 +311,10 @@
    "image": "fonds/v-13-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "MAIS J'AI GARDÉ LA RAGE,",
+    "J'AI GARDÉ LE FEU"
+   ],
    "bucket": "nuit",
    "mots": 9
   },
@@ -273,6 +329,10 @@
    "image": "fonds/v-14-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "J'AI TRANSFORMÉ LEUR",
+    "MÉPRIS EN UN JEU"
+   ],
    "bucket": "nuit",
    "mots": 7
   },
@@ -287,6 +347,10 @@
    "image": "fonds/v-15-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "YEAH",
+    "ON SE RELÈVE"
+   ],
    "bucket": "nuit",
    "mots": 4
   },
@@ -301,6 +365,10 @@
    "image": "fonds/v-16-nuit.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "YEAH",
+    "ON EST DES BATTANTS"
+   ],
    "bucket": "nuit",
    "mots": 5
   },
@@ -315,6 +383,10 @@
    "image": "fonds/v-03-nuit.png",
    "disponible": true,
    "reprise": true,
+   "lignes": [
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
+   ],
    "bucket": "nuit",
    "mots": 6
   },
@@ -329,6 +401,10 @@
    "image": "fonds/v-04-nuit.png",
    "disponible": true,
    "reprise": true,
+   "lignes": [
+    "ILS ONT BRÛLÉ",
+    "NOS ILLUSIONS"
+   ],
    "bucket": "nuit",
    "mots": 5
   },
@@ -343,6 +419,10 @@
    "image": "fonds/v-03-nuit.png",
    "disponible": true,
    "reprise": true,
+   "lignes": [
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
+   ],
    "bucket": "nuit",
    "mots": 6
   },
@@ -357,6 +437,10 @@
    "image": "fonds/v-05-nuit.png",
    "disponible": true,
    "reprise": true,
+   "lignes": [
+    "ON SE RELÈVE,",
+    "ON EST DES BATTANTS"
+   ],
    "bucket": "nuit",
    "mots": 7
   },
@@ -371,6 +455,10 @@
    "image": "fonds/v-06-nuit.png",
    "disponible": true,
    "reprise": true,
+   "lignes": [
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
+   ],
    "bucket": "nuit",
    "mots": 4
   },
@@ -385,6 +473,10 @@
    "image": "fonds/v-17-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "J'AI VU DES JALOUX",
+    "AUTOUR DE MOI"
+   ],
    "bucket": "nuit",
    "mots": 7
   },
@@ -399,6 +491,10 @@
    "image": "fonds/v-18-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "ILS SOURIAIENT TOUT BAS,",
+    "ILS TIRAIENT SUR MOI"
+   ],
    "bucket": "nuit",
    "mots": 8
   },
@@ -413,6 +509,10 @@
    "image": "fonds/v-19-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "J'AI VU DES GENS",
+    "VOULOIR ME VOIR TOMBER"
+   ],
    "bucket": "nuit",
    "mots": 8
   },
@@ -427,6 +527,10 @@
    "image": "fonds/v-20-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "PLUTÔT QUE DE",
+    "ME VOIR M'ÉLEVER"
+   ],
    "bucket": "nuit",
    "mots": 6
   },
@@ -441,6 +545,10 @@
    "image": "fonds/v-21-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "MAIS J'AI AVANCÉ,",
+    "J'AI PAS REGARDÉ"
+   ],
    "bucket": "nuit",
    "mots": 6
   },
@@ -455,6 +563,10 @@
    "image": "fonds/v-22-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "J'AI LAISSÉ LEURS",
+    "REGARDS EMPOISONNÉS"
+   ],
    "bucket": "nuit",
    "mots": 5
   },
@@ -469,6 +581,10 @@
    "image": "fonds/v-23-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "LA DÉSOLATION",
+    "EST MA COMPAGNE"
+   ],
    "bucket": "nuit",
    "mots": 5
   },
@@ -483,6 +599,10 @@
    "image": "fonds/v-24-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "MAIS JE LA DOMPTE,",
+    "JE LA BAIGNE"
+   ],
    "bucket": "nuit",
    "mots": 7
   },
@@ -497,6 +617,10 @@
    "image": "fonds/v-25-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "JE SUIS UN GUERRIER,",
+    "UN SURVIVANT"
+   ],
    "bucket": "nuit",
    "mots": 6
   },
@@ -511,6 +635,10 @@
    "image": "fonds/v-26-nuit.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "UN HOMME DEBOUT,",
+    "UN BATTANT"
+   ],
    "bucket": "nuit",
    "mots": 5
   },
@@ -525,6 +653,10 @@
    "image": "fonds/v-15-nuit.png",
    "disponible": true,
    "reprise": true,
+   "lignes": [
+    "YEAH",
+    "ON SE RELÈVE"
+   ],
    "bucket": "nuit",
    "mots": 4
   },
@@ -539,6 +671,10 @@
    "image": "fonds/v-16-nuit.png",
    "disponible": true,
    "reprise": true,
+   "lignes": [
+    "YEAH",
+    "ON EST DES BATTANTS"
+   ],
    "bucket": "nuit",
    "mots": 5
   },
@@ -553,6 +689,10 @@
    "image": "fonds/v-27-aube-a.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "L'ÉDUCATION EST",
+    "UN CHAMP DE RUINES"
+   ],
    "bucket": "aube-a",
    "mots": 6
   },
@@ -567,6 +707,10 @@
    "image": "fonds/v-28-aube-a.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "MAIS JE CULTIVE",
+    "MES PROPRES GRAINES"
+   ],
    "bucket": "aube-a",
    "mots": 6
   },
@@ -581,6 +725,10 @@
    "image": "fonds/v-29-aube-a.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "LA JALOUSIE EST",
+    "UN POISON LENT"
+   ],
    "bucket": "aube-a",
    "mots": 6
   },
@@ -595,6 +743,10 @@
    "image": "fonds/v-30-aube-a.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "MAIS JE M'EN NOURRIS,",
+    "J'EN DEVIENS PLUS GRAND"
+   ],
    "bucket": "aube-a",
    "mots": 8
   },
@@ -609,6 +761,10 @@
    "image": "fonds/v-03-aube-a.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
+   ],
    "bucket": "aube-a",
    "mots": 6
   },
@@ -623,6 +779,10 @@
    "image": "fonds/v-04-aube-a.png",
    "disponible": true,
    "reprise": false,
+   "lignes": [
+    "ILS ONT BRÛLÉ",
+    "NOS ILLUSIONS"
+   ],
    "bucket": "aube-a",
    "mots": 5
   },
@@ -637,6 +797,10 @@
    "image": "fonds/v-03-aube-a.png",
    "disponible": true,
    "reprise": true,
+   "lignes": [
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
+   ],
    "bucket": "aube-a",
    "mots": 6
   },
@@ -651,6 +815,10 @@
    "image": "fonds/v-05-aube-a.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "ON SE RELÈVE,",
+    "ON EST DES BATTANTS"
+   ],
    "bucket": "aube-a",
    "mots": 7
   },
@@ -665,6 +833,10 @@
    "image": "fonds/v-06-aube-a.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
+   ],
    "bucket": "aube-a",
    "mots": 4
   },
@@ -679,6 +851,10 @@
    "image": "fonds/v-03-aube-b.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
+   ],
    "bucket": "aube-b",
    "mots": 6
   },
@@ -693,6 +869,10 @@
    "image": "fonds/v-04-aube-b.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "ILS ONT BRÛLÉ",
+    "NOS ILLUSIONS"
+   ],
    "bucket": "aube-b",
    "mots": 5
   },
@@ -707,6 +887,10 @@
    "image": "fonds/v-03-aube-b.png",
    "disponible": false,
    "reprise": true,
+   "lignes": [
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
+   ],
    "bucket": "aube-b",
    "mots": 6
   },
@@ -721,6 +905,10 @@
    "image": "fonds/v-05-aube-b.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "ON SE RELÈVE,",
+    "ON EST DES BATTANTS"
+   ],
    "bucket": "aube-b",
    "mots": 7
   },
@@ -735,6 +923,10 @@
    "image": "fonds/v-06-aube-b.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
+   ],
    "bucket": "aube-b",
    "mots": 4
   },
@@ -749,6 +941,10 @@
    "image": "fonds/v-31-aube-b.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
+   ],
    "bucket": "aube-b",
    "mots": 4
   },
@@ -763,6 +959,10 @@
    "image": "fonds/v-32-aube-b.png",
    "disponible": false,
    "reprise": false,
+   "lignes": [
+    "ON SE RELÈVE",
+    ""
+   ],
    "bucket": "aube-b",
    "mots": 3
   }

@@ -14,6 +14,7 @@ en 1080x1920 (rendu), la source étant agrandie 1188x2128 (SC 1.10) une seule fo
 """
 import argparse, json, math, os, random, subprocess, sys, time
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageChops
+import lettering
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # ffmpeg : variable FF, sinon binaire imageio-ffmpeg (portable, même sous la console)
@@ -63,10 +64,13 @@ def draw_spaced(dr, xy, txt, f, fill, spacing=0, anchor_center=False, stroke=0, 
 class Plan:
     """une image de fond + ses caches net / éteint / échelle."""
     _c = {}
-    def __init__(self, path):
+    def __init__(self, path, lignes=()):
         im = Image.open(path).convert("RGB")
         if im.size != (768, 1376):
             im = im.resize((768, 1376), Image.LANCZOS)
+        if lignes and any(lignes):                        # v6.2 : typo peinte par le moteur
+            im = lettering.draw_lettering(im, lignes[0], lignes[1] if len(lignes) > 1 else "",
+                                          os.path.join(FONTS, "Montserrat-ExtraBold.ttf"))
         self.net = im.resize((BW, BH), Image.LANCZOS)
         self._off = None
         self.path = path
@@ -74,15 +78,16 @@ class Plan:
     MANQUANTS = []
 
     @classmethod
-    def get(cls, path):
+    def get(cls, path, lignes=()):
         """repli déclaré : un plan absent ne casse jamais le rendu (ancre)."""
         if not os.path.exists(path):
             if path not in cls.MANQUANTS:
                 cls.MANQUANTS.append(path)
             path = os.path.join(HERE, "fonds", "scene-01-ancre.png")
-        if path not in cls._c:
-            cls._c[path] = cls(path)
-        return cls._c[path]
+        key = (path, tuple(lignes or ()))
+        if key not in cls._c:
+            cls._c[key] = cls(path, lignes or ())
+        return cls._c[key]
 
     def window(self, x0, y0, w=W, h=H):
         return self.net.crop((int(x0), int(y0), int(x0) + w, int(y0) + h))
@@ -419,18 +424,27 @@ def window_for(plan, si, u, dur):
     y = SCY / 2 + YR * (fy0 + (fy1 - fy0) * u)
     return plan.window(x, y)
 
+_BAND_MASK = None
 def extinguish(frame, g):
-    """bande 620->1340 : Brightness 0.38 + GaussianBlur 3, même fenêtre (§5.4)."""
+    """bande 620->1340 : Brightness 0.38 + GaussianBlur 3, bords fondus (§5.4).
+    Le fondu de bord est indispensable : un paste net dessinait une barre horizontale
+    visible en travers du plan (constaté sur le rendu v6.2)."""
+    global _BAND_MASK
+    if _BAND_MASK is None:
+        m = Image.new("L", (W, 720), 0)
+        d = ImageDraw.Draw(m)
+        d.rectangle([0, 40, W, 680], fill=255)
+        _BAND_MASK = m.filter(ImageFilter.GaussianBlur(46))
     band = frame.crop((0, 620, W, 1340))
-    band = band.point(lambda v: int(v * 0.38)).filter(ImageFilter.GaussianBlur(3))
+    band = band.point(lambda v: int(v * 0.22)).filter(ImageFilter.GaussianBlur(7))
     out = frame.copy()
-    out.paste(band, (0, 620))
-    return Image.blend(frame, out, g)
+    out.paste(band, (0, 620), _BAND_MASK.point(lambda v: int(v * g)))
+    return out
 
 def verse_frame(slot, t, k):
     dur = max(0.001, slot["fin"] - slot["t"])
     u = min(1.0, max(0.0, (t - slot["t"]) / dur))
-    plan = Plan.get(os.path.join(HERE, slot["image"]))
+    plan = Plan.get(os.path.join(HERE, slot["image"]), slot.get("lignes", ()))
     f = window_for(plan, slot["i"], u, dur).convert("RGB")
     if dur > 3.5:                                    # respiration lumineuse ±12 %
         br = 1 + 0.12 * math.sin(2 * math.pi * (t - slot["t"]) / 1.7)
@@ -533,7 +547,7 @@ def main():
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
 
     plans = [s for s in slots]
-    first_plan = Plan.get(os.path.join(HERE, slots[0]["image"]))
+    first_plan = Plan.get(os.path.join(HERE, slots[0]["image"]))          # carte : art nu
     last_plan = Plan.get(os.path.join(HERE, slots[-1]["image"]))
     cta = doc["cta"]
     ts = time.time()

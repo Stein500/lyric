@@ -23,69 +23,69 @@ DAWN_B = 176.00               # refrain final : plein soleil
 # ----------------------------------------------------------------------------
 TEXTES = {
  1:  ("Yeah... On nous a volé notre éducation...", "a defiant wide stance, fists half-closed",
-      "defiant anger, jaw tight", "ruined schoolyard at night, cracked concrete, faded hand-painted murals", "broken book"),
+      "defiant anger, jaw tight", "ruined schoolyard at night, cracked concrete, faded hand-painted murals", "a broken book icon"),
  2:  ("Attends... On se relève...", "rising out of a deep crouch, one hand on the ground",
-      "jaw set, eyes lifting", "rubble and moonlight over a broken school gate", "a raised fist"),
+      "jaw set, eyes lifting", "rubble and moonlight over a broken school gate", "a raised fist icon"),
  3:  ("On nous a volé notre éducation", "a sharp mid-air freeze over a fallen backpack",
-      "burning anger, brows drawn", "collapsed school gate, torn banners, cold streetlight", "a torn notebook"),
+      "burning anger, brows drawn", "collapsed school gate, torn banners, cold streetlight", "a torn notebook icon"),
  4:  ("Ils ont brûlé nos illusions", "a low krump stomp, shoulders rolled forward",
-      "cold fury, lips pressed", "smouldering paper ash drifting over asphalt", "a flame"),
+      "cold fury, lips pressed", "smouldering paper ash drifting over asphalt", "a flame icon"),
  5:  ("On se relève, on est des battants", "a rising pop-and-lock, chest lifted",
-      "chin up, resolved", "empty night street with wet asphalt reflections", "a lightning bolt"),
+      "chin up, resolved", "empty night street with wet asphalt reflections", "a lightning bolt icon"),
  6:  ("Wolof TechStein beat wê!", "arms crossed, relaxed swagger",
-      "confident half-grin", "night rooftop above the city, warm window glow", "a speaker"),
+      "confident half-grin", "night rooftop above the city, warm window glow", "a speaker icon"),
  7:  ("L'école nous a donné des livres poussiéreux", "sitting on a desk edge, a dusty book in hand",
-      "wry tired smile", "abandoned classroom, overturned desks, dust in a light beam", "a stack of books"),
+      "wry tired smile", "abandoned classroom, overturned desks, dust in a light beam", "a stack of books icon"),
  8:  ("Des promesses en l'air, des rêves dangereux", "open arms in an ironic shrug",
-      "sardonic smirk", "school corridor walls covered in torn posters fluttering", "a paper plane"),
+      "sardonic smirk", "school corridor walls covered in torn posters fluttering", "a paper plane icon"),
  9:  ("On nous a dit \"travaille, t'auras ta place\"", "a finger pointed forward, head tilted",
-      "sardonic challenge", "shattered blackboard and chalk dust", "a chalk piece"),
+      "sardonic challenge", "shattered blackboard and chalk dust", "a chalk piece icon"),
  10: ("Mais on a fini par courir, par faire des graces", "a sprinter's start, body coiled low",
       "determined, eyes forward", "long empty school corridor with flickering tubes", "a feather"),
  11: ("Les profs nous regardaient de haut, de loin", "still pose, head tipped up",
-      "cold stare upward", "tall barred windows, harsh light from above", "an eye"),
+      "cold stare upward", "tall barred windows, harsh light from above", "an eye icon"),
  12: ("Ils nous voyaient comme des moins que rien", "fists clenched at his sides",
-      "gritted teeth, defiant", "narrow shadowed corridor, single bulb", "a cracked mirror"),
+      "gritted teeth, defiant", "narrow shadowed corridor, single bulb", "a cracked mirror icon"),
  13: ("Mais j'ai gardé la rage, j'ai gardé le feu", "a chest-beat hit, elbow sharp",
-      "fierce pride", "embers floating over a burnt courtyard", "a flame"),
+      "fierce pride", "embers floating over a burnt courtyard", "a flame icon"),
  14: ("J'ai transformé leur mépris en un jeu", "a spinning windmill freeze, arms wide",
-      "half-smile, eyes sharp", "graffiti wall lit by one streetlamp", "a dice"),
+      "half-smile, eyes sharp", "graffiti wall lit by one streetlamp", "a dice icon"),
  15: ("Yeah... on se relève...", "a slow rise, shoulders rolling back",
-      "exhausted but standing", "night rooftop, skyline breathing", "a star"),
+      "exhausted but standing", "night rooftop, skyline breathing", "a star icon"),
  16: ("Yeah... on est des battants...", "a wide grounded stance, arms loose",
-      "steady stare to camera", "industrial rooftop, cables, city glow", "a lightning bolt"),
+      "steady stare to camera", "industrial rooftop, cables, city glow", "a lightning bolt icon"),
  17: ("J'ai vu des jaloux autour de moi", "a guarded half-turn, shoulder leading",
-      "side glance, wary", "alley of long shadows and wet brick", "an eye"),
+      "side glance, wary", "alley of long shadows and wet brick", "an eye icon"),
  18: ("Ils souriaient tout bas, ils tiraient sur moi", "braced arms crossed high, weight back",
-      "cold calm", "concrete stairwell, graffiti tags halfway up", "a broken chain"),
+      "cold calm", "concrete stairwell, graffiti tags halfway up", "a broken chain icon"),
  19: ("J'ai vu des gens vouloir me voir tomber", "a low freeze, one knee nearly touching the ground",
-      "defiance in the eyes", "crumbling stair edge over darkness", "a broken stair"),
+      "defiance in the eyes", "crumbling stair edge over darkness", "a broken stair icon"),
  20: ("Plutôt que de me voir m'élever", "one arm reaching straight up, body stretched",
-      "hope breaking through anger", "shaft of light falling into a ruined hall", "a rising arrow"),
+      "hope breaking through anger", "shaft of light falling into a ruined hall", "a rising arrow icon"),
  21: ("Mais j'ai avancé, j'ai pas regardé", "a forward walking stride, head high",
-      "unbothered focus", "corridor opening toward the night sky", "a winged shoe"),
+      "unbothered focus", "corridor opening toward the night sky", "a winged shoe icon"),
  22: ("J'ai laissé leurs regards empoisonnés", "shoulders back, one hand brushing the air away",
-      "disdain, calm", "smoke curling through a broken window frame", "a snake"),
+      "disdain, calm", "smoke curling through a broken window frame", "a snake icon"),
  23: ("La désolation est ma compagne", "a quiet standing pose, hands open",
-      "quiet grief, eyes lowered yet visible", "empty lot, dead grass, one working lamp", "a wilted flower"),
+      "quiet grief, eyes lowered yet visible", "empty lot, dead grass, one working lamp", "a wilted flower icon"),
  24: ("Mais je la dompte, je la baigne", "a commanding arm sweep, weight centred",
-      "calm power", "night lot, dust swirling in lamplight", "a chain"),
+      "calm power", "night lot, dust swirling in lamplight", "a chain icon"),
  25: ("Je suis un guerrier, un survivant", "a battle-ready stance, chin down, eyes up",
-      "hard resolve", "ruined courtyard with a torn bare flagpole", "a shield"),
+      "hard resolve", "ruined courtyard with a torn bare flagpole", "a shield icon"),
  26: ("Un homme debout, un battant", "standing tall, feet planted wide",
-      "chin lifted, first light in the eyes", "edge of a rooftop facing the horizon", "a rising sun"),
+      "chin lifted, first light in the eyes", "edge of a rooftop facing the horizon", "a rising sun icon"),
  27: ("L'éducation est un champ de ruines", "a crouch on a rubble heap, one arm braced",
-      "grief turned to iron", "burning school ruin, embers in the air", "a broken column"),
+      "grief turned to iron", "burning school ruin, embers in the air", "a broken column icon"),
  28: ("Mais je cultive mes propres graines", "a planting gesture, hand pressing the ground",
-      "focused tenderness", "ash-black soil with warm ember light", "a sprout"),
+      "focused tenderness", "ash-black soil with warm ember light", "a sprout icon"),
  29: ("La jalousie est un poison lent", "a slow serpentine isolation move",
-      "cold fire in the eyes", "dark alley, dripping pipes, green murk", "a vial"),
+      "cold fire in the eyes", "dark alley, dripping pipes, green murk", "a vial icon"),
  30: ("Mais je m'en nourris, j'en deviens plus grand", "arms opening wide, chest expanding",
-      "rising strength", "smoke parting around a widening light", "a flame"),
+      "rising strength", "smoke parting around a widening light", "a flame icon"),
  31: ("Wolof TechStein beat wê...", "a relaxed shoulder roll, hands loose",
-      "soft confident smile", "rooftop in gold first light", "a star"),
+      "soft confident smile", "rooftop in gold first light", "a star icon"),
  32: ("(On se relève...)", "arms open to the sunrise, head lifted",
-      "release, quiet pride", "open field at sunrise, city far behind", "a sun"),
+      "release, quiet pride", "open field at sunrise, city far behind", "a sun icon"),
 }
 
 def painted(text):
@@ -187,6 +187,7 @@ def main():
             "texte": txt, "langue": langue(txt), "traduction_fr": "",
             "image": os.path.relpath(img, HERE), "disponible": os.path.exists(img),
             "reprise": any(s["image"] == os.path.relpath(img, HERE) for s in slots),
+            "lignes": list(painted(TEXTES[ids[txt.strip()]][0])),
             "bucket": b, "mots": words,
         })
 
@@ -262,11 +263,12 @@ def prompt_wandance(l1, l2, pose, expr, decor, icon, b):
         "y 190 and y 400, his shoulders and arms stay between y 400 and y 465, and the frame cuts his hips at the "
         "bottom edge. "
         f"Pose: {pose}. His expression: {expr}. Behind him, an attenuated background: {decor}; {pal}.\n"
-        "Typography box (respect it exactly): the whole painted lettering block occupies the rectangle from "
-        "y 470 to y 750 and from x 150 to x 590 \u2014 440 px wide, 280 px tall \u2014 on this 768x1376 canvas. "
-        "It is a SMALL, tidy tag block, not a poster: the letters are sized to fit inside that rectangle and there "
-        "is clear empty concrete on both sides of the frame (at least 150 px of background on the left and on the "
-        "right of the lettering).\n"
+        "Lettering layout (layout guide only): keep the painted lettering block inside the rectangle y 470 to "
+        "y 750, x 150 to x 590, on this 768x1376 canvas \u2014 a SMALL, tidy tag block, not a poster, with clear "
+        "empty background on both sides. IMPORTANT: do NOT draw that rectangle, do NOT draw any panel, card, "
+        "plate, border, frame or filled box of any kind; the letters sit directly on the scene over a loose "
+        "organic dark ink spray halo with soft torn edges and no straight lines. The background stays visible "
+        "between and around the letters.\n"
         + (f"Paint two lines of neat, well-ordered, ultra-legible stylized graffiti block capital letters inside that box. "
            f"The first line has {len(l1)} characters and its capitals are about {h1} px tall; the second line has "
            f"{len(l2)} characters and its capitals are about {h2} px tall.\n"
@@ -278,7 +280,7 @@ def prompt_wandance(l1, l2, pose, expr, decor, icon, b):
            f"that box, in bold warm white and gold: \"{l1}\" "
            f"(keep every accent exactly; accented capitals: {diacritiques(l1, '')}).\n")
         + f"Below the text, between y 790 and y 900 and inside x 170 -> 600, paint 2 stylish urban graffiti sticker "
-        f"icons side by side: {ICONS['love']} and the icon of {icon}, each about 90 px tall, linked by a thin luminous "
+        f"icons side by side: {ICONS['love']} and {icon}, each about 90 px tall, linked by a thin luminous "
         "gold graffiti line.\n"
         "From y 920 down to the bottom edge keep only clean dark concrete floor and his legs: no text, no icons, no "
         "signs. Nothing in the top 100 px, nothing on the right side beyond x 647, no flag, no logo, no watermark, "
