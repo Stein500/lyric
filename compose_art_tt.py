@@ -49,6 +49,16 @@ EN = {
     358: "Yogurt makes it tender.",
     359: "Acid fixes salt.",
     360: "A sharp knife is safer.",
+    361: "Your scent speaks first.",
+    362: "Fresh is free.",
+    363: "Details say you care.",
+    364: "Ironed is respected.",
+    365: "A smile costs nothing.",
+    366: "Clean shoes open doors.",
+    367: "They look first.",
+    368: "She sees it first.",
+    369: "Joy doesn't wait.",
+    370: "Walk in like you belong.",
 }
 
 

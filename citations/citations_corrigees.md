@@ -973,3 +973,26 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **359.** `LE RATTRAPAGE` — demi-citron à côté de la casserole — « Trop salé ? Une pointe de citron rattrape la sauce. » / "Acid fixes salt."
 
 **360.** `LE FIL TRANCHANT` — couteau sur pierre à aiguiser — « Un couteau bien aiguisé coupe mieux et blesse moins. » / "A sharp knife is safer."
+
+## SAISON 2 — Série ART XXXI (361 → 370) — « LE LUXE À PORTÉE » (se faire plaisir, petit salaire)
+*10 gestes de soin de soi accessibles — parfum, fraîcheur, bracelet, repassage, sourire, chaussures, apparence, le regard d'elle, épargne plaisir, allure d'entrée. Branding v4 (DSKY WTBW + anglais). Formats portrait 10/10, orthographe 10/10, mapping conforme (362/363 sans guillemets français ou droits, acceptés ; thèmes user intégrés en 367-368).*
+
+**361.** `LE PARFUM D'ABORD` — flacon dans la lumière du soir — « Un bon parfum : c'est toi qu'on remarque avant même que tu parles. » / "Your scent speaks first."
+
+**362.** `LA FRAÎCHEUR GRATUITE` — savon, déo, serviette propre — « Savon, déo, dents propres : la fraîcheur ne demande pas un gros salaire. » / "Fresh is free."
+
+**363.** `LE DÉTAIL QUI DIT` — poignet, bracelet cuir — « Un bracelet simple, bien porté : le détail qui dit que tu t'aimes. » / "Details say you care."
+
+**364.** `LE REPASSAGE` — chemise blanche impeccable — « Repasse ce que tu portes : une tenue propre honore celui qui la porte. » / "Ironed is respected."
+
+**365.** `LE LUXE IMPOSABLE` — silhouette devant le miroir — « Le sourire est le seul luxe que personne ne peut te taxer. » / "A smile costs nothing."
+
+**366.** `LES CHAUSSURES PARLENT` — chaussures cirées, brosse — « On regarde d'abord tes chaussures : garde-les propres, le reste suit. » / "Clean shoes open doors."
+
+**367.** `ON LA REGARDE D'ABORD` — silhouette devant la vitrine éclairée — « Ils disent que l'apparence ne compte pas : pourtant, on la regarde d'abord. » / "They look first."
+
+**368.** `ELLE` — femme de dos face aux lumières — « On dit qu'elle ne regarde pas le style : c'est toujours la première chose qu'elle voit. » / "She sees it first."
+
+**369.** `L'ÉPARGNE PLaisir` — tirelire et petit cadeau — « Mets un peu de côté pour toi : le plaisir n'attend pas la richesse. » / "Joy doesn't wait."
+
+**370.** `L'ENTRÉE` — homme de dos entrant dans la salle — « Soigné et sûr de toi, tu entres partout comme si on t'attendait. » / "Walk in like you belong."

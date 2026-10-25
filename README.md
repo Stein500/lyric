@@ -398,3 +398,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 358 | Le yaourt doux | marinade blanche v4 |
 | 359 | Le rattrapage | citron anti-sel v4 |
 | 360 | Le fil tranchant | couteau aiguisé v4 |
+| 361 | Le parfum d'abord | flacon soirée v4 |
+| 362 | La fraîcheur gratuite | savon déo v4 |
+| 363 | Le détail qui dit | bracelet cuir v4 |
+| 364 | Le repassage | chemise blanche v4 |
+| 365 | Le luxe imposable | sourire miroir v4 |
+| 366 | Les chaussures parlent | chaussures cirées v4 |
+| 367 | On la regarde d'abord | vitrine nuit v4 |
+| 368 | Elle | femme de dos v4 |
+| 369 | L'épargne plaisir | tirelire cadeau v4 |
+| 370 | L'entrée | entrée salle v4 |
