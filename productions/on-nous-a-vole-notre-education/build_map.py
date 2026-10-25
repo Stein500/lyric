@@ -40,7 +40,7 @@ TEXTES = {
       "sardonic smirk", "school corridor walls covered in torn posters fluttering", "a paper plane icon"),
  9:  ("On nous a dit \"travaille, t'auras ta place\"", "a finger pointed forward, head tilted",
       "sardonic challenge", "shattered blackboard and chalk dust", "a chalk piece icon"),
- 10: ("Mais on a fini par courir, par faire des graces", "a sprinter's start, body coiled low",
+ 10: ("Mais on a fini par courir, par faire des grâces", "a sprinter's start, body coiled low",
       "determined, eyes forward", "long empty school corridor with flickering tubes", "a feather"),
  11: ("Les profs nous regardaient de haut, de loin", "still pose, head tipped up",
       "cold stare upward", "tall barred windows, harsh light from above", "an eye icon"),
@@ -89,31 +89,34 @@ TEXTES = {
 }
 
 def painted(text):
-    """lignes peintes : mots EXACTS, coupure aux respirations (…) ou virgules, <= 27 car.
-    Les points de suspension et guillemets ne sont pas peints : ils servaient de
-    séparateurs et le modèle les rendait en « // » (constaté planche 1:1)."""
+    """lignes peintes : mots EXACTS, coupure aux respirations (…) puis aux virgules, sinon équilibre.
+    Ponctuation de suspension et guillemets non peints (le modèle les rendait « // ») ;
+    la virgule de coupe est retirée, celle qui reste en fin de ligne est conservée."""
     raw = text.replace('"', "").replace("(", "").replace(")", "")
     def norm(x):
         x = x.replace("!", "").replace("...", " ")
-        return " ".join(x.split()).replace(" ,", ",").upper()
-    if len(norm(raw)) <= 14:                     # vers d'un seul souffle
-        return norm(raw), ""
-    for sep in ("...", ","):
-        if sep in raw:
-            i = raw.index(sep) + (len(sep) if sep == "," else 0)
-            l1, l2 = norm(raw[:i]), norm(raw[i:])
-            if 4 <= len(l1) <= 27 and 4 <= len(l2) <= 27:
-                return l1, l2
+        return " ".join(x.split()).upper()
+
+    cands = []
+    for i in range(len(raw)):
+        if raw.startswith("...", i):
+            cands.append(i + 3)
+        elif raw[i] == ",":
+            cands.append(i + 1)
+    for i in cands:
+        a, b = norm(raw[:i]).rstrip(","), norm(raw[i:]).strip(", ")
+        if 4 <= len(a) <= 27 and 4 <= len(b) <= 27:
+            return a, b
     words = norm(raw).replace(",", " ,").split()
     words = [w for w in words if w != ","]
     best = None
     for i in range(1, len(words)):
-        l1, l2 = " ".join(words[:i]), " ".join(words[i:])
-        if min(len(l1), len(l2)) < 5:
+        a, b = " ".join(words[:i]), " ".join(words[i:])
+        if min(len(a), len(b)) < 5:
             continue
-        score = (max(len(l1), len(l2)), abs(len(l1) - len(l2)))
+        score = (max(len(a), len(b)) > 27, max(len(a), len(b)), abs(len(a) - len(b)))
         if best is None or score < best[0]:
-            best = (score, l1, l2)
+            best = (score, a, b)
     return best[1], best[2]
 
 ICONS = {"love": "a glowing street-art heart ('love' sticker)"}
@@ -187,7 +190,7 @@ def main():
             "texte": txt, "langue": langue(txt), "traduction_fr": "",
             "image": os.path.relpath(img, HERE), "disponible": os.path.exists(img),
             "reprise": any(s["image"] == os.path.relpath(img, HERE) for s in slots),
-            "lignes": list(painted(TEXTES[ids[txt.strip()]][0])),
+            "lignes": [painted(TEXTES[ids[txt.strip()]][0])[0] or ""],
             "bucket": b, "mots": words,
         })
 

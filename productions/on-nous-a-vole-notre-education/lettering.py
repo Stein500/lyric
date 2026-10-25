@@ -13,7 +13,7 @@ Rendu : halo d'encre pulvérisé + capitales Montserrat ExtraBold à jitter, con
 d'encre, dégradé or/crème (ligne 1) et argent-cyan (ligne 2), coulures, taches.
 Le lettrage est CUIT dans le PNG : aucun calque mobile, aucun ghosting.
 """
-import math, random
+import math, random, zlib
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
 BOX = (150, 470, 590, 750)          # natif
@@ -70,7 +70,7 @@ def line_layer(text, path, maxw, maxh, top, bot, seed, jitter=1.1):
         tile = Image.new("RGBA", (w + 2 * PAD, asc + desc + 2 * PAD), (0, 0, 0, 0))
         td = ImageDraw.Draw(tile)
         td.text((PAD, PAD), c, font=f, fill=(255, 255, 255, 255),
-                stroke_width=max(3, f.size // 13), stroke_fill=(6, 8, 12, 255))
+                stroke_width=max(3, f.size // 15), stroke_fill=(6, 8, 12, 255))
         ang = rnd.uniform(-jitter, jitter)
         rot = tile.rotate(ang, resample=Image.BICUBIC, expand=True)
         cx = x + w / 2
@@ -115,30 +115,35 @@ def _paint(base, l1, l2, font_path, bucket):
     W, H = base.size
     x0, y0, x1, y1 = BOX
     bw, bh = x1 - x0, y1 - y0
-    seed = abs(hash((l1, l2))) % 10 ** 6
+    seed = zlib.crc32((l1 + "|" + (l2 or "")).encode("utf-8")) % 10 ** 6
     rnd = random.Random(seed)
 
     # ---------- halo d'encre pulvérisé (organique, aucune ligne droite)
     halo = Image.new("L", (W, H), 0)
     hd = ImageDraw.Draw(halo)
-    for i in range(26):
+    for i in range(20):
         cx = x0 + rnd.uniform(0.05, 0.95) * bw
         cy = y0 + rnd.uniform(0.12, 0.92) * bh
-        rx = rnd.uniform(0.20, 0.42) * bw
-        ry = rnd.uniform(0.16, 0.34) * bh
+        rx = rnd.uniform(0.16, 0.34) * bw
+        ry = rnd.uniform(0.13, 0.28) * bh
         hd.ellipse([cx - rx, cy - ry, cx + rx, cy + ry], fill=255)
-    hd.rectangle([x0 - 26, y0 - 26, x1 + 26, y1 + 26], fill=255)
-    halo = halo.filter(ImageFilter.GaussianBlur(30)).point(lambda v: int(min(255, v * 1.35)))
+    hd.ellipse([x0 - 2, y0 + 4, x1 + 2, y1 - 4], fill=255)
+    halo = halo.filter(ImageFilter.GaussianBlur(24)).point(lambda v: int(min(255, v * 1.05)))
     sp = Image.new("L", (W, H), 0)
     sd = ImageDraw.Draw(sp)
-    for i in range(240):
+    for i in range(200):
         cx = x0 + rnd.uniform(-30, bw + 30)
         cy = y0 + rnd.uniform(-24, bh + 24)
         r = rnd.uniform(0.6, 2.6)
         sd.ellipse([cx - r, cy - r, cx + r, cy + r], fill=rnd.randint(60, 150))
     sp = sp.filter(ImageFilter.GaussianBlur(0.8))
     ink = Image.new("RGBA", (W, H), (3, 5, 8, 0))
-    ink.putalpha(ImageChops.lighter(halo, sp).point(lambda v: int(v * 0.985)))
+    core = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(core).ellipse([x0 + 26, y0 + 44, x1 - 26, y1 - 34], fill=255)
+    core = core.filter(ImageFilter.GaussianBlur(18))
+    dens = ImageChops.lighter(halo, sp.point(lambda v: int(v * 0.7)))
+    dens = ImageChops.lighter(dens.point(lambda v: int(v * 0.55)), core.point(lambda v: int(v * 0.62)))
+    ink.putalpha(dens)
     base = Image.alpha_composite(base.convert("RGBA"), ink)
 
     # ---------- les deux lignes
@@ -153,7 +158,7 @@ def _paint(base, l1, l2, font_path, bucket):
         yb = top + total_h
     else:
         gold = bucket != "aube-b"
-        lay1, f1 = line_layer(l1, font_path, bw, int(bh * 0.52),
+        lay1, f1 = line_layer(l1, font_path, bw, int(bh * 0.60),
                               GOLD_TOP if gold else CREAM_TOP, GOLD_BOT if gold else CREAM_BOT, seed + 1)
         base.alpha_composite(lay1, (int(x0 + (bw - lay1.width) / 2), int(y0 + (bh - lay1.height) / 2)))
         yb = y0 + bh * 0.7

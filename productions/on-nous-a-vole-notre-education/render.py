@@ -14,7 +14,7 @@ en 1080x1920 (rendu), la source étant agrandie 1188x2128 (SC 1.10) une seule fo
 """
 import argparse, json, math, os, random, subprocess, sys, time
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageChops
-import lettering
+import deseam, lettering
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # ffmpeg : variable FF, sinon binaire imageio-ffmpeg (portable, même sous la console)
@@ -68,6 +68,7 @@ class Plan:
         im = Image.open(path).convert("RGB")
         if im.size != (768, 1376):
             im = im.resize((768, 1376), Image.LANCZOS)
+        im = deseam.clean(im)                             # v6.2 : coutures du générateur
         if lignes and any(lignes):                        # v6.2 : typo peinte par le moteur
             im = lettering.draw_lettering(im, lignes[0], lignes[1] if len(lignes) > 1 else "",
                                           os.path.join(FONTS, "Montserrat-ExtraBold.ttf"))
