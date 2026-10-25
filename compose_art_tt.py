@@ -59,6 +59,16 @@ EN = {
     368: "She sees it first.",
     369: "Joy doesn't wait.",
     370: "Walk in like you belong.",
+    371: "Plank: 30 seconds daily.",
+    372: "Push-ups: 10 + 10.",
+    373: "Squats: 20 daily.",
+    374: "Warm up 5 minutes.",
+    375: "Ten minutes a day.",
+    376: "Rest builds muscle.",
+    377: "Slow crunches win.",
+    378: "Lunges: 10 per leg.",
+    379: "Superman: 30 seconds.",
+    380: "Your body is the gym.",
 }
 
 
@@ -102,17 +112,13 @@ def brand_tiktok(num):
     wnum = tracking_w(d, t, fnum, 3)
     draw_tracking(d, (W-m-wnum, yb+14), t, fnum, acc+(255,), tr=3, shadow=(0, 0, 0, 170))
 
-    # ---- signature + citation anglaise (v4 universel : sans drapeau) ----
+    # ---- signature (v4 universel : sans drapeau) — l'anglais est désormais
+    #      intégré DANS l'image, juste sous la citation française ----
     fy = 1478
     d.rectangle([W/2-28, fy-36, W/2+28, fy-33], fill=acc+(255,))
     fsig = montserrat(25, 700)
     draw_tracking(d, (0, fy-10), "DSKY WTBW", fsig,
                   txt+(240,), tr=4.2, anchor_center_x=W/2, shadow=(0, 0, 0, 170))
-    fen = EN.get(num)
-    if fen:
-        fen_f = montserrat(20, 700)
-        draw_tracking(d, (0, fy+34), fen, fen_f, txt+(255,), tr=2.4,
-                      anchor_center_x=W/2, shadow=(0, 0, 0, 220))
 
     # ---- CTA (aéré : gap 46, se termine ~y=1582, loin des overlays TikTok) ----
     cta = [("LIKE", icon_heart), ("COMMENTE", icon_comment),
