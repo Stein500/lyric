@@ -219,7 +219,7 @@ def main():
 
 def cap_h(n):
     """hauteur de capitale native (768 px de large) pour tenir dans 510 px (§4)."""
-    return max(20, min(46, int(505 / (0.66 * max(1, n)))))
+    return max(19, min(46, int(435 / (0.66 * max(1, n)))))
 
 def prompt_wandance(l1, l2, pose, expr, decor, icon, b):
     pal = PALETTES[b]
@@ -233,15 +233,15 @@ def prompt_wandance(l1, l2, pose, expr, decor, icon, b):
         "y 190 and y 400, his shoulders and arms stay between y 400 and y 465, and the frame cuts his hips at the "
         "bottom edge. "
         f"Pose: {pose}. His expression: {expr}. Behind him, an attenuated background: {decor}; {pal}.\n"
-        "In the middle band (a clean dark ink-black spray brushstroke from y 470 to y 750, centred between x 125 "
-        "and x 645) paint two lines of neat, well-ordered, ultra-legible stylized graffiti block capital letters. "
+        "In the middle band (a clean dark ink-black spray brushstroke from y 470 to y 750, centred between x 150 "
+        "and x 590) paint two lines of neat, well-ordered, ultra-legible stylized graffiti block capital letters. "
         f"The first line has {len(l1)} characters and its capitals are about {h1} px tall; the second line has "
-        f"{len(l2)} characters and its capitals are about {h2} px tall. BOTH lines stay fully inside x 125 -> 645 "
+        f"{len(l2)} characters and its capitals are about {h2} px tall. BOTH lines stay fully inside x 150 -> 590 "
         "and never touch the frame edges.\n"
         f"First line in bold warm white and gold graffiti capitals: \"{l1}\"\n"
         f"Second line below it in crisp cyan-tinted silver-white graffiti capitals: \"{l2}\" "
         f"(keep every accent and apostrophe exactly; the accented capitals in these two lines are: {diacritiques(l1, l2)}).\n"
-        f"Below the text, between y 790 and y 900 and inside x 150 -> 620, paint 2 stylish urban graffiti sticker "
+        f"Below the text, between y 790 and y 900 and inside x 170 -> 600, paint 2 stylish urban graffiti sticker "
         f"icons side by side: {ICONS['love']} and a {icon} icon, each about 90 px tall, linked by a thin luminous "
         "gold graffiti line.\n"
         "From y 920 down to the bottom edge keep only clean dark concrete floor and his legs: no text, no icons, no "

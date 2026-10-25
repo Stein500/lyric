@@ -315,22 +315,28 @@ def bell(size, ang, t):
     def fn(d, S):
         cx, cy = S / 2, S / 2
         d.ellipse([cx - S * 0.30, cy - S * 0.34, cx + S * 0.30, cy + S * 0.26], fill=(244, 197, 98, 60))
-        body = []
-        for i in range(0, 101):
-            u = i / 100
-            x = (0.30 - 0.10 * (u ** 0.7)) * S * math.cos(math.pi * (0.5 - u * 0.5))
-            body.append((x, -0.30 * S + u * 0.52 * S))
-        for i in range(100, -1, -1):
-            u = i / 100
-            x = -(0.30 - 0.10 * (u ** 0.7)) * S * math.cos(math.pi * (0.5 - u * 0.5))
-            body.append((x, -0.30 * S + u * 0.52 * S))
+        body, N = [], 80
+        for i in range(N + 1):                       # flanc gauche : doucine puis jupe évasée
+            u = i / N
+            y = -0.30 * S + u * 0.52 * S
+            if u < 0.30:
+                x = 0.045 * S + 0.085 * S * (u / 0.30) ** 1.6
+            elif u < 0.78:
+                x = 0.130 * S - 0.010 * S * math.sin(math.pi * (u - 0.30) / 0.48)
+            else:
+                x = 0.120 * S + 0.190 * S * ((u - 0.78) / 0.22) ** 1.9
+            body.append((-x, y))
+        for i in range(N, -1, -1):                   # retour par la droite
+            x, y = body[i]
+            body.append((-x, y))
         pts = [(cx + x * math.cos(math.radians(ang)) - y * math.sin(math.radians(ang)),
                 cy + x * math.sin(math.radians(ang)) + y * math.cos(math.radians(ang))) for x, y in body]
+        d.ellipse([cx - 0.075 * S, cy - 0.44 * S, cx + 0.075 * S, cy - 0.26 * S],
+                  outline=(255, 224, 122, 255), width=int(0.035 * S))
         d.polygon(pts, fill=(244, 197, 98, 255), outline=(80, 55, 12, 255))
-        d.rounded_rectangle([cx - 0.34 * S, cy + 0.20 * S, cx + 0.34 * S, cy + 0.26 * S],
-                            radius=0.05 * S, fill=(255, 224, 122, 255))
-        d.ellipse([cx - 0.075 * S, cy + 0.27 * S, cx + 0.075 * S, cy + 0.40 * S], fill=(255, 224, 122, 255))
-        d.ellipse([cx - 0.06 * S, cy - 0.40 * S, cx + 0.06 * S, cy - 0.28 * S], fill=(255, 224, 122, 255))
+        d.rounded_rectangle([cx - 0.315 * S, cy + 0.205 * S, cx + 0.315 * S, cy + 0.27 * S],
+                            radius=0.045 * S, fill=(255, 224, 122, 255))
+        d.ellipse([cx - 0.07 * S, cy + 0.275 * S, cx + 0.07 * S, cy + 0.395 * S], fill=(255, 224, 122, 255))
     return ss_draw(size, fn, ss=3)
 
 _bell_cache = {}
@@ -347,7 +353,7 @@ def draw_cta(base, t, a, b):
         return base
     tile = Image.new("RGBA", (720, 720), (0, 0, 0, 0))
     d = ImageDraw.Draw(tile)
-    d.rounded_rectangle([34, 8, 686, 712], radius=54, fill=(6, 10, 16, int(196 * k)))
+    d.rounded_rectangle([34, 8, 686, 712], radius=54, fill=(6, 10, 16, int(244 * k)))
     d.rounded_rectangle([34, 8, 686, 712], radius=54, outline=(244, 197, 98, int(150 * k)), width=3)
     # cloche : 36 angles, pendule amorti, période 4,0 s
     tt = t - a
@@ -372,7 +378,8 @@ def draw_cta(base, t, a, b):
         d.polygon(pts, fill=(255, 240, 190, int(210 * k)))
     # flèche clignotante
     ba = (0.55 + 0.45 * math.sin(2 * math.pi * tt / 0.8))
-    d.polygon([(540, 392 + 14 * math.sin(2 * math.pi * tt / 0.8)), (522, 366), (558, 366)],
+    fy = 12 * math.sin(2 * math.pi * tt / 0.8)
+    d.polygon([(540, 300 - fy), (518, 334 - fy), (562, 334 - fy)],
               fill=(255, 224, 122, int(230 * ba * k)))
     f1 = font("ExtraBold", 56)
     draw_spaced(d, (360, 420), "CLIQUE SUR +", f1, (255, 255, 255, int(255 * k)), spacing=5, anchor_center=True,
@@ -389,16 +396,20 @@ def draw_cta(base, t, a, b):
     return base
 
 # ------------------------------------------------------------------ vers
-TRAJ = [(0.00, 1.00, 0.02, 0.98), (1.00, 0.00, 0.02, 0.98),
-        (0.18, 0.82, 0.98, 0.02), (0.82, 0.18, 0.02, 0.98)]
+# 4 trajectoires, exprimées en déplacement centré (fx / fy ∈ [-1, 1]) ; les
+# amplitudes XR / YR sont bornées pour que la bande peinte reste dans 620→1340
+# et le visage au-dessus de y 190 malgré les 110 % de marge (§5.2).
+TRAJ = [(-1.0, 1.0, -1.0, 1.0), (1.0, -1.0, -1.0, 1.0),
+        (-0.6, 0.6, 1.0, -1.0), (0.6, -0.6, -1.0, 1.0)]
+XR, YR = 45.0, 40.0
 
 def window_for(plan, si, u, dur):
     """u ∈ [0,1] ; cycle cosinus 2,2 s si dur > 3,5 s (§5.2/5.6)."""
     if dur > 3.5:
         u = 0.5 - 0.5 * math.cos(2 * math.pi * (u * dur / 2.2))
-    ax0, ax1, ay0, ay1 = TRAJ[si % 4]
-    x = SCX * (ax0 + (ax1 - ax0) * u)
-    y = SCY * (ay0 + (ay1 - ay0) * u)
+    fx0, fx1, fy0, fy1 = TRAJ[si % 4]
+    x = SCX / 2 + XR * (fx0 + (fx1 - fx0) * u)
+    y = SCY / 2 + YR * (fy0 + (fy1 - fy0) * u)
     return plan.window(x, y)
 
 def extinguish(frame, g):
