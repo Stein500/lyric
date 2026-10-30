@@ -31,6 +31,9 @@
 
 Tous les mots demandés pour les plans de cette salve figurent explicitement dans le prompt correspondant. Le modèle a tout de même ajouté une interface à la scène 16 et un point final à la scène 25; ces deux images sont rejetées, pas livrées.
 
-## Prochaine salve
+## Corrections suivies dans la salve 04
 
-Régénérer les scènes 16 et 25, puis produire les scènes 27 à 34 — **10 générations maximum**. Les chemins rejetés restent exclus des images actives.
+- Scène 16 : **QC accepté** après suppression de l’interface sociale parasite.
+- Scène 25 : **QC accepté** après suppression du point final ajouté.
+
+La prochaine salve régénère la scène 31 et produit les scènes 35 à 43.

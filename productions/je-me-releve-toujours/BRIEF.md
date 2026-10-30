@@ -1,6 +1,6 @@
 # Brief de production — « Je me relève toujours »
 
-> **État général :** ancre **générée, contrôlée et validée par l’artiste**. Trois salves de 10 images ont été générées. La carte des paroles est construite; certains plans restent à refaire. Aucun rendu 9:16 final n’est déclaré livré.
+> **État général :** ancre **générée, contrôlée et validée par l’artiste**. Quatre salves de 10 images ont été générées. La carte des paroles est construite; un plan reste à refaire. Aucun rendu 9:16 final n’est déclaré livré.
 
 ## Paramètres validés / source
 
@@ -20,7 +20,7 @@
 - Carte : `verses_map.json` et `CARTE-VERS.md`, générés par `build_map.py`; `disponible` est recalculé par existence de fichier.
 - Le texte identique est réutilisé; les reprises du refrain final ont des variantes d’aube dédiées.
 - **Contrat d’affichage** : chaque parole peinte est écrite verbatim dans son prompt; tout mot, signe ou texte ajouté par le modèle entraîne le rejet. Le badge vidéo `WTBW` / `DSKY` alterné, les cartes et les CTA seront composités selon les chaînes exactes du prompt, jamais improvisés par le générateur.
-- **24 fichiers image actifs sur 47 chemins d’image distincts** sont disponibles après contrôle; les scènes 16 et 25 restent rejetées à refaire. Les journaux et planches sont dans `SALVE-01.md`, `SALVE-02.md`, `SALVE-03.md` et `CONTROLE-salve*.jpg`.
+- **33 fichiers image actifs sur 47 chemins d’image distincts** sont disponibles après contrôle; la scène 31 reste rejetée à refaire pour la casse de `Arigato`. Les journaux et planches sont dans `SALVE-01.md` à `SALVE-04.md` et `CONTROLE-salve*.jpg`.
 - `affichage_s` applique la formule v6.0 et reste **provisoire** jusqu’au calage mot à mot.
 - Aucun code de fin, drapeau, contact, lien, QR ou logo ne sera ajouté.
 
@@ -34,7 +34,7 @@ Les commentaires ID3 source contiennent `made with suno` et un lien Suno. La dé
 
 ## Prochaines étapes
 
-1. Régénérer les scènes 16 et 25; créer les scènes 27–34 en salve de 10 maximum.
+1. Régénérer la scène 31; créer les scènes 35–43 en salve de 10 maximum.
 2. Continuer les salves, le contrôle typo et les variantes aube.
 3. Fabriquer le rendu et le fichier audio dérivé après validation des assets et des champs finaux.
 4. À la fin, livrer le **prompt universel complet mis à jour**, auto-suffisant, intégrant la tomate-héroïne, le badge WTBW/DSKY alterné, les glosses bilingues et les contrôles observés.
