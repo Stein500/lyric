@@ -31,6 +31,10 @@
 
 Chaque mot destiné à apparaître dans une image est écrit explicitement dans le prompt de cette image. Aucun texte inventé par le générateur n’est accepté : le paragraphe anglais de la scène 06 v1, le point ajouté à la scène 10 v2 et les guillemets supplémentaires de la scène 13 sont consignés comme échecs, pas comme contenu livré.
 
-## Prochaine salve
+## Corrections suivies dans la salve 03
 
-Régénérer les scènes 10, 13 et 16, puis générer les scènes 20 à 26 — **10 générations maximum**. Les fichiers rejetés restent exclus des chemins d’image actifs.
+- Scène 10 : **QC accepté** après suppression du point final parasite.
+- Scène 13 : **QC accepté**; une seule paire de guillemets entoure maintenant la parole citée.
+- Scène 16 : toujours **rejetée**; le modèle a rendu une barre d’interface sociale malgré l’interdiction.
+
+Les autres résultats du lot initial restent inchangés.

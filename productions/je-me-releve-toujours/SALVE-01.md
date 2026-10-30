@@ -30,6 +30,6 @@
 ## Corrections suivies dans la salve 02
 
 - Scène 06 : nouvelle version **QC acceptée**; le premier échec reste archivé dans `fonds/rejected/`.
-- Scène 10 : nouvelle version toujours **rejetée** (point final ajouté par le modèle); la troisième tentative est planifiée.
+- Scène 10 : la version de la salve 02 était **rejetée** (point final ajouté); la version de la salve 03 est maintenant **QC acceptée**.
 
 Les autres résultats du lot initial restent inchangés.

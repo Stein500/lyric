@@ -27,4 +27,4 @@ Une tomate-héroïne ronde et rouge, avec grands yeux expressifs, sourcils en fe
 
 ## Suite
 
-L’ancre étant validée, les salves peuvent commencer. Le titre « Je me relève toujours » est confirmé par le maître audio et le fichier source. Le nom d’artiste à afficher reste à confirmer; le tag ID3 du maître indique `stein2000`.
+L’ancre étant validée, les salves continuent. Le titre « Je me relève toujours » est confirmé par le maître audio et le fichier source. L’artiste a choisi `Dsky` pour les métadonnées; le badge vidéo alternera `WTBW` et `DSKY`.

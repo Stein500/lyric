@@ -42,7 +42,7 @@ def language_for(text: str) -> str:
     if text == ENGLISH:
         return "EN"
     if text == MULTILINGUAL:
-        return "MULTILINGUE (JA+ES+FR+INCONNUE)"
+        return "MULTILINGUE (JA+ES+FR+MONWÊ)"
     return "FR"
 
 
@@ -88,8 +88,8 @@ def build() -> list[dict]:
         translation = TRANSLATIONS.get(text, "")
         translation_status = "sans traduction" if lang in {"FR", "WTBW"} else "provisoire"
         if text == MULTILINGUAL:
-            translation = None
-            translation_status = "à confirmer : sens de « monwê » non établi"
+            translation = "Merci, merci, merci — c'est confirmé."
+            translation_status = "traduction retenue selon gloss artiste : monwê = « c'est ça / c'est confirmé »"
         reprise = first_i != i or is_final_chorus
         item = {
             "i": i,
@@ -151,7 +151,7 @@ def write_card(rows: list[dict]) -> None:
             "",
             "## À relire avant rendu",
             "",
-            "- Traduction du vers multilingue `Arigato, gracias, merci, monwê` en attente de clarification sur `monwê`.",
+            "- Traduction FR retenue pour le vers multilingue `Arigato, gracias, merci, monwê` : `Merci, merci, merci — c'est confirmé.` (gloss artiste : monwê = « c'est ça / c'est confirmé »).",
             "- Les lignes non françaises gardent leurs paroles originales peintes; la traduction française défile dans la pilule basse v6.0.",
             "- Les variantes de l’ultime refrain et de l’outro suivent l’arc d’aube; aucun résultat de rendu n’est encore déclaré.",
             "",

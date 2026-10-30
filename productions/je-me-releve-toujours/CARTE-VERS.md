@@ -16,40 +16,40 @@
 | 8 | 00:36.92 | 00:40.21 | J'ai traversé l'enfer, j'ai dormi sur la route | FR | — | `fonds/scene-07.png` | oui | non | 2.40 |
 | 9 | 00:40.21 | 00:43.34 | J'ai perdu des amis, j'ai vidé des bouteilles | FR | — | `fonds/scene-08.png` | oui | non | 2.40 |
 | 10 | 00:43.34 | 00:46.34 | J'ai vu des sourires se cacher derrière des doutes | FR | — | `fonds/scene-09.png` | oui | non | 2.70 |
-| 11 | 00:46.34 | 00:49.00 | J'ai vu des promesses s'envoler comme des abeilles | FR | — | `fonds/scene-10.png` | non | non | 2.40 |
+| 11 | 00:46.34 | 00:49.00 | J'ai vu des promesses s'envoler comme des abeilles | FR | — | `fonds/scene-10.png` | oui | non | 2.40 |
 | 12 | 00:49.00 | 00:50.70 | Mais j'ai gardé la foi, j'ai gardé la flamme | FR | — | `fonds/scene-11.png` | oui | non | 1.70 |
 | 13 | 00:50.70 | 00:52.16 | J'ai gardé le feu qui brûle dans mon âme | FR | — | `fonds/scene-12.png` | oui | non | 1.46 |
-| 14 | 00:52.16 | 00:53.80 | On m'a dit "t'es trop petit, t'es trop lent, t'es trop différent" | FR | — | `fonds/scene-13.png` | non | non | 1.64 |
+| 14 | 00:52.16 | 00:53.80 | On m'a dit "t'es trop petit, t'es trop lent, t'es trop différent" | FR | — | `fonds/scene-13.png` | oui | non | 1.64 |
 | 15 | 00:53.80 | 00:55.84 | Mais j'ai transformé leurs insultes en sang, en talent | FR | — | `fonds/scene-14.png` | oui | non | 2.04 |
 | 16 | 00:55.84 | 00:58.73 | Maintenant je suis debout, j'ai des cicatrices sur le cœur | FR | — | `fonds/scene-15.png` | oui | non | 2.89 |
 | 17 | 00:58.73 | 01:01.82 | Chaque larme versée est devenue une œuvre | FR | — | `fonds/scene-16.png` | non | non | 2.20 |
 | 18 | 01:01.82 | 01:04.91 | Ils ont voulu ma fin, ils ont voulu ma chute | FR | — | `fonds/scene-17.png` | oui | non | 3.00 |
 | 19 | 01:04.91 | 01:07.52 | Mais je suis un roc, je résiste, je lutte | FR | — | `fonds/scene-18.png` | oui | non | 2.61 |
 | 20 | 01:07.52 | 01:12.79 | Je tombe, je me relève | FR | — | `fonds/scene-19.png` | oui | non | 2.20 |
-| 21 | 01:12.79 | 01:15.70 | Je pleure, je rêve | FR | — | `fonds/scene-20.png` | non | non | 2.20 |
-| 22 | 01:15.70 | 01:18.90 | Je lutte, je vis | FR | — | `fonds/scene-21.png` | non | non | 2.20 |
-| 23 | 01:18.90 | 01:25.54 | Je suis le fils de la pluie et du cri | FR | — | `fonds/scene-22.png` | non | non | 3.00 |
+| 21 | 01:12.79 | 01:15.70 | Je pleure, je rêve | FR | — | `fonds/scene-20.png` | oui | non | 2.20 |
+| 22 | 01:15.70 | 01:18.90 | Je lutte, je vis | FR | — | `fonds/scene-21.png` | oui | non | 2.20 |
+| 23 | 01:18.90 | 01:25.54 | Je suis le fils de la pluie et du cri | FR | — | `fonds/scene-22.png` | oui | non | 3.00 |
 | 24 | 01:25.54 | 01:31.70 | Je tombe, je tombe, je me relève toujours | FR | — | `fonds/scene-03.png` | oui | oui (vers 3) | 2.40 |
 | 25 | 01:31.70 | 01:37.66 | Je tombe, je tombe, je me relève toujours | FR | — | `fonds/scene-03.png` | oui | oui (vers 3) | 2.40 |
 | 26 | 01:37.66 | 01:40.77 | On a tenté de me briser, on a tenté de me tuer | FR | — | `fonds/scene-04.png` | oui | oui (vers 5) | 3.11 |
 | 27 | 01:40.77 | 01:48.88 | Mais je suis un phénix, je renais, je suis né pour durer | FR | — | `fonds/scene-05.png` | oui | oui (vers 6) | 3.60 |
 | 28 | 01:48.88 | 01:50.37 | Wolof TechStein beat wê! | WTBW | — | `fonds/scene-06.png` | oui | oui (vers 7) | 1.49 |
-| 29 | 01:50.37 | 01:51.92 | J'ai touché le fond, j'ai vu le vide en face | FR | — | `fonds/scene-23.png` | non | non | 1.55 |
-| 30 | 01:51.92 | 01:53.49 | J'ai senti la mort frôler ma peau, ma trace | FR | — | `fonds/scene-24.png` | non | non | 1.57 |
+| 29 | 01:50.37 | 01:51.92 | J'ai touché le fond, j'ai vu le vide en face | FR | — | `fonds/scene-23.png` | oui | non | 1.55 |
+| 30 | 01:51.92 | 01:53.49 | J'ai senti la mort frôler ma peau, ma trace | FR | — | `fonds/scene-24.png` | oui | non | 1.57 |
 | 31 | 01:53.49 | 01:55.17 | Mais j'ai gardé la tête haute, j'ai gardé l'envie | FR | — | `fonds/scene-25.png` | non | non | 1.68 |
-| 32 | 01:55.17 | 01:56.66 | Je suis un guerrier, je suis né pour la vie | FR | — | `fonds/scene-26.png` | non | non | 1.49 |
+| 32 | 01:55.17 | 01:56.66 | Je suis un guerrier, je suis né pour la vie | FR | — | `fonds/scene-26.png` | oui | non | 1.49 |
 | 33 | 01:56.66 | 01:58.09 | Ils m'ont frappé, ils m'ont volé, ils m'ont trahi | FR | — | `fonds/scene-27.png` | non | non | 1.43 |
 | 34 | 01:58.09 | 01:59.68 | Mais j'ai serré les dents, j'ai crié, j'ai rugi | FR | — | `fonds/scene-28.png` | non | non | 1.59 |
 | 35 | 01:59.68 | 02:01.27 | La vie m'a donné des coups, je lui ai donné des coups | FR | — | `fonds/scene-29.png` | non | non | 1.59 |
 | 36 | 02:01.27 | 02:03.27 | Je suis le roi du ring, je suis debout, je suis fou | FR | — | `fonds/scene-30.png` | non | non | 2.00 |
-| 37 | 02:03.27 | 02:05.43 | Arigato, gracias, merci, monwê | MULTILINGUE (JA+ES+FR+INCONNUE) | À confirmer | `fonds/scene-31.png` | non | non | 2.16 |
+| 37 | 02:03.27 | 02:05.43 | Arigato, gracias, merci, monwê | MULTILINGUE (JA+ES+FR+MONWÊ) | Merci, merci, merci — c'est confirmé. | `fonds/scene-31.png` | non | non | 2.16 |
 | 38 | 02:05.43 | 02:07.79 | Je remercie la vie, je remercie la peine | FR | — | `fonds/scene-32.png` | non | non | 2.36 |
 | 39 | 02:07.79 | 02:09.19 | Elle m'a forgé, elle m'a soudé | FR | — | `fonds/scene-33.png` | non | non | 1.40 |
 | 40 | 02:09.19 | 02:14.66 | Maintenant je suis une armée, je suis l'éclat | FR | — | `fonds/scene-34.png` | non | non | 2.40 |
 | 41 | 02:14.66 | 02:20.11 | Je tombe, je me relève | FR | — | `fonds/scene-19.png` | oui | oui (vers 20) | 2.20 |
-| 42 | 02:20.11 | 02:23.04 | Je pleure, je rêve | FR | — | `fonds/scene-20.png` | non | oui (vers 21) | 2.20 |
-| 43 | 02:23.04 | 02:26.33 | Je lutte, je vis | FR | — | `fonds/scene-21.png` | non | oui (vers 22) | 2.20 |
-| 44 | 02:26.33 | 02:33.24 | Je suis le fils de la pluie et du cri | FR | — | `fonds/scene-22.png` | non | oui (vers 23) | 3.00 |
+| 42 | 02:20.11 | 02:23.04 | Je pleure, je rêve | FR | — | `fonds/scene-20.png` | oui | oui (vers 21) | 2.20 |
+| 43 | 02:23.04 | 02:26.33 | Je lutte, je vis | FR | — | `fonds/scene-21.png` | oui | oui (vers 22) | 2.20 |
+| 44 | 02:26.33 | 02:33.24 | Je suis le fils de la pluie et du cri | FR | — | `fonds/scene-22.png` | oui | oui (vers 23) | 3.00 |
 | 45 | 02:33.24 | 02:36.14 | J'ai traversé la nuit, j'ai vu l'aube se lever | FR | — | `fonds/scene-35.png` | non | non | 2.70 |
 | 46 | 02:36.14 | 02:39.37 | J'ai vu le soleil briller sur mes cicatrices | FR | — | `fonds/scene-36.png` | non | non | 2.40 |
 | 47 | 02:39.37 | 02:40.78 | Elles sont belles, elles sont miennes | FR | — | `fonds/scene-37.png` | non | non | 1.41 |
@@ -67,6 +67,6 @@
 
 ## À relire avant rendu
 
-- Traduction du vers multilingue `Arigato, gracias, merci, monwê` en attente de clarification sur `monwê`.
+- Traduction FR retenue pour le vers multilingue `Arigato, gracias, merci, monwê` : `Merci, merci, merci — c'est confirmé.` (gloss artiste : monwê = « c'est ça / c'est confirmé »).
 - Les lignes non françaises gardent leurs paroles originales peintes; la traduction française défile dans la pilule basse v6.0.
 - Les variantes de l’ultime refrain et de l’outro suivent l’arc d’aube; aucun résultat de rendu n’est encore déclaré.

@@ -192,7 +192,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-10.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -246,7 +246,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-13.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -372,7 +372,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-20.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -390,7 +390,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-21.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -408,7 +408,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-22.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -516,7 +516,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-23.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -534,7 +534,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-24.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -570,7 +570,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-26.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -656,9 +656,9 @@
     "affichage_s": 2.16,
     "affichage_statut": "provisoire — formule v6.0",
     "texte": "Arigato, gracias, merci, monwê",
-    "langue": "MULTILINGUE (JA+ES+FR+INCONNUE)",
-    "traduction_fr": null,
-    "traduction_statut": "à confirmer : sens de « monwê » non établi",
+    "langue": "MULTILINGUE (JA+ES+FR+MONWÊ)",
+    "traduction_fr": "Merci, merci, merci — c'est confirmé.",
+    "traduction_statut": "traduction retenue selon gloss artiste : monwê = « c'est ça / c'est confirmé »",
     "image": "fonds/scene-31.png",
     "disponible": false,
     "reprise": false,
@@ -750,7 +750,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-20.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 21,
     "variante": "standard"
@@ -768,7 +768,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-21.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 22,
     "variante": "standard"
@@ -786,7 +786,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-22.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 23,
     "variante": "standard"
