@@ -660,7 +660,7 @@
     "traduction_fr": "Merci, merci, merci — c'est confirmé.",
     "traduction_statut": "traduction retenue selon gloss artiste : monwê = « c'est ça / c'est confirmé »",
     "image": "fonds/scene-31.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -948,7 +948,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-03-aube.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 3,
     "variante": "aube"
@@ -966,7 +966,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-03-aube.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 3,
     "variante": "aube"
@@ -984,7 +984,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-04-aube.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 5,
     "variante": "aube"
@@ -1002,7 +1002,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-05-aube.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 6,
     "variante": "aube"
@@ -1020,7 +1020,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-06-aube.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 7,
     "variante": "aube"

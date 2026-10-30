@@ -33,4 +33,4 @@ Le lettrage de chaque visuel reste dans le style choisi par l’image (script, c
 
 ## Suite
 
-Dans la salve 06 (5 images maximum pour ces besoins), refaire la scène 31 sans ornement et créer les quatre variantes d’aube du refrain final (`scene-03-aube.png` à `scene-06-aube.png`). Ensuite, passer aux cartes WTBW, au badge alterné WTBW/DSKY, au fichier audio dérivé et au rendu final.
+La scène 31 v3, sans ornement, et les quatre variantes d’aube ont été réalisées et passées au QC dans la salve 06; voir `SALVE-06.md`. La première version de `scene-06-aube` a été rejetée pour ses points de suspension et remplacée par une version conforme.
