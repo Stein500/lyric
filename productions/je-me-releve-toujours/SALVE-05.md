@@ -4,8 +4,8 @@
 
 - **Demandées** : 10 images (correction scène 31; scènes 35 à 43)
 - **Générées** : 10 images
-- **QC visuel/typo accepté par l’agent** : 10 images
-- **Échecs consignés** : 0
+- **QC visuel/typo accepté par l’agent** : 9 images — scènes 35 à 43
+- **Échec consigné** : 1 image — scène 31 v2
 - **Taille** : 768 × 1376 px par image
 - **Contact sheet** : `CONTROLE-salve05.jpg`, 2 colonnes × 5 rangées; chaque tuile fait 500 × 896 px
 - **Contrôle typo 1:1** : `CONTROLE-salve05-typo.jpg`, grille de 16 px
@@ -16,7 +16,7 @@
 
 | Scène | Vers source | État QC | Note |
 |---:|---|---|---|
-| 31 | `Arigato, gracias, merci, monwê` | QC accepté — correction | Le A initial est maintenant majuscule; `monwê` et son `ê` sont conservés. Bande basse laissée libre pour la traduction FR défilante. Le lettrage de la version corrigée garde le style de la version précédente. |
+| 31 | `Arigato, gracias, merci, monwê` | **Échec — à régénérer** | Le A initial et `monwê` sont corrects et le style sérif est conservé, mais le modèle a ajouté une guirlande de cœurs/feuilles sous le texte. Cet ornement typographique non demandé occupe la bande basse réservée à la traduction FR. Archivée dans `fonds/rejected/scene-31-v2-unrequested-ornament.png`. |
 | 35 | `J'ai traversé la nuit, j'ai vu l'aube se lever` | QC accepté | Première lueur au pont; accents et apostrophes relus. |
 | 36 | `J'ai vu le soleil briller sur mes cicatrices` | QC accepté | Aube douce; vers relu. |
 | 37 | `Elles sont belles, elles sont miennes` | QC accepté | Lettrage cursif conservé; ponctuation relue. |
@@ -29,8 +29,8 @@
 
 ## Règle typographique confirmée
 
-Le lettrage de chaque visuel reste dans le style choisi par l’image (script ou cursif). Aucune normalisation ni recomposition à la police n’a été faite; le texte n’est rejeté que si casse, orthographe, accentuation, ponctuation ou contenu sont incorrects.
+Le lettrage de chaque visuel reste dans le style choisi par l’image (script, cursif ou sérif). Aucune normalisation ni recomposition à la police n’a été faite. Le QC vérifie aussi l’absence de tout texte, signe ou ornement typographique non demandé et le dégagement de la bande de traduction; la scène 31 v2 échoue à ce contrôle malgré ses paroles exactes.
 
 ## Suite
 
-Créer les quatre variantes d’aube du refrain final (`scene-03-aube.png` à `scene-06-aube.png`), puis passer aux cartes WTBW, au badge alterné WTBW/DSKY, au fichier audio dérivé et au rendu final.
+Dans la salve 06 (5 images maximum pour ces besoins), refaire la scène 31 sans ornement et créer les quatre variantes d’aube du refrain final (`scene-03-aube.png` à `scene-06-aube.png`). Ensuite, passer aux cartes WTBW, au badge alterné WTBW/DSKY, au fichier audio dérivé et au rendu final.

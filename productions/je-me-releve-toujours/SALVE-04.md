@@ -33,6 +33,6 @@ Chaque parole demandée figurait explicitement dans le prompt de son image. La c
 
 ## Correction suivie dans la salve 05
 
-- Scène 31 : **QC accepté** après rétablissement du A majuscule de `Arigato`; le style de lettrage précédent est conservé.
+- Scène 31 v2 (salve 05) : le A majuscule et le style sérif ont été rétablis, mais un ornement de cœurs/feuilles non demandé a rempli la bande basse réservée à la traduction. **Nouvel échec QC**; l’image est archivée et la correction reste à faire en salve 06.
 
-La prochaine étape visuelle est la salve d’aube du refrain final.
+La salve suivante regroupera cette correction et les quatre variantes d’aube du refrain final.

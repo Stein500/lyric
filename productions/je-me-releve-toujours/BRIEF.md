@@ -1,6 +1,6 @@
 # Brief de production — « Je me relève toujours »
 
-> **État général :** ancre **générée, contrôlée et validée par l’artiste**. Cinq salves de 10 images ont été générées. Les plans de couplets, pont et outro sont contrôlés; restent les variantes d’aube du refrain final, les cartes et le rendu. Aucun MP4 final n’est déclaré livré.
+> **État général :** ancre **générée, contrôlée et validée par l’artiste**. Cinq salves de 10 images ont été générées. La salve 05 a passé 9 images sur 10; la correction 31 est rejetée pour ornement typographique non demandé dans la zone de traduction. Restent cette correction, quatre variantes d’aube, les cartes et le rendu. Aucun MP4 final n’est déclaré livré.
 
 ## Paramètres validés / source
 
@@ -20,7 +20,7 @@
 - Carte : `verses_map.json` et `CARTE-VERS.md`, générés par `build_map.py`; `disponible` est recalculé par existence de fichier.
 - Le texte identique est réutilisé; les reprises du refrain final ont des variantes d’aube dédiées.
 - **Contrat d’affichage** : chaque parole peinte est écrite verbatim dans son prompt; tout mot, signe ou texte ajouté par le modèle entraîne le rejet. Le badge vidéo `WTBW` / `DSKY` alterné, les cartes et les CTA seront composités selon les chaînes exactes du prompt, jamais improvisés par le générateur.
-- **43 fichiers image actifs sur 47 chemins d’image distincts** sont disponibles après contrôle; il reste quatre variantes d’aube du refrain final. Les journaux et planches sont dans `SALVE-01.md` à `SALVE-05.md` et `CONTROLE-salve*.jpg`.
+- **42 fichiers image actifs sur 47 chemins d’image distincts** sont disponibles après contrôle; il reste la correction de la scène 31 et quatre variantes d’aube du refrain final. Les journaux et planches sont dans `SALVE-01.md` à `SALVE-05.md` et `CONTROLE-salve*.jpg`.
 - `affichage_s` applique la formule v6.0 et reste **provisoire** jusqu’au calage mot à mot.
 - Aucun code de fin, drapeau, contact, lien, QR ou logo ne sera ajouté.
 
@@ -34,7 +34,7 @@ Les commentaires ID3 source contiennent `made with suno` et un lien Suno. La dé
 
 ## Prochaines étapes
 
-1. Générer et contrôler les quatre variantes d’aube du refrain final.
+1. En salve 06 (5 images), refaire la scène 31 sans ornement typographique puis générer et contrôler les quatre variantes d’aube du refrain final.
 2. Fabriquer les cartes d’accueil/finale et le badge alterné WTBW/DSKY, en gardant chaque chaîne visible exacte.
 3. Créer la copie audio dérivée normalisée/taguée, avec le maître original intact et la provenance IA fidèle.
 4. Rendre le MP4 9:16 puis effectuer les contrôles réels et publier les chiffres mesurés.

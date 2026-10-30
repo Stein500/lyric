@@ -42,7 +42,7 @@
 | 34 | 01:58.09 | 01:59.68 | Mais j'ai serré les dents, j'ai crié, j'ai rugi | FR | — | `fonds/scene-28.png` | oui | non | 1.59 |
 | 35 | 01:59.68 | 02:01.27 | La vie m'a donné des coups, je lui ai donné des coups | FR | — | `fonds/scene-29.png` | oui | non | 1.59 |
 | 36 | 02:01.27 | 02:03.27 | Je suis le roi du ring, je suis debout, je suis fou | FR | — | `fonds/scene-30.png` | oui | non | 2.00 |
-| 37 | 02:03.27 | 02:05.43 | Arigato, gracias, merci, monwê | MULTILINGUE (JA+ES+FR+MONWÊ) | Merci, merci, merci — c'est confirmé. | `fonds/scene-31.png` | oui | non | 2.16 |
+| 37 | 02:03.27 | 02:05.43 | Arigato, gracias, merci, monwê | MULTILINGUE (JA+ES+FR+MONWÊ) | Merci, merci, merci — c'est confirmé. | `fonds/scene-31.png` | non | non | 2.16 |
 | 38 | 02:05.43 | 02:07.79 | Je remercie la vie, je remercie la peine | FR | — | `fonds/scene-32.png` | oui | non | 2.36 |
 | 39 | 02:07.79 | 02:09.19 | Elle m'a forgé, elle m'a soudé | FR | — | `fonds/scene-33.png` | oui | non | 1.40 |
 | 40 | 02:09.19 | 02:14.66 | Maintenant je suis une armée, je suis l'éclat | FR | — | `fonds/scene-34.png` | oui | non | 2.40 |

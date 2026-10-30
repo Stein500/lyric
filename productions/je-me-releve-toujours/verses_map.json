@@ -660,7 +660,7 @@
     "traduction_fr": "Merci, merci, merci — c'est confirmé.",
     "traduction_statut": "traduction retenue selon gloss artiste : monwê = « c'est ça / c'est confirmé »",
     "image": "fonds/scene-31.png",
-    "disponible": true,
+    "disponible": false,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
