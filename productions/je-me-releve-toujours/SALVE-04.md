@@ -31,6 +31,8 @@
 
 Chaque parole demandée figurait explicitement dans le prompt de son image. La casse incorrecte de `Arigato` vient du modèle; elle est consignée comme échec et n’est pas comptée comme image disponible.
 
-## Prochaine salve
+## Correction suivie dans la salve 05
 
-Régénérer la scène 31, puis produire les scènes 35 à 43 — **10 générations maximum**.
+- Scène 31 : **QC accepté** après rétablissement du A majuscule de `Arigato`; le style de lettrage précédent est conservé.
+
+La prochaine étape visuelle est la salve d’aube du refrain final.

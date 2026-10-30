@@ -42,7 +42,7 @@
 | 34 | 01:58.09 | 01:59.68 | Mais j'ai serré les dents, j'ai crié, j'ai rugi | FR | — | `fonds/scene-28.png` | oui | non | 1.59 |
 | 35 | 01:59.68 | 02:01.27 | La vie m'a donné des coups, je lui ai donné des coups | FR | — | `fonds/scene-29.png` | oui | non | 1.59 |
 | 36 | 02:01.27 | 02:03.27 | Je suis le roi du ring, je suis debout, je suis fou | FR | — | `fonds/scene-30.png` | oui | non | 2.00 |
-| 37 | 02:03.27 | 02:05.43 | Arigato, gracias, merci, monwê | MULTILINGUE (JA+ES+FR+MONWÊ) | Merci, merci, merci — c'est confirmé. | `fonds/scene-31.png` | non | non | 2.16 |
+| 37 | 02:03.27 | 02:05.43 | Arigato, gracias, merci, monwê | MULTILINGUE (JA+ES+FR+MONWÊ) | Merci, merci, merci — c'est confirmé. | `fonds/scene-31.png` | oui | non | 2.16 |
 | 38 | 02:05.43 | 02:07.79 | Je remercie la vie, je remercie la peine | FR | — | `fonds/scene-32.png` | oui | non | 2.36 |
 | 39 | 02:07.79 | 02:09.19 | Elle m'a forgé, elle m'a soudé | FR | — | `fonds/scene-33.png` | oui | non | 1.40 |
 | 40 | 02:09.19 | 02:14.66 | Maintenant je suis une armée, je suis l'éclat | FR | — | `fonds/scene-34.png` | oui | non | 2.40 |
@@ -50,20 +50,20 @@
 | 42 | 02:20.11 | 02:23.04 | Je pleure, je rêve | FR | — | `fonds/scene-20.png` | oui | oui (vers 21) | 2.20 |
 | 43 | 02:23.04 | 02:26.33 | Je lutte, je vis | FR | — | `fonds/scene-21.png` | oui | oui (vers 22) | 2.20 |
 | 44 | 02:26.33 | 02:33.24 | Je suis le fils de la pluie et du cri | FR | — | `fonds/scene-22.png` | oui | oui (vers 23) | 3.00 |
-| 45 | 02:33.24 | 02:36.14 | J'ai traversé la nuit, j'ai vu l'aube se lever | FR | — | `fonds/scene-35.png` | non | non | 2.70 |
-| 46 | 02:36.14 | 02:39.37 | J'ai vu le soleil briller sur mes cicatrices | FR | — | `fonds/scene-36.png` | non | non | 2.40 |
-| 47 | 02:39.37 | 02:40.78 | Elles sont belles, elles sont miennes | FR | — | `fonds/scene-37.png` | non | non | 1.41 |
-| 48 | 02:40.78 | 02:44.52 | Elles racontent mon histoire, elles sont mes reines | FR | — | `fonds/scene-38.png` | non | non | 2.40 |
-| 49 | 02:44.52 | 02:48.02 | Je suis tombé, je me suis relevé | FR | — | `fonds/scene-39.png` | non | non | 2.20 |
-| 50 | 02:48.02 | 02:50.86 | J'ai pleuré, j'ai appris à sourire | FR | — | `fonds/scene-40.png` | non | non | 2.20 |
-| 51 | 02:50.86 | 02:53.71 | J'ai perdu, j'ai gagné, j'ai traversé le vide | FR | — | `fonds/scene-41.png` | non | non | 2.40 |
-| 52 | 02:53.71 | 02:57.76 | Maintenant je sais, je sais qui je suis | FR | — | `fonds/scene-42.png` | non | non | 2.40 |
+| 45 | 02:33.24 | 02:36.14 | J'ai traversé la nuit, j'ai vu l'aube se lever | FR | — | `fonds/scene-35.png` | oui | non | 2.70 |
+| 46 | 02:36.14 | 02:39.37 | J'ai vu le soleil briller sur mes cicatrices | FR | — | `fonds/scene-36.png` | oui | non | 2.40 |
+| 47 | 02:39.37 | 02:40.78 | Elles sont belles, elles sont miennes | FR | — | `fonds/scene-37.png` | oui | non | 1.41 |
+| 48 | 02:40.78 | 02:44.52 | Elles racontent mon histoire, elles sont mes reines | FR | — | `fonds/scene-38.png` | oui | non | 2.40 |
+| 49 | 02:44.52 | 02:48.02 | Je suis tombé, je me suis relevé | FR | — | `fonds/scene-39.png` | oui | non | 2.20 |
+| 50 | 02:48.02 | 02:50.86 | J'ai pleuré, j'ai appris à sourire | FR | — | `fonds/scene-40.png` | oui | non | 2.20 |
+| 51 | 02:50.86 | 02:53.71 | J'ai perdu, j'ai gagné, j'ai traversé le vide | FR | — | `fonds/scene-41.png` | oui | non | 2.40 |
+| 52 | 02:53.71 | 02:57.76 | Maintenant je sais, je sais qui je suis | FR | — | `fonds/scene-42.png` | oui | non | 2.40 |
 | 53 | 02:57.76 | 03:03.61 | Je tombe, je tombe, je me relève toujours | FR | — | `fonds/scene-03-aube.png` | non | oui (vers 3) | 2.40 |
 | 54 | 03:03.61 | 03:09.54 | Je tombe, je tombe, je me relève toujours | FR | — | `fonds/scene-03-aube.png` | non | oui (vers 3) | 2.40 |
 | 55 | 03:09.54 | 03:12.77 | On a tenté de me briser, on a tenté de me tuer | FR | — | `fonds/scene-04-aube.png` | non | oui (vers 5) | 3.23 |
 | 56 | 03:12.77 | 03:20.80 | Mais je suis un phénix, je renais, je suis né pour durer | FR | — | `fonds/scene-05-aube.png` | non | oui (vers 6) | 3.60 |
 | 57 | 03:20.80 | 03:45.02 | Wolof TechStein beat wê! | WTBW | — | `fonds/scene-06-aube.png` | non | oui (vers 7) | 2.20 |
-| 58 | 03:45.02 | 03:49.91 | je me relève toujours | FR | — | `fonds/scene-43.png` | non | non | 2.20 |
+| 58 | 03:45.02 | 03:49.91 | je me relève toujours | FR | — | `fonds/scene-43.png` | oui | non | 2.20 |
 
 ## À relire avant rendu
 

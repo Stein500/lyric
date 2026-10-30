@@ -660,7 +660,7 @@
     "traduction_fr": "Merci, merci, merci — c'est confirmé.",
     "traduction_statut": "traduction retenue selon gloss artiste : monwê = « c'est ça / c'est confirmé »",
     "image": "fonds/scene-31.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -804,7 +804,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-35.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -822,7 +822,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-36.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -840,7 +840,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-37.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -858,7 +858,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-38.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -876,7 +876,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-39.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -894,7 +894,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-40.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -912,7 +912,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-41.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -930,7 +930,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-42.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -1038,7 +1038,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-43.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "aube_outro"
