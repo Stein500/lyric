@@ -104,9 +104,8 @@ def brand_tiktok(num):
     img.alpha_composite(ov)
     d = ImageDraw.Draw(img)
 
-    # ---- bloc bas ZONE SÛRE : badge + N° ----
+    # ---- bloc bas ZONE SÛRE : N° seul (badge DSKY retiré — la signature suffit) ----
     yb = 1345
-    draw_badge(img, m, yb, acc)
     fnum = montserrat(26, 700)
     t = f"N° {num}"
     wnum = tracking_w(d, t, fnum, 3)
