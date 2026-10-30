@@ -1041,3 +1041,25 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **389.** `LE GÂTEAU QUI RÉPARE` — gâteau aux amandes, part coupée — « Un gâteau partagé répare presque tout. » / "A shared cake fixes almost everything."
 
 **390.** `LE BONHEUR SERVI` — table dressée, bougies et guirlandes — « La table dressée, c'est déjà le bonheur servi. » / "A set table is happiness served."
+
+## SAISON 2 — Série ART XXXIV (391 → 400) — « CUISINE & RECETTES vol. 2 » (100 % IA + ligne CTA gravée : citation FR + ligne EN + CTA + signature gravés par l'IA, sans badge ni numéro)
+
+**391.** `LE MEILLEUR INGRÉDIENT` — épices versées dans la marmite — « Le meilleur ingrédient, c'est celui qu'on met avec amour. » / "The best ingredient is the one added with love." — CTA : Commente OUI si tu es d'accord
+
+**392.** `L'ODEUR DE L'ENFANCE` — fillette assise devant la casserole fumante — « L'odeur d'un plat ramène toujours l'enfance. » / "The smell of a dish always brings back childhood." — CTA : Tague quelqu'un qui va comprendre
+
+**393.** `LA TABLE REMPLIE` — table familiale vue du dessus, plats partagés — « Une table remplie, c'est un cœur rempli. » / "A full table is a full heart." — CTA : Partage à quelqu'un que tu aimes
+
+**394.** `PAS DE MESURE` — livre de recettes ancien, fleurs séchées — « Les vraies recettes n'ont pas de mesure, juste de l'amour. » / "Real recipes have no measures, just love." — CTA : Commente OUI
+
+**395.** `LA SAUCE DE L'AUTRE` — deux amies goûtant à la même cuillère — « Goûter la sauce de l'autre, c'est déjà de la famille. » / "Tasting each other's sauce is already family." — CTA : Tague ta partenaire de cuisine
+
+**396.** `LES RATÉS` — gâteau brûlé, maniques — « Même les ratés font les meilleurs souvenirs. » / "Even kitchen fails make the best memories." — CTA : Commente ton pire raté
+
+**397.** `CE QUE LA JOURNÉE A SÉPARÉ` — famille réunie autour de la marmite le soir — « La cuisine rassemble ce que la journée a séparé. » / "The kitchen gathers what the day has separated." — CTA : Partage à ta famille
+
+**398.** `LE PLAT QUI CONSOLE` — bol chaud entre les mains, bougie — « Il suffit d'un plat chaud pour consoler un cœur triste. » / "A warm dish is enough to comfort a sad heart." — CTA : Envoie à quelqu'un qui en a besoin
+
+**399.** `LES MAINS EN OR` — mains de femme pétrissant la pâte, farine dorée — « Les mains qui cuisinent sont des mains qui aiment. » / "Hands that cook are hands that love." — CTA : Tague quelqu'un aux mains en or
+
+**400.** `LE GOÛT QUI RESTE` — grand-mère africaine de dos dans sa cuisine — « Chaque cuisinière laisse un goût qui reste. » / "Every cook leaves a taste that stays." — CTA : Tague la cuisinière de ta famille
