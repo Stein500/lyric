@@ -109,18 +109,19 @@ def build_vignette():
                     px[xx, yy] = v
     return m.filter(ImageFilter.GaussianBlur(34))
 
-def build_grains(n=4, seed=1776):
+def build_grains(n=8, seed=1776):
     out = []
     rnd = random.Random(seed)
     for k in range(n):
-        g = Image.effect_noise((W, H), 26 + k).convert("L")
+        g = Image.effect_noise((W, H), 26 + 2 * k).convert("L")
         out.append(g)
     return out
 
 VIGNETTE = None
 GRAINS = None
+CARD_GRAIN = float(os.environ.get("CARD_GRAIN", "0.28"))
 
-def post(frame, k):
+def post(frame, k, grain=0.045):
     """vignette masque L + grain 35 mm cyclé sur Brightness 1.09 (§5.5)."""
     global VIGNETTE, GRAINS
     if VIGNETTE is None:
@@ -129,8 +130,8 @@ def post(frame, k):
     black = Image.new("RGB", frame.size, DARK)
     f = Image.composite(black, frame, VIGNETTE)
     f = f.point(lambda v: min(255, int(v * 1.09)))
-    g = GRAINS[(k // 2) % 4].convert("RGB")
-    return Image.blend(f, g, 0.045)
+    g = GRAINS[k % len(GRAINS)].convert("RGB")
+    return Image.blend(f, g, grain)
 
 # ------------------------------------------------------------------ vecteurs
 def ss_draw(size, fn, ss=3):
@@ -242,10 +243,17 @@ def draw_sticker(base, idx, cx, cy, t, alpha=1.0):
 
 # ------------------------------------------------------------------ cartes
 def card_bg(plan, t, blur=9, bright=0.72):
+    """fond de carte : zoom lent + dérive continue (mouvement RÉEL, jamais un gel)."""
     u = (t * 0.04) % 1.0
-    x0 = SCX * (0.15 + 0.7 * (0.5 - 0.5 * math.cos(2 * math.pi * u)))
-    y0 = SCY * 0.5
-    im = plan.window(x0, y0).filter(ImageFilter.GaussianBlur(blur))
+    v = (t * 0.07) % 1.0
+    z = 1.04 + 0.035 * math.sin(2 * math.pi * (t * 0.13))
+    w, h = int(W * z), int(H * z)
+    cx = BW * (0.5 + 0.10 * math.cos(2 * math.pi * u))
+    cy = BH * (0.5 + 0.10 * math.cos(2 * math.pi * v))
+    x0 = max(0, min(BW - w, cx - w / 2))
+    y0 = max(0, min(BH - h, cy - h / 2))
+    im = plan.window(x0, y0, w, h).resize((W, H), Image.LANCZOS)
+    im = im.filter(ImageFilter.GaussianBlur(blur))
     im = im.point(lambda v: int(v * bright))
     scrim = Image.new("RGB", (W, H), (6, 9, 14))
     return Image.blend(im, scrim, 0.55)
@@ -313,9 +321,9 @@ def draw_card_end(t, plan, titre, artiste):
     header(base)
     a = int(255 * min(1, t / 0.5))
     dr = ImageDraw.Draw(base)
-    draw_spaced(dr, (W / 2, 452), "MERCI D'AVOIR ÉCOUTÉ !", font("ExtraBold", 62),
-                (255, 255, 255, a), spacing=1, anchor_center=True, stroke=3, stroke_fill=(0, 0, 0, a))
-    dr.text((W / 2, 548), "Wolof TechStein beat wê (WTBW)", font=font("SemiBold", 34),
+    draw_spaced(dr, (W / 2, 436), "MERCI · WTBW", font("ExtraBold", 76),
+                (255, 255, 255, a), spacing=2, anchor_center=True, stroke=4, stroke_fill=(0, 0, 0, a))
+    dr.text((W / 2, 566), "Merci d'avoir écouté · Wolof TechStein beat wê", font=font("SemiBold", 30),
             fill=(244, 197, 98, a), anchor="mm")
     plaque(base, f"{titre.upper()} · {artiste.upper()}", 700, alpha=a)
     for k in range(3):
@@ -560,9 +568,9 @@ def main():
     for k in range(n):
         t = start + k / FPS
         if t < t0:
-            frame = post(draw_card_intro(t, t0, first_plan, doc["titre"], doc["artiste"]), k)
+            frame = post(draw_card_intro(t, t0, first_plan, doc["titre"], doc["artiste"]), k, grain=CARD_GRAIN)
         elif t >= doc["audio_duree_s"]:
-            frame = post(draw_card_end(t - doc["audio_duree_s"], last_plan, doc["titre"], doc["artiste"]), k)
+            frame = post(draw_card_end(t - doc["audio_duree_s"], last_plan, doc["titre"], doc["artiste"]), k, grain=CARD_GRAIN)
         else:
             idx = 0
             for j, s in enumerate(plans):
