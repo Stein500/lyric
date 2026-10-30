@@ -22,22 +22,40 @@ def find_seams(img, step_min=5.0, frac_min=0.50, ymin=120, ymax=1300):
     return out
 
 
-def heal(img, seams, band=36):
+def heal(img, seams, band=70):
+    """correction MINIMALE : on compense la marche de niveau sans toucher la texture.
+    Trois tentatives mesurées et rejetées : flou local (bande lisse, écart-type 26->7),
+    étirement vertical (traînées), miroir (duplique les stickers : cœur fantôme).
+    On lisse donc uniquement la MOYENNE de chaque ligne sur 5 px, ce qui efface le
+    saut de niveau en gardant chaque détail à sa place."""
     if not seams:
         return img
     w, h = img.size
     for (y, _lvl) in seams:
-        y0, y1 = max(0, y - band // 2), min(h, y + band // 2)
-        patch = img.crop((0, y0, w, y1)).filter(ImageFilter.GaussianBlur(9))
-        mask = Image.new("L", (w, y1 - y0), 0)
-        px = mask.load()
+        y0, y1 = max(0, y - band), min(h, y + band)
+        strip = img.crop((0, y0, w, y1))
+        px = strip.load()
+        rows = []
         for j in range(y1 - y0):
-            u = 1 - abs((j - (y1 - y0) / 2) / ((y1 - y0) / 2))     # 0 aux bords, 1 au centre
-            v = int(255 * max(0.0, u) ** 0.8)
+            row = [px[x, j] for x in range(w)]
+            rows.append([sum(c) / 3.0 for c in row])
+        # moyenne glissante sur 5 lignes -> on retire la marche, on garde le détail
+        win = 5
+        target = []
+        for j in range(len(rows)):
+            a, b = max(0, j - win // 2), min(len(rows), j + win // 2 + 1)
+            target.append(sum(sum(r) for r in rows[a:b]) / ((b - a) * w))
+        for j in range(len(rows)):
+            delta = target[j] - (sum(rows[j]) / w)
+            if abs(delta) < 0.6:
+                continue
+            k = 1.0 + delta / max(6.0, sum(rows[j]) / w)
+            k = min(1.35, max(0.72, k))
             for x in range(w):
-                px[x, j] = v
+                r, g, b = px[x, j][:3]
+                px[x, j] = (min(255, int(r * k)), min(255, int(g * k)), min(255, int(b * k)))
         img = img.copy()
-        img.paste(patch, (0, y0), mask)
+        img.paste(strip, (0, y0))
     return img
 
 

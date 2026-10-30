@@ -26,8 +26,8 @@ Durée audio décodée **205.92 s** · clip **210.92 s** · 50 vers · 40 plans
 | 20 | 89.15 | 93.02 | 2.20 | FR | On nous a volé notre éducation | `v-03-nuit.png` | ✅ |
 | 21 | 93.02 | 101.01 | 2.20 | FR | On se relève, on est des battants | `v-05-nuit.png` | ✅ |
 | 22 | 101.01 | 106.84 | 2.20 | WTBW | Wolof TechStein beat wê! | `v-06-nuit.png` | ✅ |
-| 23 | 106.84 | 109.37 | 2.20 | FR | J'ai vu des jaloux autour de moi | `v-17-nuit.png` | — |
-| 24 | 109.37 | 110.98 | 1.61 | FR | Ils souriaient tout bas, ils tiraient sur moi | `v-18-nuit.png` | — |
+| 23 | 106.84 | 109.37 | 2.20 | FR | J'ai vu des jaloux autour de moi | `v-17-nuit.png` | ✅ |
+| 24 | 109.37 | 110.98 | 1.61 | FR | Ils souriaient tout bas, ils tiraient sur moi | `v-18-nuit.png` | ✅ |
 | 25 | 110.98 | 112.48 | 1.50 | FR | J'ai vu des gens vouloir me voir tomber | `v-19-nuit.png` | — |
 | 26 | 112.48 | 113.93 | 1.45 | FR | Plutôt que de me voir m'élever | `v-20-nuit.png` | — |
 | 27 | 113.93 | 115.46 | 1.53 | FR | Mais j'ai avancé, j'ai pas regardé | `v-21-nuit.png` | — |

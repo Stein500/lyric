@@ -78,7 +78,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "YEAH ON NOUS A VOLÉ"
+    "YEAH ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
    ],
    "bucket": "nuit",
    "mots": 7
@@ -95,7 +96,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "ATTENDS"
+    "ATTENDS",
+    "ON SE RELÈVE"
    ],
    "bucket": "nuit",
    "mots": 4
@@ -112,7 +114,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "ON NOUS A VOLÉ"
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
    ],
    "bucket": "nuit",
    "mots": 6
@@ -129,7 +132,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "ILS ONT BRÛLÉ"
+    "ILS ONT BRÛLÉ",
+    "NOS ILLUSIONS"
    ],
    "bucket": "nuit",
    "mots": 5
@@ -146,7 +150,8 @@
    "disponible": true,
    "reprise": true,
    "lignes": [
-    "ON NOUS A VOLÉ"
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
    ],
    "bucket": "nuit",
    "mots": 6
@@ -163,7 +168,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "ON SE RELÈVE"
+    "ON SE RELÈVE,",
+    "ON EST DES BATTANTS"
    ],
    "bucket": "nuit",
    "mots": 7
@@ -180,7 +186,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "WOLOF TECHSTEIN"
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
    ],
    "bucket": "nuit",
    "mots": 4
@@ -197,7 +204,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "L'ÉCOLE NOUS A DONNÉ"
+    "L'ÉCOLE NOUS A DONNÉ",
+    "DES LIVRES POUSSIÉREUX"
    ],
    "bucket": "nuit",
    "mots": 7
@@ -214,7 +222,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "DES PROMESSES EN L'AIR"
+    "DES PROMESSES EN L'AIR,",
+    "DES RÊVES DANGEREUX"
    ],
    "bucket": "nuit",
    "mots": 7
@@ -231,7 +240,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "ON NOUS A DIT TRAVAILLE"
+    "ON NOUS A DIT TRAVAILLE,",
+    "T'AURAS TA PLACE"
    ],
    "bucket": "nuit",
    "mots": 8
@@ -248,7 +258,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "MAIS ON A FINI PAR COURIR"
+    "MAIS ON A FINI PAR COURIR,",
+    "PAR FAIRE DES GRACES"
    ],
    "bucket": "nuit",
    "mots": 10
@@ -265,7 +276,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "LES PROFS NOUS REGARDAIENT"
+    "LES PROFS NOUS REGARDAIENT",
+    "DE HAUT DE LOIN"
    ],
    "bucket": "nuit",
    "mots": 8
@@ -282,7 +294,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "ILS NOUS VOYAIENT COMME"
+    "ILS NOUS VOYAIENT COMME",
+    "DES MOINS QUE RIEN"
    ],
    "bucket": "nuit",
    "mots": 8
@@ -299,7 +312,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "MAIS J'AI GARDÉ LA RAGE"
+    "MAIS J'AI GARDÉ LA RAGE,",
+    "J'AI GARDÉ LE FEU"
    ],
    "bucket": "nuit",
    "mots": 9
@@ -316,7 +330,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "J'AI TRANSFORMÉ LEUR"
+    "J'AI TRANSFORMÉ LEUR",
+    "MÉPRIS EN UN JEU"
    ],
    "bucket": "nuit",
    "mots": 7
@@ -333,7 +348,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "YEAH"
+    "YEAH",
+    "ON SE RELÈVE"
    ],
    "bucket": "nuit",
    "mots": 4
@@ -350,7 +366,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "YEAH"
+    "YEAH",
+    "ON EST DES BATTANTS"
    ],
    "bucket": "nuit",
    "mots": 5
@@ -367,7 +384,8 @@
    "disponible": true,
    "reprise": true,
    "lignes": [
-    "ON NOUS A VOLÉ"
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
    ],
    "bucket": "nuit",
    "mots": 6
@@ -384,7 +402,8 @@
    "disponible": true,
    "reprise": true,
    "lignes": [
-    "ILS ONT BRÛLÉ"
+    "ILS ONT BRÛLÉ",
+    "NOS ILLUSIONS"
    ],
    "bucket": "nuit",
    "mots": 5
@@ -401,7 +420,8 @@
    "disponible": true,
    "reprise": true,
    "lignes": [
-    "ON NOUS A VOLÉ"
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
    ],
    "bucket": "nuit",
    "mots": 6
@@ -418,7 +438,8 @@
    "disponible": true,
    "reprise": true,
    "lignes": [
-    "ON SE RELÈVE"
+    "ON SE RELÈVE,",
+    "ON EST DES BATTANTS"
    ],
    "bucket": "nuit",
    "mots": 7
@@ -435,7 +456,8 @@
    "disponible": true,
    "reprise": true,
    "lignes": [
-    "WOLOF TECHSTEIN"
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
    ],
    "bucket": "nuit",
    "mots": 4
@@ -449,10 +471,11 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-17-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "lignes": [
-    "J'AI VU DES JALOUX"
+    "J'AI VU DES JALOUX",
+    "AUTOUR DE MOI"
    ],
    "bucket": "nuit",
    "mots": 7
@@ -466,10 +489,11 @@
    "langue": "FR",
    "traduction_fr": "",
    "image": "fonds/v-18-nuit.png",
-   "disponible": false,
+   "disponible": true,
    "reprise": false,
    "lignes": [
-    "ILS SOURIAIENT TOUT BAS"
+    "ILS SOURIAIENT TOUT BAS,",
+    "ILS TIRAIENT SUR MOI"
    ],
    "bucket": "nuit",
    "mots": 8
@@ -486,7 +510,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "J'AI VU DES GENS"
+    "J'AI VU DES GENS",
+    "VOULOIR ME VOIR TOMBER"
    ],
    "bucket": "nuit",
    "mots": 8
@@ -503,7 +528,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "PLUTÔT QUE DE"
+    "PLUTÔT QUE DE",
+    "ME VOIR M'ÉLEVER"
    ],
    "bucket": "nuit",
    "mots": 6
@@ -520,7 +546,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "MAIS J'AI AVANCÉ"
+    "MAIS J'AI AVANCÉ,",
+    "J'AI PAS REGARDÉ"
    ],
    "bucket": "nuit",
    "mots": 6
@@ -537,7 +564,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "J'AI LAISSÉ LEURS"
+    "J'AI LAISSÉ LEURS",
+    "REGARDS EMPOISONNÉS"
    ],
    "bucket": "nuit",
    "mots": 5
@@ -554,7 +582,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "LA DÉSOLATION"
+    "LA DÉSOLATION",
+    "EST MA COMPAGNE"
    ],
    "bucket": "nuit",
    "mots": 5
@@ -571,7 +600,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "MAIS JE LA DOMPTE"
+    "MAIS JE LA DOMPTE,",
+    "JE LA BAIGNE"
    ],
    "bucket": "nuit",
    "mots": 7
@@ -588,7 +618,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "JE SUIS UN GUERRIER"
+    "JE SUIS UN GUERRIER,",
+    "UN SURVIVANT"
    ],
    "bucket": "nuit",
    "mots": 6
@@ -605,7 +636,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "UN HOMME DEBOUT"
+    "UN HOMME DEBOUT,",
+    "UN BATTANT"
    ],
    "bucket": "nuit",
    "mots": 5
@@ -622,7 +654,8 @@
    "disponible": true,
    "reprise": true,
    "lignes": [
-    "YEAH"
+    "YEAH",
+    "ON SE RELÈVE"
    ],
    "bucket": "nuit",
    "mots": 4
@@ -639,7 +672,8 @@
    "disponible": true,
    "reprise": true,
    "lignes": [
-    "YEAH"
+    "YEAH",
+    "ON EST DES BATTANTS"
    ],
    "bucket": "nuit",
    "mots": 5
@@ -656,7 +690,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "L'ÉDUCATION EST"
+    "L'ÉDUCATION EST",
+    "UN CHAMP DE RUINES"
    ],
    "bucket": "aube-a",
    "mots": 6
@@ -673,7 +708,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "MAIS JE CULTIVE"
+    "MAIS JE CULTIVE",
+    "MES PROPRES GRAINES"
    ],
    "bucket": "aube-a",
    "mots": 6
@@ -690,7 +726,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "LA JALOUSIE EST"
+    "LA JALOUSIE EST",
+    "UN POISON LENT"
    ],
    "bucket": "aube-a",
    "mots": 6
@@ -707,7 +744,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "MAIS JE M'EN NOURRIS"
+    "MAIS JE M'EN NOURRIS,",
+    "J'EN DEVIENS PLUS GRAND"
    ],
    "bucket": "aube-a",
    "mots": 8
@@ -724,7 +762,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "ON NOUS A VOLÉ"
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
    ],
    "bucket": "aube-a",
    "mots": 6
@@ -741,7 +780,8 @@
    "disponible": true,
    "reprise": false,
    "lignes": [
-    "ILS ONT BRÛLÉ"
+    "ILS ONT BRÛLÉ",
+    "NOS ILLUSIONS"
    ],
    "bucket": "aube-a",
    "mots": 5
@@ -758,7 +798,8 @@
    "disponible": true,
    "reprise": true,
    "lignes": [
-    "ON NOUS A VOLÉ"
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
    ],
    "bucket": "aube-a",
    "mots": 6
@@ -775,7 +816,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "ON SE RELÈVE"
+    "ON SE RELÈVE,",
+    "ON EST DES BATTANTS"
    ],
    "bucket": "aube-a",
    "mots": 7
@@ -792,7 +834,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "WOLOF TECHSTEIN"
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
    ],
    "bucket": "aube-a",
    "mots": 4
@@ -809,7 +852,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "ON NOUS A VOLÉ"
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
    ],
    "bucket": "aube-b",
    "mots": 6
@@ -826,7 +870,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "ILS ONT BRÛLÉ"
+    "ILS ONT BRÛLÉ",
+    "NOS ILLUSIONS"
    ],
    "bucket": "aube-b",
    "mots": 5
@@ -843,7 +888,8 @@
    "disponible": false,
    "reprise": true,
    "lignes": [
-    "ON NOUS A VOLÉ"
+    "ON NOUS A VOLÉ",
+    "NOTRE ÉDUCATION"
    ],
    "bucket": "aube-b",
    "mots": 6
@@ -860,7 +906,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "ON SE RELÈVE"
+    "ON SE RELÈVE,",
+    "ON EST DES BATTANTS"
    ],
    "bucket": "aube-b",
    "mots": 7
@@ -877,7 +924,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "WOLOF TECHSTEIN"
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
    ],
    "bucket": "aube-b",
    "mots": 4
@@ -894,7 +942,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "WOLOF TECHSTEIN"
+    "WOLOF TECHSTEIN",
+    "BEAT WÊ"
    ],
    "bucket": "aube-b",
    "mots": 4
@@ -911,7 +960,8 @@
    "disponible": false,
    "reprise": false,
    "lignes": [
-    "ON SE"
+    "ON SE RELÈVE",
+    ""
    ],
    "bucket": "aube-b",
    "mots": 3
