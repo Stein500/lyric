@@ -993,7 +993,7 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 
 **368.** `ELLE` — femme de dos face aux lumières — « On dit qu'elle ne regarde pas le style : c'est toujours la première chose qu'elle voit. » / "She sees it first."
 
-**369.** `L'ÉPARGNE PLaisir` — tirelire et petit cadeau — « Mets un peu de côté pour toi : le plaisir n'attend pas la richesse. » / "Joy doesn't wait."
+**369.** `L'ÉPARGNE PLAISIR` — tirelire et petit cadeau — « Mets un peu de côté pour toi : le plaisir n'attend pas la richesse. » / "Joy doesn't wait."
 
 **370.** `L'ENTRÉE` — homme de dos entrant dans la salle — « Soigné et sûr de toi, tu entres partout comme si on t'attendait. » / "Walk in like you belong."
 
@@ -1019,3 +1019,25 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **379.** `LE SUPERMAN` — dos en vol sur tapis — « Le superman : trente secondes en vol, et ton dos te remercie. » / "Superman: 30 seconds."
 
 **380.** `TON CORPS EST LA SALLE` — tapis déroulé, pièce claire — « Pas besoin de salle : ton corps est déjà tout l'équipement. » / "Your body is the gym."
+
+## SAISON 2 — Série ART XXXIII (381 → 390) — « CUISINE & RECETTES » (TEST 100 % IA : citation FR + ligne EN + signature gravés par l'IA, sans badge ni numéro)
+
+**381.** `L'AMOUR QU'ON GOÛTE` — marmite en terre, vapeur dorée — « La cuisine, c'est de l'amour qu'on peut goûter. » / "Cooking is love you can taste."
+
+**382.** `LE SECRET TRANSMIS` — carnet de recettes ancien, torchon — « Une bonne recette se transmet comme un secret. » / "A recipe is a secret passed on."
+
+**383.** `LA FÊTE PARTAGÉE` — mains se passant le pain, soupes fumantes — « Un plat simple devient une fête quand il est partagé. » / "A simple dish becomes a feast when shared."
+
+**384.** `LE GOÛT D'ABORD` — cuillère de sauce, main qui goûte — « Goûte avant de saler : ta langue est ton meilleur outil. » / "Taste before you salt."
+
+**385.** `LA PÂTE REPOSE` — pâte sous torchon, lumière du matin — « La pâte repose, la maison embaume, tout va bien. » / "Dough rests, home smells sweet."
+
+**386.** `LA PATIENCE À PETIT FEU` — sauce qui mijote, flamme bleue — « Une sauce réussie, c'est de la patience à petit feu. » / "A good sauce is patience on low heat."
+
+**387.** `LES MAINS DE GRAND-MÈRE` — quatre mains dans la farine — « Les meilleurs souvenirs sentent la cuisine de grand-mère. » / "Best memories smell like grandma's kitchen."
+
+**388.** `LE CŒUR SANS RECETTE` — herbes fraîches sur la salade — « Prépare avec le cœur, même sans recette. » / "Cook with your heart."
+
+**389.** `LE GÂTEAU QUI RÉPARE` — gâteau aux amandes, part coupée — « Un gâteau partagé répare presque tout. » / "A shared cake fixes almost everything."
+
+**390.** `LE BONHEUR SERVI` — table dressée, bougies et guirlandes — « La table dressée, c'est déjà le bonheur servi. » / "A set table is happiness served."

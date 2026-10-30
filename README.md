@@ -418,3 +418,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 378 | Les fentes | 10/jambe v4 |
 | 379 | Le superman | 30 s v4 |
 | 380 | Ton corps est la salle | sans matériel v4 |
+| 381 | L'amour qu'on goûte | marmite vapeur 100% IA |
+| 382 | Le secret transmis | carnet recettes 100% IA |
+| 383 | La fête partagée | pain partagé 100% IA |
+| 384 | Le goût d'abord | cuillère sauce 100% IA |
+| 385 | La pâte repose | pâte torchon 100% IA |
+| 386 | La patience à petit feu | sauce mijote 100% IA |
+| 387 | Les mains de grand-mère | farine 4 mains 100% IA |
+| 388 | Le cœur sans recette | herbes salade 100% IA |
+| 389 | Le gâteau qui répare | gâteau amandes 100% IA |
+| 390 | Le bonheur servi | table bougies 100% IA |
