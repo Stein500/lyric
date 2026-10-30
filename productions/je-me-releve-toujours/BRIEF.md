@@ -1,6 +1,6 @@
 # Brief de production — « Je me relève toujours »
 
-> **État général :** ancre **générée, contrôlée et validée par l’artiste**. La carte des paroles est construite. La salve 01 a produit 10 images; 8 passent le contrôle préliminaire, 2 sont écartées et à régénérer. Les autres visuels et le rendu 9:16 ne sont pas encore livrés.
+> **État général :** ancre **générée, contrôlée et validée par l’artiste**. La carte des paroles est construite. Deux salves de 10 images ont été générées; après contrôles, 16 fichiers d’image distincts sont disponibles (ancre comprise), et les scènes 10, 13 et 16 restent rejetées à régénérer. Les autres visuels et le rendu 9:16 ne sont pas encore livrés.
 
 ## Paramètres
 
@@ -15,9 +15,11 @@
 | Langues | Principalement FR; une ligne EN; une ligne multilingue (« Arigato, gracias, merci, monwê »); signatures WTBW. La traduction FR de `Yeah... I'm still standing...` est proposée « Ouais... je suis toujours debout... ». Le sens de `monwê` reste à confirmer. |
 | Habillage | WTBW v6.0 sans code; cartes accueil/finale à créer. |
 
-## Provenance audio — point à confirmer avant la livraison finale
+## Métadonnées audio — mise à jour demandée par l’artiste
 
-Les commentaires/étiquettes ID3 du fichier contiennent `made with suno`. Cela ne permet pas de déclarer « audio NON généré ». La directive de livraison v6.0 indique « visuels OUI / audio NON » et le maître est supposé fourni par l’artiste, jamais généré : il y a donc une **contradiction à résoudre avec l’artiste** avant d’écrire la déclaration IA finale. Le fichier maître fourni n’a pas été modifié.
+L’artiste a confirmé que les métadonnées doivent être changées. Je préparerai un **fichier audio dérivé balisé** et conserverai intact le MP3 maître fourni. Le titre cible est `Je me relève toujours`; le nom d’artiste écran doit encore être confirmé (la balise source `TPE1` dit `stein2000`). Album/genre seront renseignés sans inventer de valeurs.
+
+Les commentaires ID3 source contiennent `made with suno` et un lien Suno. Je ne supprimerai pas cette provenance pour faire paraître l’audio non-IA : le tag de déclaration IA devra rester fidèle à la provenance réelle. La directive « visuels OUI / audio NON » ne peut pas être appliquée à ce fichier tant que la provenance n’est pas corrigée par un autre maître vérifiable.
 
 ## État des paroles et des images
 

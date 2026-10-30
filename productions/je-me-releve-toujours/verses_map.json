@@ -120,7 +120,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-06.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -228,7 +228,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-12.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -264,7 +264,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-14.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -282,7 +282,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-15.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -318,7 +318,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-17.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -336,7 +336,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-18.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -354,7 +354,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-19.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": false,
     "reprise_de": null,
     "variante": "standard"
@@ -498,7 +498,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-06.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 7,
     "variante": "standard"
@@ -732,7 +732,7 @@
     "traduction_fr": "",
     "traduction_statut": "sans traduction",
     "image": "fonds/scene-19.png",
-    "disponible": false,
+    "disponible": true,
     "reprise": true,
     "reprise_de": 20,
     "variante": "standard"

@@ -27,6 +27,9 @@
 | 10 | `J'ai vu des promesses s'envoler comme des abeilles` | **Échec — à régénérer** | Paroles correctes, mais la lumière de plein lever du soleil arrive trop tôt dans l’arc (43,34 s, avant le pont). Image conservée dans `fonds/rejected/scene-10-v1-premature-dawn.png`; absente du chemin de livraison. |
 | 11 | `Mais j'ai gardé la foi, j'ai gardé la flamme` | QC accepté | Apostrophes et accents relus. |
 
-## Prochaine salve
+## Corrections suivies dans la salve 02
 
-Régénérer les scènes 06 et 10, puis créer les scènes 12 à 19 — **10 générations maximum**. Les deux échecs ci-dessus restent exclus des images disponibles jusqu’à correction.
+- Scène 06 : nouvelle version **QC acceptée**; le premier échec reste archivé dans `fonds/rejected/`.
+- Scène 10 : nouvelle version toujours **rejetée** (point final ajouté par le modèle); la troisième tentative est planifiée.
+
+Les autres résultats du lot initial restent inchangés.
