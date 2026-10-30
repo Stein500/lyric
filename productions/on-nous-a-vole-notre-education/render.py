@@ -425,6 +425,7 @@ def window_for(plan, si, u, dur):
     y = SCY / 2 + YR * (fy0 + (fy1 - fy0) * u)
     return plan.window(x, y)
 
+EXTINGUISH = False
 _BAND_MASK = None
 def extinguish(frame, g):
     """bande 620->1340 : Brightness 0.38 + GaussianBlur 3, bords fondus (§5.4).
@@ -450,9 +451,13 @@ def verse_frame(slot, t, k):
     if dur > 3.5:                                    # respiration lumineuse ±12 %
         br = 1 + 0.12 * math.sin(2 * math.pi * (t - slot["t"]) / 1.7)
         f = f.point(lambda v: max(0, min(255, int(v * br))))
-    g = min(1.0, max(0.0, (t - (slot["t"] + slot["affichage_s"])) / 0.35))
-    if g > 0:
-        f = extinguish(f, g)
+    # §5.4 : l'extinction de la bande ne sert qu'à céder la place à la traduction FR.
+    # Ce morceau est 100 % FR : aucune pilule de traduction, donc aucune extinction —
+    # sinon les paroles s'assombrissent et se floutent en fin de vers (typo non nette).
+    if EXTINGUISH:
+        g = min(1.0, max(0.0, (t - (slot["t"] + slot["affichage_s"])) / 0.35))
+        if g > 0:
+            f = extinguish(f, g)
     return f
 
 def overlay_verse(frame, slot, t, doc, prog):
