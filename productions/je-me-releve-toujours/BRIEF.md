@@ -1,29 +1,32 @@
-# Brief de production — chanson « Je tombe, je me relève toujours » (titre à confirmer)
+# Brief de production — « Je me relève toujours »
 
-> **État général :** production commencée. Une image d’ancre avec personnage tomate est **générée et contrôlée visuellement**; elle n’est **pas encore validée par l’artiste**. Aucun plan complet ni rendu 9:16 n’est déclaré livré.
+> **État général :** ancre **générée, contrôlée et validée par l’artiste**. La carte des paroles est construite. La salve 01 a produit 10 images; 8 passent le contrôle préliminaire, 2 sont écartées et à régénérer. Les autres visuels et le rendu 9:16 ne sont pas encore livrés.
 
-## Paramètres connus
+## Paramètres
 
 | Champ | Valeur / état |
 |---|---|
-| Titre affiché | **À confirmer.** Le fichier source s’appelle `Je me relève toujours.txt`; le refrain contient « Je tombe, je tombe, je me relève toujours ». La demande mentionne « je tombe, je me relève toujours ». |
-| Artiste à l’écran | **À confirmer.** La signature WTBW apparaît dans les paroles, mais aucun nom d’artiste précis n’a été confirmé. |
-| Paroles | `../../Je me relève toujours.txt` — 58 lignes horodatées; les horodatages source ne seront pas retouchés. |
-| Audio maître | `../../je me relève toujours 3.mp3` — fichier présent. Durée décodée et mesures audio **non contrôlées** à ce stade (`ffmpeg`/`ffprobe` ne sont pas installés dans l’environnement). |
+| Titre | `Je me relève toujours` — présent dans le nom du fichier de paroles et dans la balise `TIT2` du maître audio. |
+| Artiste affiché | **À confirmer.** La balise `TPE1` du MP3 indique `stein2000`; à utiliser comme nom d’écran seulement après confirmation, ou à remplacer par la signature souhaitée. |
+| Paroles | `../../Je me relève toujours.txt` — 58 lignes horodatées et 43 textes distincts; horodatages source conservés. |
+| Audio maître | `../../je me relève toujours 3.mp3` — durée décodée **229,91 s (3:49.91)** avec ffmpeg 7.0.2. ebur128 : **−13,6 LUFS intégrés**, **LRA 6,6 LU**, **true peak −0,9 dBFS**; astats : crête réelle observée −0,896 dBFS. Le calage de la dernière ligne est donc 225,02 → 229,91 s. |
 | Mode | **PEINT**, choisi par l’artiste. |
-| Style | « Style normal », demandé par l’artiste. Proposition visuelle : personnage 3D doux et cinématographique, expressif, non-anime, sans codes manga; à confirmer avec l’ancre. |
-| Motif visuel | Tomate personnalisée avec des yeux, demandé par l’artiste. Proposition : une tomate-héroïne ronde aux grands yeux, sourcils-feuilles, petits bras et pieds; elle se relève après une chute, puis l’histoire passe de la pluie à l’aube. |
-| Langues | Paroles principalement en français; présence d’une ligne en anglais, d’une ligne multilingue (« Arigato, gracias, merci, monwê ») et de la signature WTBW. Traductions françaises des passages non français à traiter selon la directive bilingue v6.0; la formulation de la ligne multilingue reste à confirmer. |
-| Recette | Pas encore validée. La direction du personnage tomate est une proposition personnalisée, pas une recette officielle v6.0. |
-| Habillage | WTBW v6.0 sans code; accueil/finale non générés à ce stade. |
+| Style / personnage | Tomate-héroïne 3D douce et cinématographique, avec yeux, sourcils-feuilles, petits bras et pieds. L’ancre de cette direction est **validée**. |
+| Langues | Principalement FR; une ligne EN; une ligne multilingue (« Arigato, gracias, merci, monwê »); signatures WTBW. La traduction FR de `Yeah... I'm still standing...` est proposée « Ouais... je suis toujours debout... ». Le sens de `monwê` reste à confirmer. |
+| Habillage | WTBW v6.0 sans code; cartes accueil/finale à créer. |
 
-## Règles retenues
+## Provenance audio — point à confirmer avant la livraison finale
 
-- Le mode PEINT est verrouillé pour la production.
-- L’exception bilingue permanente du v6.0 s’applique aux passages non français : original peint dans l’image et seule la traduction française défile dans la bande basse dédiée. Les traductions et le traitement exact de la ligne multilingue devront être relus avant fabrication.
-- La première ancre doit être validée par l’artiste avant les salves d’images.
+Les commentaires/étiquettes ID3 du fichier contiennent `made with suno`. Cela ne permet pas de déclarer « audio NON généré ». La directive de livraison v6.0 indique « visuels OUI / audio NON » et le maître est supposé fourni par l’artiste, jamais généré : il y a donc une **contradiction à résoudre avec l’artiste** avant d’écrire la déclaration IA finale. Le fichier maître fourni n’a pas été modifié.
+
+## État des paroles et des images
+
+- `build_map.py` génère `verses_map.json` et `CARTE-VERS.md`; le champ `disponible` est recalculé avec l’existence réelle de l’image.
+- Les répétitions textuellement identiques réutilisent leur image de base; les reprises du refrain final ont des chemins de variantes d’aube dédiés.
+- L’affichage `affichage_s` suit la formule v6.0 et reste **provisoire** jusqu’au calage mot à mot.
+- Traduction du vers multilingue bloquée tant que le sens de `monwê` n’est pas établi.
 - Aucun code de fin, drapeau, contact, lien, QR ou logo ne sera ajouté.
 
-## Prochaine étape bloquante
+## Prochaine étape
 
-Valider ou corriger `fonds/scene-01-ancre.png`. Puis confirmer le titre affiché et le nom exact de l’artiste. Ensuite seulement : établir la carte complète des 58 lignes, préparer les traductions des passages non français, générer les plans et préparer les contrôles/rendu.
+Générer et contrôler la première salve de 10 nouveaux visuels (scènes 02 à 11), en utilisant l’ancre comme référence. Avant les cartes finales, confirmer le nom d’artiste à l’écran et la provenance IA réelle de l’audio.

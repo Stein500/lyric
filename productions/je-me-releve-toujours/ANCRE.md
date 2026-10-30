@@ -5,7 +5,7 @@
 - **Générée** : oui
 - **Contrôle visuel** : effectué sur le plan 9:16 et sur le crop typographique 1:1 avec grille de 16 px
 - **Texte** : relu visuellement; le visuel affiche « Wolof TechStein / beat wê... » avec le `ê` et les trois points
-- **Validée par l’artiste** : **non, en attente**
+- **Validée par l’artiste** : **oui** — réponse « Je valide grave » (2026-10-31, heure locale)
 - **Rendu vidéo** : non effectué
 
 ## Direction visuelle proposée
@@ -18,8 +18,8 @@ Une tomate-héroïne ronde et rouge, avec grands yeux expressifs, sourcils en fe
 - Source générée : `fonds/scene-01-ancre-generation-848x1264.png` — **848 × 1264 px**, **2 012 734 octets**
 - Ancre de travail : `fonds/scene-01-ancre.png` — **768 × 1376 px**, **1 159 924 octets**
 - Pour respecter le canevas vertical demandé, l’image source a été recadrée au centre horizontalement (`x=71…776`, sans couper le personnage ni les paroles) puis rééchantillonnée en LANCZOS. **Aucune lettre n’a été retouchée ni recomposée à la police.**
-- Contrôle contact : `CONTROLE-salve01.jpg` — **500 × 896 px**
-- Contrôle typo : `CONTROLE-salve01-typo.jpg` — crop **580 × 360 px** à l’échelle 1:1 avec grille de **16 px**
+- Contrôle contact : `CONTROLE-ancre.jpg` — **500 × 896 px**
+- Contrôle typo : `CONTROLE-ancre-typo.jpg` — crop **580 × 360 px** à l’échelle 1:1 avec grille de **16 px**
 
 ## Contrôle préliminaire des zones
 
@@ -27,4 +27,4 @@ Une tomate-héroïne ronde et rouge, avec grands yeux expressifs, sourcils en fe
 
 ## Suite
 
-Ne pas lancer les salves d’images avant validation de cette ancre. Confirmer également le titre final à afficher et le nom d’artiste exact.
+L’ancre étant validée, les salves peuvent commencer. Le titre « Je me relève toujours » est confirmé par le maître audio et le fichier source. Le nom d’artiste à afficher reste à confirmer; le tag ID3 du maître indique `stein2000`.
