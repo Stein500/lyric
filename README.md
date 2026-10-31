@@ -438,3 +438,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 398 | Le plat qui console | bol bougie 100% IA+CTA |
 | 399 | Les mains en or | pétrissage farine 100% IA+CTA |
 | 400 | Le goût qui reste | grand-mère cuisine 100% IA+CTA |
+| 401 | Ce que la terre fait pousser | récoltes 100% IA+CTA |
+| 402 | Le soleil qu'on goûte | pêche coupée 100% IA+CTA |
+| 403 | La mangue ne crie jamais | mangues mûres 100% IA+CTA |
+| 404 | Prendre son temps | bananes fenêtre 100% IA+CTA |
+| 405 | La santé invitée | panier fruits 100% IA+CTA |
+| 406 | Chaque fruit a sa saison | figues branche 100% IA+CTA |
+| 407 | La fraise bien mûre | fraises bol 100% IA+CTA |
+| 408 | L'arbre généreux | cueillette pommes 100% IA+CTA |
+| 409 | Cinq minutes de paix | mandarine spirale 100% IA+CTA |
+| 410 | Un peu de soleil | mangue offerte 100% IA+CTA |

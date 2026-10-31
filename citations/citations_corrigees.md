@@ -1063,3 +1063,25 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **399.** `LES MAINS EN OR` — mains de femme pétrissant la pâte, farine dorée — « Les mains qui cuisinent sont des mains qui aiment. » / "Hands that cook are hands that love." — CTA : Tague quelqu'un aux mains en or
 
 **400.** `LE GOÛT QUI RESTE` — grand-mère africaine de dos dans sa cuisine — « Chaque cuisinière laisse un goût qui reste. » / "Every cook leaves a taste that stays." — CTA : Tague la cuisinière de ta famille
+
+## SAISON 2 — Série ART XXXV (401 → 410) — « FRUITS » (100 % IA + ligne CTA gravée)
+
+**401.** `CE QUE LA TERRE FAIT POUSSER` — table débordante de récoltes fraîches — « Mange ce que la terre fait pousser : elle ne se trompe jamais. » / "Eat what the earth grows: it never gets it wrong." — CTA : Commente OUI si tu es d'accord
+
+**402.** `LE SOLEIL QU'ON GOÛTE` — pêche coupée en deux, jus brillant — « Un fruit mûr, c'est le soleil qu'on peut goûter. » / "A ripe fruit is the sun you can taste." — CTA : Tague un amateur de fruits
+
+**403.** `LA MANGUE NE CRIE JAMAIS` — mangues mûres, une taillée en dés — « La mangue mûre ne crie jamais : son parfum suffit. » / "A ripe mango never shouts, its scent is enough." — CTA : Tague quelqu'un qui aime la mangue
+
+**404.** `PRENDRE SON TEMPS` — bananes vertes qui mûrissent au rebord de fenêtre — « Les meilleures choses prennent leur temps pour mûrir. » / "The best things take their time to ripen." — CTA : Commente OUI
+
+**405.** `LA SANTÉ INVITÉE` — panier débordant de fruits colorés — « Un panier de fruits sur la table, c'est la santé invitée. » / "A fruit basket on the table is health invited in." — CTA : Partage à quelqu'un que tu aimes
+
+**406.** `CHAQUE FRUIT A SA SAISON` — branche de figues et feuilles — « Chaque fruit a sa saison, ne force rien. » / "Every fruit has its season, force nothing." — CTA : Envoie à quelqu'un qui est pressé
+
+**407.** `LA FRAISE BIEN MÛRE` — fraises fraîches au bol, lumière de marché — « Une fraise bien mûre vaut tous les desserts. » / "One ripe strawberry beats every dessert." — CTA : Tague ta partenaire de marché
+
+**408.** `L'ARBRE GÉNÉREUX` — cueillette de pommes à l'heure dorée — « L'arbre généreux se reconnaît à ses fruits. » / "A generous tree is known by its fruits." — CTA : Tague une personne au cœur généreux
+
+**409.** `CINQ MINUTES DE PAIX` — mains épluchant une mandarine en spirale — « Éplucher un fruit, c'est cinq minutes de paix. » / "Peeling a fruit is five minutes of peace." — CTA : Partage à quelqu'un qui mérite la paix
+
+**410.** `UN PEU DE SOLEIL` — main offrant une tranche de mangue — « La main qui offre un fruit offre un peu de soleil. » / "A hand offering fruit offers a little sunshine." — CTA : Tague quelqu'un qui te fait du bien
