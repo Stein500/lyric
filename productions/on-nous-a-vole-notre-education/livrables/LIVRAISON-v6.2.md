@@ -32,11 +32,12 @@ Sous-titre de série : *Wolof TechStein beat wê !*
 
 | | |
 |---|---|
-| Fichier | `ON NOUS A VOLE NOTRE EDUCATION - DSKY - 9x16.mp4` |
+| Fichier | `ON NOUS A VOLE NOTRE EDUCATION - DSKY - 9x16.mp4` (dans le dépôt : `ON-NOUS-A-VOLE-NOTRE-EDUCATION-DSKY-9x16.mp4`) |
+| Lien direct | `https://raw.githubusercontent.com/Stein500/lyric/fca69df2dd20530b2af1c9f62fe2e82c9e05cc8d/productions/on-nous-a-vole-notre-education/livrables/ON-NOUS-A-VOLE-NOTRE-EDUCATION-DSKY-9x16.mp4` |
 | Format | 1080 × 1920 · 30 fps · H.264 High · yuv420p · bt709 · CRF 24 · `+faststart` |
 | Durée | 210,92 s (3:30,93) |
 | Taille | 103 155 220 octets |
-| SHA-256 | `5609fa1e17cf92092c2ed26db1501c93eaa183279cae45547a40943ca967c29c` |
+| SHA-256 | `b2ebbb707746d31ee24608203f98aa15fae3c82a42b3328b2f800a75d21e804f` |
 | Audio dans le MP4 | master de l'artiste, `loudnorm` 2 passes · −14,04 LUFS · crête −1,86 dBTP · LRA 5,40 · 48 kHz stéréo |
 | Master audio séparé | `master-14LUFS.mp3` · MP3 320 kb/s CBR · 48 kHz stéréo |
 
@@ -50,7 +51,24 @@ Contrôles §12 sur ce fichier : **0 frame noire**, **0 gel ≥ 2,5 s** (`freeze
 
 ## 6. COMMANDES TERMUX
 
+Prérequis une seule fois : `pkg install -y curl && termux-setup-storage`
+
 ```
-cp ~/storage/downloads/"ON NOUS A VOLE NOTRE EDUCATION - DSKY - 9x16.mp4" ~/storage/movies/; termux-media-scan -v ~/storage/movies/"ON NOUS A VOLE NOTRE EDUCATION - DSKY - 9x16.mp4"
+curl -L --retry 3 -C - -o ~/storage/downloads/ON-NOUS-A-VOLE-NOTRE-EDUCATION-DSKY-9x16.mp4 "https://raw.githubusercontent.com/Stein500/lyric/fca69df2dd20530b2af1c9f62fe2e82c9e05cc8d/productions/on-nous-a-vole-notre-education/livrables/ON-NOUS-A-VOLE-NOTRE-EDUCATION-DSKY-9x16.mp4"; termux-media-scan -v ~/storage/downloads/ON-NOUS-A-VOLE-NOTRE-EDUCATION-DSKY-9x16.mp4;
+curl -L --retry 3 -C - -o ~/storage/downloads/master-14LUFS.mp3 "https://raw.githubusercontent.com/Stein500/lyric/fca69df2dd20530b2af1c9f62fe2e82c9e05cc8d/productions/on-nous-a-vole-notre-education/audio/master-14LUFS.mp3"; termux-media-scan -v ~/storage/downloads/master-14LUFS.mp3
+```
+
+Contrôle après téléchargement (facultatif, une ligne) :
+
+```
+sha256sum ~/storage/downloads/ON-NOUS-A-VOLE-NOTRE-EDUCATION-DSKY-9x16.mp4
+```
+
+doit afficher `b2ebbb707746d31ee24608203f98aa15fae3c82a42b3328b2f800a75d21e804f`.
+
+Si tu as déjà les fichiers dans Téléchargements, l'équivalent local :
+
+```
+cp ~/storage/downloads/ON-NOUS-A-VOLE-NOTRE-EDUCATION-DSKY-9x16.mp4 ~/storage/movies/; termux-media-scan -v ~/storage/movies/ON-NOUS-A-VOLE-NOTRE-EDUCATION-DSKY-9x16.mp4;
 cp ~/storage/downloads/master-14LUFS.mp3 ~/storage/music/; termux-media-scan -v ~/storage/music/master-14LUFS.mp3
 ```
