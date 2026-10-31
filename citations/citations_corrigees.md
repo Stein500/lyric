@@ -1085,3 +1085,10 @@ Si un seul de mes vers a allumé quelque chose en toi, fais-le-moi savoir : comm
 **409.** `CINQ MINUTES DE PAIX` — mains épluchant une mandarine en spirale — « Éplucher un fruit, c'est cinq minutes de paix. » / "Peeling a fruit is five minutes of peace." — CTA : Partage à quelqu'un qui mérite la paix
 
 **410.** `UN PEU DE SOLEIL` — main offrant une tranche de mangue — « La main qui offre un fruit offre un peu de soleil. » / "A hand offering fruit offers a little sunshine." — CTA : Tague quelqu'un qui te fait du bien
+
+### VIDÉO XXXV — videos/video-401-410-fruits.mp4 (25,7 s, 1080×1920@30)
+Montage : fond flouté zoomé + encart pleine largeur (Ken Burns zoom 1.05), fondus xfade 0,7 s,
+CTA gravé PNG sous l'encart, badge « DSKY WTBW » doré CLIGNOTANT en bas, musique libre
+« Wholesome » (Kevin MacLeod, incompetech) avec fondu entrée/sortie. Script : build_video.py
+(pip install imageio-ffmpeg ; CTA dans video-ctas.json). Zone sûre TikTok : textes IA hors
+barre de recherche (haut) et hors description (bas).
