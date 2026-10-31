@@ -75,6 +75,15 @@ class ProductionTests(unittest.TestCase):
         self.assertFalse(tags.getall("GEOB"), "A stale master C2PA manifest must not be copied onto a derivative")
         self.assertEqual(Image.open(io.BytesIO(tags.getall("APIC")[0].data)).size, (1080, 1080))
 
+    def test_tiktok_cover_dimensions_and_prompt_contract(self):
+        cover = PROJECT / "livrables/cover-tiktok-DSKY-WTBW.jpg"
+        with Image.open(cover) as image:
+            self.assertEqual(image.size, (1080, 1920))
+            self.assertEqual(image.format, "JPEG")
+        prompt = (REPO / "PROMPT_UNIVERSEL_v6.2_COMPLET.md").read_text(encoding="utf-8")
+        self.assertIn("Le SEUL texte visible, exactement une fois et en capitales, est : DSKY WTBW", prompt)
+        # The visible lettering and absence of extra marks must still be inspected by eye.
+
     def test_mp4_faststart_and_frame_budget(self):
         video = (PROJECT / "livrables/Je_me_releve_toujours_9x16.mp4").read_bytes()
         self.assertLess(video.index(b"moov"), video.index(b"mdat"))

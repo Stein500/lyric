@@ -58,4 +58,4 @@ python3 -m venv .venv
 .venv/bin/python productions/je-me-releve-toujours/verify_audio_alignment.py
 ```
 
-Les 5 tests structurels passent; ils ne remplacent ni une lecture visuelle, ni une écoute, ni l’approbation de l’artiste. Le clip dure près de 3 min 55 s : vérifier la limite de durée applicable au mode de publication choisi sur chaque plateforme.
+Les 6 tests structurels passent, dont la taille et la règle de prompt de la cover TikTok; ils ne remplacent ni une lecture visuelle, ni une écoute, ni l’approbation de l’artiste. Le clip dure près de 3 min 55 s : vérifier la limite de durée applicable au mode de publication choisi sur chaque plateforme.

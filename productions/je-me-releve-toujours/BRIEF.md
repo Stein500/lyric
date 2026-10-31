@@ -1,6 +1,6 @@
 # Brief de production — « Je me relève toujours »
 
-> **État actuel :** ancre validée par l’artiste; sept salves consignées, dont la correction de contraste de la scène 04-aube après le premier rendu. **Une proposition de montage 9:16 est rendue et contrôlée techniquement**, avec MP3 dérivé et prompt universel complet. La validation artistique des scènes et du montage ainsi que l’écoute du calage restent à faire : ne pas présenter cette proposition comme approuvée définitivement.
+> **État actuel :** ancre validée par l’artiste; sept salves de scènes et une salve de cover consignées. **Une proposition de montage 9:16 et une cover TikTok séparée sont rendues et contrôlées**, avec MP3 dérivé et prompt universel complet. La validation artistique des scènes, de la cover et du montage ainsi que l’écoute du calage restent à faire : ne pas présenter ces propositions comme approuvées définitivement.
 
 ## Paramètres et décisions
 
@@ -15,11 +15,13 @@
 | Traductions | `Yeah... I'm still standing...` → `Ouais... je suis toujours debout...`; `Arigato, gracias, merci, monwê` → `Merci, merci, merci — c'est confirmé.` L’artiste confirme `monwê` = « c’est ça / c’est confirmé ». |
 | Signature | `Wolof TechStein beat wê...` / `Wolof TechStein beat wê!` restent peintes comme signatures, sans traduction; le sens isolé de `wê` n’a pas été confirmé pour une éventuelle traduction. |
 | Habillage | Stickers WTBW d’accueil/finale, badge alterné, traductions compositées en bande basse; pas de code à quatre chiffres, drapeau, contact, lien, QR ou logo parasite à l’écran. |
+| Cover TikTok obligatoire | `livrables/cover-tiktok-DSKY-WTBW.jpg`, 1080 × 1920; **seul texte visible : `DSKY WTBW`**, sans titre ni `Dsky`. QC agent effectué, validation artistique en attente. Cette consigne de cover ne modifie pas automatiquement les tags audio ni le badge vidéo. |
 
 ## Images et carte
 
 - `verses_map.json` et `CARTE-VERS.md` sont générés par `build_map.py`; l’existence des chemins est recalculée. **58/58 occurrences** disposent d’une image; **47/47 chemins distincts** sont actifs.
-- Journaux : `SALVE-01.md` à `SALVE-07.md`; planches : `CONTROLE-salve*.jpg`. Après le premier rendu, la scène 04-aube v1 a été rejetée pour contraste insuffisant et remplacée par la v2; voir `SALVE-07.md` et `CONTROLE-salve07.jpg`.
+- Journaux des scènes : `SALVE-01.md` à `SALVE-07.md`; planches : `CONTROLE-salve*.jpg`. Après le premier rendu, la scène 04-aube v1 a été rejetée pour contraste insuffisant et remplacée par la v2; voir `SALVE-07.md` et `CONTROLE-salve07.jpg`.
+- Cover TikTok : trois générations en salve 08, deux rejets de couture/marges puis v3 retenue au QC agent; voir `SALVE-08-cover.md` et `CONTROLE-cover-tiktok.jpg`.
 - Les lettrages sérif, script ou cursifs de chaque scène sont conservés; aucune lettre n’a été retouchée ou recomposée. Les ajouts d’habillage sont des chaînes explicites, pas des inventions du modèle.
 - La carte distingue l’heuristique `affichage_s` et le montage réellement utilisé. Faute de fin chantée fournie, chaque vers reste lisible jusqu’au suivant, sauf la signature n°57, provisoirement éteinte après 2,20 s dans une longue pause supposée. Le calage à l’oreille et la clochette à 3:28–3:32,5 restent à vérifier.
 
@@ -39,7 +41,7 @@
 
 ## Prochaines étapes
 
-1. Faire écouter et valider artistiquement le montage et les scènes; vérifier notamment la fenêtre de clochette présumée instrumentale et le calage des voix.
+1. Faire valider artistiquement la cover, le montage et les scènes; faire écouter notamment la fenêtre de clochette présumée instrumentale et le calage des voix.
 2. Si la signature WTBW doit également être traduite, demander le sens de `wê` au lieu de le deviner.
 3. Appliquer les corrections demandées, rerendre et revérifier avant de déclarer une version finale approuvée.
-4. Prompt complet mis à jour : `../../PROMPT_UNIVERSEL_v6.1_COMPLET.md`; les versions précédentes sont conservées.
+4. Prompt complet mis à jour avec la cover obligatoire et son texte exact : `../../PROMPT_UNIVERSEL_v6.2_COMPLET.md`; les versions précédentes sont conservées.
