@@ -1,0 +1,5 @@
+# Local tools and transient rendering work; production deliverables stay trackable.
+.venv/
+**/__pycache__/
+productions/je-me-releve-toujours/work/
+*.part.mp4

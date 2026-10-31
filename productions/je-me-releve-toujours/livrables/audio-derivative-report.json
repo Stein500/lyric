@@ -1,0 +1,18 @@
+{
+  "first_pass": {
+    "input_i": "-13.59",
+    "input_tp": "-0.90",
+    "input_lra": "6.30",
+    "input_thresh": "-23.81",
+    "target_offset": "-0.67"
+  },
+  "second_pass": "e toujours\n                    : On a tenté de me briser, on a tenté de me tuer\n                    : Mais je suis un phénix, je renais, je suis né pour durer\n                    : Wolof TechStein beat wê!\n  Duration: 00:03:49.94, start: 0.023021, bitrate: 191 kb/s\n  Stream #0:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 190 kb/s\n      Metadata:\n        encoder         : Lavc60.31\n  Stream #0:1: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 360x360 [SAR 1:1 DAR 1:1], 90k tbr, 90k tbn (attached pic)\n      Metadata:\n        title           : Cover\n        comment         : Cover (front)\nStream mapping:\n  Stream #0:0 -> #0:0 (mp3 (mp3float) -> mp3 (libmp3lame))\nPress [q] to stop, [?] for help\nOutput #0, mp3, to '/home/user/lyric/productions/je-me-releve-toujours/livrables/Je_me_releve_toujours_Dsky.mp3':\n  Metadata:\n    TSSE            : Lavf61.1.100\n  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp\n      Metadata:\n        encoder         : Lavc61.3.100 libmp3lame\nsize=     256KiB time=00:00:15.62 bitrate= 134.2kbits/s speed=31.2x\nsize=     768KiB time=00:00:30.69 bitrate= 205.0kbits/s speed=30.7x\nsize=    1280KiB time=00:00:48.26 bitrate= 217.3kbits/s speed=32.1x\nsize=    1792KiB time=00:01:05.18 bitrate= 225.2kbits/s speed=32.6x\nsize=    2304KiB time=00:01:21.69 bitrate= 231.0kbits/s speed=32.6x\nsize=    2816KiB time=00:01:38.95 bitrate= 233.1kbits/s speed=  33x\nsize=    3328KiB time=00:01:55.92 bitrate= 235.2kbits/s speed=33.1x\nsize=    3584KiB time=00:02:12.09 bitrate= 222.3kbits/s speed=  33x\nsize=    4096KiB time=00:02:28.29 bitrate= 226.3kbits/s speed=32.9x\nsize=    4608KiB time=00:02:44.68 bitrate= 229.2kbits/s speed=32.9x\nsize=    5120KiB time=00:03:00.55 bitrate= 232.3kbits/s speed=32.8x\nsize=    5632KiB time=00:03:17.08 bitrate= 234.1kbits/s speed=32.8x\nsize=    6144KiB time=00:03:33.00 bitrate= 236.3kbits/s speed=32.7x\nsize=    6400KiB time=00:03:46.92 bitrate= 231.0kbits/s speed=32.4x\n[Parsed_loudnorm_0 @ 0x7f7d10002e00]\nInput Integrated:    -13.6 LUFS\nInput True Peak:      -0.9 dBTP\nInput LRA:             6.3 LU\nInput Threshold:     -23.8 LUFS\n\nOutput Integrated:   -13.9 LUFS\nOutput True Peak:     -2.0 dBTP\nOutput LRA:            5.0 LU\nOutput Threshold:    -24.0 LUFS\n\nNormalization Type:   Dynamic\nTarget Offset:        -0.1 LU\n[out#0/mp3 @ 0x287bb840] video:0KiB audio:6672KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.003454%\nsize=    6672KiB time=00:03:50.00 bitrate= 237.7kbits/s speed=32.6x\n",
+  "master_sha256": "7be46536d3ddf4df3ca0fdda37ff2c1777409cb0c470e62cd83176935add473e",
+  "derivative_sha256": "0827adf23044ca7172f6aabb3dadf73cc9769d69f85176bcddb43e419ec42f7f",
+  "duration_mutagen_s": "229.944",
+  "sample_rate": "48000",
+  "bitrate_bps": "237705",
+  "file_bytes": "7086668",
+  "suno_source_url": "https://suno.com/song/91c9ec13-9178-4cb2-bd15-299eeb57ef0e",
+  "suno_track_id": "91c9ec13-9178-4cb2-bd15-299eeb57ef0e"
+}

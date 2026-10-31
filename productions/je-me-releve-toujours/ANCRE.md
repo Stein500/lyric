@@ -6,7 +6,7 @@
 - **Contrôle visuel** : effectué sur le plan 9:16 et sur le crop typographique 1:1 avec grille de 16 px
 - **Texte** : relu visuellement; le visuel affiche « Wolof TechStein / beat wê... » avec le `ê` et les trois points
 - **Validée par l’artiste** : **oui** — réponse « Je valide grave » (2026-10-31, heure locale)
-- **Rendu vidéo** : non effectué
+- **Rendu vidéo** : ancre utilisée dans une proposition 9:16 contrôlée techniquement; le montage et les autres scènes restent à valider par l’artiste.
 
 ## Direction visuelle proposée
 

@@ -12,8 +12,9 @@ LYRICS = REPO / "Je me relève toujours.txt"
 OUTPUT_JSON = PROJECT / "verses_map.json"
 OUTPUT_MD = PROJECT / "CARTE-VERS.md"
 
-# Decoded from the supplied master with ffmpeg 7.0.2. Keep source timestamps intact.
-AUDIO_DURATION_S = 229.91
+# 11,036,159 decoded samples at 48 kHz (229.919979… s), rounded to centiseconds.
+# This changes only the inferred end of the final segment, never a source timestamp.
+AUDIO_DURATION_S = round(11_036_159 / 48_000, 2)
 FINAL_CHORUS_INDICES = {53, 54, 55, 56, 57}
 OUTRO_INDICES = {58}
 
@@ -99,6 +100,11 @@ def build() -> list[dict]:
             "fin": round(next_t, 2),
             "affichage_s": round(display_s, 2),
             "affichage_statut": "provisoire — formule v6.0",
+            # No sung-end or word alignment was supplied. Keep lyrics legible through
+            # the next source start, except the exceptionally long final signature gap.
+            "rendu_affichage_s": round(display_s if i == 57 else next_t - row["t"], 2),
+            "rendu_affichage_statut": ("provisoire — signature, longue pause supposée" if i == 57
+                                      else "provisoire — jusqu'au début source suivant"),
             "texte": text,
             "langue": lang,
             "traduction_fr": translation,
@@ -126,11 +132,12 @@ def write_card(rows: list[dict]) -> None:
         "# Carte des vers — Je me relève toujours",
         "",
         "> Générée depuis `verses_map.json` et les horodatages de `Je me relève toujours.txt`.",
-        "> Durée décodée du maître : 229,91 s (3:49.91). `affichage_s` reste provisoire selon la formule v6.0.",
+        "> Durée décodée : 11 036 159 échantillons / 48 000 Hz = 229,919979 s, soit 3:49.92 au centième.",
+        "> L’heuristique `affichage_s` v6.0 et la durée réellement retenue au rendu restent provisoires, faute de calage mot à mot.",
         "> `disponible` est recalculé depuis l’existence réelle du fichier image.",
         "",
-        "| # | Début | Fin | Vers source | Langue | Traduction FR | Image | Dispo. | Reprise | Affichage (s) |",
-        "|---:|:---:|:---:|---|---|---|---|:---:|---|---:|",
+        "| # | Début | Fin | Vers source | Langue | Traduction FR | Image | Dispo. | Reprise | Heuristique (s) | Rendu (s) |",
+        "|---:|:---:|:---:|---|---|---|---|:---:|---|---:|---:|",
     ]
     for row in rows:
         translation = row["traduction_fr"]
@@ -144,7 +151,7 @@ def write_card(rows: list[dict]) -> None:
         lines.append(
             f"| {row['i']} | {row['source_timestamp']} | {row['fin_timestamp']} | {text} | "
             f"{row['langue']} | {translation} | `{row['image']}` | "
-            f"{'oui' if row['disponible'] else 'non'} | {reprise} | {row['affichage_s']:.2f} |"
+            f"{'oui' if row['disponible'] else 'non'} | {reprise} | {row['affichage_s']:.2f} | {row['rendu_affichage_s']:.2f} |"
         )
     lines.extend(
         [
@@ -153,7 +160,9 @@ def write_card(rows: list[dict]) -> None:
             "",
             "- Traduction FR retenue pour le vers multilingue `Arigato, gracias, merci, monwê` : `Merci, merci, merci — c'est confirmé.` (gloss artiste : monwê = « c'est ça / c'est confirmé »).",
             "- Les lignes non françaises gardent leurs paroles originales peintes; la traduction française défile dans la pilule basse v6.0.",
-            "- Les variantes de l’ultime refrain et de l’outro suivent l’arc d’aube; aucun résultat de rendu n’est encore déclaré.",
+            "- Les variantes de l’ultime refrain et de l’outro suivent l’arc d’aube.",
+            "- Au montage, on maintient chaque vers lisible jusqu’au début source du suivant plutôt que de l’éteindre au seul calcul de vitesse de lecture. Exception provisoire : signature n°57, extinction après 2,20 s dans la longue pause supposée. La clochette prévue entre 3:28 et 3:32,5 reste à vérifier à l’écoute.",
+            "- Le montage utilise des coupes nettes entre vers pour ne pas superposer ni dédoubler les lettrages peints; le calage fin reste à valider à l’écoute.",
             "",
         ]
     )

@@ -1,0 +1,118 @@
+Input #0, mp3, from '/home/user/lyric/je me relève toujours 3.mp3':
+  Metadata:
+    title           : Je me relève toujours
+    artist          : stein2000
+    encoder         : Lavf60.16.100
+    comment         : made with suno; created=2026-08-25T19:04:44Z; id=91c9ec13-9178-4cb2-bd15-299eeb57ef0e
+    lyrics-eng      : [INTRO - Piano sombre, violon, voix posée]
+                    : Wolof TechStein beat wê...
+                    : Yeah... I'm still standing...
+                    : [REFRAIN - Explosif, batterie lourde, cordes, guitare électrique]
+                    : Je tombe, je tombe, je me relève toujours
+                    : Je tombe, je tombe, je me relève toujours
+                    : On a tenté de me briser, on a tenté de me tuer
+                    : Mais je suis un phénix, je renais, je suis né pour durer
+                    : Wolof TechStein beat wê!
+                    : [COUPLET 1 - Flow posé, profond, narratif]
+                    : J'ai traversé l'enfer, j'ai dormi sur la route
+                    : J'ai perdu des amis, j'ai vidé des bouteilles
+                    : J'ai vu des sourires se cacher derrière des doutes
+                    : J'ai vu des promesses s'envoler comme des abeilles
+                    : Mais j'ai gardé la foi, j'ai gardé la flamme
+                    : J'ai gardé le feu qui brûle dans mon âme
+                    : On m'a dit "t'es trop petit, t'es trop lent, t'es trop différent"
+                    : Mais j'ai transformé leurs insultes en sang, en talent
+                    : Maintenant je suis debout, j'ai des cicatrices sur le cœur
+                    : Chaque larme versée est devenue une œuvre
+                    : Ils ont voulu ma fin, ils ont voulu ma chute
+                    : Mais je suis un roc, je résiste, je lutte
+                    : [PRÉ-REFRAIN - Montée en puissance, violon]
+                    : Je tombe, je me relève
+                    : Je pleure, je rêve
+                    : Je lutte, je vis
+                    : Je suis le fils de la pluie et du cri
+                    : [REFRAIN - Explosif, batterie lourde, tutti]
+                    : Je tombe, je tombe, je me relève toujours
+                    : Je tombe, je tombe, je me relève toujours
+                    : On a tenté de me briser, on a tenté de me tuer
+                    : Mais je suis un phénix, je renais, je suis né pour durer
+                    : Wolof TechStein beat wê!
+                    : [COUPLET 2 - Flow plus rapide, agressif]
+                    : J'ai touché le fond, j'ai vu le vide en face
+                    : J'ai senti la mort frôler ma peau, ma trace
+                    : Mais j'ai gardé la tête haute, j'ai gardé l'envie
+                    : Je suis un guerrier, je suis né pour la vie
+                    : Ils m'ont frappé, ils m'ont volé, ils m'ont trahi
+                    : Mais j'ai serré les dents, j'ai crié, j'ai rugi
+                    : La vie m'a donné des coups, je lui ai donné des coups
+                    : Je suis le roi du ring, je suis debout, je suis fou
+                    : Arigato, gracias, merci, monwê
+                    : Je remercie la vie, je remercie la peine
+                    : Elle m'a forgé, elle m'a soudé
+                    : Maintenant je suis une armée, je suis l'éclat
+                    : [PRÉ-REFRAIN - Montée en puissance, violon]
+                    : Je tombe, je me relève
+                    : Je pleure, je rêve
+                    : Je lutte, je vis
+                    : Je suis le fils de la pluie et du cri
+                    : [PONT - Calme, piano seul, violon, voix posée, émotion]
+                    : J'ai traversé la nuit, j'ai vu l'aube se lever
+                    : J'ai vu le soleil briller sur mes cicatrices
+                    : Elles sont belles, elles sont miennes
+                    : Elles racontent mon histoire, elles sont mes reines
+                    : Je suis tombé, je me suis relevé
+                    : J'ai pleuré, j'ai appris à sourire
+                    : J'ai perdu, j'ai gagné, j'ai traversé le vide
+                    : Maintenant je sais, je sais qui je suis
+                    : [REFRAIN FINAL - Explosif, tutti, solo guitare électrique]
+                    : Je tombe, je tombe, je me relève toujours
+                    : Je tombe, je tombe, je me relève toujours
+                    : On a tenté de me briser, on a tenté de me tuer
+                    : Mais je suis un phénix, je renais, je suis né pour durer
+                    : Wolof TechStein beat wê!
+  Duration: 00:03:49.94, start: 0.023021, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 190 kb/s
+      Metadata:
+        encoder         : Lavc60.31
+  Stream #0:1: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 360x360 [SAR 1:1 DAR 1:1], 90k tbr, 90k tbn (attached pic)
+      Metadata:
+        title           : Cover
+        comment         : Cover (front)
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to '/home/user/lyric/productions/je-me-releve-toujours/livrables/Je_me_releve_toujours_Dsky.mp3':
+  Metadata:
+    TSSE            : Lavf61.1.100
+  Stream #0:0: Audio: mp3, 48000 Hz, stereo, fltp
+      Metadata:
+        encoder         : Lavc61.3.100 libmp3lame
+size=     256KiB time=00:00:15.62 bitrate= 134.2kbits/s speed=31.2x
+size=     768KiB time=00:00:30.69 bitrate= 205.0kbits/s speed=30.7x
+size=    1280KiB time=00:00:48.26 bitrate= 217.3kbits/s speed=32.1x
+size=    1792KiB time=00:01:05.18 bitrate= 225.2kbits/s speed=32.6x
+size=    2304KiB time=00:01:21.69 bitrate= 231.0kbits/s speed=32.6x
+size=    2816KiB time=00:01:38.95 bitrate= 233.1kbits/s speed=  33x
+size=    3328KiB time=00:01:55.92 bitrate= 235.2kbits/s speed=33.1x
+size=    3584KiB time=00:02:12.09 bitrate= 222.3kbits/s speed=  33x
+size=    4096KiB time=00:02:28.29 bitrate= 226.3kbits/s speed=32.9x
+size=    4608KiB time=00:02:44.68 bitrate= 229.2kbits/s speed=32.9x
+size=    5120KiB time=00:03:00.55 bitrate= 232.3kbits/s speed=32.8x
+size=    5632KiB time=00:03:17.08 bitrate= 234.1kbits/s speed=32.8x
+size=    6144KiB time=00:03:33.00 bitrate= 236.3kbits/s speed=32.7x
+size=    6400KiB time=00:03:46.92 bitrate= 231.0kbits/s speed=32.4x
+[Parsed_loudnorm_0 @ 0x7f7d10002e00]
+Input Integrated:    -13.6 LUFS
+Input True Peak:      -0.9 dBTP
+Input LRA:             6.3 LU
+Input Threshold:     -23.8 LUFS
+
+Output Integrated:   -13.9 LUFS
+Output True Peak:     -2.0 dBTP
+Output LRA:            5.0 LU
+Output Threshold:    -24.0 LUFS
+
+Normalization Type:   Dynamic
+Target Offset:        -0.1 LU
+[out#0/mp3 @ 0x287bb840] video:0KiB audio:6672KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.003454%
+size=    6672KiB time=00:03:50.00 bitrate= 237.7kbits/s speed=32.6x

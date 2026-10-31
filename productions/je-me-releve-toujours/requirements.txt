@@ -1,0 +1,4 @@
+imageio-ffmpeg==0.7.0
+mutagen==1.48.1
+numpy==2.4.6
+Pillow==13.0.0
