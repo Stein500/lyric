@@ -1092,3 +1092,31 @@ CTA gravé PNG sous l'encart, badge « DSKY WTBW » doré CLIGNOTANT en bas, mus
 « Wholesome » (Kevin MacLeod, incompetech) avec fondu entrée/sortie. Script : build_video.py
 (pip install imageio-ffmpeg ; CTA dans video-ctas.json). Zone sûre TikTok : textes IA hors
 barre de recherche (haut) et hors description (bas).
+
+## SAISON 2 — Série ART XXXVI (411 → 420) — « OBJETS DU QUOTIDIEN — LEUR FACE CACHÉE » (100 % IA + CTA gravé + texte dans la bande verticale centrale pour vidéo plein écran)
+
+**411.** `LE RIZ DANS LA SALIÈRE` — salière en bois, grains de riz — « Une pincée de riz dans la salière, et le sel reste toujours libre. » / "A pinch of rice in the salt shaker keeps salt flowing." — CTA : Commente OUI si tu savais
+
+**412.** `LE MARC DE CAFÉ` — marc dans un bol, plante verte — « Le marc de café ne meurt jamais : il nourrit encore tes plantes. » / "Coffee grounds never die: they still feed your plants." — CTA : Tague une main verte
+
+**413.** `LE VINAIGRE BLANC` — bouteille claire, plan de travail brillant — « Le vinaigre blanc cuisine peu, mais fait briller toute la maison. » / "White vinegar barely cooks but shines the whole house." — CTA : Partage à quelqu'un qui aime le ménage
+
+**414.** `LE DENTIFRICE MAGIQUE` — cuillère à moitié brillante, à moitié ternie — « Le dentifrice redonne leur éclat à l'argent terni. » / "Toothpaste brings tarnished silver back to life." — CTA : Commente OUI
+
+**415.** `LE SACHET DE THÉ USÉ` — sachets usés, bougies, ambiance spa — « Le sachet de thé usé apaise encore les yeux fatigués. » / "A used tea bag still soothes tired eyes." — CTA : Tague quelqu'un qui mérite du repos
+
+**416.** `LE VIEUX JOURNAL` — chaussures mouillées bourrées de journal — « Le vieux journal absorbe les odeurs et sèche les chaussures. » / "Old newspaper absorbs odors and dries shoes." — CTA : Envoie à une maman débrouillarde
+
+**417.** `LE SÈCHE-CHEVEUX` — étiquette qui se détache sous air chaud — « Le sèche-cheveux détache les étiquettes les plus tenaces. » / "A hairdryer peels off the toughest stickers." — CTA : Commente ton astuce secrète
+
+**418.** `LA CHAUSSETTE ORPHELINE` — chaussette autour d'un verre dans une valise — « La chaussette orpheline protège tes affaires fragiles en voyage. » / "A lonely sock protects fragile things in your luggage." — CTA : Tague une voyageuse
+
+**419.** `LES PINCES À LINGE` — pince fermant un paquet de papier — « Les pinces à linge gardent aussi tes paquets bien fermés. » / "Clothespins also keep your bags tightly closed." — CTA : Commente OUI
+
+**420.** `LA CRAIE DANS LE PLACARD` — craie sur l'étagère, linges pliés — « Un morceau de craie dans le placard chasse l'humidité. » / "A piece of chalk in the closet chases dampness away." — CTA : Partage cette astuce
+
+### VIDÉO v3 PLEIN ÉCRAN — videos/video-411-420-objets.mp4 (25,7 s, 1080×1920@30)
+NOUVEAU STANDARD : chaque image PLEIN CADRE (cover + Ken Burns zoom doux 1.03 alterné),
+fondus xfade 0,7 s, plaque sombre dégradée en bas qui masque la signature gravée,
+badge « DSKY WTBW » doré clignotant par-dessus, musique « Wholesome » fondus.
+Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (clause prompt).
