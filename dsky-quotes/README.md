@@ -448,3 +448,4 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 408 | L'arbre généreux | cueillette pommes 100% IA+CTA |
 | 409 | Cinq minutes de paix | mandarine spirale 100% IA+CTA |
 | 410 | Un peu de soleil | mangue offerte 100% IA+CTA |
+| VIDÉO 401-410 | FRUITS montage xfade | 25,7 s badge clignotant + musique |
