@@ -449,3 +449,14 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 409 | Cinq minutes de paix | mandarine spirale 100% IA+CTA |
 | 410 | Un peu de soleil | mangue offerte 100% IA+CTA |
 | VIDÉO 401-410 | FRUITS montage xfade | 25,7 s badge clignotant + musique |
+| 411 | Le riz dans la salière | salière bois 100% IA+CTA plein écran |
+| 412 | Le marc de café | marc + plante 100% IA+CTA plein écran |
+| 413 | Le vinaigre blanc | bouteille 100% IA+CTA plein écran |
+| 414 | Le dentifrice magique | cuillère argent 100% IA+CTA plein écran |
+| 415 | Le sachet de thé usé | sachets spa 100% IA+CTA plein écran |
+| 416 | Le vieux journal | chaussures journal 100% IA+CTA plein écran |
+| 417 | Le sèche-cheveux | étiquette bocal 100% IA+CTA plein écran |
+| 418 | La chaussette orpheline | valise verre 100% IA+CTA plein écran |
+| 419 | Les pinces à linge | paquet pince 100% IA+CTA plein écran |
+| 420 | La craie dans le placard | craie linge 100% IA+CTA plein écran |
+| VIDÉO 411-420 | OBJETS v3 plein écran | 25,7 s badge clignotant + musique |
