@@ -1142,3 +1142,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **429. (SECRET 8)** `LE REPOS` — plat hors du feu, vapeur qui retombe — « Le repos du plat vaut le repos du cœur. » / "A dish's rest is the heart's rest." — Commentaire : Cinq minutes dehors, mille saveurs dedans. — CTA : Envoie à qui mange vite
 
 **430. (SECRET 9 — FINAL)** `L'AMOUR` — assiette servie à l'autre — « Cuisiner pour quelqu'un, c'est déjà l'aimer. » / "Cooking for someone is already loving them." — Commentaire : Le dernier secret de la cuisine. — CTA : Tague quelqu'un à nourrir
+
+## SAISON 2 — Série ART XXXVIII (431 → 440) — « ASTUCES DE CUISINE » (format série : 1 principale + 9 astuces détaillées avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**431. (PRINCIPALE)** `LA TRANSMISSION` — deux femmes cuisinant ensemble — « Les astuces de cuisine se transmettent de main en main. » / "Kitchen tricks are passed from hand to hand." — CTA : Suis les 9 astuces
+
+**432. (ASTUCE 1)** `L'OIGNON AU FRAIS` — oignon dans le bac à légumes — « Mets l'oignon au frais : il pique plus les yeux. » / "Chill the onion first and it won't sting your eyes." — Commentaire : Quinze minutes au frigo suffisent. — CTA : Commente OUI
+
+**433. (ASTUCE 2)** `LE RIZ RINCÉ` — riz rincé à l'eau claire — « Rince le riz jusqu'à l'eau claire. » / "Rinse rice until the water runs clear." — Commentaire : Et il reste léger, jamais collant. — CTA : Tague une amatrice de riz
+
+**434. (ASTUCE 3)** `LES BANANES SÉPARÉES` — une banane détachée du régime — « Sépare les bananes, elles durent plus longtemps. » / "Separate bananas and they last longer." — Commentaire : Le régime mûrit tout à la fois. — CTA : Envoie à qui jette trop
+
+**435. (ASTUCE 4)** `LES TOMATES HORS FRIGO` — tomates au soleil sur le comptoir — « Les tomates détestent le froid. » / "Tomatoes hate the cold." — Commentaire : Le frigo leur vole leur goût. — CTA : Commente OUI si tu savais
+
+**436. (ASTUCE 5)** `LE COUTEAU AIGUISÉ` — pierre à aiguiser, mains précises — « Un couteau aiguisé blesse moins qu'un couteau fatigué. » / "A sharp knife cuts safer than a dull one." — Commentaire : Le vrai danger, c'est la force. — CTA : Tague un cordon bleu
+
+**437. (ASTUCE 6)** `L'EAU DES PÂTES` — sel versé dans l'eau bouillante — « L'eau des pâtes doit goûter la mer. » / "Pasta water should taste like the sea." — Commentaire : Salée, bouillante, généreuse. — CTA : Partage à ta sœur
+
+**438. (ASTUCE 7)** `LE CITRON NETTOYANT` — demi-citron frotté sur les doigts — « Le citron efface les odeurs de cuisine. » / "Lemon erases kitchen smells." — Commentaire : Après le poisson, frotte et respire. — CTA : Commente ton astuce
+
+**439. (ASTUCE 8)** `LA VIANDE QUI REPOSE` — rôti sous papier, vapeur — « La viande repose, et le jus reste. » / "Let meat rest and the juice stays." — Commentaire : Cinq minutes sous papier, jamais coupée trop tôt. — CTA : Envoie au roi du grill
+
+**440. (ASTUCE 9 — FINAL)** `L'ASTUCE PARTAGÉE` — femme notant une recette — « Une astuce partagée nourrit deux fois. » / "A shared trick feeds twice." — Commentaire : Donne la tienne en commentaire. — CTA : Tague une cuisinière

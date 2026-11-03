@@ -470,3 +470,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 428 | Secret 7 — l'eau de cuisson | bouillon 100% IA + commentaire |
 | 429 | Secret 8 — le repos | plat hors feu 100% IA + commentaire |
 | 430 | Secret 9 — l'amour | assiette servie 100% IA + commentaire |
+| 431 | La transmission | deux femmes cuisine 100% IA format série |
+| 432 | Astuce 1 — l'oignon au frais | bac légumes 100% IA + commentaire |
+| 433 | Astuce 2 — le riz rincé | riz eau claire 100% IA + commentaire |
+| 434 | Astuce 3 — les bananes séparées | banane détachée 100% IA + commentaire |
+| 435 | Astuce 4 — les tomates hors frigo | tomates soleil 100% IA + commentaire |
+| 436 | Astuce 5 — le couteau aiguisé | pierre aiguisage 100% IA + commentaire |
+| 437 | Astuce 6 — l'eau des pâtes | eau bouillante 100% IA + commentaire |
+| 438 | Astuce 7 — le citron | mains citron 100% IA + commentaire |
+| 439 | Astuce 8 — la viande qui repose | rôti papier 100% IA + commentaire |
+| 440 | Astuce 9 — l'astuce partagée | carnet recette 100% IA + commentaire |
