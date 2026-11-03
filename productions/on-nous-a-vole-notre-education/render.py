@@ -476,10 +476,21 @@ def overlay_verse(frame, slot, t, doc, prog):
     a = min(a, 0.72)
     if a > 0.01:
         d = ImageDraw.Draw(base)
-        d.text((W / 2, 165), "Dsky", font=font("ExtraBold", 32), fill=(255, 255, 255, int(255 * a)),
-               anchor="mm", stroke_width=3, stroke_fill=(0, 0, 0, int(200 * a)))
-        w = 62 * a
-        d.line([(W / 2 - w, 189), (W / 2 + w, 189)], fill=(244, 197, 98, int(200 * a)), width=2)
+        # badge §7.4 : « DSKY » et « WTBW » clignotent en alternance (fondu croisé 0,4 s)
+        P = 2.4                                   # période d'un mot
+        ph = (rel % (2 * P))
+        if ph < P:
+            w1 = min(1.0, ph / 0.4)
+            txt, uw = "DSKY", 62
+        else:
+            w1 = min(1.0, (ph - P) / 0.4)
+            txt, uw = "WTBW", 72
+        am = int(255 * a * w1)
+        if am > 3:
+            d.text((W / 2, 165), txt, font=font("ExtraBold", 32), fill=(255, 255, 255, am),
+                   anchor="mm", stroke_width=3, stroke_fill=(0, 0, 0, int(200 * a * w1)))
+            w = uw * a * w1
+            d.line([(W / 2 - w, 189), (W / 2 + w, 189)], fill=(244, 197, 98, int(200 * a * w1)), width=2)
     # filet de progression
     d = ImageDraw.Draw(base)
     d.rounded_rectangle([170, 1556, 910, 1564], radius=4, fill=(255, 255, 255, 48))
