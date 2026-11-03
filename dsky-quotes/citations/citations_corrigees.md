@@ -1120,3 +1120,25 @@ NOUVEAU STANDARD : chaque image PLEIN CADRE (cover + Ken Burns zoom doux 1.03 al
 fondus xfade 0,7 s, plaque sombre dégradée en bas qui masque la signature gravée,
 badge « DSKY WTBW » doré clignotant par-dessus, musique « Wholesome » fondus.
 Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (clause prompt).
+
+## SAISON 2 — Série ART XXXVII (421 → 430) — « LES SECRETS DE CUISINE » (NOUVEAU FORMAT : 1 citation principale + 9 secrets détaillés avec petit commentaire gravé ; zone sûre TikTok v2 : composition collée en haut + prolongement bas, textes au-dessus de la barre de description)
+
+**421. (PRINCIPALE)** `LE TITRE` — femme hachant des herbes, marmite cuivre — « Les secrets de cuisine ne se racontent pas : ils se goûtent. » / "Kitchen secrets aren't told, they're tasted." — CTA : Suis les 9 secrets
+
+**422. (SECRET 1)** `LE GOÛT` — femme goûtant à la cuillère — « Goûte avant, goûte pendant, goûte toujours. » / "Taste before, during, and always." — Commentaire : Ta langue ne ment jamais. — CTA : Commente OUI
+
+**423. (SECRET 2)** `LE SEL` — pincée de sel sur la marmite — « Le sel se donne petit à petit. » / "Salt is added little by little." — Commentaire : On ajoute toujours, on retire jamais. — CTA : Tague une amie cuisinière
+
+**424. (SECRET 3)** `L'OIGNON` — oignons fondus dorés — « L'oignon doit fondre, jamais crier. » / "Onions must melt, never shout." — Commentaire : Feu doux et patience. — CTA : Envoie à qui brûle tout
+
+**425. (SECRET 4)** `L'AIL` — ails dorés dans l'huile — « L'ail parfume vite, mais il ne pardonne pas. » / "Garlic perfumes fast but never forgives." — Commentaire : Doré c'est bon, brûlé c'est amer. — CTA : Commente OUI si tu savais
+
+**426. (SECRET 5)** `LE TEMPS` — plat qui mijote à petit feu — « Le plat réclame du temps, pas de la vitesse. » / "A dish asks for time, not speed." — Commentaire : Mijoter, c'est tout donner. — CTA : Partage à ta mère
+
+**427. (SECRET 6)** `LES HERBES` — herbes effeuillées à la fin — « Les herbes se marient à la fin, toujours à la fin. » / "Herbs marry in at the end, always." — Commentaire : Le parfum doit rester vivant. — CTA : Tague la reine des herbes
+
+**428. (SECRET 7)** `L'EAU DE CUISSON` — bouillon filtré vers un bocal — « L'eau de cuisson est un trésor caché. » / "Cooking water is hidden treasure." — Commentaire : Ne jette jamais ce que la casserole a bu. — CTA : Commente ton astuce
+
+**429. (SECRET 8)** `LE REPOS` — plat hors du feu, vapeur qui retombe — « Le repos du plat vaut le repos du cœur. » / "A dish's rest is the heart's rest." — Commentaire : Cinq minutes dehors, mille saveurs dedans. — CTA : Envoie à qui mange vite
+
+**430. (SECRET 9 — FINAL)** `L'AMOUR` — assiette servie à l'autre — « Cuisiner pour quelqu'un, c'est déjà l'aimer. » / "Cooking for someone is already loving them." — Commentaire : Le dernier secret de la cuisine. — CTA : Tague quelqu'un à nourrir

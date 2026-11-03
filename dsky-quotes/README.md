@@ -460,3 +460,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 419 | Les pinces à linge | paquet pince 100% IA+CTA plein écran |
 | 420 | La craie dans le placard | craie linge 100% IA+CTA plein écran |
 | VIDÉO 411-420 | OBJETS v3 plein écran | 25,7 s badge clignotant + musique |
+| 421 | Le titre des secrets | herbes + marmite 100% IA format série |
+| 422 | Secret 1 — le goût | cuillère 100% IA + commentaire |
+| 423 | Secret 2 — le sel | pincée 100% IA + commentaire |
+| 424 | Secret 3 — l'oignon | oignons fondus 100% IA + commentaire |
+| 425 | Secret 4 — l'ail | ail doré 100% IA + commentaire |
+| 426 | Secret 5 — le temps | mijotage 100% IA + commentaire |
+| 427 | Secret 6 — les herbes | effeuillage 100% IA + commentaire |
+| 428 | Secret 7 — l'eau de cuisson | bouillon 100% IA + commentaire |
+| 429 | Secret 8 — le repos | plat hors feu 100% IA + commentaire |
+| 430 | Secret 9 — l'amour | assiette servie 100% IA + commentaire |
