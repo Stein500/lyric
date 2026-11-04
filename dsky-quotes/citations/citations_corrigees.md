@@ -1164,3 +1164,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **439. (ASTUCE 8)** `LA VIANDE QUI REPOSE` — rôti sous papier, vapeur — « La viande repose, et le jus reste. » / "Let meat rest and the juice stays." — Commentaire : Cinq minutes sous papier, jamais coupée trop tôt. — CTA : Envoie au roi du grill
 
 **440. (ASTUCE 9 — FINAL)** `L'ASTUCE PARTAGÉE` — femme notant une recette — « Une astuce partagée nourrit deux fois. » / "A shared trick feeds twice." — Commentaire : Donne la tienne en commentaire. — CTA : Tague une cuisinière
+
+## SAISON 2 — Série ART XXXIX (441 → 450) — « MUSIQUE » (format série : 1 principale + 9 notes détaillées avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**441. (PRINCIPALE)** `LE LANGAGE DU CŒUR` — deux amies, un seul casque filaire — « La musique raconte ce que le cœur n'arrive pas à dire. » / "Music tells what the heart can't say." — CTA : Suis les 9 notes
+
+**442. (NOTE 1)** `LA LETTRE À TOUS` — vinyle sur un lit, enveloppe — « Une chanson, c'est une lettre qu'on envoie à tous. » / "A song is a letter sent to everyone." — Commentaire : Et pourtant, chacun la croit pour lui. — CTA : Commente OUI
+
+**443. (NOTE 2)** `LE REFRAIN QUI RÉPARE` — femme chantant dans sa cuisine — « Le refrain qu'on chante en pleurant nous répare un peu. » / "The chorus we sing while crying heals us a little." — Commentaire : Chanter, c'est respirer autrement. — CTA : Tague ta partenaire de douche
+
+**444. (NOTE 3)** `COMME LE BON VIN` — caisse de vieux vinyles — « Les vraies chansons vieillissent comme le bon vin. » / "Real songs age like good wine." — Commentaire : Les modes passent, elles restent. — CTA : Envoie ta préférée
+
+**445. (NOTE 4)** `LE SILENCE CONSOLÉ` — femme allongée au casque, lampe — « La musique ne remplit pas le silence : elle le console. » / "Music doesn't fill silence, it comforts it." — Commentaire : Même à faible volume, elle parle fort. — CTA : Commente OUI si tu savais
+
+**446. (NOTE 5)** `LE MÊME RYTHME` — deux amies dansant pieds nus — « Un même rythme fait battre tous les cœurs ensemble. » / "One rhythm makes every heart beat together." — Commentaire : Personne ne reste immobile là-dedans. — CTA : Partage à ton duo de danse
+
+**447. (NOTE 6)** `LES CHAMBRES SILENCIEUSES` — compositrice au piano la nuit — « Derrière chaque hit, il y a des années de chambres silencieuses. » / "Behind every hit lie years of silent rooms." — Commentaire : Le talent s'entend, le travail non. — CTA : Tague un artiste
+
+**448. (NOTE 7)** `SANS LANGUE, SANS FRONTIÈRE` — foule de concert, bras levés — « La musique ne demande pas ta langue, elle prend ton cœur. » / "Music doesn't need your language, it takes your heart." — Commentaire : On pleure des chansons qu'on ne comprend pas. — CTA : Envoie une mélodie sans parole
+
+**449. (NOTE 8)** `LA PLAYLIST DES SOUVENIRS` — cassette et photos jaunies — « Un souvenir qui n'a pas de chanson n'est pas fini. » / "A memory without a song isn't finished." — Commentaire : La nostalgie a sa playlist. — CTA : Tague quelqu'un d'une autre époque
+
+**450. (NOTE 9 — FINALE)** `LE LANGAGE DES ÂMES` — femme au casque face au lever du soleil — « La musique est le langage que nos âmes connaissent déjà. » / "Music is the language our souls already know." — Commentaire : Le dernier accord est toujours celui-là. — CTA : Tague quelqu'un à écouter
