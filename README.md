@@ -480,3 +480,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 438 | Astuce 7 — le citron | mains citron 100% IA + commentaire |
 | 439 | Astuce 8 — la viande qui repose | rôti papier 100% IA + commentaire |
 | 440 | Astuce 9 — l'astuce partagée | carnet recette 100% IA + commentaire |
+| 441 | Le langage du cœur | casque partagé 100% IA format série |
+| 442 | Note 1 — la lettre à tous | vinyle lit 100% IA + commentaire |
+| 443 | Note 2 — le refrain qui répare | chant cuisine 100% IA + commentaire |
+| 444 | Note 3 — comme le bon vin | caisse vinyles 100% IA + commentaire |
+| 445 | Note 4 — le silence consolé | casque sofa 100% IA + commentaire |
+| 446 | Note 5 — le même rythme | danse pieds nus 100% IA + commentaire |
+| 447 | Note 6 — les chambres silencieuses | piano nuit 100% IA + commentaire |
+| 448 | Note 7 — sans frontière | concert foule 100% IA + commentaire |
+| 449 | Note 8 — la playlist des souvenirs | cassette photos 100% IA + commentaire |
+| 450 | Note 9 — le langage des âmes | lever soleil 100% IA + commentaire |
