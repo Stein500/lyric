@@ -84,7 +84,14 @@ def _wrap(text, n):
             out.append(" ".join(cur)); cur = []
     if cur:
         out.append(" ".join(cur))
-    return out
+    # ponctuation isolée rattachée à la ligne précédente
+    merged = []
+    for ln in out:
+        if merged and all(not c.isalnum() for c in ln.replace(" ", "")):
+            merged[-1] += " " + ln
+        else:
+            merged.append(ln)
+    return merged
 
 
 def paint(lines, seed_key, box=LETTER_BOX, dy=0):
