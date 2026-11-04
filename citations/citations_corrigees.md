@@ -1186,3 +1186,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **449. (NOTE 8)** `LA PLAYLIST DES SOUVENIRS` — cassette et photos jaunies — « Un souvenir qui n'a pas de chanson n'est pas fini. » / "A memory without a song isn't finished." — Commentaire : La nostalgie a sa playlist. — CTA : Tague quelqu'un d'une autre époque
 
 **450. (NOTE 9 — FINALE)** `LE LANGAGE DES ÂMES` — femme au casque face au lever du soleil — « La musique est le langage que nos âmes connaissent déjà. » / "Music is the language our souls already know." — Commentaire : Le dernier accord est toujours celui-là. — CTA : Tague quelqu'un à écouter
+
+## SAISON 2 — Série ART XL (451 → 460) — « RECETTES DE STYLE » (habillement ; format série : 1 principale + 9 recettes détaillées avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**451. (PRINCIPALE)** `LA TENUE SIMPLE` — femme élégante devant son dressing — « La tenue la plus simple est souvent la plus élégante. » / "The simplest outfit is often the most elegant." — CTA : Suis les 9 recettes
+
+**452. (RECETTE 1)** `LA CHEMISE BLANCHE` — chemise blanche sur cintre — « Une chemise blanche : la réponse à presque tout. » / "A white shirt: the answer to almost everything." — Commentaire : Les grands jours comme les jours gris. — CTA : Commente OUI
+
+**453. (RECETTE 2)** `L'UNIFORME DES BONS JOURS` — jean plié et baskets blanches — « Un jean droit et des baskets propres : tu peux tout affronter. » / "Straight jeans and clean sneakers: you can face anything." — Commentaire : L'uniforme des bons jours. — CTA : Tague ta meilleure amie
+
+**454. (RECETTE 3)** `LE FOULARD` — foulard de soie noué au cou — « Ajoute un foulard : la tenue change de niveau. » / "Add a scarf and the outfit levels up." — Commentaire : Le détail qui change tout. — CTA : Envoie à une adepte du foulard
+
+**455. (RECETTE 4)** `TROIS COULEURS MAX` — portant de tons neutres — « Trois couleurs maximum : la règle d'or du style. » / "Three colors maximum: the golden rule of style." — Commentaire : Moins de couleurs, plus de classe. — CTA : Commente OUI si tu respectes
+
+**456. (RECETTE 5)** `LA ROBE NOIRE` — petite robe noire sur cintre — « Une petite robe noire : dix ans, mille occasions. » / "A little black dress: ten years, a thousand occasions." — Commentaire : Elle attend son moment dans le placard. — CTA : Tague une femme élégante
+
+**457. (RECETTE 6)** `LE REPASSAGE` — fer à repasser sur chemise — « Un vêtement repassé vaut deux vêtements. » / "An ironed garment is worth two." — Commentaire : L'élégance commence au fer à repasser. — CTA : Partage à celle qui déteste repasser
+
+**458. (RECETTE 7)** `LES CHAUSSURES` — ballerines et mocassins soignés — « Les bonnes chaussures portent toute la tenue. » / "The right shoes carry the whole outfit." — Commentaire : On remarque toujours les chaussures d'abord. — CTA : Envoie ta paire préférée
+
+**459. (RECETTE 8)** `L'ALLURE` — femme sûre d'elle en tenue simple — « Une tenue sûre d'elle vaut plus qu'une pièce chère. » / "A confident outfit is worth more than an expensive one." — Commentaire : L'allure vaut plus que l'étiquette. — CTA : Tague quelqu'un de stylé
+
+**460. (RECETTE 9 — FINALE)** `L'INTEMPORRELLE` — dressing minimaliste éclairé — « Les modes passent, la tenue simple reste. » / "Trends fade, the simple outfit remains." — Commentaire : La simplicité ne se démode jamais. — CTA : Commente TROP VRAI
