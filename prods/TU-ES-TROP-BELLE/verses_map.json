@@ -1,0 +1,800 @@
+{
+ "titre": "TU ES TROP BELLE",
+ "artiste": "DSKY",
+ "badge": "Dsky",
+ "serie": "WTBW · Wolof TechStein beat wê !",
+ "recette": "STUDIO ANIME SEINEN N&B",
+ "mode": "B — hybride (VO peinte + pilule FR sur passages EN)",
+ "master": "Tu es trop belle.mp3",
+ "song_end": 205.08,
+ "fin_video": 210.08,
+ "accueil": [
+  [
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0
+  ]
+ ],
+ "cta_windows": [
+  [
+   51.6,
+   53.65
+  ],
+  [
+   197.2,
+   202.8
+  ]
+ ],
+ "verses": [
+  {
+   "t0": 6.16,
+   "texte": "Wolof TechStein beat wê...",
+   "fin": 9.0,
+   "syll": 6.0,
+   "id": "v-01",
+   "plan": "p-01",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Wolof TechStein",
+    "beat wê..."
+   ]
+  },
+  {
+   "t0": 10.52,
+   "texte": "Yeah... Elle est trop belle...",
+   "fin": 12.89,
+   "syll": 5.8,
+   "id": "v-02",
+   "plan": "p-02",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Yeah... Elle est",
+    "trop belle..."
+   ]
+  },
+  {
+   "t0": 13.25,
+   "texte": "I'm scared of you, I'm scared of you",
+   "fin": 17.45,
+   "syll": 10.0,
+   "id": "v-03",
+   "plan": "p-03",
+   "pill": [
+    "J'ai",
+    "peur",
+    "de",
+    "toi",
+    "J'ai",
+    "peur",
+    "de",
+    "toi"
+   ],
+   "extinguish": true,
+   "lignes": [
+    "I'm scared of you,",
+    "I'm scared of you"
+   ]
+  },
+  {
+   "t0": 19.95,
+   "texte": "T'es trop belle, t'es trop belle, j'ai la trouille, c'est fou",
+   "fin": 24.49,
+   "syll": 11.0,
+   "id": "v-04",
+   "plan": "p-04",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "T'es trop belle, t'es",
+    "trop belle, j'ai la",
+    "trouille, c'est fou"
+   ]
+  },
+  {
+   "t0": 26.38,
+   "texte": "I'm scared of you, I'm scared of you",
+   "fin": 30.58,
+   "syll": 10.0,
+   "id": "v-05",
+   "plan": "p-05",
+   "pill": [
+    "J'ai",
+    "peur",
+    "de",
+    "toi",
+    "J'ai",
+    "peur",
+    "de",
+    "toi"
+   ],
+   "extinguish": true,
+   "lignes": [
+    "I'm scared of you,",
+    "I'm scared of you"
+   ]
+  },
+  {
+   "t0": 33.38,
+   "texte": "Je suis la honte des hommes virils, c'est tout",
+   "fin": 36.93,
+   "syll": 10.2,
+   "id": "v-06",
+   "plan": "p-06",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis la",
+    "honte des hommes",
+    "virils, c'est tout"
+   ]
+  },
+  {
+   "t0": 38.99,
+   "texte": "Wolof TechStein beat wê!",
+   "fin": 40.53,
+   "syll": 6.0,
+   "id": "v-07",
+   "plan": "p-07",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Wolof TechStein",
+    "beat wê!"
+   ]
+  },
+  {
+   "t0": 40.65,
+   "texte": "J'ai l'âme en transe, le cœur en déroute",
+   "fin": 42.36,
+   "syll": 10.2,
+   "id": "v-08",
+   "plan": "p-08",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "J'ai l'âme en transe,",
+    "le cœur en déroute"
+   ]
+  },
+  {
+   "t0": 42.48,
+   "texte": "Devant tes yeux, mes mots s'égouttent",
+   "fin": 43.88,
+   "syll": 7.8,
+   "id": "v-09",
+   "plan": "p-08",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Devant tes yeux,",
+    "mes mots s'égouttent"
+   ]
+  },
+  {
+   "t0": 44.0,
+   "texte": "Je suis un maladroit sidéral, un déchet sentimental",
+   "fin": 46.55,
+   "syll": 16.0,
+   "id": "v-10",
+   "plan": "p-09",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis un",
+    "maladroit sidéral, un",
+    "déchet sentimental"
+   ]
+  },
+  {
+   "t0": 46.67,
+   "texte": "Je ne sais pas draguer, je suis plutôt fatal",
+   "fin": 50.71,
+   "syll": 12.0,
+   "id": "v-11",
+   "plan": "p-09",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je ne sais pas draguer,",
+    "je suis plutôt fatal"
+   ]
+  },
+  {
+   "t0": 53.99,
+   "texte": "J'ai la trouille, j'ai la peur au ventre",
+   "fin": 55.49,
+   "syll": 8.8,
+   "id": "v-12",
+   "plan": "p-10",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "J'ai la trouille, j'ai",
+    "la peur au ventre"
+   ]
+  },
+  {
+   "t0": 55.61,
+   "texte": "Devant ta beauté qui foudroie et qui entre",
+   "fin": 57.57,
+   "syll": 11.4,
+   "id": "v-13",
+   "plan": "p-10",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Devant ta beauté qui",
+    "foudroie et qui entre"
+   ]
+  },
+  {
+   "t0": 57.69,
+   "texte": "Je suis une créature étrange, un oiseau sans ailes",
+   "fin": 60.38,
+   "syll": 13.6,
+   "id": "v-14",
+   "plan": "p-11",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis une",
+    "créature étrange, un",
+    "oiseau sans ailes"
+   ]
+  },
+  {
+   "t0": 60.5,
+   "texte": "Un homme qui tremble devant une si belle",
+   "fin": 64.16,
+   "syll": 10.6,
+   "id": "v-15",
+   "plan": "p-11",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Un homme qui tremble",
+    "devant une si belle"
+   ]
+  },
+  {
+   "t0": 66.57,
+   "texte": "Je suis censé être fort, être un roc",
+   "fin": 69.44,
+   "syll": 9.8,
+   "id": "v-16",
+   "plan": "p-12",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis censé être",
+    "fort, être un roc"
+   ]
+  },
+  {
+   "t0": 69.56,
+   "texte": "Mais devant toi, je suis un glas, un éclat",
+   "fin": 72.73,
+   "syll": 11.0,
+   "id": "v-17",
+   "plan": "p-12",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Mais devant toi, je suis",
+    "un glas, un éclat"
+   ]
+  },
+  {
+   "t0": 72.85,
+   "texte": "Je suis un guerrier sans armure",
+   "fin": 75.92,
+   "syll": 8.4,
+   "id": "v-18",
+   "plan": "p-13",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis un",
+    "guerrier sans armure"
+   ]
+  },
+  {
+   "t0": 76.41,
+   "texte": "Une armée qui se fissure",
+   "fin": 79.32,
+   "syll": 7.8,
+   "id": "v-19",
+   "plan": "p-13",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Une armée qui",
+    "se fissure"
+   ]
+  },
+  {
+   "t0": 79.71,
+   "texte": "I'm scared of you, I'm scared of you",
+   "fin": 83.91,
+   "syll": 10.0,
+   "id": "v-20",
+   "plan": "p-14",
+   "pill": [
+    "J'ai",
+    "peur",
+    "de",
+    "toi",
+    "J'ai",
+    "peur",
+    "de",
+    "toi"
+   ],
+   "extinguish": true,
+   "lignes": [
+    "I'm scared of you,",
+    "I'm scared of you"
+   ]
+  },
+  {
+   "t0": 86.49,
+   "texte": "T'es trop belle, t'es trop belle, j'ai la trouille, c'est fou",
+   "fin": 91.03,
+   "syll": 11.0,
+   "id": "v-21",
+   "plan": "p-15",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "T'es trop belle, t'es",
+    "trop belle, j'ai la",
+    "trouille, c'est fou"
+   ]
+  },
+  {
+   "t0": 93.09,
+   "texte": "I'm scared of you, I'm scared of you",
+   "fin": 97.29,
+   "syll": 10.0,
+   "id": "v-22",
+   "plan": "p-16",
+   "pill": [
+    "J'ai",
+    "peur",
+    "de",
+    "toi",
+    "J'ai",
+    "peur",
+    "de",
+    "toi"
+   ],
+   "extinguish": true,
+   "lignes": [
+    "I'm scared of you,",
+    "I'm scared of you"
+   ]
+  },
+  {
+   "t0": 99.97,
+   "texte": "Je suis la honte des hommes virils, c'est tout",
+   "fin": 103.52,
+   "syll": 10.2,
+   "id": "v-23",
+   "plan": "p-17",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis la",
+    "honte des hommes",
+    "virils, c'est tout"
+   ]
+  },
+  {
+   "t0": 105.45,
+   "texte": "Wolof TechStein beat wê!",
+   "fin": 107.03,
+   "syll": 6.0,
+   "id": "v-24",
+   "plan": "p-07",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Wolof TechStein",
+    "beat wê!"
+   ]
+  },
+  {
+   "t0": 107.15,
+   "texte": "J'ai traversé des tempêtes, j'ai dompté des lions",
+   "fin": 108.74,
+   "syll": 11.2,
+   "id": "v-25",
+   "plan": "p-18",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "J'ai traversé des",
+    "tempêtes, j'ai dompté",
+    "des lions"
+   ]
+  },
+  {
+   "t0": 108.86,
+   "texte": "Mais devant ton sourire, je perds ma raison",
+   "fin": 110.43,
+   "syll": 11.4,
+   "id": "v-26",
+   "plan": "p-18",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Mais devant ton sourire,",
+    "je perds ma raison"
+   ]
+  },
+  {
+   "t0": 110.55,
+   "texte": "Je suis un colosse aux pieds d'argile",
+   "fin": 112.09,
+   "syll": 9.8,
+   "id": "v-27",
+   "plan": "p-19",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis un colosse",
+    "aux pieds d'argile"
+   ]
+  },
+  {
+   "t0": 112.21,
+   "texte": "Un géant qui vacille, qui titube, qui file",
+   "fin": 113.84,
+   "syll": 11.2,
+   "id": "v-28",
+   "plan": "p-19",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Un géant qui vacille,",
+    "qui titube, qui file"
+   ]
+  },
+  {
+   "t0": 113.96,
+   "texte": "Je ne sais pas quoi dire, je suis hagard",
+   "fin": 115.45,
+   "syll": 10.4,
+   "id": "v-29",
+   "plan": "p-20",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je ne sais pas quoi",
+    "dire, je suis hagard"
+   ]
+  },
+  {
+   "t0": 115.57,
+   "texte": "Mes phrases s'effilochent, je suis dans le brouillard",
+   "fin": 117.13,
+   "syll": 11.8,
+   "id": "v-30",
+   "plan": "p-20",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Mes phrases s'effilochent,",
+    "je suis dans",
+    "le brouillard"
+   ]
+  },
+  {
+   "t0": 117.25,
+   "texte": "Je suis une énigme, un paradoxe ambulant",
+   "fin": 118.86,
+   "syll": 13.2,
+   "id": "v-31",
+   "plan": "p-21",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis une énigme,",
+    "un paradoxe ambulant"
+   ]
+  },
+  {
+   "t0": 118.98,
+   "texte": "Un homme qui aime trop, un amoureux transi",
+   "fin": 121.61,
+   "syll": 11.8,
+   "id": "v-32",
+   "plan": "p-21",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Un homme qui aime",
+    "trop, un amoureux transi"
+   ]
+  },
+  {
+   "t0": 121.73,
+   "texte": "Je suis censé être fort, être un roc",
+   "fin": 124.43,
+   "syll": 9.8,
+   "id": "v-33",
+   "plan": "p-22",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis censé être",
+    "fort, être un roc"
+   ]
+  },
+  {
+   "t0": 124.55,
+   "texte": "Mais devant toi, je suis un glas, un éclat",
+   "fin": 127.72,
+   "syll": 11.0,
+   "id": "v-34",
+   "plan": "p-22",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Mais devant toi, je suis",
+    "un glas, un éclat"
+   ]
+  },
+  {
+   "t0": 127.84,
+   "texte": "Je suis un guerrier sans armure",
+   "fin": 130.91,
+   "syll": 8.4,
+   "id": "v-35",
+   "plan": "p-23",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis un",
+    "guerrier sans armure"
+   ]
+  },
+  {
+   "t0": 131.44,
+   "texte": "Une armée qui se fissure",
+   "fin": 134.35,
+   "syll": 7.8,
+   "id": "v-36",
+   "plan": "p-23",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Une armée qui",
+    "se fissure"
+   ]
+  },
+  {
+   "t0": 135.49,
+   "texte": "Comment avoir la trouille pour de si belles créatures ?",
+   "fin": 138.7,
+   "syll": 13.2,
+   "id": "v-37",
+   "plan": "p-24",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Comment avoir la trouille",
+    "pour de si belles",
+    "créatures ?"
+   ]
+  },
+  {
+   "t0": 138.82,
+   "texte": "Comment un homme peut-il craindre une blessure ?",
+   "fin": 141.75,
+   "syll": 11.6,
+   "id": "v-38",
+   "plan": "p-24",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Comment un homme",
+    "peut-il craindre une",
+    "blessure ?"
+   ]
+  },
+  {
+   "t0": 141.87,
+   "texte": "Je suis étrange, je suis seul, je suis fou",
+   "fin": 144.34,
+   "syll": 10.4,
+   "id": "v-39",
+   "plan": "p-25",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis étrange, je suis",
+    "seul, je suis fou"
+   ]
+  },
+  {
+   "t0": 144.46,
+   "texte": "Mais je t'aime, je t'aime, je t'aime, je suis à genoux",
+   "fin": 148.35,
+   "syll": 13.2,
+   "id": "v-40",
+   "plan": "p-25",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Mais je t'aime, je",
+    "t'aime, je t'aime, je",
+    "suis à genoux"
+   ]
+  },
+  {
+   "t0": 148.47,
+   "texte": "Je suis un artiste de la peur",
+   "fin": 151.54,
+   "syll": 8.4,
+   "id": "v-41",
+   "plan": "p-26",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis un artiste",
+    "de la peur"
+   ]
+  },
+  {
+   "t0": 151.99,
+   "texte": "Un poète de la douleur",
+   "fin": 154.52,
+   "syll": 6.4,
+   "id": "v-42",
+   "plan": "p-26",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Un poète de",
+    "la douleur"
+   ]
+  },
+  {
+   "t0": 155.27,
+   "texte": "Mais c'est pour toi que je tremble",
+   "fin": 157.92,
+   "syll": 7.4,
+   "id": "v-43",
+   "plan": "p-27",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Mais c'est pour toi",
+    "que je tremble"
+   ]
+  },
+  {
+   "t0": 158.04,
+   "texte": "Pour toi que je dissemble",
+   "fin": 160.57,
+   "syll": 6.4,
+   "id": "v-44",
+   "plan": "p-27",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Pour toi que",
+    "je dissemble"
+   ]
+  },
+  {
+   "t0": 161.54,
+   "texte": "I'm scared of you, I'm scared of you",
+   "fin": 165.74,
+   "syll": 10.0,
+   "id": "v-45",
+   "plan": "p-28",
+   "pill": [
+    "J'ai",
+    "peur",
+    "de",
+    "toi",
+    "J'ai",
+    "peur",
+    "de",
+    "toi"
+   ],
+   "extinguish": true,
+   "lignes": [
+    "I'm scared of you,",
+    "I'm scared of you"
+   ]
+  },
+  {
+   "t0": 168.46,
+   "texte": "T'es trop belle, t'es trop belle, j'ai la trouille, c'est fou",
+   "fin": 173.0,
+   "syll": 11.0,
+   "id": "v-46",
+   "plan": "p-29",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "T'es trop belle, t'es",
+    "trop belle, j'ai la",
+    "trouille, c'est fou"
+   ]
+  },
+  {
+   "t0": 174.82,
+   "texte": "I'm scared of you, I'm scared of you",
+   "fin": 179.02,
+   "syll": 10.0,
+   "id": "v-47",
+   "plan": "p-30",
+   "pill": [
+    "J'ai",
+    "peur",
+    "de",
+    "toi",
+    "J'ai",
+    "peur",
+    "de",
+    "toi"
+   ],
+   "extinguish": true,
+   "lignes": [
+    "I'm scared of you,",
+    "I'm scared of you"
+   ]
+  },
+  {
+   "t0": 181.7,
+   "texte": "Je suis la honte des hommes virils, c'est tout",
+   "fin": 185.25,
+   "syll": 10.2,
+   "id": "v-48",
+   "plan": "p-31",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Je suis la",
+    "honte des hommes",
+    "virils, c'est tout"
+   ]
+  },
+  {
+   "t0": 187.35,
+   "texte": "Wolof TechStein beat wê!",
+   "fin": 190.19,
+   "syll": 6.0,
+   "id": "v-49",
+   "plan": "p-32",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Wolof TechStein",
+    "beat wê!"
+   ]
+  },
+  {
+   "t0": 193.79,
+   "texte": "Wolof TechStein beat wê!",
+   "fin": 196.63,
+   "syll": 6.0,
+   "id": "v-50",
+   "plan": "p-32",
+   "pill": null,
+   "extinguish": false,
+   "lignes": [
+    "Wolof TechStein",
+    "beat wê!"
+   ]
+  }
+ ]
+}
