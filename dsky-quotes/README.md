@@ -490,3 +490,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 448 | Note 7 — sans frontière | concert foule 100% IA + commentaire |
 | 449 | Note 8 — la playlist des souvenirs | cassette photos 100% IA + commentaire |
 | 450 | Note 9 — le langage des âmes | lever soleil 100% IA + commentaire |
+| 451 | La tenue simple | dressing 100% IA format série |
+| 452 | Recette 1 — la chemise blanche | cintre 100% IA + commentaire |
+| 453 | Recette 2 — l'uniforme des bons jours | jean baskets 100% IA + commentaire |
+| 454 | Recette 3 — le foulard | soie nouée 100% IA + commentaire |
+| 455 | Recette 4 — trois couleurs max | portant neutre 100% IA + commentaire |
+| 456 | Recette 5 — la robe noire | cintre 100% IA + commentaire |
+| 457 | Recette 6 — le repassage | fer à repasser 100% IA + commentaire |
+| 458 | Recette 7 — les chaussures | ballerines mocassins 100% IA + commentaire |
+| 459 | Recette 8 — l'allure | tenue assurance 100% IA + commentaire |
+| 460 | Recette 9 — l'intemporelle | dressing minimal 100% IA + commentaire |
