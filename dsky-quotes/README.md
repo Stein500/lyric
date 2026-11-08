@@ -510,3 +510,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 468 | Pas 7 — recommencer chaque matin | révisions lampe 100% IA + commentaire |
 | 469 | Pas 8 — le titre avant le podium | boxeuse coach 100% IA + commentaire |
 | 470 | Pas 9 — le monde applaudira | diplôme fierté 100% IA + commentaire |
+| 471 | Les herbes oubliées | rebord plantes 100% IA format série |
+| 472 | Feuille 1 — le persil | poignée persil 100% IA + commentaire |
+| 473 | Feuille 2 — la ciboulette | ciseaux sauce 100% IA + commentaire |
+| 474 | Feuille 3 — le basilic | mortier main 100% IA + commentaire |
+| 475 | Feuille 4 — thym et laurier | cuillère bois 100% IA + commentaire |
+| 476 | Feuille 5 — la coriandre | ciselage 100% IA + commentaire |
+| 477 | Feuille 6 — la cébette | planche cébette 100% IA + commentaire |
+| 478 | Feuille 7 — ail et gingembre | mortier pierre 100% IA + commentaire |
+| 479 | Feuille 8 — la menthe | feuille vapeur 100% IA + commentaire |
+| 480 | Feuille 9 — la signature | herbes suspendues 100% IA + commentaire |

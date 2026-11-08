@@ -1230,3 +1230,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **469. (PAS 8)** `LE TITRE AVANT LE PODIUM` — jeune boxeuse et son coach fier — « Le titre se gagne avant le podium : dans les yeux de ceux qui y croient. » / "The title is won before the podium: in the eyes of those who believe." — Commentaire : Un coach exigeant, un cœur tendre. — CTA : Envoie à ton coach
 
 **470. (PAS 9 — FINALE)** `LE MONDE APPLAUDIRA` — écolière fière avec son diplôme, mère qui applaudit — « Un jour, ils raconteront d'où ils partent — et le monde applaudira. » / "One day they'll tell where they started from — and the world will applaud." — Commentaire : La fierté d'aujourd'hui, l'histoire de demain. — CTA : Commente FIÈRE D'EUX
+
+## SAISON 2 — Série ART XLII (471 → 480) — « LES PLANTES OUBLIÉES DE LA SAUCE » (comment des plantes simples et négligées rendent une sauce super ; format série : 1 principale + 9 feuilles avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**471. (PRINCIPALE)** `LES HERBES OUBLIÉES` — pots d'herbes modestes au rebord, mains qui cueillent — « Les herbes oubliées du jardin font les sauces qu'on n'oublie pas. » / "The forgotten herbs of the garden make the sauces no one forgets." — CTA : Suis les 9 feuilles
+
+**472. (FEUILLE 1)** `LE PERSIL` — poignée de persil au-dessus de la sauce — « Une poignée de persil frais relève toute une sauce. » / "A handful of fresh parsley lifts a whole sauce." — Commentaire : Humble, mais indispensable. — CTA : Commente OUI
+
+**473. (FEUILLE 2)** `LA CIBOULETTE` — ciseaux au-dessus d'une sauce crémeuse — « La ciboulette, c'est la touche finale qui fait sourire la sauce. » / "Chives are the final touch that makes the sauce smile." — Commentaire : Trois coups de ciseaux, tout change. — CTA : Tague ta reine de la cuisine
+
+**474. (FEUILLE 3)** `LE BASILIC` — basilic écrasé à la main au mortier — « Le basilic écrasé à la main, c'est l'âme de la sauce rouge. » / "Hand-crushed basil is the soul of red sauce." — Commentaire : Jamais de couteau : que des doigts. — CTA : Envoie ta recette de sauce
+
+**475. (FEUILLE 4)** `THYM ET LAURIER` — deux brins de thym et une feuille sur cuillère en bois — « Deux brindilles de thym et une feuille de laurier : le secret des grands bouillons. » / "Two thyme sprigs and one bay leaf: the secret of great broths." — Commentaire : Ils cuisent sans se faire remarquer. — CTA : Commente OUI si tu les mets
+
+**476. (FEUILLE 5)** `LA CORIANDRE` — coriandre fraîche hachée, marmite fumante — « La coriandre fraîche, c'est l'accent de la sauce. » / "Fresh cilantro is the sauce's accent." — Commentaire : Chaque pays la pose à sa façon. — CTA : Partage à ton pote cuisine
+
+**477. (FEUILLE 6)** `LA CÉBETTE` — cébette ciselée sur planche — « Une cébette suffit à réveiller une sauce endormie. » / "One scallion is enough to wake a sleeping sauce." — Commentaire : Le réveille-matin des sauces. — CTA : Tague quelqu'un qui cuisine trop sage
+
+**478. (FEUILLE 7)** `AIL ET GINGEMBRE` — gousses d'ail, racine de gingembre, mortier — « L'ail et le gingembre sont petits, mais la sauce parle d'eux longtemps. » / "Garlic and ginger are small, but the sauce speaks of them for long." — Commentaire : Les géants cachés du mortier. — CTA : Envoie à ton grand cuisinier
+
+**479. (FEUILLE 8)** `LA MENTHE` — feuille de menthe lâchée dans la vapeur — « Une feuille de menthe oubliée peut devenir le parfum du plat. » / "One forgotten mint leaf can become the dish's perfume." — Commentaire : La surprise attend son instant. — CTA : Commente TROP VRAI
+
+**480. (FEUILLE 9 — FINALE)** `LA SIGNATURE` — bouquet d'herbes séchées suspendu, sauce au feu — « Ce qu'on croyait négligeable donne à la sauce sa signature. » / "What seemed negligible gives the sauce its signature." — Commentaire : La magie des petites choses. — CTA : Tague une passionnée de cuisine
