@@ -500,3 +500,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 458 | Recette 7 — les chaussures | ballerines mocassins 100% IA + commentaire |
 | 459 | Recette 8 — l'allure | tenue assurance 100% IA + commentaire |
 | 460 | Recette 9 — l'intemporelle | dressing minimal 100% IA + commentaire |
+| 461 | Plus loin que les moyens | mère et fils uniforme 100% IA format série |
+| 462 | Pas 1 — la classe qui forme | salle modeste 100% IA + commentaire |
+| 463 | Pas 2 — le sacrifice silencieux | cartable aube 100% IA + commentaire |
+| 464 | Pas 3 — le cahier usé | crayon court 100% IA + commentaire |
+| 465 | Pas 4 — pieds nus maillot national | coureur latérite 100% IA + commentaire |
+| 466 | Pas 5 — la valeur de tout | ballon chiffons 100% IA + commentaire |
+| 467 | Pas 6 — un pays qui se lève | écoliers aube 100% IA + commentaire |
+| 468 | Pas 7 — recommencer chaque matin | révisions lampe 100% IA + commentaire |
+| 469 | Pas 8 — le titre avant le podium | boxeuse coach 100% IA + commentaire |
+| 470 | Pas 9 — le monde applaudira | diplôme fierté 100% IA + commentaire |

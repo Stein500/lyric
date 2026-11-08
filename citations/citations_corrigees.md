@@ -1208,3 +1208,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **459. (RECETTE 8)** `L'ALLURE` — femme sûre d'elle en tenue simple — « Une tenue sûre d'elle vaut plus qu'une pièce chère. » / "A confident outfit is worth more than an expensive one." — Commentaire : L'allure vaut plus que l'étiquette. — CTA : Tague quelqu'un de stylé
 
 **460. (RECETTE 9 — FINALE)** `L'INTEMPORRELLE` — dressing minimaliste éclairé — « Les modes passent, la tenue simple reste. » / "Trends fade, the simple outfit remains." — Commentaire : La simplicité ne se démode jamais. — CTA : Commente TROP VRAI
+
+## SAISON 2 — Série ART XLI (461 → 470) — « FIERTÉ DE LES VOIR GRANDIR » (défis, insuffisances et fierté des élèves, écoliers, enfants, champions ; format série : 1 principale + 9 détails avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**461. (PRINCIPALE)** `PLUS LOIN QUE LES MOYENS` — mère africaine ajustant l'uniforme de son fils à l'aube — « Ils n'ont pas tout, et pourtant ils avancent plus loin que les moyens qu'on leur donne. » / "They don't have it all, yet they go further than what they're given." — CTA : Suis les 9 pas
+
+**462. (PAS 1)** `LA CLASSE QUI FORME` — salle de classe modeste, mains levées — « La classe n'a pas besoin d'être neuve pour former de grandes têtes. » / "A classroom doesn't need to be new to shape great minds." — Commentaire : Le savoir ne connaît pas la poussière. — CTA : Commente OUI
+
+**463. (PAS 2)** `LE SACRIFICE SILENCIEUX` — mère préparant le cartable à l'aube — « Derrière chaque enfant qui apprend, il y a un parent qui se sacrifie en silence. » / "Behind every child who learns is a parent silently sacrificing." — Commentaire : Les nuits courtes, les rêves longs. — CTA : Tague un parent courageux
+
+**464. (PAS 3)** `LE CAHIER USÉ` — mains d'enfant écrivant au crayon court — « Un cahier usé peut contenir un rêve tout neuf. » / "A worn notebook can hold a brand-new dream." — Commentaire : Les ratures d'aujourd'hui, les victoires de demain. — CTA : Envoie à un enseignant
+
+**465. (PAS 4)** `PIEDS NUS, MAILLOT NATIONAL` — jeune coureur pieds nus sur piste en latérite — « Ceux qui courent pieds nus finissent en maillot national. » / "Those who run barefoot end up in a national jersey." — Commentaire : Le bitume commence par la terre. — CTA : Tague un champion
+
+**466. (PAS 5)** `LA VALEUR DE TOUT` — enfants jouant au ballon de chiffons — « Grandir avec peu, c'est apprendre la valeur de tout. » / "Growing up with little teaches the worth of everything." — Commentaire : L'insuffisance forge l'ingéniosité. — CTA : Commente TROP VRAI
+
+**467. (PAS 6)** `UN PAYS QUI SE LÈVE` — écoliers marchant au lever du soleil — « Chaque écolier debout à l'aube est un pays qui se lève. » / "Every pupil up at dawn is a country rising." — Commentaire : L'uniforme du courage. — CTA : Partage pour les encourager
+
+**468. (PAS 7)** `RECOMMENCER CHAQUE MATIN` — adolescent révisant sous lampe la nuit — « Personne ne félicite assez ceux qui recommencent chaque matin. » / "No one praises enough those who start again every morning." — Commentaire : La persévérance ne fait pas la une. — CTA : Tague quelqu'un qui ne renonce jamais
+
+**469. (PAS 8)** `LE TITRE AVANT LE PODIUM` — jeune boxeuse et son coach fier — « Le titre se gagne avant le podium : dans les yeux de ceux qui y croient. » / "The title is won before the podium: in the eyes of those who believe." — Commentaire : Un coach exigeant, un cœur tendre. — CTA : Envoie à ton coach
+
+**470. (PAS 9 — FINALE)** `LE MONDE APPLAUDIRA` — écolière fière avec son diplôme, mère qui applaudit — « Un jour, ils raconteront d'où ils partent — et le monde applaudira. » / "One day they'll tell where they started from — and the world will applaud." — Commentaire : La fierté d'aujourd'hui, l'histoire de demain. — CTA : Commente FIÈRE D'EUX
