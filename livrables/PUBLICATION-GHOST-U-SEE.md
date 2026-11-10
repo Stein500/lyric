@@ -18,23 +18,14 @@ Entre ce que les autres projettent et la personne que l’on choisit d’être. 
 ## Déclaration IA
 Les illustrations ont été générées avec l’aide de l’IA. Les paroles et leur synchronisation sont celles de l’œuvre; les traductions françaises sont affichées en pilule karaoké pour les passages anglais et espagnols. Le clip utilise le master audio original fourni par l’artiste; aucune voix ni musique n’a été générée par IA.
 
-## Commandes Termux
-
-### Téléchargement direct avec curl
-Une URL HTTPS directe est nécessaire. Après avoir obtenu cette URL auprès d’un hébergeur :
+## Commandes Termux — téléchargement direct avec curl
+Le MP4 est publié sur la branche publique Arena de ce dépôt. La commande ci-dessous le télécharge directement :
 
 ```sh
 pkg update -y
 pkg install curl ffmpeg -y
 termux-setup-storage
-curl -fL "URL_HTTPS_DIRECTE_DU_MP4" -o ~/storage/downloads/GHOST-U-SEE-DAISKY-9x16.mp4
-```
-
-Le MP4 de ce livrable est actuellement fourni dans Arena et n’a pas d’URL publique `curl`. Sans le publier sur un hébergeur, télécharge-le depuis le lecteur Arena, puis copie-le depuis **Download/Téléchargements** :
-
-```sh
-pkg install ffmpeg -y
-termux-setup-storage
+curl -fL "https://raw.githubusercontent.com/Stein500/lyric/arena/5fe20db4-lyric/livrables/GHOST-U-SEE-DAISKY-9x16.mp4" -o ~/storage/downloads/GHOST-U-SEE-DAISKY-9x16.mp4
 mkdir -p ~/storage/shared/Movies ~/storage/shared/Pictures
 cp ~/storage/downloads/GHOST-U-SEE-DAISKY-9x16.mp4 ~/storage/shared/Movies/
 cp ~/storage/downloads/COVER-GHOST-U-SEE-1080x1920.jpg ~/storage/shared/Pictures/
