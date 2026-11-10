@@ -1252,3 +1252,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **479. (FEUILLE 8)** `LA MENTHE` — feuille de menthe lâchée dans la vapeur — « Une feuille de menthe oubliée peut devenir le parfum du plat. » / "One forgotten mint leaf can become the dish's perfume." — Commentaire : La surprise attend son instant. — CTA : Commente TROP VRAI
 
 **480. (FEUILLE 9 — FINALE)** `LA SIGNATURE` — bouquet d'herbes séchées suspendu, sauce au feu — « Ce qu'on croyait négligeable donne à la sauce sa signature. » / "What seemed negligible gives the sauce its signature." — Commentaire : La magie des petites choses. — CTA : Tague une passionnée de cuisine
+
+## SAISON 2 — Série ART XLIII (481 → 490) — « FRIENDZONÉ (AVEC HUMOUR) » (anecdotes drôles et tendres ; format série : 1 principale + 9 anecdotes avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**481. (PRINCIPALE)** `COMME UN FRÈRE` — elle ébouriffe les cheveux d'un ami résigné — « Elle me dit "tu es comme un frère" — pourtant on n'a même pas le même nez. » / "She says I'm like a brother — yet we don't even have the same nose." — CTA : Suis les 9 anecdotes
+
+**482. (ANECDOTE 1)** `LE TÉMOIN COURAGEUX` — témoin à un mariage, bagues en main — « Elle m'a demandé d'être témoin à son mariage. J'ai dit oui. Je suis courageux. » / "She asked me to be her wedding witness. I said yes. I'm brave." — Commentaire : Le plus beau jour de sa vie, presque le mien. — CTA : Commente COURAGE
+
+**483. (ANECDOTE 2)** `LA CARRIÈRE COMPLÈTE` — chauffeur la nuit, couple en arrière-plan — « Chauffeur du rencard, videur du bal, témoin du mariage : ma carrière est complète. » / "Date driver, party bouncer, wedding witness: my career is complete." — Commentaire : Il ne me reste que la retraite. — CTA : Tague ton pote chauffeur
+
+**484. (ANECDOTE 3)** `SILENCE PROFESSIONNEL` — elle pleure sur son épaule, regard caméra — « Elle pleure sur mon épaule pour un autre. Mon épaule, elle, ne dit rien. » / "She cries on my shoulder about another guy. My shoulder says nothing." — Commentaire : Silence professionnel. — CTA : Commente TROP VRAI
+
+**485. (ANECDOTE 4)** `CANDIDAT, PAS RECRUTEUR` — entretien du jeu, liste en main — « Elle me dit "tu vas trouver mieux" et me fait la liste. J'étais candidat, pas recruteur. » / "She says 'you'll find better' and makes me a list. I was the candidate, not the recruiter." — Commentaire : Candidature rejetée avec le sourire. — CTA : Tague un ami dans ce cas
+
+**486. (ANECDOTE 5)** `LE KARAOKÉ DE L'AMITIÉ` — il chante au micro, elle rit aux larmes — « J'ai appris toutes ses chansons préférées. Elle m'a appris à les chanter pour d'autres. » / "I learned all her favorite songs. She taught me to sing them for others." — Commentaire : Le karaoké de l'amitié. — CTA : Envoie à ton groupe d'amis
+
+**487. (ANECDOTE 6)** `LA SUITE JAMAIS VENUE` — bouquet sur un banc, attente interminable — « Elle me dit "tu es parfait". J'attends la suite depuis deux ans. » / "She tells me 'you're perfect.' I've been waiting for the sequel for two years." — Commentaire : La suite n'est jamais venue. — CTA : Commente OUI si tu attends aussi
+
+**488. (ANECDOTE 7)** `MEILLEUR AMI DE L'ANNÉE` — chargé comme une mule derrière elle — « J'ai porté ses sacs, prêté mes notes, gardé ses secrets : élu meilleur ami de l'année. » / "I carried her bags, lent my notes, kept her secrets: elected best friend of the year." — Commentaire : Pas de trophée, juste elle. — CTA : Tague ton meilleur ami fidèle
+
+**489. (ANECDOTE 8)** `ELLE PLEURE LES FILMS` — soirée films, elle en larmes, lui qui la regarde — « On a vu dix films d'amour ensemble. Elle pleurait pour les acteurs, moi pour moi. » / "We watched ten romantic movies together. She cried for the actors, I cried for me." — Commentaire : Les génériques me connaissent bien. — CTA : Partage à ton partenaire de films
+
+**490. (ANECDOTE 9 — FINALE)** `POUR TOUJOURS` — check au coucher du soleil — « Un jour, j'ai demandé "et moi ?" Elle a répondu "toi, tu es pour toujours." Alors j'ai souri. » / "One day I asked 'what about me?' She said 'you're forever.' So I smiled." — Commentaire : Irremplaçable, c'est déjà beaucoup. — CTA : Commente RESPECT
