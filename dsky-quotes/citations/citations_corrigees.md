@@ -1274,3 +1274,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **489. (ANECDOTE 8)** `ELLE PLEURE LES FILMS` — soirée films, elle en larmes, lui qui la regarde — « On a vu dix films d'amour ensemble. Elle pleurait pour les acteurs, moi pour moi. » / "We watched ten romantic movies together. She cried for the actors, I cried for me." — Commentaire : Les génériques me connaissent bien. — CTA : Partage à ton partenaire de films
 
 **490. (ANECDOTE 9 — FINALE)** `POUR TOUJOURS` — check au coucher du soleil — « Un jour, j'ai demandé "et moi ?" Elle a répondu "toi, tu es pour toujours." Alors j'ai souri. » / "One day I asked 'what about me?' She said 'you're forever.' So I smiled." — Commentaire : Irremplaçable, c'est déjà beaucoup. — CTA : Commente RESPECT
+
+## SAISON 2 — Série ART XLIV (491 → 500) — « FRIENDZONÉ VOL. 2 » (suite des anecdotes avec humour ; format série : 1 principale + 9 anecdotes avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**491. (PRINCIPALE)** `SON BON AMI` — présentation aux parents, poignée de main — « Elle m'a présenté à ses parents comme "son bon ami". Sa mère m'a cru. Sa mère ! » / "She introduced me to her parents as 'her good friend.' Her mother believed it. Her mother!" — CTA : Suis la saison 2
+
+**492. (HISTOIRE 1)** `LE DJ A CRU` — danse au mariage, DJ en arrière-plan — « Au mariage de ma cousine, elle a dansé avec moi. Le DJ a cru qu'on sortait ensemble. J'ai laissé croire. » / "At my cousin's wedding she danced with me. The DJ thought we were dating. I let him believe." — Commentaire : Ce soir-là, j'ai existé. — CTA : Commente LÂCHE RIEN
+
+**493. (HISTOIRE 2)** `COMMERCE DÉSÉQUILIBRÉ` — elle dans son pull au feu de camp — « Elle garde mes pulls. Je garde espoir. On dit que l'amour est un échange. » / "She keeps my sweaters. I keep hope. They say love is an exchange." — Commentaire : Commerce déséquilibré. — CTA : Tague celui qui a perdu un pull
+
+**494. (HISTOIRE 3)** `ON VERRA` — téléphone au café, visage dubitatif — « "On verra", a-t-elle dit. Les météorologues sont plus précis. » / "'We'll see,' she said. Weather forecasters are more precise." — Commentaire : La seule science exacte : le flou. — CTA : Commente ON VERRA
+
+**495. (HISTOIRE 4)** `PREMIER RÔLE DANS LES COULISSES` — répétition en coulisses de théâtre — « Je l'ai aidée à réciter son texte. Elle l'a récité à un autre. » / "I helped her rehearse her lines. She delivered them to someone else." — Commentaire : Premier rôle dans les coulisses. — CTA : Commente BRAVO QUAND MÊME
+
+**496. (HISTOIRE 5)** `LE ROI DES 2H DU MATIN` — réveil instantané au téléphone — « Elle m'appelle à 2h du matin pour parler. Je réponds à 2h01. Je suis ponctuel. » / "She calls me at 2 a.m. to talk. I answer at 2:01. I'm punctual." — Commentaire : Le service après-vente de l'amour. — CTA : Tague le roi des 2h du matin
+
+**497. (HISTOIRE 6)** `FRITES GÉNÉREUSES` — partage de frites au resto — « Elle me partage ses frites. Ses secrets aussi. Son cœur, lui, reste complet. » / "She shares her fries with me. Her secrets too. Her heart stays whole." — Commentaire : Frites généreuses, cœur prudent. — CTA : Commente UNE FRITE POUR TOI
+
+**498. (HISTOIRE 7)** `LE COACH` — elle coach depuis le canapé, lui prend des notes — « J'ai demandé un conseil à celle que j'aime. Elle m'a coaché. Coach, vraiment. » / "I asked the girl I love for advice. She coached me. A coach, truly." — Commentaire : Elle m'a coaché… vers la sortie. — CTA : Tague ce champion
+
+**499. (HISTOIRE 8)** `LA DERNIÈRE LIGNE` — elle écrit sa liste, lui jette un œil — « Sa liste "l'homme idéal" ressemble à moi. Sauf une ligne. La dernière. » / "Her 'ideal man' list looks like me. Except one line. The last one." — Commentaire : Recalé à la dernière case. — CTA : Commente PRESQUE
+
+**500. (HISTOIRE 9 — FINALE)** `PROMOTION PERMANENTE` — banc au coucher du soleil, sourire serein — « Un jour elle comprendra. En attendant, je suis le meilleur ami du monde. Promotion permanente. » / "One day she'll understand. Meanwhile, I'm the world's best friend. Permanent promotion." — Commentaire : Le salaire se paie en sourires. — CTA : Commente UN JOUR PEUT-ÊTRE
