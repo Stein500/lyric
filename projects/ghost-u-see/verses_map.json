@@ -1,0 +1,473 @@
+{
+  "title": "Ghost u see",
+  "artist": "Daïsky",
+  "badge": "DSKY",
+  "series": "WTBW · Wolof TechStein beat wê",
+  "mode": "B — paroles originales peintes + traduction française karaoke en pilule",
+  "audio": "../../Ghost'u_see- Daïsky.m4a",
+  "audio_duration": 245.006,
+  "video_duration": 250.006,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "transition_seconds": 0.15,
+  "scene_plan": [
+    {
+      "start": 0.0,
+      "end": 27.2,
+      "image": "scene01_cold_stage.png"
+    },
+    {
+      "start": 211.87,
+      "end": 250.006,
+      "image": "scene06_morning_crossing.png"
+    }
+  ],
+  "verses": [
+    {
+      "id": "v01",
+      "start": 0.87,
+      "timestamp": "00:00.87",
+      "text": "(Humming... wolof TechsteinBeat wé...)",
+      "type": "humming",
+      "end": 27.2
+    },
+    {
+      "id": "v02",
+      "start": 27.2,
+      "timestamp": "00:27.20",
+      "text": "Les lumières s'éteignent, la scène est froide",
+      "type": "lyric",
+      "image": "generated-lyrics/verse01.png",
+      "end": 30.51
+    },
+    {
+      "id": "v03",
+      "start": 30.51,
+      "timestamp": "00:30.51",
+      "text": "Je marche dans l'ombre, tu vois une autre voie",
+      "type": "lyric",
+      "image": "generated-lyrics/verse02.jpg",
+      "end": 33.85
+    },
+    {
+      "id": "v04",
+      "start": 33.85,
+      "timestamp": "00:33.85",
+      "text": "Ce visage que tu fixes, ce sourire de façade",
+      "type": "lyric",
+      "image": "generated-lyrics/verse03.jpg",
+      "end": 37.49
+    },
+    {
+      "id": "v05",
+      "start": 37.49,
+      "timestamp": "00:37.49",
+      "text": "C'est le masque du monde, pas moi dans cette cascade",
+      "type": "lyric",
+      "image": "generated-lyrics/verse04.jpg",
+      "end": 41.05
+    },
+    {
+      "id": "v06",
+      "start": 41.05,
+      "timestamp": "00:41.05",
+      "text": "J'ai construit ces murs pour survivre au bruit",
+      "type": "lyric",
+      "image": "generated-lyrics/verse05.jpg",
+      "end": 44.57
+    },
+    {
+      "id": "v07",
+      "start": 44.57,
+      "timestamp": "00:44.57",
+      "text": "Chaque cicatrice cachée brille dans la nuit",
+      "type": "lyric",
+      "image": "generated-lyrics/verse06.jpg",
+      "end": 48.0
+    },
+    {
+      "id": "v08",
+      "start": 48.0,
+      "timestamp": "00:48.00",
+      "text": "Tu regardes l'écran, tu crois tout connaître",
+      "type": "lyric",
+      "image": "generated-lyrics/verse07.jpg",
+      "end": 51.2
+    },
+    {
+      "id": "v09",
+      "start": 51.2,
+      "timestamp": "00:51.20",
+      "text": "Mais le fantôme que tu vois ne peut pas apparaître",
+      "type": "lyric",
+      "image": "generated-lyrics/verse08.jpg",
+      "end": 54.66
+    },
+    {
+      "id": "v10",
+      "start": 54.66,
+      "timestamp": "00:54.66",
+      "text": "Don't call me by that name I left behind",
+      "type": "lyric",
+      "image": "generated-lyrics/verse09.jpg",
+      "end": 59.26,
+      "fr": "Ne m’appelle pas par ce nom que j’ai laissé derrière moi."
+    },
+    {
+      "id": "v11",
+      "start": 59.26,
+      "timestamp": "00:59.26",
+      "text": "A ghost is what you built inside your mind",
+      "type": "lyric",
+      "image": "generated-lyrics/verse10.jpg",
+      "end": 62.51,
+      "fr": "Le fantôme que tu as bâti vit dans ton esprit."
+    },
+    {
+      "id": "v12",
+      "start": 62.51,
+      "timestamp": "01:02.51",
+      "text": "Every story that you told was never mine",
+      "type": "lyric",
+      "image": "generated-lyrics/verse11.jpg",
+      "end": 66.03,
+      "fr": "Toutes les histoires que tu racontais n’ont jamais été les miennes."
+    },
+    {
+      "id": "v13",
+      "start": 66.03,
+      "timestamp": "01:06.03",
+      "text": "I'm rewriting every broken, faded line",
+      "type": "lyric",
+      "image": "generated-lyrics/verse12.jpg",
+      "end": 70.75,
+      "fr": "Je réécris chaque ligne brisée et effacée."
+    },
+    {
+      "id": "v14",
+      "start": 70.75,
+      "timestamp": "01:10.75",
+      "text": "Ghost that you see, it's not me",
+      "type": "lyric",
+      "image": "generated-lyrics/verse13.jpg",
+      "end": 77.15,
+      "fr": "Le fantôme que tu vois, ce n’est pas moi."
+    },
+    {
+      "id": "v15",
+      "start": 77.15,
+      "timestamp": "01:17.15",
+      "text": "C'est pas moi dans tes yeux, libère-moi",
+      "type": "lyric",
+      "image": "generated-lyrics/verse14.jpg",
+      "end": 84.62
+    },
+    {
+      "id": "v16",
+      "start": 84.62,
+      "timestamp": "01:24.62",
+      "text": "Ghost that you see, it's not me",
+      "type": "lyric",
+      "image": "generated-lyrics/verse15.jpg",
+      "end": 91.13,
+      "fr": "Le fantôme que tu vois, ce n’est pas moi."
+    },
+    {
+      "id": "v17",
+      "start": 91.13,
+      "timestamp": "01:31.13",
+      "text": "Je suis plus que l'image que tu crois",
+      "type": "lyric",
+      "image": "generated-lyrics/verse16.jpg",
+      "end": 98.87
+    },
+    {
+      "id": "v18",
+      "start": 98.87,
+      "timestamp": "01:38.87",
+      "text": "I'm not the shadow, not the silence",
+      "type": "lyric",
+      "image": "generated-lyrics/verse17.jpg",
+      "end": 102.39,
+      "fr": "Je ne suis ni l’ombre, ni le silence."
+    },
+    {
+      "id": "v19",
+      "start": 102.39,
+      "timestamp": "01:42.39",
+      "text": "I'm not the wound behind your violence",
+      "type": "lyric",
+      "image": "generated-lyrics/verse18.jpg",
+      "end": 105.48,
+      "fr": "Je ne suis pas la blessure derrière ta violence."
+    },
+    {
+      "id": "v20",
+      "start": 105.48,
+      "timestamp": "01:45.48",
+      "text": "Ghost that you see, it's not me",
+      "type": "lyric",
+      "image": "generated-lyrics/verse19.jpg",
+      "end": 110.63,
+      "fr": "Le fantôme que tu vois, ce n’est pas moi."
+    },
+    {
+      "id": "v21",
+      "start": 110.63,
+      "timestamp": "01:50.63",
+      "text": "Regarde encore — tu ne vois que tes peurs",
+      "type": "lyric",
+      "image": "generated-lyrics/cue21.jpg",
+      "end": 113.48
+    },
+    {
+      "id": "v22",
+      "start": 113.48,
+      "timestamp": "01:53.48",
+      "text": "Construí mi mundo lejos de tu mirada",
+      "type": "lyric",
+      "image": "generated-lyrics/verse20.jpg",
+      "end": 116.41,
+      "fr": "J’ai construit mon monde loin de ton regard."
+    },
+    {
+      "id": "v23",
+      "start": 116.41,
+      "timestamp": "01:56.41",
+      "text": "Cada paso que di fue una nueva llamarada",
+      "type": "lyric",
+      "image": "generated-lyrics/verse21.jpg",
+      "end": 119.98,
+      "fr": "Chaque pas que j’ai fait fut une nouvelle flamme."
+    },
+    {
+      "id": "v24",
+      "start": 119.98,
+      "timestamp": "01:59.98",
+      "text": "Me pintaste de gris, pero soy arco iris",
+      "type": "lyric",
+      "image": "generated-lyrics/verse22.jpg",
+      "end": 123.32,
+      "fr": "Tu m’as peint en gris, mais je suis un arc-en-ciel."
+    },
+    {
+      "id": "v25",
+      "start": 123.32,
+      "timestamp": "02:03.32",
+      "text": "Mis raíces son fuertes aunque el viento desvíres",
+      "type": "lyric",
+      "image": "generated-lyrics/verse23.jpg",
+      "end": 127.07,
+      "fr": "Mes racines sont fortes, même si le vent dévie ma route."
+    },
+    {
+      "id": "v26",
+      "start": 127.07,
+      "timestamp": "02:07.07",
+      "text": "No soy el fantasma que dejaste atrás",
+      "type": "lyric",
+      "image": "generated-lyrics/verse24.jpg",
+      "end": 130.43,
+      "fr": "Je ne suis pas le fantôme que tu as laissé derrière toi."
+    },
+    {
+      "id": "v27",
+      "start": 130.43,
+      "timestamp": "02:10.43",
+      "text": "No soy el espejo roto que no quieres más",
+      "type": "lyric",
+      "image": "generated-lyrics/verse25.jpg",
+      "end": 133.96,
+      "fr": "Je ne suis pas le miroir brisé que tu ne veux plus."
+    },
+    {
+      "id": "v28",
+      "start": 133.96,
+      "timestamp": "02:13.96",
+      "text": "Hay fuego en mis venas, hay luz en mi voz",
+      "type": "lyric",
+      "image": "generated-lyrics/verse26.jpg",
+      "end": 137.46,
+      "fr": "Il y a du feu dans mes veines, de la lumière dans ma voix."
+    },
+    {
+      "id": "v29",
+      "start": 137.46,
+      "timestamp": "02:17.46",
+      "text": "El alma que buscas ya no vive en dos",
+      "type": "lyric",
+      "image": "generated-lyrics/verse27.jpg",
+      "end": 140.81,
+      "fr": "L’âme que tu cherches ne vit plus en deux."
+    },
+    {
+      "id": "v30",
+      "start": 140.81,
+      "timestamp": "02:20.81",
+      "text": "Je n'suis pas la version que t'as inventée",
+      "type": "lyric",
+      "image": "generated-lyrics/verse28.jpg",
+      "end": 144.53
+    },
+    {
+      "id": "v31",
+      "start": 144.53,
+      "timestamp": "02:24.53",
+      "text": "Le silence que t'as cru, c'était ma liberté",
+      "type": "lyric",
+      "image": "generated-lyrics/verse29.jpg",
+      "end": 148.1
+    },
+    {
+      "id": "v32",
+      "start": 148.1,
+      "timestamp": "02:28.10",
+      "text": "Chaque fois que tu m'appelles par ce vieux prénom",
+      "type": "lyric",
+      "image": "generated-lyrics/cue32.jpg",
+      "end": 151.38
+    },
+    {
+      "id": "v33",
+      "start": 151.38,
+      "timestamp": "02:31.38",
+      "text": "Tu parles à un fantôme — je suis bien au-delà",
+      "type": "lyric",
+      "image": "generated-lyrics/cue33.jpg",
+      "end": 154.78
+    },
+    {
+      "id": "v34",
+      "start": 154.78,
+      "timestamp": "02:34.78",
+      "text": "Et si tu regardes vraiment, vraiment dans mes yeux",
+      "type": "lyric",
+      "image": "generated-lyrics/cue34.jpg",
+      "end": 158.38
+    },
+    {
+      "id": "v35",
+      "start": 158.38,
+      "timestamp": "02:38.38",
+      "text": "Tu verras quelqu'un de nouveau, de fort, d'audacieux",
+      "type": "lyric",
+      "image": "generated-lyrics/cue35.jpg",
+      "end": 161.76
+    },
+    {
+      "id": "v36",
+      "start": 161.76,
+      "timestamp": "02:41.76",
+      "text": "Le fantôme s'est évaporé dans ta mémoire",
+      "type": "lyric",
+      "image": "generated-lyrics/cue36.jpg",
+      "end": 165.23
+    },
+    {
+      "id": "v37",
+      "start": 165.23,
+      "timestamp": "02:45.23",
+      "text": "Moi je vis ma lumière — moi je vis ma victoire",
+      "type": "lyric",
+      "image": "generated-lyrics/cue37.jpg",
+      "end": 169.13
+    },
+    {
+      "id": "v38",
+      "start": 169.13,
+      "timestamp": "02:49.13",
+      "text": "Ghost that you see, it's not me",
+      "type": "lyric",
+      "image": "generated-lyrics/cue38.jpg",
+      "end": 175.0,
+      "fr": "Le fantôme que tu vois, ce n’est pas moi."
+    },
+    {
+      "id": "v39",
+      "start": 175.0,
+      "timestamp": "02:55.00",
+      "text": "I burned the old skin you wanted to keep",
+      "type": "lyric",
+      "image": "generated-lyrics/cue39.jpg",
+      "end": 182.85,
+      "fr": "J’ai brûlé l’ancienne peau que tu voulais garder."
+    },
+    {
+      "id": "v40",
+      "start": 182.85,
+      "timestamp": "03:02.85",
+      "text": "Ghost that you see, it's not me",
+      "type": "lyric",
+      "image": "generated-lyrics/cue40.jpg",
+      "end": 189.67,
+      "fr": "Le fantôme que tu vois, ce n’est pas moi."
+    },
+    {
+      "id": "v41",
+      "start": 189.67,
+      "timestamp": "03:09.67",
+      "text": "Je me relève, tu peux pas me reprendre",
+      "type": "lyric",
+      "image": "generated-lyrics/cue41.jpg",
+      "end": 197.11
+    },
+    {
+      "id": "v42",
+      "start": 197.11,
+      "timestamp": "03:17.11",
+      "text": "I'm not the shadow, not the silence",
+      "type": "lyric",
+      "image": "generated-lyrics/cue42.jpg",
+      "end": 200.74,
+      "fr": "Je ne suis ni l’ombre, ni le silence."
+    },
+    {
+      "id": "v43",
+      "start": 200.74,
+      "timestamp": "03:20.74",
+      "text": "I'm not the wound behind your violence",
+      "type": "lyric",
+      "image": "generated-lyrics/cue43.jpg",
+      "end": 203.76,
+      "fr": "Je ne suis pas la blessure derrière ta violence."
+    },
+    {
+      "id": "v44",
+      "start": 203.76,
+      "timestamp": "03:23.76",
+      "text": "Ghost that you see, it's not me",
+      "type": "lyric",
+      "image": "generated-lyrics/cue44.jpg",
+      "end": 208.93,
+      "fr": "Le fantôme que tu vois, ce n’est pas moi."
+    },
+    {
+      "id": "v45",
+      "start": 208.93,
+      "timestamp": "03:28.93",
+      "text": "Ouvre les yeux — enfin vois qui je suis",
+      "type": "lyric",
+      "image": "generated-lyrics/cue45.jpg",
+      "end": 211.87
+    },
+    {
+      "id": "v46",
+      "start": 211.87,
+      "timestamp": "03:31.87",
+      "text": "(Humming... wolof TechsteinBeat wé...)",
+      "type": "humming",
+      "end": 226.68
+    },
+    {
+      "id": "v47",
+      "start": 226.68,
+      "timestamp": "03:46.68",
+      "text": "(Humming... wolof TechsteinBeat wé...)",
+      "type": "humming",
+      "end": 245.006
+    }
+  ]
+}

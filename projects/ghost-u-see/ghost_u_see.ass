@@ -1,0 +1,74 @@
+[Script Info]
+Title: Ghost u see — lyric video
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+PlayResX: 1080
+PlayResY: 1920
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,UnifrakturCook,76,&H00A8E8FF&,&H00E0CD96&,&H00100A06&,&H00000000&,-1,0,1,4,1,5,170,170,0,1
+Style: Pill,DejaVu Sans,30,&H00F4FBFF&,&H007AE0FF&,&H00100A06&,&H00000000&,-1,0,1,3,0,5,186,186,0,1
+Style: Card,UnifrakturCook,88,&H00A8E8FF&,&H00F4FBFF&,&H00100A06&,&H00000000&,-1,0,1,4,2,5,80,80,0,1
+Style: SubCard,DejaVu Sans,32,&H00F4FBFF&,&H00A8E8FF&,&H00100A06&,&H00000000&,-1,0,1,3,1,5,90,90,0,1
+Style: Badge,DejaVu Sans,32,&H00A8E8FF&,&H00F4FBFF&,&H00100A06&,&H00000000&,-1,0,1,3,1,8,30,30,174,1
+Style: EndTitle,DejaVu Sans,72,&H00A8E8FF&,&H00F4FBFF&,&H00100A06&,&H00000000&,-1,0,1,4,2,5,80,80,0,1
+Style: EndSub,DejaVu Sans,30,&H00F4FBFF&,&H00A8E8FF&,&H00100A06&,&H00000000&,-1,0,1,3,1,5,90,90,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.35,0:00:04.20,Card,,0,0,0,,{\an5\pos(540,850)\fad(280,180)}SALUT · WTBW
+Dialogue: 2,0:00:00.45,0:00:04.20,SubCard,,0,0,0,,{\an5\pos(540,965)\fad(280,180)}Wolof TechStein beat wê
+Dialogue: 2,0:00:04.20,0:00:08.40,Card,,0,0,0,,{\an5\pos(540,850)\fad(180,220)}GHOST U SEE
+Dialogue: 2,0:00:04.20,0:00:08.40,SubCard,,0,0,0,,{\an5\pos(540,965)\fad(180,220)}DAÏSKY · une histoire de regards et d’identités
+Dialogue: 2,0:00:54.78,0:00:59.18,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:00:54.78,0:00:59.18,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf19}Ne {\kf77}m’appelle {\kf29}pas {\kf29}par {\kf19}ce {\kf31}nom\N{\kf29}que {\kf29}j’ai {\kf58}laissé {\kf77}derrière {\kf30}moi.
+Dialogue: 2,0:00:59.38,0:01:02.43,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:00:59.38,0:01:02.43,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf16}Le {\kf56}fantôme {\kf24}que {\kf16}tu {\kf18}as\N{\kf32}bâti {\kf24}vit {\kf32}dans {\kf24}ton {\kf50}esprit.
+Dialogue: 2,0:01:02.63,0:01:05.95,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:01:02.63,0:01:05.95,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf34}Toutes {\kf17}les {\kf52}histoires {\kf17}que {\kf11}tu {\kf55}racontais\N{\kf23}n’ont {\kf34}jamais {\kf17}été {\kf17}les {\kf42}miennes.
+Dialogue: 2,0:01:06.15,0:01:10.67,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:01:06.15,0:01:10.67,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf25}Je {\kf87}réécris {\kf75}chaque {\kf62}ligne {\kf75}brisée {\kf25}et {\kf90}effacée.
+Dialogue: 2,0:01:10.87,0:01:17.07,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:01:10.87,0:01:17.07,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf40}Le {\kf141}fantôme {\kf60}que {\kf40}tu {\kf80}vois, {\kf40}ce {\kf80}n’est {\kf60}pas {\kf66}moi.
+Dialogue: 2,0:01:24.74,0:01:31.05,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:01:24.74,0:01:31.05,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf41}Le {\kf144}fantôme {\kf61}que {\kf41}tu {\kf82}vois, {\kf41}ce {\kf82}n’est {\kf61}pas {\kf65}moi.
+Dialogue: 2,0:01:38.99,0:01:42.31,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:01:38.99,0:01:42.31,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf23}Je {\kf23}ne {\kf47}suis {\kf23}ni {\kf70}l’ombre, {\kf23}ni {\kf23}le {\kf87}silence.
+Dialogue: 2,0:01:42.51,0:01:45.40,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:01:42.51,0:01:45.40,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf14}Je {\kf14}ne {\kf28}suis {\kf21}pas {\kf15}la\N{\kf56}blessure {\kf56}derrière {\kf14}ta {\kf58}violence.
+Dialogue: 2,0:01:45.60,0:01:50.55,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:01:45.60,0:01:50.55,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf32}Le {\kf112}fantôme {\kf48}que {\kf32}tu {\kf64}vois, {\kf32}ce {\kf64}n’est {\kf48}pas {\kf50}moi.
+Dialogue: 2,0:01:53.60,0:01:56.33,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:01:53.60,0:01:56.33,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf22}J’ai {\kf67}construit {\kf22}mon {\kf38}monde\N{\kf29}loin {\kf14}de {\kf22}ton {\kf46}regard.
+Dialogue: 2,0:01:56.53,0:01:59.90,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:01:56.53,0:01:59.90,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf49}Chaque {\kf24}pas {\kf24}que {\kf24}j’ai {\kf37}fait\N{\kf24}fut {\kf24}une {\kf66}nouvelle {\kf52}flamme.
+Dialogue: 2,0:02:00.10,0:02:03.24,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:02:00.10,0:02:03.24,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf16}Tu {\kf24}m’as {\kf40}peint {\kf16}en {\kf34}gris,\N{\kf32}mais {\kf16}je {\kf32}suis {\kf16}un {\kf75}arc-en-ciel.
+Dialogue: 2,0:02:03.44,0:02:06.99,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:02:03.44,0:02:06.99,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf23}Mes {\kf54}racines {\kf31}sont {\kf46}fortes, {\kf31}même {\kf17}si\N{\kf15}le {\kf31}vent {\kf38}dévie {\kf15}ma {\kf41}route.
+Dialogue: 2,0:02:07.19,0:02:10.35,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:02:07.19,0:02:10.35,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf13}Je {\kf13}ne {\kf27}suis {\kf20}pas {\kf13}le {\kf52}fantôme\N{\kf20}que {\kf13}tu {\kf13}as {\kf41}laissé {\kf55}derrière {\kf23}toi.
+Dialogue: 2,0:02:10.55,0:02:13.88,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:02:10.55,0:02:13.88,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf16}Je {\kf16}ne {\kf32}suis {\kf24}pas {\kf16}le {\kf52}miroir\N{\kf41}brisé {\kf24}que {\kf16}tu {\kf16}ne {\kf32}veux {\kf35}plus.
+Dialogue: 2,0:02:14.08,0:02:17.38,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:02:14.08,0:02:17.38,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf14}Il {\kf7}y {\kf7}a {\kf14}du {\kf22}feu {\kf29}dans {\kf25}mes\N{\kf44}veines, {\kf14}de {\kf14}la {\kf51}lumière {\kf29}dans {\kf14}ma {\kf33}voix.
+Dialogue: 2,0:02:17.58,0:02:20.73,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:02:17.58,0:02:20.73,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf37}L’âme {\kf28}que {\kf18}tu {\kf75}cherches {\kf21}ne\N{\kf28}vit {\kf37}plus {\kf18}en {\kf40}deux.
+Dialogue: 2,0:02:49.25,0:02:54.92,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:02:49.25,0:02:54.92,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf36}Le {\kf129}fantôme {\kf55}que {\kf36}tu {\kf73}vois, {\kf36}ce {\kf73}n’est {\kf55}pas {\kf61}moi.
+Dialogue: 2,0:02:55.12,0:03:02.77,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:02:55.12,0:03:02.77,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf57}J’ai {\kf96}brûlé {\kf173}l’ancienne {\kf79}peau\N{\kf57}que {\kf38}tu {\kf134}voulais {\kf118}garder.
+Dialogue: 2,0:03:02.97,0:03:09.59,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:03:02.97,0:03:09.59,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf43}Le {\kf151}fantôme {\kf64}que {\kf43}tu {\kf86}vois, {\kf43}ce {\kf86}n’est {\kf64}pas {\kf69}moi.
+Dialogue: 2,0:03:17.23,0:03:20.66,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:03:17.23,0:03:20.66,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf24}Je {\kf24}ne {\kf48}suis {\kf24}ni {\kf73}l’ombre, {\kf24}ni {\kf24}le {\kf89}silence.
+Dialogue: 2,0:03:20.86,0:03:23.68,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:03:20.86,0:03:23.68,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf13}Je {\kf13}ne {\kf27}suis {\kf20}pas {\kf17}la\N{\kf55}blessure {\kf55}derrière {\kf13}ta {\kf56}violence.
+Dialogue: 2,0:03:23.88,0:03:28.85,Pill,,0,0,0,,{\an7\pos(186,150)\p1\bord3\shad0\1c&H180C0A08&\3c&H003EA8E8&}m 24 0 l684 0 b 697 0 708 11 708 24 l708 69 b708 82 697 93 684 93 l24 93 b11 93 0 82 0 69 l0 24 b0 11 11 0 24 0 c{\p0}
+Dialogue: 4,0:03:23.88,0:03:28.85,Pill,,0,0,0,,{\an5\pos(540,197)\fs30\bord3\3c&H00100A06&\shad0\fad(90,100)}{\kf32}Le {\kf112}fantôme {\kf48}que {\kf32}tu {\kf64}vois, {\kf32}ce {\kf64}n’est {\kf48}pas {\kf52}moi.
+Dialogue: 4,0:04:05.01,0:04:10.01,EndTitle,,0,0,0,,{\an5\pos(540,1120)\fad(250,300)}MERCI · WTBW
+Dialogue: 4,0:04:05.01,0:04:10.01,EndSub,,0,0,0,,{\an5\pos(540,1230)\fad(250,300)}Merci d’avoir écouté · Wolof TechStein beat wê
+Dialogue: 4,0:04:05.01,0:04:10.01,EndSub,,0,0,0,,{\an5\pos(540,1340)\fad(250,300)}GHOST U SEE · DAÏSKY
