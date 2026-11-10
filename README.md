@@ -530,3 +530,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 488 | Anecdote 7 — meilleur ami de l'année | sacs shopping 100% IA + commentaire |
 | 489 | Anecdote 8 — elle pleure les films | soirée films 100% IA + commentaire |
 | 490 | Anecdote 9 — pour toujours | coucher soleil 100% IA + commentaire |
+| 491 | Son bon ami | parents salon 100% IA format série |
+| 492 | Histoire 1 — le DJ a cru | danse mariage 100% IA + commentaire |
+| 493 | Histoire 2 — commerce déséquilibré | pull feu de camp 100% IA + commentaire |
+| 494 | Histoire 3 — on verra | café téléphone 100% IA + commentaire |
+| 495 | Histoire 4 — premier rôle coulisses | théâtre 100% IA + commentaire |
+| 496 | Histoire 5 — le roi des 2h du matin | réveil nuit 100% IA + commentaire |
+| 497 | Histoire 6 — frites généreuses | resto frites 100% IA + commentaire |
+| 498 | Histoire 7 — le coach | canapé tactique 100% IA + commentaire |
+| 499 | Histoire 8 — la dernière ligne | liste café 100% IA + commentaire |
+| 500 | Histoire 9 — promotion permanente | banc coucher soleil 100% IA + commentaire |
