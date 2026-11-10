@@ -520,3 +520,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 478 | Feuille 7 — ail et gingembre | mortier pierre 100% IA + commentaire |
 | 479 | Feuille 8 — la menthe | feuille vapeur 100% IA + commentaire |
 | 480 | Feuille 9 — la signature | herbes suspendues 100% IA + commentaire |
+| 481 | Comme un frère | ébouriffage humour 100% IA format série |
+| 482 | Anecdote 1 — le témoin courageux | mariage 100% IA + commentaire |
+| 483 | Anecdote 2 — la carrière complète | chauffeur nuit 100% IA + commentaire |
+| 484 | Anecdote 3 — silence professionnel | épaule regard caméra 100% IA + commentaire |
+| 485 | Anecdote 4 — candidat pas recruteur | entretien 100% IA + commentaire |
+| 486 | Anecdote 5 — le karaoké de l'amitié | karaoké 100% IA + commentaire |
+| 487 | Anecdote 6 — la suite jamais venue | banc bouquet 100% IA + commentaire |
+| 488 | Anecdote 7 — meilleur ami de l'année | sacs shopping 100% IA + commentaire |
+| 489 | Anecdote 8 — elle pleure les films | soirée films 100% IA + commentaire |
+| 490 | Anecdote 9 — pour toujours | coucher soleil 100% IA + commentaire |
