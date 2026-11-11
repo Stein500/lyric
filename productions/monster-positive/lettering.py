@@ -38,7 +38,7 @@ def glyph_mask(ch, f):
 
 def draw_line(target, line, cx, cy, size, fill, seed):
     f = font(size, 800)
-    spacing = 0.055 * size
+    spacing = 0.085 * size
     rng = random.Random(seed)
     tiles = []
     total = 0.0
@@ -74,6 +74,16 @@ def bake(plan_path, lignes, out_path, dy=0, seed=0):
     rgba = im.convert("RGBA")
     n = len(lignes)
     size = 46 if n <= 2 else (40 if n == 3 else 34)
+    # auto-fit : rétrécit tant que la ligne la plus large dépasse la boîte (620 px)
+    def max_line_w(sz):
+        f = font(sz, 800); sp = 0.085 * sz; spw = 0.55 * sz
+        mx = 0.0
+        for line in lignes:
+            w = sum((spw if c == " " else glyph_mask(c, f).width + sp) for c in line) - sp
+            mx = max(mx, w)
+        return mx
+    while max_line_w(size) > (BOX_X1 - BOX_X0) - 64 and size > 22:  # marge contour+rotation
+        size -= 2
     line_h = int(size * 1.28)
     block_h = line_h * n
     cx = (BOX_X0 + BOX_X1) // 2
