@@ -28,11 +28,11 @@
 pkg install -y curl && termux-setup-storage
 ```
 ```
-curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DAISKY-9x16.mp4 "<URL_RAW_MP4@SHA>"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DAISKY-9x16.mp4;
-curl -L --retry 3 -C - -o ~/storage/downloads/COVER-tiktok-1080x1920.jpg "<URL_RAW_COVER@SHA>"; termux-media-scan -v ~/storage/downloads/COVER-tiktok-1080x1920.jpg;
-curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DAISKY-master.mp3 "<URL_RAW_MP3@SHA>"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DAISKY-master.mp3
+curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DAISKY-9x16.mp4 "https://raw.githubusercontent.com/Stein500/lyric/1b49277bf9096dcf51b0cfea575aea2bb8862f9b/productions/monster-positive/livrables/MONSTER-POSITIVE-Da%C3%AFsky-9x16.mp4"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DAISKY-9x16.mp4;
+curl -L --retry 3 -C - -o ~/storage/downloads/COVER-tiktok-1080x1920.jpg "https://raw.githubusercontent.com/Stein500/lyric/1b49277bf9096dcf51b0cfea575aea2bb8862f9b/productions/monster-positive/livrables/COVER-tiktok-1080x1920.jpg"; termux-media-scan -v ~/storage/downloads/COVER-tiktok-1080x1920.jpg;
+curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DAISKY-master.mp3 "https://raw.githubusercontent.com/Stein500/lyric/1b49277bf9096dcf51b0cfea575aea2bb8862f9b/productions/monster-positive/livrables/master_normalise.mp3"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DAISKY-master.mp3
 ```
-(Liens raw figés sur le SHA du commit de livraison, branche `prod/monster-positive`.)
+Liens raw **figés sur le SHA `1b49277bf9096dcf51b0cfea575aea2bb8862f9b`** (branche `prod/monster-positive`, vérifié `git ls-remote` + tailles blobs API : mp4 32 600 107 o, cover 382 706 o, mp3 9 350 791 o — tous < 50 Mo, en commit ordinaire).
 
 ## Notes de prod
 - Prompt universel : `PROMPT-UNIVERSEL-v6.4.md` (harmonie v6.0 × v6.3) · config : `PROD-CONFIG.md` · contrat : `verses_map.json` + `CARTE-VERS.md`
