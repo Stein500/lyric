@@ -21,7 +21,7 @@
    "traduction": "On a dit malédiction… moi j'en ai fait ma force.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 2,
@@ -39,7 +39,7 @@
    "traduction": "J'étais enfermé dans l'ombre, à me battre contre moi-même.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 3,
@@ -57,7 +57,7 @@
    "traduction": "Chaque miroir montrait un monstre — je devenais aveugle.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 4,
@@ -75,7 +75,7 @@
    "traduction": "Mais je l'ai regardé dans les yeux : « tu ne gagneras pas. »",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 5,
@@ -92,7 +92,7 @@
    "traduction": "J'ai changé l'obscurité en armure — plus aucune peur.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 6,
@@ -109,7 +109,7 @@
    "traduction": "Des cicatrices, comme une bataille que j'ai survécue.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 7,
@@ -127,7 +127,7 @@
    "traduction": "Chaque coup qui voulait me briser m'a rendu plus vivant.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 8,
@@ -145,7 +145,7 @@
    "traduction": "Ils ignorent le poids que je portais, chaque nuit.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 9,
@@ -163,7 +163,7 @@
    "traduction": "Mais ce poids est devenu mon arme — maintenant je me bats.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 10,
@@ -180,7 +180,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 11,
@@ -197,7 +197,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 12,
@@ -214,7 +214,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 13,
@@ -231,7 +231,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 14,
@@ -248,7 +248,7 @@
    "traduction": "Monster Positive — je suis la tempête qu'ils n'ont pas vue.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 15,
@@ -266,7 +266,7 @@
    "traduction": "Monster Positive — brise chaque chaîne, chaque loi.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 16,
@@ -283,7 +283,7 @@
    "traduction": "Ils ont bâti la cage — je suis le mur.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 17,
@@ -300,7 +300,7 @@
    "traduction": "Je renais des cendres quand ils m'avaient vu tomber.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 18,
@@ -317,7 +317,7 @@
    "traduction": "Monster Positive, Monster Positive.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 19,
@@ -334,7 +334,7 @@
    "traduction": "Regarde-moi devenir ce qu'ils disaient impossible.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 20,
@@ -351,7 +351,7 @@
    "traduction": "Je sors de la chambre d'ombre, j'entre dans ma lumière.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 21,
@@ -368,7 +368,7 @@
    "traduction": "Plus question de cacher ce que je ressens, ce soir.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 22,
@@ -385,7 +385,7 @@
    "traduction": "Comme Kamen Rider — je transforme la douleur.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 23,
@@ -403,7 +403,7 @@
    "traduction": "Chaque cicatrice devient un signal, chaque perte un gain.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 24,
@@ -421,7 +421,7 @@
    "traduction": "Je fuyais mon reflet — maintenant je le porte avec fierté.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 25,
@@ -439,7 +439,7 @@
    "traduction": "Ce qu'ils chuchotaient dans le noir, je le dis à voix haute.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 26,
@@ -457,7 +457,7 @@
    "traduction": "Je suis la bête et la beauté, le feu et la pluie.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 27,
@@ -475,7 +475,7 @@
    "traduction": "On ne peut pas contenir ce qui est libéré — plus de chaîne.",
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 28,
@@ -491,7 +491,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 29,
@@ -508,7 +508,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 30,
@@ -525,7 +525,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 31,
@@ -542,7 +542,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 32,
@@ -559,7 +559,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": true,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 33,
@@ -577,7 +577,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": true,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 34,
@@ -594,7 +594,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": true,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 35,
@@ -611,7 +611,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": true,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 36,
@@ -628,7 +628,7 @@
    "traduction": null,
    "bucket": "nuit",
    "reprise": true,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 37,
@@ -645,7 +645,7 @@
    "traduction": null,
    "bucket": "aube-a",
    "reprise": true,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 38,
@@ -662,7 +662,7 @@
    "traduction": "Je voulais être quelqu'un d'autre.",
    "bucket": "aube-a",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 39,
@@ -679,7 +679,7 @@
    "traduction": "Tant d'années à avoir peur de moi-même.",
    "bucket": "aube-a",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 40,
@@ -696,7 +696,7 @@
    "traduction": "Chaque monstre a une histoire qu'on n'a pas racontée.",
    "bucket": "aube-a",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 41,
@@ -713,7 +713,7 @@
    "traduction": "La mienne : le feu qui apprend à devenir de l'or.",
    "bucket": "aube-a",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 42,
@@ -731,7 +731,7 @@
    "traduction": "« Tu n'es pas cassé. Tu es en train de devenir. »",
    "bucket": "aube-a",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 43,
@@ -749,7 +749,7 @@
    "traduction": "Monster Positive — JE SUIS la tempête — écoute mon rugissement !",
    "bucket": "aube-a",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 44,
@@ -767,7 +767,7 @@
    "traduction": "Monster Positive — ils n'ont encore rien vu.",
    "bucket": "aube-a",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 45,
@@ -784,7 +784,7 @@
    "traduction": "J'ai fait mes ailes de la douleur de la chute.",
    "bucket": "aube-b",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 46,
@@ -801,7 +801,7 @@
    "traduction": "Maintenant je suis tout — je suis TOUT.",
    "bucket": "aube-b",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 47,
@@ -819,7 +819,7 @@
    "traduction": "Monster Positive, Monster Positive — MONSTER POSITIVE !",
    "bucket": "aube-b",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 48,
@@ -837,7 +837,7 @@
    "traduction": "« On a fait de moi le monstre… j'en ai fait du positif. »",
    "bucket": "aube-b",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   },
   {
    "i": 49,
@@ -853,7 +853,7 @@
    "traduction": null,
    "bucket": "aube-b",
    "reprise": false,
-   "disponible": false
+   "disponible": true
   }
  ],
  "cta": [
