@@ -28,6 +28,15 @@ T_END = mp["duree_clip_s"]; N = round(T_END * FPS)
 T0 = VERSES[0]["t"]
 
 MON = os.path.join(ROOT, "fonts", "Montserrat.ttf")
+NOTO = os.path.join(ROOT, "fonts", "NotoSansKR.ttf")
+_noto = {}
+def noto(size):
+    if size not in _noto:
+        f = ImageFont.truetype(NOTO, size)
+        try: f.set_variation_by_axes([700])
+        except Exception: pass
+        _noto[size] = f
+    return _noto[size]
 _fc = {}
 def mont(size, wght=800):
     k = (size, wght)
@@ -45,7 +54,8 @@ def tracked(d, xy, text, f, fill, tr=0, anchor_center=False):
     x = xy[0] - total / 2 if anchor_center else xy[0]
     y = xy[1]
     for c, w in zip(text, widths):
-        d.text((x, y), c, font=f, fill=fill)
+        fc = noto(f.size) if ord(c) >= 0xAC00 else f
+        d.text((x, y), c, font=fc, fill=fill)
         x += w + tr
     return total
 
@@ -66,7 +76,7 @@ VIGC = np.array([4, 8, 12], dtype=np.float32)
 
 def apply_fx(arr, k, grain_w):
     g = GRAINS[k % 8]
-    arr = arr.astype(np.int16) + (g * grain_w / 0.045 * 0.045).astype(np.int16)  # grain pondéré
+    arr = arr.astype(np.int16) + (g * grain_w).astype(np.int16)[..., None]  # arr + g*blend (g=±14)
     arr = np.clip(arr, 0, 255)
     v = VIG[..., None]
     arr = arr * (1 - v) + VIGC * v
@@ -77,6 +87,9 @@ TRAJ = [(0.0, 0.02, 1.0, 0.98), (1.0, 0.02, 0.0, 0.98), (0.18, 0.98, 0.82, 0.02)
 
 # ---------- plans : chargement paresseux ----------
 _cache = {}
+def baked_name(img):
+    return "baked-" + os.path.basename(img)
+
 def get_plan(img):
     if img not in _cache:
         if len(_cache) > 2:
@@ -123,7 +136,8 @@ def draw_sticker(ov, cx, cy, i, t):
     dy = 8 * math.sin(2 * math.pi * t / T + i * 1.7)
     dx = 5 * math.sin(2 * math.pi * t / (T * 0.8) + i)
     x, y = cx - 350 + dx, cy - 76 + dy
-    ov.rounded_rectangle([x, y, x + 700, y + 152], radius=38, fill=(10, 14, 20, 225), outline=(255, 255, 255, 60), width=2)
+    d0 = ImageDraw.Draw(ov)
+    d0.rounded_rectangle([x, y, x + 700, y + 152], radius=38, fill=(10, 14, 20, 225), outline=(255, 255, 255, 60), width=2)
     breathe = 1 + 0.045 * math.sin(2 * math.pi * t / 1.6 + i)
     s = 92 * breathe
     ix, iy = x + 44, y + (152 - s) / 2
@@ -219,7 +233,7 @@ def draw_pill(ov, v, t):
             ImageDraw.Draw(m).text((x, 1470), w, font=f, fill=255)
             m = m.filter(ImageFilter.MaxFilter(7)).filter(ImageFilter.GaussianBlur(3))
             halo = Image.new("RGBA", (W, H), (255, 200, 80, int(160 * a)))
-            pill.alpha_composite(halo, (0, 0), m)
+            pill.paste(halo, (0, 0), m)
         d = ImageDraw.Draw(pill)
         tracked(d, (x, 1470), w, f, col, tr=tr_px)
         x += tracked_w(w, f, tr_px) + tr_px
@@ -337,17 +351,17 @@ def main():
     for k in range(N):
         t = k / FPS
         if t < T0:
-            ov = card_bg(os.path.join("fonds", os.path.basename(VERSES[0]["image"]).replace("plan-", "baked-")), t)
+            ov = card_bg(os.path.join("fonds", baked_name(VERSES[0]["image"])), t)
             draw_card(ov, t, "accueil")
             arr = apply_fx(np.array(ov.convert("RGB")), k, 0.28)
         elif t >= D:
-            last = os.path.basename(VERSES[-1]["image"]).replace("plan-", "baked-")
+            last = baked_name(VERSES[-1]["image"])
             ov = card_bg(os.path.join("fonds", last), t - D)
             draw_card(ov, t - D, "finale")
             arr = apply_fx(np.array(ov.convert("RGB")), k, 0.28)
         else:
             i, v = verse_at(t)
-            big, et = get_plan(os.path.join("fonds", os.path.basename(v["image"]).replace("plan-", "baked-")))
+            big, et = get_plan(os.path.join("fonds", baked_name(v["image"])))
             u = min(1.0, max(0.0, (t - v["t"]) / max(0.01, v["fin"] - v["t"])))
             frame_n = window(big, i, u)
             # extinction uniquement si pilule FR active (HYBRIDE)

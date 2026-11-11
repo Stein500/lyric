@@ -16,6 +16,14 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SERIF = os.path.join(ROOT, "fonts", "PlayfairDisplay.ttf")
+NOTO = os.path.join(ROOT, "fonts", "NotoSansKR.ttf")
+def _font_for(ch, size, weight=800):
+    if ord(ch) >= 0xAC00:  # syllabe hangul (ex. 웨 U+C6A8)
+        f = ImageFont.truetype(NOTO, size)
+        try: f.set_variation_by_axes([weight])
+        except Exception: pass
+        return f
+    return font(size, weight)
 W, H = 1080, 1920
 S = 1080 / 768.0
 BOX_X0, BOX_X1 = 211, 831
@@ -30,7 +38,7 @@ def font(size, weight=800):
     return f
 
 def glyph_mask(ch, f):
-    tmp = Image.new("L", (int(f.size * 2.4), int(f.size * 2.4)), 0)
+    tmp = Image.new("L", (int(f.size * 2.6), int(f.size * 2.6)), 0)
     d = ImageDraw.Draw(tmp)
     d.text((f.size * 0.7, f.size * 0.7), ch, font=f, fill=255)
     bbox = tmp.getbbox()
@@ -45,7 +53,7 @@ def draw_line(target, line, cx, cy, size, fill, seed):
     for ch in line:
         if ch == " ":
             tiles.append((" ", None, spacing * 1.7)); total += spacing * 1.7; continue
-        m = glyph_mask(ch, f)
+        m = glyph_mask(ch, _font_for(ch, size))
         w = m.width + spacing
         tiles.append((ch, m, w)); total += w
     total -= spacing

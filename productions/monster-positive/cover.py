@@ -11,6 +11,12 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 MON = os.path.join(ROOT, "fonts", "Montserrat.ttf")
+NOTO = os.path.join(ROOT, "fonts", "NotoSansKR.ttf")
+def noto(size):
+    f = ImageFont.truetype(NOTO, size)
+    try: f.set_variation_by_axes([600])
+    except Exception: pass
+    return f
 W, H = 1080, 1920
 S = 1080 / 768.0
 OR = (232, 168, 62)
@@ -38,12 +44,13 @@ def draw_tracked_contour(img, xy, text, size, wght, fill, tr=0):
         x += d.textlength(c, font=f) + tr
     cont = m.filter(ImageFilter.MaxFilter(2 * pad + 1))
     layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
-    layer.paste(Image.new("RGBA", img.size, (5, 6, 8, 255)), (0, 0), cont)
-    img.alpha_composite(layer, (int(xy[0] - pad), int(xy[1] - pad)))
+    layer.paste(Image.new("RGBA", m.size, (5, 6, 8, 255)), (int(xy[0] - pad), int(xy[1] - pad)), cont)
+    img.alpha_composite(layer)
     d = ImageDraw.Draw(img)
     x = xy[0]
     for c in text:
-        d.text((x, xy[1]), c, font=f, fill=fill)
+        fc = noto(f.size) if ord(c) >= 0xAC00 else f
+        d.text((x, xy[1]), c, font=fc, fill=fill)
         x += d.textlength(c, font=f) + tr
 
 def main():
@@ -90,7 +97,8 @@ def main():
     w2 = text_w(d, tracked, f2, 3)
     x = 540 - w2 / 2
     for c in tracked:
-        d.text((x, 1560), c, font=f2, fill=(255, 255, 255, 200))
+        fc = noto(f2.size) if ord(c) >= 0xAC00 else f2
+        d.text((x, 1560), c, font=fc, fill=(255, 255, 255, 200))
         x += d.textlength(c, font=f2) + 3
     ov.convert("RGB").save(os.path.join(ROOT, "livrables", "COVER-tiktok-1080x1920.jpg"), quality=95, subsampling=0)
     print("cover écrite, tailles titre:", size1, size2)
