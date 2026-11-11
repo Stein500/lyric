@@ -1,0 +1,885 @@
+{
+ "titre": "MONSTER POSITIVE",
+ "artiste": "Daïsky",
+ "duree_audio_s": 233.69,
+ "duree_clip_s": 238.69,
+ "mode": "HYBRIDE",
+ "verses": [
+  {
+   "i": 1,
+   "t": 3.77,
+   "fin": 11.55,
+   "affichage_s": 3.6,
+   "texte": "\"They called it a curse... But I learned to call it power.\"",
+   "lignes": [
+    "\"They called it a",
+    "curse... But I learned",
+    "to call it power.\""
+   ],
+   "image": "fonds/plan-v01.png",
+   "langue": "en",
+   "traduction": "On a dit malédiction… moi j'en ai fait ma force.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 2,
+   "t": 11.55,
+   "fin": 15.09,
+   "affichage_s": 3.0,
+   "texte": "I was locked in the shadows, fighting my own mind",
+   "lignes": [
+    "I was locked in the",
+    "shadows, fighting my own",
+    "mind"
+   ],
+   "image": "fonds/plan-v02.png",
+   "langue": "en",
+   "traduction": "J'étais enfermé dans l'ombre, à me battre contre moi-même.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 3,
+   "t": 15.09,
+   "fin": 18.22,
+   "affichage_s": 3.0,
+   "texte": "Every mirror showed a monster — I was going blind",
+   "lignes": [
+    "Every mirror showed a",
+    "monster — I was going",
+    "blind"
+   ],
+   "image": "fonds/plan-v03.png",
+   "langue": "en",
+   "traduction": "Chaque miroir montrait un monstre — je devenais aveugle.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 4,
+   "t": 18.22,
+   "fin": 21.45,
+   "affichage_s": 3.23,
+   "texte": "But I looked it in the eyes, said \"you ain't winning here\"",
+   "lignes": [
+    "But I looked it in the",
+    "eyes, said \"you ain't",
+    "winning here\""
+   ],
+   "image": "fonds/plan-v04.png",
+   "langue": "en",
+   "traduction": "Mais je l'ai regardé dans les yeux : « tu ne gagneras pas. »",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 5,
+   "t": 21.45,
+   "fin": 24.89,
+   "affichage_s": 3.0,
+   "texte": "Turned the darkness into armor, now I got no fear",
+   "lignes": [
+    "Turned the darkness into",
+    "armor, now I got no fear"
+   ],
+   "image": "fonds/plan-v05.png",
+   "langue": "en",
+   "traduction": "J'ai changé l'obscurité en armure — plus aucune peur.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 6,
+   "t": 24.89,
+   "fin": 27.76,
+   "affichage_s": 2.7,
+   "texte": "Scars on my body like a battle I survived",
+   "lignes": [
+    "Scars on my body like a",
+    "battle I survived"
+   ],
+   "image": "fonds/plan-v06.png",
+   "langue": "en",
+   "traduction": "Des cicatrices, comme une bataille que j'ai survécue.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 7,
+   "t": 27.76,
+   "fin": 31.02,
+   "affichage_s": 3.26,
+   "texte": "Every hit that tried to break me kept me more alive",
+   "lignes": [
+    "Every hit that tried to",
+    "break me kept me more",
+    "alive"
+   ],
+   "image": "fonds/plan-v07.png",
+   "langue": "en",
+   "traduction": "Chaque coup qui voulait me briser m'a rendu plus vivant.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 8,
+   "t": 31.02,
+   "fin": 34.12,
+   "affichage_s": 3.0,
+   "texte": "They don't know the weight I carried, every single night",
+   "lignes": [
+    "They don't know the",
+    "weight I carried, every",
+    "single night"
+   ],
+   "image": "fonds/plan-v08.png",
+   "langue": "en",
+   "traduction": "Ils ignorent le poids que je portais, chaque nuit.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 9,
+   "t": 34.12,
+   "fin": 38.98,
+   "affichage_s": 3.3,
+   "texte": "But that weight became my weapon, now I rise to fight",
+   "lignes": [
+    "But that weight became",
+    "my weapon, now I rise to",
+    "fight"
+   ],
+   "image": "fonds/plan-v09.png",
+   "langue": "en",
+   "traduction": "Mais ce poids est devenu mon arme — maintenant je me bats.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 10,
+   "t": 38.98,
+   "fin": 42.22,
+   "affichage_s": 2.2,
+   "texte": "Je ne suis pas ce qu'ils craignent",
+   "lignes": [
+    "Je ne suis pas ce qu'ils",
+    "craignent"
+   ],
+   "image": "fonds/plan-v10.png",
+   "langue": "fr",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 11,
+   "t": 42.22,
+   "fin": 45.34,
+   "affichage_s": 2.2,
+   "texte": "Je suis ce qu'ils n'ont jamais vu",
+   "lignes": [
+    "Je suis ce qu'ils n'ont",
+    "jamais vu"
+   ],
+   "image": "fonds/plan-v11.png",
+   "langue": "fr",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 12,
+   "t": 45.34,
+   "fin": 49.54,
+   "affichage_s": 2.2,
+   "texte": "Le monstre dans leurs histoires",
+   "lignes": [
+    "Le monstre dans leurs",
+    "histoires"
+   ],
+   "image": "fonds/plan-v12.png",
+   "langue": "fr",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 13,
+   "t": 49.54,
+   "fin": 53.1,
+   "affichage_s": 2.2,
+   "texte": "C'est moi qui suis devenu",
+   "lignes": [
+    "C'est moi qui suis",
+    "devenu"
+   ],
+   "image": "fonds/plan-v13.png",
+   "langue": "fr",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 14,
+   "t": 53.1,
+   "fin": 59.24,
+   "affichage_s": 3.0,
+   "texte": "Monster Positive — I am the storm they never saw",
+   "lignes": [
+    "Monster Positive — I am",
+    "the storm they never saw"
+   ],
+   "image": "fonds/plan-v14.png",
+   "langue": "en",
+   "traduction": "Monster Positive — je suis la tempête qu'ils n'ont pas vue.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 15,
+   "t": 59.24,
+   "fin": 65.17,
+   "affichage_s": 2.7,
+   "texte": "Monster Positive — Break every chain, break every law",
+   "lignes": [
+    "Monster Positive — Break",
+    "every chain, break every",
+    "law"
+   ],
+   "image": "fonds/plan-v15.png",
+   "langue": "en",
+   "traduction": "Monster Positive — brise chaque chaîne, chaque loi.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 16,
+   "t": 65.17,
+   "fin": 68.34,
+   "affichage_s": 2.7,
+   "texte": "They built the cage — I am the wall",
+   "lignes": [
+    "They built the cage — I",
+    "am the wall"
+   ],
+   "image": "fonds/plan-v16.png",
+   "langue": "en",
+   "traduction": "Ils ont bâti la cage — je suis le mur.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 17,
+   "t": 68.34,
+   "fin": 71.92,
+   "affichage_s": 2.7,
+   "texte": "Rise from the ashes when they said I'd fall",
+   "lignes": [
+    "Rise from the ashes when",
+    "they said I'd fall"
+   ],
+   "image": "fonds/plan-v17.png",
+   "langue": "en",
+   "traduction": "Je renais des cendres quand ils m'avaient vu tomber.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 18,
+   "t": 71.92,
+   "fin": 77.23,
+   "affichage_s": 2.2,
+   "texte": "Monster Positive, Monster Positive",
+   "lignes": [
+    "Monster Positive,",
+    "Monster Positive"
+   ],
+   "image": "fonds/plan-v18.png",
+   "langue": "en",
+   "traduction": "Monster Positive, Monster Positive.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 19,
+   "t": 77.23,
+   "fin": 80.54,
+   "affichage_s": 2.4,
+   "texte": "Watch me become what they said was impossible",
+   "lignes": [
+    "Watch me become what",
+    "they said was impossible"
+   ],
+   "image": "fonds/plan-v19.png",
+   "langue": "en",
+   "traduction": "Regarde-moi devenir ce qu'ils disaient impossible.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 20,
+   "t": 80.54,
+   "fin": 84.17,
+   "affichage_s": 2.4,
+   "texte": "Off the shade room, stepping in my light",
+   "lignes": [
+    "Off the shade room,",
+    "stepping in my light"
+   ],
+   "image": "fonds/plan-v20.png",
+   "langue": "en",
+   "traduction": "Je sors de la chambre d'ombre, j'entre dans ma lumière.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 21,
+   "t": 84.17,
+   "fin": 86.94,
+   "affichage_s": 2.4,
+   "texte": "No more hiding what I feel inside tonight",
+   "lignes": [
+    "No more hiding what I",
+    "feel inside tonight"
+   ],
+   "image": "fonds/plan-v21.png",
+   "langue": "en",
+   "traduction": "Plus question de cacher ce que je ressens, ce soir.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 22,
+   "t": 86.94,
+   "fin": 89.37,
+   "affichage_s": 2.4,
+   "texte": "Like Kamen Rider — I transform the pain",
+   "lignes": [
+    "Like Kamen Rider — I",
+    "transform the pain"
+   ],
+   "image": "fonds/plan-v22.png",
+   "langue": "en",
+   "traduction": "Comme Kamen Rider — je transforme la douleur.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 23,
+   "t": 89.37,
+   "fin": 92.56,
+   "affichage_s": 3.0,
+   "texte": "Every scar becomes a signal, every loss becomes a gain",
+   "lignes": [
+    "Every scar becomes a",
+    "signal, every loss",
+    "becomes a gain"
+   ],
+   "image": "fonds/plan-v23.png",
+   "langue": "en",
+   "traduction": "Chaque cicatrice devient un signal, chaque perte un gain.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 24,
+   "t": 92.56,
+   "fin": 95.79,
+   "affichage_s": 3.23,
+   "texte": "Used to run from my reflection, now I wear it proud",
+   "lignes": [
+    "Used to run from my",
+    "reflection, now I wear",
+    "it proud"
+   ],
+   "image": "fonds/plan-v24.png",
+   "langue": "en",
+   "traduction": "Je fuyais mon reflet — maintenant je le porte avec fierté.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 25,
+   "t": 95.79,
+   "fin": 99.06,
+   "affichage_s": 3.27,
+   "texte": "What they whispered in the dark — now I'm saying it loud",
+   "lignes": [
+    "What they whispered in",
+    "the dark — now I'm",
+    "saying it loud"
+   ],
+   "image": "fonds/plan-v25.png",
+   "langue": "en",
+   "traduction": "Ce qu'ils chuchotaient dans le noir, je le dis à voix haute.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 26,
+   "t": 99.06,
+   "fin": 102.15,
+   "affichage_s": 3.09,
+   "texte": "I'm the beast and I'm the beauty, I'm the fire and the rain",
+   "lignes": [
+    "I'm the beast and I'm",
+    "the beauty, I'm the fire",
+    "and the rain"
+   ],
+   "image": "fonds/plan-v26.png",
+   "langue": "en",
+   "traduction": "Je suis la bête et la beauté, le feu et la pluie.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 27,
+   "t": 102.15,
+   "fin": 106.23,
+   "affichage_s": 3.6,
+   "texte": "Can't contain what's been unleashed — won't go back in the chain",
+   "lignes": [
+    "Can't contain what's",
+    "been unleashed — won't",
+    "go back in the chain"
+   ],
+   "image": "fonds/plan-v27.png",
+   "langue": "en",
+   "traduction": "On ne peut pas contenir ce qui est libéré — plus de chaîne.",
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 28,
+   "t": 106.23,
+   "fin": 109.48,
+   "affichage_s": 2.2,
+   "texte": "Je ne recule plus jamais",
+   "lignes": [
+    "Je ne recule plus jamais"
+   ],
+   "image": "fonds/plan-v28.png",
+   "langue": "fr",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 29,
+   "t": 109.48,
+   "fin": 112.49,
+   "affichage_s": 2.2,
+   "texte": "Mon ombre est devenue lumiere",
+   "lignes": [
+    "Mon ombre est devenue",
+    "lumiere"
+   ],
+   "image": "fonds/plan-v29.png",
+   "langue": "fr",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 30,
+   "t": 112.49,
+   "fin": 116.71,
+   "affichage_s": 2.2,
+   "texte": "Ce qu'ils appelaient ma faiblesse",
+   "lignes": [
+    "Ce qu'ils appelaient ma",
+    "faiblesse"
+   ],
+   "image": "fonds/plan-v30.png",
+   "langue": "fr",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 31,
+   "t": 116.71,
+   "fin": 120.19,
+   "affichage_s": 2.2,
+   "texte": "C'est devenu ma frontiere",
+   "lignes": [
+    "C'est devenu ma",
+    "frontiere"
+   ],
+   "image": "fonds/plan-v31.png",
+   "langue": "fr",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 32,
+   "t": 120.19,
+   "fin": 126.39,
+   "affichage_s": 3.0,
+   "texte": "Monster Positive — I am the storm they never saw",
+   "lignes": [
+    "Monster Positive — I am",
+    "the storm they never saw"
+   ],
+   "image": "fonds/plan-v14.png",
+   "langue": "en",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": true,
+   "disponible": false
+  },
+  {
+   "i": 33,
+   "t": 126.39,
+   "fin": 132.38,
+   "affichage_s": 2.7,
+   "texte": "Monster Positive — Break every chain, break every law",
+   "lignes": [
+    "Monster Positive — Break",
+    "every chain, break every",
+    "law"
+   ],
+   "image": "fonds/plan-v15.png",
+   "langue": "en",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": true,
+   "disponible": false
+  },
+  {
+   "i": 34,
+   "t": 132.38,
+   "fin": 135.47,
+   "affichage_s": 2.7,
+   "texte": "They built the cage — I am the wall",
+   "lignes": [
+    "They built the cage — I",
+    "am the wall"
+   ],
+   "image": "fonds/plan-v16.png",
+   "langue": "en",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": true,
+   "disponible": false
+  },
+  {
+   "i": 35,
+   "t": 135.47,
+   "fin": 139.16,
+   "affichage_s": 2.7,
+   "texte": "Rise from the ashes when they said I'd fall",
+   "lignes": [
+    "Rise from the ashes when",
+    "they said I'd fall"
+   ],
+   "image": "fonds/plan-v17.png",
+   "langue": "en",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": true,
+   "disponible": false
+  },
+  {
+   "i": 36,
+   "t": 139.16,
+   "fin": 144.43,
+   "affichage_s": 2.2,
+   "texte": "Monster Positive, Monster Positive",
+   "lignes": [
+    "Monster Positive,",
+    "Monster Positive"
+   ],
+   "image": "fonds/plan-v18.png",
+   "langue": "en",
+   "traduction": null,
+   "bucket": "nuit",
+   "reprise": true,
+   "disponible": false
+  },
+  {
+   "i": 37,
+   "t": 144.43,
+   "fin": 148.29,
+   "affichage_s": 2.4,
+   "texte": "Watch me become what they said was impossible",
+   "lignes": [
+    "Watch me become what",
+    "they said was impossible"
+   ],
+   "image": "fonds/plan-v37-aube.png",
+   "langue": "en",
+   "traduction": null,
+   "bucket": "aube-a",
+   "reprise": true,
+   "disponible": false
+  },
+  {
+   "i": 38,
+   "t": 148.29,
+   "fin": 154.34,
+   "affichage_s": 2.4,
+   "texte": "I used to wish I was someone else",
+   "lignes": [
+    "I used to wish I was",
+    "someone else"
+   ],
+   "image": "fonds/plan-v38.png",
+   "langue": "en",
+   "traduction": "Je voulais être quelqu'un d'autre.",
+   "bucket": "aube-a",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 39,
+   "t": 154.34,
+   "fin": 160.75,
+   "affichage_s": 2.2,
+   "texte": "Spent so many years afraid of myself",
+   "lignes": [
+    "Spent so many years",
+    "afraid of myself"
+   ],
+   "image": "fonds/plan-v39.png",
+   "langue": "en",
+   "traduction": "Tant d'années à avoir peur de moi-même.",
+   "bucket": "aube-a",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 40,
+   "t": 160.75,
+   "fin": 167.1,
+   "affichage_s": 2.2,
+   "texte": "But every monster has a story untold",
+   "lignes": [
+    "But every monster has a",
+    "story untold"
+   ],
+   "image": "fonds/plan-v40.png",
+   "langue": "en",
+   "traduction": "Chaque monstre a une histoire qu'on n'a pas racontée.",
+   "bucket": "aube-a",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 41,
+   "t": 167.1,
+   "fin": 174.68,
+   "affichage_s": 2.7,
+   "texte": "Mine was one of fire learning to be gold",
+   "lignes": [
+    "Mine was one of fire",
+    "learning to be gold"
+   ],
+   "image": "fonds/plan-v41.png",
+   "langue": "en",
+   "traduction": "La mienne : le feu qui apprend à devenir de l'or.",
+   "bucket": "aube-a",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 42,
+   "t": 174.68,
+   "fin": 180.92,
+   "affichage_s": 2.4,
+   "texte": "(Spoken) \"You are not broken. You are becoming.\"",
+   "lignes": [
+    "(Spoken) \"You are not",
+    "broken. You are",
+    "becoming.\""
+   ],
+   "image": "fonds/plan-v42.png",
+   "langue": "en",
+   "traduction": "« Tu n'es pas cassé. Tu es en train de devenir. »",
+   "bucket": "aube-a",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 43,
+   "t": 180.92,
+   "fin": 187.38,
+   "affichage_s": 3.3,
+   "texte": "Monster Positive — I AM the storm — watch me ROAR",
+   "lignes": [
+    "Monster Positive — I AM",
+    "the storm — watch me",
+    "ROAR"
+   ],
+   "image": "fonds/plan-v43.png",
+   "langue": "en",
+   "traduction": "Monster Positive — JE SUIS la tempête — écoute mon rugissement !",
+   "bucket": "aube-a",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 44,
+   "t": 187.38,
+   "fin": 193.18,
+   "affichage_s": 3.0,
+   "texte": "Monster Positive — They ain't seen nothing like this before",
+   "lignes": [
+    "Monster Positive — They",
+    "ain't seen nothing like",
+    "this before"
+   ],
+   "image": "fonds/plan-v44.png",
+   "langue": "en",
+   "traduction": "Monster Positive — ils n'ont encore rien vu.",
+   "bucket": "aube-a",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 45,
+   "t": 193.18,
+   "fin": 196.48,
+   "affichage_s": 3.0,
+   "texte": "I built my wings from the pain of the fall",
+   "lignes": [
+    "I built my wings from",
+    "the pain of the fall"
+   ],
+   "image": "fonds/plan-v45.png",
+   "langue": "en",
+   "traduction": "J'ai fait mes ailes de la douleur de la chute.",
+   "bucket": "aube-b",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 46,
+   "t": 196.48,
+   "fin": 200.19,
+   "affichage_s": 2.7,
+   "texte": "Now I am everything — I am it ALL",
+   "lignes": [
+    "Now I am everything — I",
+    "am it ALL"
+   ],
+   "image": "fonds/plan-v46.png",
+   "langue": "en",
+   "traduction": "Maintenant je suis tout — je suis TOUT.",
+   "bucket": "aube-b",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 47,
+   "t": 200.19,
+   "fin": 211.16,
+   "affichage_s": 2.2,
+   "texte": "Monster Positive, Monster Positive — MONSTER POSITIVE!",
+   "lignes": [
+    "Monster Positive,",
+    "Monster Positive —",
+    "MONSTER POSITIVE!"
+   ],
+   "image": "fonds/plan-v47.png",
+   "langue": "en",
+   "traduction": "Monster Positive, Monster Positive — MONSTER POSITIVE !",
+   "bucket": "aube-b",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 48,
+   "t": 211.16,
+   "fin": 228.89,
+   "affichage_s": 2.7,
+   "texte": "\"They made me the monster... I made it positive.\"",
+   "lignes": [
+    "\"They made me the",
+    "monster... I made it",
+    "positive.\""
+   ],
+   "image": "fonds/plan-v48.png",
+   "langue": "en",
+   "traduction": "« On a fait de moi le monstre… j'en ai fait du positif. »",
+   "bucket": "aube-b",
+   "reprise": false,
+   "disponible": false
+  },
+  {
+   "i": 49,
+   "t": 228.89,
+   "fin": 233.69,
+   "affichage_s": 2.2,
+   "texte": "Wolof techstein beat wê",
+   "lignes": [
+    "Wolof techstein beat wê"
+   ],
+   "image": "fonds/plan-v49.png",
+   "langue": "wolof",
+   "traduction": null,
+   "bucket": "aube-b",
+   "reprise": false,
+   "disponible": false
+  }
+ ],
+ "cta": [
+  [
+   7.52,
+   11.55
+  ],
+  [
+   156.69,
+   160.75
+  ],
+  [
+   163.1,
+   167.1
+  ],
+  [
+   169.95,
+   174.68
+  ],
+  [
+   202.54,
+   211.16
+  ],
+  [
+   214.01,
+   228.89
+  ]
+ ]
+}
