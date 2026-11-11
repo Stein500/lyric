@@ -69,7 +69,7 @@ def draw_line(target, line, cx, cy, size, fill, seed):
         x += w
 
 def bake(plan_path, lignes, out_path, dy=0, seed=0):
-    im = Image.open(plan_path).convert("RGB")
+    im = Image.open(plan_path).convert("L").convert("RGB")  # N&B strict garanti (recette 8.1)
     im = im.resize((W, int(round(im.height * S))), Image.LANCZOS).crop((0, 0, W, H))
     rgba = im.convert("RGBA")
     n = len(lignes)
