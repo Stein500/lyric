@@ -1,0 +1,7 @@
+durée: 238.70 s (30.0 fps)
+frames noires (pix_th 0.10 / 0.98): 4 / 1
+gels >= 2.5 s (freezedetect -33dB): 0
+loudness: I=-70.0 LUFS, LRA=0.0 LU
+crête (dBTP approx): -1.58 dB
+faststart (ftyp<moov<mdat): ftyp@4 moov@36 mdat@-1 -> KO
+taille fichier: 31.0 Mo

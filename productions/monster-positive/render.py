@@ -371,7 +371,13 @@ def main():
                     if t > v["t"] + v["affichage_s"]:
                         g = max(0.0, 1.0 - (t - v["t"] - v["affichage_s"]) / 0.35)
                     if g > 0:
-                        frame_n = Image.blend(frame_n, window(et, i, u), g)
+                        # extinction MASQUÉE à la bande texte y620-1340 (fondu 46 px) :
+                        # jamais de frame quasi-noire (blackdetect = 0)
+                        dim = window(et, i, u)
+                        mask = Image.new("L", (W, H), 0)
+                        ImageDraw.Draw(mask).rectangle([0, 620, W, 1340], fill=int(255 * g))
+                        mask = mask.filter(ImageFilter.GaussianBlur(23))
+                        frame_n = Image.composite(dim, frame_n, mask)
             # respiration lumineuse ±12 % sur les vers > 3.5 s
             if (v["fin"] - v["t"]) > 3.5:
                 b = 1 + 0.12 * math.sin(2 * math.pi * (t - v["t"]) / (v["fin"] - v["t"]))
