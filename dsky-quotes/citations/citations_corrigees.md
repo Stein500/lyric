@@ -1296,3 +1296,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **499. (HISTOIRE 8)** `LA DERNIÈRE LIGNE` — elle écrit sa liste, lui jette un œil — « Sa liste "l'homme idéal" ressemble à moi. Sauf une ligne. La dernière. » / "Her 'ideal man' list looks like me. Except one line. The last one." — Commentaire : Recalé à la dernière case. — CTA : Commente PRESQUE
 
 **500. (HISTOIRE 9 — FINALE)** `PROMOTION PERMANENTE` — banc au coucher du soleil, sourire serein — « Un jour elle comprendra. En attendant, je suis le meilleur ami du monde. Promotion permanente. » / "One day she'll understand. Meanwhile, I'm the world's best friend. Permanent promotion." — Commentaire : Le salaire se paie en sourires. — CTA : Commente UN JOUR PEUT-ÊTRE
+
+## SAISON 2 — Série ART XLV (501 → 510) — « ANIMAUX DOMESTIQUES » (chiens, chats — l'amour sans conditions ; format série : 1 principale + 9 pattes avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**501. (PRINCIPALE)** `L'ESSENTIEL` — golden retriever et chat côte à côte sur le canapé — « Les animaux ne parlent pas, mais ils disent l'essentiel. » / "Pets don't speak, but they say what matters." — CTA : Suis les 9 pattes
+
+**502. (PATTE 1)** `LA FIDÉLITÉ` — chien fidèle qui attend devant la porte — « Un chien ne te demande rien, sauf de revenir. » / "A dog asks nothing of you, except to come back." — Commentaire : La fidélité n'a pas de mots. — CTA : Commente OUI
+
+**503. (PATTE 2)** `LE PATRON` — chat royal endormi dans le fauteuil — « Le chat dort toute la journée et pourtant il gère la maison. » / "The cat sleeps all day and still runs the house." — Commentaire : Le vrai patron porte quatre pattes. — CTA : Tague un serviteur de chat
+
+**504. (PATTE 3)** `LES YEUX DU CHIEN` — femme promenant son chien, regard adoré — « Aux yeux de ton chien, tu es la personne la plus incroyable du monde. » / "In your dog's eyes, you're the most amazing person in the world." — Commentaire : Tous les jours, sans maquillage. — CTA : Envoie à une dog mom
+
+**505. (PATTE 4)** `LE SPECTACLE DE LA PLUIE` — chat au rebord sous la pluie — « Un chat sur le rebord transforme une pluie en spectacle. » / "A cat on the windowsill turns rain into a show." — Commentaire : La gratuité du bonheur. — CTA : Commente MIGNON
+
+**506. (PATTE 5)** `LE CŒUR TOUT NEUF` — chiot emmailloté dans une couverture — « Un chiot, c'est un cœur tout neuf qu'on ramène à la maison. » / "A puppy is a brand-new heart you bring home." — Commentaire : Le premier regard suffit. — CTA : Partage à un futur adoptant
+
+**507. (PATTE 6)** `LES VIEUX CHIENS` — vieux labrador sur les genoux de sa maîtresse — « Les vieux chiens connaissent nos silences par cœur. » / "Old dogs know our silences by heart." — Commentaire : Ils ont tout vu, ils restent. — CTA : Tague un vieux toutou
+
+**508. (PATTE 7)** `LE RONRON` — femme calinant son chat qui ronronne — « Le ronron est le seul bruit qui calme sans parler. » / "Purring is the only sound that soothes without speaking." — Commentaire : Anti-stress gratuit à quatre pattes. — CTA : Commente si tu ronronnes aussi
+
+**509. (PATTE 8)** `L'ACCUEIL` — chien qui remue la queue à l'arrivée, valise à la main — « Derrière chaque porte, il y a parfois un bonheur qui remue la queue. » / "Behind some doors, there's happiness wagging its tail." — Commentaire : L'accueil le plus pur du monde. — CTA : Envoie à un amoureux des chiens
+
+**510. (PATTE 9 — FINALE)** `SANS CONDITIONS` — femme entourée de son chat et son chien — « Aimer un animal, c'est apprendre l'amour sans conditions. » / "Loving a pet is learning unconditional love." — Commentaire : Leçon donnée chaque jour. — CTA : Commente J'ADORE MES BÊTES

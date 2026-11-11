@@ -540,3 +540,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 498 | Histoire 7 — le coach | canapé tactique 100% IA + commentaire |
 | 499 | Histoire 8 — la dernière ligne | liste café 100% IA + commentaire |
 | 500 | Histoire 9 — promotion permanente | banc coucher soleil 100% IA + commentaire |
+| 501 | L'essentiel | chien et chat canapé 100% IA format série |
+| 502 | Patte 1 — la fidélité | chien porte 100% IA + commentaire |
+| 503 | Patte 2 — le patron | chat fauteuil 100% IA + commentaire |
+| 504 | Patte 3 — les yeux du chien | promenade parc 100% IA + commentaire |
+| 505 | Patte 4 — le spectacle de la pluie | chat rebord 100% IA + commentaire |
+| 506 | Patte 5 — le cœur tout neuf | chiot couverture 100% IA + commentaire |
+| 507 | Patte 6 — les vieux chiens | labrador genoux 100% IA + commentaire |
+| 508 | Patte 7 — le ronron | calin chat 100% IA + commentaire |
+| 509 | Patte 8 — l'accueil | retour maison 100% IA + commentaire |
+| 510 | Patte 9 — sans conditions | chat et chien tapis 100% IA + commentaire |
