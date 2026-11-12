@@ -481,8 +481,12 @@ class Shot:
         cy = WH / 2 + self.pan[1] * WH * (local - 0.5)
         cx = min(max(cx, cw / 2), WW - cw / 2)
         cy = min(max(cy, ch / 2), WH - ch / 2)
-        im = Image.fromarray((a * 255).astype(np.uint8)).resize(
-            (max(1, int(round(cw))), max(1, int(round(ch)))), Image.BICUBIC)
+        iw2, ih2 = max(1, int(round(cw))), max(1, int(round(ch)))
+        im = Image.fromarray((a * 255).astype(np.uint8)).resize((iw2, ih2), Image.BICUBIC)
+        if im.width > WW or im.height > WH:      # zoom : on rogne au centre
+            l = max(0, (im.width - WW) // 2)
+            t = max(0, (im.height - WH) // 2)
+            im = im.crop((l, t, l + min(WW, im.width), t + min(WH, im.height)))
         win = self.fill.copy()
         x0, y0 = int(round(cx - cw / 2)), int(round(cy - ch / 2))
         x0 = min(max(0, x0), WW - im.width)
@@ -576,10 +580,10 @@ def render_frame(t):
 
     # fondu d'ouverture / fermeture
     if t < 0.45:
-        frame *= smoothstep(t / 0.45)
+        frame *= 0.55 + 0.45 * smoothstep(t / 0.45)
     end = DUR - 0.85
     if t > end:
-        frame *= 1 - 0.87 * smoothstep((t - end) / 0.85)
+        frame *= 1 - 0.62 * smoothstep((t - end) / 0.85)
     return frame
 
 
@@ -866,11 +870,10 @@ class Project:
 
 
 def title_card_cfg(t, cfg):
-    frame = np.zeros((H, W), dtype=np.float32)
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
     cx, cy = W * 0.5, H * 0.46
     r = np.sqrt((xx - cx) ** 2 + (yy - cy) ** 2) / (W * 1.1)
-    frame += np.exp(-(r ** 2) * 2.6) * 0.10 * (0.7 + 0.3 * math.sin(t * 0.9))
+    frame = 0.055 + 0.075 * np.exp(-(r ** 2) * 1.4) * (1.0 + 0.10 * math.sin(t * 0.9))
     p = ease_out(min(1.0, max(0.0, (t - 0.10) / 0.85)))
     if p > 0.01:
         half = 265 * p
@@ -926,12 +929,11 @@ def title_card_cfg(t, cfg):
 
 
 def finale_card_cfg(t, cfg, t0):
-    frame = np.zeros((H, W), dtype=np.float32)
     yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
     cx = W * 0.5 + 40 * math.sin(0.21 * t)
     cy = H * 0.52 + 26 * math.cos(0.17 * t)
     r = np.sqrt((xx - cx) ** 2 + (yy - cy) ** 2) / (W * 1.15)
-    frame += np.exp(-(r ** 2) * 2.2) * 0.085 * (0.70 + 0.30 * math.sin(t * 0.8))
+    frame = 0.050 + 0.090 * np.exp(-(r ** 2) * 1.3) * (1.0 + 0.12 * math.sin(t * 0.8))
     base = t - t0
 
     def fade(start, dur=0.7):
@@ -1034,14 +1036,15 @@ def render_frame_p(project, t):
         frame = composite(frame, HEADER, 1.0, 0.86 * ha)
 
     draw_particles(frame, t, 1.9 if t > project.finale_t0 else 1.0)
-    noise = rng.normal(0, 0.0085, (H, W)).astype(np.float32)
-    frame = clamp01(frame + noise)
+    noise = rng.normal(0, 0.0118, (H, W)).astype(np.float32)
+    flicker = 1.0 + 0.016 * math.sin(t * 43.0) + 0.010 * math.sin(t * 17.7 + 1.1)
+    frame = clamp01(frame * flicker + noise)
 
     if t < 0.45:
-        frame *= smoothstep(t / 0.45)
+        frame *= 0.55 + 0.45 * smoothstep(t / 0.45)
     end = project.duration - 0.85
     if t > end:
-        frame *= 1 - 0.87 * smoothstep((t - end) / 0.85)
+        frame *= 1 - 0.62 * smoothstep((t - end) / 0.85)
     return frame
 
 
@@ -1050,7 +1053,7 @@ def encode(project):
     cmd = [FF, "-y", "-hide_banner", "-loglevel", "warning",
            "-f", "rawvideo", "-pix_fmt", "gray", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "pipe:0",
            "-i", project.audio,
-           "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
+           "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-pix_fmt", "yuv420p",
            "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709",
            "-c:a", "copy", "-shortest", "-movflags", "+faststart", out]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
