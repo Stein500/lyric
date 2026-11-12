@@ -1,0 +1,6 @@
+# intermédiaires de rendu (regénérables via build_audio*.py / films.py)
+cache/*.f32
+cache/*.wav
+cache/grade-*.png
+stills/
+__pycache__/
