@@ -550,3 +550,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 508 | Patte 7 — le ronron | calin chat 100% IA + commentaire |
 | 509 | Patte 8 — l'accueil | retour maison 100% IA + commentaire |
 | 510 | Patte 9 — sans conditions | chat et chien tapis 100% IA + commentaire |
+| 511 | L'aube d'une maison | balcon lever soleil 100% IA format série |
+| 512 | Aube 1 — la force tranquille | marche assurée 100% IA + commentaire |
+| 513 | Aube 2 — ce que tu vaux | café regard direct 100% IA + commentaire |
+| 514 | Aube 3 — la victoire du matin | miroir matin 100% IA + commentaire |
+| 515 | Aube 4 — s'aimer chaque jour | lecture fenêtre 100% IA + commentaire |
+| 516 | Aube 5 — prise de hauteur | colline vent 100% IA + commentaire |
+| 517 | Aube 6 — la douceur armure | mains réconfort 100% IA + commentaire |
+| 518 | Aube 7 — le visage de l'histoire | femme mûre rire 100% IA + commentaire |
+| 519 | Aube 8 — le bagage léger | marché paniers 100% IA + commentaire |
+| 520 | Aube 9 — debout exemplaire | horizon doré 100% IA + commentaire |

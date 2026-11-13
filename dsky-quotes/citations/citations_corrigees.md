@@ -1318,3 +1318,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **509. (PATTE 8)** `L'ACCUEIL` — chien qui remue la queue à l'arrivée, valise à la main — « Derrière chaque porte, il y a parfois un bonheur qui remue la queue. » / "Behind some doors, there's happiness wagging its tail." — Commentaire : L'accueil le plus pur du monde. — CTA : Envoie à un amoureux des chiens
 
 **510. (PATTE 9 — FINALE)** `SANS CONDITIONS` — femme entourée de son chat et son chien — « Aimer un animal, c'est apprendre l'amour sans conditions. » / "Loving a pet is learning unconditional love." — Commentaire : Leçon donnée chaque jour. — CTA : Commente J'ADORE MES BÊTES
+
+## SAISON 2 — Série ART XLVI (511 → 520) — « LA FEMME QUI SE LÈVE » (force tranquille, confiance, douceur armure ; format série : 1 principale + 9 aubes avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**511. (PRINCIPALE)** `L'AUBE D'UNE MAISON` — femme africaine élégante sur son balcon au lever du soleil — « Une femme qui se relève change l'air de toute une maison. » / "A woman who rises again changes the air of a whole home." — CTA : Suis les 9 aubes
+
+**512. (AUBE 1)** `LA FORCE TRANQUILLE` — femme marchant d'un pas sûr sous les arbres — « La force tranquille ne crie jamais : elle avance. » / "Quiet strength never shouts: it moves forward." — Commentaire : Le silence aussi a des muscles. — CTA : Commente OUI
+
+**513. (AUBE 2)** `CE QUE TU VAUX` — femme sereine, tasse à la main, regard direct — « Tu n'es pas difficile, tu sais ce que tu vaux. » / "You're not demanding, you know your worth." — Commentaire : La clarté n'est pas de l'orgueil. — CTA : Envoie à une femme forte
+
+**514. (AUBE 3)** `LA VICTOIRE DU MATIN` — femme se coiffant devant le miroir, sourire — « Il y a des matins où se coiffer est déjà une victoire. » / "Some mornings, doing your hair is already a victory." — Commentaire : Les petites victoires font les grandes. — CTA : Tague une guerrière du quotidien
+
+**515. (AUBE 4)** `S'AIMER CHAQUE JOUR` — lecture et thé au soleil, rituel de soin — « Elle a appris à s'aimer comme on apprend une langue : chaque jour. » / "She learned to love herself like a language: every day." — Commentaire : Le plus beau bilinguisme. — CTA : Commente JE M'APPRENDS
+
+**516. (AUBE 5)** `PRISE DE HAUTEUR` — femme libre dans le vent sur une colline — « On a voulu la réduire, elle a pris de la hauteur. » / "They tried to shrink her, she took height." — Commentaire : Les ailes ne se plient pas. — CTA : Partage à une mère, une sœur, une amie
+
+**517. (AUBE 6)** `LA DOUCEUR ARMURE` — mains qui réconfortent des mains — « Sa douceur n'est pas une faiblesse : c'est son armure. » / "Her softness isn't weakness: it's her armor." — Commentaire : La douceur tient debout. — CTA : Tague une femme douce
+
+**518. (AUBE 7)** `LE VISAGE DE L'HISTOIRE` — femme mûre riant en lumière dorée — « Chaque ride du sourire raconte une page qu'elle n'a pas abandonnée. » / "Every smile line tells a page she never abandoned." — Commentaire : L'histoire se lit sur le visage. — CTA : Commente GRÂCE
+
+**519. (AUBE 8)** `LE BAGAGE LÉGER` — femme au marché, paniers de légumes et fleurs — « Elle porte tant de choses, et pourtant jamais la rancune. » / "She carries so much, yet never resentment." — Commentaire : Le bagage léger, la force lourde. — CTA : Envoie à celle qui porte tout
+
+**520. (AUBE 9 — FINALE)** `DEBOUT, EXEMPLAIRE` — femme de dos face à l'horizon doré — « Une femme debout est une leçon que personne n'a besoin d'ouvrir. » / "A standing woman is a lesson no one needs to open." — Commentaire : L'exemple parle avant elle. — CTA : Commente RESPECT
