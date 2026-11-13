@@ -15,6 +15,8 @@ plus l'identité visuelle **DSKY · WTBW**.
 | `livrables/FILM-SERVICES-9x16.mp4` | film services (mariage, anniversaire, hommage, clip) | 13,00 s · −13,0 LUFS |
 | `livrables/brand/BRAND-01…10` | planche identité + 9 mises en situation merch | 1080×1350 |
 | `livrables/universel/UNI-01…10` | salve « universel » : citations, mains, silhouettes, services | 1080×1350 |
+| `livrables/pochettes/POCHE-01…10` | 10 pochettes vedettes + `PLANCHE-10.jpg` (planche de contrôle) | 1080×1080 |
+| `livrables/pochettes/catalogue/POCHE-01…34` | **tout le catalogue** en pochettes du même système | 1080×1080 |
 | `livrables/brand/print/` | fichiers imprimeur (PNG transparents 2400 px + SVG) | vectoriel / 300 dpi |
 
 ## Prompts
@@ -39,6 +41,8 @@ python3 universel.py           # la salve universelle (10 visuels)
 python3 build_bed.py           # lit musical calme 21 s du catalogue
 python3 film_uni.py            # film CITATIONS 20 s
 python3 film_uni.py --services # film SERVICES 13 s
+python3 covers.py              # 10 pochettes vedettes
+python3 covers.py --all        # les 34 pochettes du catalogue
 ```
 
 `pub_video.py --stills 3.2,12.0` sort des images fixes pour contrôler la typo avant de rendre.
