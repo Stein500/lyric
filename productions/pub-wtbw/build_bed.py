@@ -11,9 +11,16 @@ import numpy as np
 sys.path.insert(0, "/home/user/lyric/productions/pub-wtbw")
 from build_pub_audio import FF, OUT, SR, decode  # noqa: E402
 
-SEG = 4.6
+PRESET = "mariage" if "--mariage" in sys.argv else "calme"
+SEG = 5.5 if PRESET == "mariage" else 4.6
 XF = 0.5
-PARTS = [
+PARTS_MARIAGE = [
+    ("Ayon dèkpè.mp3", 11.78),
+    ("Tu es trop belle.mp3", 10.52),
+    ("VIVI OOR.mp3", 8.63),
+    ("Le goût bon de la vie.mp3", 9.95),
+]
+PARTS = PARTS_MARIAGE if PRESET == "mariage" else [
     ("Mahu ti tebe Eng.mp3", 17.24),
     ("Calm_in _off_down Daïsky.m4a", 24.82),
     ("Le goût bon de la vie.mp3", 9.95),
@@ -47,11 +54,12 @@ def main():
     mix[-fade:] *= np.linspace(1, 0, fade, dtype=np.float32)[:, None] ** 1.3
     mix[:int(0.4 * SR)] *= np.linspace(0, 1, int(0.4 * SR), dtype=np.float32)[:, None]
 
-    open(f"{OUT}/cache/bed.f32", "wb").write(mix.astype("<f4").tobytes())
+    base = f"bed_mariage" if PRESET == "mariage" else "bed"
+    open(f"{OUT}/cache/{base}.f32", "wb").write(mix.astype("<f4").tobytes())
     subprocess.run([FF, "-y", "-hide_banner", "-loglevel", "error", "-f", "f32le", "-ar", str(SR),
-                    "-ac", "2", "-i", f"{OUT}/cache/bed.f32", "-c:a", "pcm_s24le",
-                    f"{OUT}/cache/bed.wav"], check=True)
-    p1 = subprocess.run([FF, "-hide_banner", "-i", f"{OUT}/cache/bed.wav", "-af",
+                    "-ac", "2", "-i", f"{OUT}/cache/{base}.f32", "-c:a", "pcm_s24le",
+                    f"{OUT}/cache/{base}.wav"], check=True)
+    p1 = subprocess.run([FF, "-hide_banner", "-i", f"{OUT}/cache/{base}.wav", "-af",
                          "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
                         capture_output=True, text=True, check=True)
     t = p1.stderr
@@ -59,11 +67,11 @@ def main():
     af = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}"
           f":measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}"
           f":offset={js['target_offset']}:linear=true,aresample=48000")
-    subprocess.run([FF, "-y", "-hide_banner", "-loglevel", "error", "-i", f"{OUT}/cache/bed.wav",
+    subprocess.run([FF, "-y", "-hide_banner", "-loglevel", "error", "-i", f"{OUT}/cache/{base}.wav",
                     "-af", af, "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-ac", "2",
-                    f"{OUT}/cache/bed.m4a"], check=True)
-    json.dump({"duration": round(dur, 3)}, open(f"{OUT}/cache/bed.json", "w"))
-    print("bed", round(dur, 3), "s")
+                    f"{OUT}/cache/{base}.m4a"], check=True)
+    json.dump({"duration": round(dur, 3)}, open(f"{OUT}/cache/{base}.json", "w"))
+    print(base, round(dur, 3), "s")
 
 
 if __name__ == "__main__":

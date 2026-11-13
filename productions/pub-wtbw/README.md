@@ -13,6 +13,7 @@ plus l'identité visuelle **DSKY · WTBW**.
 | `livrables/PUB-WTBW-BUMPER-5s-9x16.mp4` | version ultra-courte, signature → morceau → promesse | 5,00 s · 1080×1920 · −16,2 LUFS |
 | `livrables/FILM-CITATIONS-9x16.mp4` | film citations, 8 cartons, lit musical du catalogue | 20,40 s · −14,2 LUFS |
 | `livrables/FILM-SERVICES-9x16.mp4` | film services (mariage, anniversaire, hommage, clip) | 13,00 s · −13,0 LUFS |
+| `livrables/FILM-MARIAGE-9x16.mp4` | film mariage, série laiton | 20,00 s · −14,1 LUFS |
 | `livrables/brand/BRAND-01…10` | planche identité + 9 mises en situation merch | 1080×1350 |
 | `livrables/universel/UNI-01…10` | salve « universel » : citations, mains, silhouettes, services | 1080×1350 |
 | `livrables/pochettes/POCHE-01…10` | 10 pochettes vedettes + `PLANCHE-10.jpg` (planche de contrôle) | 1080×1080 |
@@ -49,6 +50,8 @@ python3 affiches.py            # 10 affiches services (feed)
 python3 affiches.py --story    # les mêmes en 9:16
 python3 universel.py --story   # les 10 cartes universelles en 9:16
 python3 variations.py          # la série chaude « laiton »
+python3 build_bed.py --mariage # lit romantique 20,5 s
+python3 film_service.py mariage # film MARIAGE 20 s
 ```
 
 `pub_video.py --stills 3.2,12.0` sort des images fixes pour contrôler la typo avant de rendre.

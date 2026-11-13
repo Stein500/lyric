@@ -10,6 +10,7 @@ Tout ce qui existe, où c'est, et à quoi ça sert. Dernière mise à jour : apr
 | `PUB-WTBW-BUMPER-5s-9x16.mp4` | 5,00 s | 1080×1920 | signature → morceau → promesse |
 | `FILM-CITATIONS-9x16.mp4` | 20,40 s | 1080×1920 | 8 citations, lit musical calme |
 | `FILM-SERVICES-9x16.mp4` | 13,00 s | 1080×1920 | 4 services + manifeste |
+| `FILM-MARIAGE-9x16.mp4` | 20,00 s | 1080×1920 | série laiton : mariée, danse, cérémonie, refrain, catalogue, promesse |
 
 ## Images
 
@@ -37,6 +38,8 @@ Plans de contrôle : `PLANCHE-10.jpg` (universel, pochettes), `PLANCHE-10-FEED.j
 |---|---|
 | `build_pub_audio.py` | `cache/pub.m4a` (28,86 s) |
 | `build_bed.py` | `cache/bed.m4a` (21 s) |
+| `build_bed.py --mariage` | `cache/bed_mariage.m4a` (20,5 s) |
+| `film_service.py mariage` | `FILM-MARIAGE-9x16.mp4` (20 s) |
 | `pub_video.py` / `--bumper` | pubs 28,9 s / 5 s |
 | `film_uni.py` / `--services` | films 20,4 s / 13 s |
 | `logo.py` | 4 déclinaisons + fichiers imprimeur |
@@ -47,7 +50,7 @@ Plans de contrôle : `PLANCHE-10.jpg` (universel, pochettes), `PLANCHE-10-FEED.j
 
 ## Reste à faire (films, un par un)
 
-1. Film **MARIAGE** — 20 s à partir de l'affiche 01 + mains + pochettes.
+1. ~~Film **MARIAGE**~~ ✅ `FILM-MARIAGE-9x16.mp4` (lit : Ayon dèkpè / Tu es trop belle / Vivi O O R / Le goût bon de la vie)
 2. Film **MÉMOIRE** — 25 s, le plus délicat : pas de deepfake, pas de voix clonée.
 3. Film **ANNIVERSAIRE** — 15 s, rythmé.
 4. Film **ÉDUCATION / ateliers** — 20 s, ton documentaire.
