@@ -21,18 +21,18 @@
 
 ## 6) Contrôles (voir livrables/CONTROLES.txt)
 - durée 238,70 s = 7161 frames/30 ✔ · blackdetect 0 ✔ · freezedetect −33dB/2,5s : 0 gel ✔ ·
-  loudness −14,0 LUFS ✔ · crête ≤ −1,0 dB ✔ · faststart ftyp→moov→mdat ✔ · typo nette 1:1 (CONTROLE-paroles.jpg / CONTROLE-typo-zoom.jpg) ✔
+  loudness −14,0 LUFS ✔ · crête −2,13 dBTP ✔ · faststart ftyp→moov→mdat ✔ · typo nette 1:1 ✔ · pilule FR lisible 1:1 (CONTROLE-pill-t24/t66.jpg) ✔ · badge DSKY/WTBW ✔ · aucune extinction/flou sur les paroles peintes ✔
 
 ## 7) Commandes Termux (une ligne par fichier, séparées par `;`)
 ```
 pkg install -y curl && termux-setup-storage
 ```
 ```
-curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DAISKY-9x16.mp4 "https://raw.githubusercontent.com/Stein500/lyric/1b49277bf9096dcf51b0cfea575aea2bb8862f9b/productions/monster-positive/livrables/MONSTER-POSITIVE-Da%C3%AFsky-9x16.mp4"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DAISKY-9x16.mp4;
-curl -L --retry 3 -C - -o ~/storage/downloads/COVER-tiktok-1080x1920.jpg "https://raw.githubusercontent.com/Stein500/lyric/1b49277bf9096dcf51b0cfea575aea2bb8862f9b/productions/monster-positive/livrables/COVER-tiktok-1080x1920.jpg"; termux-media-scan -v ~/storage/downloads/COVER-tiktok-1080x1920.jpg;
-curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DAISKY-master.mp3 "https://raw.githubusercontent.com/Stein500/lyric/1b49277bf9096dcf51b0cfea575aea2bb8862f9b/productions/monster-positive/livrables/master_normalise.mp3"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DAISKY-master.mp3
+curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DSKY-9x16.mp4 "https://raw.githubusercontent.com/Stein500/lyric/5da23237ee8232dfa9f01dfbf6344b9aeeac082d/productions/monster-positive/livrables/MONSTER-POSITIVE-DSKY-9x16.mp4"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DSKY-9x16.mp4;
+curl -L --retry 3 -C - -o ~/storage/downloads/COVER-tiktok-1080x1920.jpg "https://raw.githubusercontent.com/Stein500/lyric/5da23237ee8232dfa9f01dfbf6344b9aeeac082d/productions/monster-positive/livrables/COVER-tiktok-1080x1920.jpg"; termux-media-scan -v ~/storage/downloads/COVER-tiktok-1080x1920.jpg;
+curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DSKY-master.mp3 "https://raw.githubusercontent.com/Stein500/lyric/5da23237ee8232dfa9f01dfbf6344b9aeeac082d/productions/monster-positive/livrables/master_normalise.mp3"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DSKY-master.mp3
 ```
-Liens raw **figés sur le SHA `1b49277bf9096dcf51b0cfea575aea2bb8862f9b`** (branche `prod/monster-positive`, vérifié `git ls-remote` + tailles blobs API : mp4 32 600 107 o, cover 382 706 o, mp3 9 350 791 o — tous < 50 Mo, en commit ordinaire).
+Liens raw **figés sur le SHA `5da23237ee8232dfa9f01dfbf6344b9aeeac082d`** (branche `prod/monster-positive`, vérifié `git ls-remote` + tailles blobs API : mp4 29 071 212 o, cover 381 696 o, mp3 9 350 791 o — tous < 50 Mo, en commit ordinaire).
 
 ## Notes de prod
 - Prompt universel : `PROMPT-UNIVERSEL-v6.4.md` (harmonie v6.0 × v6.3) · config : `PROD-CONFIG.md` · contrat : `verses_map.json` + `CARTE-VERS.md`
