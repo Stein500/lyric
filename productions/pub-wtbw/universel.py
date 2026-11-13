@@ -109,9 +109,12 @@ def grain(f, seed=1):
     return E.clamp01(f + rng.normal(0, 0.0075, f.shape).astype(np.float32))
 
 
+SUFFIX = ""
+
+
 def save(f, name):
     os.makedirs(LIV, exist_ok=True)
-    p = f"{LIV}/{name}.jpg"
+    p = f"{LIV}/{name}{SUFFIX}.jpg"
     Image.fromarray((np.clip(f, 0, 1) * 255 + 0.5).astype(np.uint8)).save(p, quality=94, subsampling=1)
     return p
 
@@ -237,5 +240,11 @@ def build():
 
 
 if __name__ == "__main__":
+    if "--story" in sys.argv:
+        import universel
+        universel.H = 1920
+        SUFFIX = "-STORY"
+        universel.SUFFIX = "-STORY"
+        LIV_SUFFIX = True
     for p in build():
         print(p)
