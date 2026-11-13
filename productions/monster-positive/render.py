@@ -226,10 +226,12 @@ def draw_pill(ov, v, t):
     f = mont(fsize, 800)
     def total_w():
         return sum(tracked_w(w, f, tr_px) for w in words) + tr_px * (len(words) - 1)
-    while total_w() > 690 and fsize > 22:
+    while total_w() > 620 and fsize > 12:
         fsize -= 2; f = mont(fsize, 800)
-    x = 540 - total_w() / 2 + dx
+    TW = total_w()
+    x = 540 - TW / 2 + dx
     act = min(len(words) - 1, int(u * len(words)))
+    clip = Image.new("L", (W, H), 0); ImageDraw.Draw(clip).rectangle([198, 1450, 882, 1550], fill=255)
     for j, w in enumerate(words):
         col = (255, 224, 122, int(255 * a)) if j == act else (240, 244, 248, int(235 * a))
         if j == act:  # halo 3 px
@@ -241,6 +243,7 @@ def draw_pill(ov, v, t):
         d = ImageDraw.Draw(pill)
         tracked(d, (x, 1476), w, f, col, tr=tr_px)
         x += tracked_w(w, f, tr_px) + tr_px
+    pill.putalpha(Image.composite(pill.getchannel("A"), Image.new("L", (W, H), 0), clip))
     d = ImageDraw.Draw(pill)
     d.rectangle([186, 1548, 186 + int(708 * u), 1556], fill=OR + (int(255 * a),))
     ov.alpha_composite(pill)
