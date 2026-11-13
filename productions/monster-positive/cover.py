@@ -84,12 +84,12 @@ def main():
     draw_tracked_contour(ov, (540 - text_w(d0, "POSITIVE", mont(size2, 800), 4) / 2, y), "POSITIVE", size2, 800, (255, 255, 255, 255), tr=4)
     # Daïsky entre deux filets or, y 1495
     d = ImageDraw.Draw(ov)
-    fw = text_w(d, "Daïsky", mont(60, 700), 16)
+    fw = text_w(d, "DSKY", mont(60, 700), 16)
     d.line([540 - fw / 2 - 40, 1495, 540 - fw / 2 - 16, 1495], fill=OR + (255,), width=3)
     d.line([540 + fw / 2 + 16, 1495, 540 + fw / 2 + 40, 1495], fill=OR + (255,), width=3)
     x = 540 - fw / 2
     f = mont(60, 700)
-    for c in "Daïsky":
+    for c in "DSKY":
         d.text((x, 1462), c, font=f, fill=(255, 255, 255, 255))
         x += d.textlength(c, font=f) + 16
     tracked = "Wolof TechStein beat 웨"

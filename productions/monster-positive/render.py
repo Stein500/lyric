@@ -19,7 +19,7 @@ W, H, FPS = 1080, 1920, 30
 SC = 1.10
 BW, BH = int(W * SC), int(H * SC)          # 1188 x 2112
 MX, MY = BW - W, BH - H                    # 108 x 192
-TITRE, ARTISTE = "MONSTER POSITIVE", "Daïsky"
+TITRE, ARTISTE = "MONSTER POSITIVE", "DSKY"
 OR = (232, 168, 62)
 
 mp = json.load(open(os.path.join(ROOT, "verses_map.json"), encoding="utf-8"))
@@ -219,27 +219,30 @@ def draw_pill(ov, v, t):
     dx = 9 * math.sin(2 * math.pi * (t - v["t"]) / max(0.5, v["affichage_s"]))
     pill = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(pill)
-    d.rounded_rectangle([186, 1452, 894, 1545], radius=24, fill=(8, 12, 18, int(222 * a)), outline=OR + (int(185 * a),), width=2)
+    # pilule plus haute et plus lisible : y 1444 -> 1556
+    d.rounded_rectangle([186, 1444, 894, 1556], radius=26, fill=(8, 12, 18, int(228 * a)), outline=OR + (int(200 * a),), width=3)
     words = tr.split()
-    f = mont(29, 800)
-    tr_px = 11
-    total = sum(tracked_w(w, f, tr_px) for w in words) + tr_px * (len(words) - 1)
-    x = 540 - total / 2 + dx
+    fsize, tr_px = 32, 6
+    f = mont(fsize, 800)
+    def total_w():
+        return sum(tracked_w(w, f, tr_px) for w in words) + tr_px * (len(words) - 1)
+    while total_w() > 690 and fsize > 22:
+        fsize -= 2; f = mont(fsize, 800)
+    x = 540 - total_w() / 2 + dx
     act = min(len(words) - 1, int(u * len(words)))
     for j, w in enumerate(words):
-        col = (255, 224, 122, int(255 * a)) if j == act else (232, 237, 242, int(225 * a))
+        col = (255, 224, 122, int(255 * a)) if j == act else (240, 244, 248, int(235 * a))
         if j == act:  # halo 3 px
             m = Image.new("L", (W, H), 0)
-            ImageDraw.Draw(m).text((x, 1470), w, font=f, fill=255)
+            ImageDraw.Draw(m).text((x, 1476), w, font=f, fill=255)
             m = m.filter(ImageFilter.MaxFilter(7)).filter(ImageFilter.GaussianBlur(3))
-            halo = Image.new("RGBA", (W, H), (255, 200, 80, int(160 * a)))
+            halo = Image.new("RGBA", (W, H), (255, 200, 80, int(170 * a)))
             pill.paste(halo, (0, 0), m)
         d = ImageDraw.Draw(pill)
-        tracked(d, (x, 1470), w, f, col, tr=tr_px)
+        tracked(d, (x, 1476), w, f, col, tr=tr_px)
         x += tracked_w(w, f, tr_px) + tr_px
-    # curseur karaoké
     d = ImageDraw.Draw(pill)
-    d.rectangle([186, 1537, 186 + int(708 * u), 1545], fill=OR + (int(255 * a),))
+    d.rectangle([186, 1548, 186 + int(708 * u), 1556], fill=OR + (int(255 * a),))
     ov.alpha_composite(pill)
 
 # ---------- badge clignotant + filet ----------
@@ -364,20 +367,8 @@ def main():
             big, et = get_plan(os.path.join("fonds", baked_name(v["image"])))
             u = min(1.0, max(0.0, (t - v["t"]) / max(0.01, v["fin"] - v["t"])))
             frame_n = window(big, i, u)
-            # extinction uniquement si pilule FR active (HYBRIDE)
-            if v["traduction"]:
-                if t >= v["t"] + 0.15:
-                    g = min(1.0, (t - v["t"] - 0.15) / 0.35)
-                    if t > v["t"] + v["affichage_s"]:
-                        g = max(0.0, 1.0 - (t - v["t"] - v["affichage_s"]) / 0.35)
-                    if g > 0:
-                        # extinction MASQUÉE à la bande texte y620-1340 (fondu 46 px) :
-                        # jamais de frame quasi-noire (blackdetect = 0)
-                        dim = window(et, i, u)
-                        mask = Image.new("L", (W, H), 0)
-                        ImageDraw.Draw(mask).rectangle([0, 620, W, 1340], fill=int(255 * g))
-                        mask = mask.filter(ImageFilter.GaussianBlur(23))
-                        frame_n = Image.composite(dim, frame_n, mask)
+            # EXTINCTION SUPPRIMÉE (demande artiste 2026-11-11) : les paroles peintes
+            # restent toujours 100 % nettes ; la pilule FR défile en bas sans voiler.
             # respiration lumineuse ±12 % sur les vers > 3.5 s
             if (v["fin"] - v["t"]) > 3.5:
                 b = 1 + 0.12 * math.sin(2 * math.pi * (t - v["t"]) / (v["fin"] - v["t"]))
