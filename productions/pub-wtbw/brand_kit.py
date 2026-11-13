@@ -11,6 +11,7 @@ from PIL import Image, ImageDraw
 
 sys.path.insert(0, "/home/user/lyric/productions/imelda-13-novembre")
 import engine as E
+import logo as L
 
 OUT = "/home/user/lyric/productions/pub-wtbw"
 ASSETS = f"{OUT}/assets"
@@ -63,7 +64,7 @@ def sigil(size):
     return np.asarray(img, dtype=np.float32) / 255.0
 
 
-def word_block(width, dark=False, with_emblem=True, emblem_ratio=0.42):
+def word_block_deprecated(width, dark=False, with_emblem=True, emblem_ratio=0.42):
     """bloc de marque : sigle + DSKY + WTBW + baseline. Renvoie (alpha, hauteur)."""
     Wb = width
     eh = int(Wb * emblem_ratio) if with_emblem else 0
@@ -106,6 +107,10 @@ def word_block(width, dark=False, with_emblem=True, emblem_ratio=0.42):
     return np.asarray(canvas, dtype=np.float32) / 255.0
 
 
+def word_block(width, dark=False, with_emblem=True, emblem_ratio=0.42):
+    return L.stack(width) if with_emblem else L.type_block(width)
+
+
 def paste(frame, alpha_img, x, y, ink=1.0, strength=1.0, shade=True):
     """pose une encre : ink=1 (blanc) ou 0 (noir)."""
     h, w = alpha_img.shape
@@ -135,13 +140,13 @@ def make_logo_sheet():
     r = np.sqrt((xx - W / 2) ** 2 + (yy - H * 0.42) ** 2) / (W * 0.85)
     f += 0.10 * np.exp(-(r ** 2) * 2.0)
 
-    blk = word_block(int(W * 0.62), with_emblem=True)
-    paste(f, blk, int((W - blk.shape[1]) / 2), int(H * 0.14), ink=1.0, strength=1.0, shade=False)
+    blk = word_block(int(W * 0.56), with_emblem=True)
+    paste(f, blk, int((W - blk.shape[1]) / 2), int(H * 0.075), ink=1.0, strength=1.0, shade=False)
 
     # filet + drapeau du Bénin (accent unique)
-    f[int(H * 0.80), 140:W - 140] = 0.35
+    f[int(H * 0.835), 140:W - 140] = 0.35
     rgb = np.stack([f] * 3, axis=-1)
-    fx, fy, fw, fh = 460, 1120, 160, 100
+    fx, fy, fw, fh = 460, 1060, 160, 100
     rgb[fy:fy + fh, fx:fx + fw // 3] = np.array([0.0, 0.53, 0.27])       # vert
     rgb[fy:fy + fh // 2, fx + fw // 3:fx + fw] = np.array([0.99, 0.82, 0.09])  # jaune
     rgb[fy + fh // 2:fy + fh, fx + fw // 3:fx + fw] = np.array([0.91, 0.16, 0.16])  # rouge
@@ -153,10 +158,10 @@ def make_logo_sheet():
 
 
 ITEMS = [
-    dict(src="merch-02-tshirt.jpg", out="BRAND-02-TSHIRT", x=0.50, y=0.34, w=0.26, ink=1.0),
-    dict(src="merch-03-hoodie.jpg", out="BRAND-03-HOODIE", x=0.485, y=0.395, w=0.22, ink=1.0),
+    dict(src="merch-02-tshirt.jpg", out="BRAND-02-TSHIRT", x=0.50, y=0.415, w=0.255, ink=1.0),
+    dict(src="merch-03-hoodie.jpg", out="BRAND-03-HOODIE", x=0.487, y=0.455, w=0.215, ink=1.0),
     dict(src="merch-04-tote.jpg", out="BRAND-04-TOTE", x=0.50, y=0.50, w=0.26, ink=0.06),
-    dict(src="merch-05-cap.jpg", out="BRAND-05-CAP", x=0.44, y=0.43, w=0.13, ink=1.0),
+    dict(src="merch-05-cap.jpg", out="BRAND-05-CAP", x=0.44, y=0.455, w=0.115, ink=1.0),
     dict(src="merch-06-sneakers.jpg", out="BRAND-06-SNEAKERS", x=0.330, y=0.578, w=0.105, ink=0.12),
     dict(src="merch-07-bag.jpg", out="BRAND-07-BAG", x=0.600, y=0.520, w=0.115, ink=0.92, emblem=False),
     dict(src="merch-08-stickers.jpg", out="BRAND-08-STICKERS", x=0.155, y=0.245, w=0.085, ink=0.08, emblem=True, only=True),

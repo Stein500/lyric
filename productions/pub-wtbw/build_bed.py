@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Lit d'ambiance « calme » : 5 extraits posés du catalogue, 4,6 s chacun, fondus 0,5 s.
+Sert de musique aux films CITATIONS / SERVICES (pas de voix off, pas d'IA vocale)."""
+import json
+import subprocess
+import sys
+
+import numpy as np
+
+sys.path.insert(0, "/home/user/lyric/productions/pub-wtbw")
+from build_pub_audio import FF, OUT, SR, decode  # noqa: E402
+
+SEG = 4.6
+XF = 0.5
+PARTS = [
+    ("Mahu ti tebe Eng.mp3", 17.24),
+    ("Calm_in _off_down Daïsky.m4a", 24.82),
+    ("Le goût bon de la vie.mp3", 9.95),
+    ("VIVI OOR.mp3", 8.63),
+    ("Nonvi Konou.mp3", 6.29),
+]
+
+
+def main():
+    parts = []
+    for f, s in PARTS:
+        x = decode(f, s, SEG)
+        n = int(SEG * SR)
+        if len(x) < n:
+            x = np.pad(x, ((0, n - len(x)), (0, 0)))
+        parts.append(x[:n])
+
+    mix = np.zeros((0, 2), dtype=np.float32)
+    n = int(XF * SR)
+    for part in parts:
+        if len(mix) == 0:
+            mix = part
+            continue
+        p = np.linspace(0, 1, n, endpoint=False, dtype=np.float32)[:, None]
+        mix = np.concatenate([mix[:-n],
+                              mix[-n:] * np.cos(p * np.pi / 2) + part[:n] * np.sin(p * np.pi / 2),
+                              part[n:]])
+
+    dur = len(mix) / SR
+    fade = int(1.2 * SR)
+    mix[-fade:] *= np.linspace(1, 0, fade, dtype=np.float32)[:, None] ** 1.3
+    mix[:int(0.4 * SR)] *= np.linspace(0, 1, int(0.4 * SR), dtype=np.float32)[:, None]
+
+    open(f"{OUT}/cache/bed.f32", "wb").write(mix.astype("<f4").tobytes())
+    subprocess.run([FF, "-y", "-hide_banner", "-loglevel", "error", "-f", "f32le", "-ar", str(SR),
+                    "-ac", "2", "-i", f"{OUT}/cache/bed.f32", "-c:a", "pcm_s24le",
+                    f"{OUT}/cache/bed.wav"], check=True)
+    p1 = subprocess.run([FF, "-hide_banner", "-i", f"{OUT}/cache/bed.wav", "-af",
+                         "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
+                        capture_output=True, text=True, check=True)
+    t = p1.stderr
+    js = json.loads(t[t.rindex("{"): t.rindex("}") + 1])
+    af = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}"
+          f":measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}"
+          f":offset={js['target_offset']}:linear=true,aresample=48000")
+    subprocess.run([FF, "-y", "-hide_banner", "-loglevel", "error", "-i", f"{OUT}/cache/bed.wav",
+                    "-af", af, "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-ac", "2",
+                    f"{OUT}/cache/bed.m4a"], check=True)
+    json.dump({"duration": round(dur, 3)}, open(f"{OUT}/cache/bed.json", "w"))
+    print("bed", round(dur, 3), "s")
+
+
+if __name__ == "__main__":
+    main()

@@ -23,7 +23,19 @@ Un **sigle géométrique** + un **lettrage**. Rien d'autre. Pas de dégradé, pa
 
 Pourquoi ça marche : à 8 mm (bouton de manchette, broderie de casquette) on lit encore **un W dans un cercle** ; à 2 m on lit une **pastille de label**.
 
-### 2. Le lettrage
+### 2. Le lettrage (toujours DSKY **et** WTBW)
+
+Trois déclinaisons, toutes construites sur le même sigle :
+
+| Variante | Composition | Où |
+|---|---|---|
+| **stack** | sigle → DSKY (serif) → WTBW (sans, +30 %) → filet → baseline | affiche, t-shirt, sweat, tote |
+| **type** | DSKY / WTBW en très gros, sigle discret dessous | mode, sac de luxe, vinyle |
+| **badge** | pastille ronde, « DSKY · WTBW » courbé en haut, baseline en bas | broderie, étiquette, sticker |
+
+Règle : **le nom complet « DSKY WTBW » doit être lisible sans le sigle.** Le sigle seul ne sert qu'en dessous de 25 mm.
+
+### 2 bis. Le lettrage
 
 - **DSKY** — serif à empattements (Playfair Display / Bodoni), capitales, interlettrage **+16 %**, hauteur de capitale = 30 % de la largeur du bloc.
 - **WTBW** — sans-serif géométrique, capitales, interlettrage **+30 %**, hauteur = 9 % du bloc, placé sous DSKY avec un blanc de 2 %.
