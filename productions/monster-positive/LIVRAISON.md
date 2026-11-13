@@ -28,11 +28,11 @@
 pkg install -y curl && termux-setup-storage
 ```
 ```
-curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DSKY-9x16.mp4 "https://raw.githubusercontent.com/Stein500/lyric/5da23237ee8232dfa9f01dfbf6344b9aeeac082d/productions/monster-positive/livrables/MONSTER-POSITIVE-DSKY-9x16.mp4"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DSKY-9x16.mp4;
-curl -L --retry 3 -C - -o ~/storage/downloads/COVER-tiktok-1080x1920.jpg "https://raw.githubusercontent.com/Stein500/lyric/5da23237ee8232dfa9f01dfbf6344b9aeeac082d/productions/monster-positive/livrables/COVER-tiktok-1080x1920.jpg"; termux-media-scan -v ~/storage/downloads/COVER-tiktok-1080x1920.jpg;
-curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DSKY-master.mp3 "https://raw.githubusercontent.com/Stein500/lyric/5da23237ee8232dfa9f01dfbf6344b9aeeac082d/productions/monster-positive/livrables/master_normalise.mp3"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DSKY-master.mp3
+curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DSKY-9x16.mp4 "https://raw.githubusercontent.com/Stein500/lyric/c8044f640322cc4e51841ce64e81a18d26f173db/productions/monster-positive/livrables/MONSTER-POSITIVE-DSKY-9x16.mp4"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DSKY-9x16.mp4;
+curl -L --retry 3 -C - -o ~/storage/downloads/COVER-tiktok-1080x1920.jpg "https://raw.githubusercontent.com/Stein500/lyric/c8044f640322cc4e51841ce64e81a18d26f173db/productions/monster-positive/livrables/COVER-tiktok-1080x1920.jpg"; termux-media-scan -v ~/storage/downloads/COVER-tiktok-1080x1920.jpg;
+curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DSKY-master.mp3 "https://raw.githubusercontent.com/Stein500/lyric/c8044f640322cc4e51841ce64e81a18d26f173db/productions/monster-positive/livrables/master_normalise.mp3"; termux-media-scan -v ~/storage/downloads/MONSTER-POSITIVE-DSKY-master.mp3
 ```
-Liens raw **figés sur le SHA `5da23237ee8232dfa9f01dfbf6344b9aeeac082d`** (branche `prod/monster-positive`, vérifié `git ls-remote` + tailles blobs API : mp4 29 071 212 o, cover 381 696 o, mp3 9 350 791 o — tous < 50 Mo, en commit ordinaire).
+Liens raw **figés sur le SHA `c8044f640322cc4e51841ce64e81a18d26f173db`** (branche `prod/monster-positive`, vérifié `git ls-remote` + tailles blobs API : mp4 29 071 212 o, cover 381 696 o, mp3 9 350 791 o — tous < 50 Mo, en commit ordinaire).
 
 ## Notes de prod
 - Prompt universel : `PROMPT-UNIVERSEL-v6.5.md` (v6.4 nettoyée le 2026-11-13 : badge « DSKY WTBW », pilule FR cotes §5.7 anti-collage, §5.4 extinction supprimée définitivement) · config : `PROD-CONFIG.md` (v6.5) · contrat : `verses_map.json` + `CARTE-VERS.md`
