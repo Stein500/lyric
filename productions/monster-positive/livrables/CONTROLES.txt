@@ -4,4 +4,4 @@ gels >= 2.5 s (freezedetect -33dB): 0
 loudness: I=-14.0 LUFS, LRA=9.0 LU
 crête (dBTP approx): -2.13 dB
 faststart (ftyp puis moov avant mdat): ftyp@4 moov@36 mdat@-1 -> OK
-taille fichier: 29.6 Mo
+taille fichier: 29.1 Mo
