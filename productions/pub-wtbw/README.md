@@ -17,6 +17,7 @@ plus l'identité visuelle **DSKY · WTBW**.
 | `livrables/universel/UNI-01…10` | salve « universel » : citations, mains, silhouettes, services | 1080×1350 |
 | `livrables/pochettes/POCHE-01…10` | 10 pochettes vedettes + `PLANCHE-10.jpg` (planche de contrôle) | 1080×1080 |
 | `livrables/pochettes/catalogue/POCHE-01…34` | **tout le catalogue** en pochettes du même système | 1080×1080 |
+| `livrables/variations/VAR-01…10` | série « laiton » : duotone chaud, citation à gauche, chiffre 34, frise, annonce | 1080×1350 |
 | `livrables/affiches/AFFICHE-01…10` | 10 affiches services (mariage, anniversaire, mémoire, fête, clip, écriture, éducation, événement, église, partout) + versions story | 1080×1350 / 1080×1920 |
 | `livrables/brand/print/` | fichiers imprimeur (PNG transparents 2400 px + SVG) | vectoriel / 300 dpi |
 
@@ -47,6 +48,7 @@ python3 covers.py --all        # les 34 pochettes du catalogue
 python3 affiches.py            # 10 affiches services (feed)
 python3 affiches.py --story    # les mêmes en 9:16
 python3 universel.py --story   # les 10 cartes universelles en 9:16
+python3 variations.py          # la série chaude « laiton »
 ```
 
 `pub_video.py --stills 3.2,12.0` sort des images fixes pour contrôler la typo avant de rendre.

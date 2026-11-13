@@ -18,6 +18,7 @@ Tout ce qui existe, où c'est, et à quoi ça sert. Dernière mise à jour : apr
 | `livrables/brand/` | 10 | 1080×1350 | planche logo + t-shirt, sweat, tote, casquette, baskets, sac, stickers, cartes, vinyle |
 | `livrables/brand/print/` | 6 | PNG 2400 px + SVG | fichiers imprimeur (lockup, lettrage, badge, sigle) |
 | `livrables/universel/` | 10 (+10 story) | 1080×1350 / 1080×1920 | citations, mains, silhouettes, services, manifeste |
+| `livrables/variations/` | 10 | 1080×1350 | série laiton : duotone chaud, citation à gauche, « 34 », frise de commande, annonce |
 | `livrables/affiches/` | 10 (+10 story) | 1080×1350 / 1080×1920 | mariage, anniversaire, mémoire, fête, clip, écriture, éducation, événement, église, partout |
 | `livrables/pochettes/` | 10 + planche | 1080×1080 | pochettes vedettes |
 | `livrables/pochettes/catalogue/` | 34 | 1080×1080 | tout le catalogue |
