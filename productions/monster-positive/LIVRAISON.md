@@ -35,7 +35,7 @@ curl -L --retry 3 -C - -o ~/storage/downloads/MONSTER-POSITIVE-DSKY-master.mp3 "
 Liens raw **figés sur le SHA `5da23237ee8232dfa9f01dfbf6344b9aeeac082d`** (branche `prod/monster-positive`, vérifié `git ls-remote` + tailles blobs API : mp4 29 071 212 o, cover 381 696 o, mp3 9 350 791 o — tous < 50 Mo, en commit ordinaire).
 
 ## Notes de prod
-- Prompt universel : `PROMPT-UNIVERSEL-v6.4.md` (harmonie v6.0 × v6.3) · config : `PROD-CONFIG.md` · contrat : `verses_map.json` + `CARTE-VERS.md`
+- Prompt universel : `PROMPT-UNIVERSEL-v6.5.md` (v6.4 nettoyée le 2026-11-13 : badge « DSKY WTBW », pilule FR cotes §5.7 anti-collage, §5.4 extinction supprimée définitivement) · config : `PROD-CONFIG.md` (v6.5) · contrat : `verses_map.json` + `CARTE-VERS.md`
 - 49 vers (LRC artiste inchangés) · 44 plans distincts + variante aube (v37) · MODE HYBRIDE : VO peinte + pilule FR défilante
 - 6 fenêtres CTA clochettes · badge clignotant DSKY↔WTBW · cartes SALUT·WTBW / MERCI·WTBW animées · aucun code, aucun lien, aucun logo
 - Texte des vers recopié à l'identique (y compris « lumiere »/« frontiere » sans accent, tels quels dans le fichier artiste)

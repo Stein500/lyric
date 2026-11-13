@@ -1,4 +1,4 @@
-# PROD — MONSTER POSITIVE (config v6.4, verrouillée le 2026-11-11)
+# PROD — MONSTER POSITIVE (config v6.5, verrouillée le 2026-11-13)
 
 ```
 TITRE        : MONSTER POSITIVE
@@ -17,7 +17,9 @@ HABILLAGE    : WTBW SALUT + STICKERS DOUX (Like · Clique sur + pour t'abonner �
 SIGNATURE    : « Wolof TechStein beat 웨 ! » (WTBW)
 MODE         : HYBRIDE (verrouillé) — l'artiste a choisi « peintes » + « les traductions qui défilent »
                = paroles peintes dans le visuel (VO) + pilule FR défilante §5.7 pour les passages non français.
-               EXTINGUISH actif uniquement pour céder la place à la pilule FR (§5.4).
+               AUCUNE extinction : §5.4 supprimé en v6.5 (règle absolue 2026-11-13) — les paroles peintes restent nettes 100 % du temps.
+               Pilule FR : cotes v6.5 §5.7 (y 1444→1556, 32 px auto-fit ≤ 620 px, tracking 6 px, masquée x 198→882).
+               Badge clignotant : « DSKY » ↔ « WTBW » (§7.4).
 DOSSIER      : productions/monster-positive/  (fonds/ livrables/ fonts/ + verses_map.json + CARTE-VERS.md)
 ```
 
@@ -25,7 +27,8 @@ DOSSIER      : productions/monster-positive/  (fonds/ livrables/ fonts/ + verses
 
 ```
 productions/monster-positive/
-├── PROMPT-UNIVERSEL-v6.4.md     (fait — harmonie v6.0 × v6.3)
+├── PROMPT-UNIVERSEL-v6.5.md     (fait — v6.4 nettoyée, correctifs 2026-11-13)
+├── PROMPT-UNIVERSEL-v6.4.md     (archive)
 ├── PROD-CONFIG.md               (ce fichier)
 ├── paroles.txt                  (EN ATTENTE)
 ├── master audio                 (EN ATTENTE — ex. master.mp3)
