@@ -79,7 +79,8 @@ Trois dessins, trois coloris, tailles prêtes. **C'est ce jeu de fichiers qu'on 
 | | `WTBW-{dessin}-transparent-{1080\|2000}.png` | incrustation sur photo / vidéo |
 | | `PLANCHE-LOGO-WTBW.jpg` | planche de contrôle (cercle + carré) |
 | `livrables/brand/story/` | `WTBW-STORY-01…04.jpg` (1080×1920) | stories à publier : marque, lettrage géant, nouveau son, service |
-| `livrables/brand/print/` | `DSKY-WTBW-lockup-*-2400px.png`, `DSKY-WTBW-sigle.svg`, `DSKY-WTBW-badge-*` | **usages longs uniquement** : textile, carte, dos d'affiche, partenaire. Jamais en avatar, jamais sur un visuel social |
+| `livrables/brand/print/` | `WTBW-sigle.svg`, `WTBW-lettrage.svg`, `WTBW-sigle-lettrage.svg` | **vectoriel** : imprimeur, broderie, découpe vinyle (contours de glyphes, aucune IA) |
+| | `DSKY-WTBW-lockup-*-2400px.png`, `DSKY-WTBW-badge-*` | **usages longs uniquement** : textile, carte, dos d'affiche, partenaire. Jamais en avatar, jamais sur un visuel social |
 
 **Règles de choix**
 - avatar / petite taille → **SIGLE** ou **LETTRAGE** (jamais le lockup complet) ;
