@@ -14,6 +14,7 @@ from PIL import Image
 sys.path.insert(0, "/home/user/lyric/productions/pub-wtbw")
 sys.path.insert(0, "/home/user/lyric/productions/imelda-13-novembre")
 import variations as V  # noqa: E402
+import universel as U  # noqa: E402
 import engine as E  # noqa: E402
 
 FF = imageio_ffmpeg.get_ffmpeg_exe()
@@ -55,12 +56,86 @@ def mariage():
     return cards, 20.0, f"{OUT}/cache/bed_mariage.m4a", "FILM-MARIAGE-9x16"
 
 
-FILMS = {"mariage": mariage}
+def memoire():
+    U.H = H
+    P = U.photo
+
+    def q(bg, lines, kick, idx, sub, y):
+        f, _ = U.quote_card(bg, lines, kick, idx, sub=sub, y=y)
+        return f
+
+    cards = [
+        q(P("srv-memoire.jpg", dark=0.34), [
+            ("ON NE CHOISIT PAS SA MÉMOIRE.", "pf", 80, 0.02),
+            ("ON CHOISIT SA CHANSON.", "pfi", 80, 0.02),
+        ], "MÉMOIRE", "01", sub="POUR CEUX QUI RESTENT", y=0.40),
+        q(P("uni-memoire.jpg", dark=0.40), [
+            ("CE QUE LES PHOTOS NE DISENT PAS,", "pf", 76, 0.02),
+            ("LA CHANSON LE CHANTE.", "pfi", 76, 0.02),
+        ], "MÉMOIRE", "02", sub="DSKY · WTBW", y=0.40),
+        q(P("var-album.jpg", dark=0.40), [
+            ("SON NOM, SA DATE,", "pf", 84, 0.03),
+            ("SON HISTOIRE.", "pfi", 84, 0.03),
+        ], "SUR MESURE", "03", sub="RIEN D'INVENTÉ. TOUT DE LUI.", y=0.40),
+        q(P("srv-voix.jpg", dark=0.36), [
+            ("CE QUI RESTE QUAND", "pf", 78, 0.02),
+            ("LA LUMIÈRE S'ÉTEINT.", "pfi", 78, 0.02),
+        ], "MÉMOIRE", "04", sub="LA VOIX, LES MOTS, LE NOM", y=0.40),
+        q(U.charcoal(), [
+            ("PAS DE VOIX IMITÉE.", "pf", 82, 0.03),
+            ("PAS DE VISAGE INVENTÉ.", "pfi", 82, 0.03),
+        ], "LA RÈGLE", "05", sub="SES MOTS, DITS PAR TOI", y=0.46),
+        q(U.charcoal(), [
+            ("UNE CHANSON POUR", "pf", 84, 0.03),
+            ("CEUX QUI RESTENT.", "pfi", 84, 0.03),
+        ], "DSKY · WTBW", "06", sub="POUR QUELLE DATE ?", y=0.46),
+        q(U.charcoal(), [
+            ("DIS-MOI SON NOM.", "pf", 82, 0.03),
+            ("JE T'ÉCRIS SA CHANSON.", "pfi", 82, 0.03),
+        ], "DSKY · WTBW", "07", sub="TIKTOK & YOUTUBE — @DSKYWTBW", y=0.46),
+    ]
+    return cards, 24.0, f"{OUT}/cache/bed_memoire.m4a", "FILM-MEMOIRE-9x16"
+
+
+def anniversaire():
+    V.H = H
+    P = V.photo
+    cards = [
+        V.center_card(P("srv-anniversaire", 0.44), [
+            ("UN ANNIVERSAIRE", "pf", 86),
+            ("ÇA SE CHANTE.", "pfi", 86),
+        ], "ANNIVERSAIRE", "01", sub="PAS LE MÊME 'JOYEUX' POUR TOUT LE MONDE", y=0.44, depth=0.55),
+        V.center_card(P("var-enfants", 0.48), [
+            ("UN MORCEAU QU'ILS ÉCOUTERONT", "pf", 70),
+            ("DANS VINGT ANS.", "pfi", 70),
+        ], "SOUVENIR", "02", sub="POUR UN ENFANT, POUR TOUJOURS", y=0.46, depth=0.66),
+        V.center_card(P("srv-fete", 0.50), [
+            ("TOUTE LA SALLE", "pf", 86),
+            ("CHANTERA TON NOM.", "pfi", 86),
+        ], "SUR MESURE", "03", sub="LE PRÉNOM DANS LE REFRAIN", y=0.44, depth=0.55),
+        V.center_card(V.charcoal(), [
+            ("DE 1 À 100 ANS,", "pf", 82),
+            ("UN MORCEAU POUR CHAQUE ÂGE.", "pfi", 70),
+        ], "DSKY · WTBW", "04", sub="34 MORCEAUX DÉJÀ ÉCRITS", y=0.46),
+        V.center_card(V.charcoal(), [
+            ("TON ANNIVERSAIRE", "pf", 82),
+            ("MÉRITE SA CHANSON.", "pfi", 82),
+        ], "DSKY · WTBW", "05", sub="TIKTOK & YOUTUBE — @DSKYWTBW", y=0.46),
+    ]
+    return cards, 16.0, f"{OUT}/cache/bed_anniversaire.m4a", "FILM-ANNIVERSAIRE-9x16"
+
+
+FILMS = {"mariage": mariage, "memoire": memoire, "anniversaire": anniversaire}
 
 
 def build(name):
     cards, dur, audio, outname = FILMS[name]()
-    base = [Image.fromarray((np.clip(np.clip(c, 0, 1), 0, 1) * 255 + 0.5).astype(np.uint8)) for c in cards]
+    base = []
+    for c in cards:
+        c = np.clip(c, 0, 1)
+        if c.ndim == 2:
+            c = np.stack([c] * 3, axis=-1)
+        base.append(Image.fromarray((c * 255 + 0.5).astype(np.uint8)))
     n = len(base)
     seg = dur / n
     xf = 0.34

@@ -11,6 +11,8 @@ Tout ce qui existe, où c'est, et à quoi ça sert. Dernière mise à jour : apr
 | `FILM-CITATIONS-9x16.mp4` | 20,40 s | 1080×1920 | 8 citations, lit musical calme |
 | `FILM-SERVICES-9x16.mp4` | 13,00 s | 1080×1920 | 4 services + manifeste |
 | `FILM-MARIAGE-9x16.mp4` | 20,00 s | 1080×1920 | série laiton : mariée, danse, cérémonie, refrain, catalogue, promesse |
+| `FILM-MEMOIRE-9x16.mp4` | 24,00 s | 1080×1920 | noir et blanc : cadre, mains, album, chorale, la règle (pas de voix imitée), promesse |
+| `FILM-ANNIVERSAIRE-9x16.mp4` | 16,00 s | 1080×1920 | série laiton : bougies, enfants, salle, tous les âges, promesse |
 
 ## Images
 
@@ -40,6 +42,8 @@ Plans de contrôle : `PLANCHE-10.jpg` (universel, pochettes), `PLANCHE-10-FEED.j
 | `build_bed.py` | `cache/bed.m4a` (21 s) |
 | `build_bed.py --mariage` | `cache/bed_mariage.m4a` (20,5 s) |
 | `film_service.py mariage` | `FILM-MARIAGE-9x16.mp4` (20 s) |
+| `build_bed.py --memoire` / `--anniversaire` | lits graves 24,2 s / festif 16,4 s |
+| `film_service.py memoire` / `anniversaire` | `FILM-MEMOIRE` (24 s) / `FILM-ANNIVERSAIRE` (16 s) |
 | `pub_video.py` / `--bumper` | pubs 28,9 s / 5 s |
 | `film_uni.py` / `--services` | films 20,4 s / 13 s |
 | `logo.py` | 4 déclinaisons + fichiers imprimeur |
@@ -51,7 +55,7 @@ Plans de contrôle : `PLANCHE-10.jpg` (universel, pochettes), `PLANCHE-10-FEED.j
 ## Reste à faire (films, un par un)
 
 1. ~~Film **MARIAGE**~~ ✅ `FILM-MARIAGE-9x16.mp4` (lit : Ayon dèkpè / Tu es trop belle / Vivi O O R / Le goût bon de la vie)
-2. Film **MÉMOIRE** — 25 s, le plus délicat : pas de deepfake, pas de voix clonée.
-3. Film **ANNIVERSAIRE** — 15 s, rythmé.
+2. ~~Film **MÉMOIRE**~~ ✅ `FILM-MEMOIRE-9x16.mp4` (Mahu ti tè gbè / Entre tes mains / Calm in off down / Le goût bon de la vie)
+3. ~~Film **ANNIVERSAIRE**~~ ✅ `FILM-ANNIVERSAIRE-9x16.mp4` (Noukiko / Ça monte ça descend / Gbètché vivi / Le goût bon de la vie)
 4. Film **ÉDUCATION / ateliers** — 20 s, ton documentaire.
 5. Film **CATALOGUE par pochettes** — 30 s, générique des 34 pochettes.

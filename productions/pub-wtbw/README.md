@@ -14,6 +14,8 @@ plus l'identité visuelle **DSKY · WTBW**.
 | `livrables/FILM-CITATIONS-9x16.mp4` | film citations, 8 cartons, lit musical du catalogue | 20,40 s · −14,2 LUFS |
 | `livrables/FILM-SERVICES-9x16.mp4` | film services (mariage, anniversaire, hommage, clip) | 13,00 s · −13,0 LUFS |
 | `livrables/FILM-MARIAGE-9x16.mp4` | film mariage, série laiton | 20,00 s · −14,1 LUFS |
+| `livrables/FILM-MEMOIRE-9x16.mp4` | film mémoire, noir et blanc | 24,00 s · −13,9 LUFS |
+| `livrables/FILM-ANNIVERSAIRE-9x16.mp4` | film anniversaire, série laiton | 16,00 s · −14,1 LUFS |
 | `livrables/brand/BRAND-01…10` | planche identité + 9 mises en situation merch | 1080×1350 |
 | `livrables/universel/UNI-01…10` | salve « universel » : citations, mains, silhouettes, services | 1080×1350 |
 | `livrables/pochettes/POCHE-01…10` | 10 pochettes vedettes + `PLANCHE-10.jpg` (planche de contrôle) | 1080×1080 |
