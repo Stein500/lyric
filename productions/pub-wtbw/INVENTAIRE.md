@@ -21,6 +21,8 @@ Tout ce qui existe, où c'est, et à quoi ça sert. Dernière mise à jour : apr
 | Dossier | Nombre | Format | Quoi |
 |---|---|---|---|
 | `livrables/brand/` | 10 | 1080×1350 | planche logo + t-shirt, sweat, tote, casquette, baskets, sac, stickers, cartes, vinyle |
+| `livrables/brand/logo/` | 26 | PNG (250 / 1080 / 2000 transparent) + planche | **LOGO WTBW SEUL** : sigle, lettrage, sigle+lettrage · 3 coloris · avatar 250 prêt TikTok |
+| `livrables/brand/story/` | 4 | 1080×1920 | stories à publier : marque, lettrage géant, nouveau son, service |
 | `livrables/brand/print/` | 8 | PNG 2400 px + SVG | fichiers imprimeur (lockup, lettrage, badge, sigle) + 2 variantes **état civil STEIN** |
 | `livrables/universel/` | 10 (+10 story) | 1080×1350 / 1080×1920 | citations, mains, silhouettes, services, manifeste |
 | `livrables/variations/` | 10 | 1080×1350 | série laiton : duotone chaud, citation à gauche, « 34 », frise de commande, annonce |
@@ -56,6 +58,7 @@ Plans de contrôle : `PLANCHE-10.jpg` (universel, pochettes), `PLANCHE-10-FEED.j
 | `build_bed.py --education` | `cache/bed_education.m4a` (20,1 s) |
 | `film_service.py education` | `FILM-EDUCATION-9x16.mp4` (20 s) |
 | `film_catalogue.py` / `--stills` | `FILM-CATALOGUE-34-9x16.mp4` (28,8 s) — 34 pochettes |
+| `logo_wtbw.py` | `livrables/brand/logo/` (26) + `livrables/brand/story/` (4) — logo WTBW seul, 250/1080/2000 |
 | `make_termux.py` | `TERMUX.md` (curl de tous les livrables) |
 | `brand_kit.py print_files_stein` | lockups PNG avec la ligne C. JÉSUTONDJI SAMUEL STEIN |
 | `pub_video.py` / `--bumper` | pubs 28,9 s / 5 s |

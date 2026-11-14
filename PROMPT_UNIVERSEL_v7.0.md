@@ -68,22 +68,28 @@ En cas de conflit interne : **orthographe et sens des paroles > audio de l'artis
 - On **télécharge** le PNG ou le SVG et on le **colle** dans le visuel (ou on le fournit tel quel).
 - Si le téléchargement échoue : **on laisse l'emplacement vide** et on le signale. On n'improvise pas un logo.
 
-### 3.2 Les 8 fichiers et leur usage
-| Fichier | Usage |
-|---|---|
-| `DSKY-WTBW-sigle.svg` | source vectorielle : imprimeur, broderie, découpe vinyle, favicon |
-| `DSKY-WTBW-sigle-blanc-2000px.png` | badge, avatar, étiquette, coin de visuel |
-| `DSKY-WTBW-lockup-blanc-2400px.png` | lockup vertical, sur fond sombre (textile clair, écran) |
-| `DSKY-WTBW-lockup-noir-2400px.png` | lockup vertical, sur fond clair (papier, carte) |
-| `DSKY-WTBW-lockup-STEIN-blanc-2400px.png` | idem + ligne d'état civil **C. JÉSUTONDJI SAMUEL STEIN** |
-| `DSKY-WTBW-lockup-STEIN-noir-2400px.png` | idem, sur fond clair |
-| `DSKY-WTBW-lettrage-blanc-2400px.png` | lettrage large (DSKY / WTBW) seul |
-| `DSKY-WTBW-badge-blanc-2000px.png` | badge rond compact |
+### 3.2 LE LOGO OFFICIEL : WTBW SEUL (rien d'autre — pas de nom, pas de baseline longue)
+
+Trois dessins, trois coloris, tailles prêtes. **C'est ce jeu de fichiers qu'on utilise partout.**
+
+| Dossier | Fichiers | Usage |
+|---|---|---|
+| `livrables/brand/logo/` | `WTBW-{SIGLE\|LETTRAGE\|SIGLE-LETTRAGE}-{blanc-sur-charbon\|laiton-sur-charbon\|noir-sur-creme}-250.png` | **avatar TikTok / IG / WhatsApp** (250×250, contenu dans le cercle) |
+| | mêmes noms `-1080.png` | feed, presse, favicon haute densité |
+| | `WTBW-{dessin}-transparent-{1080\|2000}.png` | incrustation sur photo / vidéo |
+| | `PLANCHE-LOGO-WTBW.jpg` | planche de contrôle (cercle + carré) |
+| `livrables/brand/story/` | `WTBW-STORY-01…04.jpg` (1080×1920) | stories à publier : marque, lettrage géant, nouveau son, service |
+| `livrables/brand/print/` | `DSKY-WTBW-lockup-*-2400px.png`, `DSKY-WTBW-sigle.svg`, `DSKY-WTBW-badge-*` | **usages longs uniquement** : textile, carte, dos d'affiche, partenaire. Jamais en avatar, jamais sur un visuel social |
+
+**Règles de choix**
+- avatar / petite taille → **SIGLE** ou **LETTRAGE** (jamais le lockup complet) ;
+- fond sombre → `blanc-sur-charbon` ; fond clair / papier → `noir-sur-creme` ; matière, textile, packaging → `laiton-sur-charbon` ;
+- à 250 px, **aucun texte secondaire n'est lisible** : le nom complet (`C. JÉSUTONDJI SAMUEL STEIN`) ne s'affiche que sur les formats longs.
 
 ### 3.3 Les télécharger (une ligne par fichier, séparées par `;`)
 ```bash
 pkg install -y curl && mkdir -p ~/dsky-brand && cd ~/dsky-brand
-curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/print/DSKY-WTBW-sigle.svg ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/print/DSKY-WTBW-sigle-blanc-2000px.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/print/DSKY-WTBW-lockup-blanc-2400px.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/print/DSKY-WTBW-lockup-noir-2400px.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/print/DSKY-WTBW-lockup-STEIN-blanc-2400px.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/print/DSKY-WTBW-lockup-STEIN-noir-2400px.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/print/DSKY-WTBW-lettrage-blanc-2400px.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/print/DSKY-WTBW-badge-blanc-2000px.png
+curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/logo/WTBW-LETTRAGE-blanc-sur-charbon-250.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/logo/WTBW-SIGLE-blanc-sur-charbon-250.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/logo/WTBW-SIGLE-LETTRAGE-blanc-sur-charbon-250.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/logo/WTBW-LETTRAGE-noir-sur-creme-250.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/logo/WTBW-SIGLE-laiton-sur-charbon-250.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/logo/WTBW-SIGLE-transparent-2000.png ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/print/DSKY-WTBW-sigle.svg ; curl -L -O https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/brand/story/WTBW-STORY-01.jpg
 ```
 Pour figer une version précise : remplacer la branche par un SHA de commit dans l'URL.
 
@@ -153,7 +159,7 @@ Mesures sur 18 plans : **0/18** respectait la boîte de typo demandée. Le modè
 | personnage, décor, lumière, stickers | **générateur d'images** | prompt **« NO TEXT AT ALL »** |
 | paroles peintes | **moteur** `lettering.py` | cuit dans le PNG, boîte `x 150→590 / y 470→750` (natif) |
 | badge, cartes, filet, CTA, pilule FR | **moteur** `render.py` | plein cadre |
-| logo | **fichier téléchargé (§3)**, collé par le moteur | jamais généré |
+| logo | **fichier téléchargé (§3)**, collé par le moteur — avatar 250, sigle ou lettrage | jamais généré |
 | couverture TikTok | générateur + `cover.py` | §11.5 |
 
 Un plan qui contient déjà du texte du modèle est un plan **à refaire**, jamais à maquiller.
@@ -344,7 +350,7 @@ curl -L --retry 3 -C - -o ~/storage/downloads/<TITRE>-<ARTISTE>-9x16.mp4 "<url_r
 
 ## 17 — Interdits permanents (union v6.0 → v7.0)
 
-Drapeau, bannière · code à 4 chiffres ou accroche de rétention · contact, lien, QR, logo **dessiné** dans une image · nudité, anatomie exhibée · photo personnelle envoyée au générateur sans autorisation écrite · cursive sur un CTA · calque typo par-dessus une typo déjà peinte/cuite · horodatages modifiés · validation ou mesure inventée · **texte peint par le générateur** (NO TEXT AT ALL) · **logo redessiné au lieu du fichier §3** · visage caché (masque, capuche, lunettes opaques, texte devant) · badge clignotant vite · badge sans les deux mots · **extinction / flou / assombrissement / voile sur les paroles** · pilule FR resserrée sous les cotes §8.2 · mot inventé · **voix ou musique générée par IA** · visage identifiable sur un visuel d'hommage.
+Drapeau, bannière · code à 4 chiffres ou accroche de rétention · contact, lien, QR, logo **dessiné** dans une image · nudité, anatomie exhibée · photo personnelle envoyée au générateur sans autorisation écrite · cursive sur un CTA · calque typo par-dessus une typo déjà peinte/cuite · horodatages modifiés · validation ou mesure inventée · **texte peint par le générateur** (NO TEXT AT ALL) · **logo redessiné au lieu du fichier §3**, ou nom complet utilisé en avatar 250 · visage caché (masque, capuche, lunettes opaques, texte devant) · badge clignotant vite · badge sans les deux mots · **extinction / flou / assombrissement / voile sur les paroles** · pilule FR resserrée sous les cotes §8.2 · mot inventé · **voix ou musique générée par IA** · visage identifiable sur un visuel d'hommage.
 
 ---
 
