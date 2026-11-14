@@ -102,6 +102,25 @@ def stack(w):
     return np.vstack(blocks)
 
 
+def stack_stein(w):
+    """bloc vertical avec la ligne d'état civil : sigle · DSKY · WTBW · filet · NOM · métiers."""
+    gh = int(w * 0.56)
+    parts = [center_in(sigil(gh), w)]
+    gap = lambda r: np.zeros((int(w * r), w), dtype=np.float32)
+
+    ds, _ = fit_line(w, "DSKY", "pf", 0.125, int(w * 0.27))
+    wt, _ = fit_line(w, "WTBW", "m", 0.32, int(w * 0.145), stroke=max(2, int(w * 0.0045)))
+    nm, _ = fit_line(w, "C. JÉSUTONDJI SAMUEL STEIN", "m", 0.16, int(w * 0.058))
+    mt, _ = fit_line(w, "LYRICISTE · ÉDUCATEUR · BÉNIN", "m", 0.20, int(w * 0.042))
+    ri = Image.new("L", (w, max(2, int(w * 0.004))), 0)
+    ImageDraw.Draw(ri).rectangle([int(w * 0.34), 0, int(w * 0.66), int(w * 0.004) - 1], fill=255)
+    rule = np.asarray(ri, dtype=np.float32) / 255.0
+
+    blocks = [parts[0], gap(0.045), ds, gap(0.010), wt, gap(0.032), rule,
+              gap(0.026), nm, gap(0.012), mt]
+    return np.vstack(blocks)
+
+
 def type_block(w):
     """lettrage fashion : DSKY / WTBW énormes, sigle discret dessous."""
     ds, _ = fit_line(w, "DSKY", "pf", 0.10, int(w * 0.38))

@@ -13,8 +13,9 @@ from build_pub_audio import FF, OUT, SR, decode  # noqa: E402
 
 PRESET = ("mariage" if "--mariage" in sys.argv
           else "memoire" if "--memoire" in sys.argv
-          else "anniversaire" if "--anniversaire" in sys.argv else "calme")
-SEG = {"mariage": 5.5, "memoire": 6.5, "anniversaire": 4.4}.get(PRESET, 4.6)
+          else "anniversaire" if "--anniversaire" in sys.argv
+          else "education" if "--education" in sys.argv else "calme")
+SEG = {"mariage": 5.5, "memoire": 6.5, "anniversaire": 4.4, "education": 5.4}.get(PRESET, 4.6)
 XF = 0.6 if PRESET == "memoire" else 0.4 if PRESET == "anniversaire" else 0.5
 PARTS_MARIAGE = [
     ("Ayon dèkpè.mp3", 11.78),
@@ -34,9 +35,16 @@ PARTS_ANNIV = [
     ("Gbètché vivi.mp3", 8.87),
     ("Le goût bon de la vie.mp3", 9.95),
 ]
+PARTS_EDUC = [
+    ("On a nous volé notre éducation.mp3", 7.51),
+    ("Nan yi a ga djin wê.mp3", 8.43),
+    ("Concentré sur le chemin.mp3", 11.42),
+    ("je me relève toujours 3.mp3", 6.00),
+]
 PARTS = (PARTS_MARIAGE if PRESET == "mariage"
          else PARTS_MEMOIRE if PRESET == "memoire"
-         else PARTS_ANNIV if PRESET == "anniversaire" else [
+         else PARTS_ANNIV if PRESET == "anniversaire"
+         else PARTS_EDUC if PRESET == "education" else [
     ("Mahu ti tebe Eng.mp3", 17.24),
     ("Calm_in _off_down Daïsky.m4a", 24.82),
     ("Le goût bon de la vie.mp3", 9.95),
@@ -70,7 +78,7 @@ def main():
     mix[-fade:] *= np.linspace(1, 0, fade, dtype=np.float32)[:, None] ** 1.3
     mix[:int(0.4 * SR)] *= np.linspace(0, 1, int(0.4 * SR), dtype=np.float32)[:, None]
 
-    base = {"mariage": "bed_mariage", "memoire": "bed_memoire", "anniversaire": "bed_anniversaire"}.get(PRESET, "bed")
+    base = {"mariage": "bed_mariage", "memoire": "bed_memoire", "anniversaire": "bed_anniversaire", "education": "bed_education"}.get(PRESET, "bed")
     open(f"{OUT}/cache/{base}.f32", "wb").write(mix.astype("<f4").tobytes())
     subprocess.run([FF, "-y", "-hide_banner", "-loglevel", "error", "-f", "f32le", "-ar", str(SR),
                     "-ac", "2", "-i", f"{OUT}/cache/{base}.f32", "-c:a", "pcm_s24le",

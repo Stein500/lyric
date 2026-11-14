@@ -196,6 +196,20 @@ def make_item(it, idx):
     return out
 
 
+def print_files_stein():
+    """variante « état civil » : DSKY WTBW + C. JÉSUTONDJI SAMUEL STEIN."""
+    os.makedirs(f"{LIV}/print", exist_ok=True)
+    blk = L.stack_stein(2400)
+    a = Image.fromarray((blk * 255).astype(np.uint8))
+    rgba = Image.new("RGBA", a.size, (255, 255, 255, 0))
+    rgba.putalpha(a)
+    rgba.save(f"{LIV}/print/DSKY-WTBW-lockup-STEIN-blanc-2400px.png")
+    rgba2 = Image.new("RGBA", a.size, (0, 0, 0, 0))
+    rgba2.putalpha(Image.fromarray(((1 - blk) * 255).astype(np.uint8)))
+    rgba2.save(f"{LIV}/print/DSKY-WTBW-lockup-STEIN-noir-2400px.png")
+    return "stein ok " + str(a.size)
+
+
 def print_files():
     """fichiers prêts à imprimer : PNG transparents haute résolution + SVG."""
     os.makedirs(f"{LIV}/print", exist_ok=True)

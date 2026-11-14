@@ -13,13 +13,15 @@ Tout ce qui existe, où c'est, et à quoi ça sert. Dernière mise à jour : apr
 | `FILM-MARIAGE-9x16.mp4` | 20,00 s | 1080×1920 | série laiton : mariée, danse, cérémonie, refrain, catalogue, promesse |
 | `FILM-MEMOIRE-9x16.mp4` | 24,00 s | 1080×1920 | noir et blanc : cadre, mains, album, chorale, la règle (pas de voix imitée), promesse |
 | `FILM-ANNIVERSAIRE-9x16.mp4` | 16,00 s | 1080×1920 | série laiton : bougies, enfants, salle, tous les âges, promesse |
+| `FILM-EDUCATION-9x16.mp4` | 20,00 s | 1080×1920 | série laiton : atelier, écriture, chaîne écriture→master, transmission, 4 métiers, CTA |
+| `FILM-CATALOGUE-34-9x16.mp4` | 28,83 s | 1080×1920 | les 34 pochettes une par une (0,76 s), cartons ouverture/fermeture, lit = montage des hooks |
 
 ## Images
 
 | Dossier | Nombre | Format | Quoi |
 |---|---|---|---|
 | `livrables/brand/` | 10 | 1080×1350 | planche logo + t-shirt, sweat, tote, casquette, baskets, sac, stickers, cartes, vinyle |
-| `livrables/brand/print/` | 6 | PNG 2400 px + SVG | fichiers imprimeur (lockup, lettrage, badge, sigle) |
+| `livrables/brand/print/` | 8 | PNG 2400 px + SVG | fichiers imprimeur (lockup, lettrage, badge, sigle) + 2 variantes **état civil STEIN** |
 | `livrables/universel/` | 10 (+10 story) | 1080×1350 / 1080×1920 | citations, mains, silhouettes, services, manifeste |
 | `livrables/variations/` | 10 | 1080×1350 | série laiton : duotone chaud, citation à gauche, « 34 », frise de commande, annonce |
 | `livrables/affiches/` | 10 (+10 story) | 1080×1350 / 1080×1920 | mariage, anniversaire, mémoire, fête, clip, écriture, éducation, événement, église, partout |
@@ -33,6 +35,10 @@ Plans de contrôle : `PLANCHE-10.jpg` (universel, pochettes), `PLANCHE-10-FEED.j
 - `PROMPT-MAITRE.md` — l'IA interroge, tu valides, elle produit.
 - `PROMPT-PUB-5-30s.md` — 15 / 30 / 60 s, couplet catalogue.
 - `PROMPT-MARQUE.md` — sigle, lettrage, règles merch.
+- `prompts/FILM-MARIAGE.md`, `FILM-MEMOIRE.md`, `FILM-ANNIVERSAIRE.md`, `FILM-EDUCATION.md`,
+  `FILM-CATALOGUE-34.md`, `MARQUE-LOGO.md` — **6 prompts autonomes** : chacun contient tout
+  (brief, découpage, textes exacts, musique, specs techniques, commande, contrôles).
+- `TERMUX.md` — commandes `curl` de téléchargement (zip du dépôt ou fichier par fichier).
 
 ## Scripts
 
@@ -44,6 +50,11 @@ Plans de contrôle : `PLANCHE-10.jpg` (universel, pochettes), `PLANCHE-10-FEED.j
 | `film_service.py mariage` | `FILM-MARIAGE-9x16.mp4` (20 s) |
 | `build_bed.py --memoire` / `--anniversaire` | lits graves 24,2 s / festif 16,4 s |
 | `film_service.py memoire` / `anniversaire` | `FILM-MEMOIRE` (24 s) / `FILM-ANNIVERSAIRE` (16 s) |
+| `build_bed.py --education` | `cache/bed_education.m4a` (20,1 s) |
+| `film_service.py education` | `FILM-EDUCATION-9x16.mp4` (20 s) |
+| `film_catalogue.py` / `--stills` | `FILM-CATALOGUE-34-9x16.mp4` (28,8 s) — 34 pochettes |
+| `make_termux.py` | `TERMUX.md` (curl de tous les livrables) |
+| `brand_kit.py print_files_stein` | lockups PNG avec la ligne C. JÉSUTONDJI SAMUEL STEIN |
 | `pub_video.py` / `--bumper` | pubs 28,9 s / 5 s |
 | `film_uni.py` / `--services` | films 20,4 s / 13 s |
 | `logo.py` | 4 déclinaisons + fichiers imprimeur |
@@ -57,5 +68,7 @@ Plans de contrôle : `PLANCHE-10.jpg` (universel, pochettes), `PLANCHE-10-FEED.j
 1. ~~Film **MARIAGE**~~ ✅ `FILM-MARIAGE-9x16.mp4` (lit : Ayon dèkpè / Tu es trop belle / Vivi O O R / Le goût bon de la vie)
 2. ~~Film **MÉMOIRE**~~ ✅ `FILM-MEMOIRE-9x16.mp4` (Mahu ti tè gbè / Entre tes mains / Calm in off down / Le goût bon de la vie)
 3. ~~Film **ANNIVERSAIRE**~~ ✅ `FILM-ANNIVERSAIRE-9x16.mp4` (Noukiko / Ça monte ça descend / Gbètché vivi / Le goût bon de la vie)
-4. Film **ÉDUCATION / ateliers** — 20 s, ton documentaire.
-5. Film **CATALOGUE par pochettes** — 30 s, générique des 34 pochettes.
+4. ~~Film **ÉDUCATION / ateliers**~~ ✅ `FILM-EDUCATION-9x16.mp4` (On nous a volé notre éducation / Nan yi a ga djin wê / Concentré sur le chemin / Je me relève toujours)
+5. ~~Film **CATALOGUE par pochettes**~~ ✅ `FILM-CATALOGUE-34-9x16.mp4` (34 pochettes, lit = montage des 20 hooks)
+
+**Série complète : 5 films de service + 2 pubs + 1 film citations = 8 vidéos.**

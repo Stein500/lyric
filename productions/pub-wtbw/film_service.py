@@ -125,7 +125,41 @@ def anniversaire():
     return cards, 16.0, f"{OUT}/cache/bed_anniversaire.m4a", "FILM-ANNIVERSAIRE-9x16"
 
 
-FILMS = {"mariage": mariage, "memoire": memoire, "anniversaire": anniversaire}
+def education():
+    V.H = H
+    P = V.photo
+    cards = [
+        V.center_card(P("srv-education", 0.34), [
+            ("J'ÉCRIS AVEC LES JEUNES.", "pf", 64),
+            ("PAS POUR EUX. AVEC EUX.", "pfi", 64),
+        ], "ÉDUCATION", "01", sub="ATELIERS D'ÉCRITURE · BÉNIN", y=0.46, depth=0.52),
+        V.center_card(P("srv-ecriture", 0.44), [
+            ("TROUVER SES MOTS", "pf", 80),
+            ("AVANT DE TROUVER SA VOIX.", "pfi", 70),
+        ], "L'ATELIER", "02", sub="ON N'ÉCRIT PAS UNE CHANSON, ON LA CHERCHE", y=0.44, depth=0.58),
+        V.center_card(P("uni-studio", 0.44), [
+            ("ÉCRIRE.", "pf", 96),
+            ("COMPOSER.", "pf", 96),
+            ("ENREGISTRER.", "pfi", 96),
+        ], "LA CHAÎNE", "03", sub="DU CAHIER AU MASTER", y=0.46, depth=0.56),
+        V.center_card(P("var-enfants", 0.46), [
+            ("LA SCÈNE S'APPREND", "pf", 76),
+            ("COMME UN REFRAIN.", "pfi", 76),
+        ], "TRANSMISSION", "04", sub="RÉPÉTER, RATER, RECOMMENCER", y=0.46, depth=0.62),
+        V.center_card(V.charcoal(), [
+            ("ÉDUCATEUR · PAROLIER", "pf", 66),
+            ("COMPOSITEUR · PRODUCTEUR", "pf", 66),
+        ], "DSKY · WTBW", "05", sub="QUATRE MÉTIERS, UNE SEULE VOIX", y=0.46),
+        V.center_card(V.charcoal(), [
+            ("AMÈNE TES JEUNES.", "pf", 80),
+            ("JE M'OCCUPE DES MOTS.", "pfi", 80),
+        ], "DSKY · WTBW", "06", sub="TIKTOK & YOUTUBE — @DSKYWTBW", y=0.46),
+    ]
+    return cards, 20.0, f"{OUT}/cache/bed_education.m4a", "FILM-EDUCATION-9x16"
+
+
+FILMS = {"mariage": mariage, "memoire": memoire, "anniversaire": anniversaire,
+         "education": education}
 
 
 def build(name):

@@ -136,7 +136,7 @@ def center_card(bg, lines, kicker_txt, idx, sub=None, y=0.55, depth=0.62):
     kicker(f, kicker_txt, idx)
     sizes = [fit(ln[0], ln[1], ln[2], 0.03)[1] for ln in lines]
     base = max(sizes)
-    lh = base * 1.18
+    lh = base * 1.26
     total = lh * len(lines)
     y0 = H * y - total / 2
     for i, (ln, a) in enumerate(zip(lines, sizes)):
