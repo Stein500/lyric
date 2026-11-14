@@ -51,16 +51,19 @@ def main():
     A("cd ~/storage/shared/DSKY-WTBW")
     A("```")
     A("")
-    A("## 1. Le plus rapide : tout le dépôt en zip")
+    A("## 1. Le plus rapide : le script qui télécharge tout (~90 Mo)")
     A("")
     A("```bash")
-    A(f"curl -L -o dsky-wtbw.zip https://codeload.github.com/{REPO}/zip/refs/heads/{BRANCH}")
-    A("unzip -o dsky-wtbw.zip")
-    A(f"cd lyric-{BRANCH.split('/')[-1]}/productions/pub-wtbw/livrables && ls")
+    A(f"curl -L -o get.sh {RAW}/get-livrables.sh")
+    A("bash get.sh")
     A("```")
     A("")
-    A("> Le zip embarque **tout le dépôt**, y compris les 38 pistes audio : plusieurs centaines")
-    A("> de Mo. Sur un forfait mobile, préfère la section 2 (fichier par fichier, ~90 Mo).")
+    A("> Il crée les dossiers (`films/`, `brand/`, `pochettes/`, `affiches/`, `visuels/`,")
+    A("> `variations/`) et y range chaque fichier. Relançable : il reprend où il s'est arrêté")
+    A("> grâce à `curl -C -`.")
+    A("")
+    A("> Le zip du dépôt complet est déconseillé depuis le téléphone : l'historique Git pèse")
+    A("> plus de 10 Go et le zip de branche embarque les 38 pistes audio.")
     A("")
     A("## 2. Fichier par fichier (curl direct, sans zip)")
     A("")
@@ -113,6 +116,31 @@ def main():
     A("> Astuce Termux : `termux-open --content-type video/mp4 films/FILM-MARIAGE-9x16.mp4`")
     A("> ouvre directement le film dans le lecteur du téléphone.")
     open(f"{OUT}/TERMUX.md", "w").write("\n".join(L) + "\n")
+
+    # script de téléchargement direct (Termux / Linux / macOS)
+    SH = ["#!/bin/sh",
+          "# get-livrables.sh — DSKY WTBW : télécharge tous les livrables (repris possible)",
+          "set -u",
+          'DEST="${1:-$HOME/storage/shared/DSKY-WTBW}"',
+          'mkdir -p "$DEST/films" "$DEST/brand" "$DEST/brand-print" "$DEST/pochettes" \\',
+          '         "$DEST/affiches" "$DEST/visuels" "$DEST/variations" || exit 1',
+          'cd "$DEST" || exit 1',
+          ""]
+    FOLD = {"livrables": "films", "livrables/brand/print": "brand-print",
+            "livrables/brand": "brand", "livrables/pochettes/catalogue": "pochettes",
+            "livrables/pochettes": "pochettes", "livrables/affiches": "affiches",
+            "livrables/universel": "visuels", "livrables/variations": "variations"}
+    n = 0
+    for title, d, exts in GROUPS:
+        for e in exts:
+            for f in files(d, e):
+                n += 1
+                SH.append(f'echo "[{n}] {f}"')
+                SH.append(f'curl -L -C - --retry 4 -sS -o "{FOLD[d]}/{f}" "{RAW}/{d}/{f}"')
+    SH += ["", 'echo', 'echo "Terminé : $DEST"', 'ls -1 films']
+    open(f"{OUT}/get-livrables.sh", "w").write("\n".join(SH) + "\n")
+    os.chmod(f"{OUT}/get-livrables.sh", 0o755)
+    print("get-livrables.sh", n, "fichiers")
     print("TERMUX.md", human(total))
 
 

@@ -10,16 +10,19 @@ mkdir -p ~/storage/shared/DSKY-WTBW && termux-setup-storage
 cd ~/storage/shared/DSKY-WTBW
 ```
 
-## 1. Le plus rapide : tout le dépôt en zip
+## 1. Le plus rapide : le script qui télécharge tout (~90 Mo)
 
 ```bash
-curl -L -o dsky-wtbw.zip https://codeload.github.com/Stein500/lyric/zip/refs/heads/arena/9a0dd1bb-lyric
-unzip -o dsky-wtbw.zip
-cd lyric-9a0dd1bb-lyric/productions/pub-wtbw/livrables && ls
+curl -L -o get.sh https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/get-livrables.sh
+bash get.sh
 ```
 
-> Le zip embarque **tout le dépôt**, y compris les 38 pistes audio : plusieurs centaines
-> de Mo. Sur un forfait mobile, préfère la section 2 (fichier par fichier, ~90 Mo).
+> Il crée les dossiers (`films/`, `brand/`, `pochettes/`, `affiches/`, `visuels/`,
+> `variations/`) et y range chaque fichier. Relançable : il reprend où il s'est arrêté
+> grâce à `curl -C -`.
+
+> Le zip du dépôt complet est déconseillé depuis le téléphone : l'historique Git pèse
+> plus de 10 Go et le zip de branche embarque les 38 pistes audio.
 
 ## 2. Fichier par fichier (curl direct, sans zip)
 
@@ -37,7 +40,7 @@ curl -L -o "FILM-CATALOGUE-34-9x16.mp4" \
 curl -L -o "FILM-CITATIONS-9x16.mp4" \
   https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/FILM-CITATIONS-9x16.mp4    # 8.8 Mo
 curl -L -o "FILM-EDUCATION-9x16.mp4" \
-  https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/FILM-EDUCATION-9x16.mp4    # 524 ko
+  https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/FILM-EDUCATION-9x16.mp4    # 5.9 Mo
 curl -L -o "FILM-MARIAGE-9x16.mp4" \
   https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/FILM-MARIAGE-9x16.mp4    # 5.8 Mo
 curl -L -o "FILM-MEMOIRE-9x16.mp4" \
@@ -319,7 +322,7 @@ curl -L -o "VAR-10-ANNONCE.jpg" \
   https://raw.githubusercontent.com/Stein500/lyric/arena/9a0dd1bb-lyric/productions/pub-wtbw/livrables/variations/VAR-10-ANNONCE.jpg    # 195 ko
 ```
 
-Total des fichiers ci-dessus : **92.1 Mo**.
+Total des fichiers ci-dessus : **97.5 Mo**.
 
 ## 3. Vérifier après téléchargement
 
