@@ -1,3 +1,11 @@
+# 📌 CE FICHIER EST PÉRIMÉ — LA VERSION EN VIGUEUR EST `PROMPT_UNIVERSEL_v7.0.md`
+
+> **v7.0 (2026-11-14)** : marque téléchargée depuis GitHub (8 fichiers), registres LAITON et
+> MÉMOIRE N&B, chapitre formats de sortie, captions/hashtags, livraison Termux une ligne par fichier.
+> Le document ci-dessous (v4.2) n'est conservé que pour l'historique.
+
+---
+
 # 🎬 PROMPT UNIVERSEL DE PRODUCTION LYRICS — v4.2 (FINALE RIGOUREUSE)
 
 **Artiste de référence :** Daïsky  

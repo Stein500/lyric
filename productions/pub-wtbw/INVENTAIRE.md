@@ -38,6 +38,7 @@ Plans de contrôle : `PLANCHE-10.jpg` (universel, pochettes), `PLANCHE-10-FEED.j
 - `prompts/FILM-MARIAGE.md`, `FILM-MEMOIRE.md`, `FILM-ANNIVERSAIRE.md`, `FILM-EDUCATION.md`,
   `FILM-CATALOGUE-34.md`, `MARQUE-LOGO.md` — **6 prompts autonomes** : chacun contient tout
   (brief, découpage, textes exacts, musique, specs techniques, commande, contrôles).
+- `README.md` racine : `PROMPT_UNIVERSEL_v7.0.md` (prompt maître v7.0, marque GitHub incluse)
 - `TERMUX.md` — installation Termux + script `get-livrables.sh` (tout en une commande).
 - `COMMANDES.md` — **un `curl` par fichier** (126 fichiers), copiable ligne par ligne.
 - `LEGENDES.md` — **une légende par vidéo** : TikTok/Reels, Statut WhatsApp, hashtags.
