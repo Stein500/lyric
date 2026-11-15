@@ -80,14 +80,23 @@ PATHS = [
 ]
 
 
-def camera_window(big, k, amp=0.06):
-    """Fenêtre 1080x1920 glissant dans le fond agrandi ; jamais de bord découvert."""
+def camera_window(big, k, amp=0.10):
+    """Fenêtre 1080x1920 glissant dans le fond agrandi ; jamais de bord découvert.
+
+    Correctif « gel » : les trajectoires étaient des sinus. Près des extrémités, la
+    dérivée s'annule, la position entière arrête de changer et ffmpeg signale un gel
+    de plus d'une seconde (freezedetect). Les deux axes suivent désormais des rampes
+    TRIANGULAIRES linéaires, de périodes différentes : le point de recadrage bouge à
+    chaque instant, sauf à l'exact instant de rebroussement.
+    """
     bw, bh = big.size
     sx, sy = bw - W, bh - H
     amp = min(amp, 1.0)
-    # position normalisée dans [0,1] réduite à l'amplitude utile
-    ux = 0.5 + (amp / 2) * (2 * (0.5 + 0.5 * math.sin(2 * math.pi * k)) - 1)
-    uy = 0.5 + (amp / 2) * (2 * (0.5 + 0.5 * math.cos(2 * math.pi * k * 0.7)) - 1)
+    ph = k % 1.0
+    tri_x = 1.0 - abs(2.0 * ph - 1.0)                 # 0 -> 1 -> 0, linéaire
+    tri_y = 1.0 - abs(2.0 * ((ph * 0.73) % 1.0) - 1.0)  # autre période
+    ux = 0.5 + (amp / 2) * (2 * tri_x - 1)
+    uy = 0.5 + (amp / 2) * (2 * tri_y - 1)
     x = int(max(0, min(sx, ux * sx)))
     y = int(max(0, min(sy, uy * sy)))
     return big.crop((x, y, x + W, y + H))

@@ -11,19 +11,19 @@ TITRE EXACT              : Mesías (Live)
 ARTISTE À L'ÉCRAN        : Averly Morillo              (orthographe vérifiée sur la source)
 LANGUES                  : espagnol (chant, défilant) / français (traduction, peinte)
 PAROLES ET HORODATAGES   : data/paroles_source.lrc      (source lrclib.net id 7723062, durée 743 s)
-AUDIO MAÎTRE             : data/master_mesias_audio_only.mp3  (piste audio du MP3 fourni, copie sans réencodage)
+AUDIO DE TRAVAIL         : livrables/Averly Morillo - MESIAS (master normalise -14LUFS).mp3  (MP3 320, 48 kHz)
 PAROLES AFFICHÉES        : espagnol = source intacte ; français = data/traduction_fr.py (traduction de travail à valider)
 MODE                     : HYBRIDE (espagnol défilant + traduction peinte)
 PEINTURE                 : MOTEUR (PIL, Bebas Neue, contour par dilatation)
 COULEUR                  : COULEUR + palette indigo / ambre / crème (validée sur ancre)
 STYLE                    : anime seinen peint, aquarelle douce, encrage net
 PERSONNAGE / ANCRE       : assets/ancre_01.png — PROPOSÉE, non encore validée par l'artiste
-INTRO / OUTRO            : intro carte titre/artiste 0 → 16,84 s ; outro 5,00 s à la fin du morceau
+INTRO / OUTRO            : intro carte titre 0 → 16,84 s ; carte finale 739,349 → 744,705 s + 5,00 s
 FILET                    : oui, en haut (y = 186) — la place de y = 1560 est prise par le bandeau
 BANDEAU DÉFILANT         : oui ; texte = paroles espagnoles (3 lignes, y = 1252 → 1452)
 STICKERS / CTA           : non demandés pour l'instant
-TEASER                   : 15,00 s ; extrait PROPOSÉ [04:31,39 → 04:46,39] (refrain) — non validé
-VERSIONS                 : maquette de démonstration + versions finales à venir
+TEASER                   : 15,00 s = [07:44,13 → 07:59,13], vers 127-131 (« Poderoso Dios / Cuanta belleza »)
+VERSIONS                 : clip complet 12:29,705 · teaser 15,00 s · 3 couvertures 1080x1920
 DOSSIER                  : productions/mesias/
 ```
 
@@ -115,31 +115,7 @@ doit encore bouger.
 
 ---
 
-## 3 bis — BLOCAGE LEVÉ
-
-
-
-Je n'ai **pas** téléchargé « le MP3 en ligne ». Raisons vérifiables :
-
-1. Les paroles de cet enregistrement sont protégées (écrivains crédités : Averly Morillo,
-   Janiel Ponciano, Jose Silverio Green, Junior Ponciano) et le flux officiel n'est pas
-   accessible depuis cet environnement ; les copies qui circulent sur des hébergeurs tiers
-   sont des republications non autorisées.
-2. Le prompt v7 §3 impose d'utiliser **l'audio maître réel fourni par l'artiste**, jamais un
-   fichier récupéré au hasard : une prise live de 12:23 peut décaler de plusieurs secondes,
-   ce qui ruinerait la synchronisation de 190 vers.
-3. Sans le fichier, je ne peux pas mesurer les fins de vers, vérifier les syllabes tenues ni
-   placer un CTA sans risque.
-
-**Ce qu'il me faut :** `Mesías (Live) — Averly Morillo` en MP3 (ou WAV/M4A), poussé sur **`master`**
-(le dépôt `Stein500/lyric` n'a pas de branche `main` : la branche par défaut s'appelle `master`).
-Vérifié le 15/11/2026 : aucun fichier MESÍAS n'y est encore ; seul `i'm not dying 1 Techstein.mp3`
-est présent. Dès qu'il arrive, je mesure durée décodée, LUFS, crête vraie et LRA, puis je recale
-le contrat sur le fichier réel.
-
----
-
-## 3 bis — RÈGLE DE PRODUCTION VISUELLE
+## 4 — RÈGLE DE PRODUCTION VISUELLE
 
 - **Images polyvalentes** (décision du 15/11/2026) : les vers 1 → 30 gardent leur plan dédié
   (progression d'ouverture), puis les vers 31 → 190 puisent dans un **pool réutilisable de 10 plans
@@ -162,7 +138,7 @@ le contrat sur le fichier réel.
 
 ---
 
-## 4 — DÉCISIONS QUI RESTENT À PRENDRE
+## 5 — DÉCISIONS QUI RESTENT À PRENDRE
 
 1. **Ancre** : le personnage ci-dessous te convient-il (visage, cheveux, tunique blanche, palette
    indigo/ambre/crème) avant que je génère les 108 plans restants ?
@@ -174,7 +150,7 @@ le contrat sur le fichier réel.
 
 ---
 
-## 5 — COMMANDES DE REPRODUCTION
+## 6 — COMMANDES DE REPRODUCTION
 
 ```sh
 cd productions/mesias

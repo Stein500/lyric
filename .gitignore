@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 productions/*/data/master_*.mp3
 productions/*/data/*.wav
+productions/*/work/clip_seg*.mp4
+productions/*/work/teaser_body.mp4
+# le clip complet dépasse la limite GitHub de 100 Mo par fichier : il est publié
+# en release (voir productions/mesias/PUBLICATION.md), pas dans l'historique git
+productions/*/livrables/*(clip lyrics*).mp4

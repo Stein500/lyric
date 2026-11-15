@@ -43,7 +43,26 @@ INDIGO = (10, 14, 30)
 _CARD_BG = {}
 
 
-def card_background(img_name, blur=28, dark=0.58, scale=1.14):
+def card_pan(base, k, amp=0.9):
+    """Panoramique lent sur le fond de carte : une carte n'est jamais une image figée.
+
+    `amp` s'exprime en fraction du DÉBATTEMENT disponible. Avec `scale=1.22`, il n'y a
+    que 238 px de marge horizontale : une amplitude de 9 % ne donnait que 21 px, soit
+    0,11 px par frame à l'intro — l'arrondi entier figeait l'image et ffmpeg signalait
+    un gel de 12 s. À 90 % du débattement, le point de recadrage avance de ~1 px/frame.
+    """
+    bw, bh = base.size
+    sx, sy = bw - W, bh - H
+    ph = k % 1.0
+    tri = 1.0 - abs(2.0 * ((ph * 0.81) % 1.0) - 1.0)
+    ux = 0.5 + (amp / 2) * (2 * tri - 1)
+    uy = 0.5 + (amp / 2) * (2 * (1.0 - tri) - 1)
+    x = int(max(0, min(sx, ux * sx)))
+    y = int(max(0, min(sy, uy * sy)))
+    return base.crop((x, y, x + W, y + H))
+
+
+def card_background(img_name, blur=28, dark=0.58, scale=1.30):
     """Fond de carte : le seul endroit où le flou est autorisé (règle v7.0).
 
     Calculé UNE seule fois puis mémorisé : le flou gaussien de 1080x1920 est cher,
@@ -55,9 +74,11 @@ def card_background(img_name, blur=28, dark=0.58, scale=1.14):
     path = os.path.join(ROOT, "work", "base", img_name)
     im = Image.open(path).convert("RGB")
     big = im.resize((int(W * scale), int(H * scale)), Image.LANCZOS)
-    ox, oy = (big.width - W) // 2, (big.height - H) // 2
-    bg = big.crop((ox, oy, ox + W, oy + H)).filter(ImageFilter.GaussianBlur(blur))
-    bg = Image.blend(bg, Image.new("RGB", (W, H), INDIGO), dark)
+    # on renvoie l'image SURDIMENSIONNÉE (pas encore recadrée) : c'est elle que
+    # `card_pan` fait glisser. La version précédente renvoyait déjà un recadrage
+    # 1080x1920, donc il ne restait aucun débattement et la carte était figée.
+    bg = big.filter(ImageFilter.GaussianBlur(blur))
+    bg = Image.blend(bg, Image.new("RGB", bg.size, INDIGO), dark)
     _CARD_BG[key] = bg
     return bg
 
@@ -104,7 +125,6 @@ def intro_layers():
         return _INTRO["layers"]
     bg = card_background("pool_20_aube_horizon.png", blur=30, dark=0.58)
     head = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    head.paste(bg, (0, 0))
     badge_layer(head)
     title = centered([("MESÍAS", 168, CREAM + (255,), 190),
                       ("AVERLY MORILLO", 54, AMBER + (255,), 96),
@@ -114,15 +134,16 @@ def intro_layers():
     foot = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(foot).text((46, 1790), "LYRICS WTBW", font=R.font(30),
                               fill=(150, 156, 172, 255))
-    _INTRO["layers"] = (head, title, fr, foot)
+    _INTRO["layers"] = (bg, head, title, fr, foot)
     return _INTRO["layers"]
 
 
 def intro_card(m, t_local, dur):
     """Carte titre : fondu d'entrée, sortie rapide, fond flouté (autorisé ici)."""
-    head, title, fr, foot = intro_layers()
+    bg, head, title, fr, foot = intro_layers()
     a = max(0.0, min(1.0, t_local / 1.2)) * max(0.0, min(1.0, (dur - t_local) / 0.8))
     lay = head.copy()
+    lay.paste(card_pan(bg, t_local / max(1.0, dur)), (0, 0))
     t2 = title.copy()
     t2.putalpha(t2.getchannel("A").point(lambda v: int(v * a)))
     lay.alpha_composite(t2)
@@ -146,7 +167,6 @@ def end_card(m, t_local, dur):
     if "layers" not in _END:
         bg = card_background("pool_18_tempete_ciel.png", blur=28, dark=0.62)
         head = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-        head.paste(bg, (0, 0))
         badge_layer(head)
         title = centered([("MESÍAS", 150, CREAM + (255,), 176),
                           ("AVERLY MORILLO", 52, AMBER + (255,), 120),
@@ -157,10 +177,11 @@ def end_card(m, t_local, dur):
         d.text((46, 1706), "PAROLES ORIGINALES · TRADUCTION FR AFFICHÉE",
                font=R.font(28), fill=(170, 176, 192, 255))
         d.text((46, 1750), "LYRICS WTBW", font=R.font(28), fill=(232, 163, 61, 220))
-        _END["layers"] = (head, title, foot)
-    head, title, foot = _END["layers"]
+        _END["layers"] = (bg, head, title, foot)
+    bg, head, title, foot = _END["layers"]
     a = max(0.0, min(1.0, t_local / 0.9))
     lay = head.copy()
+    lay.paste(card_pan(bg, t_local / max(1.0, dur)), (0, 0))
     t2 = title.copy()
     t2.putalpha(t2.getchannel("A").point(lambda v: int(v * a)))
     lay.alpha_composite(t2)
@@ -340,7 +361,8 @@ def main():
                         "-i", tmp, "-ss", str(t0), "-t", "15", "-i", audio,
                         "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy",
                         "-c:a", "aac", "-b:a", "256k", "-ar", "48000",
-                        "-shortest", "-movflags", "+faststart", out], check=True)
+                        "-af", "apad=whole_dur=15.0", "-t", "15.0",
+                        "-movflags", "+faststart", out], check=True)
         print("teaser :", out, "(vers", i0, "->", i1, ")")
         return
 
@@ -357,7 +379,11 @@ def main():
                "-i", lst, "-i", args.audio,
                "-map", "0:v:0", "-map", "1:a:0",
                "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-ar", "48000",
-               "-shortest", "-movflags", "+faststart", out]
+               # le morceau s'arrête à 744,705 s mais le clip dure 749,705 s :
+               # on PROLONGE le silence de la carte finale (apad) au lieu de couper
+               # la vidéo avec -shortest, qui rognait les 5 secondes de fin.
+               "-af", "apad=whole_dur=749.705", "-t", "749.705",
+               "-movflags", "+faststart", out]
         subprocess.run(cmd, check=True)
         print("clip assemblé :", out)
 
