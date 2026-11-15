@@ -168,20 +168,30 @@ def bake_text(img, text, maxw=TEXT_MAX_W, maxlines=3, top=None,
 
 
 # ---------------------------------------------------------------- bandeau espagnol
-def scrim(img, y0, y1, strength=104):
-    """Voile sombre DERRIÈRE le bandeau (jamais sur les glyphes) pour un contraste stable."""
-    top, bot = max(0, y0 - 90), min(H, y1 + 40)
-    grad = Image.new("L", (1, bot - top))
-    for i in range(bot - top):
+def scrim(img, y0, y1, strength=104, feather=90):
+    """Voile sombre DERRIÈRE le bandeau (jamais sur les glyphes), pour un contraste stable.
+
+    Correctif lisibilité v3 : la rampe verticale était tracée à la main puis étirée,
+    ce qui laissait une ARÊTE horizontale visible aux deux extrémités (on voyait la
+    ligne où le voile s'arrêtait). Elle est désormais calculée par une courbe en
+    smoothstep, donc l'alpha arrive à zéro avec une pente nulle : plus de bord.
+    """
+    top, bot = max(0, y0 - feather), min(H, y1 + feather // 2)
+    h = bot - top
+    grad = Image.new("L", (1, h))
+    for i in range(h):
         y = top + i
-        a = strength
         if y < y0:
-            a = int(strength * max(0.0, (y - (y0 - 90)) / 90.0))
+            t = (y - (y0 - feather)) / float(feather)
         elif y > y1:
-            a = int(strength * max(0.0, 1 - (y - y1) / 40.0))
-        grad.putpixel((0, i), max(0, min(255, a)))
-    grad = grad.resize((W, bot - top))
-    lay = Image.new("RGB", (W, bot - top), (8, 10, 20))
+            t = 1.0 - (y - y1) / float(feather // 2)
+        else:
+            t = 1.0
+        t = max(0.0, min(1.0, t))
+        smooth = t * t * (3 - 2 * t)          # pente nulle aux extrémités
+        grad.putpixel((0, i), max(0, min(255, int(strength * smooth))))
+    grad = grad.resize((W, h))
+    lay = Image.new("RGB", (W, h), (8, 10, 20))
     img.paste(lay, (0, top), grad)
 
 
