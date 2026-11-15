@@ -26,3 +26,10 @@
 - Demande de l'artiste : toutes les images en portrait de résolution identique, adaptées à TikTok.
 - Salve 3 : 8 demandées, 8 générées, 0 échec technique (`scene-18.png` à `scene-25.png`). Vérification initiale : `scene-19` répète « les » et doit être refaite ; les autres restent à contrôler en détail, notamment zones sûres et ponctuation.
 - Les 25 images générées disposent maintenant d'une version de travail JPEG 1080×1920 dans `portrait-1080x1920/` ; dimensions vérifiées. Le script `outils/format_tiktok.py` conserve l'image entière et ajoute des marges noires si nécessaire plutôt que de couper les paroles. Les images de source plus larges présentent des bandes plus marquées ; ce ne sont pas des versions finales validées et la conformité des zones sûres reste à contrôler.
+
+## Suite — salve 4
+
+- Salve 4 : 8 demandées, 8 générées, 0 échec technique (`scene-26.png` à `scene-33-aube.png`) ; cinq vers supplémentaires et trois variantes d'aube du refrain final.
+- 33 versions de travail au total dans `portrait-1080x1920/`, dimensions vérifiées. Sources de cette salve : 768×1376.
+- Vérification initiale : la virgule de `scene-27` passe au début de la ligne suivante ; la progression lumineuse de `scene-30` après `scene-29` nécessite correction. Les images restent à contrôler pour la typographie exacte, le placement et la continuité avant rendu. Planche de contact et crops natifs enregistrés.
+- Restent notamment le dernier vers du refrain final et la signature en variante d'aube, les corrections des salves, le calage, la couverture et le rendu complet.
