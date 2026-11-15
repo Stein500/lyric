@@ -65,13 +65,37 @@ def draw_card(bg,t,duration,kind):
         d.text((cx-124,cy+4),sub,font=font(11),fill=(194,194,194))
     return im
 
+def draw_cinematic_intro(bg, t, duration):
+    """Inspired by the restrained serif reveal and fine ornaments of the reference."""
+    base=draw_card(bg,t,duration,'intro')
+    if t >= 2.65:
+        return base
+    x=round(30+8*math.sin(t*.5)); y=round(53+8*math.cos(t*.48))
+    first=bg.crop((x,y,x+W,y+H)); d=ImageDraw.Draw(first)
+    # Fine floating points are confined to the card, not the lyric images.
+    for i in range(26):
+        px=45+(i*89)%450; py=120+(i*127-int(t*(7+i%4)))%610
+        v=65+int(35*(.5+.5*math.sin(t*1.4+i)))
+        d.ellipse((px,py,px+1,py+1),fill=(v,v,v))
+    a=min(1.0,max(0.0,(t-.2)/.8))
+    rule=int(95*min(1,t/.9)); d.line((270-rule,355,270+rule,355),fill=(100,100,100),width=1)
+    serif=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf',52)
+    d.text((270,380),'SANGUIN',font=serif,fill=(int(245*a),)*3,anchor='mt')
+    d.text((270,455),'D S K Y  ·  W T B W',font=font(13),fill=(int(185*a),)*3,anchor='mt')
+    heart(d,270,535,30,min(1,max(0,(t-.6)/1.1)))
+    # Crossfade into the welcome and animated stickers without changing audio timing.
+    u=max(0.0,min(1.0,(t-2.15)/.5))
+    return Image.blend(first,base,u)
+
 def render(kind,source,frames):
-    output=ROOT/'livrables'/f'APERCU-{kind}-muet.mp4'; bg=background(source); duration=frames/FPS
+    output=ROOT/'livrables'/f'APERCU-{kind}-inspire-muet.mp4'; bg=background(source); duration=frames/FPS
     ff=imageio_ffmpeg.get_ffmpeg_exe()
     args=[ff,'-y','-hide_banner','-loglevel','error','-f','rawvideo','-pix_fmt','rgb24','-s',f'{W}x{H}','-r',str(FPS),'-i','-', '-an','-vf','scale=1080:1920:flags=lanczos','-c:v','libx264','-preset','veryfast','-crf','24','-pix_fmt','yuv420p','-movflags','+faststart',str(output)]
     p=subprocess.Popen(args,stdin=subprocess.PIPE)
     try:
-        for i in range(frames): p.stdin.write(draw_card(bg,i/FPS,duration,kind).tobytes())
+        for i in range(frames):
+            frame=draw_cinematic_intro(bg,i/FPS,duration) if kind=='intro' else draw_card(bg,i/FPS,duration,kind)
+            p.stdin.write(frame.tobytes())
     finally: p.stdin.close()
     if p.wait()!=0: raise RuntimeError('Échec encodage '+kind)
     print(output,frames,'frames')
