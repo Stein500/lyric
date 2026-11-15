@@ -45,3 +45,9 @@
 - Salve 6 : 8 corrections demandées, 8 générées, 0 échec technique (`scene-02`, `03`, `04`, `05`, `06`, `08`, `09`, `11`, suffixe `-correction`). La carte provisoire utilise ces propositions ; contrôle détaillé 1:1, zones sûres et continuité toujours nécessaires.
 - Mesure du fichier source `Sanguin.mp3` avec FFmpeg 9.0.2, filtre `ebur128=peak=true` : durée décodée relevée 172,799979 s, niveau intégré −14,2 LUFS, LRA 10,3 LU, crête vraie −1,3 dBTP. `silencedetect=noise=-50dB:d=1` signale un silence final de 170,867771 à 172,799979 s. Ces chiffres concernent uniquement la source, pas un master final ni un clip.
 - Aucun montage ni contrôle final du clip réalisé à ce stade.
+
+## Prototypes animés d'habillage
+
+- À la demande de l'artiste : prototypes muets d'introduction et de fin dans `livrables/APERCU-intro-muet.mp4` et `livrables/APERCU-outro-muet.mp4` ; ils ne sont pas le clip final.
+- Cartes dessinées par `outils/cartes_animees.py` : dérive douce du fond flouté, salut en deux temps avec fondu, trois stickers flottants, cœur vectoriel dont le contour se dessine, et aucune expansion de WTBW. Intro 148 images à 30 i/s (4,933 s) ; outro 150 images (5,000 s) ; encodées en 1080×1920 à partir d'un prototype dessiné en 540×960. Aucun son dans ces aperçus.
+- Prototypes non encore validés, grain et tous les contrôles du rendu final non réalisés. Les fichiers source de paroles continuent à nécessiter des contrôles. Le montage complet reste à faire.
