@@ -20,3 +20,9 @@
 - Salve 2 : 8 demandées, 8 générées, 0 échec technique (`scene-10.png` à `scene-17.png`, vers de 00:45.43 à 01:06.18).
 - Contrôle initial : ponctuation manquante sur les scènes 10 et 17, point supplémentaire sur la scène 13 ; certaines images ont un format 848×1264 au lieu de 768×1376. Images à corriger et à contrôler avant rendu, pas de validation finale revendiquée.
 - Il reste les autres vers à illustrer, les contrôles 1:1, le montage, la couverture et les mesures finales.
+
+## Format TikTok et salve 3
+
+- Demande de l'artiste : toutes les images en portrait de résolution identique, adaptées à TikTok.
+- Salve 3 : 8 demandées, 8 générées, 0 échec technique (`scene-18.png` à `scene-25.png`). Vérification initiale : `scene-19` répète « les » et doit être refaite ; les autres restent à contrôler en détail, notamment zones sûres et ponctuation.
+- Les 25 images générées disposent maintenant d'une version de travail JPEG 1080×1920 dans `portrait-1080x1920/` ; dimensions vérifiées. Le script `outils/format_tiktok.py` conserve l'image entière et ajoute des marges noires si nécessaire plutôt que de couper les paroles. Les images de source plus larges présentent des bandes plus marquées ; ce ne sont pas des versions finales validées et la conformité des zones sûres reste à contrôler.
