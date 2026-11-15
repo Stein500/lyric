@@ -9,7 +9,8 @@ sur les fichiers livrés — aucune valeur n'est reprise d'une promesse.
 
 | Fichier | Ce que c'est | Poids |
 |---|---|---|
-| `Averly Morillo - MESIAS (clip lyrics 1080x1920).mp4` | **le clip complet**, 12:29,71 | 274,6 Mo |
+| `Averly Morillo - MESIAS (clip lyrics 1080x1920).mp4` | **le clip complet**, master de travail, 12:29,71 | 274,6 Mo |
+| `MESIAS_clip_1080x1920_leger.mp4` | **le clip complet publiable**, même montage, débit réduit | ~59 Mo |
 | `MESIAS_teaser_15s_1080x1920.mp4` | **le teaser**, 450 frames = 15,00 s | 5,1 Mo |
 | `MESIAS_couverture_TikTok_1080x1920.jpg` | couverture principale, portrait | 332 Ko |
 | `MESIAS_couverture_variante_visage_1080x1920.jpg` | variante gros visage | 550 Ko |
@@ -89,7 +90,33 @@ Décalage d'affichage : **−0,25 s** sur toutes les entrées (validé à l'éco
 
 ---
 
-## 6 — Publications
+## 6 — Le transfert du fichier lourd : ce qui a été tenté, ce qui a échoué
+
+Le clip master pèse **274,6 Mo**. GitHub refuse tout fichier de plus de **100 Mo** (erreur
+`GH001`, crochet `pre-receive`). Trois voies ont été essayées :
+
+1. **Pousser le fichier sur la branche** → refusé par GitHub (`GH001`, `pre-receive hook declined`).
+2. **Le sortir de l'historique et le mettre en release** (`gh release upload`, qui accepte 2 Go
+   par fichier) : la release `mesias-clip-v1` a bien été créée, mais l'upload échoue
+   systématiquement — `uploads.github.com` et `objects.githubusercontent.com` sont **injoignables
+   depuis cet environnement** (`curl` renvoie `SSL_ERROR_SYSCALL`, code 000). Le compte a alors
+   0 asset. Ce n'est pas une erreur de droits, c'est le réseau qui est fermé.
+3. **Réencoder une version légère et la versionner** → retenu. Le débit a été calibré par
+   mesure : CRF 29 donnait 124 Mo (encore trop), la combinaison **CRF 31 + `maxrate` 1150 kb/s**
+   tient sous la limite et reste lisible — vérifié à l'œil sur un extrait à 400 %.
+
+**Ce qui reste à faire côté machine connectée**, si tu veux publier le master complet en release :
+
+```sh
+gh release upload mesias-clip-v1 "productions/mesias/livrables/Averly Morillo - MESIAS (clip lyrics 1080x1920).mp4"
+```
+
+La release existe déjà, elle est vide. Une fois ce fichier envoyé, `PUBLICATION.md` §5 devient
+utilisable tel quel pour le téléchargement direct.
+
+---
+
+## 7 — Publications
 
 Voir `PUBLICATION.md` : deux descriptions complètes, 13 hashtags chacune (maximum respecté),
 la déclaration d'IA, les commandes Termux et les empreintes de vérification.
