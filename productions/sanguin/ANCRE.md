@@ -64,3 +64,8 @@
 - `livrables/SANGUIN-DSKY-WTBW-9x16-BROUILLON.mp4` : première version de travail 1080×1920, 30 i/s, 5 334 images, 177,80 s, avec le maître original encodé en AAC et 5 s de silence final. Introduction approuvée et carte finale prototypes ; badge alternant DSKY/WTBW et léger travelling.
 - Mesures sur ce brouillon avec FFmpeg 9.0.2 : blackdetect `d=0.05:pix_th=0.10` : aucun intervalle détecté ; `freezedetect=n=-33dB:d=2.5` : 11 débuts de gel détectés, notamment sur des plans longs et cartes ; loudness −14,3 LUFS, LRA 10,2 LU, crête vraie −1,6 dBTP. Faststart : `moov` à l'octet 36 avant `mdat` à l'octet 197414.
 - Ne pas considérer ce brouillon comme conforme ou final : mouvement/anti-gel à améliorer, badge à contrôler, durée de lecture des vers provisoire (jusqu'au début du suivant), contrôle orthographique et zones sûres incomplet, couverture et habillages complémentaires encore à réaliser. Aucun mastering MP3 final effectué.
+
+## Deux versions complètes pour comparaison
+
+- L'artiste souhaite choisir entre deux versions avant de décider des changements. `livrables/SANGUIN-DSKY-WTBW-9x16-V1.mp4` reprend le premier montage ; V2 utilise l'accueil WTBW initial, des trajectoires inversées et un cœur qui se dessine près du badge. Couverture dédiée générée et titrée par moteur.
+- Contrôles et limites mesurés : voir `LIVRAISON-COMPARAISON.md`. Les deux vidéos sont livrées pour avis, sans prétendre à une conformité finale complète.

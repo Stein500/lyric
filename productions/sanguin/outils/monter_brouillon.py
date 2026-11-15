@@ -4,11 +4,12 @@ No modifications to original audio. Review images/word timing before final deliv
 """
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
-import imageio_ffmpeg,json,math,subprocess
+import imageio_ffmpeg,json,math,subprocess,sys
 
 ROOT=Path(__file__).resolve().parent.parent
 REPO=ROOT.parent.parent
-WORK=REPO/'.cache'/'sanguin-render'
+VARIANT='v2' if '--v2' in sys.argv else 'v1'
+WORK=REPO/'.cache'/('sanguin-render-'+VARIANT)
 WORK.mkdir(parents=True,exist_ok=True)
 FF=imageio_ffmpeg.get_ffmpeg_exe(); FPS=30; END=172.799979
 
@@ -35,6 +36,14 @@ def badge():
                 ld.text((540,145),word,anchor='mm',font=font,fill=(255,255,255,opacity),stroke_width=2,stroke_fill=(0,0,0,opacity))
                 half=31 if word=='DSKY' else 36; ld.line((540-half,168,540+half,168),fill=(255,255,255,opacity),width=2)
                 im=Image.alpha_composite(im,layer)
+            if VARIANT == 'v2':
+                d=ImageDraw.Draw(im); points=[]
+                for k in range(181):
+                    angle=2*math.pi*k/180
+                    xx=16*math.sin(angle)**3; yy=13*math.cos(angle)-5*math.cos(2*angle)-2*math.cos(3*angle)-math.cos(4*angle)
+                    points.append((440+xx*.85,145-yy*.85))
+                count=max(2,min(181,int(181*min(1,(i%144)/42))))
+                d.line(points[:count],fill=(255,255,255,160),width=2)
             p.stdin.write(im.tobytes())
     finally: p.stdin.close()
     if p.wait(): raise RuntimeError('badge rendering failed')
@@ -54,16 +63,19 @@ def main():
         dest=WORK/f'{i:03}.mp4'; duration=count/FPS
         # A gentle 2% crop slides in four directions. Inspect all text placement in final QC.
         traj=[('0','iw-1080','0','ih-1920'),('iw-1080','0','0','ih-1920'),('0.18*(iw-1080)','0.82*(iw-1080)','ih-1920','0'),('0.82*(iw-1080)','0.18*(iw-1080)','0','ih-1920')][i%4]
+        
+        if VARIANT=='v2':
+            traj=(traj[1],traj[0],traj[3],traj[2])
         x0,x1,y0,y1=traj; u=f'min(t/{duration:.6f},1)'
         x=f'({x0})+(({x1})-({x0}))*{u}'; y=f'({y0})+(({y1})-({y0}))*{u}'
         filters=f"[0:v]scale=1102:1958:flags=lanczos,crop=1080:1920:x='{x}':y='{y}'[base];[base][1:v]overlay=0:0:shortest=1:format=auto,format=yuv420p[v]"
         run([FF,'-y','-loglevel','error','-loop','1','-framerate','30','-i',str(ROOT/r['image']),'-stream_loop','-1','-i',str(badge_file),'-filter_complex',filters,'-map','[v]','-an','-frames:v',str(count),'-c:v','libx264','-preset','veryfast','-crf','24','-pix_fmt','yuv420p','-r','30',str(dest)])
         segments.append(dest);print(f'Plan {i+1}/{len(rows)} : {count} images',flush=True)
-    paths=[ROOT/'livrables/APERCU-intro-inspire-muet.mp4',*segments,ROOT/'livrables/APERCU-outro-inspire-muet.mp4']
+    paths=[ROOT/('livrables/APERCU-intro-muet.mp4' if VARIANT=='v2' else 'livrables/APERCU-intro-inspire-muet.mp4'),*segments,ROOT/'livrables/APERCU-outro-inspire-muet.mp4']
     concat=WORK/'concat.txt';concat.write_text(''.join("file '"+str(p).replace("'", "'\\''")+"'\n" for p in paths))
     video=WORK/'video.mp4'
     run([FF,'-y','-loglevel','error','-f','concat','-safe','0','-i',str(concat),'-map','0:v:0','-an','-c','copy',str(video)])
-    final=ROOT/'livrables'/'SANGUIN-DSKY-WTBW-9x16-BROUILLON.mp4'
+    final=ROOT/'livrables'/('SANGUIN-DSKY-WTBW-9x16-V2.mp4' if VARIANT=='v2' else 'SANGUIN-DSKY-WTBW-9x16-V1.mp4')
     run([FF,'-y','-loglevel','error','-i',str(video),'-i',str(REPO/'Sanguin.mp3'),'-map','0:v:0','-map','1:a:0','-c:v','copy','-af','apad=pad_dur=5.00','-c:a','aac','-b:a','256k','-ar','48000','-t',str((end+150)/FPS),'-movflags','+faststart',str(final)])
     print('BROUILLON:',final,flush=True)
 if __name__=='__main__': main()
