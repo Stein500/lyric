@@ -106,6 +106,8 @@ def main():
     m = json.load(open(os.path.join(ROOT, "data", "verses_map.json"), encoding="utf8"))
     verses = m["verses"]
     sel = [v for v in verses if args.i0 <= v["i"] <= args.i1]
+    # offset d'affichage validé à l'écoute par l'artiste (les mots arrivaient après la voix)
+    OFF = m.get("calage", {}).get("offset_affichage_s", 0.0)
     t0 = sel[0]["debut_source"]
     t_end = sel[-1]["fin"] or (sel[-1]["debut_source"] + 4.0)
 
@@ -139,11 +141,12 @@ def main():
         t = t0 + f / FPS
         v = None
         for cand in sel:
-            if cand["debut_source"] <= t:
+            if cand["debut_source"] + OFF <= t:
                 v = cand
         if v is None:
             v = sel[0]
-        k = ((t - v["debut_source"]) / max(0.4, (v["fin"] or v["debut_source"] + 3) - v["debut_source"]))
+        k = ((t - (v["debut_source"] + OFF)) /
+             max(0.4, (v["fin"] or v["debut_source"] + 3) - v["debut_source"]))
         bg = camera_window(cache[v["image"]], k % 1.0)
         frame = bg
         hud = hud_overlay(m, v)
@@ -160,7 +163,7 @@ def main():
             print(f"\r{f}/{frames}", end="", flush=True)
     p.stdin.close()
     p.wait()
-    print(f"\n{args.out} — {frames} frames")
+    print(f"\n{args.out} — {frames} frames · offset d'affichage {OFF:+.2f} s")
 
 
 if __name__ == "__main__":

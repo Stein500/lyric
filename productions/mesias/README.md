@@ -1,6 +1,6 @@
 # PRODUCTION — MESÍAS (Live) · Averly Morillo
 
-**État : audio reçu et mesuré — calage non vérifié à l'écoute.**
+**État : calé à l'écoute par l'artiste (offset −0,25 s) — pool visuel complet (50 images), prêt pour les rendus finaux.**
 
 ---
 
@@ -48,6 +48,7 @@ ancien (haut, estompé) au plus récent (bas, net). Rien n'est doublé, rien ne 
 | Salve 3 — vers 21 à 30 | générée et contrôlée | `assets/img_v021 … img_v030.png` |
 | Maquette vers 1→12 (44,40 s) | rendue | `work/maquette_1-12.mp4` |
 | Salve 4 — pool polyvalent (10 plans) | générée et contrôlée | `assets/pool_01 … pool_10.png` |
+| Salve 5 — pool polyvalent (10 plans) | générée et contrôlée | `assets/pool_11 … pool_20.png` |
 | Maquette vers 11→20 (30,77 s) | rendue | `work/maquette_11-20.mp4` |
 | Maquette vers 31→60 (1:40,43) | rendue | `work/maquette_31-60.mp4` |
 | Audio maître récupéré du dépôt | fait, mesuré | `data/master_mesias_audio_only.mp3` |
@@ -105,9 +106,12 @@ lignes fourre-tout (« Oh ven amado ven amado hoy te llamo hoy » à 20,24 s), f
   silence entre les phrases (≈ 55 % du temps au-dessus du seuil adaptatif), l'attaque de voix ne
   se distingue pas → aucun décalage fiable n'en sort.
 
-**Statut honnête : la timeline reste celle des paroles fournies, NON VÉRIFIÉE À L'ÉCOUTE.**
-Pour la valider, il faut une écoute de contrôle (ou un calage mot à mot de l'artiste) sur quelques
-points : 32,32 s, 1:38,76, 4:31,39, 8:18,11, 12:17,22.
+**Statut : calé à l'écoute par l'artiste le 15/11/2026.** Verdict : « juste un petit retard de
+0,25 s ». Les mots apparaissaient donc **0,25 s après** la voix. Correction appliquée :
+`calage.offset_affichage_s = -0,25` dans `data/verses_map.json`, lu par `render_video.py`
+(`OFF`), qui avance **toutes** les entrées de 250 ms sans toucher aux horodatages sources
+(le vers 1 passe de 16,84 s à 16,59 s à l'écran). Un seul chiffre à changer si l'ajustement
+doit encore bouger.
 
 ---
 
@@ -142,9 +146,16 @@ le contrat sur le fichier réel.
   thématiques** (`assets/pool_01 … pool_10`), assignés par règle sémantique dans
   `scripts/assign_pool.py` : jamais deux fois de suite la même image, jamais la même à moins de
   2 vers d'écart. Le pool réemploie aussi les plans dédiés existants (ancre, nef, cierges, porte).
-- **10 images par salve**, jamais plus. État : salves 1, 2, 3 (dédiées) + salve 4 (pool polyvalent).
-- Couverture du morceau : **40 images** pour 190 vers. Ajouter un plan au pool = couvrir d'autres
+- **10 images par salve**, jamais plus. État : salves 1, 2, 3 (dédiées) + salves 4 et 5 (pool).
+- Couverture du morceau : **50 images** pour 190 vers. Ajouter un plan au pool = couvrir d'autres
   vers sans régénérer, il suffit de relancer `assign_pool.py`.
+- **Salve 5** (plans d'émotion et de décor, générés à la demande de l'artiste) :
+  `pool_11_mains_ouvertes`, `pool_12_yeux_fermes_priere`, `pool_13_larmes_lumiere`,
+  `pool_14_foule_mains`, `pool_15_autel_bougies`, `pool_16_fenetre_lumiere`, `pool_17_marche_eau`,
+  `pool_18_tempete_ciel`, `pool_19_deux_mains_serrees`, `pool_20_aube_horizon`.
+  Planche de contrôle : `work/check/salve5.jpg` · prévisualisation avec texte : `work/check/pv_salve5.jpg`.
+- **Sélection équilibrée** : à pertinence de thème égale, `pick()` retient l'image la moins employée
+  (`counts`), ce qui évite qu'un plan domine 30 vers du morceau.
 - Chaque image reçoit `NO TEXT AT ALL` au générateur ; tout le texte est cuit par le moteur.
 - Contrôle de salve : planche contact, vérification du visage, des mains, du cadrage, de la palette,
   puis normalisation en 1080 × 1920 (ancrage en haut, bas complété par le fond flouté).
