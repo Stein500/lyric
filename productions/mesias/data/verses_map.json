@@ -20,7 +20,8 @@
    "image": "ancre_01.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 2,
@@ -32,7 +33,8 @@
    "image": "plan_02.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 3,
@@ -44,7 +46,8 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 4,
@@ -56,7 +59,8 @@
    "image": "plan_04.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 5,
@@ -68,7 +72,8 @@
    "image": "plan_05.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 6,
@@ -80,7 +85,8 @@
    "image": "plan_06.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 7,
@@ -92,7 +98,8 @@
    "image": "plan_07.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 8,
@@ -104,7 +111,8 @@
    "image": "plan_08.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 9,
@@ -116,7 +124,8 @@
    "image": "plan_09.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 10,
@@ -128,7 +137,8 @@
    "image": "img_010.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 11,
@@ -140,7 +150,8 @@
    "image": "img_v011.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 12,
@@ -152,7 +163,8 @@
    "image": "img_v012.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 13,
@@ -164,7 +176,8 @@
    "image": "img_v013.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 14,
@@ -176,7 +189,8 @@
    "image": "img_v014.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 15,
@@ -188,7 +202,8 @@
    "image": "img_v015.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 16,
@@ -200,7 +215,8 @@
    "image": "img_v016.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 17,
@@ -212,7 +228,8 @@
    "image": "img_v017.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 18,
@@ -224,7 +241,8 @@
    "image": "img_v018.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 19,
@@ -236,7 +254,8 @@
    "image": "img_v019.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 20,
@@ -248,7 +267,8 @@
    "image": "img_v020.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 21,
@@ -260,7 +280,8 @@
    "image": "img_v021.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 22,
@@ -272,7 +293,8 @@
    "image": "img_v022.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 23,
@@ -284,7 +306,8 @@
    "image": "img_v023.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 24,
@@ -296,7 +319,8 @@
    "image": "img_v024.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 25,
@@ -308,7 +332,8 @@
    "image": "img_v025.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 26,
@@ -320,7 +345,8 @@
    "image": "img_v026.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 27,
@@ -332,7 +358,8 @@
    "image": "img_v027.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 28,
@@ -344,7 +371,8 @@
    "image": "img_v028.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 29,
@@ -356,7 +384,8 @@
    "image": "img_v029.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 30,
@@ -368,7 +397,8 @@
    "image": "img_v030.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 31,
@@ -380,7 +410,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 32,
@@ -392,7 +423,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 33,
@@ -404,7 +436,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 34,
@@ -416,7 +449,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 35,
@@ -428,7 +462,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 36,
@@ -440,7 +475,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 37,
@@ -452,7 +488,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 38,
@@ -464,7 +501,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 39,
@@ -476,7 +514,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 40,
@@ -488,7 +527,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 41,
@@ -500,7 +540,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 42,
@@ -512,7 +553,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 43,
@@ -524,7 +566,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 44,
@@ -536,7 +579,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 45,
@@ -548,7 +592,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 46,
@@ -560,7 +605,8 @@
    "image": "pool_02_visage_calme.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 47,
@@ -572,7 +618,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 48,
@@ -584,7 +631,8 @@
    "image": "plan_08.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 49,
@@ -596,7 +644,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 50,
@@ -608,7 +657,8 @@
    "image": "plan_08.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 51,
@@ -620,7 +670,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 52,
@@ -632,7 +683,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 53,
@@ -644,7 +696,8 @@
    "image": "pool_02_visage_calme.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 54,
@@ -656,7 +709,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 55,
@@ -668,7 +722,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 56,
@@ -680,7 +735,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 57,
@@ -692,7 +748,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 58,
@@ -704,7 +761,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 59,
@@ -716,7 +774,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 60,
@@ -728,7 +787,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 61,
@@ -740,7 +800,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 62,
@@ -752,7 +813,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 63,
@@ -764,7 +826,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 64,
@@ -776,7 +839,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 65,
@@ -788,7 +852,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 66,
@@ -800,7 +865,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 67,
@@ -812,7 +878,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 68,
@@ -824,7 +891,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 69,
@@ -836,7 +904,8 @@
    "image": "pool_05_couloir.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 70,
@@ -848,7 +917,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 71,
@@ -860,7 +930,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 72,
@@ -872,7 +943,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 73,
@@ -884,7 +956,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 74,
@@ -896,7 +969,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 75,
@@ -908,7 +982,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 76,
@@ -920,7 +995,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 77,
@@ -932,7 +1008,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 78,
@@ -944,7 +1021,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 79,
@@ -956,7 +1034,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 80,
@@ -968,7 +1047,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 81,
@@ -980,7 +1060,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 82,
@@ -992,7 +1073,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 83,
@@ -1004,7 +1086,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 84,
@@ -1016,7 +1099,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 85,
@@ -1028,7 +1112,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 86,
@@ -1040,7 +1125,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 87,
@@ -1052,7 +1138,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 88,
@@ -1064,7 +1151,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 89,
@@ -1076,7 +1164,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 90,
@@ -1088,7 +1177,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 91,
@@ -1100,7 +1190,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 92,
@@ -1112,7 +1203,8 @@
    "image": "pool_05_couloir.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 93,
@@ -1124,7 +1216,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 94,
@@ -1136,7 +1229,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 95,
@@ -1148,7 +1242,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 96,
@@ -1160,7 +1255,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 97,
@@ -1172,7 +1268,8 @@
    "image": "pool_05_couloir.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 98,
@@ -1184,7 +1281,8 @@
    "image": "pool_10_colline.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 99,
@@ -1196,7 +1294,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 100,
@@ -1208,7 +1307,8 @@
    "image": "plan_07.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 101,
@@ -1220,7 +1320,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 102,
@@ -1232,7 +1333,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 103,
@@ -1244,7 +1346,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 104,
@@ -1256,7 +1359,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 105,
@@ -1268,7 +1372,8 @@
    "image": "plan_09.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 106,
@@ -1280,7 +1385,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 107,
@@ -1292,7 +1398,8 @@
    "image": "plan_09.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 108,
@@ -1304,7 +1411,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 109,
@@ -1316,7 +1424,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 110,
@@ -1328,7 +1437,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 111,
@@ -1340,7 +1450,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 112,
@@ -1352,7 +1463,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 113,
@@ -1364,7 +1476,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 114,
@@ -1376,7 +1489,8 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 115,
@@ -1388,7 +1502,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 116,
@@ -1400,7 +1515,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 117,
@@ -1412,7 +1528,8 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 118,
@@ -1424,7 +1541,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 119,
@@ -1436,7 +1554,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 120,
@@ -1448,7 +1567,8 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 121,
@@ -1460,7 +1580,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 122,
@@ -1472,7 +1593,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 123,
@@ -1484,7 +1606,8 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 124,
@@ -1496,7 +1619,8 @@
    "image": "pool_02_visage_calme.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 125,
@@ -1508,7 +1632,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 126,
@@ -1520,7 +1645,8 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 127,
@@ -1532,7 +1658,8 @@
    "image": "pool_02_visage_calme.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 128,
@@ -1544,7 +1671,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 129,
@@ -1556,7 +1684,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 130,
@@ -1568,7 +1697,8 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 131,
@@ -1580,7 +1710,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 132,
@@ -1592,7 +1723,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 133,
@@ -1604,7 +1736,8 @@
    "image": "pool_05_couloir.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 134,
@@ -1616,7 +1749,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 135,
@@ -1628,7 +1762,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 136,
@@ -1640,7 +1775,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 137,
@@ -1652,7 +1788,8 @@
    "image": "plan_05.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 138,
@@ -1664,7 +1801,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 139,
@@ -1676,7 +1814,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 140,
@@ -1688,7 +1827,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 141,
@@ -1700,7 +1840,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 142,
@@ -1712,7 +1853,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 143,
@@ -1724,7 +1866,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 144,
@@ -1736,7 +1879,8 @@
    "image": "pool_02_visage_calme.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 145,
@@ -1748,7 +1892,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 146,
@@ -1760,7 +1905,8 @@
    "image": "plan_06.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 147,
@@ -1772,7 +1918,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 148,
@@ -1784,7 +1931,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 149,
@@ -1796,7 +1944,8 @@
    "image": "plan_07.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 150,
@@ -1808,7 +1957,8 @@
    "image": "pool_02_visage_calme.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 151,
@@ -1820,7 +1970,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 152,
@@ -1832,7 +1983,8 @@
    "image": "plan_06.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 153,
@@ -1844,7 +1996,8 @@
    "image": "pool_02_visage_calme.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 154,
@@ -1856,7 +2009,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 155,
@@ -1868,7 +2022,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 156,
@@ -1880,7 +2035,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 157,
@@ -1892,7 +2048,8 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 158,
@@ -1904,7 +2061,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 159,
@@ -1916,7 +2074,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 160,
@@ -1928,7 +2087,8 @@
    "image": "pool_05_couloir.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 161,
@@ -1940,7 +2100,8 @@
    "image": "pool_10_colline.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 162,
@@ -1952,7 +2113,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 163,
@@ -1964,7 +2126,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 164,
@@ -1976,7 +2139,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 165,
@@ -1988,7 +2152,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 166,
@@ -2000,7 +2165,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 167,
@@ -2012,7 +2178,8 @@
    "image": "pool_03_bras_leves.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 168,
@@ -2024,7 +2191,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 169,
@@ -2036,7 +2204,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 170,
@@ -2048,7 +2217,8 @@
    "image": "pool_05_couloir.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 171,
@@ -2060,7 +2230,8 @@
    "image": "pool_09_eglise_vide.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 172,
@@ -2072,7 +2243,8 @@
    "image": "plan_04.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 173,
@@ -2084,7 +2256,8 @@
    "image": "pool_09_eglise_vide.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 174,
@@ -2096,7 +2269,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 175,
@@ -2108,7 +2282,8 @@
    "image": "pool_05_couloir.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 176,
@@ -2120,7 +2295,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 177,
@@ -2132,7 +2308,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 178,
@@ -2144,7 +2321,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 179,
@@ -2156,7 +2334,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 180,
@@ -2168,7 +2347,8 @@
    "image": "pool_05_couloir.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 181,
@@ -2180,7 +2360,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 182,
@@ -2192,7 +2373,8 @@
    "image": "pool_06_assemblee.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 183,
@@ -2204,7 +2386,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 184,
@@ -2216,7 +2399,8 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 185,
@@ -2228,7 +2412,8 @@
    "image": "pool_01_nave.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 186,
@@ -2240,7 +2425,8 @@
    "image": "pool_04_silhouette_porte.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 187,
@@ -2252,7 +2438,8 @@
    "image": "pool_05_couloir.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 188,
@@ -2264,7 +2451,8 @@
    "image": "pool_07_ciel.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 189,
@@ -2276,7 +2464,8 @@
    "image": "pool_08_mains.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   },
   {
    "i": 190,
@@ -2288,7 +2477,15 @@
    "image": "plan_03.png",
    "disponible": true,
    "reprise": null,
-   "statut_controle": "non_controle"
+   "statut_controle": "non_controle",
+   "statut_calage": "source_lrc_non_ecoutee"
   }
- ]
+ ],
+ "calage": {
+  "source": "paroles horodatées fournies avec la production (lrclib 7723062)",
+  "statut": "NON VÉRIFIÉ À L'ÉCOUTE",
+  "audio_maitre": "data/master_mesias_audio_only.mp3 (piste audio extraite du MP3 fourni, copie sans réencodage)",
+  "duree_decodee_s": 744.705,
+  "note": "le tag USLT du MP3 est un texte abrégé et fautif ; il n'a pas été retenu comme référence. L'alignement automatique sur l'énergie du signal n'a pas donné de résultat fiable."
+ }
 }

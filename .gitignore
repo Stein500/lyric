@@ -2,3 +2,5 @@
 productions/*/work/
 __pycache__/
 *.pyc
+productions/*/data/master_*.mp3
+productions/*/data/*.wav
