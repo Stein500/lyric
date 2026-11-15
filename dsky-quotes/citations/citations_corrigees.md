@@ -1340,3 +1340,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **519. (AUBE 8)** `LE BAGAGE LÉGER` — femme au marché, paniers de légumes et fleurs — « Elle porte tant de choses, et pourtant jamais la rancune. » / "She carries so much, yet never resentment." — Commentaire : Le bagage léger, la force lourde. — CTA : Envoie à celle qui porte tout
 
 **520. (AUBE 9 — FINALE)** `DEBOUT, EXEMPLAIRE` — femme de dos face à l'horizon doré — « Une femme debout est une leçon que personne n'a besoin d'ouvrir. » / "A standing woman is a lesson no one needs to open." — Commentaire : L'exemple parle avant elle. — CTA : Commente RESPECT
+
+## SAISON 2 — Série ART XLVII (521 → 530) — « DE LA BLESSURE À LA PAIX » (haine, lâcher-prise, pardon, distance, guérison ; format série : 1 principale + 9 chemins avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**521. (PRINCIPALE)** `LE SAC À DÉPOSER` — femme posant un sac de randonnée lourd sur un banc à l'aube — « La haine est lourde à porter, surtout pour celui qui la garde. » / "Hate is heavy to carry, especially for the one who holds it." — CTA : Suis les 9 chemins
+
+**522. (CHEMIN 1)** `LE POISON DU REVENANT` — main lâchant un bateau en papier sur l'eau dorée — « Se venger, c'est boire du poison en espérant que l'autre tombe. » / "Revenge is drinking poison hoping the other one falls." — Commentaire : Lâche la gourde. — CTA : Commente LIBRE
+
+**523. (CHEMIN 2)** `SE RAPPELER SANS SAIGNER` — main apaisée sur un vieux journal en cuir près de la fenêtre — « Guérir, ce n'est pas oublier : c'est se rappeler sans saigner. » / "Healing isn't forgetting: it's remembering without bleeding." — Commentaire : La plaie devient une force. — CTA : Tague quelqu'un qui avance
+
+**524. (CHEMIN 3)** `LA CLÉ DU PARDON` — colombe blanche et main échangeant une petite clé dorée — « Pardonner n'excuse pas : ça libère celui qui tient la clé. » / "Forgiving doesn't excuse: it frees the one holding the key." — Commentaire : La prison avait ta porte. — CTA : Commente OUI
+
+**525. (CHEMIN 4)** `LE PANSEMENT DISTANCE` — femme en robe claire marchant seule sur une plage au soleil couchant — « Certaines blessures se soignent loin de ceux qui les ont faites. » / "Some wounds heal far from those who made them." — Commentaire : La distance est un pansement. — CTA : Envoie à qui saura
+
+**526. (CHEMIN 5)** `PARLER AVANT QUE ÇA CRIE` — deux amis en confiance sur un banc, main sur l'épaule — « Ce qu'on n'exprime pas finit par parler à notre place. » / "What we don't express ends up speaking for us." — Commentaire : Parle avant que ça crie. — CTA : Partage à qui écoute
+
+**527. (CHEMIN 6)** `LA FISSURE ET LA LUMIÈRE` — jeune plante sur un rebord, rayons à travers une vitre fissurée — « Le cœur brisé apprend à voir ce que le cœur entier ignorait. » / "A broken heart learns to see what a whole heart ignored." — Commentaire : La fissure laisse entrer la lumière. — CTA : Commente LUMIÈRE
+
+**528. (CHEMIN 7)** `OUVRIR LA PORTE` — main ouvrant une porte sur des amis dans la lumière dorée — « On ne guérit pas seul, mais c'est soi qui ouvre la porte. » / "We don't heal alone, but we're the one who opens the door." — Commentaire : L'aide attend ton signal. — CTA : Tague ton refuge humain
+
+**529. (CHEMIN 8)** `LA VICTOIRE SANS VICTIME` — femme méditant sur un balcon à l'aube, ville paisible — « La paix intérieure, c'est la victoire sans victime. » / "Inner peace is victory without a victim." — Commentaire : Vis bien, c'est suffisant. — CTA : Commente PAIX
+
+**530. (CHEMIN 9 — FINALE)** `L'HISTOIRE QUI SE TERMINE DEBOUT` — femme fière au sommet d'une colline face au soleil levant — « Un jour, tu raconteras ta blessure comme une histoire dont tu sors debout. » / "One day you'll tell your wound as a story you walk out of standing." — Commentaire : Le dernier chapitre est à toi. — CTA : Commente DEBOUT
