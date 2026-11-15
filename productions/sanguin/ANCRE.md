@@ -73,3 +73,8 @@
 ## Teaser 15 secondes — première proposition
 
 - À la demande de l'artiste, `SANGUIN-DSKY-TEASER-15s.mp4` est un premier montage séparé de 15 s à partir du refrain, avec cœurs animés. Il utilise la V1 choisie et l'extrait correspondant de l'audio existant, encodé ; teaser à revoir après précision sur l'élément défilant. Vidéo complète enrichie pas encore rendue.
+
+## Révision enrichie après choix de l'artiste
+
+- La V1 est préférée. L'artiste a précisé vouloir à la fois un filet de progression et un bandeau de messages défilants, tout en gardant les paroles peintes ; ajout de cœurs tracés et d'étincelles.
+- Version complète enrichie et teaser séparé de 15 s livrés ; `LIVRAISON-ENRICHI.md` consigne les différences, mesures et limites. Le filet est remonté sous le badge parce que la position basse recouvrait certaines paroles.
