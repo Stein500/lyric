@@ -95,13 +95,13 @@ Le dépôt et la branche sont figés ci-dessous. Deux points à savoir avant de 
   (CRF 21, 274,6 Mo) est trop lourde pour un dépôt GitHub et n'est pas accessible depuis
   cet environnement (le domaine d'upload des releases est bloqué ici, voir LIVRAISON.md §6) ;
 - les fichiers restent lisibles par `curl` sur une branche : elle ne bougera plus, elle est figée
-  sur le commit `c839036`.
+  sur le commit `fb0bb54`.
 
 ```sh
 pkg install -y curl coreutils
 cd ~/storage/downloads
 
-BASE="https://raw.githubusercontent.com/Stein500/lyric/arena/7368319e-lyric/productions/mesias/livrables"
+BASE="https://raw.githubusercontent.com/Stein500/lyric/fb0bb54/productions/mesias/livrables"
 
 # --- clip complet, version légère (~95 Mo) ---
 curl -L --retry 3 -C - -o "MESIAS_clip_leger.mp4" "$BASE/MESIAS_clip_1080x1920_leger.mp4"
