@@ -1,0 +1,4 @@
+# outils et sorties lourdes de production (les livrables restent versionnés)
+productions/*/work/
+__pycache__/
+*.pyc
