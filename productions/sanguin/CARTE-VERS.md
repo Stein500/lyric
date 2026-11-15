@@ -5,17 +5,17 @@ Horodatages source inchangés. Fins et durées non déterminées ; images et con
 | # | Début | Parole affichée | Image | Disponible |
 |---|---|---|---|---|
 | 1 | 00:04.93 | WTBW | portrait-1080x1920/scene-01-ancre.jpg | oui |
-| 2 | 00:08.31 | Yeah... Sanguin... | portrait-1080x1920/scene-02.jpg | oui |
-| 3 | 00:24.17 | Sanguin, sanguin, le sang dans les veines | portrait-1080x1920/scene-03.jpg | oui |
-| 4 | 00:27.14 | Sanguin, sanguin, je sens la puissance qui m'entraîne | portrait-1080x1920/scene-04.jpg | oui |
-| 5 | 00:29.83 | Sanguin, sanguin, je ne réfléchis pas | portrait-1080x1920/scene-05.jpg | oui |
-| 6 | 00:32.92 | Sanguin, sanguin, j'agis, c'est comme ça | portrait-1080x1920/scene-06.jpg | oui |
+| 2 | 00:08.31 | Yeah... Sanguin... | portrait-1080x1920/scene-02-correction.jpg | oui |
+| 3 | 00:24.17 | Sanguin, sanguin, le sang dans les veines | portrait-1080x1920/scene-03-correction.jpg | oui |
+| 4 | 00:27.14 | Sanguin, sanguin, je sens la puissance qui m'entraîne | portrait-1080x1920/scene-04-correction.jpg | oui |
+| 5 | 00:29.83 | Sanguin, sanguin, je ne réfléchis pas | portrait-1080x1920/scene-05-correction.jpg | oui |
+| 6 | 00:32.92 | Sanguin, sanguin, j'agis, c'est comme ça | portrait-1080x1920/scene-06-correction.jpg | oui |
 | 7 | 00:36.34 | WTBW | portrait-1080x1920/scene-01-ancre.jpg | oui |
 | 8 | 00:39.02 | J'ai le sang chaud, le poing serré | portrait-1080x1920/scene-07.jpg | oui |
-| 9 | 00:40.86 | Je ne suis pas un homme à réfléchir, je suis un homme à agir | portrait-1080x1920/scene-08.jpg | oui |
-| 10 | 00:43.90 | Je sens la pulsion, la vague, le flux | portrait-1080x1920/scene-09.jpg | oui |
+| 9 | 00:40.86 | Je ne suis pas un homme à réfléchir, je suis un homme à agir | portrait-1080x1920/scene-08-correction.jpg | oui |
+| 10 | 00:43.90 | Je sens la pulsion, la vague, le flux | portrait-1080x1920/scene-09-correction.jpg | oui |
 | 11 | 00:45.43 | Je suis un instinct, je suis un réflexe, je suis un choc | portrait-1080x1920/scene-10-correction.jpg | oui |
-| 12 | 00:48.62 | On m'a dit "réfléchis avant d'agir" | portrait-1080x1920/scene-11.jpg | oui |
+| 12 | 00:48.62 | On m'a dit "réfléchis avant d'agir" | portrait-1080x1920/scene-11-correction.jpg | oui |
 | 13 | 00:50.53 | Mais le sang parle plus fort, il me fait grandir | portrait-1080x1920/scene-12.jpg | oui |
 | 14 | 00:53.52 | Je suis un guerrier, un primitif, un sauvage | portrait-1080x1920/scene-13-correction.jpg | oui |
 | 15 | 00:56.84 | Le sang est ma langue, mon langage | portrait-1080x1920/scene-14.jpg | oui |
@@ -23,10 +23,10 @@ Horodatages source inchangés. Fins et durées non déterminées ; images et con
 | 17 | 01:03.28 | Je suis la force qui ne s'arrête | portrait-1080x1920/scene-16.jpg | oui |
 | 18 | 01:06.18 | Je suis le sang, je suis la vie | portrait-1080x1920/scene-17-correction.jpg | oui |
 | 19 | 01:07.97 | Je suis l'énergie qui n'a jamais fini | portrait-1080x1920/scene-18.jpg | oui |
-| 20 | 01:11.20 | Sanguin, sanguin, le sang dans les veines | portrait-1080x1920/scene-03.jpg | oui |
-| 21 | 01:13.87 | Sanguin, sanguin, je sens la puissance qui m'entraîne | portrait-1080x1920/scene-04.jpg | oui |
-| 22 | 01:16.62 | Sanguin, sanguin, je ne réfléchis pas | portrait-1080x1920/scene-05.jpg | oui |
-| 23 | 01:19.70 | Sanguin, sanguin, j'agis, c'est comme ça | portrait-1080x1920/scene-06.jpg | oui |
+| 20 | 01:11.20 | Sanguin, sanguin, le sang dans les veines | portrait-1080x1920/scene-03-correction.jpg | oui |
+| 21 | 01:13.87 | Sanguin, sanguin, je sens la puissance qui m'entraîne | portrait-1080x1920/scene-04-correction.jpg | oui |
+| 22 | 01:16.62 | Sanguin, sanguin, je ne réfléchis pas | portrait-1080x1920/scene-05-correction.jpg | oui |
+| 23 | 01:19.70 | Sanguin, sanguin, j'agis, c'est comme ça | portrait-1080x1920/scene-06-correction.jpg | oui |
 | 24 | 01:23.81 | WTBW | portrait-1080x1920/scene-01-ancre.jpg | oui |
 | 25 | 01:25.86 | J'ai le sang qui bout, les muscles qui chauffent | portrait-1080x1920/scene-19-correction.jpg | oui |
 | 26 | 01:27.55 | Je n'ai pas peur des ombres, je les affronte | portrait-1080x1920/scene-20.jpg | oui |

@@ -5,10 +5,10 @@ from pathlib import Path
 root = Path(__file__).resolve().parent.parent
 repo = root.parent.parent
 images = [
-'scene-01-ancre','scene-02','scene-03','scene-04','scene-05','scene-06','scene-01-ancre',
-'scene-07','scene-08','scene-09','scene-10-correction','scene-11','scene-12','scene-13-correction',
-'scene-14','scene-15','scene-16','scene-17-correction','scene-18','scene-03','scene-04','scene-05',
-'scene-06','scene-01-ancre','scene-19-correction','scene-20','scene-21','scene-22','scene-23','scene-24',
+'scene-01-ancre','scene-02-correction','scene-03-correction','scene-04-correction','scene-05-correction','scene-06-correction','scene-01-ancre',
+'scene-07','scene-08-correction','scene-09-correction','scene-10-correction','scene-11-correction','scene-12','scene-13-correction',
+'scene-14','scene-15','scene-16','scene-17-correction','scene-18','scene-03-correction','scene-04-correction','scene-05-correction',
+'scene-06-correction','scene-01-ancre','scene-19-correction','scene-20','scene-21','scene-22','scene-23','scene-24',
 'scene-25','scene-26','scene-15','scene-16','scene-17-correction','scene-18','scene-27-correction',
 'scene-28','scene-29','scene-30-correction','scene-31-aube','scene-32-aube','scene-33-aube',
 'scene-34-aube','scene-35-aube','scene-35-aube']

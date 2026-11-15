@@ -39,3 +39,9 @@
 - Salve 5 : 8 demandées, 8 générées, 0 échec technique : deux nouveaux plans d'aube et six propositions de correction (`-correction`). Les corrections ont été relues sur la planche de contact ; les contrôles 1:1 et zones sûres restent à faire.
 - `verses_map.json` et `CARTE-VERS.md` attribuent provisoirement une image à chacun des 46 vers horodatés ; les répétitions réutilisent les mêmes plans, avec variantes d'aube au refrain final. Les horodatages de début sont conservés, les fins ne sont pas inventées. Toutes les images attribuées existent, mais cela ne signifie pas qu'elles sont conformes ou validées.
 - Des anomalies des salves précédentes subsistent. Le montage et ses contrôles, la couverture et les mesures audio ne sont pas réalisés.
+
+## Suite — salve 6 et mesure audio source
+
+- Salve 6 : 8 corrections demandées, 8 générées, 0 échec technique (`scene-02`, `03`, `04`, `05`, `06`, `08`, `09`, `11`, suffixe `-correction`). La carte provisoire utilise ces propositions ; contrôle détaillé 1:1, zones sûres et continuité toujours nécessaires.
+- Mesure du fichier source `Sanguin.mp3` avec FFmpeg 9.0.2, filtre `ebur128=peak=true` : durée décodée relevée 172,799979 s, niveau intégré −14,2 LUFS, LRA 10,3 LU, crête vraie −1,3 dBTP. `silencedetect=noise=-50dB:d=1` signale un silence final de 170,867771 à 172,799979 s. Ces chiffres concernent uniquement la source, pas un master final ni un clip.
+- Aucun montage ni contrôle final du clip réalisé à ce stade.

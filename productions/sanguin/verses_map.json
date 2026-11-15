@@ -16,7 +16,7 @@
     "fin": null,
     "texte_source": "Yeah... Sanguin...",
     "texte_affiche": "Yeah... Sanguin...",
-    "image": "portrait-1080x1920/scene-02.jpg",
+    "image": "portrait-1080x1920/scene-02-correction.jpg",
     "disponible": true,
     "reprise": false,
     "statut": "provisoire_a_controler"
@@ -27,7 +27,7 @@
     "fin": null,
     "texte_source": "Sanguin, sanguin, le sang dans les veines",
     "texte_affiche": "Sanguin, sanguin, le sang dans les veines",
-    "image": "portrait-1080x1920/scene-03.jpg",
+    "image": "portrait-1080x1920/scene-03-correction.jpg",
     "disponible": true,
     "reprise": false,
     "statut": "provisoire_a_controler"
@@ -38,7 +38,7 @@
     "fin": null,
     "texte_source": "Sanguin, sanguin, je sens la puissance qui m'entraîne",
     "texte_affiche": "Sanguin, sanguin, je sens la puissance qui m'entraîne",
-    "image": "portrait-1080x1920/scene-04.jpg",
+    "image": "portrait-1080x1920/scene-04-correction.jpg",
     "disponible": true,
     "reprise": false,
     "statut": "provisoire_a_controler"
@@ -49,7 +49,7 @@
     "fin": null,
     "texte_source": "Sanguin, sanguin, je ne réfléchis pas",
     "texte_affiche": "Sanguin, sanguin, je ne réfléchis pas",
-    "image": "portrait-1080x1920/scene-05.jpg",
+    "image": "portrait-1080x1920/scene-05-correction.jpg",
     "disponible": true,
     "reprise": false,
     "statut": "provisoire_a_controler"
@@ -60,7 +60,7 @@
     "fin": null,
     "texte_source": "Sanguin, sanguin, j'agis, c'est comme ça",
     "texte_affiche": "Sanguin, sanguin, j'agis, c'est comme ça",
-    "image": "portrait-1080x1920/scene-06.jpg",
+    "image": "portrait-1080x1920/scene-06-correction.jpg",
     "disponible": true,
     "reprise": false,
     "statut": "provisoire_a_controler"
@@ -93,7 +93,7 @@
     "fin": null,
     "texte_source": "Je ne suis pas un homme à réfléchir, je suis un homme à agir",
     "texte_affiche": "Je ne suis pas un homme à réfléchir, je suis un homme à agir",
-    "image": "portrait-1080x1920/scene-08.jpg",
+    "image": "portrait-1080x1920/scene-08-correction.jpg",
     "disponible": true,
     "reprise": false,
     "statut": "provisoire_a_controler"
@@ -104,7 +104,7 @@
     "fin": null,
     "texte_source": "Je sens la pulsion, la vague, le flux",
     "texte_affiche": "Je sens la pulsion, la vague, le flux",
-    "image": "portrait-1080x1920/scene-09.jpg",
+    "image": "portrait-1080x1920/scene-09-correction.jpg",
     "disponible": true,
     "reprise": false,
     "statut": "provisoire_a_controler"
@@ -126,7 +126,7 @@
     "fin": null,
     "texte_source": "On m'a dit \"réfléchis avant d'agir\"",
     "texte_affiche": "On m'a dit \"réfléchis avant d'agir\"",
-    "image": "portrait-1080x1920/scene-11.jpg",
+    "image": "portrait-1080x1920/scene-11-correction.jpg",
     "disponible": true,
     "reprise": false,
     "statut": "provisoire_a_controler"
@@ -214,7 +214,7 @@
     "fin": null,
     "texte_source": "Sanguin, sanguin, le sang dans les veines",
     "texte_affiche": "Sanguin, sanguin, le sang dans les veines",
-    "image": "portrait-1080x1920/scene-03.jpg",
+    "image": "portrait-1080x1920/scene-03-correction.jpg",
     "disponible": true,
     "reprise": true,
     "statut": "provisoire_a_controler"
@@ -225,7 +225,7 @@
     "fin": null,
     "texte_source": "Sanguin, sanguin, je sens la puissance qui m'entraîne",
     "texte_affiche": "Sanguin, sanguin, je sens la puissance qui m'entraîne",
-    "image": "portrait-1080x1920/scene-04.jpg",
+    "image": "portrait-1080x1920/scene-04-correction.jpg",
     "disponible": true,
     "reprise": true,
     "statut": "provisoire_a_controler"
@@ -236,7 +236,7 @@
     "fin": null,
     "texte_source": "Sanguin, sanguin, je ne réfléchis pas",
     "texte_affiche": "Sanguin, sanguin, je ne réfléchis pas",
-    "image": "portrait-1080x1920/scene-05.jpg",
+    "image": "portrait-1080x1920/scene-05-correction.jpg",
     "disponible": true,
     "reprise": true,
     "statut": "provisoire_a_controler"
@@ -247,7 +247,7 @@
     "fin": null,
     "texte_source": "Sanguin, sanguin, j'agis, c'est comme ça",
     "texte_affiche": "Sanguin, sanguin, j'agis, c'est comme ça",
-    "image": "portrait-1080x1920/scene-06.jpg",
+    "image": "portrait-1080x1920/scene-06-correction.jpg",
     "disponible": true,
     "reprise": true,
     "statut": "provisoire_a_controler"
