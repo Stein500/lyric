@@ -33,3 +33,9 @@
 - 33 versions de travail au total dans `portrait-1080x1920/`, dimensions vérifiées. Sources de cette salve : 768×1376.
 - Vérification initiale : la virgule de `scene-27` passe au début de la ligne suivante ; la progression lumineuse de `scene-30` après `scene-29` nécessite correction. Les images restent à contrôler pour la typographie exacte, le placement et la continuité avant rendu. Planche de contact et crops natifs enregistrés.
 - Restent notamment le dernier vers du refrain final et la signature en variante d'aube, les corrections des salves, le calage, la couverture et le rendu complet.
+
+## Suite — salve 5 et carte provisoire
+
+- Salve 5 : 8 demandées, 8 générées, 0 échec technique : deux nouveaux plans d'aube et six propositions de correction (`-correction`). Les corrections ont été relues sur la planche de contact ; les contrôles 1:1 et zones sûres restent à faire.
+- `verses_map.json` et `CARTE-VERS.md` attribuent provisoirement une image à chacun des 46 vers horodatés ; les répétitions réutilisent les mêmes plans, avec variantes d'aube au refrain final. Les horodatages de début sont conservés, les fins ne sont pas inventées. Toutes les images attribuées existent, mais cela ne signifie pas qu'elles sont conformes ou validées.
+- Des anomalies des salves précédentes subsistent. Le montage et ses contrôles, la couverture et les mesures audio ne sont pas réalisés.
