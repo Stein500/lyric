@@ -57,3 +57,10 @@
 - Référence consultée dans `Stein500/lyric`, branche `arena/9a0dd1bb-lyric`, vidéo `IMELDA-01-NOUKIKO-TCHE-WE-WTBW-9x16.mp4` et moteur d'animation. Inspiration retenue : introduction monochrome épurée, titre à empattements, filet fin, apparition progressive et cœur tracé.
 - Nouvel aperçu `livrables/APERCU-intro-inspire-muet.mp4` : révélation typographique puis fondu vers les stickers ; il conserve 148 images à 30 i/s pour respecter le premier horodatage. Aucun portrait ni photo de la référence Imelda n'a été réutilisé.
 - Les aperçus restent provisoires, muets, dessinés à 540×960 puis agrandis ; clip complet et contrôles finaux non effectués.
+
+## Premier montage intégral — brouillon non final
+
+- L'artiste a approuvé l'aperçu inspiré d'Imelda et demandé la réalisation complète.
+- `livrables/SANGUIN-DSKY-WTBW-9x16-BROUILLON.mp4` : première version de travail 1080×1920, 30 i/s, 5 334 images, 177,80 s, avec le maître original encodé en AAC et 5 s de silence final. Introduction approuvée et carte finale prototypes ; badge alternant DSKY/WTBW et léger travelling.
+- Mesures sur ce brouillon avec FFmpeg 9.0.2 : blackdetect `d=0.05:pix_th=0.10` : aucun intervalle détecté ; `freezedetect=n=-33dB:d=2.5` : 11 débuts de gel détectés, notamment sur des plans longs et cartes ; loudness −14,3 LUFS, LRA 10,2 LU, crête vraie −1,6 dBTP. Faststart : `moov` à l'octet 36 avant `mdat` à l'octet 197414.
+- Ne pas considérer ce brouillon comme conforme ou final : mouvement/anti-gel à améliorer, badge à contrôler, durée de lecture des vers provisoire (jusqu'au début du suivant), contrôle orthographique et zones sûres incomplet, couverture et habillages complémentaires encore à réaliser. Aucun mastering MP3 final effectué.
