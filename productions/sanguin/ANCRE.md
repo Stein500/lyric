@@ -69,3 +69,7 @@
 
 - L'artiste souhaite choisir entre deux versions avant de décider des changements. `livrables/SANGUIN-DSKY-WTBW-9x16-V1.mp4` reprend le premier montage ; V2 utilise l'accueil WTBW initial, des trajectoires inversées et un cœur qui se dessine près du badge. Couverture dédiée générée et titrée par moteur.
 - Contrôles et limites mesurés : voir `LIVRAISON-COMPARAISON.md`. Les deux vidéos sont livrées pour avis, sans prétendre à une conformité finale complète.
+
+## Teaser 15 secondes — première proposition
+
+- À la demande de l'artiste, `SANGUIN-DSKY-TEASER-15s.mp4` est un premier montage séparé de 15 s à partir du refrain, avec cœurs animés. Il utilise la V1 choisie et l'extrait correspondant de l'audio existant, encodé ; teaser à revoir après précision sur l'élément défilant. Vidéo complète enrichie pas encore rendue.
