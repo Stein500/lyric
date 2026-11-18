@@ -1362,3 +1362,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **529. (CHEMIN 8)** `LA VICTOIRE SANS VICTIME` — femme méditant sur un balcon à l'aube, ville paisible — « La paix intérieure, c'est la victoire sans victime. » / "Inner peace is victory without a victim." — Commentaire : Vis bien, c'est suffisant. — CTA : Commente PAIX
 
 **530. (CHEMIN 9 — FINALE)** `L'HISTOIRE QUI SE TERMINE DEBOUT` — femme fière au sommet d'une colline face au soleil levant — « Un jour, tu raconteras ta blessure comme une histoire dont tu sors debout. » / "One day you'll tell your wound as a story you walk out of standing." — Commentaire : Le dernier chapitre est à toi. — CTA : Commente DEBOUT
+
+## SAISON 2 — Série ART XLVIII (531 → 540) — « RATTRAPER LE TEMPS PERDU » (rattrapages, retrouvailles, rêves en attente, mieux vaut tard que jamais ; format série : 1 principale + 9 rattrapages avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**531. (PRINCIPALE)** `LE TEMPS QUI ATTEND` — femme joyeuse marchant d'un pas léger sur un chemin doré au lever du soleil — « Le temps perdu n'est pas perdu : il attend que tu reviennes le chercher. » / "Lost time isn't gone: it waits for you to come back for it." — CTA : Suis les 9 rattrapages
+
+**532. (RATTRAPAGE 1)** `LE RÊVE EN ATTENTE` — femme rouvrant une vieille boîte en bois avec des chaussons de ballet — « Les rêves mis en attente ne périment pas : ils ont juste pris de l'avance. » / "Dreams on hold don't expire: they just got a head start." — Commentaire : Reprends là où tu t'es arrêtée. — CTA : Commente JE REPRENDS
+
+**533. (RATTRAPAGE 2)** `LA SECONDE DES RETROUVAILLES` — deux amies riant bras ouverts à une terrasse de café ensoleillée — « Certaines amitiés reprennent en une seconde, comme si le temps n'avait rien enlevé. » / "Some friendships pick up in a second, as if time took nothing away." — Commentaire : Appelle-la aujourd'hui. — CTA : Tague ton amie perdue de vue
+
+**534. (RATTRAPAGE 3)** `LES MOTS DE LA VEILLE` — femme émue au téléphone près d'une photo de famille — « Ce que tu n'as pas dit hier, dis-le aujourd'hui : le cœur connaît les rattrapages. » / "What you didn't say yesterday, say it today: the heart knows all about catching up." — Commentaire : Le cœur rattrape vite. — CTA : Envoie à qui compte encore
+
+**535. (RATTRAPAGE 4)** `LA RETROUVAILLE INTÉRIEURE` — femme se réconciliant avec son reflet dans un miroir rond — « Se rattraper avec soi-même, c'est la retrouvaille la plus douce. » / "Catching up with yourself is the sweetest reunion." — Commentaire : Tu t'attendais depuis si longtemps. — CTA : Commente RETROUVAILLES
+
+**536. (RATTRAPAGE 5)** `LE MOMENT QUI RATTRAPE TOUT` — femme dansant pieds nus dans sa cuisine ensoleillée — « Un seul bon moment peut rattraper une année entière. » / "One single good moment can make up for a whole year." — Commentaire : La joie ne compte pas les retards. — CTA : Commente VIVANTE
+
+**537. (RATTRAPAGE 6)** `MARCHE, LE TEMPS T'ATTEND` — femme marchant sans se presser dans un parc aux lanternes au crépuscule — « Rattraper ne veut pas dire courir : marche, le temps t'attend. » / "Catching up doesn't mean running: walk, time is waiting for you." — Commentaire : Aucun retard, juste un chemin. — CTA : Partage à qui presse trop
+
+**538. (RATTRAPAGE 7)** `LE RENDEZ-VOUS EN RETARD` — couple se retrouvant au milieu d'un vieux pont de pierre à l'heure dorée — « L'amour vrai ne rate pas son rendez-vous : il arrive parfois en retard. » / "True love doesn't miss its date: sometimes it just arrives late." — Commentaire : Mieux vaut tard que jamais. — CTA : Envoie à un amour qui revient
+
+**539. (RATTRAPAGE 8)** `LES PETITES CHOSES` — lettre manuscrite, enveloppe et tasse fumante près d'une fenêtre — « Un café, un appel, un pardon : les rattrapages tiennent dans les petites choses. » / "A coffee, a call, an apology: catch-ups fit inside small things." — Commentaire : Commence petit, commence aujourd'hui. — CTA : Commente AUJOURD'HUI
+
+**540. (RATTRAPAGE 9 — FINALE)** `PILE À TEMPS` — femme sereine contemplant un vieux clocher fleuri au lever du soleil — « Même le temps perdu t'a menée ici, pile à temps. » / "Even lost time led you here, right on time." — Commentaire : Rien n'était en retard. — CTA : Commente À TEMPS
