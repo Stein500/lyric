@@ -447,6 +447,43 @@ sha256sum "clip.mp4" "teaser.mp4"
 
 ---
 
+## 11 bis — LE SCRIPT QUI FAIT TOUT (recommandé)
+
+`scripts/pipeline.sh` enchaîne les onze étapes, mesure ce qui doit être mesuré, et **refuse de rendre**
+si une valeur manque. C'est la forme à utiliser : les commandes des sections précédentes sont là pour
+comprendre et dépanner, pas pour recopier à la main.
+
+```sh
+./scripts/pipeline.sh                          # tout
+./scripts/pipeline.sh --segments 40            # découpe du rendu
+./scripts/pipeline.sh --only measure           # une étape
+./scripts/pipeline.sh --only segments --segments 2   # test rapide
+./scripts/pipeline.sh --skip-leger             # sans la version < 95 Mo
+./scripts/pipeline.sh --audio-raw "data/<master brut>.mp3" \
+                       --audio "livrables/<normalise>.mp3" \
+                       --teaser-start 464.13 --crf 21
+```
+
+| Étape | Ce qu'elle fait | Ce qu'elle vérifie |
+|---|---|---|
+| `deps` | install + ffmpeg embarqué | imports OK |
+| `measure` | durée décodée, silence, frames | affiche `22 491 frames` |
+| `normalize` | `loudnorm` 2 passes | ne réencode pas si déjà fait |
+| `bases` | 50 bases 1080×1920 | PNG, pas JPEG |
+| `segments` | rendu par morceaux | compte les fichiers produits |
+| `assemble` | concat + audio + `apad` | durée annoncée |
+| `check` | `checks.py --expect` | 0 noir, 0 gel, faststart |
+| `leger` | calibration puis encodage | < 100 Mo |
+| `teaser` | 15,00 s | 450 frames |
+| `covers` | 3 couvertures | — |
+| `hashes` | SHA256 + `-c` | tout OK |
+
+**Panne réelle trouvée en testant ce script :** sans l'étape `measure`, il déduisait la durée du dernier
+horodatage du contrat (739,7 s au lieu des 744,700 s mesurées) → **25 frames de trop par segment**, et un
+clip silencieusement trop long. Le repli a été supprimé : la durée se mesure, elle ne se devine pas.
+
+---
+
 ## 12 — Ordre d'exécution condensé
 
 ```sh
