@@ -670,4 +670,15 @@ Un défaut annoncé vaut mieux qu'un défaut découvert par l'artiste après pub
 - **v5.7** — badge sans drapeau, cartes sans contact, clochettes.
 - **v5.6** — clochettes CTA. **v5.5** — hybride, Termux une ligne par fichier.
 
+---
+
+## 17 — Commandes
+
+Toutes les commandes d'exécution (installation, mesures audio, normalisation, contrat, images, rendu,
+calibration du poids, contrôles, empreintes, Termux, diagnostic des pannes) sont dans le document
+compagnon **`COMMANDES_PRODUCTION.md`**, à la racine du dépôt.
+
+Elles sont **paramétrables** : la durée décodée, le silence final et la durée de carte finale se passent
+en arguments (`--dur-audio`, `--silence`, `--tail`), jamais codés en dur d'une chanson à l'autre.
+
 **Signature : « WTBW » — et rien d'autre.**

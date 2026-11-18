@@ -334,9 +334,27 @@ def main():
     ap.add_argument("--teaser", action="store_true")
     ap.add_argument("--teaser-start", type=float, default=464.13)
     ap.add_argument("--audio", default=os.path.join(LIV, "Averly Morillo - MESIAS (master normalise -14LUFS).mp3"))
+    # paramètres de temps : à renseigner par chanson (défauts = mesures MESÍAS)
+    ap.add_argument("--dur-audio", type=float, default=None,
+                    help="durée DÉCODÉE du fichier audio, en secondes (mesurée, pas annoncée)")
+    ap.add_argument("--tail", type=float, default=None, help="durée de la carte finale (5.00)")
+    ap.add_argument("--silence", type=float, default=None,
+                    help="instant où commence le silence final (mesuré par silencedetect)")
     args = ap.parse_args()
+
+    global DUR_AUDIO, TAIL, T_END, N_FRAMES
+    if args.dur_audio:
+        DUR_AUDIO = args.dur_audio
+    if args.tail is not None:
+        TAIL = args.tail
+    T_END = DUR_AUDIO + TAIL
+    N_FRAMES = int(round(T_END * FPS))
+
     m = json.load(open(DATA, encoding="utf8"))
-    m["calage"]["silence_final_s"] = 739.349
+    sil = args.silence if args.silence is not None else DUR_AUDIO - 5.356
+    m["calage"]["silence_final_s"] = sil
+    print(f"durée audio {DUR_AUDIO:.3f} s · carte {TAIL:.2f} s · total {T_END:.3f} s "
+          f"({N_FRAMES} frames) · silence final à {sil:.3f} s")
 
     if args.seg:
         s, nseg = args.seg
@@ -367,6 +385,8 @@ def main():
         return
 
     if args.assemble:
+        if not os.path.isdir(WORK):
+            sys.exit("dossier work/ absent : lance d'abord les segments (--seg S NSEG)")
         segs = sorted([f for f in os.listdir(WORK) if f.startswith("clip_seg") and f.endswith(".mp4")],
                       key=lambda x: int(x[8:-4]))
         print("segments :", segs)
@@ -382,7 +402,7 @@ def main():
                # le morceau s'arrête à 744,705 s mais le clip dure 749,705 s :
                # on PROLONGE le silence de la carte finale (apad) au lieu de couper
                # la vidéo avec -shortest, qui rognait les 5 secondes de fin.
-               "-af", "apad=whole_dur=749.705", "-t", "749.705",
+               "-af", f"apad=whole_dur={T_END:.3f}", "-t", f"{T_END:.3f}",
                "-movflags", "+faststart", out]
         subprocess.run(cmd, check=True)
         print("clip assemblé :", out)
