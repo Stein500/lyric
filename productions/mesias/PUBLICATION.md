@@ -97,6 +97,9 @@ Le dépôt et la branche sont figés ci-dessous. Deux points à savoir avant de 
 - les fichiers restent lisibles par `curl` sur une branche : elle ne bougera plus, elle est figée
   sur le commit `cb0ecaf`.
 
+> **Fiche dédiée** : `TERMUX.md` — installation, autorisation de stockage, une commande
+> par fichier, une commande pour tout, vérification SHA256, dépannage.
+
 ```sh
 pkg install -y curl coreutils
 cd ~/storage/downloads
