@@ -1,0 +1,8 @@
+# Outils locaux / binaires lourds : hors Git (convention v4.2 du dépôt)
+.tools/
+.venv/
+venv/
+work/
+__pycache__/
+*.pyc
+Unselected files/

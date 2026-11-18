@@ -1,0 +1,84 @@
+{
+  "outil": "n9.0.2-17-g2a571b6068-20260930",
+  "methode": "RMS par fenetre de 20 ms sur PCM decode 16 kHz mono ; minimum local d'energie autour des bornes proposees",
+  "attention": "analyse de signal, PAS ecoute humaine ; ne garantit pas l'absence de coupe de syllabe tenue",
+  "bornes_proposees": [
+    164.99,
+    179.99
+  ],
+  "minimum_energie_debut": {
+    "t": 164.42,
+    "rms": 244.4
+  },
+  "minimum_energie_fin": {
+    "t": 179.2,
+    "rms": 2184.2
+  },
+  "bornes_ajustees_15s": [
+    164.42,
+    179.42
+  ],
+  "duree": 15.0,
+  "etat": "PROPOSITION, a valider",
+  "recherche_fenetres_15s": {
+    "plage_exploree": [
+      140.0,
+      185.0
+    ],
+    "pas": 0.02,
+    "meilleures": [
+      [
+        156.0,
+        171.0,
+        622.2,
+        922.1
+      ],
+      [
+        155.8,
+        170.8,
+        582.0,
+        964.6
+      ],
+      [
+        144.58,
+        159.58,
+        915.5,
+        664.1
+      ],
+      [
+        155.94,
+        170.94,
+        601.6,
+        1019.5
+      ],
+      [
+        155.96,
+        170.96,
+        644.7,
+        1048.4
+      ]
+    ]
+  },
+  "nouvelle_proposition": {
+    "extrait": [
+      156.0,
+      171.0
+    ],
+    "rms_debut": 622.2,
+    "rms_fin": 922.1,
+    "note": "meilleure fenetre de 15,00 s selon l'energie RMS aux deux bornes ; reste PROVISOIRE, ecoute humaine non effectuee"
+  },
+  "constat": "La borne de fin initialement proposee (179,99 s) est dans une zone sonore active (RMS eleve) : une coupe y risque de tomber sur une syllabe. Une autre fenetre est proposee.",
+  "recommandation": {
+    "extrait": [
+      155.96,
+      170.96
+    ],
+    "raison": "debut exact du vers i=36 (02:35.96) et fin 0,31 s avant le vers i=40 (02:51.27) ; fenetre de 15,00 s ; RMS 644,7 / 1048,4 ; meilleur compromis structurel",
+    "alternative_refrain": [
+      164.99,
+      179.99
+    ],
+    "limite": "aucun silence naturel (silencedetect -50dB/0,5s = 0 intervalle) ; analyse RMS uniquement, AUCUNE ecoute humaine ; les deux bornes restent en zone sonore active -> risque de coupe de syllabe non exclu. Accord de l'artiste ou changement de passage necessaire avant rendu."
+  }
+}

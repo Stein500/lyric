@@ -1,0 +1,206 @@
+{
+  "passage_aube_i": 25,
+  "methode": "reetalonnage moteur du fond + recuisson du vers exact (aucune generation IA)",
+  "sources": [
+    1,
+    3,
+    5,
+    6,
+    8,
+    9,
+    16,
+    18,
+    19
+  ],
+  "variantes": [
+    {
+      "i": 1,
+      "texte_affiche": "WTBW",
+      "source": "assets/aube/brut-01.jpg",
+      "sortie": "assets/aube/cuits/aube-plan-01.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 64,
+      "lignes": [
+        "WTBW"
+      ],
+      "bboite": [
+        252,
+        671,
+        515,
+        722
+      ],
+      "largeur": 263,
+      "hauteur": 51
+    },
+    {
+      "i": 3,
+      "texte_affiche": "Attends une minute...",
+      "source": "assets/aube/brut-03.jpg",
+      "sortie": "assets/aube/cuits/aube-plan-03.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 64,
+      "lignes": [
+        "Attends",
+        "une",
+        "minute..."
+      ],
+      "bboite": [
+        195,
+        567,
+        572,
+        826
+      ],
+      "largeur": 377,
+      "hauteur": 259
+    },
+    {
+      "i": 5,
+      "texte_affiche": "Attends une minute, j'pose mon flow",
+      "source": "assets/aube/brut-05.jpg",
+      "sortie": "assets/aube/cuits/aube-plan-05.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "Attends",
+        "une minute,",
+        "j'pose",
+        "mon flow"
+      ],
+      "bboite": [
+        164,
+        540,
+        604,
+        853
+      ],
+      "largeur": 440,
+      "hauteur": 313
+    },
+    {
+      "i": 6,
+      "texte_affiche": "J'suis un grand marcheur, méthodes d'en bas",
+      "source": "assets/aube/brut-06.jpg",
+      "sortie": "assets/aube/cuits/aube-plan-06.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 42,
+      "lignes": [
+        "J'suis un grand",
+        "marcheur,",
+        "méthodes",
+        "d'en bas"
+      ],
+      "bboite": [
+        142,
+        564,
+        626,
+        829
+      ],
+      "largeur": 484,
+      "hauteur": 265
+    },
+    {
+      "i": 8,
+      "texte_affiche": "J'suis un grand marcheur, j'viens d'en bas",
+      "source": "assets/aube/brut-08.jpg",
+      "sortie": "assets/aube/cuits/aube-plan-08.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 42,
+      "lignes": [
+        "J'suis un grand",
+        "marcheur,",
+        "j'viens",
+        "d'en bas"
+      ],
+      "bboite": [
+        141,
+        564,
+        626,
+        829
+      ],
+      "largeur": 485,
+      "hauteur": 265
+    },
+    {
+      "i": 9,
+      "texte_affiche": "WTBW",
+      "source": "assets/aube/brut-09.jpg",
+      "sortie": "assets/aube/cuits/aube-plan-09.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 64,
+      "lignes": [
+        "WTBW"
+      ],
+      "bboite": [
+        252,
+        671,
+        516,
+        722
+      ],
+      "largeur": 264,
+      "hauteur": 51
+    },
+    {
+      "i": 16,
+      "texte_affiche": "J'suis un marcheur, pas un coureur",
+      "source": "assets/aube/brut-16.jpg",
+      "sortie": "assets/aube/cuits/aube-plan-16.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'suis un",
+        "marcheur,",
+        "pas un",
+        "coureur"
+      ],
+      "bboite": [
+        200,
+        540,
+        568,
+        853
+      ],
+      "largeur": 368,
+      "hauteur": 313
+    },
+    {
+      "i": 18,
+      "texte_affiche": "Yeah... oh... attend une minute...",
+      "source": "assets/aube/brut-18.jpg",
+      "sortie": "assets/aube/cuits/aube-plan-18.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 54,
+      "lignes": [
+        "Yeah... oh...",
+        "attend une",
+        "minute..."
+      ],
+      "bboite": [
+        165,
+        583,
+        603,
+        811
+      ],
+      "largeur": 438,
+      "hauteur": 228
+    },
+    {
+      "i": 19,
+      "texte_affiche": "Yeah... oh... j'viens d'en bas...",
+      "source": "assets/aube/brut-19.jpg",
+      "sortie": "assets/aube/cuits/aube-plan-19.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 56,
+      "lignes": [
+        "Yeah...",
+        "oh... j'viens",
+        "d'en bas..."
+      ],
+      "bboite": [
+        162,
+        580,
+        606,
+        814
+      ],
+      "largeur": 444,
+      "hauteur": 234
+    }
+  ]
+}

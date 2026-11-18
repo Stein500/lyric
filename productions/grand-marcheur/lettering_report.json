@@ -1,0 +1,652 @@
+{
+  "police": "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+  "largeur_max": 500,
+  "bande": [
+    441,
+    953
+  ],
+  "encodage": "JPEG qualite 96, subsampling=0 (4:4:4), aucun sous-echantillonnage",
+  "methode": "dilatation MaxFilter(7) derriere les glyphes + halo serre + rotation faible individuelle ; apostrophes/points/virgules solidaires (correctif 2026-11-15)",
+  "plans": [
+    {
+      "i": 1,
+      "texte_affiche": "WTBW",
+      "source": "assets/plans/plan-01.jpg",
+      "sortie": "assets/cuits/plan-01.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 64,
+      "lignes": [
+        "WTBW"
+      ],
+      "bboite": [
+        252,
+        671,
+        515,
+        722
+      ],
+      "largeur": 263,
+      "hauteur": 51
+    },
+    {
+      "i": 2,
+      "texte_affiche": "Yeah... yeah... oh...",
+      "source": "assets/plans/plan-02.jpg",
+      "sortie": "assets/cuits/plan-02.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 64,
+      "lignes": [
+        "Yeah...",
+        "yeah...",
+        "oh..."
+      ],
+      "bboite": [
+        241,
+        566,
+        527,
+        827
+      ],
+      "largeur": 286,
+      "hauteur": 261
+    },
+    {
+      "i": 3,
+      "texte_affiche": "Attends une minute...",
+      "source": "assets/plans/plan-03.jpg",
+      "sortie": "assets/cuits/plan-03.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 64,
+      "lignes": [
+        "Attends",
+        "une",
+        "minute..."
+      ],
+      "bboite": [
+        195,
+        567,
+        572,
+        826
+      ],
+      "largeur": 377,
+      "hauteur": 259
+    },
+    {
+      "i": 4,
+      "texte_affiche": "Yeah... oh...",
+      "source": "assets/plans/plan-04.jpg",
+      "sortie": "assets/cuits/plan-04.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 64,
+      "lignes": [
+        "Yeah...",
+        "oh..."
+      ],
+      "bboite": [
+        241,
+        619,
+        526,
+        774
+      ],
+      "largeur": 285,
+      "hauteur": 155
+    },
+    {
+      "i": 5,
+      "texte_affiche": "Attends une minute, j'pose mon flow",
+      "source": "assets/plans/plan-05.jpg",
+      "sortie": "assets/cuits/plan-05.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "Attends",
+        "une minute,",
+        "j'pose",
+        "mon flow"
+      ],
+      "bboite": [
+        164,
+        540,
+        604,
+        853
+      ],
+      "largeur": 440,
+      "hauteur": 313
+    },
+    {
+      "i": 6,
+      "texte_affiche": "J'suis un grand marcheur, méthodes d'en bas",
+      "source": "assets/plans/plan-06.jpg",
+      "sortie": "assets/cuits/plan-06.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 42,
+      "lignes": [
+        "J'suis un grand",
+        "marcheur,",
+        "méthodes",
+        "d'en bas"
+      ],
+      "bboite": [
+        142,
+        564,
+        626,
+        829
+      ],
+      "largeur": 484,
+      "hauteur": 265
+    },
+    {
+      "i": 8,
+      "texte_affiche": "J'suis un grand marcheur, j'viens d'en bas",
+      "source": "assets/plans/plan-08.jpg",
+      "sortie": "assets/cuits/plan-08.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 42,
+      "lignes": [
+        "J'suis un grand",
+        "marcheur,",
+        "j'viens",
+        "d'en bas"
+      ],
+      "bboite": [
+        141,
+        564,
+        626,
+        829
+      ],
+      "largeur": 485,
+      "hauteur": 265
+    },
+    {
+      "i": 9,
+      "texte_affiche": "WTBW",
+      "source": "assets/plans/plan-09.jpg",
+      "sortie": "assets/cuits/plan-09.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 64,
+      "lignes": [
+        "WTBW"
+      ],
+      "bboite": [
+        252,
+        671,
+        516,
+        722
+      ],
+      "largeur": 264,
+      "hauteur": 51
+    },
+    {
+      "i": 10,
+      "texte_affiche": "J'avance lentement, j'fais pas de bruit",
+      "source": "assets/plans/plan-10.jpg",
+      "sortie": "assets/cuits/plan-10.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'avance",
+        "lentement,",
+        "j'fais pas",
+        "de bruit"
+      ],
+      "bboite": [
+        185,
+        541,
+        583,
+        852
+      ],
+      "largeur": 398,
+      "hauteur": 311
+    },
+    {
+      "i": 11,
+      "texte_affiche": "Mes pas sont lourds, j'ai grandi dans la nuit",
+      "source": "assets/plans/plan-11.jpg",
+      "sortie": "assets/cuits/plan-11.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "Mes pas",
+        "sont lourds,",
+        "j'ai grandi",
+        "dans la nuit"
+      ],
+      "bboite": [
+        156,
+        541,
+        611,
+        852
+      ],
+      "largeur": 455,
+      "hauteur": 311
+    },
+    {
+      "i": 12,
+      "texte_affiche": "On m'a dit \"va doucement, t'as le temps\"",
+      "source": "assets/plans/plan-12.jpg",
+      "sortie": "assets/cuits/plan-12.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 46,
+      "lignes": [
+        "On m'a",
+        "dit \"va",
+        "doucement,",
+        "t'as le temps\""
+      ],
+      "bboite": [
+        149,
+        550,
+        619,
+        843
+      ],
+      "largeur": 470,
+      "hauteur": 293
+    },
+    {
+      "i": 13,
+      "texte_affiche": "J'ai pris mon temps, j'suis devenu grand",
+      "source": "assets/plans/plan-13.jpg",
+      "sortie": "assets/cuits/plan-13.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'ai pris mon",
+        "temps, j'suis",
+        "devenu",
+        "grand"
+      ],
+      "bboite": [
+        146,
+        535,
+        621,
+        858
+      ],
+      "largeur": 475,
+      "hauteur": 323
+    },
+    {
+      "i": 14,
+      "texte_affiche": "J'pose des mots comme on pose des pierres",
+      "source": "assets/plans/plan-14.jpg",
+      "sortie": "assets/cuits/plan-14.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'pose des",
+        "mots comme",
+        "on pose",
+        "des pierres"
+      ],
+      "bboite": [
+        154,
+        535,
+        614,
+        859
+      ],
+      "largeur": 460,
+      "hauteur": 324
+    },
+    {
+      "i": 15,
+      "texte_affiche": "Un par un, j'construis ma carrière",
+      "source": "assets/plans/plan-15.jpg",
+      "sortie": "assets/cuits/plan-15.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 58,
+      "lignes": [
+        "Un par un,",
+        "j'construis",
+        "ma carrière"
+      ],
+      "bboite": [
+        148,
+        578,
+        620,
+        816
+      ],
+      "largeur": 472,
+      "hauteur": 238
+    },
+    {
+      "i": 16,
+      "texte_affiche": "J'suis un marcheur, pas un coureur",
+      "source": "assets/plans/plan-16.jpg",
+      "sortie": "assets/cuits/plan-16.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'suis un",
+        "marcheur,",
+        "pas un",
+        "coureur"
+      ],
+      "bboite": [
+        200,
+        540,
+        568,
+        853
+      ],
+      "largeur": 368,
+      "hauteur": 313
+    },
+    {
+      "i": 17,
+      "texte_affiche": "J'connais la rue, j'connais la peur",
+      "source": "assets/plans/plan-17.jpg",
+      "sortie": "assets/cuits/plan-17.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'connais",
+        "la rue,",
+        "j'connais",
+        "la peur"
+      ],
+      "bboite": [
+        218,
+        535,
+        550,
+        858
+      ],
+      "largeur": 332,
+      "hauteur": 323
+    },
+    {
+      "i": 18,
+      "texte_affiche": "Yeah... oh... attend une minute...",
+      "source": "assets/plans/plan-18.jpg",
+      "sortie": "assets/cuits/plan-18.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 54,
+      "lignes": [
+        "Yeah... oh...",
+        "attend une",
+        "minute..."
+      ],
+      "bboite": [
+        165,
+        583,
+        603,
+        811
+      ],
+      "largeur": 438,
+      "hauteur": 228
+    },
+    {
+      "i": 19,
+      "texte_affiche": "Yeah... oh... j'viens d'en bas...",
+      "source": "assets/plans/plan-19.jpg",
+      "sortie": "assets/cuits/plan-19.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 56,
+      "lignes": [
+        "Yeah...",
+        "oh... j'viens",
+        "d'en bas..."
+      ],
+      "bboite": [
+        162,
+        580,
+        606,
+        814
+      ],
+      "largeur": 444,
+      "hauteur": 234
+    },
+    {
+      "i": 25,
+      "texte_affiche": "J'ai vu des frères tomber trop vite",
+      "source": "assets/plans/plan-25.jpg",
+      "sortie": "assets/cuits/plan-25.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'ai vu",
+        "des frères",
+        "tomber",
+        "trop vite"
+      ],
+      "bboite": [
+        192,
+        536,
+        576,
+        858
+      ],
+      "largeur": 384,
+      "hauteur": 322
+    },
+    {
+      "i": 26,
+      "texte_affiche": "Ils ont couru, ils ont perdu la suite",
+      "source": "assets/plans/plan-26.jpg",
+      "sortie": "assets/cuits/plan-26.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "Ils ont",
+        "couru, ils",
+        "ont perdu",
+        "la suite"
+      ],
+      "bboite": [
+        202,
+        540,
+        565,
+        853
+      ],
+      "largeur": 363,
+      "hauteur": 313
+    },
+    {
+      "i": 27,
+      "texte_affiche": "Moi j'prends mon temps, j'compte mes pas",
+      "source": "assets/plans/plan-27.jpg",
+      "sortie": "assets/cuits/plan-27.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "Moi j'prends",
+        "mon temps,",
+        "j'compte",
+        "mes pas"
+      ],
+      "bboite": [
+        156,
+        535,
+        612,
+        858
+      ],
+      "largeur": 456,
+      "hauteur": 323
+    },
+    {
+      "i": 28,
+      "texte_affiche": "Chaque seconde est un combat",
+      "source": "assets/plans/plan-28.jpg",
+      "sortie": "assets/cuits/plan-28.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 58,
+      "lignes": [
+        "Chaque",
+        "seconde est",
+        "un combat"
+      ],
+      "bboite": [
+        139,
+        577,
+        629,
+        816
+      ],
+      "largeur": 490,
+      "hauteur": 239
+    },
+    {
+      "i": 29,
+      "texte_affiche": "J'suis pas pressé, j'suis pas nerveux",
+      "source": "assets/plans/plan-29.jpg",
+      "sortie": "assets/cuits/plan-29.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'suis pas",
+        "pressé,",
+        "j'suis pas",
+        "nerveux"
+      ],
+      "bboite": [
+        206,
+        540,
+        562,
+        853
+      ],
+      "largeur": 356,
+      "hauteur": 313
+    },
+    {
+      "i": 30,
+      "texte_affiche": "J'ai la patience, j'ai les yeux",
+      "source": "assets/plans/plan-30.jpg",
+      "sortie": "assets/cuits/plan-30.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 54,
+      "lignes": [
+        "J'ai la",
+        "patience,",
+        "j'ai les yeux"
+      ],
+      "bboite": [
+        146,
+        577,
+        622,
+        816
+      ],
+      "largeur": 476,
+      "hauteur": 239
+    },
+    {
+      "i": 31,
+      "texte_affiche": "Sur l'horizon, sur l'avenir",
+      "source": "assets/plans/plan-31.jpg",
+      "sortie": "assets/cuits/plan-31.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 58,
+      "lignes": [
+        "Sur",
+        "l'horizon,",
+        "sur l'avenir"
+      ],
+      "bboite": [
+        150,
+        578,
+        617,
+        816
+      ],
+      "largeur": 467,
+      "hauteur": 238
+    },
+    {
+      "i": 32,
+      "texte_affiche": "J'avance lentement, j'vais réussir",
+      "source": "assets/plans/plan-32.jpg",
+      "sortie": "assets/cuits/plan-32.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'avance",
+        "lentement,",
+        "j'vais",
+        "réussir"
+      ],
+      "bboite": [
+        185,
+        541,
+        583,
+        852
+      ],
+      "largeur": 398,
+      "hauteur": 311
+    },
+    {
+      "i": 36,
+      "texte_affiche": "J'connais la route, j'connais la douleur",
+      "source": "assets/plans/plan-36.jpg",
+      "sortie": "assets/cuits/plan-36.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'connais",
+        "la route,",
+        "j'connais",
+        "la douleur"
+      ],
+      "bboite": [
+        191,
+        540,
+        576,
+        853
+      ],
+      "largeur": 385,
+      "hauteur": 313
+    },
+    {
+      "i": 37,
+      "texte_affiche": "J'pose des mots comme on pose des briques",
+      "source": "assets/plans/plan-37.jpg",
+      "sortie": "assets/cuits/plan-37.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 52,
+      "lignes": [
+        "J'pose des",
+        "mots comme",
+        "on pose",
+        "des briques"
+      ],
+      "bboite": [
+        153,
+        535,
+        614,
+        858
+      ],
+      "largeur": 461,
+      "hauteur": 323
+    },
+    {
+      "i": 38,
+      "texte_affiche": "Lentement, j'construis mon trip",
+      "source": "assets/plans/plan-38.jpg",
+      "sortie": "assets/cuits/plan-38.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 60,
+      "lignes": [
+        "Lentement,",
+        "j'construis",
+        "mon trip"
+      ],
+      "bboite": [
+        150,
+        568,
+        617,
+        826
+      ],
+      "largeur": 467,
+      "hauteur": 258
+    },
+    {
+      "i": 46,
+      "texte_affiche": "Yeah...",
+      "source": "assets/plans/plan-46.jpg",
+      "sortie": "assets/cuits/plan-46.jpg",
+      "police": "DejaVuSans-Bold.ttf",
+      "corps": 64,
+      "lignes": [
+        "Yeah..."
+      ],
+      "bboite": [
+        242,
+        671,
+        526,
+        722
+      ],
+      "largeur": 284,
+      "hauteur": 51
+    }
+  ]
+}
