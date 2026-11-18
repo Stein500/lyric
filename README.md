@@ -570,3 +570,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 528 | Chemin 7 — ouvrir la porte | porte amis lumière 100% IA + commentaire |
 | 529 | Chemin 8 — victoire sans victime | méditation balcon 100% IA + commentaire |
 | 530 | Chemin 9 — debout à la fin | sommet colline 100% IA + commentaire |
+| 531 | Le temps qui attend | chemin doré marche joyeuse 100% IA format série |
+| 532 | Rattrapage 1 — le rêve en attente | boîte chaussons ballet 100% IA + commentaire |
+| 533 | Rattrapage 2 — la seconde des retrouvailles | terrasse amies rire 100% IA + commentaire |
+| 534 | Rattrapage 3 — les mots de la veille | téléphone photo famille 100% IA + commentaire |
+| 535 | Rattrapage 4 — la retrouvaille intérieure | miroir reflet sourire 100% IA + commentaire |
+| 536 | Rattrapage 5 — le moment qui rattrape tout | danse cuisine 100% IA + commentaire |
+| 537 | Rattrapage 6 — marche le temps t'attend | parc lanternes crépuscule 100% IA + commentaire |
+| 538 | Rattrapage 7 — le rendez-vous en retard | pont pierre couple 100% IA + commentaire |
+| 539 | Rattrapage 8 — les petites choses | lettre tasse fenêtre 100% IA + commentaire |
+| 540 | Rattrapage 9 — pile à temps | clocher fleuri aube 100% IA + commentaire |
