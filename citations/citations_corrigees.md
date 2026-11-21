@@ -1428,3 +1428,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **559. (VÉRITÉ 8)** `RETENIR PAR LA PAIX` — homme debout sur un toit à l'aube, poings enfin ouverts — « On devient un homme quand on retient par la paix, pas par la force. » / "You become a man when you hold by peace, not by force." — Commentaire : La vraie force retient doucement. — CTA : Commente HOMME
 
 **560. (VÉRITÉ 9 — FINALE)** `POUR RESTER` — homme montant un escalier vers la lumière dorée du matin — « Si je reviens, c'est pas pour courir : c'est pour rester. » / "If I come back, it's not to chase: it's to stay." — Commentaire : Pas un retour, une leçon. — CTA : Commente RESTER
+
+## SAISON 2 — Série ART LI (561 → 570) — « L'AMOUR VERSION ANIME » (otaku, tsundere, dandere, kuudere, deredere, himedere, yandere léger, senpai, arc personnel ; style anime/manga ; format série : 1 principale + 9 archétypes avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**561. (PRINCIPALE)** `LE SANCTUAIRE OTAKU` — chambre otaku cosy, mangas, écran lumineux, tasse fumante — « Être otaku, ce n'est pas fuir le monde : c'est l'aimer avec d'autres yeux. » / "Being an otaku isn't running from the world: it's loving it with different eyes." — CTA : Suis les 9 archétypes
+
+**562. (ARCHÉTYPE 1)** `TSUNDERE DÉTECTÉE` — fille tsundere couettes rougissante bras croisés sous les pétales de sakura — « C'est pas que je t'aime, baka... c'est juste que tu me manquerais. » / "It's not that I love you, baka... it's just that I'd miss you." — Commentaire : Tsundere détectée. — CTA : Commente BAKA
+
+**563. (ARCHÉTYPE 2)** `DANDERE` — fille réservée cachant son visage derrière un livre en bibliothèque dorée — « Dandere : je parle peu, mais dans ma tête on vit déjà notre histoire. » / "Dandere: I speak little, but in my head we're already living our story." — Commentaire : La réserve a de l'imagination. — CTA : Commente TIMIDE
+
+**564. (ARCHÉTYPE 3)** `KUUDERE` — garçon aux cheveux argent aux écouteurs au-dessus de la ville de nuit — « Kuudere : visage de glace, playlist de déclarations cachées sous les écouteurs. » / "Kuudere: ice face, a playlist of hidden confessions under the headphones." — Commentaire : Le calme a ses aveux. — CTA : Tague un kuudere
+
+**565. (ARCHÉTYPE 4)** `DEREDERE` — fille rayonnante bras ouverts sous les pétales, sourire étoilé — « Deredere : j'aime à pleine voix, sans sous-titres. » / "Deredere: I love out loud, no subtitles." — Commentaire : La joie est contagieuse. — CTA : Commente SANS SOUS-TITRES
+
+**566. (ARCHÉTYPE 5)** `CO-OTAKU` — couple otaku sous une couverture devant l'écran, ramen et mangas — « L'amour otaku, c'est revoir l'épisode mille fois et rire encore. » / "Otaku love is rewatching the episode a thousand times and still laughing." — Commentaire : Notre générique à nous. — CTA : Envoie à ton co-otaku
+
+**567. (ARCHÉTYPE 6)** `HIMEDERE` — princesse anime blonde à l'éventail sur un balcon royal au couchant — « Himedere : exige la couronne, offre la loyauté. » / "Himedere: demand the crown, give loyalty." — Commentaire : La princesse protège aussi. — CTA : Commente COURONNE
+
+**568. (ARCHÉTYPE 7)** `YANDERE MODE LÉGER` — fille aux cheveux roses offrant une boîte en forme de cœur, sourire malicieux — « Yandere mode léger : tu m'as plu, donc t'as plus le droit de disparaître. » / "Light-mode yandere: I liked you, so disappearing is no longer an option." — Commentaire : Blague à moitié. — CTA : Commente GOTCHA
+
+**569. (ARCHÉTYPE 8)** `SENPAI M'A REMARQUÉE` — couloir scolaire doré, fille à la fenêtre regardant senpai au loin — « Finalement, senpai m'a remarquée — et c'était le début du meilleur arc. » / "Finally senpai noticed me — and that was the start of my best arc." — Commentaire : Ton arc commence quand tu oses. — CTA : Commente NOTICED
+
+**570. (ARCHÉTYPE 9 — FINALE)** `ARC FINAL` — protagoniste de dos sur une colline face à un ciel de nuages dorés — « Mon arc personnel commence le jour où j'arrête de m'excuser d'être moi. » / "My character arc starts the day I stop apologizing for being me." — Commentaire : Protagoniste de ta propre histoire. — CTA : Commente ARC FINAL
