@@ -1406,3 +1406,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **549. (RÈGLE 8)** `AVANT LE DÉPART` — deux silhouettes sur la rue néon, main tendue et femme impassible — « Les vrais disent je t'aime avant le départ, pas après. » / "Real ones say I love you before the goodbye, not after." — Commentaire : Le vrai parle avant. — CTA : Commente VRAI AMOUR
 
 **550. (RÈGLE 9 — FINALE)** `TRANQUILLE` — femme sereine sur un toit au lever du soleil après la nuit — « Je ne te hais pas : j'ai juste arrêté de courir. » / "I don't hate you: I just stopped running." — Commentaire : Tête haute, cœur tranquille. — CTA : Commente TRANQUILLE
+
+## SAISON 2 — Série ART L (551 → 560) — « QUAND IL COMPREND TROP TARD » (style voyous masculin, lucidité de rue, le mec qui a fait courir et perdu, fierté et rédemption ; format série : 1 principale + 9 vérités avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**551. (PRINCIPALE)** `PERDU SUR LA LIGNE` — homme à capuche seul dans une rue néon sous la pluie — « Je pensais la garder en la faisant courir. Je l'ai perdue sur la ligne. » / "I thought I'd keep her by making her run. I lost her at the finish line." — CTA : Suis les 9 vérités
+
+**552. (VÉRITÉ 1)** `LA RUE APPREND, PAS L'AMOUR` — homme de dos contre un mur graffiti néon rose — « La rue m'a appris à mener. Personne ne m'a appris à aimer. » / "The street taught me to lead. No one taught me to love." — Commentaire : J'ai appris trop tard. — CTA : Commente APPRIS
+
+**553. (VÉRITÉ 2)** `LE DUR ET LA DOUCE` — boxeur pensif sur un banc, poings bandés, lampe unique — « Je jouais au dur pendant qu'elle jouait sa vie. » / "I played tough while she was betting her life." — Commentaire : Le dur a perdu la douce. — CTA : Tague un dur qui a compris
+
+**554. (VÉRITÉ 3)** `COMPRIS EN RENTRANT` — homme seul dans un salon sombre, veste sur le dos, lampe basse — « On m'a dit qu'elle partait. J'ai ri. J'ai compris en rentrant. » / "They told me she was leaving. I laughed. I got it when I came home." — Commentaire : Le silence d'une maison, ça claque. — CTA : Commente CHER
+
+**555. (VÉRITÉ 4)** `LA SEULE PAIX` — homme marchant sous le néon bleu froid, posture fière regard creux — « Un mec peut gagner toutes les bagarres et perdre la seule paix. » / "A man can win every fight and lose the only peace." — Commentaire : Elle était la paix. — CTA : Partage à un frère
+
+**556. (VÉRITÉ 5)** `FAUCHÉ EN AMOUR` — homme flash comptant des billets seul au bar néon rouge — « L'orgueil rend riche en rue, fauché en amour. » / "Pride makes you rich in the street, broke in love." — Commentaire : J'ai fait banqueroute. — CTA : Commente FAUCHÉ
+
+**557. (VÉRITÉ 6)** `UN PRÉSENT, PAS UN BOSS` — homme pressé dans la foule floue, téléphone en main — « Elle voulait pas un boss. Elle voulait un présent. » / "She didn't want a boss. She wanted someone present." — Commentaire : J'étais partout, sauf là. — CTA : Envoie à celui qui traîne
+
+**558. (VÉRITÉ 7)** `L'APPEL MANQUÉ` — main tenant un vieux téléphone lumineux, pluie sur la vitre — « Je répondais à tout, sauf à son cœur. » / "I answered everything, except her heart." — Commentaire : Appel manqué, le plus cher. — CTA : Tague un appel manqué
+
+**559. (VÉRITÉ 8)** `RETENIR PAR LA PAIX` — homme debout sur un toit à l'aube, poings enfin ouverts — « On devient un homme quand on retient par la paix, pas par la force. » / "You become a man when you hold by peace, not by force." — Commentaire : La vraie force retient doucement. — CTA : Commente HOMME
+
+**560. (VÉRITÉ 9 — FINALE)** `POUR RESTER` — homme montant un escalier vers la lumière dorée du matin — « Si je reviens, c'est pas pour courir : c'est pour rester. » / "If I come back, it's not to chase: it's to stay." — Commentaire : Pas un retour, une leçon. — CTA : Commente RESTER
