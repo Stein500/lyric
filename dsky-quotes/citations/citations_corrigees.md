@@ -1450,3 +1450,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **569. (ARCHÉTYPE 8)** `SENPAI M'A REMARQUÉE` — couloir scolaire doré, fille à la fenêtre regardant senpai au loin — « Finalement, senpai m'a remarquée — et c'était le début du meilleur arc. » / "Finally senpai noticed me — and that was the start of my best arc." — Commentaire : Ton arc commence quand tu oses. — CTA : Commente NOTICED
 
 **570. (ARCHÉTYPE 9 — FINALE)** `ARC FINAL` — protagoniste de dos sur une colline face à un ciel de nuages dorés — « Mon arc personnel commence le jour où j'arrête de m'excuser d'être moi. » / "My character arc starts the day I stop apologizing for being me." — Commentaire : Protagoniste de ta propre histoire. — CTA : Commente ARC FINAL
+
+## SAISON 2 — Série ART LII (571 → 580) — « LE POIGNET QUI PARLE » (bracelets chic masculin et féminin, tradi ou préfaits, couple, or, fait main, caractère ; format série : 1 principale + 9 poignets avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**571. (PRINCIPALE)** `UNE PHRASE AU POIGNET` — poignet homme cuir-acier et poignet femme or fin sur une table de café — « Un bracelet n'est pas un détail : c'est une phrase portée au poignet. » / "A bracelet isn't a detail: it's a sentence worn on the wrist." — CTA : Suis les 9 poignets
+
+**572. (POIGNET 1)** `L'HÉRITAGE` — poignet féminin avec bracelet de perles traditionnelles colorées sur pagne wax — « Les perles traditionnelles ne brillent pas pour rien : chaque couleur parle. » / "Traditional beads don't shine for nothing: every color speaks." — Commentaire : L'héritage s'enroule au poignet. — CTA : Commente HÉRITAGE
+
+**573. (POIGNET 2)** `LE CUIR MASCULIN` — homme ajustant sa manche, bracelet cuir tressé et montre acier — « Le cuir au poignet d'un homme : simple, solide, sans discours. » / "Leather on a man's wrist: simple, solid, no speech needed." — Commentaire : Le style est une discipline. — CTA : Tague un homme chic
+
+**574. (POIGNET 3)** `L'OR DISCRET` — main féminine sur soie avec bracelet chaîne or fin — « L'or discret d'une femme dit ce que la bouche garde. » / "A woman's quiet gold says what her mouth keeps." — Commentaire : Le luxe est calme. — CTA : Commente OR FIN
+
+**575. (POIGNET 4)** `LE PRÉFAIT CHOISI` — poignet jeune avec bracelet cordon préfait à petit médaillon près d'un coffret — « Même un bracelet préfait devient précieux quand la bonne personne l'a choisi. » / "Even a ready-made bracelet becomes precious when the right person chose it." — Commentaire : La valeur, c'est l'intention. — CTA : Commente CHOISI
+
+**576. (POIGNET 5)** `LES JUMEAUX` — deux poignets avec bracelets de couple assortis qui se touchent — « Deux bracelets jumeaux : une adresse écrite sur deux poignets. » / "Two matching bracelets: an address written on two wrists." — Commentaire : Porté partout, connecté toujours. — CTA : Tague ton binôme
+
+**577. (POIGNET 6)** `LA VICTOIRE TOUCHABLE` — poignet d'homme avec bracelet maille cubaine or et montre, bar de luxe — « L'or au poignet d'un homme, c'est une victoire qu'on peut toucher. » / "Gold on a man's wrist is a victory you can touch." — Commentaire : Le fruit se porte en silence. — CTA : Commente VICTOIRE
+
+**578. (POIGNET 7)** `LES CHAPITRES` — avant-bras féminin montrant une pile joyeuse de bracelets colorés — « Des bracelets à chaque bras ? Non : des chapitres à chaque étape. » / "Bracelets on both arms? No: chapters for every stage." — Commentaire : Chaque anneau a son année. — CTA : Partage à une collectionneuse
+
+**579. (POIGNET 8)** `FAIT MAIN` — mains d'artisan enfilant des perles sur cordon dans un atelier — « Un bracelet fait main contient des minutes qu'aucun prix ne montre. » / "A handmade bracelet holds minutes no price tag shows." — Commentaire : L'artisanat a une âme. — CTA : Commente FAIT MAIN
+
+**580. (POIGNET 9 — FINALE)** `LE CARACTÈRE` — main ouverte présentant un bracelet argent classique, lumière du matin — « Le plus beau bracelet ne s'achète pas : il s'appelle le caractère. » / "The finest bracelet can't be bought: it's called character." — Commentaire : Tu es déjà l'accessoire. — CTA : Commente CARACTÈRE

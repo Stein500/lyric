@@ -610,3 +610,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 568 | Archétype 7 — yandere léger | boîte cœur rose café 100% IA + commentaire |
 | 569 | Archétype 8 — senpai remarquée | couloir école doré 100% IA + commentaire |
 | 570 | Archétype 9 — arc final | colline ciel doré dos 100% IA + commentaire |
+| 571 | Une phrase au poignet | poignets duo café 100% IA format série |
+| 572 | Poignet 1 — l'héritage | perles tradi wax 100% IA + commentaire |
+| 573 | Poignet 2 — le cuir masculin | manche cuir montre 100% IA + commentaire |
+| 574 | Poignet 3 — l'or discret | soie chaîne or 100% IA + commentaire |
+| 575 | Poignet 4 — le préfait choisi | cordon médaillon coffret 100% IA + commentaire |
+| 576 | Poignet 5 — les jumeaux | couple assorti mains 100% IA + commentaire |
+| 577 | Poignet 6 — la victoire touchable | cubaine or bar luxe 100% IA + commentaire |
+| 578 | Poignet 7 — les chapitres | pile colorée bras 100% IA + commentaire |
+| 579 | Poignet 8 — fait main | artisan perles atelier 100% IA + commentaire |
+| 580 | Poignet 9 — le caractère | main ouverte argent 100% IA + commentaire |
