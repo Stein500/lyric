@@ -600,3 +600,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 558 | Vérité 7 — l'appel manqué | vieux téléphone pluie vitre 100% IA + commentaire |
 | 559 | Vérité 8 — retenir par la paix | toit aube poings ouverts 100% IA + commentaire |
 | 560 | Vérité 9 — pour rester | escalier lumière matin 100% IA + commentaire |
+| 561 | Le sanctuaire otaku | chambre mangas écran 100% IA format série |
+| 562 | Archétype 1 — tsundere détectée | sakura couettes rougissante 100% IA + commentaire |
+| 563 | Archétype 2 — dandere | livre bibliothèque timide 100% IA + commentaire |
+| 564 | Archétype 3 — kuudere | écouteurs ville nuit 100% IA + commentaire |
+| 565 | Archétype 4 — deredere | pétales sourire rayonnant 100% IA + commentaire |
+| 566 | Archétype 5 — co-otaku | couple couverture ramen 100% IA + commentaire |
+| 567 | Archétype 6 — himedere | princesse éventail balcon 100% IA + commentaire |
+| 568 | Archétype 7 — yandere léger | boîte cœur rose café 100% IA + commentaire |
+| 569 | Archétype 8 — senpai remarquée | couloir école doré 100% IA + commentaire |
+| 570 | Archétype 9 — arc final | colline ciel doré dos 100% IA + commentaire |
