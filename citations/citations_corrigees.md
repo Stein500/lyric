@@ -1384,3 +1384,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **539. (RATTRAPAGE 8)** `LES PETITES CHOSES` — lettre manuscrite, enveloppe et tasse fumante près d'une fenêtre — « Un café, un appel, un pardon : les rattrapages tiennent dans les petites choses. » / "A coffee, a call, an apology: catch-ups fit inside small things." — Commentaire : Commence petit, commence aujourd'hui. — CTA : Commente AUJOURD'HUI
 
 **540. (RATTRAPAGE 9 — FINALE)** `PILE À TEMPS` — femme sereine contemplant un vieux clocher fleuri au lever du soleil — « Même le temps perdu t'a menée ici, pile à temps. » / "Even lost time led you here, right on time." — Commentaire : Rien n'était en retard. — CTA : Commente À TEMPS
+
+## SAISON 2 — Série ART XLIX (541 → 550) — « JE NE COURS PLUS » (style voyous, nuit urbaine néon, l'amour qui parle trop tard, le dos qu'on regarde ; format série : 1 principale + 9 règles avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**541. (PRINCIPALE)** `LE NON ET LE JE T'AIME` — femme veste cuir s'éloignant dans une rue néon la nuit, regard par-dessus l'épaule — « Je t'ai couru après, tu as dit non. Je t'ai laissé, tu as dit je t'aime. » / "I chased you, you said no. I let you go — and that's when you said I love you." — CTA : Suis les 9 règles
+
+**542. (RÈGLE 1)** `ON NE FAIT PAS COURIR` — femme immobile sous un lampadaire, ville en flou autour — « On n'aime pas vraiment quelqu'un qu'on fait courir. » / "You don't truly love someone you make run." — Commentaire : L'amour ne fait pas la course. — CTA : Commente VRAI
+
+**543. (RÈGLE 2)** `TROP TARD` — femme au téléphone par une fenêtre la nuit, néon sur le visage — « Tes je t'aime n'arrivent qu'à mes départs : ils parlent trop tard. » / "Your I love yous only arrive when I leave: they speak too late." — Commentaire : Le bon mot au mauvais moment. — CTA : Tague qui parle trop tard
+
+**544. (RÈGLE 3)** `MON DOS` — femme de dos marchant d'un pas assuré dans la rue néon — « J'ai arrêté de courir : maintenant c'est toi qui regardes mon dos. » / "I stopped running: now it's you watching my back." — Commentaire : Le dos, dernier mot. — CTA : Commente JE MARCHE
+
+**545. (RÈGLE 4)** `MILLE PAS D'AVANCE` — talons sur l'asphalte mouillé refletant le néon — « Trois mots en retard ne valent pas mille pas d'avance. » / "Three words too late aren't worth a thousand steps ahead." — Commentaire : Je compte mieux que ça. — CTA : Commente TROP TARD
+
+**546. (RÈGLE 5)** `PAS UN JEU` — femme bras croisés contre un mur de graffiti au néon rose — « Je ne suis pas un jeu : on ne me court après que pour gagner. » / "I'm not a game: you only chase me to win." — Commentaire : Je ne suis pas un trophée. — CTA : Partage à qui a compris
+
+**547. (RÈGLE 6)** `ORGUEIL ET CŒUR` — femme sous la pluie sous un lampadaire, visage calme — « Ton orgueil criait non pendant que ton cœur disait oui. » / "Your pride shouted no while your heart said yes." — Commentaire : Deux voix, zéro courage. — CTA : Tague un cœur têtu
+
+**548. (RÈGLE 7)** `LE POIDS DE L'ABSENCE` — femme longeant un mur sombre avec une ombre très longue — « Maintenant tu connais mon poids : c'est quand je pars qu'on me sent. » / "Now you know my weight: you feel me only when I leave." — Commentaire : L'absence pèse juste. — CTA : Envoie à qui court encore
+
+**549. (RÈGLE 8)** `AVANT LE DÉPART` — deux silhouettes sur la rue néon, main tendue et femme impassible — « Les vrais disent je t'aime avant le départ, pas après. » / "Real ones say I love you before the goodbye, not after." — Commentaire : Le vrai parle avant. — CTA : Commente VRAI AMOUR
+
+**550. (RÈGLE 9 — FINALE)** `TRANQUILLE` — femme sereine sur un toit au lever du soleil après la nuit — « Je ne te hais pas : j'ai juste arrêté de courir. » / "I don't hate you: I just stopped running." — Commentaire : Tête haute, cœur tranquille. — CTA : Commente TRANQUILLE
