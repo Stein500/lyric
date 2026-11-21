@@ -580,3 +580,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 538 | Rattrapage 7 — le rendez-vous en retard | pont pierre couple 100% IA + commentaire |
 | 539 | Rattrapage 8 — les petites choses | lettre tasse fenêtre 100% IA + commentaire |
 | 540 | Rattrapage 9 — pile à temps | clocher fleuri aube 100% IA + commentaire |
+| 541 | Le non et le je t'aime | rue néon dos regard 100% IA format série |
+| 542 | Règle 1 — on ne fait pas courir | lampadaire immobile 100% IA + commentaire |
+| 543 | Règle 2 — trop tard | téléphone fenêtre nuit 100% IA + commentaire |
+| 544 | Règle 3 — mon dos | rue néon marche dos 100% IA + commentaire |
+| 545 | Règle 4 — mille pas d'avance | talons asphalte néon 100% IA + commentaire |
+| 546 | Règle 5 — pas un jeu | graffiti bras croisés 100% IA + commentaire |
+| 547 | Règle 6 — orgueil et cœur | pluie lampadaire 100% IA + commentaire |
+| 548 | Règle 7 — le poids de l'absence | mur ombre longue 100% IA + commentaire |
+| 549 | Règle 8 — avant le départ | silhouettes main tendue 100% IA + commentaire |
+| 550 | Règle 9 — tranquille | toit aube sereine 100% IA + commentaire |
