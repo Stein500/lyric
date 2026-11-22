@@ -620,3 +620,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 578 | Poignet 7 — les chapitres | pile colorée bras 100% IA + commentaire |
 | 579 | Poignet 8 — fait main | artisan perles atelier 100% IA + commentaire |
 | 580 | Poignet 9 — le caractère | main ouverte argent 100% IA + commentaire |
+| 581 | Le collier qui se remarque | nuque pendentif soie 100% IA format série |
+| 582 | Éclat 1 — près du cœur | pendentif cœur or 100% IA + commentaire |
+| 583 | Éclat 2 — les rangs tradi | perles tradi foulard wax 100% IA + commentaire |
+| 584 | Éclat 3 — la chaîne homme | chaîne or chemise sombre 100% IA + commentaire |
+| 585 | Éclat 4 — la patience en cercle | perles velours 100% IA + commentaire |
+| 586 | Éclat 5 — le coffret | coffret cadeau collier 100% IA + commentaire |
+| 587 | Éclat 6 — l'élégance chuchote | soirée collier bijou 100% IA + commentaire |
+| 588 | Éclat 7 — l'or des mères | mère fille héritage or 100% IA + commentaire |
+| 589 | Éclat 8 — la minimaliste | chemise blanche chaîne fine 100% IA + commentaire |
+| 590 | Éclat 9 — tête haute | menton levé or doré 100% IA + commentaire |
