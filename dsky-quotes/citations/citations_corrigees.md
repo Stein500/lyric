@@ -1472,3 +1472,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **579. (POIGNET 8)** `FAIT MAIN` — mains d'artisan enfilant des perles sur cordon dans un atelier — « Un bracelet fait main contient des minutes qu'aucun prix ne montre. » / "A handmade bracelet holds minutes no price tag shows." — Commentaire : L'artisanat a une âme. — CTA : Commente FAIT MAIN
 
 **580. (POIGNET 9 — FINALE)** `LE CARACTÈRE` — main ouverte présentant un bracelet argent classique, lumière du matin — « Le plus beau bracelet ne s'achète pas : il s'appelle le caractère. » / "The finest bracelet can't be bought: it's called character." — Commentaire : Tu es déjà l'accessoire. — CTA : Commente CARACTÈRE
+
+## SAISON 2 — Série ART LIII (581 → 590) — « L'ÉCLAT DU COU » (colliers et necklaces : femme, homme, tradi, perles, coffret cadeau, héritage, minimaliste ; format série : 1 principale + 9 éclats avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**581. (PRINCIPALE)** `LE COLIER QUI SE REMARQUE` — nuque élégante avec pendentif or fin sur soie — « Un collier ne se voit pas : il se remarque. » / "A necklace isn't just seen: it gets noticed." — CTA : Suis les 9 éclats
+
+**582. (ÉCLAT 1)** `PRÈS DU CŒUR` — pendentif cœur en or sur une clavicule, lumière dorée — « Un collier près du cœur raconte toujours une histoire d'amour. » / "A necklace near the heart always tells a love story." — Commentaire : Le pendentif écoute les battements. — CTA : Commente CŒUR
+
+**583. (ÉCLAT 2)** `LES RANGS TRADI` — femme africaine aux colliers de perles traditionnels superposés et foulard wax — « Les colliers traditionnels dansent : chaque rang suit le rythme du pagne. » / "Traditional necklaces dance: every strand follows the fabric's rhythm." — Commentaire : La culture en plusieurs rangs. — CTA : Commente RANGS
+
+**584. (ÉCLAT 3)** `LA CHAÎNE HOMME` — chaîne or fine sur chemise sombre ouverte, bar chaleureuse — « La chaîne d'un homme pèse juste : la bonne dose de caractère. » / "A man's chain weighs just right: the right dose of character." — Commentaire : Ni trop, ni trop peu. — CTA : Tague un homme à chaîne
+
+**585. (ÉCLAT 4)** `LA PATIENCE EN CERCLE` — collier de perles classiques posé sur velours sombre — « Les perles d'un collier, c'est la patience mise en cercle. » / "The beads of a necklace are patience arranged in a circle." — Commentaire : Chaque perle a attendu son tour. — CTA : Commente PATIENCE
+
+**586. (ÉCLAT 5)** `LE COFFRET` — mains ouvrant un coffret cadeau avec collier or à l'intérieur — « Un collier offert se porte deux fois : au cou et dans la mémoire. » / "A gifted necklace is worn twice: on the neck and in the memory." — Commentaire : Le coffret s'ouvre, le souvenir reste. — CTA : Envoie à qui mérite un coffret
+
+**587. (ÉCLAT 6)** `L'ÉLÉGANCE CHUCHOTE` — femme en robe de soirée sombre avec collier bijou raffiné — « Un beau collier ne crie pas : il attire l'œil en silence. » / "A fine necklace doesn't shout: it draws the eye in silence." — Commentaire : L'élégance chuchote. — CTA : Commente CHUCHOTE
+
+**588. (ÉCLAT 7)** `L'OR DES MÈRES` — mère africaine transmettant son collier or à sa fille adulte — « L'or de nos mères ne perd pas son éclat : il change de cou. » / "Our mothers' gold never loses its shine: it just changes necks." — Commentaire : L'héritage se transmet au cou. — CTA : Commente TRANSMIS
+
+**589. (ÉCLAT 8)** `LA MINIMALISTE` — femme souriante en chemise blanche avec chaîne argent ultra-fine — « Le plus fin des colliers porte le plus grand des sourires. » / "The thinnest necklace carries the biggest smile." — Commentaire : Simple mais signature. — CTA : Tague une minimaliste
+
+**590. (ÉCLAT 9 — FINALE)** `TÊTE HAUTE` — femme fière menton levé, collier or fin, lumière dorée — « Le vrai bijou du cou, c'est la tête qu'on tient haute. » / "The real necklace is the head you hold high." — Commentaire : La posture, premier bijou. — CTA : Commente TÊTE HAUTE
