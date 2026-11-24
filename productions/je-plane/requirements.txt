@@ -1,0 +1,6 @@
+# Versions utilisées pour la production et l'analyse du mouvement (Python 3.11)
+Pillow==13.0.0
+imageio-ffmpeg==0.8.1
+mutagen==1.48.1
+numpy==2.4.6
+opencv-python-headless==5.1.0.95

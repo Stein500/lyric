@@ -70,6 +70,15 @@ def normalize_assets(rows):
             bg=ImageOps.fit(im,(768,1376),method=Image.Resampling.LANCZOS).filter(ImageFilter.GaussianBlur(24)).point(lambda p:int(p*.5))
             fg=ImageOps.contain(im,(768,1376),method=Image.Resampling.LANCZOS)
             bg.paste(fg,((768-fg.width)//2,0)); im=bg
+        if src.name == 'vers-14.png':
+            # L'original a les cheveux proches du bord haut. Ajouter de l'espace
+            # autour sans déformer, pour que le travelling ne coupe pas la tête.
+            bg=Image.new('RGB',im.size,im.getpixel((20,20)))
+            fg=im.resize((691,1238),Image.Resampling.LANCZOS)
+            mask=Image.new('L',fg.size,0)
+            ImageDraw.Draw(mask).rectangle((12,12,fg.width-13,fg.height-13),fill=255)
+            mask=mask.filter(ImageFilter.GaussianBlur(10))
+            bg.paste(fg,((768-fg.width)//2,100),mask); im=bg
         im.save(dst)
     parts=['ffconcat version 1.0']
     for i,r in enumerate(rows):
@@ -175,7 +184,10 @@ def render(preview=False):
     # Aucun dédoublement ou voile n'est appliqué aux paroles.
     times=[r['debut_source'] for r in rows[1:]]
     phases=['+'.join(f'between(t,{t+offset:.3f},{t+offset+.079:.3f})' for t in times) for offset in (0,.08,.16)]
-    scene="fps=30,scale=1080:1935:flags=bicubic,crop=1080:1920:0:0,zoompan=z='1.055+0.022*sin(on/55)':x='iw/2-(iw/zoom/2)+13*sin(on/47)':y='ih/2-(ih/zoom/2)+9*sin(on/61)':d=1:s=1080x1920:fps=30,noise=alls=3:allf=t"
+    # Travelling perceptible et fluide : amplitude ~84 px, sans rotation ni secousse.
+    # Les coordonnées restent dans la marge fournie par le zoom ; le texte est ajouté après.
+    # Ne pas augmenter le grain pour tromper freezedetect : le mouvement doit être réel.
+    scene="fps=30,scale=1080:1935:flags=bicubic,crop=1080:1920:0:0,zoompan=z='1.105+0.004*sin(on/80)':x='iw/2-(iw/zoom/2)+42*sin(on/22)':y='ih/2-(ih/zoom/2)+40*cos(on/31)':d=1:s=1080x1920:fps=30,noise=alls=3:allf=t"
     graph=(f"[0:v]{scene},split=2[direct][delayed];"
            f"[delayed]tpad=start_mode=clone:start_duration=0.24,setpts=PTS-STARTPTS,split=3[l1][l2][l3];"
            f"[direct][l1]blend=all_mode=normal:all_opacity=0.25:enable='{phases[0]}'[b1];"
