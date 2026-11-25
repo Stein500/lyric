@@ -670,3 +670,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 628 | Vague 7 — La sincérité | Aina Yoshiwara 100% IA |
 | 629 | Vague 8 — Le défi | Iori et Kohei duel 100% IA |
 | 630 | Vague 9 — Respire | finale sous-marine 100% IA |
+| 631 | Villains — Lumière et ombres | Madara Uchiha 100% IA principale |
+| 632 | Villain 1 — L'admiration | Aizen, Bleach 100% IA |
+| 633 | Villain 2 — Mon humanité | Dio Brando, JoJo 100% IA |
+| 634 | Villain 3 — Les jouets | Hisoka, Hunter x Hunter 100% IA |
+| 635 | Villain 4 — Le prince | Vegeta, Dragon Ball Z 100% IA |
+| 636 | Villain 5 — Kira | Light Yagami, Death Note 100% IA |
+| 637 | Villain 6 — Le changement | Muzan Kibutsuji 100% IA |
+| 638 | Villain 7 — La justice | Doflamingo, One Piece 100% IA |
+| 639 | Villain 8 — Cendres | Shigaraki, My Hero Academia 100% IA |
+| 640 | Villain 9 — Survis | Esdeath, Akame ga Kill 100% IA finale |

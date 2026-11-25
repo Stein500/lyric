@@ -1584,3 +1584,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **629. (VAGUE 8)** `LE DÉFI` — deux étudiants en duel épique sur la plage, éclairs entre les doigts — « Quand un défi se lance, un étudiant ne recule jamais. » / "When a dare is thrown, a college student never backs down." — GRAND BLUE — Iori et Kohei. — CTA : Commente DÉFI
 
 **630. (VAGUE 9 — FINALE)** `RESPIRE` — plongeur en apesanteur face à la cathédrale de lumière sous-marine, baleines — « Sous la surface, le monde devient silencieux : là seulement, on entend la mer. » / "Beneath the surface the world goes silent: only there can you hear the sea." — GRAND BLUE — Le Grand Bleu. — CTA : Commente RESPIRE
+
+## SAISON 2 — Série ART LVIII (631 → 640) — « LES VILLAINS ONT LEUR VÉRITÉ » (répliques cultes des grands méchants d'anime ; indicateur gravé : ANIME — VILLAIN ; format série : 1 principale + 9 villains avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**631. (PRINCIPALE)** `LUMIÈRE ET OMBRES` — guerrier légendaire cheveux noirs armure rouge sous la lune, braises de champ de bataille — « Dans ce monde, partout où il y a de la lumière, il y a aussi des ombres. » / "In this world, wherever there is light, there are also shadows." — NARUTO SHIPPUDEN — Madara Uchiha. — CTA : Suis les 9 villains
+
+**632. (VILLAIN 1)** `L'ADMIRATION` — capitaine élégant lunettes rondes haori blanc sous les pétales de cerisier — « L'admiration est le sentiment le plus éloigné de la compréhension. » / "Admiration is the emotion furthest from understanding." — BLEACH — Aizen. — CTA : Commente AIZEN
+
+**633. (VILLAIN 2)** `MON HUMANITÉ` — vampire blond flamboyant pose théâtrale sous la lune rouge, manoir gothique — « Je rejette mon humanité, Jojo ! » / "I reject my humanity, JoJo!" — JOJO'S BIZARRE ADVENTURE — Dio Brando. — CTA : Commente DIO
+
+**634. (VILLAIN 3)** `LES JOUETS` — joker magicien chevelure rouge carte à la main, chapiteau de carnaval — « Les jouets qui cassent trop vite m'ennuient. » / "Toys that break too soon bore me." — HUNTER X HUNTER — Hisoka. — CTA : Commente HISOKA
+
+**635. (VILLAIN 4)** `LE PRINCE` — prince guerrier spiky bras croisés aura dorée sur terre alien — « Je ne suis pas gentil : je suis le prince des Saiyans. » / "I'm not nice: I'm the Prince of all Saiyans." — DRAGON BALL Z — Vegeta. — CTA : Commente PRINCE
+
+**636. (VILLAIN 5)** `KIRA` — étudiant au cahier noir sourire glaçant, lueur rouge, pomme rouge — « Je serai le dieu du nouveau monde. » / "I'll be the god of the new world." — DEATH NOTE — Light Yagami. — CTA : Commente KIRA
+
+**637. (VILLAIN 6)** `LE CHANGEMENT` — homme pâle costume noir chapeau lune pleine rue nocturne — « Je déteste le changement. » / "I despise change." — DEMON SLAYER — Muzan Kibutsuji. — CTA : Commente CHANGEMENT
+
+**638. (VILLAIN 7)** `LA JUSTICE` — warlord manteau plumes roses lunettes fils lumineux, pont de navire — « Ceux qui ont le pouvoir décident de ce qu'on appelle justice. » / "Those with power decide what justice is." — ONE PIECE — Doflamingo. — CTA : Commente JUSTICE
+
+**639. (VILLAIN 8)** `CENDRES` — jeune homme cheveux blancs poussières en décomposition, ruines — « Tout ce que je touche tombe en poussière : comme votre société. » / "Everything I touch crumbles: like your society." — MY HERO ACADEMIA — Shigaraki. — CTA : Commente CENDRES
+
+**640. (VILLAIN 9 — FINALE)** `SURVIS` — générale de glace uniforme blanc cristaux cathédrale, aube gelée — « Le faible meurt, le fort survit : c'est la loi du monde. » / "The weak die, the strong survive: that's the law of the world." — AKAME GA KILL — Esdeath. — CTA : Commente SURVIS
