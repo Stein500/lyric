@@ -1540,3 +1540,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **609. (HÉROS 8)** `MERCI DE M'AVOIR AIMÉ` — jeune homme aux taches de rousseur dans les flammes douces, dernier sourire — « Merci de m'avoir aimé. » / "Thank you for loving me!" — ONE PIECE — Portgas D. Ace. — CTA : Commente ACE
 
 **610. (HÉROS 9 — FINALE)** `LE ROI DES PIRATES` — jeune homme au chapeau de paille poing levé sur la proue au soleil doré — « Je serai le roi des pirates ! » / "I'm gonna be King of the Pirates!" — ONE PIECE — Monkey D. Luffy. — CTA : Commente ROI
+
+## SAISON 2 — Série ART LVI (611 → 620) — « RIRE VERSION ANIME » (spécial comédie : catchphrases et gags cultes ; indicateur gravé : NOM DE L'ANIME — PERSONNAGE ; format série : 1 principale + 9 éclats de rire avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**611. (PRINCIPALE)** `LE HÉROS POUR LE FUN` — héros chauve en combinaison jaune punch deadpan, monstre en confettis — « Je suis juste un gars qui fait le héros pour le fun. » / "I'm just a guy who's a hero for fun." — ONE PUNCH MAN — Saitama. — CTA : Suis les 9 éclats de rire
+
+**612. (ÉCLAT 1)** `CE N'EST PAS ZURA` — samouraï longs cheveux sous les pétales, panneau bambou, amis face-palm — « Ce n'est pas Zura, c'est Katsura ! » / "It's not Zura, it's Katsura!" — GINTAMA — Katsura Kotaro. — CTA : Commente KATSURA
+
+**613. (ÉCLAT 2)** `EXPLOSION` — petite sorcière dramatique chapeau pointu, boum magique géant derrière — « Mon seul sort : Explosion ! » / "My only spell: Explosion!" — KONOSUBA — Megumin. — CTA : Commente EXPLOSION
+
+**614. (ÉCLAT 3)** `PAS PERDU` — sabreur vert marchant résolument à contre-sens, flèche opposée — « Je ne suis pas perdu : c'est le chemin qui s'enfuit. » / "I'm not lost: it's the path that's running away." — ONE PIECE — Roronoa Zoro. — CTA : Commente PERDU
+
+**615. (ÉCLAT 4)** `QUAND JE DORS` — lâche jaune en larmes comiques, lui-même endormi foudroyant derrière — « Je suis un lâche... mais quand je dors, je suis fort. » / "I'm a coward... but when I sleep, I'm strong." — DEMON SLAYER — Zenitsu. — CTA : Commente SOMMEIL
+
+**616. (ÉCLAT 5)** `WAKU WAKU` — petite fille rose tout excitées étoiles, cacahuètes à la main — « Waku waku ! » / "Waku waku! So exciting!" — SPY X FAMILY — Anya Forger. — CTA : Commente WAKU WAKU
+
+**617. (ÉCLAT 6)** `VIE TRANQUILLE` — ado rose antenne vert impassible au milieu du chaos de classe — « Je veux juste une vie tranquille. » / "I just want a peaceful life." — THE DISASTROUS LIFE OF SAIKI K — Saiki. — CTA : Commente TRANQUILLE
+
+**618. (ÉCLAT 7)** `APRÈS LE REPAS` — garçon pileuse empilant des bols vides, poing levé — « Un combat ? D'accord, mais après le repas. » / "A fight? Fine, but after the meal." — DRAGON BALL — Goku. — CTA : Commente FAIM
+
+**619. (ÉCLAT 8)** `LA MAYO` — officier au visage froid serrant une bouteille de mayonnaise trésor — « La mayonnaise va sur tout : c'est la science. » / "Mayonnaise goes on everything: that's science." — GINTAMA — Hijikata. — CTA : Commente MAYO
+
+**620. (ÉCLAT 9 — FINALE)** `BLAGUE D'OS` — squelette élégant queue de pie riant aux notes de musique au couchant — « Je me marre de toutes mes dents ! Ah... je n'en ai plus. » / "I'm laughing my teeth off! Ah... I have none." — ONE PIECE — Brook. — CTA : Commente BLAGUE D'OS

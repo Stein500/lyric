@@ -650,3 +650,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 608 | Héros 7 — Fière | Nobara, Jujutsu Kaisen 100% IA |
 | 609 | Héros 8 — Merci de m'avoir aimé | Ace, One Piece 100% IA |
 | 610 | Héros 9 — Le roi des pirates | Luffy, One Piece 100% IA finale |
+| 611 | Rire anime — Le héros pour le fun | Saitama, One Punch Man 100% IA principale |
+| 612 | Éclat 1 — Ce n'est pas Zura | Katsura, Gintama 100% IA |
+| 613 | Éclat 2 — Explosion | Megumin, Konosuba 100% IA |
+| 614 | Éclat 3 — Pas perdu | Zoro, One Piece 100% IA |
+| 615 | Éclat 4 — Quand je dors | Zenitsu, Demon Slayer 100% IA |
+| 616 | Éclat 5 — Waku waku | Anya, Spy x Family 100% IA |
+| 617 | Éclat 6 — Vie tranquille | Saiki 100% IA |
+| 618 | Éclat 7 — Après le repas | Goku, Dragon Ball 100% IA |
+| 619 | Éclat 8 — La mayo | Hijikata, Gintama 100% IA |
+| 620 | Éclat 9 — Blague d'os | Brook, One Piece 100% IA finale |
