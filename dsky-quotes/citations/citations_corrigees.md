@@ -1628,3 +1628,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **649. (REINE 8 — LOT 2)** `LA CHASSEUSE` — déesse pourpre robe rouge verre de vin, pétales roses sur la nappe — « La plus belle proie, c'est celui qui se croit chasseur. » / "The finest prey is the one who thinks he's the hunter." — Commentaire : Séduction fatale. — CTA : Commente CHASSEUSE
 
 **650. (REINE 9 — FINALE — LOT 2)** `OSER` — cercle de reines puissantes autour de la table d'or, cartes qui pleuvent du lustre — « La chance ne sourit qu'à celles qui osent. » / "Luck only smiles on those who dare." — Commentaire : Ose, ou regarde. — CTA : Commente OSER
+
+## SAISON 2 — Série ART LX (651 → 660) — « ECCHI : LES ICÔNES DU FANSERVICE » (retour aux répliques canoniques cultes : vrais personnages, nom de l'anime + personnage gravés dans l'image, scènes iconiques fanservice/comédie romantique montrées — TikTok-safe, élégant jamais explicite ; clause ANATOMY 2 mains 5 doigts vérifiée en QA ; format série : 1 principale + 9 icônes ; PUBLICATION EN 2 LOTS DE 5 : lot 1 = 651-655, lot 2 = 656-660)
+
+**651. (PRINCIPALE — LOT 1)** `CHARMES` — Rias Gremory main tendue vers le spectateur, club occulte rideaux cramoisis pièce d'échecs — « Je ne t'ai pas donné la permission de mourir. » / "I didn't give you permission to die." — HIGH SCHOOL DXD — Rias Gremory. — CTA : Suis les 9 charmes
+
+**652. (CHARME 1 — LOT 1)** `PUNITION` — Akeno miko éclairs violets torii nocturne sourire sadique — « Ara ara... les méchants garçons méritent une punition. » / "Ara ara... naughty boys deserve punishment." — HIGH SCHOOL DXD — Akeno Himejima. — CTA : Commente PUNITION
+
+**653. (CHARME 2 — LOT 1)** `VOIE` — Ryuko Matoi lame-ciseaux brandie aura rouge cour d'académie — « Ne perds pas ta voie ! » / "Don't lose your way!" — KILL LA KILL — Ryuko Matoi. — CTA : Commente VOIE
+
+**654. (CHARME 3 — LOT 1)** `LIBERTÉ` — Satsuki Kiryuin katana planté plate-forme stade projecteurs — « La peur, c'est la liberté ! » / "Fear is freedom!" — KILL LA KILL — Satsuki Kiryuin. — CTA : Commente LIBERTÉ
+
+**655. (CHARME 4 — LOT 1)** `DARKNESS` — Darkness armure argent bouclier planté place de ville fantaisie — « Appelle-moi Darkness ! » / "Call me Darkness!" — KONOSUBA — Darkness. — CTA : Commente DARKNESS
+
+**656. (CHARME 5 — LOT 2)** `BELL` — Hestia agenouillée mains jointes robe bleue culte lune et tour d'Orario — « Dans ce monde, je n'ai que toi, Bell-kun. » / "In this world, all I have is you, Bell." — DANMACHI — Hestia. — CTA : Commente BELL
+
+**657. (CHARME 6 — LOT 2)** `AQUA` — Aqua pose théâtrale mains sur hanches cercles d'eau sacrée place de festival — « Je suis la déesse Aqua ! » / "I am the goddess Aqua!" — KONOSUBA — Aqua. — CTA : Commente AQUA
+
+**658. (CHARME 7 — LOT 2)** `COSPLAY` — Marin Kitagawa en Shizuku-tan wig noir halter noir jupe tartan rouge kit couture cour dorée — « Fais de moi Shizuku ! » / "Make me Shizuku!" — MY DRESS-UP DARLING — Marin Kitagawa. — CTA : Commente COSPLAY
+
+**659. (CHARME 8 — LOT 2)** `CHIZURU` — Chizuru Mizuhara robe rouge d'été planche au bord de mer crépuscule lanternes — « Je suis ta petite amie... pour la location. » / "Your girlfriend... for rent." — RENT-A-GIRLFRIEND — Chizuru Mizuhara. — CTA : Commente CHIZURU
+
+**660. (CHARME 9 — FINALE — LOT 2)** `VIVRE` — Nico Robin bras levés larmes de délivrance tour de la Justice rayon de lune Enies Lobby silhouettes équipage — « Je veux vivre ! » / "I want to live!" — ONE PIECE — Nico Robin. — CTA : Commente VIVRE
