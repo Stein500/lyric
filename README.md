@@ -640,3 +640,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 598 | Voix 7 — Brûle ton cœur | Rengoku, Demon Slayer 100% IA (rescue) |
 | 599 | Voix 8 — Je veux vivre | Nico Robin, One Piece 100% IA (rescue) |
 | 600 | Voix 9 — Magnifique | Mikasa, L'Attaque des Titans 100% IA finale |
+| 601 | Série anime II — Parce que je suis là | All Might, My Hero Academia 100% IA principale |
+| 602 | Héros 1 — La douleur | Pain, Naruto Shippuden 100% IA |
+| 603 | Héros 2 — Ma voie du ninja | Naruto Uzumaki 100% IA |
+| 604 | Héros 3 — Rien ne s'est passé | Zoro, One Piece 100% IA |
+| 605 | Héros 4 — Espoir | Itachi, Naruto 100% IA |
+| 606 | Héros 5 — Sans regret | Levi, L'Attaque des Titans 100% IA |
+| 607 | Héros 6 — L'aide demandée | Nami, One Piece 100% IA |
+| 608 | Héros 7 — Fière | Nobara, Jujutsu Kaisen 100% IA |
+| 609 | Héros 8 — Merci de m'avoir aimé | Ace, One Piece 100% IA |
+| 610 | Héros 9 — Le roi des pirates | Luffy, One Piece 100% IA finale |

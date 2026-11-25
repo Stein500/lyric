@@ -1518,3 +1518,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **600. (VOIX 9 — FINALE)** `MAGNIFIQUE` — jeune femme à l'écharpe rouge face à l'horizon doré sur les ruines — « Le monde est cruel, mais il est aussi magnifique. » / "The world is cruel, but it is also magnificent." — L'ATTAQUE DES TITANS — Mikasa Ackermann. — CTA : Commente MAGNIFIQUE
 
 > Fix LIII : 583 (bordures latérales manquantes) et 588 régénérées et repoussées — mapping inchangé.
+
+## SAISON 2 — Série ART LV (601 → 610) — « LES HÉROS DE LA DOULEUR » (vraies citations cultes de souffrance et de courage, au moment où elles sont dites ; indicateur gravé : NOM DE L'ANIME — PERSONNAGE ; héros masculins et féminins : All Might, Pain, Naruto, Zoro, Itachi, Levi, Nami, Nobara, Ace, Luffy ; format série : 1 principale + 9 héros avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**601. (PRINCIPALE)** `PARCE QUE JE SUIS LÀ` — héros blond cape tricolore poing levé dans la lumière dorée — « Tout va bien. Pourquoi ? Parce que je suis là ! » / "It's fine now. Why? Because I am here!" — MY HERO ACADEMIA — All Might. — CTA : Suis les 9 héros
+
+**602. (HÉROS 1)** `LA DOULEUR` — homme orange aux yeux striés manteau nuages rouges, village en ruine sous la pluie — « Le monde entier connaîtra la douleur. » / "The world shall know pain." — NARUTO SHIPPUDEN — Pain. — CTA : Commente DOULEUR
+
+**603. (HÉROS 2)** `MA VOIE DU NINJA` — jeune ninja blond veste orange poings serrés sur la colline au couchant — « Je ne reviens jamais sur ma parole : c'est ça, ma voie du ninja. » / "I never go back on my word: that's my ninja way." — NARUTO — Naruto Uzumaki. — CTA : Commente MA VOIE
+
+**604. (HÉROS 3)** `RIEN NE S'EST PASSÉ` — sabreur vert agenouillé sous la pluie, lames sur les genoux, serein — « Rien ne s'est passé. » / "Nothing happened." — ONE PIECE — Roronoa Zoro. — CTA : Commente ZORO
+
+**605. (HÉROS 4)** `ESPOIR` — homme aux longs cheveux noirs sous la lune, plumes de corbeau autour — « La vie ne s'arrête pas à la mort : elle s'arrête quand on perd espoir. » / "Life doesn't end at death: it ends when you lose faith." — NARUTO — Itachi Uchiha. — CTA : Commente ESPOIR
+
+**606. (HÉROS 5)** `SANS REGRET` — capitaine à l'écharpe blanche bras croisés dans la forêt brumeuse — « Personne ne peut prédire le résultat : choisis celle que tu regretteras le moins. » / "Nobody can predict the outcome: choose the one you'll regret the least." — L'ATTAQUE DES TITANS — Levi Ackermann. — CTA : Commente SANS REGRET
+
+**607. (HÉROS 6)** `L'AIDE DEMANDÉE` — jeune femme orange en larmes bras levés vers le ciel de pluie, lanternes — « Luffy... aide-moi. » / "Luffy... help me." — ONE PIECE — Nami. — CTA : Envoie à qui ose demander
+
+**608. (HÉROS 7)** `FIÈRE` — jeune fille au marteau sur l'épaule, toit de Tokyo au couchant violet — « Je suis Nobara Kugisaki : je vivrai fièrement, comme moi-même. » / "I'm Nobara Kugisaki: I'll live proudly as myself." — JUJUTSU KAISEN — Nobara Kugisaki. — CTA : Commente FIÈRE
+
+**609. (HÉROS 8)** `MERCI DE M'AVOIR AIMÉ` — jeune homme aux taches de rousseur dans les flammes douces, dernier sourire — « Merci de m'avoir aimé. » / "Thank you for loving me!" — ONE PIECE — Portgas D. Ace. — CTA : Commente ACE
+
+**610. (HÉROS 9 — FINALE)** `LE ROI DES PIRATES` — jeune homme au chapeau de paille poing levé sur la proue au soleil doré — « Je serai le roi des pirates ! » / "I'm gonna be King of the Pirates!" — ONE PIECE — Monkey D. Luffy. — CTA : Commente ROI
