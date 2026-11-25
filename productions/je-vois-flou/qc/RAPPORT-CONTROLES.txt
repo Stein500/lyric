@@ -1,0 +1,53 @@
+=== CONTROLES Je vois flou / WTBW ===
+Wed Nov 25 21:24:03 UTC 2026
+
+--- clip ---
+  Duration: 00:03:06.33, start: 0.000000, bitrate: 5060 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt470bg/unknown/unknown, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 4855 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 195 kb/s (default)
+
+--- frames ---
+frame= 5590
+
+--- blackdetect ---
+aucun noir > 0,5 s
+
+--- freezedetect ---
+aucune image figee > 1,5 s
+
+--- loudness clip ---
+[Parsed_ebur128_0 @ 0x7f09e8001b80] Summary:
+
+  Integrated loudness:
+    I:         -13.1 LUFS
+    Threshold: -23.5 LUFS
+
+  Loudness range:
+    LRA:         9.1 LU
+    Threshold: -33.4 LUFS
+    LRA low:   -20.6 LUFS
+    LRA high:  -11.5 LUFS
+
+  True peak:
+    Peak:       -1.1 dBFS
+[out#0/null @ 0x559d6ae6a6c0] video:2315KiB audio:34937KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+
+--- teasers ---
+  Duration: 00:00:15.00, start: 0.000000, bitrate: 5606 kb/s
+  Duration: 00:00:15.00, start: 0.000000, bitrate: 5188 kb/s
+
+--- loudness teasers ---
+Teaser-T1-WTBW-15s.mp4
+  Integrated loudness:
+    I:         -11.7 LUFS
+    Threshold: -21.8 LUFS
+Teaser-T2-WTBW-15s.mp4
+  Integrated loudness:
+    I:         -12.1 LUFS
+    Threshold: -22.1 LUFS
+
+--- entrees audio ---
+Je-vois-flou-WTBW-final-avec-pochette.mp3 : time=00:03:04.95
+Je-vois-flou-WTBW-master-320.mp3 : time=00:03:04.95
+teaser-T1-15s.mp3 : time=00:00:15.00
+teaser-T2-15s.mp3 : time=00:00:15.00
