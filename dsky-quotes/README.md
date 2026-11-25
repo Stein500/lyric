@@ -630,3 +630,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 588 | Éclat 7 — l'or des mères | mère fille héritage or 100% IA + commentaire |
 | 589 | Éclat 8 — la minimaliste | chemise blanche chaîne fine 100% IA + commentaire |
 | 590 | Éclat 9 — tête haute | menton levé or doré 100% IA + commentaire |
+| 591 | Série anime — Se battre | Eren, L'Attaque des Titans 100% IA principale |
+| 592 | Voix 1 — Camarades | Kakashi, Naruto 100% IA + indicateur anime |
+| 593 | Voix 2 — Déterminée | Hinata, Naruto 100% IA + indicateur anime |
+| 594 | Voix 3 — Précieux | Haku, Naruto 100% IA + indicateur anime |
+| 595 | Voix 4 — Échange équivalent | Edward, Fullmetal Alchemist 100% IA |
+| 596 | Voix 5 — Je t'aime | Violet Evergarden 100% IA |
+| 597 | Voix 6 — Sacrifier | Erwin, L'Attaque des Titans 100% IA (base haute rescue) |
+| 598 | Voix 7 — Brûle ton cœur | Rengoku, Demon Slayer 100% IA (rescue) |
+| 599 | Voix 8 — Je veux vivre | Nico Robin, One Piece 100% IA (rescue) |
+| 600 | Voix 9 — Magnifique | Mikasa, L'Attaque des Titans 100% IA finale |

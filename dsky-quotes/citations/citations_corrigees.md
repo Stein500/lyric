@@ -1494,3 +1494,27 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **589. (ÉCLAT 8)** `LA MINIMALISTE` — femme souriante en chemise blanche avec chaîne argent ultra-fine — « Le plus fin des colliers porte le plus grand des sourires. » / "The thinnest necklace carries the biggest smile." — Commentaire : Simple mais signature. — CTA : Tague une minimaliste
 
 **590. (ÉCLAT 9 — FINALE)** `TÊTE HAUTE` — femme fière menton levé, collier or fin, lumière dorée — « Le vrai bijou du cou, c'est la tête qu'on tient haute. » / "The real necklace is the head you hold high." — Commentaire : La posture, premier bijou. — CTA : Commente TÊTE HAUTE
+
+## SAISON 2 — Série ART LIV (591 → 600) — « LES VOIX DE L'ANIME » (vraies citations de souffrance et de courage des personnages, au moment où ils les disent ; indicateur gravé : NOM DE L'ANIME — PERSONNAGE ; héros et héroïnes ; format série : 1 principale + 9 voix avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**591. (PRINCIPALE)** `SE BATTRE` — jeune héros aux poings serrés dans une ville en ruine, rage qui devient courage — « Se battre ! Si tu gagnes, tu vis. Si tu perds, tu meurs. Si tu ne te bats pas, tu ne gagnes pas. » / "Fight! If you win, you live. If you lose, you die. If you don't fight, you can't win." — L'ATTAQUE DES TITANS — Eren Yeager. — CTA : Suis les 9 voix
+
+**592. (VOIX 1)** `CAMARADES` — shinobi masqué aux cheveux argentés devant la pierre du souvenir à l'aube — « Ceux qui abandonnent leurs camarades sont pires que des ordures. » / "Those who abandon their comrades are worse than trash." — NARUTO — Kakashi Hatake. — CTA : Commente CAMARADES
+
+**593. (VOIX 2)** `DÉTERMINÉE` — jeune fille aux poings serrés dans l'arène, tremble mais ne recule plus — « Dans ma journée, je ne recule plus. » / "In my own life, I no longer back down." — NARUTO — Hinata Hyûga. — CTA : Commente DÉTERMINÉE
+
+**594. (VOIX 3)** `PRÉCIEUX` — silhouette agenouillée sous la neige au clair de lune, masque baissé — « Quand on a quelque chose de précieux à protéger, on devient vraiment fort. » / "When you have something precious to protect, you become truly strong." — NARUTO — Haku. — CTA : Tague ton précieux
+
+**595. (VOIX 4)** `ÉCHANGE ÉQUIVALENT` — jeune alchimiste au bras d'acier sous la pluie — « Sans sacrifice, rien ne s'obtient : c'est la loi de l'échange équivalent. » / "Without sacrifice you gain nothing: it's the law of equivalent exchange." — FULLMETAL ALCHEMIST — Edward Elric. — CTA : Commente ÉCHANGE
+
+**596. (VOIX 5)** `JE T'AIME` — jeune femme aux mains mécaniques écrivant une lettre à la lampe, larmes retenues — « Je veux connaître le sens des mots : je t'aime. » / "I want to know the meaning of the words: I love you." — VIOLET EVERGARDEN — Violet. — CTA : Envoie à qui apprend
+
+**597. (VOIX 6)** `SACRIFICER` — commandant au poing levé devant les titans au couchant — « Celui qui ne peut rien sacrifier ne peut rien changer. » / "Those who can't sacrifice anything can't change anything." — L'ATTAQUE DES TITANS — Erwin Smith. — CTA : Commente CHANGER
+
+**598. (VOIX 7)** `BRÛLE TON CŒUR` — guerrier flamme au sabre de feu sur le toit du train de nuit — « Ne t'arrête pas. Fonce. Brûle ton cœur. » / "Don't stop. Go forward. Set your heart ablaze." — DEMON SLAYER — Kyojuro Rengoku. — CTA : Commente BRÛLE
+
+**599. (VOIX 8)** `JE VEUX VIVRE` — jeune femme tendant la main entre les barreaux vers les voiles au soleil — « Je veux vivre ! » / "I want to live!" — ONE PIECE — Nico Robin. — CTA : Commente JE VIS
+
+**600. (VOIX 9 — FINALE)** `MAGNIFIQUE` — jeune femme à l'écharpe rouge face à l'horizon doré sur les ruines — « Le monde est cruel, mais il est aussi magnifique. » / "The world is cruel, but it is also magnificent." — L'ATTAQUE DES TITANS — Mikasa Ackermann. — CTA : Commente MAGNIFIQUE
+
+> Fix LIII : 583 (bordures latérales manquantes) et 588 régénérées et repoussées — mapping inchangé.
