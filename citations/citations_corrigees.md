@@ -1562,3 +1562,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **619. (ÉCLAT 8)** `LA MAYO` — officier au visage froid serrant une bouteille de mayonnaise trésor — « La mayonnaise va sur tout : c'est la science. » / "Mayonnaise goes on everything: that's science." — GINTAMA — Hijikata. — CTA : Commente MAYO
 
 **620. (ÉCLAT 9 — FINALE)** `BLAGUE D'OS` — squelette élégant queue de pie riant aux notes de musique au couchant — « Je me marre de toutes mes dents ! Ah... je n'en ai plus. » / "I'm laughing my teeth off! Ah... I have none." — ONE PIECE — Brook. — CTA : Commente BLAGUE D'OS
+
+## SAISON 2 — Série ART LVII (621 → 630) — « GRAND BLUE » (spécial anime comédie plongée et fêtes du club ; indicateur gravé : GRAND BLUE — PERSONNAGE ; format série : 1 principale + 9 vagues avec petit commentaire gravé ; zone sûre TikTok v2)
+
+**621. (PRINCIPALE)** `LA LIBERTÉ C'EST LA MER` — étudiant sur le ponton, bras ouverts face à la mer éclatante — « L'université, c'est la liberté... et la liberté, c'est la mer ! » / "College is freedom... and freedom is the sea!" — GRAND BLUE — Iori Kitahara. — CTA : Suis les 9 vagues
+
+**622. (VAGUE 1)** `LA RÈGLE DU CLUB` — fête du club au feu de plage, verres levés au couchant — « La fête fait partie de la plongée : c'est la règle du club. » / "The party is part of the dive: that's club law." — GRAND BLUE — Le club de plongée. — CTA : Commente CLUB
+
+**623. (VAGUE 2)** `DEUX RAISONS` — garçon à lunettes doigt levé, cœurs roses comiques autour — « J'ai choisi la plongée pour deux raisons : la mer et les jolies filles. » / "I joined diving for two reasons: the sea and pretty girls." — GRAND BLUE — Kohei Imamura. — CTA : Commente KOHEI
+
+**624. (VAGUE 3)** `MA MAISON` — plongeuse aux bras croisés sur le bateau, eau turquoise — « La mer, c'est ma maison : sans elle, je suffoque. » / "The sea is my home: without it, I suffocate." — GRAND BLUE — Chisa Kotegawa. — CTA : Tague ton binôme
+
+**625. (VAGUE 4)** `À FOND` — étudiant courant valise ouverte dans la rue de vacances — « La vie universitaire se vit à fond : le repos, c'est pour les retraités. » / "College life is lived at full speed: rest is for retirees." — GRAND BLUE — Iori Kitahara. — CTA : Commente À FOND
+
+**626. (VAGUE 5)** `LE TOAST` — jeune femme élégante levant son verre sous les lanternes au couchant — « La mer m'attend, mais d'abord le toast. » / "The sea can wait, but first, the toast." — GRAND BLUE — Nanaka Kotegawa. — CTA : Commente TOAST
+
+**627. (VAGUE 6)** `LES AMIS RESTENT` — grande sœur du club blouse blanche carnet de plongée à la main — « Les examens passent, les amis du club restent. » / "Exams fade, dive club friends stay." — GRAND BLUE — Azusa Hamaoka. — CTA : Commente AMITIÉ
+
+**628. (VAGUE 7)** `LA SINCÉRITÉ` — fille blonde des soirées au sourire sincère sous les guirlandes — « On m'appelle la fille des soirées, mais je cherche surtout la sincérité. » / "They call me the party girl, but I'm really searching for honesty." — GRAND BLUE — Aina Yoshiwara. — CTA : Commente SINCÈRE
+
+**629. (VAGUE 8)** `LE DÉFI` — deux étudiants en duel épique sur la plage, éclairs entre les doigts — « Quand un défi se lance, un étudiant ne recule jamais. » / "When a dare is thrown, a college student never backs down." — GRAND BLUE — Iori et Kohei. — CTA : Commente DÉFI
+
+**630. (VAGUE 9 — FINALE)** `RESPIRE` — plongeur en apesanteur face à la cathédrale de lumière sous-marine, baleines — « Sous la surface, le monde devient silencieux : là seulement, on entend la mer. » / "Beneath the surface the world goes silent: only there can you hear the sea." — GRAND BLUE — Le Grand Bleu. — CTA : Commente RESPIRE

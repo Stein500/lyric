@@ -660,3 +660,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 618 | Éclat 7 — Après le repas | Goku, Dragon Ball 100% IA |
 | 619 | Éclat 8 — La mayo | Hijikata, Gintama 100% IA |
 | 620 | Éclat 9 — Blague d'os | Brook, One Piece 100% IA finale |
+| 621 | Grand Blue — La liberté c'est la mer | Iori Kitahara 100% IA principale |
+| 622 | Vague 1 — La règle du club | fêtes du club 100% IA |
+| 623 | Vague 2 — Deux raisons | Kohei Imamura 100% IA |
+| 624 | Vague 3 — Ma maison | Chisa Kotegawa 100% IA |
+| 625 | Vague 4 — À fond | Iori en course 100% IA |
+| 626 | Vague 5 — Le toast | Nanaka Kotegawa 100% IA |
+| 627 | Vague 6 — Les amis restent | Azusa Hamaoka 100% IA |
+| 628 | Vague 7 — La sincérité | Aina Yoshiwara 100% IA |
+| 629 | Vague 8 — Le défi | Iori et Kohei duel 100% IA |
+| 630 | Vague 9 — Respire | finale sous-marine 100% IA |
