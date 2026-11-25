@@ -690,3 +690,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 648 | Reine 7 — Le thé et la nuit | portrait jour/nuit 100% IA (lot 2) |
 | 649 | Reine 8 — La chasseuse | déesse pourpre vin 100% IA (lot 2) |
 | 650 | Reine 9 — Oser | cercle de reines finale 100% IA (lot 2) |
+| 651 | Ecchi icônes — Charmes | Rias Gremory, High School DxD 100% IA principale (lot 1) |
+| 652 | Charme 1 — Punition | Akeno Himejima, High School DxD 100% IA (lot 1) |
+| 653 | Charme 2 — Voie | Ryuko Matoi, Kill la Kill 100% IA (lot 1) |
+| 654 | Charme 3 — Liberté | Satsuki Kiryuin, Kill la Kill 100% IA (lot 1) |
+| 655 | Charme 4 — Darkness | Darkness, KonoSuba 100% IA (lot 1) |
+| 656 | Charme 5 — Bell | Hestia, DanMachi 100% IA (lot 2) |
+| 657 | Charme 6 — Aqua | Aqua, KonoSuba 100% IA (lot 2) |
+| 658 | Charme 7 — Cosplay | Marin Kitagawa, My Dress-Up Darling 100% IA (lot 2) |
+| 659 | Charme 8 — Chizuru | Chizuru Mizuhara, Rent-A-Girlfriend 100% IA (lot 2) |
+| 660 | Charme 9 — Vivre | Nico Robin, One Piece 100% IA finale (lot 2) |
