@@ -1,0 +1,10 @@
+# Médias lourds : jamais dans l'historique Git (dépôt déjà à ~11,6 Go)
+video/
+audio/
+covers/
+assets/*.png
+assets/*.jpg
+ancre-*.png
+build/bg/
+build/*.mp4
+build/*.mov
