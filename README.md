@@ -680,3 +680,13 @@ Mêmes œuvres, mais branding remonté en **zone sûre TikTok** : signature + CT
 | 638 | Villain 7 — La justice | Doflamingo, One Piece 100% IA |
 | 639 | Villain 8 — Cendres | Shigaraki, My Hero Academia 100% IA |
 | 640 | Villain 9 — Survis | Esdeath, Akame ga Kill 100% IA finale |
+| 641 | Reines du jeu — Tout miser | kakegurui-style casino 100% IA principale (lot 1) |
+| 642 | Reine 1 — La présidente | impératrice trône baroque 100% IA (lot 1) |
+| 643 | Reine 2 — Régner | immortelle verte 100% IA (lot 1) |
+| 644 | Reine 3 — Sans peur | pistolière docks néon 100% IA (lot 1) |
+| 645 | Reine 4 — Fierté | cercles magiques rouges 100% IA (lot 1) |
+| 646 | Reine 5 — La cour | générale blanche et sa cour 100% IA (lot 2) |
+| 647 | Reine 6 — Papillon | glycines sourire froid 100% IA (lot 2) |
+| 648 | Reine 7 — Le thé et la nuit | portrait jour/nuit 100% IA (lot 2) |
+| 649 | Reine 8 — La chasseuse | déesse pourpre vin 100% IA (lot 2) |
+| 650 | Reine 9 — Oser | cercle de reines finale 100% IA (lot 2) |
