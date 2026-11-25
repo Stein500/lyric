@@ -1606,3 +1606,25 @@ Les bases sont générées avec le texte dans la BANDE VERTICALE CENTRALE (claus
 **639. (VILLAIN 8)** `CENDRES` — jeune homme cheveux blancs poussières en décomposition, ruines — « Tout ce que je touche tombe en poussière : comme votre société. » / "Everything I touch crumbles: like your society." — MY HERO ACADEMIA — Shigaraki. — CTA : Commente CENDRES
 
 **640. (VILLAIN 9 — FINALE)** `SURVIS` — générale de glace uniforme blanc cristaux cathédrale, aube gelée — « Le faible meurt, le fort survit : c'est la loi du monde. » / "The weak die, the strong survive: that's the law of the world." — AKAME GA KILL — Esdeath. — CTA : Commente SURVIS
+
+## SAISON 2 — Série ART LIX (641 → 650) — « LES REINES DU JEU » (esthétique forte type Kakegurui : héroïnes charismatiques, tension psychologique, regards perçants, élégant et sensuel jamais explicite ; format série : 1 principale + 9 reines avec petit commentaire gravé ; zone sûre TikTok v2 ; PUBLICATION EN 2 LOTS DE 5 : lot 1 = 641-645, lot 2 = 646-650)
+
+**641. (PRINCIPALE — LOT 1)** `TOUT MISER` — reine du casino cheveux noirs blazer cramoisi, jetons d'or, regard violet perçant — « Le vrai frisson commence quand on met tout en jeu. » / "The real thrill begins when you bet everything." — Commentaire : Tout miser, ou rien. — CTA : Suis les 9 reines
+
+**642. (REINE 1 — LOT 1)** `LA PRÉSIDENTE` — impératrice cheveux lavande sur son trône baroque, cartes en éventail — « Je ne joue pas pour gagner : je joue pour te regarder perdre. » / "I don't play to win: I play to watch you lose." — Commentaire : La présidente ne cligne jamais. — CTA : Commente PRÉSIDENTE
+
+**643. (REINE 2 — LOT 1)** `RÉGNER` — immortelle aux longs cheveux verts robe noire, sceau doré sous l'œil — « Une reine ne demande jamais la permission de régner. » / "A queen never asks permission to reign." — Commentaire : Immortelle, donc impassible. — CTA : Commente REINE
+
+**644. (REINE 3 — LOT 1)** `SANS PEUR` — pistolière cheveux magenta bras croisés, docks néon sous la pluie — « Ma seule règle : ne jamais montrer la peur. » / "My only rule: never show fear." — Commentaire : Deux pistolets, zéro pitié. — CTA : Commente SANS PEUR
+
+**645. (REINE 4 — LOT 1)** `FIERTÉ` — maîtresse des cercles magiques cheveux cramoisis, hall d'académie au couchant — « On ne force pas un cœur : on l'attire avec fierté. » / "You never force a heart: you attract it with pride." — Commentaire : Rouge comme la victoire. — CTA : Tague ta reine
+
+**646. (REINE 5 — LOT 2)** `LA COUR` — généralissime cheveux blancs costume vert, sa cour derrière, neige tournoyante — « Une vraie reine protège sa cour avant son trône. » / "A true queen protects her court before her throne." — Commentaire : La force aussi se recrute. — CTA : Commente LA COUR
+
+**647. (REINE 6 — LOT 2)** `PAPILLON` — gardienne des glycines sourire doux yeux froids, épée au fourreau — « Mon sourire cache une colère que tu ne pourrais pas porter. » / "My smile hides a rage you couldn't carry." — Commentaire : Le papillon pique. — CTA : Commente PAPILLON
+
+**648. (REINE 7 — LOT 2)** `LE THÉ ET LA NUIT` — portrait jour/nuit : théière en porcelaine à gauche, lame de rose à droite — « Le jour je sers le thé, la nuit je nettoie. » / "By day I pour the tea, by night I clean up." — Commentaire : L'épée de rose ne tremble pas. — CTA : Envoie à ta plus discrète
+
+**649. (REINE 8 — LOT 2)** `LA CHASSEUSE` — déesse pourpre robe rouge verre de vin, pétales roses sur la nappe — « La plus belle proie, c'est celui qui se croit chasseur. » / "The finest prey is the one who thinks he's the hunter." — Commentaire : Séduction fatale. — CTA : Commente CHASSEUSE
+
+**650. (REINE 9 — FINALE — LOT 2)** `OSER` — cercle de reines puissantes autour de la table d'or, cartes qui pleuvent du lustre — « La chance ne sourit qu'à celles qui osent. » / "Luck only smiles on those who dare." — Commentaire : Ose, ou regarde. — CTA : Commente OSER
